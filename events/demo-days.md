@@ -85,7 +85,6 @@ The presentation work is mostly handled by the MC
 - Introduces the speakers etc
 - Helps out with tech support on stage
 - Once all talks are done, then request the person who is giving out the wine to come on stage
-
 - The tech person monitors #general and #demo-days for requests
 
 ### After

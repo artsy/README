@@ -22,7 +22,7 @@ process with as much bang for buck as possible given our size.
 
 - Someone opens an issue on a repo that begins with "RFC: ", and that causes a message to be posted to Slack's #dev
   room via Peril.
-- The RFC proposer announces the RFC in a weekly dev standup.
+- The RFC proposer announces the RFC in the next weekly dev standup.
 - At least a week goes by for discussion. After this the proposer uses the resolution template to summarize the
   outcome.
 - Changes are either enacted, or not based on the discussion.
@@ -36,8 +36,7 @@ A lack of response from others is assumed to be positive indifference.
 Find the right repo:
 
 - Is your change local to one repo? (use that)
-- Does it affect the whole dev team? (Ideally write a guide, or consider a repo for that context like the
-  [mobile][] one)
+- Does it affect the whole dev team? (use [README](https://github.com/artsy/README))
 - Can't figure it out or needs to be private? (use [Potential][] as a fallback)
 
 Create an issue, and work from this template:
