@@ -1,4 +1,4 @@
-### [TODO]
+### How to do particular tasks at Artsy
 
 <!-- prettier-ignore-start -->
 <!-- start_toc -->
