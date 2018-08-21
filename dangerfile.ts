@@ -10,7 +10,7 @@ markdowns.forEach(f => {
   const lines = content.split("\n")
   lines.forEach(l => {
     if (l.includes("[TODO]")) {
-      warn("TODO detected", f, lines.indexOf(l))
+      warn(`TODO detected in ${f}:${lines.indexOf(l)}`, f, lines.indexOf(l))
     }
   })
 })

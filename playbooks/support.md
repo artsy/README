@@ -138,7 +138,7 @@ You can find the point people in the [Potential Wiki](https://github.com/artsy/p
 
 ### Artsy domain information
 
-- [Engineering projects map](https://trello.com/b/VLlTIM7l/artsy-engineering-projects-map)
+- [Engineering projects map](https://github.com/artsy/potential/wiki/Project-List)
 - [Monitoring](https://github.com/artsy/potential/blob/master/platform/Monitoring.md)
 - [Domain Models](https://github.com/artsy/potential/blob/master/platform/DomainModels.md)
 - [Status Page](status.artsy.net)
