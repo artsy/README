@@ -1,11 +1,4 @@
 {
   "editor.formatOnSave": true,
-  "cSpell.words": [
-    "Bienale",
-    "Datadog",
-    "Jira",
-    "Kubernetes",
-    "Trello",
-    "stateful"
-  ]
+  "cSpell.words": ["Bienale", "Datadog", "Jira", "Kubernetes", "Omakase", "Trello", "stateful"]
 }
