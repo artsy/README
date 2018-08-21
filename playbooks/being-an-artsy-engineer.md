@@ -1,3 +1,8 @@
+---
+title: How to be an Artsy Engineer
+description: What makes us tick
+---
+
 # Goals of this document
 
 This playbook was inspired by [Thoughtbot's playbook](https://thoughtbot.com/playbook), as well as internal
@@ -16,7 +21,6 @@ practice should be incorporated, submit a PR!
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 
 - [Working together](#working-together)
   - [Project Management](#project-management)
