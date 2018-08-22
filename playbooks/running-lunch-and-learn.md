@@ -72,4 +72,4 @@ Move the card to the "Done" column. Nice work!
 [lal]: lunch_and_learn.md
 [after]: #Afterward
 [blog]: https://github.com/artsy/artsy.github.io
-[project]: https://github.com/artsy/meta/projects/1
+[project]: https://github.com/artsy/README/projects/1
