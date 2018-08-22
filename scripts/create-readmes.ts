@@ -45,7 +45,7 @@ readmeFolders.forEach(folder => {
       const description =
         headerMetadata.description || `[TODO] add description via yml front-matter to ${subREADMEPath}`
 
-      return `| [${title}](/${subREADMEPath}) | ${description} |`
+      return `| [${title}](/${subREADMEPath}#readme) | ${description} |`
     })
 
   const inside = `| Doc | Overview |\n|--|--|\n${docs.join("\n")}`
@@ -65,7 +65,7 @@ const docs = readmeFolders.map(f => {
     return `| [[TODO] Add a summary.json to ${f}](/${f}) | [TODO] |`
   } else {
     const settings = JSON.parse(fs.readFileSync(jsonPath, "utf8"))
-    return `| [${settings.title}](/${f}) | ${settings.description} |`
+    return `| [${settings.title}](/${f}#readme) | ${settings.description} |`
   }
 })
 const inside = `| Section |  |\n|--|--|\n${docs.join("\n")}`

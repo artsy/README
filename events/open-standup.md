@@ -5,14 +5,14 @@ description: How do we do whole-team standup at Artsy?
 
 # Dev Team Standup at Artsy
 
-We've been doing engineering standups for as long as there has been an engineering team. The formats have changed
+We've been doing engineering stand-ups for as long as there has been an engineering team. The formats have changed
 over time as the size and scope of Artsy has changed. We're now on our fourth iteration of this process.
 
 A standup is ideally ran by two people, one person talking, the other taking notes. Decide amongst yourselves which
 of you will do the before standup stuff.
 
 **Note**: We document our standup process to the degree that _anyone_ on our team can run the standup because we
-believe that _everyone_ should run at least one meeting. These standups are important for team cohesion and
+believe that _everyone_ should run at least one meeting. These stand-ups are important for team cohesion and
 cross-team knowledge sharing; they are an organization-wide responsibility and every engineer should participate.
 
 ### Ten minutes before a standup
@@ -81,6 +81,10 @@ _Cross-dependencies / Requests for Pairing_
 
 -
 
+_Active team-wide RFCs_
+
+-
+
 _New Milestones / Repos / Blog posts_
 
 -
@@ -94,7 +98,7 @@ _Closing Announcements_
 - Ash will be available on Wednesday from 2–3 on the 24th floor, or over Slack, to assist with writing projects. If
   you're writing a blog post, proposing a conference talk, or writing documentation, this is where you can come for
   help.
-- Show & Tell is this Friday at 11:30 NYC time in the Studio on 24 (and over Zoom). See the docs for more info:
+- Show & Tell is this Friday at 11:00 NYC time in the Studio on 24 (and over Zoom). See the docs for more info:
   https://github.com/artsy/meta/blob/master/meta/show_and_tell.md
 - The last two support engineers should stick around to chat with us, the new support engineers after this meeting.
 -

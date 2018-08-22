@@ -1,6 +1,5 @@
 {
   "devDependencies": {
-    "@types/glob": "^5.0.35",
     "@types/node": "^10.7.1",
     "danger": "^3.8.6",
     "doctoc": "^1.3.1",
