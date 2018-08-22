@@ -7,7 +7,7 @@ description: How do we do whole-team standup at Artsy?
 
 We've been doing engineering standups for as long as there has been an engineering team. The format has changed over time as the size and scope of Artsy has changed. We're now on our fourth iteration of this process.
 
-Whichever two engineers are beginning their on-call rotation are responsibile for running the standup. Pick one person to run the talking parts, and one person to take notes.
+Whichever two engineers are beginning their on-call rotation are responsible for running the standup. Pick one person to run the talking parts, and one person to take notes.
 
 ### Ten minutes before a standup
 
