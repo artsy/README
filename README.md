@@ -22,6 +22,7 @@ We split this repo out into different sections, each one has a summary of what's
 | [Playbooks](/playbooks#readme) | How we get stuff done. |
 | [Engineering Practices](/practices#readme) | How do we handle cross-functional concerns. |
 | [Engineering Recommendations](/recommendations#readme) | Collections of further reading. |
+| [Onboarding](/onboarding#readme) | Your first steps to being productive. |
 <!-- end_toc -->
 <!-- prettier-ignore-end -->
 

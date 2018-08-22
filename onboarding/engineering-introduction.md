@@ -1,46 +1,28 @@
 ---
-title: Onboarding into Engineering
-description: Your first steps to being productive
+title: Engineering Team Introduction
+description: A brief introduction
 ---
 
-### Onboarding
+## Welcome Logistics
 
-You have hopefully been onboarded. You have a mentor and a spirit guide. You now know where we keep the snacks!
-Awesome.
+### Work hours
+Depends on the person/where they are located! We try to schedule meetings at times that are amenable to people being remote (from Amsterdam to Seattle on the engineering team), so they'll usually happen in the middle of the day EST.
 
-Some team members have backgrounds in art, but of course not all.
-[/recommendations/art.md](/recommendations/art.md) has some useful links if you want to read more about the art
-world, or keep up with the latest news.
+Ask your mentor/manager what their general work hours are. Artsy has no policy around this, so use your judgment and be open with your team about when you expect to be available.
+
+### Vacation
+Artsy has an open vacation policy. This doesn't mean "don't take vacation." _Please take time off._ Most people take off for bank holidays.
+
+Join the [Design/Product OOO](https://calendar.google.com/calendar/embed?src=artsymail.com_gl81jptn59gjfv1kg0fer1i4jo%40group.calendar.google.com&ctz=America%2FNew_York) calendar and use that to set when you know you'll be out of the office (you don't generally need to post remote work here unless it's out of the ordinary and would benefit from wider communication i.e. you'll be working for a month from somewhere else).
 
 ### Chat
 
 Most of our day-to-day business is conducted in Slack. Teams, offices, and common concerns frequently have their
 own channels. For more information on our usage of Slack, see [`/culture/slack.md`](/culture/slack.md).
 
-### GitHub
+### Events
 
-Artsy stores source code on [GitHub](https://github.com/artsy). Make sure you have an account and are part of the
-Artsy organization. If you can't visit [this page](https://github.com/artsy/gravity), then you don’t have the right
-access. Your mentor can get you sorted out.
-
-Our projects use physics terms as code names, starting with [Gravity](https://github.com/artsy/gravity) (inspired
-by [Zachary Coffin's "Temple of Gravity"](http://www.zacharycoffin.com/work/temple-of-gravity)).
-
-See the [engineering projects map](https://github.com/artsy/potential/wiki/Project-List) for a comprehensive list
-of our (many) repos and who owns them. It can be a bit overwhelming, so here are some important ones:
-
-- [Gravity](https://github.com/artsy/gravity): Artsy's main API
-- [Force](https://github.com/artsy/force): Artsy web site ([www.artsy.net](https://www.artsy.net))
-- [Eigen](https://github.com/artsy/eigen): iOS app
-- [Volt](https://github.com/artsy/volt): Content Management system for partners
-
-### AWS
-
-Many applications depend on Amazon Web Services. Your mentor or anyone else in Engineering can set you up with an
-IAM profile within our organization's account (see
-[instructions](https://github.com/artsy/potential/wiki/Platform-FAQ#add-a-new-aws-user)).
-
-### Engineering-wide Standup
+See the [events list](/events) for a list of our recurring, engineering-wide events.
 
 We have an engineering team-wide standup on _Mondays at 11:30 a.m. Eastern_ (virtual:
 [https://zoom.us/my/artsyclassroom](https://zoom.us/my/artsyclassroom)) where we:
@@ -52,6 +34,21 @@ We have an engineering team-wide standup on _Mondays at 11:30 a.m. Eastern_ (vir
 - Recognize and congratulate each other for significant accomplishments
 
 The standup is fully documented [here](/events/open-standup.md).
+
+### Getting Help
+
+- **Slack:** If you know what team could potentially help you, browse the channels in Slack to find the most
+  relevant place to ask your question. If you aren't sure, [#dev](https://artsy.slack.com/messages/dev) is a good
+  place to start.
+- **Ask Your Neighbor:** Everyone is friendly. Don't hesitate to reach out to the people around you for even the
+  most basic of questions.
+- **Check Atlas:** Turns out a lot of common questions are available in [atlas.artsy.net](http://atlas.artsy.net) .
+
+## Who we are
+
+Some team members have backgrounds in art, but of course not all.
+[/recommendations/art.md](/recommendations/art.md) has some useful links if you want to read more about the art
+world, or keep up with the latest news.
 
 ### Open Source Culture + Projects
 
@@ -66,6 +63,29 @@ Artsy and their reasons behind open-sourcing our [mobile app](https://github.com
 
 Orta also wrote a blog post on the
 [mechanics behind open-sourcing Eigen](http://artsy.github.io/blog/2015/04/28/how-we-open-sourced-eigen/).
+
+
+## Our stack/technologies
+
+### GitHub
+
+Artsy stores source code on [GitHub](https://github.com/artsy). Make sure you have an account and are part of the Artsy organization. If you can't visit [this page](https://github.com/artsy/gravity), then you don’t have the right access. Your mentor can get you sorted out.
+
+Our projects use physics terms as code names, starting with [Gravity](https://github.com/artsy/gravity) (inspired
+by [Zachary Coffin's "Temple of Gravity"](http://www.zacharycoffin.com/work/temple-of-gravity)).
+
+See the [engineering projects map](https://github.com/artsy/potential/wiki/Project-List) for a comprehensive list of our (many) repos and who owns them. It can be a bit overwhelming, so here are some important ones:
+
+- [Gravity](https://github.com/artsy/gravity): Artsy's main API
+- [Force](https://github.com/artsy/force): Artsy web site ([www.artsy.net](https://www.artsy.net))
+- [Eigen](https://github.com/artsy/eigen): iOS app
+- [Volt](https://github.com/artsy/volt): Content Management system for partners
+
+### AWS
+
+Many applications depend on Amazon Web Services. Your mentor or anyone else in Engineering can set you up with an
+IAM profile within our organization's account (see
+[instructions](https://github.com/artsy/potential/wiki/Platform-FAQ#add-a-new-aws-user)).
 
 ### Artsy's Stack(s)
 
@@ -135,12 +155,3 @@ We try to deploy early and often. You don't need permission to deploy--just anno
 the team has any concerns.
 
 More about [continuous improvement](/playbooks/being-an-artsy-engineer.m#continuous-improvement).
-
-### Getting Help
-
-- **Slack:** If you know what team could potentially help you, browse the channels in Slack to find the most
-  relevant place to ask your question. If you aren't sure, [#dev](https://artsy.slack.com/messages/dev) is a good
-  place to start.
-- **Ask Your Neighbor:** Everyone is friendly. Don't hesitate to reach out to the people around you for even the
-  most basic of questions.
-- **Check Atlas:** Turns out a lot of common questions are available in [atlas.artsy.net](http://atlas.artsy.net) .
