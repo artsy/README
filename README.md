@@ -16,12 +16,12 @@ We split this repo out into different sections, each one has a summary of what's
 <!-- start_toc -->
 | Section |  |
 |--|--|
-| [Best Practices](/best-practices) | What are our agreed upon best practices? |
-| [Engineering Culture](/culture) | What makes Artsy Engineering tick? |
-| [Events at Artsy](/events) | Documentation on regularly occurring events and meetings. |
-| [Playbooks](/playbooks) | How we get stuff done. |
-| [Engineering Practices](/practices) | How do we handle cross-functional concerns. |
-| [Engineering Recommendations](/recommendations) | Collections of further reading. |
+| [Best Practices](/best-practices#readme) | What are our agreed upon best practices? |
+| [Engineering Culture](/culture#readme) | What makes Artsy Engineering tick? |
+| [Events at Artsy](/events#readme) | Documentation on regularly occurring events and meetings. |
+| [Playbooks](/playbooks#readme) | How we get stuff done. |
+| [Engineering Practices](/practices#readme) | How do we handle cross-functional concerns. |
+| [Engineering Recommendations](/recommendations#readme) | Collections of further reading. |
 <!-- end_toc -->
 <!-- prettier-ignore-end -->
 

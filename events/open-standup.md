@@ -5,24 +5,30 @@ description: How do we do whole-team standup at Artsy?
 
 # Dev Team Standup at Artsy
 
-We've been doing engineering standups for as long as there has been an engineering team. The format has changed over time as the size and scope of Artsy has changed. We're now on our fourth iteration of this process.
+We've been doing engineering stand-ups for as long as there has been an engineering team. The format has changed
+over time as the size and scope of Artsy has changed. We're now on our fourth iteration of this process.
 
-Whichever two engineers are beginning their on-call rotation are responsible for running the standup. Pick one person to run the talking parts, and one person to take notes.
+Whichever two engineers are beginning their on-call rotation are responsible for running the standup. Pick one
+person to run the talking parts, and one person to take notes.
 
 ### Ten minutes before a standup
 
 The person handling the talking parts does this stuff ten minutes before standup:
 
 - `@here`s the dev channel. Include where the meeting is in the NYC office (usually the Classroom).
-- Remind last week's on-call staff in #dev to prepare their updates about last week's rotation.
-  Something like:
-  > @personA @personB reminder, we're looking for a list of major or notable incidents from last week during standup.
-- On Mondays that are NOT the start of a sprint, remind the team leads in #dev to prepare their tweet-sized updates, something like this:
-  > friendly reminder: we’re doing summary updates from tech leads during open standup, so have yours ready! /cc @tech-leads
+- Remind last week's on-call staff in #dev to prepare their updates about last week's rotation. Something like:
+  > @personA @personB reminder, we're looking for a list of major or notable incidents from last week during
+  > standup.
+- On Mondays that are NOT the start of a sprint, remind the team leads in #dev to prepare their tweet-sized
+  updates, something like this:
+  > friendly reminder: we’re doing summary updates from tech leads during open standup, so have yours ready! /cc
+  > @tech-leads
 
 ### What is a good update?
 
-On Mondays that are the start of a sprint, tech leads skip their updates as we've already heard what's going on during sprint kickoff. It's ok for a tech lead's update to consist of "everything is cool, next!" but also feel free to cover things like this:
+On Mondays that are the start of a sprint, tech leads skip their updates as we've already heard what's going on
+during sprint kickoff. It's ok for a tech lead's update to consist of "everything is cool, next!" but also feel
+free to cover things like this:
 
 - Should focus on status of product work
 - Raises larger technical changes which affect other teams
@@ -39,7 +45,8 @@ On Mondays that are the start of a sprint, tech leads skip their updates as we'v
 - We have a spot to talk about things people are proud of
 - We then either announce [the Lunch & Learn][ll], or try find one for the week
 
-These notes are then passed out on to Slack after standup. Everyone leaves links to things they have commented on during the meeting, if they don't, we chase them up.
+These notes are then passed out on to Slack after standup. Everyone leaves links to things they have commented on
+during the meeting, if they don't, we chase them up.
 
 ## Our Markdown Template
 
