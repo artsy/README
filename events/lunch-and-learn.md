@@ -40,6 +40,15 @@ So far, from external contributors we've had:
 - NYTimes Career Ladder by [Brian Hamman](https://twitter.com/hamman)
 - Swift & The Blockchain by [Tamar Nachmany](https://twitter.com/tamarshmallows)
 - CI & CD at Spotify by [Jason Palmer](https://twitter.com/palmerj3)
+- Using The Art Genome Project data in computational sociology by [Taylor Brown](http://www.taylorwhittenbrown.com)
+
+Here are some examples of internal presentations:
+
+- The Artsy WeChat launch
+- A retrospective on a recently launched feature written in React Native
+- An introduction to the Artsy sales team process
+- How we use [Hokusai](https://github.com/artsy/hokusai) to deploy software
+- How to use vim
 
 ---
 
