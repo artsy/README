@@ -84,7 +84,7 @@ Resolve the RFC, you can work with this template:
     #### Exceptions
     We will not implement it on project X. We will revisit the decision in 1 year.
 
-Of possible, please use one of these for the Level of Support section:
+If possible, please use one of these for the Level of Support section:
 
 - `1: Overwhelming positive feedback.`
 - `2: Positive feedback.`
