@@ -10,6 +10,6 @@ Awesome.
 
 Now, it's time to learn about our engineering team-- who we are and how we operate. We've broken this down into two pieces:
 1. [An introduction to our team](/onboarding/engineering-introduction.md)
-2. A guide for getting started. Your manager should have created a github issue for you based on our [onboarding template](/.github/ISSUE_TEMPLATES/engineering-onboarding.md). If you find issues, please submit a pull request to update the template!
+2. A guide for getting started. Your manager should have created a github issue for you based on our [onboarding template](/.github/ISSUE_TEMPLATE/engineering-onboarding.md). If you find issues, please submit a pull request to update the template!
 
 Feel free to start poking around. Your manager will walk you through these documents on your first day, and you'll enlist them help of them, your mentor, and everyone else on the team to get through the checklist embedded in the guide.
