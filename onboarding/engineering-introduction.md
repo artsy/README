@@ -22,7 +22,7 @@ own channels. For more information on our usage of Slack, see [`/culture/slack.m
 
 ### Events
 
-See the [events list](/events) for a list of our recurring, engineering-wide events.
+See the [events list](/events) for descriptions of our recurring, engineering-wide events. Look at the [Engineering - Open Meetings calendar](https://calendar.google.com/calendar/r?cid=YXJ0c3ltYWlsLmNvbV9nODFpbzRhOThkZHZuMWloMWEzbG0yb2NkNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to see when they are scheduled and feel free to add yourself to any (or just show up).
 
 We have an engineering team-wide standup on _Mondays at 11:30 a.m. Eastern_ (virtual:
 [https://zoom.us/my/artsyclassroom](https://zoom.us/my/artsyclassroom)) where we:
