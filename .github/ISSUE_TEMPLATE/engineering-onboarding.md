@@ -45,11 +45,11 @@ _Goal: I can ssh into gravity (staging and production). I can PR to a repo in Ar
 - [ ] Learn how code goes from your local machine --> production. _Talk to your mentor. Have them explain gravity's deployment process. Read about our [staging environment](https://github.com/artsy/gravity/blob/master/doc/StagingEnvironment.md).
 - [ ] Reading: [Working with the API](https://github.com/artsy/potential/blob/master/platform/WorkingWithGravity.md)
 - [ ] Scan our list of preferred technologies. Dig in where necessary.
-  - [ ] [Front-end technologies](/practices/front-end.md)
-  - [ ] [Back-end/Platform technologies](/practices/platform.md)
+  - [ ] [Front-end technologies](https://github.com/artsy/README/blob/master/practices/front-end.md)
+  - [ ] [Back-end/Platform technologies](https://github.com/artsy/README/blob/master/practices/platform.md)
   - [ ] iOS/React Native? #TODO
 - [ ] Join the #incidents slack channel and scan through some recent threads
-      Read the [support doc](/playbooks/support.md)
+      Read the [support doc](https://github.com/artsy/README/blob/master/playbooks/support.md)
 - [ ] On-call onboarding #TODO
 
 #### Personal:
