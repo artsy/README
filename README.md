@@ -1,7 +1,7 @@
 # Artsy Engineering
 
 Welcome to Artsy! If you're a new team member, we're excited to have you! Here's your
-[onboarding docs](/culture/onboarding.md)
+[onboarding docs](/onboarding#readme)
 
 This repo is a work in progress. In fact, your first pull request could be to fix or add to
 [this doc](https://github.com/artsy/README/blob/master/README.md). Reach out to your mentor or anyone else on the
