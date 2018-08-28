@@ -19,6 +19,7 @@ _Goal: I can ssh into gravity (staging and production). I can PR to a repo in Ar
 - [ ] Get invited to the Artsy Github org
   _Ask your mentor or another engineer for help, or log into github using the it@artsymail.com account in 1Password and add yourself._
 - [ ] Set up your general dev environment (download your favorite text editor, terminal application, etc.) _If you don't have a favorite, ask for advice but we'll probably tell you to install vscode._
+- [ ] Download [Jasper App](https://jasperapp.io/); this will help you manage GitHub interactions.  
 - [ ] Read the script in https://github.com/artsy/potential/blob/master/scripts/setup for initial setup. Confirm how you want to configure it (ask questions if you're unsure about the options), and run it on your computer.
 - [ ] Set up (some) of our most critical projects
   - [ ] Gravity (#platform-humans)
