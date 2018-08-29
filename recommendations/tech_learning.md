@@ -45,6 +45,7 @@ This is a living document; if you find something out of date or have an addition
 | [Scala Exercises](https://www.scala-exercises.org/) | Exercises divided by topic (std lib, akka, play, fp...) |
 [Ramping up a team in scala](https://www.thoughtworks.com/talks/scala-the-good-parts-how-to-ramp-up-a-team-in-scala) | Short video tour of the language from Thoughtworks |
 | [Effective Scala](https://twitter.github.io/effectivescala/) | Style Guide + Patterns from Twitter |
+| [Free books from Underscore](https://underscore.io/training/) | Essential Scala, Slick, Play... |
 | []() |  |
 
 ### Swift + Objective C
