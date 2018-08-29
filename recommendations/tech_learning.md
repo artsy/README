@@ -7,7 +7,7 @@ This is a living document; if you find something out of date or have an addition
 
 | Name | Description |
 | -- | -- |
-| [B0rk's zines](https://jvns.ca/zines) | [Julia Evans](https://www.twitter.com/b0rk) makes great comics about *nix programming- [this is a team favorite on learing](https://jvns.ca/wizard-zine.pdf) |
+| [b0rk's zines](https://jvns.ca/zines) | [Julia Evans](https://www.twitter.com/b0rk) makes great comics about *nix programming- [here's a team favorite on learning](https://jvns.ca/wizard-zine.pdf) |
 | [Learn X in Y minutes](https://learnxinyminutes.com/) | Scenic tours of pretty much every language |
 | [Symbol Hound](https://www.symbolhound.com/) | Symbol-aware searching ( e.g. `[ ? { > &` ) |
 
@@ -20,6 +20,7 @@ This is a living document; if you find something out of date or have an addition
 | -- | -- |
 | [Javascript: The Weird Parts](https://www.notion.so/artsy/Useful-Resources-f95a0a6cf82040a0bcc50fcd13523e6f#744b360a60694e21b8b6170c50cab55c) | [video] - 'An advanced Javascript course for everyone, giving a deep understanding of the language by understanding how it works under the hood' |
 | [Intro to ES6](https://medium.com/sons-of-javascript/javascript-an-introduction-to-es6-1819d0d89a0f) | An intro to modern JS features |
+| [Modern JS explained for dinosaurs](https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70) | How we got from `<script src='foo'/> <script src='bar' /> <script...` to `export default App` |
 | []() |  |
 
 -----
