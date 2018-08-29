@@ -29,8 +29,8 @@ _Goal: I can ssh into gravity (staging and production). I can PR to a repo in Ar
   - [ ] Reaction (#front-end)
   - [ ] Emission (#front-end-ios)
     _For each of these, follow the instructions in the README. If you encounter problems, it’s not your fault! Ask in the appropriate slack channels (always default to #dev if you don’t know) for help and PR clarifying changes._
-- [ ] Make a PR to an Artsy repo (code change or simple doc update)
-- [ ] Keep your eye out for ways to improve our documentation-- including in this repo!
+- [ ] Make a PR to an Artsy repo.
+- [ ] Keep your eye out for ways to improve our documentation-- including in this repo! A code change is great, but improving documentation (in _whatever_ little way) with your fresh set of eyes helps us help the next person onboarding. We emphatically do not underestimate it, this is _real_ work!
 - [ ] Ask an engineer for help getting set up with an AWS account. Follow the instructions in https://github.com/artsy/hokusai for getting set up with hokusai.
 - [ ] Successfully open a gravity staging and production console
 
