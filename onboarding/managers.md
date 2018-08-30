@@ -12,7 +12,7 @@ description: Things for managers to remember during the early days of onboarding
 - [ ] Create an onboarding github issue in this repo based on the onboarding template.
 - [ ] Set first-week schedule
 - [ ] Invite new hire to all engineering-wide meetings
-- [ ] Determine sprint rotation plan
+- [ ] Determine [sprint rotation plan](/onboarding/sprint-rotation.md)
 
 ### Day 1
 
