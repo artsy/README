@@ -40,6 +40,7 @@ So far, from external contributors we've had:
 - NYTimes Career Ladder by [Brian Hamman](https://twitter.com/hamman)
 - Swift & The Blockchain by [Tamar Nachmany](https://twitter.com/tamarshmallows)
 - CI & CD at Spotify by [Jason Palmer](https://twitter.com/palmerj3)
+- Building great API clients by [Haroen Viaene](https://haroen.me)
 - Using The Art Genome Project data in computational sociology by [Taylor Brown](http://www.taylorwhittenbrown.com)
 
 Here are some examples of internal presentations:
