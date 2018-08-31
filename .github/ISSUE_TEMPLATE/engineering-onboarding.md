@@ -73,19 +73,7 @@ _Your manager should have set these sessions up for you. If they haven't, poke t
 ## Sprint Rotation
 _Goal: I understand how different product teams run sprints and what their focus is at a deep level. I’ve paired with multiple members of the engineering team and have a sense for how I might approach tasks._
 
-### How it works:
-
-#### Before sprint starts:
-- [ ] Onboarding 1:1 with tech lead (could happen during first week at Artsy)
-- [ ] Tech lead/PM adds new hire to all team meetings for the sprint (standups, planning, retro, etc.)
-- [ ] Attend sprint planning
-- [ ] Pending time, make sure dev environment is set up with all necessary systems
-- [ ] Pending time, read through any relevant product documentation
-
-#### During sprint:
-- [ ] Pair on critical tasks with another member of the team
-- [ ] Work on non-blocking tasks labeled with the “good-first-issue” label
-- [ ] Meet with onboarding representative to discuss feedback and make changes to onboarding for the next round.
+See the [doc on the sprint rotation](https://github.com/artsy/README/blob/master/onboarding/sprint-rotation.md) for expectations/an explanation.
 
 ## Join a Team
 _Goal: I feel part of a team and understand how my work contributes to making Artsy the best way to buy art. I’m learning about Artsy’s stack and systems while also shipping code._
