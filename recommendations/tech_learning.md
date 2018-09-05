@@ -1,5 +1,5 @@
 # Tech Learning
-We often hear that learning to google (or perhaps [DuckDuckGo](www.duckduckgo.com)) and use stack overflow is are the most important core competencies of any programmer, but growth and learning happen best outside the vacuum of the internet. This page is a list of the engineering team's favorite resources -tutorials, essays, starting points and general thoughts- on a variety of programming topics. 
+We often hear that learning to google (or perhaps [DuckDuckGo](www.duckduckgo.com)) and use stack overflow are the most important core competencies of any programmer, but growth and learning happen best outside the vacuum of the internet. This page is a list of the engineering team's favorite resources -tutorials, essays, starting points and general thoughts- on a variety of programming topics. 
 
 This is a living document; if you find something out of date or have an addition please open a pull request.
 
@@ -101,7 +101,7 @@ This is a living document; if you find something out of date or have an addition
 | Name | Description |
 | -- | -- |
 | [React Native](https://facebook.github.io/react-native/) | The official docs |
-| [Expo](https://expo.io/) | 'a free and open source toolchain built around React Native to help you build native iOS and Android projects using JavaScript and React' |
+| [Expo](https://expo.io/) | 'A free and open source toolchain built around React Native to help you build native iOS and Android projects using JavaScript and React' |
 | []() |  |
 
 ## MORE: Papers we love? Computer Science Topics? Emotional Intelligence x tech? ...
