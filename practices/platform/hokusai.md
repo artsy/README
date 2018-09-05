@@ -3,10 +3,17 @@
 We built and maintain [Hokusai](https://github.com/artsy/hokusai), a CLI for application developers working with
 Docker and Kubernetes clusters.
 
-Install Hokusai's [requirements](https://github.com/artsy/hokusai#requirements) and install hokusai itself via
-`pip install --upgrade hokusai` - Docker and Git are required but if you don't want to brew/miniconda-install
-Python you can alternatively install a binary build for MacOS / Darwin to `/usr/local/bin` with
-`curl -o /usr/local/bin/hokusai https://artsy-provisioning-public.s3.amazonaws.com/hokusai && chmod +x /usr/local/bin/hokusai`
+## Setup
+
+### Quickstart
+
+```
+brew install git && brew tap caskroom/cask && brew cask install docker docker-compose
+curl https://artsy-provisioning-public.s3.amazonaws.com/hokusai -o /usr/local/bin/hokusai && chmod +x /usr/local/bin/hokusai
+hokusai configure --kubectl-version 1.6.3 --s3-bucket artsy-citadel --s3-key k8s/config
+```
+
+### Manual Installation
 
 We recommend that you install Python via Homebrew or [Miniconda](https://conda.io/miniconda.html) rather than use
 your default system Python interpreter (OSX ships with a preinstalled python at `/usr/bin/python`). After
@@ -15,16 +22,22 @@ Python. For example, if your brew-installed python interpreter is linked via
 `/usr/local/bin/python -> ../Cellar/python@2/2.7.14_3/bin/python` then `/usr/local/bin` should come before
 `/usr/bin` in your `$PATH`.
 
-Note: due to
+Install Hokusai's [requirements](https://github.com/artsy/hokusai#requirements) - Git, Docker and Docker Compose, then install hokusai itself via
+`pip install --upgrade hokusai`
+
+#### Note
+
+Due to
 [recent PyPi upgrades](https://gis.stackexchange.com/questions/278989/pip-no-longer-works-with-qgis-2-18-x-python-tls-version-no-longer-supported)
 `pip install --upgrade hokusai` may complain about SSL cipers being out of date. To fix this, make sure your
 openssl libraries are up-to-date: `brew upgrade openssl` and reinstall python via `brew reinstall python`.
 
-#### Configuring Hokusai
+#### Configuring access to Kubernetes
 
-Make sure to set `AWS_ACCESS_KEY_ID` / `AWS_SECRET_ACCESS_KEY` with your IAM credentials.
+Make sure that the environment variables `$AWS_ACCESS_KEY_ID` and `$AWS_SECRET_ACCESS_KEY` are set in your shell or persistently in your ~/.bash_profile
 
-Configure Hokusai for our organization with:
+Install `kubectl` along with our Kubernetes configuration with:
+
 `hokusai configure --kubectl-version 1.6.3 --s3-bucket artsy-citadel --s3-key k8s/config`
 
 #### Setting up a new project
