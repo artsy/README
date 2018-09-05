@@ -9,8 +9,8 @@ This documents Artsy's Engineering Ladder. The Engineering Ladder is a framework
 goals, and compensation for engineers at Artsy. Our ladder was first established and opened in 2015, which you can
 read more about [on our blog](http://artsy.github.io/blog/2015/04/03/artsy-engineering-compensation-framework/).
 
-Since then Artsy has synced up with the
-[company-wide framework](https://docs.google.com/spreadsheets/d/1SJXiaA5TYQxqDQmOiVG5NjLj3FFaAAC6aFVVB40bUAs/edit#gid=1182416267)
+Since then Artsy has synced up with the Artsy
+[company-wide framework 🔑](https://docs.google.com/spreadsheets/d/1SJXiaA5TYQxqDQmOiVG5NjLj3FFaAAC6aFVVB40bUAs/edit#gid=1182416267)
 for levels and titles and we have added Technical Lead levels to the framework.
 
 This document is open and evolving. We encourage you to submit issues or pull requests to suggest changes and
