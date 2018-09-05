@@ -19,6 +19,7 @@ This is a living document; if you find something out of date or have an addition
 
 ### Javascript + NodeJS
 *See also [Frontend Practice Resources](#frontend-practice) below*
+
 | Name | Description |
 | -- | -- |
 | [Javascript: The Weird Parts](https://www.notion.so/artsy/Useful-Resources-f95a0a6cf82040a0bcc50fcd13523e6f#744b360a60694e21b8b6170c50cab55c) | [video] - 'An advanced Javascript course for everyone, giving a deep understanding of the language by understanding how it works under the hood' |
@@ -29,6 +30,7 @@ This is a living document; if you find something out of date or have an addition
 &nbsp;
 ### Ruby
 *See also [Platform Practice Resources](#platform-practice) below*
+
 | Name | Description |
 | -- | -- |
 | [ruby-doc.org](https://ruby-doc.org/core-2.5.1/) | Tons of info, efficiently-laid-out here |
@@ -46,6 +48,7 @@ This is a living document; if you find something out of date or have an addition
 &nbsp;
 ### Scala
 *See also [Platform Practice Resources](#platform-practice) below*
+
 | Name | Description |
 | -- | -- |
 | [Scala Exercises](https://www.scala-exercises.org/) | Exercises divided by topic (std lib, akka, play, fp...) |
@@ -57,6 +60,7 @@ This is a living document; if you find something out of date or have an addition
 &nbsp;
 ### Swift + Objective C
 *See also [Frontend-iOS Practice Resources](#frontend-ios-practice) below*
+
 | Name | Description |
 | -- | -- |
 | [Cocoa Core Competencies](https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/Cocoa.html) | Deprecated but still useful context around development for iOS, especially Objective C |
@@ -67,6 +71,7 @@ This is a living document; if you find something out of date or have an addition
 ## Practice Groups
 
 ### Platform Practice
+
 | Name | Description |
 | -- | -- |
 | [RailsGuides](https://guides.rubyonrails.org/) | Good starting points for foundational Rails Concepts, covention over configuration and so on |
@@ -75,6 +80,7 @@ This is a living document; if you find something out of date or have an addition
 
 
 ### Frontend Practice
+
 | Name | Description |
 | -- | -- |
 | [[A.] Javascriptures](https://artsy.github.io/series/javascriptures/) | A series of Artsy workshops covering our 2018 frontend stack: Js, TypeScript, React, Relay and more |
@@ -91,6 +97,7 @@ This is a living document; if you find something out of date or have an addition
 
 ### Frontend iOS Practice
 *See also [Javascript](#javascript-+-nodejs) & [Swift + Objective C](#swift-+-objective-c)*
+
 | Name | Description |
 | -- | -- |
 | [React Native](https://facebook.github.io/react-native/) | The official docs |
