@@ -104,6 +104,7 @@ This is a living document; if you find something out of date or have an addition
 | [Expo](https://expo.io/) | 'A free and open source toolchain built around React Native to help you build native iOS and Android projects using JavaScript and React' |
 | []() |  |
 
-## MORE: Papers we love? Computer Science Topics? Emotional Intelligence x tech? ...
-
+<!--
+  ## MORE: Papers we love? Computer Science Topics? Emotional Intelligence x tech? ...
+-->
 
