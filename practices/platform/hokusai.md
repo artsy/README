@@ -8,7 +8,7 @@ Docker and Kubernetes clusters.
 ### Quickstart
 
 ```
-brew install git && brew tap caskroom/cask && brew cask install docker docker-compose
+brew install git docker docker-compose
 curl https://artsy-provisioning-public.s3.amazonaws.com/hokusai -o /usr/local/bin/hokusai && chmod +x /usr/local/bin/hokusai
 hokusai configure --kubectl-version 1.6.3 --s3-bucket artsy-citadel --s3-key k8s/config
 ```
