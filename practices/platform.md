@@ -30,6 +30,8 @@ description: What do folks with a platform focus do?
 A lot of platform practice documentation is inside
 [artsy/potential](https://github.com/artsy/potential/blob/master/platform/)
 
+Artsy's favorite resources (including those of the platform team) are in [Tech Learning](/recommendations/tech_learning.md#platform-practice)
+
 - [AWS](https://github.com/artsy/potential/blob/master/platform/AWS.md)
 - [Configuration Management](https://github.com/artsy/potential/blob/master/platform/ConfigurationManagement.md)
 - [Domain Models](https://github.com/artsy/potential/blob/master/platform/DomainModels.md)
@@ -53,7 +55,7 @@ Our API is implemented in the [Gravity](https://github.com/artsy/gravity) projec
 ### Kubernetes
 
 Some projects leverage [Docker](https://www.docker.com/) and our [Kubernetes](https://kubernetes.io/) clusters. See
-[Kubernetes](Kubernetes.md).
+[Kubernetes](platform/Kubernetes.md).
 
 ### Installing Gravity
 
