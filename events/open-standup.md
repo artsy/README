@@ -36,6 +36,7 @@ free to cover things like this:
 
 ### During standup
 
+- **Important**: Make sure the person taking notes doesn't have their laptop next to the Zoom speakerphone.
 - We start off with props, as a nod towards [People are Paramount][pplp]
 - Then we get an update from the CTO
 - Then an update from the Product team (someone should be present to give one)
@@ -94,10 +95,7 @@ _Lunch & Learn_
 
 _Closing Announcements_
 
-- Ash will be available on Wednesday from 2–3 on the 24th floor, or over Slack, to assist with writing projects. If
-  you're writing a blog post, proposing a conference talk, or writing documentation, this is where you can come for
-  help.
-- Show & Tell is this Friday at 11:30 NYC time in the Studio on 24 (and over Zoom). See the docs for more info:
+- Show & Tell is this Friday at 11:00 NYC time in the Studio on 24 (and over Zoom). See the docs for more info:
   https://github.com/artsy/meta/blob/master/meta/show_and_tell.md
 - The last two support engineers should stick around to chat with us, the new support engineers after this meeting.
 -
