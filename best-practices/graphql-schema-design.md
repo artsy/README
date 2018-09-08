@@ -166,3 +166,114 @@ microservices.
 
   So, perhaps something like `addConsignment` or `addConsignmentSubmission` is the best name to give this mutation,
   in your Convection GraphQL schema.
+
+## Unions instead of Merging Responsibilities
+
+When you have a response that could be multiple things, instead of inlining the data into an existing object,
+consider using unions to separate the responsibilities. For example, if you have an `Order` object which represents
+sending a physical object to a person, they could get it in a few ways. Instead of having a type like:
+
+```graphql
+type Order {
+  item: Thing
+
+  is_pickup: Boolean!
+
+  address_1: String!
+  address_2: String
+  country: String!
+  phone: String!
+}
+```
+
+Use a union to force clients to cover all potential cases:
+
+```graphql
+type Pickup {
+  time: String
+}
+
+type Mail {
+  address_1: String!
+  address_2: String
+  country: String!
+  phone: String!
+}
+
+union Shipping = Pickup | Mail
+
+type Order {
+  item: Thing
+
+  shipping: Shipping
+}
+```
+
+This ensures that:
+
+- You can never end up in a state where `is_pickup` is true, but there is address metadata available
+- You can safely extend `Shipping` with a new type (like a digital work with a url/email)
+- Clients need to specify and be aware of the objects they want to handle when making queries
+
+## Mutation Responses as Unions
+
+The GraphQL community still hasn't consolidate on how to handle errors in mutations. We're currently thinking that
+there are two types of issues: exceptions and errors. An exception is something unexpected, and this shows up in
+root of a response under `errors`.
+
+For errors that you expect to happen, then they can be handled as a union.
+
+```graphql
+type CreditCardMutationFailure {
+  mutationError: GravityMutationError
+}
+
+type CreditCardMutationSuccess {
+  creditCard: CreditCard
+}
+
+union CreditCardMutationType = CreditCardMutationSuccess | CreditCardMutationFailure
+
+type Mutation {
+  # Create a credit card
+  createCreditCard(input: CreditCardInput!): CreditCardMutationType
+}
+```
+
+This has all of the same advantages as above, but that you can also customise the Error object to fit the domain of
+the mutation. For example, when working with forms the API can pass back the name and reasons for failing field
+validations.
+
+## Partial Types over nullability
+
+When you have data that can be partially completed, or in a draft stage, consider using the type system to your
+advantage. For example - take [submitting a consignment](https://www.artsy.net/consign) as an example. During the
+user's drafting phase, you can use an object with all of the fields that need to be filled in as nullable:
+
+```graphql
+type ConsignmentDraft {
+  title: String
+  location: String
+  category: String
+
+  # This is optional
+  signatureExplanation: String
+}
+```
+
+Which gives a time for the user to fill out all these different fields over time. Then, when submitting the object,
+and storing it for long-term, switch it's type:
+
+```graphql
+type ConsignmentSubmission {
+  title: String!
+  location: String!
+  category: String!
+
+  # This is still optional
+  signatureExplanation: String
+}
+```
+
+This means clients can make stronger assumptions about the data they're working with. It can take your server-side
+validation, and allow API clients to rely on the new state.
