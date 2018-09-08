@@ -69,7 +69,7 @@ _On-call Support Updates_
 - This week, @personC and @personD will be on-call for support.
 - ## Last week, we saw the following notable incidents (please include follow-up details)
 
-_Team Updates_
+_Team Updates_ (optional)
 
 - Grow:
 - DiscoValuate:
@@ -85,11 +85,11 @@ _New Milestones / Repos / Blog posts_
 
 -
 
-_Current team-wide RFCs_
+_Current team-wide RFCs_ (see #dev for list 9am EST on Mondays)
 
 -
 
-_Lunch & Learn_
+_Lunch & Learn_ (if you don't know, ask in #lunch_and_learn)
 
 -
 
