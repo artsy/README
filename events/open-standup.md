@@ -84,7 +84,7 @@ _New Milestones / Repos / Blog posts_
 
 -
 
-_Current team-wide RFCs_ (see #dev for list 9am on Mondays)
+_Current team-wide RFCs_ (see #dev for list 9am EST on Mondays)
 
 -
 
