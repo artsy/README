@@ -46,8 +46,8 @@ free to cover things like this:
 - We have a spot to talk about things people are proud of
 - We then either announce [the Lunch & Learn][ll], or try find one for the week
 
-These notes are then passed out on to Slack after standup. Everyone leaves links to things they have commented on
-during the meeting, if they don't, we chase them up.
+These notes are then copied into a Notion document, and the link passed into #dev on Slack after standup. Everyone
+else leaves links to things they have commented on during the meeting, if they don't, we chase them up.
 
 ## Our Markdown Template
 
