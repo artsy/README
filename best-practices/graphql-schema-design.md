@@ -294,7 +294,7 @@ type ConsignmentDraft {
   signatureExplanation: String
 }
 
-# A fully-validated Consignment, with non-null versions of it's inputs
+# A fully-validated Consignment, with non-null versions of the Consignment's inputs
 type ConsignmentSubmission {
   id: ID
   title: String!
