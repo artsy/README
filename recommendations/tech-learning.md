@@ -26,13 +26,13 @@ This is a living document; if you find something out of date or have an addition
 
 ## Languages + General Tools
 
-### Javascript + NodeJS
+### JavaScript + NodeJS
 
 _See also [Frontend Practice Resources](#frontend-practice) below_
 
 | Name                                       | Description                                                                                                                                      |
 | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [Javascript: The Weird Parts][js_weird]    | [video] - 'An advanced Javascript course for everyone, giving a deep understanding of the language by understanding how it works under the hood' |
+| [JavaScript: The Weird Parts][js_weird]    | [video] - 'An advanced Javascript course for everyone, giving a deep understanding of the language by understanding how it works under the hood' |
 | [Intro to ES6][es6]                        | An intro to modern JS features                                                                                                                   |
 | [Modern JS explained for dinosaurs][dinos] | How we got from `<script src='foo'/> <script src='bar' /> <script...` to `export default App`                                                    |
 | [][]                                       |                                                                                                                                                  |
@@ -98,7 +98,7 @@ _See also [Frontend-iOS Practice Resources](#frontend-ios-practice) below_
 
 | Name                                              | Description                                                                                                              |
 | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| [[A.] Javascriptures][javascriptures]             | A series of Artsy workshops covering our 2018 frontend stack: Js, TypeScript, React, Relay and more                      |
+| [[A.] JavaScriptures][javascriptures]             | A series of Artsy workshops covering our 2018 frontend stack: Js, TypeScript, React, Relay and more                      |
 | [[A.] Is GraphQL the future?][is_graphql]         | Thoughts from Artsy Alum Alan Johnson                                                                                    |
 | [Getting Started- React][getting_started_react]   | From the official react docs                                                                                             |
 | [React Patterns][react_patterns]                  | A rundown on clean & effective react syntax                                                                              |
@@ -112,7 +112,7 @@ _See also [Frontend-iOS Practice Resources](#frontend-ios-practice) below_
 
 ### Frontend iOS Practice
 
-_See also [Javascript](#javascript-+-nodejs) & [Swift + Objective C](#swift-+-objective-c)_
+_See also [JavaScript](#javascript-+-nodejs) & [Swift + Objective C](#swift-+-objective-c)_
 
 | Name               | Description       |
 | ------------------ | ----------------- |
