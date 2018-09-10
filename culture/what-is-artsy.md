@@ -71,8 +71,8 @@ We believe that openness allows for fuller self-expression and for art to be mor
 that being truly open in our communication—both giving and receiving—leads to more informed decisions and more
 productive relationships, which leads to better business.
 
-> **Example**: We encourage our engineering team members to be open about asking for help; our weekly standups have
-> a 'requests for pairing' where we encourage folks to ask for help on anything they've been struggling with.
+> **Example**: We encourage our engineering team members to be open about asking for help; our weekly stand-ups
+> have a 'requests for pairing' where we encourage folks to ask for help on anything they've been struggling with.
 
 ## What does this mean in practice?
 
@@ -87,11 +87,7 @@ We map large aspects of the Art world in our apps and websites: [Shows](https://
 > global audience to learn about, discover, and collect art. Launched in 2012, Artsy is headquartered in New York
 > City with offices in London and Berlin.
 
-Currently we are
-[about ~170](https://www.linkedin.com/company/802712?trk=vsrp_companies_cluster_name&trkInfo=VSRPsearchId%3A202598361462836584173%2CVSRPtargetId%3A802712%2CVSRPcmpt%3Acompanies_cluster)
-[people](http://artsy.github.io/blog/2016/03/28/artsy-engineering-organization-stack/).
-
-The development team is ~28 people, working on a mix of mature and shiny technologies.
+Currently Artsy is over 200 people, with ~30 of them being the Engineering team.
 
 ### How do we make money?
 

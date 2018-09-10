@@ -1,6 +1,6 @@
 {
   "editor.formatOnSave": true,
-  "cSpell.words": ["Bienale", "Datadog", "Jira", "Kubernetes", "Omakase", "Trello", "stateful"],
+  "cSpell.words": ["Artsy's", "Bienale", "Datadog", "Jira", "Kubernetes", "Omakase", "Trello", "stateful"],
   "workbench.colorCustomizations": {
     "[Kary Pro Colors － Dark]": {
       "statusBar.background": "#011101",
