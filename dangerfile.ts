@@ -16,8 +16,8 @@ markdowns.forEach(f => {
   lines.forEach(l => {
     if (l.indexOf("[TODO]") !== -1) {
       const isLocal = !danger.github
-      const message = isLocal ? `TODO detected in ${f}:${lines.indexOf(l)}` : "TODO Detected"
-      warn(message, f, lines.indexOf(l))
+      const message = isLocal ? `TODO detected in ${f}:${lines.indexOf(l) + 1}` : "TODO Detected"
+      warn(message, f, lines.indexOf(l) + 1)
     }
   })
 })

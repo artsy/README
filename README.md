@@ -19,7 +19,7 @@ We split this repo out into different sections, each one has a summary of what's
 | [Best Practices](/best-practices#readme) | What are our agreed upon best practices? |
 | [Engineering Culture](/culture#readme) | What makes Artsy Engineering tick? |
 | [Events at Artsy](/events#readme) | Documentation on regularly occurring events and meetings. |
-| [[TODO] Add a summary.json to onboarding](/onboarding) | [TODO] |
+| [Onboarding Notes for New Engineers](/onboarding#readme) | How to get started |
 | [Playbooks](/playbooks#readme) | How we get stuff done. |
 | [Engineering Practices](/practices#readme) | How do we handle cross-functional concerns. |
 | [Engineering Recommendations](/recommendations#readme) | Collections of further reading. |

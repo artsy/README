@@ -1,6 +1,6 @@
 ---
-title: Engineering Principals
-description: What are the guiding principals that got us this far
+title: Engineering Principles
+description: What are the guiding principles that got us this far
 ---
 
 # Engineering Principles
@@ -11,7 +11,6 @@ development culture unique and drive us to do great work.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 
 - [Open Source by Default](#open-source-by-default)
 - [Own Your Dependencies](#own-your-dependencies)
