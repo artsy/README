@@ -35,7 +35,7 @@ description: What are our best practices for GraphQL Schema Design?
 
 - Design the schema around first class domain-models, not functional details.
 
-  For instance, rather than mimicking a backend endpoint that allows one to filter artworks by defining a
+  For instance, rather than mimicking a back-end endpoint that allows one to filter artworks by defining a
   `filter_artworks` field that has a nested artworks connection, expose the ability to filter artworks in a plain
   `artworks` connection field instead.
 
@@ -85,7 +85,7 @@ description: What are our best practices for GraphQL Schema Design?
     time (for clock synchronization) probably is not.
 
 - For the cases where there is no root field, but you still need to be able to retrieve an arbitrary node of the
-  graph (e.g. when you need to refetch a node without needing to refetch all parent nodes along the path from the
+  graph (e.g. when you need to re-fetch a node without needing to re-fetch all parent nodes along the path from the
   root to said node), there is the special
   [`node` root field](https://facebook.github.io/relay/graphql/objectidentification.htm).
 
@@ -94,7 +94,7 @@ description: What are our best practices for GraphQL Schema Design?
   `banksy-champagne-formica-flag` the system wouldn’t be able to know what type of entity this refers to, a global
   ID would rather encode it like `Artwork:banksy-champagne-formica-flag`.
 
-## Lists
+## Connections over Lists
 
 It is undesirable to have multiple fields that semantically refer to the same data. So rather than defining both
 e.g. an `artworks` field _and_ an `artworks_connection`, simply choose one form applicable to the data and call it
@@ -166,3 +166,164 @@ microservices.
 
   So, perhaps something like `addConsignment` or `addConsignmentSubmission` is the best name to give this mutation,
   in your Convection GraphQL schema.
+
+## Unions instead of Merging Responsibilities
+
+When you have a response that could be multiple things, instead of inlining the data into an existing object,
+consider using unions to separate the responsibilities. For example, if you have an `Order` object which represents
+sending a physical object to a person, they could get it in a few ways. Instead of having a type like:
+
+```graphql
+type Order {
+  item: Thing
+
+  is_pickup: Boolean!
+
+  address_1: String!
+  address_2: String
+  country: String!
+  phone: String!
+}
+```
+
+Use a union to force clients to cover all potential cases:
+
+```graphql
+type Pickup {
+  time: String
+}
+
+type Mail {
+  address_1: String!
+  address_2: String
+  country: String!
+  phone: String!
+}
+
+union Shipping = Pickup | Mail
+
+type Order {
+  item: Thing
+
+  shipping: Shipping
+}
+```
+
+This ensures that:
+
+- You can never end up in a state where `is_pickup` is true, but there is address metadata available
+- You can safely extend `Shipping` with a new type (like a digital work with a url/email)
+- Clients need to specify and be aware of the objects they want to handle when making queries
+
+## Mutation Responses as Unions
+
+The GraphQL community still hasn't consolidated on how to handle errors in mutations. We're currently thinking that
+there are two types of issues: exceptions and errors. An exception is something unexpected, and this shows up in
+root of a response under `errors`.
+
+Errors that you expect to happen can be modeled as a union:
+
+```graphql
+# A known fail-state
+type CreditCardMutationFailure {
+  mutationError: GravityMutationError
+}
+
+# A known success state
+type CreditCardMutationSuccess {
+  creditCard: CreditCard
+}
+
+# The response to a mutation being either a success or a failure
+union CreditCardMutationType = CreditCardMutationSuccess | CreditCardMutationFailure
+
+type Mutation {
+  # Create a credit card
+  createCreditCard(input: CreditCardInput!): CreditCardMutationType
+}
+```
+
+This has all of the same advantages as above, but that you can also customise the Error object to fit the domain of
+the mutation. For example, when working with forms the API can pass back the name and reasons for failing field
+validations.
+
+## Partial Types over nullability
+
+When you have data that can be partially completed, or in a draft stage, consider using the type system to your
+advantage. For example - take [submitting a consignment](https://www.artsy.net/consign) as an example. During the
+user's drafting phase, you can use an object with all of the fields that need to be filled in as nullable:
+
+```graphql
+type ConsignmentDraft {
+  title: String
+  location: String
+  category: String
+
+  # This is optional
+  signatureExplanation: String
+}
+```
+
+Which gives a time for the user to fill out all these different fields over time. Then, when submitting the object,
+and storing it for long-term, switch it's type:
+
+```graphql
+type ConsignmentSubmission {
+  title: String!
+  location: String!
+  category: String!
+
+  # This is still optional
+  signatureExplanation: String
+}
+```
+
+This means clients can make stronger assumptions about the data they're working with. It can take your server-side
+validation, and allow API clients to rely on your validations when the object has migrated into a finalized state.
+For example:
+
+```graphql
+# A changing, not fully validated version of a Consignment
+type ConsignmentDraft {
+  id: ID
+  title: String
+  location: String
+  category: String
+
+  # This is optional
+  signatureExplanation: String
+}
+
+# A fully-validated Consignment, with non-null versions of the Consignment's inputs
+type ConsignmentSubmission {
+  id: ID
+  title: String!
+  location: String!
+  category: String!
+
+  # This is still optional
+  signatureExplanation: String
+}
+
+# The root query, so the fields you can use in a request
+type Query {
+  # All your finalized consignments, with guaranteed/validated fields
+  submitted: ConsignmentSubmissionConnection!
+
+  # All your WIP consignments that could be half-finished
+  drafts: ConsignmentDraftConnection!
+}
+
+type Mutation {
+  # The input can be incrementally sent, as all the fields are optional
+  draftConsignment(input: ConsignmentDraft!): ConsignmentDraftMutationType
+
+  # Takes the ID of a draft consignment (effectively a mutable consignment
+  # and submits it transforming it into a submission)
+  submitConsignment(id: ID!): ConsignmentSubmissionMutationType
+}
+```
+
+_Note:_ You don't have to structure the data in your database like this. The difference in the resolvers for
+`submitted` and `drafts` could be a lookup for a `state` field on an object being "submitted". The key concept is
+that you can declare something as being after data validation has occurred.
