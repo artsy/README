@@ -6,8 +6,9 @@ Documentation on career progression and management tools
 <!-- start_toc -->
 | Doc | Overview |
 |--|--|
-| [Engineering Principles](/culture/engineering-principles.md#readme) | What are the guiding principles that got us this far |
-| [Communication via Slack](/culture/slack.md#readme) | How do we use use Slack at Artsy |
-| [What is Artsy?](/culture/what-is-artsy.md#readme) | An externally-aimed document on what the company does |
+| [[WIP] Engineering Manager Responsibilities](/careers/engineering-managers.md#readme) | Just a stub right now |
+| [The Artsy Engineering Ladder](/careers/ladder.md#readme) | Career development at Artsy |
+| [[WIP] Project Lead Responsibilities](/careers/project-lead.md#readme) | Just a stub right now |
+| [[WIP] Tech Lead Responsibilities](/careers/tech-lead.md#readme) | Just a stub right now |
 <!-- end_toc -->
 <!-- prettier-ignore-end -->

@@ -41,9 +41,11 @@ readmeFolders.forEach(folder => {
       const subREADMEContents = fs.readFileSync(subREADMEPath, "utf8")
       const headerMetadata = getYAMLHeadline(subREADMEContents).metadata
 
-      const title = headerMetadata.title || `[TODO] add title via yml front-matter to ${subREADMEPath}`
+      const title =
+        (headerMetadata && headerMetadata.title) || `[TODO] add title via yml front-matter to ${subREADMEPath}`
       const description =
-        headerMetadata.description || `[TODO] add description via yml front-matter to ${subREADMEPath}`
+        (headerMetadata && headerMetadata.description) ||
+        `[TODO] add description via yml front-matter to ${subREADMEPath}`
 
       return `| [${title}](/${subREADMEPath}#readme) | ${description} |`
     })
