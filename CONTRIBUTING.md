@@ -2,8 +2,14 @@
 
 This project is work of [many contributors](https://github.com/artsy/README/graphs/contributors).
 
-You're encouraged to submit [pull requests](https://github.com/artsy/README/pulls),
-[propose and discuss issues](https://github.com/artsy/README/issues).
+If you work at [Artsy](https://www.artsy.net), you're encouraged to submit
+[pull requests](https://github.com/artsy/README/pulls), [propose and discuss
+issues](https://github.com/artsy/README/issues).
+
+If you don't work at Artsy, we would love for you to [ask us a question or highlight
+an issue](https://github.com/artsy/README/issues) in our processes, check out
+[our Engineering blog](http://artsy.github.io) or [maybe even consider working with
+us](https://www.artsy.net/jobs) :)
 
 ## Editing README
 
