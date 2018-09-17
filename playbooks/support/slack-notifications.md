@@ -1,5 +1,14 @@
 ## Slack Notifications for Incidents
 
+## macOS
+
+- Open Slack
+- Go to the #incidents channel, hit the star in the top left
+- Click on the cog next to the search, then go to "Notification preferences..."
+- Set the Desktop & Mobile notifications to new messages
+
+## iOS
+
 - Make sure "do not disturb" is turned off on your Phone itself. e.g. you can’t see red on the side of your iPhone
   in that switch.
 - Open slack on iOS
