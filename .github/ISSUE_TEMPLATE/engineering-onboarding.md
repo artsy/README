@@ -43,12 +43,12 @@ _Goal: I can ssh into gravity (staging and production). I can PR to a repo in Ar
 #### Reading/Learning:
 
 - [ ] Take a tour of Artsy. Log into [staging.artsy.net](https://staging.artsy.net) with your admin account (i.e. your `@artsymail.com` account) and click around without fear. Visit each of the top-nav pages. Bid in an auction. Make an inquiry. _Ask your mentor or others for help with any of these concepts. Have them show you CMS and some internal apps, like Ohm or Torque._
-- [ ] Learn how code goes from your local machine --> production. _Talk to your mentor. Have them explain gravity's deployment process. Read about our [staging environment](https://github.com/artsy/gravity/blob/master/doc/StagingEnvironment.md).
-- [ ] Reading: [Working with the API](https://github.com/artsy/potential/blob/master/platform/WorkingWithGravity.md)
+- [ ] Learn how code goes from your local machine --> production. _Talk to your mentor. Have them explain the Gravity, Metaphysics, and/or Force/Reaction deployment process. Read about our [staging environment](https://github.com/artsy/gravity/blob/master/doc/StagingEnvironment.md).
 - [ ] Scan our list of preferred technologies. Dig in where necessary.
   - [ ] [Front-end technologies](https://github.com/artsy/README/blob/master/practices/front-end.md)
   - [ ] [Back-end/Platform technologies](https://github.com/artsy/README/blob/master/practices/platform.md)
   - [ ] iOS/React Native? #TODO
+- [ ] Reading: [Working with the API](https://github.com/artsy/potential/blob/master/platform/WorkingWithGravity.md)
 - [ ] Join the #incidents slack channel and scan through some recent threads
       Read the [support doc](https://github.com/artsy/README/blob/master/playbooks/support.md)
 - [ ] On-call onboarding #TODO
