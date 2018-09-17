@@ -42,7 +42,7 @@ _Goal: I can ssh into gravity (staging and production). I can PR to a repo in Ar
 
 #### Reading/Learning:
 
-- [ ] Take a tour of Artsy. Log into [staging.artsy.net](https://staging.artsy.net) with your admin account and click around without fear. Visit each of the top-nav pages. Bid in an auction. Make an inquiry. _Ask your mentor or others for help with any of these concepts. Have them show you CMS and some internal apps, like Ohm or Torque._
+- [ ] Take a tour of Artsy. Log into [staging.artsy.net](https://staging.artsy.net) with your admin account (i.e. your `@artsymail.com` account) and click around without fear. Visit each of the top-nav pages. Bid in an auction. Make an inquiry. _Ask your mentor or others for help with any of these concepts. Have them show you CMS and some internal apps, like Ohm or Torque._
 - [ ] Learn how code goes from your local machine --> production. _Talk to your mentor. Have them explain gravity's deployment process. Read about our [staging environment](https://github.com/artsy/gravity/blob/master/doc/StagingEnvironment.md).
 - [ ] Reading: [Working with the API](https://github.com/artsy/potential/blob/master/platform/WorkingWithGravity.md)
 - [ ] Scan our list of preferred technologies. Dig in where necessary.
