@@ -112,6 +112,15 @@ From
 > (if anything,
 > [watch this amazing video](https://www.artsy.net/article/artsy-editorial-behind-the-venice-biennale-2015-a-short-history-of-the-world-s-most-important-art-exhibition)).
 
+### How does the Engineering team work?
+
+We've documented what we consider to be our
+[Engineering principles](https://github.com/artsy/README/blob/master/culture/engineering-principles.md), which help
+differentiate our team from other Engineering orgs.
+
+If you're interested in what we've got up to since 2011? Check out the
+[highlights](https://github.com/artsy/README/blob/master/culture/highlights.md).
+
 ### How/why do you produce so much OSS?
 
 We bake it into our engineering team culture. I'll quote the
