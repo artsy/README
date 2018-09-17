@@ -51,7 +51,6 @@ _Goal: I can ssh into gravity (staging and production). I can PR to a repo in Ar
   - [ ] iOS/React Native? #TODO
 - [ ] Reading: [Best of Our Blog](https://github.com/artsy/README/blob/master/recommendations/blog.md)
 - [ ] Reading: [Internal and external tech learning resources](https://github.com/artsy/README/blob/master/recommendations/tech-learning.md)
-- [ ] Reading: [Working with the API](https://github.com/artsy/potential/blob/master/platform/WorkingWithGravity.md)
 - [ ] Join the #incidents slack channel and scan through some recent threads
       Read the [support doc](https://github.com/artsy/README/blob/master/playbooks/support.md)
 - [ ] On-call onboarding #TODO
