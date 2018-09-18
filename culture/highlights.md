@@ -29,7 +29,7 @@ This is very much a living document, and likely missing things. so, please send 
 - Jan 2014 - Artsy's partner CMS: Volt is [is started][volt-start] 🔒
 - Feb 2014 - [Artworks][grav_artworks] 🔒, [Genes and tags][grav_genes] 🔒, [Shows and Orders][grav_shows] 🔒 are
   removed from Gravity
-- Mar 2014 - Fairs were re-designed in Eigen [with maps]][eig_map]/Force for [Armory 2014][arm] - [press][arm-pr]
+- Mar 2014 - Fairs were re-designed in Eigen [with maps][eig_map] / Force for [Armory 2014][arm] - [press][arm-pr]
 - Mar 2014 - For Fairs on-site, we created [monoliths][monoliths] and [forgetsy][forgetsy]
 - Mar 2014 - Skrillex added to force, ASCII mode added to Eigen
   <a href="https://twitter.com/dblockdotorg/status/720760851783884800"><img src="https://user-images.githubusercontent.com/49038/39097791-55938788-4659-11e8-8f73-53c3480bfb15.png" height=12></a>
