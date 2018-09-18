@@ -22,17 +22,23 @@ This is very much a living document, and likely missing things. so, please send 
 - Oct 2013 - Artsy's first [benefit auction][auction_benefit] is launched
 - Nov 2013 - Artsy's Website: Force [is started][force-start] 🔒
 - Nov 2013 - Force starts receiving [network requests][force-network] 🔒
+- Nov 2013 - Doge added to force
+  <a href="https://twitter.com/dblockdotorg/status/404986159949811712"><img src="https://user-images.githubusercontent.com/49038/39097791-55938788-4659-11e8-8f73-53c3480bfb15.png" height=12></a>
 - Jan 2014 - Artsy ships its first annual review - [site][2013_site] | [code][2013_code]
 - Jan 2014 - Artsy's partner CMS: Volt is [is started][volt-start] 🔒
 - Feb 2014 - [Artworks][grav_artworks] 🔒, [Genes and tags][grav_genes] 🔒, [Shows and Orders][grav_shows] 🔒 are
   removed from Gravity
-- Mar 2014 - Fairs were re-designed in Eigen/Force, [monoliths][monoliths] were created for [Armory 2014][arm] -
-  [press][arm-pr]
+- Mar 2014 - Fairs were re-designed in [Eigen][eig_map]/Force, [monoliths][monoliths] were created for [Armory
+  2014][arm] - [press][arm-pr]
+- Mar 2014 - Skrillex added to force, ASCII mode added to Eigen
+  <a href="https://twitter.com/dblockdotorg/status/720760851783884800"><img src="https://user-images.githubusercontent.com/49038/39097791-55938788-4659-11e8-8f73-53c3480bfb15.png" height=12></a>
+  <a href="https://twitter.com/dblockdotorg/status/447337278600642560"><img src="https://user-images.githubusercontent.com/49038/39097791-55938788-4659-11e8-8f73-53c3480bfb15.png" height=12></a>
 - Apr 2014 - Our first write-up [on using React][helix-react]
 - Jul 2014 - [API v2 started][v2] 🔒
 - Aug 2014 - [Force has a public fork][force_pub], making it the first open source front-end app
 - Aug 2014 - Work starts [on Eidolon][eidolon], the first OSS by Default iOS app
 - Aug 2014 - [API v2 announced][v2_announce] publicly
+- Aug 2014 - Engineering starts a [security bounty][security]
 - Sep 2014 - Artsy's editorial API and CMS: Positron [is created][positron]
 - Jan 2015 - Eigen [turns OSS by Default][oss_eigen]
 - May 2015 - [Posts are removed][remove_posts] 🔒 from Gravity, in favour of Positron
@@ -42,13 +48,16 @@ This is very much a living document, and likely missing things. so, please send 
 - Apr 2015 - Auctions are [re-created][auctions-2] for our first auction with Sotheby's
 - Jul 2015 - Eigen becomes the [center of all docs][eigen_dym] on slow launch speeds in iOS apps using Swift
 - Jul 2015 - Engineering re-orgs into practices: Platform, Web & Mobile
+- Jul 2015 - We start to [declare ourselves moving to OSS][move_oss] by Default internally
 - Aug 2015 - [Team Navigator v1][team_1] starts out as a hackathon project
 - Aug 2015 - Energy [becomes OSS by Default][energy_oss], moving all of the iOS projects to be OSS
+  <a href="https://twitter.com/ArtsyOpenSource/status/629360596513910788"><img src="https://user-images.githubusercontent.com/49038/39097791-55938788-4659-11e8-8f73-53c3480bfb15.png" height=12></a>
 - Sep 2015 - Artsy's mobile website is used in Apple marketing
-  <a href=" https://twitter.com/dblockdotorg/status/641697132639072257"><img src="https://user-images.githubusercontent.com/49038/39097791-55938788-4659-11e8-8f73-53c3480bfb15.png" height=12></a>
+  <a href="https://twitter.com/dblockdotorg/status/641697132639072257"><img src="https://user-images.githubusercontent.com/49038/39097791-55938788-4659-11e8-8f73-53c3480bfb15.png" height=12></a>
 - Sep 2015 - Artsy's auction live bidding engine: Causality [is started][caus_init]
+- Sep 2015 - The Art Genome Project's [genes and definitions][tagp] are made public
 - Oct 2015 - Artsy ships a tvOS app to the App Store
-  <a href=" https://twitter.com/dblockdotorg/status/657267075979812865"><img src="https://user-images.githubusercontent.com/49038/39097791-55938788-4659-11e8-8f73-53c3480bfb15.png" height=12></a>
+  <a href="https://twitter.com/dblockdotorg/status/657267075979812865"><img src="https://user-images.githubusercontent.com/49038/39097791-55938788-4659-11e8-8f73-53c3480bfb15.png" height=12></a>
   | [code][emerge]
 - Nov 2015 - Artsy's GraphQL API gateway: Metaphysics [is created][mp]
 - Jan 2016 - Engineering [teaches Swift][teach-swift] to non-technical + technical colleagues
@@ -59,10 +68,11 @@ This is very much a living document, and likely missing things. so, please send 
   and Platform - [email][reorg2] 🔒
 - May 2016 - Emission is [used in Eigen][emission]
 - Jun 2016 - First live auction [in production][auction-pr] with Eigen, Force, Prediction and Causality
-  <a href=" https://twitter.com/dblockdotorg/status/747786883913101316"><img src="https://user-images.githubusercontent.com/49038/39097791-55938788-4659-11e8-8f73-53c3480bfb15.png" height=12></a>
+  <a href="https://twitter.com/dblockdotorg/status/747786883913101316"><img src="https://user-images.githubusercontent.com/49038/39097791-55938788-4659-11e8-8f73-53c3480bfb15.png" height=12></a>
 - Jun 2016 - Artsy gets its first queuing system [with Kafka][kafka] 🔒
 - Aug 2016 - Force is made [OSS by Default][force-oss] - moving all front-end code to be OSS.
 - Oct 2016 - Gravity's auth tokens turn [into JWTs][jwts] 🔒 - [post][jwt-blog]
+- Jan 2017 - We switch from Kafka [to RabbitMQ][rabbit] 🔒
 - Feb 2017 - Artsy's consignments app: Convection [is created][conv]
 - Feb 2017 - Artsy's web react components library: Reaction [is created][reaction_init]
 - Feb 2017 - Microgravity and Force [are merged][micro-end], now there is only one website
@@ -166,3 +176,8 @@ This is very much a living document, and likely missing things. so, please send 
 [grav_genes]: https://github.com/artsy/gravity/pull/7301
 [grav_shows]: https://github.com/artsy/gravity/pull/7148
 [auction-pr]: http://files.artsy.net/documents/live-auction-integration.pdf
+[rabbit]: https://github.com/artsy/gravity/pull/10721
+[tagp]: https://github.com/artsy/the-art-genome-project
+[move_oss]: https://vimeo.com/136554627
+[security]: https://www.artsy.net/security
+[eig_map]: https://code.dblock.org/2014/03/19/mapping-and-tiling-on-ios.html
