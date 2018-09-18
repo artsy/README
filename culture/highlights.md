@@ -7,7 +7,7 @@ description: What are the PRs/releases/ideas that got us to where we are?
 
 This is very much a living document, and likely missing things. so, please send PRs adding new (or old) events.
 
-- Jan 2011 - Artsy's API: Gravity is [`git init`][grav_init]'d 🔒
+- Jan 2011 - Artsy's API: Gravity was [`git init`][grav_init]'d 🔒
 - Oct 2012 - Artsy launches to [the public][nyt]
 - Jan 2012 - ["Hello World"][blog], we start off the Artsy blog
 - Feb 2012 - We move to [401 Broadway][401] 🔒
@@ -20,7 +20,7 @@ This is very much a living document, and likely missing things. so, please send 
 - Aug 2013 - Gravity moves [to OpsWorks][opsworks]
 - Sep 2013 - Eigen is released to the App Store
 - Oct 2013 - Artsy's first [benefit auction][auction_benefit] is launched
-- Nov 2013 - Artsy's Website: Force [is started][force-start] 🔒
+- Nov 2013 - Artsy's Website: Force [is started][force-start] 🔒 - beginning the start of splitting gravity
 - Nov 2013 - Force starts receiving [network requests][force-network] 🔒
 - Nov 2013 - Doge added to force
   <a href="https://twitter.com/dblockdotorg/status/404986159949811712"><img src="https://user-images.githubusercontent.com/49038/39097791-55938788-4659-11e8-8f73-53c3480bfb15.png" height=12></a>
@@ -28,8 +28,8 @@ This is very much a living document, and likely missing things. so, please send 
 - Jan 2014 - Artsy's partner CMS: Volt is [is started][volt-start] 🔒
 - Feb 2014 - [Artworks][grav_artworks] 🔒, [Genes and tags][grav_genes] 🔒, [Shows and Orders][grav_shows] 🔒 are
   removed from Gravity
-- Mar 2014 - Fairs were re-designed in [Eigen][eig_map]/Force, [monoliths][monoliths] were created for [Armory
-  2014][arm] - [press][arm-pr]
+- Mar 2014 - Fairs were re-designed in Eigen [with maps]][eig_map]/Force for [Armory 2014][arm] - [press][arm-pr]
+- Mar 2014 - For Fairs on-site, we created [monoliths][monoliths] and [forgetsy][forgetsy]
 - Mar 2014 - Skrillex added to force, ASCII mode added to Eigen
   <a href="https://twitter.com/dblockdotorg/status/720760851783884800"><img src="https://user-images.githubusercontent.com/49038/39097791-55938788-4659-11e8-8f73-53c3480bfb15.png" height=12></a>
   <a href="https://twitter.com/dblockdotorg/status/447337278600642560"><img src="https://user-images.githubusercontent.com/49038/39097791-55938788-4659-11e8-8f73-53c3480bfb15.png" height=12></a>
@@ -46,6 +46,7 @@ This is very much a living document, and likely missing things. so, please send 
 - Mar 2015 - Artsy [starts][peerlab-start] hosting a [peer lab][peer] every saturday morning
 - May 2015 - Artsy's initial team documentation repo: Potential [is created][pot_init] 🔒
 - Apr 2015 - Auctions are [re-created][auctions-2] for our first auction with Sotheby's
+- Apr 2015 - The Engineering ladder is [made public][ladder] (it's now [in README][ladder2])
 - Jul 2015 - Eigen becomes the [center of all docs][eigen_dym] on slow launch speeds in iOS apps using Swift
 - Jul 2015 - Engineering re-orgs into practices: Platform, Web & Mobile
 - Jul 2015 - We start to [declare ourselves moving to OSS][move_oss] by Default internally
@@ -181,3 +182,6 @@ This is very much a living document, and likely missing things. so, please send 
 [move_oss]: https://vimeo.com/136554627
 [security]: https://www.artsy.net/security
 [eig_map]: https://code.dblock.org/2014/03/19/mapping-and-tiling-on-ios.html
+[forgetsy]: http://artsy.github.io/blog/2014/03/17/detecting-trends-with-forgetsy/
+[ladder]: http://artsy.github.io/blog/2015/04/03/artsy-engineering-compensation-framework/
+[ladder2]: https://github.com/artsy/README/blob/master/careers/ladder.md
