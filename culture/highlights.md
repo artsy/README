@@ -24,7 +24,7 @@ This is very much a living document, and likely missing things. so, please send 
 - Nov 2013 - Force starts receiving [network requests][force-network] 🔒
 - Jan 2014 - Artsy ships its first annual review - [site][2013_site] | [code][2013_code]
 - Jan 2014 - Artsy's partner CMS: Volt is [is started][volt-start] 🔒
-- Feb 2014 - [Artworks][grav_artworks] 🔒, [Genes and tags][grav_tags] 🔒, [Shows and Orders][grav_shows] 🔒 are
+- Feb 2014 - [Artworks][grav_artworks] 🔒, [Genes and tags][grav_genes] 🔒, [Shows and Orders][grav_shows] 🔒 are
   removed from Gravity
 - Mar 2014 - Fairs were re-designed in Eigen/Force, [monoliths][monoliths] were created for [Armory 2014][arm] -
   [press][arm-pr]
