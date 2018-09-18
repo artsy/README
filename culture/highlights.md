@@ -13,10 +13,11 @@ This is very much a living document, and likely missing things. so, please send 
 - Feb 2012 - We move to [401 Broadway][401] 🔒
 - Feb 2012 - Artsy's partner portfolio app: Energy [is released][energy_1] 🔒 to the App Store
 - Sep 2012 - The first ["Artsy Tech Stack"][ts1] post, [series][tech-series]
+- Oct 2012 - Order/Purchase are [modeled][auctions-model] 🔒 in Gravity
 - Nov 2012 - Artsy's iOS app: Eigen is [`git init`][eigen_init]d 🔒
 - Jan 2013 - `art.sy` [->][art_sy] 🔒 `artsy.net`
 - Jul 2013 - Artsy's mobile website: Microgravity [is started][micro-start] 🔒
-- Aug 2013 - Started [modeling Auctions data][auctions-model] 🔒
+- Aug 2013 - Auctions are [modeled][auctions-model] 🔒 in Gravity
 - Aug 2013 - Gravity moves [to OpsWorks][opsworks]
 - Sep 2013 - Eigen is released to the App Store
 - Oct 2013 - Artsy's first [benefit auction][auction_benefit] is launched
@@ -63,6 +64,8 @@ This is very much a living document, and likely missing things. so, please send 
 - Nov 2015 - Artsy's GraphQL API gateway: Metaphysics [is created][mp]
 - Jan 2016 - Engineering [teaches Swift][teach-swift] to non-technical + technical colleagues
 - Jan 2016 - Danger is [added to Eigen][danger]
+- Jan 2016 - Analytics are removed from Gravity by [deprecating MASS][mass] 🔒
+- Jan 2016 - Data pipelining starts moving to spark via [cinder][cinder] 🔒
 - Feb 2016 - Artsy's React Native component library: Emission [is created][emission_init]
 - Feb 2016 - Gravity moves [to Puma][puma] 🔒
 - Mar 2016 - Engineering re-orgs into Auctions, Collector Experience & GMV, Partner Success & Revenue, Publishing
@@ -98,6 +101,7 @@ This is very much a living document, and likely missing things. so, please send 
 - Aug 2018 - Engineering's engineering principles doc [is created][principles]
 - Aug 2018 - Artsy's public docs repo [is created][readme_init] - [RFC][docs_rfc] 🔒
 - Sep 2018 - The Artsy Omakase's name [is decided][oma_rfc]
+- Sep 2018 - Engineering highlights [are created][this_pr]
 
 <!-- prettier-ignore-start -->
 [helix-react]: http://artsy.github.io/blog/2015/04/08/creating-a-dynamic-single-page-app-for-our-genome-team-using-react/
@@ -185,3 +189,6 @@ This is very much a living document, and likely missing things. so, please send 
 [forgetsy]: http://artsy.github.io/blog/2014/03/17/detecting-trends-with-forgetsy/
 [ladder]: http://artsy.github.io/blog/2015/04/03/artsy-engineering-compensation-framework/
 [ladder2]: https://github.com/artsy/README/blob/master/careers/ladder.md
+[mass]: https://github.com/artsy/gravity/pull/9480
+[cinder]: https://github.com/artsy/cinder#cinder
+[this_pr]: https://github.com/artsy/README/pull/50
