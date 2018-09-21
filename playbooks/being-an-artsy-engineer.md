@@ -79,6 +79,10 @@ Sometimes bad commit messages aren't apparent until later. Feel free to
 [squash](https://github.com/blog/2141-squash-your-commits) and rewrite commits on your working branch (even when
 it's in pull request form).
 
+### Testing
+
+Artsy uses a range of testing libraries and others to ensure that code is stable and can withstand changes throughout the app over time. New code should employ unit as well as integration tests wherever possible. Tests also give your code the added benefit of self documenting, as other teammates can easily deduce intent and functionality from a well-written test suite.
+
 ### Pull requests
 
 The best pull requests start with good [commits](#commits). If commits are a unit of incremental, coherent change,
@@ -240,8 +244,6 @@ WIP
 ## Analytics
 
 ## Metrics
-
-## Testing
 
 ## Monitoring
 
