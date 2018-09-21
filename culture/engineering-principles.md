@@ -6,8 +6,8 @@ description: What are the guiding principles that got us this far
 # Engineering Principles
 
 We have [company values][values], and are working on our shared values with design and product. However,
-when we make decisions on what and how to do engineering, we need guiding principles. Things that make Artsy's
-development culture unique and drive us to do great work.
+when we make decisions on what and how to do engineering, we need guiding principles. These are the things that make Artsy's
+development culture unique and drive us to do great work; you can read about the process of defining our guiding engineering principles in [this blog post][blog].
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -232,3 +232,4 @@ project. It's done.
 [eigen]: https://github.com/artsy/eigen
 [mp]: https://github.com/artsy/metaphysics
 [values]: https://github.com/artsy/README/blob/master/culture/what-is-artsy.md#artsy-in-a-nutshell
+[blog]: http://artsy.github.io/blog/2018/08/22/engineering-guiding-principles/
