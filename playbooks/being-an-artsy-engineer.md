@@ -120,6 +120,10 @@ Further reading:
 - [On empathy and pull requests](https://slack.engineering/on-empathy-pull-requests-979e4257d158)
 - [Rules of communicating at GitHub](http://ben.balter.com/2014/11/06/rules-of-communicating-at-github/)
 
+### Testing
+
+Artsy uses a range of testing libraries to ensure that code is stable and able to withstand changes throughout the app over time. New code should employ unit as well as integration tests wherever possible. Thorough tests also have added benefit of easily documenting code, as other teammates can easily deduce intent and functionality from a well-written test suite.
+
 ## Continuous improvement
 
 Artsy exists in a changing business environment and is itself building a shifting suite of services. Even over its
@@ -242,8 +246,6 @@ WIP
 ## Metrics
 
 ## Monitoring
-
-## Testing
 
 ## Alerting
 
