@@ -5,13 +5,13 @@ description: What are the guiding principles that got us this far
 
 # Engineering Principles
 
-We have [company values][values], and are working on our shared values with design and product. However,
-when we make decisions on what and how to do engineering, we need guiding principles. These are the things that make Artsy's
-development culture unique and drive us to do great work; you can read about the process of defining our guiding engineering principles in [this blog post][blog].
+We have [company values][values], and are working on our shared values with design and product. However, when we
+make decisions on what and how to do engineering, we need guiding principles. These are the things that make
+Artsy's development culture unique and that drive us to do great work. For more information on how and why we
+defined our engineering guiding principles, check out [this blog post][blog].
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 
 - [Open Source by Default](#open-source-by-default)
 - [Psychological Safety](#psychological-safety)
