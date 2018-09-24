@@ -60,7 +60,7 @@ _CTO Update_
 
 -
 
-_Product Team Updates_
+_Product Manager Updates_
 
 -
 
