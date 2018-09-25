@@ -96,19 +96,19 @@ _See also [Frontend-iOS Practice Resources](#frontend-ios-practice) below_
 
 ### Frontend Practice
 
-| Name                                              | Description                                                                                                              |
-| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| [[A.] JavaScriptures][javascriptures]             | A series of Artsy workshops covering our 2018 frontend stack: Js, TypeScript, React, Relay and more                      |
-| [[A.] Is GraphQL the future?][is_graphql]         | Thoughts from Artsy Alum Alan Johnson                                                                                    |
-| [Getting Started- React][getting_started_react]   | From the official react docs                                                                                             |
-| [React Patterns][react_patterns]                  | A rundown on clean & effective react syntax                                                                              |
-| [How to pass props to components in React][props] | Key to understanding React as a whole                                                                                    |
-| [Learn GraphQL][learn_gql]                        | "GraphQL is a query language for your API" - specify only the data you need in the shape that works for your application |
-| [Relay][relay]                                    | Define your components' api dependencies in the same file and let relay request them automatically via GraphQL           |
-| [Redux - Egghead.io][redux_egghead]               | [subscription required] An introduction to Redux with creator Dan Abramov                                                |
-| [A Gist about Jest and Enzyme][jest_enz]          | Difference between `shallow`, `mount` and `render` of Enzyme                                                             |
-| [TypeScript Deep Dive][ts_dive]                   | Get to the part where TypeScript feels good quicker                                                                      |
-| []()                                              |                                                                                                                          |
+| Name                                               | Description                                                                                                              |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| [[A.] JavaScriptures][javascriptures]              | A series of Artsy workshops covering our 2018 frontend stack: Js, TypeScript, React, Relay and more                      |
+| [[A.] Is GraphQL the future?][is_graphql]          | Thoughts from Artsy Alum Alan Johnson                                                                                    |
+| [Getting Started- React][getting_started_react]    | From the official react docs                                                                                             |
+| [React Patterns][react_patterns]                   | A rundown on clean & effective react syntax                                                                              |
+| [How to pass props to components in React][props]  | Key to understanding React as a whole                                                                                    |
+| [Learn GraphQL][learn_gql]                         | "GraphQL is a query language for your API" - specify only the data you need in the shape that works for your application |
+| [Relay][relay]                                     | Define your components' api dependencies in the same file and let relay request them automatically via GraphQL           |
+| [Redux - Egghead.io][redux_egghead]                | [subscription required] An introduction to Redux with creator Dan Abramov                                                |
+| [A Gist about Jest and Enzyme][jest_enz]           | Difference between `shallow`, `mount` and `render` of Enzyme                                                             |
+| [TypeScript Deep Dive][ts_dive]                    | Get to the part where TypeScript feels good quicker                                                                      |
+| [The hidden power of Jest matchers][jest_matchers] | Check out all the cool matchers built into Jest                                                                          |
 
 ### Frontend iOS Practice
 
@@ -150,3 +150,4 @@ _See also [JavaScript](#javascript-+-nodejs) & [Swift + Objective C](#swift-+-ob
 [jest_enz]: https://gist.github.com/fokusferit/e4558d384e4e9cab95d04e5f35d4f913
 [ts_dive]: https://basarat.gitbooks.io/typescript
 [rn]: https://facebook.github.io/react-native
+[jest_matchers]: https://medium.com/@boriscoder/the-hidden-power-of-jest-matchers-f3d86d8101b0

@@ -22,13 +22,13 @@ practice should be incorporated, submit a PR!
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [Working together](#working-together)
   - [Project Management](#project-management)
   - [Workflow](#workflow)
     - [Fork-and-branch](#fork-and-branch)
     - [Commits](#commits)
     - [Pull requests](#pull-requests)
+    - [Testing](#testing)
   - [Continuous improvement](#continuous-improvement)
   - [Coordinating between teams](#coordinating-between-teams)
   - [Documentation](#documentation)
@@ -122,7 +122,10 @@ Further reading:
 
 ### Testing
 
-Artsy uses a range of testing libraries to ensure that code is stable and able to withstand changes throughout the app over time. New code should employ unit as well as integration tests wherever possible. Thorough tests also have added benefit of easily documenting code, as other teammates can easily deduce intent and functionality from a well-written test suite.
+Artsy uses a range of testing libraries to ensure that code is stable and able to withstand changes throughout the
+app over time. New code should employ unit as well as integration tests wherever possible. Thorough tests also have
+added benefit of easily documenting code, as other teammates can easily deduce intent and functionality from a
+well-written test suite.
 
 ## Continuous improvement
 
