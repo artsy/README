@@ -23,7 +23,35 @@ There are a few other useful dev-related slacks:
 - [#dev-banter](https://artsy.slack.com/messages/dev-banter): For chatting with developers, not about work.
 - [#dev-candidates](https://artsy.slack.com/messages/dev-candidates): If you want to be involved in hiring.
 
-There are a lot of topic specific channels for your product team and practices. You;ll find these out organically.
+There are a lot of topic specific channels for your product team and practices. You'll find these out organically.
+
+Beyond team-specific channels, and beyond Engineering, Artsy has a culture that supports many interests and
+hobbies. That culture manifests itself in our Slack channels, too. Here is a sample list of interesting,
+[banter-y Slack channels](https://artsy.slack.com/archives/C02531TUD/p1533749286000516) you might want to check
+out:
+
+- [#cabort-bookclub](https://artsy.slack.com/messages/cabort-bookclub) is a sci-fi book club
+- [#video-games](https://artsy.slack.com/messages/video-games) for video games
+- [#cats](https://artsy.slack.com/messages/cats) for cat-lovers
+- [#dogs](https://artsy.slack.com/messages/dogs) for dog-lovers
+- [#teamcanada](https://artsy.slack.com/messages/teamcanada) for Canadians and Canadian-adjacent people
+- [#hotpot](https://artsy.slack.com/messages/hotpot) for organizing hotpot dinners in Chinatown, next door to the
+  office
+- [#vr](https://artsy.slack.com/messages/vr) for virtual reality
+- [#aotd](https://artsy.slack.com/messages/aotd) is "Artwork of the Day", a good place to chat about art
+- [#extreme-bevvies](https://artsy.slack.com/messages/extreme-bevvies) is for extreme beverages (started with
+  Soylent but has evolved a lot since)
+- [#house-plants](https://artsy.slack.com/messages/house-plants) for house plants (conversations, questions, asking
+  for help)
+- [#karaoke](https://artsy.slack.com/messages/karaoke) for organizing karaoke outings
+- [#samplesales](https://artsy.slack.com/messages/sameplsales) to coordinate around sample sales, a staple of NYC
+  and of Tribeca particularly
+- [#android](https://artsy.slack.com/messages/android) for Android-lovers
+- [#anime](https://artsy.slack.com/messages/anime) for anime-lovers
+- [#yelling](https://artsy.slack.com/messages/yelling) is a CAPS-ONLY channel
+- [#coffeetalk](https://artsy.slack.com/messages/coffeetalk) for chat about coffee
+- [#jam-session](https://artsy.slack.com/messages/jam-session) for musicians at Artsy to plan monthly after-work
+  jam-sessions
 
 ### Tips and Tricks
 
