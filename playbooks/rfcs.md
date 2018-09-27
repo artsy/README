@@ -67,6 +67,8 @@ Create an issue, and work from this template:
 
 Give a week.
 
+### Resolution
+
 Resolve the RFC, you can work with this template:
 
     ## Resolution
