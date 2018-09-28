@@ -5,7 +5,7 @@ description: The getting started guides
 
 # Tech Learning
 
-We often hear that learning to google (or perhaps [DuckDuckGo](www.duckduckgo.com)) and use stack overflow are the
+We often hear that learning to google (or perhaps [DuckDuckGo](https://duckduckgo.com/)) and use stack overflow are the
 most important core competencies of any programmer, but growth and learning happen best outside the vacuum of the
 internet. This page is a list of the engineering team's favorite resources -tutorials, essays, starting points and
 general thoughts- on a variety of programming topics.
