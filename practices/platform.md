@@ -32,7 +32,7 @@ A lot of platform practice documentation is inside
 
 Artsy's favorite resources (including those of the platform team) are in [Tech Learning](/recommendations/tech_learning.md#platform-practice)
 
-- [AWS](https://github.com/artsy/potential/blob/master/platform/AWS.md)
+- [AWS](https://github.com/artsy/potential/blob/master/platform/AWS.md) ([AWS login](https://artsy.signin.aws.amazon.com/console))
 - [Configuration Management](https://github.com/artsy/potential/blob/master/platform/ConfigurationManagement.md)
 - [Domain Models](https://github.com/artsy/potential/blob/master/platform/DomainModels.md)
 - [Messaging](https://github.com/artsy/potential/blob/master/platform/Messaging.md)
