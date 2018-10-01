@@ -15,20 +15,25 @@ _Goal: I can ssh into gravity (staging and production). I can PR to a repo in Ar
 ### First week checklist
 
 #### Dev environment:
-
+_Remember to review *all* setup scripts before executing them :)_
 - [ ] Get invited to the Artsy Github org
   _Ask your mentor or another engineer for help, or log into github using the it@artsymail.com account in 1Password and add yourself._
-- [ ] Set up your general dev environment (download your favorite text editor, terminal application, etc.) _If you don't have a favorite, ask for advice but we'll probably tell you to install vscode._
-- [ ] Download [Jasper App](https://jasperapp.io/); this will help you manage GitHub interactions.  
-- [ ] Read the script in https://github.com/artsy/potential/blob/master/scripts/setup for initial setup. Confirm how you want to configure it (ask questions if you're unsure about the options), and run it on your computer.
-- [ ] Set up (some) of our most critical projects
-  - [ ] Gravity (#platform-humans)
+- [ ] Set up your general dev environment (download your favorite text editor, terminal application, etc.) _If you don't have a favorite, ask for advice- by default the initial developer setup script below will install and configure vscode._
+- [ ] Set up a baseline development environment:
+  - [ ] _Optional:_ Some Artsy engineers have used [strap](https://github.com/MikeMcQuaid/strap) to automate an initial, unopinionated setup (applying updates, activating xcode command line tools & encryption, etc) and avoid some later gotchas.
+  - [ ] Artsy Engineering's [initial developer setup](https://github.com/artsy/potential/blob/master/scripts/setup) provides a base for many artsy projects. Confirm how you want to configure it (ask questions if you're unsure about the options), and run it on your computer.
+- [ ] Set up (some) of our most critical projects:
+  - [ ] Gravity (#product-platform)
   - [ ] Force (#front-end)
   - [ ] Metaphysics (#front-end)
   - [ ] Volt (#product-sell)
   - [ ] Reaction (#front-end)
   - [ ] Emission (#front-end-ios)
     _For each of these, follow the instructions in the README. If you encounter problems, it’s not your fault! Ask in the appropriate slack channels (always default to #dev if you don’t know) for help and PR clarifying changes._
+- [ ] While scripts run, consider installing some common engineering tools:
+  - [ ] [Jasper App](https://jasperapp.io/); this will help you manage GitHub interactions.
+  - [ ] [Insomnia](https://insomnia.rest/) an API client that works for graphql and REST endpoints.
+  - [ ] [Docker for Mac](https://docs.docker.com/docker-for-mac/install/)
 - [ ] Make a PR to an Artsy repo.
 - [ ] Keep your eye out for ways to improve our documentation-- including in this repo! A code change is great, but improving documentation (in _whatever_ little way) with your fresh set of eyes helps us help the next person onboarding. We emphatically do not underestimate it, this is _real_ work!
 - [ ] Ask an engineer for help getting set up with an AWS account. Follow the instructions in https://github.com/artsy/hokusai for getting set up with hokusai.
