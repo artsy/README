@@ -168,14 +168,23 @@ with. People reporting problems are still learning the process too, so a respons
 This can be a lot more effective, and more in-line with Artsy's values, than "What you've reported isn't an
 incident, talk to your PM." Remember, we're all on the same team!
 
+### Incidents
+
+- Multiple simultaneous Intercom support requests from partners (payments not succeeding, login failures)
+- Auction artworks are not available before auction open
+- _Any_ automated alert that shows up in #incidents
+
 ### Non-incidents
 
 - Charge details for partners need updating
 - Single partner cannot access CMS
 - Artwork appearance on site ("How come it's not showing up in...")
 
-### Incidents
+### Urgent Non-incident
 
-- Multiple simultaneous Intercom support requests from partners (payments not succeeding, login failures)
-- Auction artworks are not available before auction open
-- _Any_ automated alert that shows up in #incidents
+- An auction bid which needs changing before an auction
+- [...]
+
+For issues like this it's best to contact the related PM, to ask for their advice. This is so that we can 
+have a consistent voice across many support engineers and can raise awareness of how to fix these with tools.
+If you are struggling to decide 
