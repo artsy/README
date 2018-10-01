@@ -36,7 +36,7 @@ suggest either doing every other day or first half/second half.
 While on-call, you are accountable for investigating and fixing timely issues, escalating to additional
 point-people and/or routing to team-specific backlogs where appropriate.
 
-Your top priority during an on-call period is to address critical issues. Use your judgment about participating in
+Your top priority during an on-call period is to address critical issues. Use your judgement about participating in
 ongoing sprint and team activities.
 
 #### 1. Be available to answer requests and respond to immediate issues
