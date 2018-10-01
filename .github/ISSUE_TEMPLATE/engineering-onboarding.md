@@ -19,8 +19,8 @@ _Remember to review *all* setup scripts before executing them :)_
 - [ ] Get invited to the Artsy Github org
   _Ask your mentor or another engineer for help, or log into github using the it@artsymail.com account in 1Password and add yourself._
 - [ ] Set up your general dev environment (download your favorite text editor, terminal application, etc.) _If you don't have a favorite, ask for advice- by default the initial developer setup script below will install and configure vscode._
-- [ ] Set a baseline development environment:
-  - [ ] _Optional:_ Some Artsy engineers have used [strap](https://github.com/MikeMcQuaid/strap) to automate an inital, unopinionated setup (applying updates, activating xcode command line tools & encryption, etc) and avoid some later gotchas.
+- [ ] Set up a baseline development environment:
+  - [ ] _Optional:_ Some Artsy engineers have used [strap](https://github.com/MikeMcQuaid/strap) to automate an initial, unopinionated setup (applying updates, activating xcode command line tools & encryption, etc) and avoid some later gotchas.
   - [ ] Artsy Engineering's [initial developer setup](https://github.com/artsy/potential/blob/master/scripts/setup) provides a base for many artsy projects. Confirm how you want to configure it (ask questions if you're unsure about the options), and run it on your computer.
 - [ ] Set up (some) of our most critical projects:
   - [ ] Gravity (#product-platform)
