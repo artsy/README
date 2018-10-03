@@ -54,8 +54,8 @@ _Remember to review *all* setup scripts before executing them :)_
   - [ ] [Front-end technologies](https://github.com/artsy/README/blob/master/practices/front-end.md)
   - [ ] [Back-end/Platform technologies](https://github.com/artsy/README/blob/master/practices/platform.md)
   - [ ] iOS/React Native? #TODO
-- [ ] Reading: [Best of Our Blog](https://github.com/artsy/README/blob/master/recommendations/blog.md)
-- [ ] Reading: [Internal and external tech learning resources](https://github.com/artsy/README/blob/master/recommendations/tech-learning.md)
+- [ ] Reading: [Best of Our Blog](https://github.com/artsy/README/blob/master/resources/blog.md)
+- [ ] Reading: [Internal and external tech learning resources](https://github.com/artsy/README/blob/master/resources/tech-learning.md)
 - [ ] Join the #incidents slack channel and scan through some recent threads
       Read the [support doc](https://github.com/artsy/README/blob/master/playbooks/support.md)
 - [ ] On-call onboarding #TODO

@@ -23,7 +23,7 @@ We split this repo out into different sections, each one has a summary of what's
 | [Onboarding Notes for New Engineers](/onboarding#readme) | Your first steps to being productive |
 | [Playbooks](/playbooks#readme) | How we get stuff done. |
 | [Engineering Practices](/practices#readme) | How do we handle cross-functional concerns. |
-| [Engineering Recommendations](/recommendations#readme) | Collections of further reading. |
+| [Engineering Resources](/resources#readme) | Collections of further reading. |
 <!-- end_toc -->
 <!-- prettier-ignore-end -->
 

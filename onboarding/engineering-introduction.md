@@ -47,7 +47,7 @@ The standup is fully documented [here](/events/open-standup.md).
 ## Who we are
 
 Some team members have backgrounds in art, but of course not all.
-[/recommendations/art.md](/recommendations/art.md) has some useful links if you want to read more about the art
+[/resources/art.md](/resources/art.md) has some useful links if you want to read more about the art
 world, or keep up with the latest news.
 
 ### Open Source Culture + Projects
