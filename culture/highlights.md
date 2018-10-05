@@ -88,6 +88,7 @@ This is very much a living document, and likely missing things. so, please send 
 - Sep 2017 - Artsy has a town hall on API designs, and projects migrate to GraphQL
 - Aug 2017 - Force has its first Reaction-driven page [set up for Articles][articles]
 - Aug 2017 - Engineering does [a DevSwap][devswap]
+- Nov 2017 - The first stab at GraphQL stitching [is merged][neo-mp]
 - Dec 2017 - Engineering re-orgs to be project and goal driven sprints
 - Jan 2018 - The [RFC process][rfc] is established
 - Jan 2018 - Engineering merges with Design and Analytics (data) and a new Product org is created, making PDDE
@@ -192,3 +193,4 @@ This is very much a living document, and likely missing things. so, please send 
 [mass]: https://github.com/artsy/gravity/pull/9480
 [cinder]: https://github.com/artsy/cinder#cinder
 [this_pr]: https://github.com/artsy/README/pull/50
+[neo-mp]: https://github.com/artsy/metaphysics/pull/809
