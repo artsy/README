@@ -105,8 +105,7 @@ See [data](https://github.com/artsy/potential/blob/master/data/README.md).
 
 ## How We Work
 
-The engineering team [Playbook](/playbooks/being-an-artsy-engineer.md) discusses why we make the technical and
-non-technical decisions we do.
+The engineering team [playbooks](/playbooks#readme) discuss why we make the technical and non-technical decisions we do.
 
 ### Development Environments
 
@@ -138,7 +137,7 @@ can find a
 As all of our code is housed on GitHub, we make contributions through
 [pull requests](http://artsy.github.io/blog/2012/01/29/how-art-dot-sy-uses-github-to-build-art-dot-sy/).
 
-Read more in [the Playbook](/playbooks/being-an-artsy-engineer.md#workflow) or see this
+Read more in [the engineer workflow playbook](/playbooks/engineer-workflow.md#readme) or see this
 [step-by-step guide](https://github.com/artsy/potential/blob/master/github/workflow.md). If you're unfamiliar with
 Git, check out this [short tutorial](https://try.github.io) on basic git commands (such as `git status`,
 `git commit`, and `git push`).
@@ -154,4 +153,4 @@ Production deploys vary by project, but are usually documented in project README
 We try to deploy early and often. You don't need permission to deploy--just announce in #dev slack channel in case
 the team has any concerns.
 
-More about [continuous improvement](/playbooks/being-an-artsy-engineer.m#continuous-improvement).
+More about [continuous improvement](/playbooks/engineer-workflow.md#continuous-improvement).
