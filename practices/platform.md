@@ -22,7 +22,7 @@ description: What do folks with a platform focus do?
 
 - [Kubernetes at Artsy](/practices/platform/kubernetes.md)
 - [Migration Strategies](/practices/platform/migrations.md)
-- [Technology Roadmap](/practices/platform/technology-roadmap.md)
+- [Technology Choices](/playbooks/technology-choices.md)
 - [Breaking the Monolith](/practices/platform/breaking-the-monolith.md)
 
 ### Further Platform documentation
@@ -57,10 +57,6 @@ Our API is implemented in the [Gravity](https://github.com/artsy/gravity) projec
 Some projects leverage [Docker](https://www.docker.com/) and our [Kubernetes](https://kubernetes.io/) clusters. See
 [Kubernetes](platform/Kubernetes.md).
 
-### Installing Gravity
+### Setting up Gravity
 
-[Gravity](https://github.com/artsy/gravity) was Artsy’s original website. It was a monolithic Rails app that
-included our API and front-end code. At some point, we broke out client-side code into its own application,
-[Force](https://github.com/artsy/force).
-
-Follow the [Gravity docs](https://github.com/artsy/gravity/blob/master/doc/GettingStarted.md) to get started.
+[Gravity](https://github.com/artsy/gravity) was Artsy’s original monolith and now hosts the main API. Follow the [Gravity docs](https://github.com/artsy/gravity/blob/master/doc/GettingStarted.md) to get set up, or this introduction: [Working with Gravity](https://github.com/artsy/potential/blob/master/platform/WorkingWithGravity.md).
