@@ -6,6 +6,7 @@ description: How we work together
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
 - [Working together](#working-together)
   - [Project Management](#project-management)
   - [Workflow](#workflow)

@@ -16,12 +16,11 @@ We split this repo out into different sections, each one has a summary of what's
 <!-- start_toc -->
 | Section |  |
 |--|--|
-| [Best Practices](/best-practices#readme) | What are our agreed upon best practices? |
 | [Careers at Artsy](/careers#readme) | How do we grow people |
 | [Engineering Culture](/culture#readme) | What makes Artsy Engineering tick? |
 | [Events at Artsy](/events#readme) | Documentation on regularly occurring events and meetings. |
 | [Onboarding Notes for New Engineers](/onboarding#readme) | Your first steps to being productive |
-| [Playbooks](/playbooks#readme) | How we get stuff done. |
+| [Playbooks](/playbooks#readme) | Tips, procedures, and best practices |
 | [Engineering Practices](/practices#readme) | How do we handle cross-functional concerns. |
 | [Engineering Recommendations](/resources#readme) | Collections of further reading. |
 <!-- end_toc -->
