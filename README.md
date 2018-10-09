@@ -1,6 +1,6 @@
 # Artsy Engineering
 
-Welcome to Artsy! If you're a new team member, we're excited to have you! Here's your
+Welcome to Artsy! If you're a new team member, we're excited to have you! Here are your
 [onboarding docs](/onboarding#readme).
 
 This repo is a work in progress. In fact, your first pull request could be to fix or add to
@@ -16,14 +16,13 @@ We split this repo out into different sections, each one has a summary of what's
 <!-- start_toc -->
 | Section |  |
 |--|--|
-| [Best Practices](/best-practices#readme) | What are our agreed upon best practices? |
 | [Careers at Artsy](/careers#readme) | How do we grow people |
 | [Engineering Culture](/culture#readme) | What makes Artsy Engineering tick? |
 | [Events at Artsy](/events#readme) | Documentation on regularly occurring events and meetings. |
 | [Onboarding Notes for New Engineers](/onboarding#readme) | Your first steps to being productive |
-| [Playbooks](/playbooks#readme) | How we get stuff done. |
+| [Playbooks](/playbooks#readme) | Tips, procedures, and best practices |
 | [Engineering Practices](/practices#readme) | How do we handle cross-functional concerns. |
-| [Engineering Resources](/resources#readme) | Collections of further reading. |
+| [Engineering Recommendations](/resources#readme) | Collections of further reading. |
 <!-- end_toc -->
 <!-- prettier-ignore-end -->
 
@@ -31,21 +30,17 @@ We split this repo out into different sections, each one has a summary of what's
 
 ### Product & Engineering Teams
 
-Artsy product engineering is organized in product teams. Each team has a _purpose_, eg. _"Help galleries get the
-most out of Artsy and run their business better"_, and Key Performance Indicators, or KPIs, eg. _"The number of
-artworks uploaded by partners."_ Each team has members with different responsibilities, including a _Project
-Manager_, a _Designer_, an _Engineering Lead_ and _Engineers_, depending on size. Sometimes the same person wears
-multiple hats.
+Artsy product engineering is organized in product teams. Each team has a _purpose_, eg. _"Help galleries get the most out of Artsy and run their business better"_, and Key Performance Indicators, or KPIs, eg. _"The number of artworks uploaded by partners."_ Each team has members with different responsibilities, including a _Project Manager_, a _Designer_, a _Technical Lead_ and _Engineers_, depending on size. Sometimes the same person wears multiple hats.
 
 You can see this organization
 [in the Product section of Notion 🔑](https://www.notion.so/artsy/Product-470238180cf94c87906ef1d3ee259e05).
 
-Engineers typically work on a product team and belong to an _Engineering Practice_.
+Engineers typically work on a product team and may also belong to an _Engineering Practice_.
 
 - Platform Practice
 
   - Team lead: [Joey](https://github.com/joeyAghion) [joey.aghion.com](http://joey.aghion.com)
-  - Slack: [#platform-humans](https://artsy.slack.com/messages/platform-humans)
+  - Slack: [#product-platform](https://artsy.slack.com/messages/product-platform)
   - [Platform Practice Overview](practices/platform.md)
 
 - Front-end Practice

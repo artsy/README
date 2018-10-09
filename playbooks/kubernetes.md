@@ -1,8 +1,13 @@
+---
+title: Kubernetes
+description: Deploying containerized applications at Artsy
+---
+
 # Kubernetes
 
 [Kubernetes](https://kubernetes.io/) is an open-source container orchestration platform developed by Google and
 maintained by a growing community. It provides the ability to manage and scale container deployments and integrates
-with our existing AWS infrastructure.
+with our existing AWS infrastructure. See [hokusai.md](hokusai.md) for help managing deployed applications.
 
 ## Substance
 
@@ -71,7 +76,3 @@ through to the Pod view and use the "Delete" menu with the trash can at the top 
 Alternatively, you can (in the application's git checkout, assuming you have the Hokusai CLI installed) run the
 command `hokusai [staging|production] refresh` but be aware this is a _hard_ restart of the application and may
 result in brief downtime as it will delete _all_ running pods simultaneously.
-
-## Hokusai
-
-See [hokusai.md](./hokusai.md)

@@ -1,7 +1,12 @@
+---
+title: Hokusai
+description: a CLI to manage applications deployed to Kubernetes
+---
+
 ## Hokusai
 
-We built and maintain [Hokusai](https://github.com/artsy/hokusai), a CLI for application developers working with
-Docker and Kubernetes clusters.
+We built and maintain [Hokusai](https://github.com/artsy/hokusai), a CLI for developers to manage their
+applications deployed to Kubernetes clusters. See [kubernetes.md](kubernetes.md) for other resources.
 
 ## Setup
 
