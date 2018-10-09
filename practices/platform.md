@@ -30,9 +30,11 @@ description: What do folks with a platform focus do?
 A lot of platform practice documentation is inside
 [artsy/potential](https://github.com/artsy/potential/blob/master/platform/)
 
-Artsy's favorite resources (including those of the platform team) are in [Tech Learning](/resources/tech_learning.md#platform-practice)
+Artsy's favorite resources (including those of the platform team) are in
+[Tech Learning](/resources/tech_learning.md#platform-practice)
 
-- [AWS](https://github.com/artsy/potential/blob/master/platform/AWS.md) ([AWS login](https://artsy.signin.aws.amazon.com/console))
+- [AWS](https://github.com/artsy/potential/blob/master/platform/AWS.md)
+  ([AWS login](https://artsy.signin.aws.amazon.com/console))
 - [Configuration Management](https://github.com/artsy/potential/blob/master/platform/ConfigurationManagement.md)
 - [Domain Models](https://github.com/artsy/potential/blob/master/platform/DomainModels.md)
 - [Messaging](https://github.com/artsy/potential/blob/master/platform/Messaging.md)
@@ -59,4 +61,26 @@ Some projects leverage [Docker](https://www.docker.com/) and our [Kubernetes](ht
 
 ### Setting up Gravity
 
-[Gravity](https://github.com/artsy/gravity) was Artsy’s original monolith and now hosts the main API. Follow the [Gravity docs](https://github.com/artsy/gravity/blob/master/doc/GettingStarted.md) to get set up, or this introduction: [Working with Gravity](https://github.com/artsy/potential/blob/master/platform/WorkingWithGravity.md).
+[Gravity](https://github.com/artsy/gravity) was Artsy’s original monolith and now hosts the main API. Follow the
+[Gravity docs](https://github.com/artsy/gravity/blob/master/doc/GettingStarted.md) to get set up, or this
+introduction:
+[Working with Gravity](https://github.com/artsy/potential/blob/master/platform/WorkingWithGravity.md).
+
+### Major systems:
+
+- Gravity/api.artsy.net: https://github.com/artsy/gravity/
+- Force/www.artsy.net: https://github.com/artsy/force/
+- Metaphysics (graphql layer)/metaphysics-production.artsy.net: https://github.com/artsy/metaphysics/
+- iPhone app: https://github.com/artsy/eigen/
+- CMS/cms.artsy.net: https://github.com/artsy/volt/
+- Causality (bidding engine): https://github.com/artsy/causality/
+- Fulcrum (data pipeline): https://github.com/artsy/fulcrum/
+- Impulse (sales conversations): https://github.com/artsy/impulse/
+- Pulse (messaging): https://github.com/artsy/pulse/
+- Infrastructure (terraform and other configuration management): https://github.com/artsy/infrastructure/
+- Substance (scripts, etc. for managing our Kubernetes cluster): https://github.com/artsy/substance/
+
+In general, see project READMEs for project details including links, CI, deployment instructions, and point-people.
+
+The full [project list](https://github.com/artsy/potential/wiki/Project-list) has a more exhaustive list of Artsy's
+systems.
