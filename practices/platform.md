@@ -21,9 +21,9 @@ description: What do folks with a platform focus do?
 ### Platform Documentation
 
 - [Kubernetes at Artsy](/practices/platform/kubernetes.md)
-- [Migration Strategies](/practices/platform/migrations.md)
+- [Data Migrations](/playbooks/data-migrations.md)
 - [Technology Choices](/playbooks/technology-choices.md)
-- [Breaking the Monolith](/practices/platform/breaking-the-monolith.md)
+- [Extracting Services](/playbooks/extracting-services.md)
 
 ### Further Platform documentation
 

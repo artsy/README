@@ -75,7 +75,7 @@ Once again, the title should concisely explain the change or addition. The descr
 - the solution eventually agreed upon,
 - any alternatives considered,
 - and any to-dos, considerations for the future, or fall-out for other developers.
-- Finally, any pre- or post-deploy migration steps should be clearly explained (see [migrations](#migrations)).
+- Finally, any pre- or post-deploy migration steps should be clearly explained (see [migrations](data-migrations.md)).
 
 _Assign_ another team member to the PR. All team members are encouraged to contribute, but that team member has the
 explicit responsibility to carefully review, consider any unanticipated impact, monitor discussion, and ultimately

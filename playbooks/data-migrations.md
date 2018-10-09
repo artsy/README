@@ -1,6 +1,6 @@
 ---
-title: Techniques for Handling Migrations
-description: Tips for dealing with migration strategies with databases
+title: Data Migrations
+description: Preparing, reviewing and executing data migrations
 ---
 
 ### Migrations

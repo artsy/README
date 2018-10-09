@@ -20,7 +20,9 @@ practice should be incorporated, submit a PR!
 <!-- start_toc -->
 | Doc | Overview |
 |--|--|
+| [Data migrations](/playbooks/data-migrations.md#readme) | Preparing, reviewing and executing data migrations |
 | [Engineer workflow](/playbooks/engineer-workflow.md#readme) | How we work together |
+| [Extracting services](/playbooks/extracting-services.md#readme) | When and why to consider extracting or decoupling systems |
 | [How to give a good Informational](/playbooks/informationals.md#readme) | What are the steps needed to give someone a great experience. |
 | [How to run a retrospective](/playbooks/retrospectives.md#readme) | The why and how for running a retrospective |
 | [How to create an RFC at Artsy](/playbooks/rfcs.md#readme) | The steps needed to request cultural changes |

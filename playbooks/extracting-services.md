@@ -1,3 +1,8 @@
+---
+title: Extracting Services
+description: When and why to consider extracting or decoupling systems
+---
+
 ## Monoliths vs. microservices
 
 The [Gravity](https://github.com/artsy/gravity/) project once encapsulated Artsy's entire product, but as the team
