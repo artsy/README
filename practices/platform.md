@@ -20,7 +20,7 @@ description: What do folks with a platform focus do?
 
 ### Platform Documentation
 
-- [Kubernetes at Artsy](/practices/platform/kubernetes.md)
+- [Kubernetes at Artsy](/playbooks/kubernetes.md)
 - [Data Migrations](/playbooks/data-migrations.md)
 - [Technology Choices](/playbooks/technology-choices.md)
 - [Extracting Services](/playbooks/extracting-services.md)
@@ -55,7 +55,7 @@ Our API is implemented in the [Gravity](https://github.com/artsy/gravity) projec
 ### Kubernetes
 
 Some projects leverage [Docker](https://www.docker.com/) and our [Kubernetes](https://kubernetes.io/) clusters. See
-[Kubernetes](platform/Kubernetes.md).
+[Kubernetes](/playbooks/kubernetes.md).
 
 ### Setting up Gravity
 

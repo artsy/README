@@ -49,10 +49,10 @@ These are some of the technologies we prefer for common challenges, as well as e
 - **CircleCI** for continuous integration over other services like Travis or Semaphore. See
   [projects](https://circleci.com/build-insights/gh/artsy).
 - **JSON** over most other data formats.
-- **Kubernetes** over Heroku for simple system deployments (or even some complex ones). We've built out clusters,
-  monitoring, and logging, and have solutions for common needs like data storage, CI, crons, and shells. It's still
-  the early days but production-ready. The [hokusai](https://github.com/artsy/hokusai) utility embeds many of our
-  adopted practices, or see [the production dash](https://kubernetes.artsy.net).
+- **Kubernetes** over Heroku and AWS Opsworks for simple system deployments (or even some complex ones). We've
+  built out clusters, monitoring, and logging, and have solutions for common needs like data storage, CI, crons,
+  and shells. It's still the early days but production-ready. The [hokusai](https://github.com/artsy/hokusai)
+  utility embeds many of our adopted practices, or see [the production dash](https://kubernetes.artsy.net).
 - **Elasticsearch** for search, similarity, and sophisticated filtering. It replaces a large number of alternative
   solutions including Solr, offline indexes, and data snapshots.
 - **Hypermedia** (usually [HAL](http://stateless.co/hal_specification.html)) is preferred over custom resource-ful
