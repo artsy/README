@@ -32,6 +32,7 @@ For the reasons mentioned above, we try to separate systems along natural bounda
 responsibilities unnecessarily nor splitting them to the extent that they must remain closely coupled). Some
 questions help us identify those boundaries:
 
+- Does this represent a significantly different domain than existing systems? There should be a clearly authoritative system about any single concept in Artsy's platform.
 - Who or what teams are responsible for the relevant product concerns?
 - Can existing systems be leveraged for this purpose, or does similar functionality already exist elsewhere?
 - Would updates (fixes, new features, or business rule changes) to these responsibilities be closely tied to--and
