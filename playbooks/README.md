@@ -26,6 +26,7 @@ practice should be incorporated, submit a PR!
 | [GraphQL Schema Design](/playbooks/graphql-schema-design.md#readme) | What are our best practices for GraphQL Schema Design? |
 | [Hokusai](/playbooks/hokusai.md#readme) | a CLI to manage applications deployed to Kubernetes |
 | [How to give a good Informational](/playbooks/informationals.md#readme) | What are the steps needed to give someone a great experience. |
+| [Jira](/playbooks/jira.md#readme) | Working with Jira boards and tickets |
 | [Kubernetes](/playbooks/kubernetes.md#readme) | Deploying containerized applications at Artsy |
 | [How to run a retrospective](/playbooks/retrospectives.md#readme) | The why and how for running a retrospective |
 | [How to create an RFC at Artsy](/playbooks/rfcs.md#readme) | The steps needed to request cultural changes |
