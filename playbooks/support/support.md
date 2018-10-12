@@ -132,7 +132,7 @@ You can find the point people in the [Potential Wiki](https://github.com/artsy/p
 
 - [The wiki](https://github.com/artsy/potential/wiki) contains playbooks of support procedures for various teams
   and systems.
-- [Setting up Slack Notifications](https://github.com/artsy/README/blob/master/processes/support/slack-notifications.md)
+- [Setting up Slack Notifications](https://github.com/artsy/README/blob/master/playbooks/support/slack-notifications.md)
 
 ### Non-engineering team playbooks
 
