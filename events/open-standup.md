@@ -79,5 +79,7 @@ _Closing Announcements_
 -
 ```
 
+Once you're done, follow the instructions [in Notion](https://www.notion.so/artsy/Standup-Notes-28a5dfe4864645788de1ef936f39687c) on how to add it to our archives.
+
 [pplp]: https://github.com/artsy/meta/blob/master/meta/what_is_artsy.md#people-are-paramount
 [ll]: https://github.com/artsy/meta/blob/master/meta/lunch_and_learn.md
