@@ -8,6 +8,8 @@ about: A list of things to do to become familiar with how our engineering team o
 _Goal: I’ve met my manager and some members of the engineering team (over lunch at Tataki). I’ve logged into slack,
 google (artsymail), 1Password, and know how to use the coffee machine._
 
+- [ ] Add a cool Slack avatar pic of yourself
+
 ## Your first week
 
 _Goal: I can ssh into gravity (staging and production). I can PR to a repo in Artsy’s Github org. I know what the
