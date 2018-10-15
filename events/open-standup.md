@@ -26,6 +26,7 @@ The person handling the talking parts does this stuff ten minutes before standup
 - We start off with props, as a nod towards [People are Paramount][pplp]
 - Then we get an update from the CTO
 - Then an update from the Product team (someone should be present to give one)
+- Then we get updates on new hires, people starting this week, newly accepted offers and etc.
 - Then an update from last week's on-call support team, including follow-up work items
 - We leave a spot for potential cross-team issues
 - We have a spot to talk about things people are proud of
@@ -46,6 +47,10 @@ _CTO Update_
 -
 
 _Product Manager Updates_
+
+-
+
+_Hiring Updates_
 
 -
 
