@@ -36,6 +36,7 @@ _Remember to review *all* setup scripts before executing them :)_
 - [ ] Set up (some) of our most critical projects:
   - [ ] [Gravity](https://github.com/artsy/gravity)
         ([#product-platform](https://artsy.slack.com/messages/product-platform))
+    - [ ] Make MongoDB fast [by following these steps](https://code.dblock.org/2016/06/03/very-slow-mongodb-in-development-and-test.html)
   - [ ] [Force](https://github.com/artsy/force) ([#front-end](https://artsy.slack.com/messages/front-end))
   - [ ] [Metaphysics](https://github.com/artsy/metaphysics)
         ([#front-end](https://artsy.slack.com/messages/front-end/))
