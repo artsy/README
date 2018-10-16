@@ -53,7 +53,7 @@ _Remember to review *all* setup scripts before executing them :)_
 - [ ] Keep your eye out for ways to improve our documentation-- including in this repo! A code change is great, but
       improving documentation (in _whatever_ little way) with your fresh set of eyes helps us help the next person
       onboarding. We emphatically do not underestimate it, this is _real_ work!
-- [ ] Ask an engineer for help getting set up with an AWS account.
+- [ ] Ask an engineer for help getting set up with an AWS account. They can find instructions on creating your account [here](https://github.com/artsy/potential/wiki/Platform-FAQ#add-a-new-aws-user).
 - [ ] Follow the instructions in https://github.com/artsy/hokusai to get set up with hokusai.
 - [ ] Successfully open a gravity staging and production console
 
