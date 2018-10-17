@@ -19,6 +19,10 @@ engineering teams are, what their main focuses are, and who leads them. I know m
 
 #### Dev environment:
 
+Keep your eye out for ways to improve our documentation -- including in this repo! A code change is great, but
+improving documentation (in _whatever_ little way) with your fresh set of eyes helps us help the next person
+onboarding. We emphatically do not underestimate it, this is _real_ work!
+
 _Remember to review *all* setup scripts before executing them :)_
 
 - [ ] Get invited to the Artsy Github org _Ask your mentor or another engineer for help, or log into github using
@@ -36,7 +40,8 @@ _Remember to review *all* setup scripts before executing them :)_
 - [ ] Set up (some) of our most critical projects:
   - [ ] [Gravity](https://github.com/artsy/gravity)
         ([#product-platform](https://artsy.slack.com/messages/product-platform))
-    - [ ] Make MongoDB fast [by following these steps](https://code.dblock.org/2016/06/03/very-slow-mongodb-in-development-and-test.html)
+    - [ ] Make MongoDB fast
+          [by following these steps](https://code.dblock.org/2016/06/03/very-slow-mongodb-in-development-and-test.html)
   - [ ] [Force](https://github.com/artsy/force) ([#front-end](https://artsy.slack.com/messages/front-end))
   - [ ] [Metaphysics](https://github.com/artsy/metaphysics)
         ([#front-end](https://artsy.slack.com/messages/front-end/))
@@ -51,10 +56,8 @@ _Remember to review *all* setup scripts before executing them :)_
   - [ ] [Insomnia](https://insomnia.rest/) an API client that works for graphql and REST endpoints.
   - [ ] [Docker for Mac](https://docs.docker.com/docker-for-mac/install/)
 - [ ] Make a PR to an Artsy repo.
-- [ ] Keep your eye out for ways to improve our documentation-- including in this repo! A code change is great, but
-      improving documentation (in _whatever_ little way) with your fresh set of eyes helps us help the next person
-      onboarding. We emphatically do not underestimate it, this is _real_ work!
-- [ ] Ask an engineer for help getting set up with an AWS account. They can find instructions on creating your account [here](https://github.com/artsy/potential/wiki/Platform-FAQ#add-a-new-aws-user).
+- [ ] Ask an engineer for help getting set up with an AWS account. They can find instructions on creating your
+      account [here](https://github.com/artsy/potential/wiki/Platform-FAQ#add-a-new-aws-user).
 - [ ] Follow the instructions in https://github.com/artsy/hokusai to get set up with hokusai.
 - [ ] Successfully open a gravity staging and production console
 
