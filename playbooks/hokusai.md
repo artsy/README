@@ -17,6 +17,7 @@ Install Git, Docker for Mac and Hokusai:
 ```
 brew install git && brew tap caskroom/cask && brew cask install docker
 curl https://artsy-provisioning-public.s3.amazonaws.com/hokusai -o /usr/local/bin/hokusai && chmod +x /usr/local/bin/hokusai
+# set AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
 hokusai configure --kubectl-version 1.10.7 --s3-bucket artsy-citadel --s3-key k8s/config
 ```
 
@@ -45,7 +46,10 @@ Make sure that the environment variables `$AWS_ACCESS_KEY_ID` and `$AWS_SECRET_A
 
 Install `kubectl` along with our Kubernetes configuration with:
 
-`hokusai configure --kubectl-version 1.6.3 --s3-bucket artsy-citadel --s3-key k8s/config`
+`hokusai configure --kubectl-version 1.10.7 --s3-bucket artsy-citadel --s3-key k8s/config`
+
+Note: the artsy-citadel S3 bucket isn't open source, and the above will fail
+for non-Artsy team-members.
 
 #### Setting up a new project
 
@@ -61,7 +65,7 @@ hokusai setup --template-remote git@github.com:artsy/artsy-hokusai-templates.git
 Set up a new NodeJS project with:
 
 ```
-cd ./path/to/my/rails/project/git/repo
+cd ./path/to/my/node/project/git/repo
 hokusai setup --template-remote git@github.com:artsy/artsy-hokusai-templates.git --template-dir nodejs
 ```
 
