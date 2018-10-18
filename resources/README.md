@@ -6,6 +6,7 @@ Listicles, but on GitHub.
 <!-- start_toc -->
 | Doc | Overview |
 |--|--|
+| [Lunch & Learn videos](/resources/lnl.md#readme) 🔒 | Highlights from Lunch and Learn videos |
 | [Links to the Art world](/resources/art.md#readme) | How to get up to date on the art world |
 | [Our highlight links about Artsy](/resources/artsy.md#readme) | An overview of links about Artsy and some of our bigger packaged Art content. |
 | [Highlights from our engineering blog](/resources/blog.md#readme) | The best-of from our archives |
