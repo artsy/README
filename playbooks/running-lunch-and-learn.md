@@ -87,13 +87,13 @@ Move the card to the "Done" column. Nice work!
 ##### The zoom isn't available
 
 - Make sure the Mac mini behind the screen is turned on
-- Make sure the Zoom iPad has pwoer
+- Make sure the Zoom iPad has power
 
 ##### The screen does not show the zoom meeting
 
-- Chck the TV is on
+- Check the TV is on
 - Check that it's on the right input source (HDMI)
-- Go behidn the TV, and pull out the power and re-connect it
+- Go behind the TV, and pull out the power and re-connect it
   
 ##### Audio problems
 
