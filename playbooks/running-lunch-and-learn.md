@@ -75,6 +75,31 @@ viewing. Maybe even a quick [blog post][blog].
 
 Move the card to the "Done" column. Nice work!
 
+### Troubleshooting
+
+##### Connecting to the screen
+
+- For Artsy staff, they should be on the staff WIFI and connect via Air Display to "27 - Classroom"
+- For external folk:
+  - They can join the zoom url, you can get this emailed from the iPad to that person
+  - You can run their slides on your computer
+  
+##### The zoom isn't available
+
+- Make sure the Mac mini behind the screen is turned on
+- Make sure the Zoom iPad has pwoer
+
+##### The screen does not show the zoom meeting
+
+- Chck the TV is on
+- Check that it's on the right input source (HDMI)
+- Go behidn the TV, and pull out the power and re-connect it
+  
+##### Audio problems
+
+- Check the revolabs microphone is plugged in and has green lights
+- Check the zoom iPad to see that it's mic is set up correctly
+
 [lal]: lunch_and_learn.md
 [after]: #Afterward
 [blog]: https://github.com/artsy/artsy.github.io
