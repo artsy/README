@@ -6,6 +6,6 @@ This section includes documentation for various onboarding sessions that a new-h
 <!-- start_toc -->
 | Doc | Overview |
 |--|--|
-| [Tour of Artsy](/onboarding/sessions/tour-of-artsy.md#readme) | A Tour through Artsy.net from the perspective of a user |
+| [Tour of Collector User Experience](/onboarding/sessions/tour-of-collector-ux.md#readme) | A Tour through Artsy.net from the perspective of a user |
 <!-- end_toc -->
 <!-- prettier-ignore-end -->

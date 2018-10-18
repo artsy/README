@@ -15,7 +15,9 @@ There are also links to relevant code and admin interfaces where applicable.
 #### Caveats about staging environment
 - Data gets copied from production —> staging once a week (so, will be a week old + data created in staging during the week gets wiped)
 - We only copy gravity data, meaning there can be some issues when referencing other services in staging (i.e. auctions)
-- Elasticsearch indices are often out-of-date
+- Elasticsearch indices are often out-of-date as we do not re-index in staging each week after the copy.
+- Reference:
+  - [db:copy:production:to_staging](https://github.com/artsy/gravity/blob/master/lib/tasks/db_copy.rake#L33-L53) rake task
 
 #### Set-up needed before this session
 1. Find a work by a test partner that can be inquired on
@@ -43,16 +45,17 @@ _Tips_:
 
 3. Browse the site, starting with the top-nav
   - **Home page**
-    - Includes data that's personalized, admin-curated, data-driven
+    - Includes data that's personalized (based on a user's follow/save history), admin-curated, data-driven (based on the current most timely auctions, fairs, articles, etc.)
     - Reference:
       - [Home app code](https://github.com/artsy/force/tree/master/src/desktop/apps/home)
   - **Artworks** (aka "collect page")
     - Elasticsearch-based API returns results
     - Reference:
+      - [Artwork model](https://github.com/artsy/gravity/blob/master/app/models/domain/artwork.rb)
       - [filter/artworks API](https://github.com/artsy/gravity/blob/master/app/api/v1/filter_endpoint.rb)
       - [Collect app code](https://github.com/artsy/force/tree/master/src/desktop/apps/collect2)
   - **Auctions**
-    - Includes all auctions of different times (sorted by "timeliness")
+    - Includes all auctions of different types (sorted by "timeliness")
       - Online-only ("Timed")
       - Online + Live ("LAI" == "Live Auction Integration", sometimes just called "Live Auctions")
       - Online + Event ("Benefit auction live event")
@@ -95,15 +98,16 @@ _Tips_:
       - [filter/sale_artworks API](https://github.com/artsy/gravity/blob/master/app/api/v1/filter_endpoint.rb)
       - [Auction app code](https://github.com/artsy/force/tree/master/src/desktop/apps/auction)
   - **Gallery profile page**
-    - Vanity URL since it may be shared
+    - URL is not namespaced by "/gallery" for marketing reasons, but takes the form https://staging.artsy.net/pace-slash-macgill-gallery
     - Reference:
       - [App code](https://github.com/artsy/force/tree/master/src/desktop/apps/partner)
   - **Article page**
-    - Many different types of articles, determines formatting/content options
+    - Articles can include text, images, and video.
+    - Curations are used for content, often sponsored, that require a highly custom and specified display.
     - Reference:
       - [App code](https://github.com/artsy/force/tree/master/src/desktop/apps/article)
   - **Fair microsite**
-    - Vanity URL since it will be shared
+    - Vanity URL since it will be shared in marketing material
     - Reference:
       - [App code](https://github.com/artsy/force/tree/master/src/desktop/apps/fair)
 
