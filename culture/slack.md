@@ -37,6 +37,7 @@ Some other channels engineers might find helpful:
 - [#front-end-ios](https://artsy.slack.com/messages/front-end-ios)
 - [#global](https://artsy.slack.com/messages/global)
 - [#graphql](https://artsy.slack.com/messages/graphql)
+- [#onboarding-eng](https://artsy.slack.com/messages/onboarding-eng)
 - [#product](https://artsy.slack.com/messages/product)
 - [#deployments](https://artsy.slack.com/messages/deployments)
 - [#peopleops](https://artsy.slack.com/messages/peopleops)
