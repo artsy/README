@@ -82,6 +82,20 @@ _Assign_ another team member to the PR. All team members are encouraged to contr
 explicit responsibility to carefully review, consider any unanticipated impact, monitor discussion, and ultimately
 merge or close the PR. You may also want to add reviewers to request other developers for specific input.
 
+Who should you assign? You can ask yourself the following questions as a rubric:
+
+- Do I know who this PR affects and/or someone familiar with the codebase?
+  Assign them.
+- Does the project have point persons listed in the README? Assign one of them.
+- Is the project targeted by your changes owned by a team in the [Project
+  list](https://github.com/artsy/potential/wiki/Project-List)? Assign someone on
+  that team.
+- Does GitHub suggest any reviewers, based on git blame data? Consider one of
+  them.
+
+If none of these prompts yields a potential assignee, it's worth bringing up in
+Slack.
+
 A successful PR leaves both submitter and reviewer of one mind, able to justify rationale, debug unintended
 consequences, and monitor a graceful transition. For this reason, it's not uncommon to have PR bodies that are
 longer than the corresponding code changes. Pull requests are often referred to _years_ later to understand the
