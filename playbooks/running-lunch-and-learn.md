@@ -79,9 +79,11 @@ Move the card to the "Done" column. Nice work!
 
 ##### Connecting to the screen
 
-- For Artsy staff, they should be on the staff WIFI and connect via Air Display to "27 - Classroom"
+- For Artsy staff, they should be on the staff WIFI and connect via AirPlay to "27 - Classroom"
 - For external folk:
-  - They can join the zoom url, you can get this emailed from the iPad to that person
+  - They can join the zoom url
+    [https://zoom.us/my/artsyclassroom](https://zoom.us/my/artsyclassroom). You
+    can also email the zoom URL to the speaker from the iPad.
   - You can run their slides on your computer
   
 ##### The zoom isn't available
