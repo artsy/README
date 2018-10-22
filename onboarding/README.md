@@ -20,6 +20,5 @@ More onboarding resources:
 | [Onboarding Responsibilities for Mentors of New Hires](/onboarding/mentors.md#readme) | How to be an effective mentor of a new hire |
 | [Onboarding for New Hires](/onboarding/new-hires.md#readme) | Your first steps to being productive |
 | [Sprint Rotation](/onboarding/sprint-rotation.md#readme) | What is the sprint rotation and how does it work? |
-| [Onboarding Sessions](/onboarding/sessions#readme) | Documentation for onboarding sessions |
 <!-- end_toc -->
 <!-- prettier-ignore-end -->
