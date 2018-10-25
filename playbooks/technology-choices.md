@@ -82,8 +82,8 @@ These are some of the technologies we prefer for common challenges, as well as e
 - **Direct database exports** for extracting data from source systems into Redshift. In general we prefer loading
   raw source data into the warehouse and performing aggregation or calculations there (over synthesizing in source
   apps' code and exporting just the results). See Fulcrum's demonstration of extracting from
-  [Mongodb sources](https://github.com/artsy/fulcrum/blob/master/lib/fulcrum/extract/gravity_extracts.rb) such as
-  Gravity's or [Postgres sources](https://github.com/artsy/fulcrum/blob/master/tasks/extract.rake).
+  [Mongodb sources](https://github.com/artsy/fulcrum/blob/master/lib/fulcrum/extract/gravity_extracts.rb) 🔒 such as
+  Gravity's or [Postgres sources](https://github.com/artsy/fulcrum/blob/master/tasks/extract.rake) 🔒.
 - **Artwork objects** over artwork pages. While much of our early infrastructure focused on serving content in the
   form artsy.net required, we expect our future product needs to demand more accurate representation of art world
   realities. That includes greater pricing variants, traceable provenance, an understanding of condition, physical

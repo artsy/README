@@ -41,4 +41,4 @@ Simply put our API is a Ruby powered web server the serves up our data in JSON f
 - [Project website](http://ezeljs.com/)
 - [Blog post introducing it](http://artsy.github.io/blog/2013/11/30/rendering-on-the-server-and-client-in-node-dot-js/)
 
-Good luck, and please ask any questions in the [#web Slack channel](https://artsy.slack.com/messages/web/).
+Good luck, and please ask any questions in the [#web Slack channel](https://artsy.slack.com/messages/web/) 🔒.

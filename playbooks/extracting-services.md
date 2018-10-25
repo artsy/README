@@ -5,7 +5,7 @@ description: When and why to consider extracting or decoupling systems
 
 ## Monoliths vs. microservices
 
-The [Gravity](https://github.com/artsy/gravity/) project once encapsulated Artsy's entire product, but as the team
+The [Gravity](https://github.com/artsy/gravity/) 🔒 project once encapsulated Artsy's entire product, but as the team
 grew in size and the product in complexity, it became difficult to reason about all of the system's interconnected
 parts. Tests became slow, and minor changes became bogged down in seemingly unrelated obstacles.
 

@@ -38,7 +38,7 @@ The standup is fully documented [here](/events/open-standup.md).
 ### Getting Help
 
 - **Slack:** If you know what team could potentially help you, browse the channels in Slack to find the most
-  relevant place to ask your question. If you aren't sure, [#dev](https://artsy.slack.com/messages/dev) is a good
+  relevant place to ask your question. If you aren't sure, [#dev](https://artsy.slack.com/messages/dev) 🔒 is a good
   place to start.
 - **Ask Your Neighbor:** Everyone is friendly. Don't hesitate to reach out to the people around you for even the
   most basic of questions.
@@ -69,23 +69,23 @@ Orta also wrote a blog post on the
 
 ### GitHub
 
-Artsy stores source code on [GitHub](https://github.com/artsy). Make sure you have an account and are part of the Artsy organization. If you can't visit [this page](https://github.com/artsy/gravity), then you don’t have the right access. Your mentor can get you sorted out.
+Artsy stores source code on [GitHub](https://github.com/artsy). Make sure you have an account and are part of the Artsy organization. If you can't visit [this page](https://github.com/artsy/gravity) 🔒, then you don’t have the right access. Your mentor can get you sorted out.
 
-Our projects use physics terms as code names, starting with [Gravity](https://github.com/artsy/gravity) (inspired
+Our projects use physics terms as code names, starting with [Gravity](https://github.com/artsy/gravity) 🔒 (inspired
 by [Zachary Coffin's "Temple of Gravity"](http://www.zacharycoffin.com/work/temple-of-gravity)).
 
-See the [engineering projects map](https://github.com/artsy/potential/wiki/Project-List) for a comprehensive list of our (many) repos and who owns them. It can be a bit overwhelming, so here are some important ones:
+See the [engineering projects map](https://github.com/artsy/potential/wiki/Project-List) 🔒 for a comprehensive list of our (many) repos and who owns them. It can be a bit overwhelming, so here are some important ones:
 
-- [Gravity](https://github.com/artsy/gravity): Artsy's main API
+- [Gravity](https://github.com/artsy/gravity) 🔒: Artsy's main API
 - [Force](https://github.com/artsy/force): Artsy web site ([www.artsy.net](https://www.artsy.net))
 - [Eigen](https://github.com/artsy/eigen): iOS app
-- [Volt](https://github.com/artsy/volt): Content Management system for partners
+- [Volt](https://github.com/artsy/volt) 🔒: Content Management system for partners
 
 ### AWS
 
 Many applications depend on Amazon Web Services. Your mentor or anyone else in Engineering can set you up with an
 IAM profile within our organization's account (see
-[instructions](https://github.com/artsy/potential/wiki/Platform-FAQ#add-a-new-aws-user)).
+[instructions](https://github.com/artsy/potential/wiki/Platform-FAQ#add-a-new-aws-user) 🔒).
 
 ### Artsy's Stack(s)
 
@@ -97,11 +97,11 @@ which evolved from a Rails monolith.
 
 ### Artsy APIs
 
-See [apis](https://github.com/artsy/potential/blob/master/apis/README.md) in Potential.
+See [apis](https://github.com/artsy/potential/blob/master/apis/README.md) 🔒 in Potential.
 
 ### Artsy Data
 
-See [data](https://github.com/artsy/potential/blob/master/data/README.md).
+See [data](https://github.com/artsy/potential/blob/master/data/README.md) 🔒.
 
 ## How We Work
 
@@ -109,11 +109,11 @@ The engineering team [playbooks](/playbooks#readme) discuss why we make the tech
 
 ### Development Environments
 
-The [scripts/setup](https://github.com/artsy/potential/blob/master/scripts/setup) script will install common
+The [scripts/setup](https://github.com/artsy/potential/blob/master/scripts/setup) 🔒 script will install common
 dependencies for local development (homebrew, Ruby, etc.).
 
 Projects can provide their own setup scripts that build on this common foundation. See
-[Gravity's script/setup](https://github.com/artsy/gravity/blob/master/script/setup) as an example.
+[Gravity's script/setup](https://github.com/artsy/gravity/blob/master/script/setup) 🔒 as an example.
 
 ### Text Editor
 
@@ -138,7 +138,7 @@ As all of our code is housed on GitHub, we make contributions through
 [pull requests](http://artsy.github.io/blog/2012/01/29/how-art-dot-sy-uses-github-to-build-art-dot-sy/).
 
 Read more in [the engineer workflow playbook](/playbooks/engineer-workflow.md#readme) or see this
-[step-by-step guide](https://github.com/artsy/potential/blob/master/github/workflow.md). If you're unfamiliar with
+[step-by-step guide](https://github.com/artsy/potential/blob/master/github/workflow.md) 🔒. If you're unfamiliar with
 Git, check out this [short tutorial](https://try.github.io) on basic git commands (such as `git status`,
 `git commit`, and `git push`).
 

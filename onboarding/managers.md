@@ -19,7 +19,7 @@ description: Things for managers to remember during the early days of onboarding
 - [ ] Organize lunch outing (probably to Tataki!)
 - [ ] Give an overview of what the onboarding will look like. This is a good time to walk through the onboarding template.
 - [ ] Introduce new hire to their mentor
-- [ ] When they are set up with Slack add them to the `@developers` [user group](https://artsy.slack.com/admin/user_groups), which should automatically invite them to developer related channels, and invite them to channels relavent to the individual
+- [ ] When they are set up with Slack add them to the `@developers` [user group](https://artsy.slack.com/admin/user_groups) 🔒, which should automatically invite them to developer related channels, and invite them to channels relavent to the individual
 
 ### Week 1
 
