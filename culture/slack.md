@@ -1,6 +1,6 @@
 ---
 title: Communication via Slack
-description: How do we use use Slack at Artsy
+description: How we use use Slack at Artsy
 ---
 
 # Slack
@@ -13,22 +13,39 @@ Slack for all internal messaging, and prefer it to email in, basically, all case
 
 You should always feel up to date on these two:
 
-- [#dev](https://artsy.slack.com/messages/dev): For asking questions to all engineers, or discussing things related
-  to the dev team as a whole.
-- [#dev-offtopic](https://artsy.slack.com/messages/dev-offtopic): Developer related chat, that still related to
-  work.
+- [#dev](https://artsy.slack.com/messages/dev): Engineering-wide chat.
+- [#dev-offtopic](https://artsy.slack.com/messages/dev-offtopic): Engineers chatting about less timely and
+  work-relevant topics.
 
 There are a few other useful dev-related slacks:
 
 - [#dev-banter](https://artsy.slack.com/messages/dev-banter): For chatting with developers, not about work.
 - [#dev-candidates](https://artsy.slack.com/messages/dev-candidates): If you want to be involved in hiring.
 
-There are a lot of topic specific channels for your product team and practices. You'll find these out organically.
+Engineering teams each maintain a dedicated channel (but all are welcome):
 
-Beyond team-specific channels, and beyond Engineering, Artsy has a culture that supports many interests and
-hobbies. That culture manifests itself in our Slack channels, too. Here is a sample list of interesting,
-[banter-y Slack channels](https://artsy.slack.com/archives/C02531TUD/p1533749286000516) you might want to check
-out:
+- Grow: [#product-grow](https://artsy.slack.com/messages/product-grow)
+- Discover/Evaluate: [#product-discovaluate](https://artsy.slack.com/messages/product-discovaluate)
+- Purchase: [#product-purchase](https://artsy.slack.com/messages/product-purchase)
+- Sell: [#product-sell](https://artsy.slack.com/messages/product-sell)
+- Platform: [#product-platform](https://artsy.slack.com/messages/product-platform)
+
+Some other channels engineers might find helpful:
+
+- [#data](https://artsy.slack.com/messages/data)
+- [#front-end](https://artsy.slack.com/messages/front-end)
+- [#front-end-ios](https://artsy.slack.com/messages/front-end-ios)
+- [#global](https://artsy.slack.com/messages/global)
+- [#graphql](https://artsy.slack.com/messages/graphql)
+- [#onboarding-eng](https://artsy.slack.com/messages/onboarding-eng)
+- [#product](https://artsy.slack.com/messages/product)
+- [#deployments](https://artsy.slack.com/messages/deployments)
+- [#peopleops](https://artsy.slack.com/messages/peopleops)
+- [#workplace](https://artsy.slack.com/messages/workplace)
+
+There are _many_ other topic-specific channels. You'll find these out organically. Here is a sample list of
+interesting, [banter-y Slack channels](https://artsy.slack.com/archives/C02531TUD/p1533749286000516) you might want
+to check out:
 
 - [#cabort-bookclub](https://artsy.slack.com/messages/cabort-bookclub) is a sci-fi book club
 - [#video-games](https://artsy.slack.com/messages/video-games) for video games
