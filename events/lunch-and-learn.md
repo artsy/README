@@ -42,6 +42,9 @@ So far, from external contributors we've had:
 - CI & CD at Spotify by [Jason Palmer](https://twitter.com/palmerj3)
 - Building great API clients by [Haroen Viaene](https://haroen.me)
 - Using The Art Genome Project data in computational sociology by [Taylor Brown](http://www.taylorwhittenbrown.com)
+- Events listings & direct support for art spaces by [withfriends.co](withfriends.co)
+- [Conflict-free Replicated Data Types](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type) by
+  [Andrey Sitnik](https://twitter.com/sitnikcode)
 
 Here are some examples of internal presentations:
 
