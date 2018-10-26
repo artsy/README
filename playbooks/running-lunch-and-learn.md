@@ -51,11 +51,17 @@ event. Just follow these steps:
 
 ### The Day Of
 
-Be on 26 at 11:40 to receive our guest. Take them upstairs and while they're getting set up, offer some water. Get
-them set up on the Zoom.us meeting and remind them that you'll take them out for lunch afterward.
+We have The Classroom booked from 12:00–12:30 for setup, so go check at noon that everything is working:
 
-At 11:50, send an `@here` reminder in the #dev (also post in #general). Give folks a few minutes past noon to show
-up, but don't hold the show up waiting for them.
+- [ ] TV is turned on.
+- [ ] Zoom iPad is on and plugged in.
+
+Be on 26 at 12:10 to receive our guest (they should have been asked to arrive at 12:15). Take them upstairs and
+while they're getting set up, offer some water. Get them set up on the Zoom.us meeting and remind them that you'll
+take them out for lunch afterward.
+
+At 12:20, send an `@here` reminder in the #dev (also post in #general if applicable). Give folks a few minutes past
+12:30 to show up, but don't hold the show up waiting for them.
 
 Immediately before you present the speaker, hit the record button in Zoom.us and it'll ask you for your email
 address.
@@ -79,13 +85,13 @@ Move the card to the "Done" column. Nice work!
 
 ##### Connecting to the screen
 
-- For Artsy staff, they should be on the staff WIFI and connect via AirPlay to "27 - Classroom"
+- For Artsy staff, they should be on the staff WiFi and connect via AirPlay to "27 - Classroom"
 - For external folk:
-  - They can join the zoom url
-    [https://zoom.us/my/artsyclassroom](https://zoom.us/my/artsyclassroom). You
-    can also email the zoom URL to the speaker from the iPad.
+
+  - They can join the zoom url [https://zoom.us/my/artsyclassroom](https://zoom.us/my/artsyclassroom). You can also
+    email the zoom URL to the speaker from the iPad.
   - You can run their slides on your computer
-  
+
 ##### The zoom isn't available
 
 - Make sure the Mac mini behind the screen is turned on
@@ -96,7 +102,7 @@ Move the card to the "Done" column. Nice work!
 - Check the TV is on
 - Check that it's on the right input source (HDMI)
 - Go behind the TV, and pull out the power and re-connect it
-  
+
 ##### Audio problems
 
 - Check the revolabs microphone is plugged in and has green lights
