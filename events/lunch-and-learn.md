@@ -98,8 +98,8 @@ We ask that we can share a livestream of your talk, because we have a lot of
 involves loading a [Zoom.us][] link on your computer and sharing your screen.
 
 We also ask that we get a recording of the talk (kept internal within Artsy), for colleagues who couldn't attend or
-want to review your awesome talk later. This is done through Zoom.us for you, not setup required. We'd like to get
-a copy of your slides, too. Of course, we're happy to send you a copy of the recording.
+want to review your awesome talk later. This is done through Zoom.us automatically, no additional setup is
+required. We'd like to get a copy of your slides, too. Of course, we're happy to send you a copy of the recording.
 
 **If you don't want to be recorded, no problem**. We understand that you might talk and show things that are not
 for public consumption. We will not share anything externally without your express permission.
