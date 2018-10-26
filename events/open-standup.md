@@ -20,21 +20,25 @@ The person handling the talking parts does this stuff ten minutes before standup
 - Remind last week's on-call staff in #dev to prepare their updates about last week's rotation. Something like:
   > @personA @personB reminder, we're looking for a list of major or notable incidents from last week during
   > standup.
+- Check the [Lunch&Learn shchedule][ll_schedule].
+- Think of who you'd like to give props to.
 
 ### During standup
 
 - **Important**: Make sure the person taking notes doesn't have their laptop next to the Zoom speakerphone.
 - We start off with props, as a nod towards [People are Paramount][pplp]
 - Then we get an update from the CTO
-- Then an update from the Product team (someone should be present to give one)
+- Then an update from the Product managers (someone should be present to give one)
 - Then we get updates on new hires, people starting this week, newly accepted offers and etc.
 - Then an update from last week's on-call support team, including follow-up work items
 - We leave a spot for potential cross-team issues
-- We have a spot to talk about things people are proud of
+- We list any open RFCs (see #dev channel in Slack, they get posted every Monday morning)
+- We have a Milestones spot to talk about things people are proud of
 - We then either announce [the Lunch & Learn][ll], or try find one for the week
+- Anyone is free to give closing announcements, or props!
 
-These notes are then copied into a Notion document, and the link passed into #dev on Slack after standup. Everyone
-else leaves links to things they have commented on during the meeting, if they don't, we chase them up.
+These notes are then copied into a [Notion][] document, and the link passed into #dev on Slack after standup.
+Everyone else leaves links to things they have commented on during the meeting, if they don't, we chase them up.
 
 ## Our Markdown Template
 
@@ -79,13 +83,15 @@ _Lunch & Learn_ (if you don't know, ask in #lunch_and_learn)
 _Closing Announcements_
 
 - Show & Tell is this Friday at 11:00 NYC time in the Studio on 24 (and over Zoom). See the docs for more info:
-  https://github.com/artsy/meta/blob/master/meta/show_and_tell.md
+  https://github.com/artsy/README/blob/master/events/show-and-tell.md
 - The last two support engineers should stick around to chat with us, the new support engineers after this meeting.
 - We'll also be having the front-end office hours right after this meeting, so stick around if you have questions.
 -
 ```
 
-Once you're done, follow the instructions [in Notion](https://www.notion.so/artsy/Standup-Notes-28a5dfe4864645788de1ef936f39687c) on how to add it to our archives.
+Once you're done, follow the instructions [in Notion][notion] on how to add it to our archives.
 
-[pplp]: https://github.com/artsy/meta/blob/master/meta/what_is_artsy.md#people-are-paramount
-[ll]: https://github.com/artsy/meta/blob/master/meta/lunch_and_learn.md
+[pplp]: https://github.com/artsy/README/blob/master/culture/what-is-artsy.md#people-are-paramount
+[ll]: https://github.com/artsy/README/blob/master/events/lunch-and-learn.md
+[ll_schedule]: https://github.com/artsy/README/projects/1
+[notion]: https://www.notion.so/artsy/Standup-Notes-28a5dfe4864645788de1ef936f39687c
