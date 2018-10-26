@@ -1,4 +1,4 @@
-# Artsy Engineering
+# Artsy Engineering [![CircleCI](https://circleci.com/gh/artsy/README.svg?style=svg)](https://circleci.com/gh/artsy/README)
 
 Welcome to Artsy! If you're a new team member, we're excited to have you! Here are your
 [onboarding docs](/onboarding#readme).
