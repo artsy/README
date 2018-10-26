@@ -1,7 +1,4 @@
----
-title: The Artsy Engineering Support process
-description: A process overview and some tips and tricks.
----
+### Support
 
 # Engineering Support @ Artsy
 
@@ -132,7 +129,7 @@ You can find the point people in the [Potential Wiki](https://github.com/artsy/p
 
 - [The wiki](https://github.com/artsy/potential/wiki) contains playbooks of support procedures for various teams
   and systems.
-- [Setting up Slack Notifications](https://github.com/artsy/README/blob/master/processes/support/slack-notifications.md)
+- [Setting up Slack Notifications](https://github.com/artsy/README/blob/master/playbooks/support/slack-notifications.md)
 
 ### Non-engineering team playbooks
 
@@ -179,3 +176,13 @@ incident, talk to your PM." Remember, we're all on the same team!
 - Multiple simultaneous Intercom support requests from partners (payments not succeeding, login failures)
 - Auction artworks are not available before auction open
 - _Any_ automated alert that shows up in #incidents
+
+# Additional Resources
+
+<!-- prettier-ignore-start -->
+<!-- start_toc -->
+| Doc | Overview |
+|--|--|
+| [Scheduling On-Call](/playbooks/support/scheduling.md#readme) | How to schedule the next round of on-call |
+<!-- end_toc -->
+<!-- prettier-ignore-end -->
