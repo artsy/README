@@ -29,3 +29,9 @@ description: Things for managers to remember during the early days of onboarding
 
 - [ ] When the new hire is assigned to an initial product team, work with the PM/tech lead of that team to make sure they are set up and invited to all relevant meetings.
 - [ ] Remind tech leads/PMs that are part of the sprint rotation to prepare resources and invite new hire to meetings
+
+## Onboarding New Managers
+
+- [ ] Invite to meetings relevant to managers.
+- [ ] Invite to engineering onboarding calendar.
+- [ ] Remind tech-leads/PMs that the new manager’s main objective is to get to meet and work with everybody. As such they should be given diverse tasks and e.g. coupled with various engineers for pairing sessions, as well as leaving them with time to have 1:1s with all the engineers (including tech-lead), PM, and designer.
