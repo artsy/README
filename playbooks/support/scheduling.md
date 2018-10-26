@@ -29,3 +29,4 @@ A month before the next round of on-call is slated to begin (can check when the 
 Hi team! Just finished creating calendar invites for this round of on-call. If something looks wrong, please let me know! Soon I will be deleting the Notion doc so we can use this as the source of truth. Note that you can still switch shifts if something comes up!
 ```
 9. After a couple of days, delete the Notion doc to avoid confusion.
+10. Schedule a reminder to repeat this process for the next round.
