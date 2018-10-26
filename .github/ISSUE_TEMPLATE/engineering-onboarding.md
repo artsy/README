@@ -57,7 +57,7 @@ _Remember to review *all* setup scripts before executing them :)_
 - [ ] Reading: [Best of Our Blog](https://github.com/artsy/README/blob/master/resources/blog.md)
 - [ ] Reading: [Internal and external tech learning resources](https://github.com/artsy/README/blob/master/resources/tech-learning.md)
 - [ ] Join the #incidents slack channel and scan through some recent threads
-      Read the [support doc](https://github.com/artsy/README/blob/master/playbooks/support/support.md)
+      Read the [support doc](https://github.com/artsy/README/blob/master/playbooks/support#readme)
 - [ ] On-call onboarding #TODO
 
 #### Personal:
