@@ -20,7 +20,7 @@ The person handling the talking parts does this stuff ten minutes before standup
 - Remind last week's on-call staff in #dev to prepare their updates about last week's rotation. Something like:
   > @personA @personB reminder, we're looking for a list of major or notable incidents from last week during
   > standup.
-- Check the [Lunch&Learn shchedule][ll_schedule].
+- Check the [Lunch&Learn schedule][ll_schedule].
 - Think of who you'd like to give props to.
 
 ### During standup
