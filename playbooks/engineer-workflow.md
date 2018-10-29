@@ -6,7 +6,6 @@ description: How we work together
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [Working together](#working-together)
   - [Project Management](#project-management)
   - [Workflow](#workflow)
@@ -14,6 +13,7 @@ description: How we work together
     - [Commits](#commits)
     - [Pull requests](#pull-requests)
     - [Testing](#testing)
+    - [Deployment](#deployment)
   - [Continuous improvement](#continuous-improvement)
   - [Coordinating between teams](#coordinating-between-teams)
   - [Documentation](#documentation)
@@ -76,7 +76,8 @@ Once again, the title should concisely explain the change or addition. The descr
 - the solution eventually agreed upon,
 - any alternatives considered,
 - and any to-dos, considerations for the future, or fall-out for other developers.
-- Finally, any pre- or post-deploy migration steps should be clearly explained (see [migrations](data-migrations.md)).
+- Finally, any pre- or post-deploy migration steps should be clearly explained (see
+  [migrations](data-migrations.md)).
 
 _Assign_ another team member to the PR. All team members are encouraged to contribute, but that team member has the
 explicit responsibility to carefully review, consider any unanticipated impact, monitor discussion, and ultimately
@@ -84,17 +85,13 @@ merge or close the PR. You may also want to add reviewers to request other devel
 
 Who should you assign? You can ask yourself the following questions as a rubric:
 
-- Do I know who this PR affects and/or someone familiar with the codebase?
-  Assign them.
+- Do I know who this PR affects and/or someone familiar with the codebase? Assign them.
 - Does the project have point persons listed in the README? Assign one of them.
-- Is the project targeted by your changes owned by a team in the [Project
-  list](https://github.com/artsy/potential/wiki/Project-List)? Assign someone on
-  that team.
-- Does GitHub suggest any reviewers, based on git blame data? Consider one of
-  them.
+- Is the project targeted by your changes owned by a team in the
+  [Project list](https://github.com/artsy/potential/wiki/Project-List)? Assign someone on that team.
+- Does GitHub suggest any reviewers, based on git blame data? Consider one of them.
 
-If none of these prompts yields a potential assignee, it's worth bringing up in
-Slack.
+If none of these prompts yields a potential assignee, it's worth bringing up in Slack.
 
 A successful PR leaves both submitter and reviewer of one mind, able to justify rationale, debug unintended
 consequences, and monitor a graceful transition. For this reason, it's not uncommon to have PR bodies that are
@@ -119,10 +116,16 @@ Further reading:
 
 ### Testing
 
-Artsy uses a range of testing libraries to ensure that code is stable and able to withstand changes throughout the
-app over time. New code should employ unit as well as integration tests wherever possible. Thorough tests also have
-added benefit of easily documenting code, as other teammates can easily deduce intent and functionality from a
-well-written test suite.
+Artsy uses a range of testing libraries to improve our designs, document our intent, and ensure stability as we
+aggressively modify and expand the product over time. New features should be tested and bug-fixes should be
+accompanied by regression tests.
+
+In addition to developers executing tests locally, we rely on continuous integration to ensure tests pass and
+handle [deploying](deployments.md) to staging (QA) environments.
+
+### Deployment
+
+See [deployments.md](deployments.md) for detail about releases to staging and production environments.
 
 ## Continuous improvement
 

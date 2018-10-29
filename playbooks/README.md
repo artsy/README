@@ -22,6 +22,7 @@ practice should be incorporated, submit a PR!
 |--|--|
 | [Conferences](/playbooks/conferences.md#readme) | Attending or speaking at a conference |
 | [Data Migrations](/playbooks/data-migrations.md#readme) | Preparing, reviewing and executing data migrations |
+| [Deployments](/playbooks/deployments.md#readme) | How systems are deployed at Artsy |
 | [Engineer workflow](/playbooks/engineer-workflow.md#readme) | How we work together |
 | [Extracting Services](/playbooks/extracting-services.md#readme) | When and why to consider extracting or decoupling systems |
 | [GraphQL Schema Design](/playbooks/graphql-schema-design.md#readme) | What are our best practices for GraphQL Schema Design? |
@@ -72,8 +73,6 @@ WIP future topics:
 ## Licenses
 
 ## CI
-
-## Deploys
 
 # Designing APIs
 
