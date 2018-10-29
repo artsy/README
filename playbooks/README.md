@@ -20,6 +20,7 @@ practice should be incorporated, submit a PR!
 <!-- start_toc -->
 | Doc | Overview |
 |--|--|
+| [Conferences](/playbooks/conferences.md#readme) | Attending or speaking at a conference |
 | [Data Migrations](/playbooks/data-migrations.md#readme) | Preparing, reviewing and executing data migrations |
 | [Engineer workflow](/playbooks/engineer-workflow.md#readme) | How we work together |
 | [Extracting Services](/playbooks/extracting-services.md#readme) | When and why to consider extracting or decoupling systems |
