@@ -15,8 +15,8 @@ We collectively created an article for the magazine
 ### Onboarding
 
 Most of the general Artsy Developer information for onboarding is covered in
-[artsy/potential](https://github.com/artsy/potential#onboarding) (note to open source community: this is a private
-repo). Further below we have a section on code-signing.
+[artsy/potential](https://github.com/artsy/potential#onboarding) 🔒. Further
+below we have a section on code-signing.
 
 ### My first week
 
@@ -41,7 +41,7 @@ Ideally in your first week you should:
 
   - What have you been up to, what are you planning to do?
 
-- Bi-weekly FeelsBot stand-up (Mon/Thr) posted in [#mobile-banter](https://artsy.slack.com/messages/mobile-banter/)
+- Bi-weekly FeelsBot stand-up (Mon/Thr) posted in [#mobile-banter](https://artsy.slack.com/messages/mobile-banter/) 🔒
 
   - Done anything fun? How are you doing today? Feeling ok?
 
@@ -56,15 +56,15 @@ Ideally in your first week you should:
 - The Mobile team specific
   [calendar](https://www.google.com/calendar/embed?src=artsymail.com_bke4sctkn8o072rjgtcsrrun3s%40group.calendar.google.com&ctz=America/New_York)
   is used for Out Of Office / Events.
-- Chat in [#mobile-banter](https://artsy.slack.com/messages/mobile-banter/)
+- Chat in [#mobile-banter](https://artsy.slack.com/messages/mobile-banter/) 🔒
 - Each app has its own focused channel in Slack - Eigen:
-  [#gmv-ios-dev](https://artsy.slack.com/messages/gmv-ios-dev/), Energy:
-  [#energy](https://artsy.slack.com/messages/energy) and Eidolon:
-  [#auctions-dev](https://artsy.slack.com/messages/auctions-dev/).
+  [#gmv-ios-dev](https://artsy.slack.com/messages/gmv-ios-dev/) 🔒, Energy:
+  [#energy](https://artsy.slack.com/messages/energy) 🔒 and Eidolon:
+  [#auctions-dev](https://artsy.slack.com/messages/auctions-dev/) 🔒.
 - Each app has a user facing slack, which is for bug reports / product discussion:
-  [#gmv-ios](https://artsy.slack.com/messages/gmv-ios/), [#folio](https://artsy.slack.com/messages/folio) and
-  [#auctions](https://artsy.slack.com/messages/auctions/).
-- GitHub notifications, etc. in [#mobile-notifications](https://artsy.slack.com/messages/mobile-notifications/).
+  [#gmv-ios](https://artsy.slack.com/messages/gmv-ios/) 🔒, [#folio](https://artsy.slack.com/messages/folio) 🔒 and
+  [#auctions](https://artsy.slack.com/messages/auctions/) 🔒.
+- GitHub notifications, etc. in [#mobile-notifications](https://artsy.slack.com/messages/mobile-notifications/) 🔒.
 
 ### Getting started
 

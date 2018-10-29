@@ -22,7 +22,7 @@ The schedule is configured on the
 Trading shifts (because of vacations, obligations, etc.) is encouraged as long as the calendar is kept up-to-date. Please address any scheduling issues as early as possible.
 
 During work hours, on-call engineers are responsible for responding to issues in
-[the #incidents slack channel](https://artsy.slack.com/messages/C9RK0BLEP/) in a timely fashion. Outside of work
+[the #incidents slack channel](https://artsy.slack.com/messages/C9RK0BLEP/) 🔒 in a timely fashion. Outside of work
 hours, engineers are _only_ responsible for downtime issues.
 
 The two engineers who are on-call are free to split the responsibility for monitoring outside of work hours, but we
@@ -40,7 +40,7 @@ ongoing sprint and team activities.
 
 - On-call is a 24/7 responsibility (for critical issues). The non-work hours can be split across the on-call
   engineers and over timezones where appropriate.
-- Monitor the [#incidents slack channel](https://artsy.slack.com/messages/C9RK0BLEP/) for critical issues.
+- Monitor the [#incidents slack channel](https://artsy.slack.com/messages/C9RK0BLEP/) 🔒 for critical issues.
 - Look out for trends and create bugs (in the
   [universal bug backlog](https://artsyproduct.atlassian.net/secure/RapidBoard.jspa?rapidView=34)) where necessary
   that can be triaged into individual teams' sprints by a PM.
@@ -48,13 +48,13 @@ ongoing sprint and team activities.
 
 #### 2. Investigate and address critical issues
 
-- Acknowledge the issue in slack (escalate to the [#incidents](https://artsy.slack.com/messages/C9RK0BLEP/) channel
+- Acknowledge the issue in slack (escalate to the [#incidents](https://artsy.slack.com/messages/C9RK0BLEP/) 🔒 channel
   if not already there)
 - **Use slack threads** to keep the channel and its notifications focused, and allow others to monitor for new
   incidents at a glance.
 - Investigate the issue individually and as a pair.
 - Judge the severity (based on intuition or a helpful PM/business owner)
-- Fix if possible using [accumulated playbooks (wiki)](https://github.com/artsy/potential/wiki).
+- Fix if possible using [accumulated playbooks (wiki)](https://github.com/artsy/potential/wiki) 🔒.
 - If unable to fix using shared resources, contact the relevant [point-person](#point-people) for help and pair
   with them on a fix. Be sure to contribute lessons back to shared documentation. **You are not expected to know the ins and outs of every system, so don't hesitate to involve the wider team.**
 - Point-people should only be contacted during off-hours for outages that the on-call engineers are unable to
@@ -94,7 +94,7 @@ Tips for using the incidents Trello:
 
 ## Handing-off to a new shift
 
-After [engineering-wide stand-up](https://github.com/artsy/potential#engineering-wide-standup) is a good time for
+After [engineering-wide stand-up](https://github.com/artsy/potential#engineering-wide-standup) 🔒 is a good time for
 the coming and going on-call engineers to sync up and hand off any ongoing responsibilities. Customarily we:
 
 - Update the "Resolved" column in [the Incidents trello](https://trello.com/b/sZQ9qpVo/incidents) with the past
@@ -103,31 +103,31 @@ the coming and going on-call engineers to sync up and hand off any ongoing respo
   final action items for the departing team to fully resolve them (like creating Jira tickets, releasing PRs,
   etc.).
 - Finally, the departing team should take this opportunity to update
-  [the accumulated playbooks](https://github.com/artsy/potential/wiki) with any last lessons.
+  [the accumulated playbooks](https://github.com/artsy/potential/wiki) 🔒 with any last lessons.
 
 ## Point-people
 
-You can find the point people in the [Potential Wiki](https://github.com/artsy/potential/wiki).
+You can find the point people in the [Potential Wiki](https://github.com/artsy/potential/wiki) 🔒.
 
 ## Helpful Resources and Playbooks
 
 ### Slack channels
 
-- [#incidents](https://artsy.slack.com/messages/C9RK0BLEP/) requires close monitoring (30 min. response is
+- [#incidents](https://artsy.slack.com/messages/C9RK0BLEP/) 🔒 requires close monitoring (30 min. response is
   expected). This is where urgent issues are raised, either manually or via automated alerts.
-- [#alerts](https://artsy.slack.com/messages/C0HP61PUJ/) should be monitored during business and waking hours.
+- [#alerts](https://artsy.slack.com/messages/C0HP61PUJ/) 🔒 should be monitored during business and waking hours.
   These automated system alerts _may_ be the first sign of a problem but don't _necessarily_ warrant treatment as
   immediate incidents. E.g., load-balancers may route around failing EC2 instances or auto-scaling may bring up
   capacity in response to load.
 - Artsy team members can get help from peers in these additional channels:
-  - [#gallery-help](https://artsy.slack.com/messages/C7LEJU1QU/): for GR team to get help from their peers on
+  - [#gallery-help](https://artsy.slack.com/messages/C7LEJU1QU/) 🔒: for GR team to get help from their peers on
     common issues
-  - [#auctions-ops](https://artsy.slack.com/messages/C0RTGJHDG/): where the auctions ops team may discuss issues
+  - [#auctions-ops](https://artsy.slack.com/messages/C0RTGJHDG/) 🔒: where the auctions ops team may discuss issues
     they are having/help each other
 
 ### Engineering team playbooks
 
-- [The wiki](https://github.com/artsy/potential/wiki) contains playbooks of support procedures for various teams
+- [The wiki](https://github.com/artsy/potential/wiki) 🔒 contains playbooks of support procedures for various teams
   and systems.
 - [Setting up Slack Notifications](https://github.com/artsy/README/blob/master/playbooks/support/slack-notifications.md)
 
@@ -138,9 +138,9 @@ You can find the point people in the [Potential Wiki](https://github.com/artsy/p
 
 ### Artsy domain information
 
-- [Engineering projects map](https://github.com/artsy/potential/wiki/Project-List)
-- [Monitoring](https://github.com/artsy/potential/blob/master/platform/Monitoring.md)
-- [Domain Models](https://github.com/artsy/potential/blob/master/platform/DomainModels.md)
+- [Engineering projects map](https://github.com/artsy/potential/wiki/Project-List) 🔒
+- [Monitoring](https://github.com/artsy/potential/blob/master/platform/Monitoring.md) 🔒
+- [Domain Models](https://github.com/artsy/potential/blob/master/platform/DomainModels.md) 🔒
 - [Status Page](status.artsy.net)
 
 ## Special cases

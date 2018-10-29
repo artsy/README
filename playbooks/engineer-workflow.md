@@ -24,7 +24,7 @@ description: How we work together
 
 ## Project Management
 
-Teams at Artsy work with product management [via Jira](https://artsyproduct.atlassian.net/). Teams tend to work in
+Teams at Artsy work with product management [via Jira](https://artsyproduct.atlassian.net/) 🔒. Teams tend to work in
 2 week sprints, with a planning meeting at the start and a review/retrospective at the end.
 
 ## Workflow
@@ -112,8 +112,8 @@ an RFC with an explanation of why, you can check out
 
 Further reading:
 
-- See some epic examples of great PRs: [artsy/gravity#9787](https://github.com/artsy/gravity/pull/9787),
-  [artsy/gravity#9557](https://github.com/artsy/gravity/pull/9557)
+- See some epic examples of great PRs: [artsy/gravity#9787](https://github.com/artsy/gravity/pull/9787) 🔒,
+  [artsy/gravity#9557](https://github.com/artsy/gravity/pull/9557) 🔒
 - [On empathy and pull requests](https://slack.engineering/on-empathy-pull-requests-979e4257d158)
 - [Rules of communicating at GitHub](http://ben.balter.com/2014/11/06/rules-of-communicating-at-github/)
 
@@ -144,7 +144,7 @@ our efforts, so are worth significant investment despite being disconnected from
 
 Finally, Artsy aims for a culture of continuous improvement to both code _and_ process. We try to share wins, teach
 best practices and offer constructive feedback. Tools like lunch-and-learns,
-[postmortems](https://github.com/artsy/post_mortems), [kaizen](https://en.wikipedia.org/wiki/Kaizen) or
+[postmortems](https://github.com/artsy/post_mortems) 🔒, [kaizen](https://en.wikipedia.org/wiki/Kaizen) or
 [retrospectives](https://en.wikipedia.org/wiki/Retrospective) help us reflect on our own practices and make change.
 
 ## Coordinating between teams
@@ -168,10 +168,10 @@ compromises in pursuit of a healthful state.
 ## Documentation
 
 Teams and projects change to adapt to business needs. Code repositories come and go as well, but usually more
-slowly. The [project map](https://github.com/artsy/potential/wiki/Project-List) aims to list all the repositories
+slowly. The [project map](https://github.com/artsy/potential/wiki/Project-List) 🔒 aims to list all the repositories
 that Artsy maintains, organized by the responsible team.
 
-Product team [slack channels](https://artsy.slack.com) are usually the first stop for help in a given team's area
+Product team [slack channels](https://artsy.slack.com) 🔒 are usually the first stop for help in a given team's area
 of responsibility.
 
 Project README files should provide enough context to understand and contribute to a project including:
@@ -187,4 +187,4 @@ Project README files should provide enough context to understand and contribute 
 - Instructions for setting up, testing, and contributing to the project
 - License (probably [MIT](https://opensource.org/licenses/MIT)) and copyright, if open source
 
-See a [recent example](https://github.com/artsy/impulse#impulse-) as a template.
+See a [recent example](https://github.com/artsy/impulse#impulse-) 🔒 as a template.

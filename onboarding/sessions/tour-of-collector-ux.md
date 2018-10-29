@@ -17,7 +17,7 @@ There are also links to relevant code and admin interfaces where applicable.
 - We only copy gravity data, meaning there can be some issues when referencing other services in staging (i.e. auctions)
 - Elasticsearch indices are often out-of-date as we do not re-index in staging each week after the copy.
 - Reference:
-  - [db:copy:production:to_staging](https://github.com/artsy/gravity/blob/master/lib/tasks/db_copy.rake#L33-L53) rake task
+  - [db:copy:production:to_staging](https://github.com/artsy/gravity/blob/master/lib/tasks/db_copy.rake#L33-L53) 🔒 rake task
 
 #### Set-up needed before this session
 1. Find a work by a test partner that can be inquired on
@@ -33,10 +33,10 @@ _Tips_:
 1. Sign up for an account/log in (have them sign up with an artsymail account, like sarah+testing@artsymail.com)
   - Sign up modals reflect recent work to consolidate auth modals/behavior
   - Reference:
-    - [User model](https://github.com/artsy/gravity/blob/master/app/models/domain/user.rb)
+    - [User model](https://github.com/artsy/gravity/blob/master/app/models/domain/user.rb) 🔒
     - [Artsy passport (for auth)](https://github.com/artsy/artsy-passport)
     - [Documentation for modals](https://github.com/artsy/reaction/blob/master/docs/authentication.md)
-    - [Administered in Torque](https://admin-staging.artsy.net/users)
+    - [Administered in Torque](https://admin-staging.artsy.net/users) 🔒
 
 2. Go through the onboarding questionnaire
   - This gives us a sense of your purpose for being on Artsy (helpful for marketing) and asks for data that will seed our recommendation algorithms
@@ -51,8 +51,8 @@ _Tips_:
   - **Artworks** (aka "collect page")
     - Elasticsearch-based API returns results
     - Reference:
-      - [Artwork model](https://github.com/artsy/gravity/blob/master/app/models/domain/artwork.rb)
-      - [filter/artworks API](https://github.com/artsy/gravity/blob/master/app/api/v1/filter_endpoint.rb)
+      - [Artwork model](https://github.com/artsy/gravity/blob/master/app/models/domain/artwork.rb) 🔒
+      - [filter/artworks API](https://github.com/artsy/gravity/blob/master/app/api/v1/filter_endpoint.rb) 🔒
       - [Collect app code](https://github.com/artsy/force/tree/master/src/desktop/apps/collect2)
   - **Auctions**
     - Includes all auctions of different types (sorted by "timeliness")
@@ -60,21 +60,21 @@ _Tips_:
       - Online + Live ("LAI" == "Live Auction Integration", sometimes just called "Live Auctions")
       - Online + Event ("Benefit auction live event")
     - Reference:
-      - [Auction (Sale) model](https://github.com/artsy/gravity/blob/master/app/models/domain/sale.rb)
+      - [Auction (Sale) model](https://github.com/artsy/gravity/blob/master/app/models/domain/sale.rb) 🔒
       - [Auctions app code](https://github.com/artsy/force/tree/master/src/desktop/apps/auctions)
-      - [Administered in Ohm](http://auctions-staging.artsy.net/)
+      - [Administered in Ohm](http://auctions-staging.artsy.net/) 🔒
   - **Galleries**
     - Organized by "Partner category"
     - Reference:
-      - [Partner model](https://github.com/artsy/gravity/blob/master/app/models/domain/partner.rb)
+      - [Partner model](https://github.com/artsy/gravity/blob/master/app/models/domain/partner.rb) 🔒
       - [Galleries app code](https://github.com/artsy/force/tree/master/src/desktop/apps/galleries_institutions)
       - [Administered in Vibrations](https://admin-partners-staging.artsy.net/)
   - **Fairs**
     - Fair artworks are published a couple of weeks before the fair begins ("Fair preview")
     - Reference:
-      - [Fair model](https://github.com/artsy/gravity/blob/master/app/models/domain/fair.rb)
+      - [Fair model](https://github.com/artsy/gravity/blob/master/app/models/domain/fair.rb) 🔒
       - [Fairs app code](https://github.com/artsy/force/tree/master/src/desktop/apps/fairs)
-      - [Administered in Waves](https://admin-fairs-staging.artsy.net/)
+      - [Administered in Waves](https://admin-fairs-staging.artsy.net/) 🔒
   - **Magazine**
     - Curated by our Editorial team
     - Reference:
@@ -90,12 +90,12 @@ _Tips_:
   - **Artist page**
     - Recently made this page responsive. Is a top entry-point for "shopping" for an artist's work
     - Reference:
-      - [Artist model](https://github.com/artsy/gravity/blob/master/app/models/domain/artist.rb)
+      - [Artist model](https://github.com/artsy/gravity/blob/master/app/models/domain/artist.rb) 🔒
       - [Artist app code (Force)](https://github.com/artsy/force/tree/master/src/desktop/apps/artist)
       - [Artist app code (Reaction)](https://github.com/artsy/reaction/tree/master/src/Apps/Artist)
   - **Auction page**
     - Reference:
-      - [filter/sale_artworks API](https://github.com/artsy/gravity/blob/master/app/api/v1/filter_endpoint.rb)
+      - [filter/sale_artworks API](https://github.com/artsy/gravity/blob/master/app/api/v1/filter_endpoint.rb) 🔒
       - [Auction app code](https://github.com/artsy/force/tree/master/src/desktop/apps/auction)
   - **Gallery profile page**
     - URL is not namespaced by "/gallery" for marketing reasons, but takes the form https://staging.artsy.net/pace-slash-macgill-gallery
@@ -114,11 +114,11 @@ _Tips_:
 5. Follow an artist/gallery/category from the UI
   - Notice that these now show up in your user settings (and will continue to power recs, similarity, etc.)
   - Reference:
-    - [FollowArtist model](https://github.com/artsy/gravity/blob/master/app/models/domain/follow_artist.rb)
+    - [FollowArtist model](https://github.com/artsy/gravity/blob/master/app/models/domain/follow_artist.rb) 🔒
 
 6. Save an artwork for later
   - Reference:
-    - [CollectedArtwork model](https://github.com/artsy/gravity/blob/master/app/models/domain/collected_artwork.rb)
+    - [CollectedArtwork model](https://github.com/artsy/gravity/blob/master/app/models/domain/collected_artwork.rb) 🔒
 
 ### Ways that you can buy art as an Artsy user...
 1. Inquire on an artwork that is owned by a known test account (i.e. Invoicing Demo Partner)
@@ -127,10 +127,10 @@ _Tips_:
   - Collectors can respond via Messaging (in the iOS app) or email
   - Inquiries are a key metric for our teams as it can indicate an intent to buy (and eventually lead to a purchase)
   - Reference:
-    - [Inquiry model](https://github.com/artsy/gravity/blob/master/app/models/domain/inquiry_request.rb)
-    - [Conversation model in Impulse](https://github.com/artsy/impulse/blob/master/app/models/conversation.rb)
-    - [Message model in Radiation](https://github.com/artsy/radiation/blob/master/app/models/message.rb)
-    - [Conversations app in CMS](https://github.com/artsy/volt/tree/master/app/views/conversations)
+    - [Inquiry model](https://github.com/artsy/gravity/blob/master/app/models/domain/inquiry_request.rb) 🔒
+    - [Conversation model in Impulse](https://github.com/artsy/impulse/blob/master/app/models/conversation.rb) 🔒
+    - [Message model in Radiation](https://github.com/artsy/radiation/blob/master/app/models/message.rb) 🔒
+    - [Conversations app in CMS](https://github.com/artsy/volt/tree/master/app/views/conversations) 🔒
 
 2. Respond to an inquiry with an invoice, and pay for it
   - An inquiry may have an invoice attached from a gallery
@@ -143,20 +143,20 @@ _Tips_:
 3. Register for an auction
   - Some auctions require that you are _approved_ by an admin before you are allowed to bid
   - Reference:
-    - [Bidder model](https://github.com/artsy/gravity/blob/master/app/models/domain/bidder.rb)
+    - [Bidder model](https://github.com/artsy/gravity/blob/master/app/models/domain/bidder.rb) 🔒
 
 4. Bid in an online-only auction
   - This creates a max bid (meaning, you agree to pay _up to_ that amount for the work).
   - When the auction ends, the highest bidder wins
   - Reference:
-    - [BidderPosition model](https://github.com/artsy/gravity/blob/master/app/models/domain/bidder_position.rb)
+    - [BidderPosition model](https://github.com/artsy/gravity/blob/master/app/models/domain/bidder_position.rb) 🔒
 
 5. Bid in a live auction (and pull up operator to show the live auction process)
   - The operator keeps track of progress in the room
   - You can jump in at any time to bid that _exact_ amount
   - Reference:
-    - [Live bidding in Causality (model/engine)](https://github.com/artsy/causality)
-    - [Live bidding from Prediction (operator/bidder UI)](https://github.com/artsy/prediction)
+    - [Live bidding in Causality (model/engine)](https://github.com/artsy/causality) 🔒
+    - [Live bidding from Prediction (operator/bidder UI)](https://github.com/artsy/prediction) 🔒
 
 6. Buy a work through the e-commerce checkout flow
   - When you buy through e-commerce, the artwork is immediately marked as Sold. Partners approve your order at which point you are charged for it.

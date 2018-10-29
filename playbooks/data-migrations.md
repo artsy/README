@@ -18,7 +18,7 @@ We want to move quickly, so it's in our interest to get good at aggressive chang
 - Just as with code changes, develop locally and apply the migration to staging before production.
 - Before applying a migration to production, back up the impacted data. In gravity, back-ups to the `artsy-data` S3
   bucket are as simple as `rake db:production:backup:to_s3[collection_names]`
-  ([docs](https://github.com/artsy/gravity/blob/master/doc/ProductionBackups.md#backing-up-a-single-collection)).
+  ([docs](https://github.com/artsy/gravity/blob/master/doc/ProductionBackups.md#backing-up-a-single-collection) 🔒).
 - If systems will be in a temporarily broken state prior to the migration being applied, consider how to break the
   change into more graceful deploy steps (e.g., supporting old and new fields concurrently as an intermediate
   step).
