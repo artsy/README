@@ -12,7 +12,7 @@ guidelines:
 ## Attending Conferences
 
 - We aim for each engineer to be able to attend a conference every year, subject to budget. The conference should
-  be related to the individual's role or Artsy's challenges/technologies.
+  be related to the individual's role/growth or Artsy's challenges/technologies.
 - Please be mindful when expensing your travel. A good rule of thumb is to spend Artsy money like you would your
   own. Refer to [Atlas][travel-and-accommodations-on-atlas] for more details and rate card.
 - It's strongly recommended writing up take-aways and sharing with the team upon return, e.g. a list of take-aways
