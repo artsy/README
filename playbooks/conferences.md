@@ -15,8 +15,8 @@ guidelines:
   be related to the individual's role or Artsy's challenges/technologies.
 - Please be mindful when expensing your travel. A good rule of thumb is to spend Artsy money like you would your
   own. Refer to [Atlas][travel-and-accommodations-on-atlas] for more details and rate card.
-- It's strongly recommended writing up take-aways and sharing with the team upon return, e.g. via [Lunch and
-  Learn][lunch-and-learn], [Show and Tell][show-and-tell], or a blog post.
+- It's strongly recommended writing up take-aways and sharing with the team upon return, e.g. a list of take-aways
+  and links to resources (decks, videos, etc.) shared in relevant Slack channels.
 
 ## Speaking at Conferences
 
