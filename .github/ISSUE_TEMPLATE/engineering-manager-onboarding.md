@@ -11,7 +11,7 @@ You’ve done general people-ops and engineering team onboarding, and have casua
 
      At Artsy we are trying to give new hires ownership over improving the onboarding documentation that they are faced with, in an effort to help the next new hire onboard more smoothly. As you are the first one, there is plenty of work to do in this area; in fact, this very document is nothing but a first draft. Things in this document may turn out to be insufficient, too broad, or simply not work at all. That’s all good and you should feel empowered to bring this up openly.
 
-     It will be your task to make this document into a substantially larger one, that draws from all the things you had to learn. You’re not on your own, your fellow peers will all be available to support you during this task. You got this!
+     It will be your task to improve this document, drawing from all the things you’ve had to learn. You’re not on your own, your fellow peers will all be available to support you during this task. You got this!
 
 - [ ] The people-ops team should have signed you up for the various on-site manager trainings.
 
