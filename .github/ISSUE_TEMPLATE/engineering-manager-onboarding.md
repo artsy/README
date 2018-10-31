@@ -29,7 +29,7 @@ To help work on the main objective, we’ve tried to identify the following goal
 
 ### Get to know Artsy's team
 
-- [ ] Have 1:1s with each and every engineer (that includes tech-leads) to get to know the people, their interests, their north-star goals, and their perspectives on the businesses they contribute to.
+- [ ] Have 1:1s with each and every engineer (that includes tech-leads) to get to know the people, their interests, their north-star goals, and their perspectives on the businesses they contribute to. (It is likely easiest for coordination to do this with the people of the product team that you’re rotated on at the time.)
 
 - [ ] While working with individual contributors and during your 1:1s, try to develop an understanding of where and how you want to add value as a manager.
 
