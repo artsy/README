@@ -5,7 +5,7 @@ about: A list of things to do as a new manager to become familiar with the natur
 
 ## After your first week
 
-You’ve done general people-ops and engineering team onboarding, and have casually met some team-members. Now it’s time to start onboarding as a new engineering manager.
+You’ve done general people-ops and engineering team onboarding, and have casually met some team members. Now it’s time to start onboarding as a new engineering manager.
 
 - [ ] If you’re reading this, you’re the first external engineering manager we’ve hired and your name is Adam. Yay! (If not, this will be _real_ awkward.)
 
