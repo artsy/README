@@ -39,7 +39,7 @@ To help work on the main objective, we’ve tried to identify the following goal
 
 - [ ] Unlike individual contributors, who rotate teams for a few sprints to gain a general understanding of how we work as contributors, engineering managers are expected to rotate across _all_ the teams to gain the understanding needed to successfully support their reports in achieving their goals and growth. (For example, unblocking people by knowing how to achieve something or who/where to delegate to, facilitate discussions by understanding context and who to involve for a given topic; and how to set expectations for engineers, product, and business owners as to what is realistically achievable.) Tech-leads and PMs should have been made aware of your main objective and provide you with time to do so.
 
-- [ ] By the end of your sprint rotation, put together a short presentation that summarizes our stack and how different teams contribute to it. (Target audience TBD, although I _think_ it would be good to present it to everyone, both to contribute to presence _and_ so there’s more people that can provide feedback about potential misunderstandings.)
+- [ ] By the end of your sprint rotation, put together a short presentation on a TBD topic. (See [this thread](https://github.com/artsy/README/pull/95#discussion_r228900278) for previous discussion on this topic.)
 
 ### Get to know Artsy's business
 
