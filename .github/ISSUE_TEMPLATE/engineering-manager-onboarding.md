@@ -47,7 +47,7 @@ To help work on the main objective, we’ve tried to identify the following goal
 
 - [ ] Have 1:1s with PMs to gain an understanding of how product and engineering work together to produce results in their respective parts of the business.
 
-- [ ] TODO: Flesh out: go to a gallery and auction. Besides being fun, what could they learn from doing this and in what way should they do so? E.g. shadow a liaison, casually visit?
+- [ ] TBD: Flesh out: go to a gallery and auction. Besides being fun, what could they learn from doing this and in what way should they do so? E.g. shadow a liaison, casually visit?
 
 ### Help the team get to know you
 
