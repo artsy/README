@@ -21,7 +21,7 @@ You’ve done general people-ops and engineering team onboarding, and have casua
 
 ## Your first ~two months
 
-The goal of onboarding is to set you up for success as a new engineering manager at Artsy. To that end, your main objective during this time will be to gather knowledge. You will be given ample time to get acquainted with your new peers, our business, and our tech.
+The goal of onboarding is to set you up for success as a new engineering manager at Artsy. To that end, your main objective during this time will be to gather knowledge and context. You will be given ample time to get acquainted with your new peers, our business, our tech, and our strategies that bind them all together.
 
 _For now we’ll try to target roughly two months, as there are currently 5 product teams and sprints have a duration of 2 weeks. Whether or not this duration was too arbitrary is something we’ll have to learn._
 
