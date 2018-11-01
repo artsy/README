@@ -9,6 +9,8 @@ Hello Artsy employee or curious outsider! This document outlines how to run our 
 process of planning a L&L spans weeks and generally goes through the following steps. The planning process is
 managed in the [Lunch and Learns GitHub project][project].
 
+If you're interested in speaking at one of our lunch and learns, you can find out all about [it here][event]
+
 - **Ideas**: These can be either people we'd like to present or ideas that we'd like to find speakers for – either
   Artsy employees or external speakers we'd like to invite in.
 - **In Conversation**: We have reached out and are in talks with someone specific to present a L&L.
@@ -112,3 +114,4 @@ Move the card to the "Done" column. Nice work!
 [after]: #Afterward
 [blog]: https://github.com/artsy/artsy.github.io
 [project]: https://github.com/artsy/README/projects/1
+[event]: /events/lunch-and-learn.md
