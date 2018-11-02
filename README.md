@@ -21,6 +21,7 @@ We split this repo out into different sections, each one has a summary of what's
 | [Events at Artsy](/events#readme) | Documentation on regularly occurring events and meetings. |
 | [Onboarding Notes for New Engineers](/onboarding#readme) | Your first steps to being productive |
 | [Playbooks](/playbooks#readme) | Tips, procedures, and best practices |
+| [Artsy Engineering Podcast](/podcast#readme) | How we (want to) record an engineering podcast |
 | [Engineering Practices](/practices#readme) | How do we handle cross-functional concerns. |
 | [Engineering Recommendations](/resources#readme) | Collections of further reading. |
 <!-- end_toc -->
@@ -30,7 +31,11 @@ We split this repo out into different sections, each one has a summary of what's
 
 ### Product & Engineering Teams
 
-Artsy product engineering is organized in product teams. Each team has a _purpose_, eg. _"Help galleries get the most out of Artsy and run their business better"_, and Key Performance Indicators, or KPIs, eg. _"The number of artworks uploaded by partners."_ Each team has members with different responsibilities, including a _Project Manager_, a _Designer_, a _Technical Lead_ and _Engineers_, depending on size. Sometimes the same person wears multiple hats.
+Artsy product engineering is organized in product teams. Each team has a _purpose_, eg. _"Help galleries get the
+most out of Artsy and run their business better"_, and Key Performance Indicators, or KPIs, eg. _"The number of
+artworks uploaded by partners."_ Each team has members with different responsibilities, including a _Project
+Manager_, a _Designer_, a _Technical Lead_ and _Engineers_, depending on size. Sometimes the same person wears
+multiple hats.
 
 You can see this organization
 [in the Product section of Notion 🔑](https://www.notion.so/artsy/Product-470238180cf94c87906ef1d3ee259e05).

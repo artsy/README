@@ -24,8 +24,8 @@ description: How we work together
 
 ## Project Management
 
-Teams at Artsy work with product management [via Jira](https://artsyproduct.atlassian.net/) 🔒. Teams tend to work in
-2 week sprints, with a planning meeting at the start and a review/retrospective at the end.
+Teams at Artsy work with product management [via Jira](https://artsyproduct.atlassian.net/) 🔒. Teams tend to work
+in 2 week sprints, with a planning meeting at the start and a review/retrospective at the end.
 
 ## Workflow
 
@@ -171,11 +171,11 @@ compromises in pursuit of a healthful state.
 ## Documentation
 
 Teams and projects change to adapt to business needs. Code repositories come and go as well, but usually more
-slowly. The [project map](https://github.com/artsy/potential/wiki/Project-List) 🔒 aims to list all the repositories
-that Artsy maintains, organized by the responsible team.
+slowly. The [project map](https://github.com/artsy/potential/wiki/Project-List) 🔒 aims to list all the
+repositories that Artsy maintains, organized by the responsible team.
 
-Product team [slack channels](https://artsy.slack.com) 🔒 are usually the first stop for help in a given team's area
-of responsibility.
+Product team [slack channels](https://artsy.slack.com) 🔒 are usually the first stop for help in a given team's
+area of responsibility.
 
 Project README files should provide enough context to understand and contribute to a project including:
 
