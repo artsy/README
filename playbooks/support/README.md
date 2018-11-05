@@ -94,7 +94,7 @@ Tips for using the incidents Trello:
 
 ## Handing-off to a new shift
 
-After [engineering-wide stand-up](https://github.com/artsy/potential#engineering-wide-standup) 🔒 is a good time for
+After [engineering-wide stand-up](/events/open-standup.md#dev-team-standup-at-artsy) 🔒 is a good time for
 the coming and going on-call engineers to sync up and hand off any ongoing responsibilities. Customarily we:
 
 - Update the "Resolved" column in [the Incidents trello](https://trello.com/b/sZQ9qpVo/incidents) with the past
@@ -141,7 +141,7 @@ You can find the point people in the [Potential Wiki](https://github.com/artsy/p
 - [Engineering projects map](https://github.com/artsy/potential/wiki/Project-List) 🔒
 - [Monitoring](https://github.com/artsy/potential/blob/master/platform/Monitoring.md) 🔒
 - [Domain Models](https://github.com/artsy/potential/blob/master/platform/DomainModels.md) 🔒
-- [Status Page](status.artsy.net)
+- [Status Page](http://status.artsy.net/)
 
 ## Special cases
 
