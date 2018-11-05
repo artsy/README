@@ -19,6 +19,8 @@ You’ve done general people-ops and engineering team onboarding, and have casua
 
 - [ ] Your manager should have scheduled 1:1s for you with the other engineering managers, including the CTO, and other leadership people.
 
+- [ ] While already mentioned in the previous onboarding checklist, it bears repeating for you as a manager that you should internalize [Artsy’s Values](/culture/what-is-artsy.md#artsy-values) and our [Engineering Principles](/culture/engineering-principles.md).
+
 ## Your first ~two months
 
 The goal of onboarding is to set you up for success as a new engineering manager at Artsy. To that end, your main objective during this time will be to gather knowledge and context. You will be given ample time to get acquainted with your new peers, our business, our tech, and our strategies that bind them all together.
@@ -53,6 +55,8 @@ To help work on the main objective, we’ve tried to identify the following goal
 
 - [ ] Work on improving and expanding this nimble `README` repository to both gain an understanding [from both the existing docs and from speaking to people] of how we have been communicating _and_ to help shape our communication going forward.
 
+- [ ] As an engineering manager, hiring will become one of your top-priorities. To familiarize yourself with the process and the people involved you should be the hiring manager for at least one candidate and be a fly on the wall during an interview and a reference call. TBD: We have some disparate google docs on hiring, we should figure out exactly what (compiled) resource to link to for this item.
+
 - [ ] Get to know our team processes and help us learn from your experiences.
     - [ ] Run an [engineering team standup](/events/open-standup.md).
     - [ ] Present a [Lunch & Learn](/events/lunch-and-learn.md) session on something you’re familiar with from your previous role.
@@ -60,7 +64,9 @@ To help work on the main objective, we’ve tried to identify the following goal
 
 ## Beyond sprint rotation
 
-- [ ] The onboarding period is over, we’ve jointly put together your team, and you’re settling in. Ah yes, you did it!
+The onboarding period is over and you’re settling in. Ah yes, you did it!
+
+- [ ] Now comes the time to _jointly_ finalize the group of reports you should take on. Besides that this should be an ongoing and open discussion all throughout the onboarding period, the exact process of how to come to this group of reports is still totally TBD. The only thing to keep in mind is that during onboarding you should be able to focus on the objectives of onboarding and not have less time to focus on those for the last sprint of your product team rotation by being preoccupied with determining reports.
 
 - [ ] Now is a good time to be involved in broader operational tasks, as they are excellent opportunities to talk to more diverse stake-holders. For example:
     - [ ] Write a post-mortem.
