@@ -94,7 +94,7 @@ Tips for using the incidents Trello:
 
 ## Handing-off to a new shift
 
-After [engineering-wide stand-up](/events/open-standup.md#dev-team-standup-at-artsy) 🔒 is a good time for
+After [engineering-wide stand-up](/events/open-standup.md#dev-team-standup-at-artsy) is a good time for
 the coming and going on-call engineers to sync up and hand off any ongoing responsibilities. Customarily we:
 
 - Update the "Resolved" column in [the Incidents trello](https://trello.com/b/sZQ9qpVo/incidents) with the past
