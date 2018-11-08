@@ -88,6 +88,7 @@ _Remember to review *all* setup scripts before executing them :)_
 - [ ] Reading: [Best of Our Blog](https://github.com/artsy/README/blob/master/resources/blog.md)
 - [ ] Reading:
       [Internal and external tech learning resources](https://github.com/artsy/README/blob/master/resources/tech-learning.md)
+- [ ] Watch some of our [Lunch & Learns](https://github.com/artsy/README/blob/master/resources/lnl.md)
 - [ ] Join the [#incidents](https://artsy.slack.com/messages/front-end-ios/) slack channel and scan through some
       recent threads
 - [ ] Read the [support doc](https://github.com/artsy/README/blob/master/playbooks/support#readme) about how support
