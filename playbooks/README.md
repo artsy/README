@@ -23,6 +23,7 @@ practice should be incorporated, submit a PR!
 | [Conferences](/playbooks/conferences.md#readme) | Attending or speaking at a conference |
 | [Data Migrations](/playbooks/data-migrations.md#readme) | Preparing, reviewing and executing data migrations |
 | [Deployments](/playbooks/deployments.md#readme) | How systems are deployed at Artsy |
+| [Documentation](/playbooks/documentation.md#readme) | How and where to document or share content |
 | [Engineer workflow](/playbooks/engineer-workflow.md#readme) | How we work together |
 | [Extracting Services](/playbooks/extracting-services.md#readme) | When and why to consider extracting or decoupling systems |
 | [GraphQL Schema Design](/playbooks/graphql-schema-design.md#readme) | What are our best practices for GraphQL Schema Design? |
@@ -33,7 +34,6 @@ practice should be incorporated, submit a PR!
 | [How to run a retrospective](/playbooks/retrospectives.md#readme) | The why and how for running a retrospective |
 | [How to create an RFC at Artsy](/playbooks/rfcs.md#readme) | The steps needed to request cultural changes |
 | [How to run a Lunch & Learn](/playbooks/running-lunch-and-learn.md#readme) | How to handle the people process for Lunch & Learns |
-| [The Artsy Engineering Support process](/playbooks/support#readme) | A process overview and some tips and tricks. |
 | [Technology choices](/playbooks/technology-choices.md#readme) | Evaluating and adopting new technology at Artsy |
 <!-- end_toc -->
 <!-- prettier-ignore-end -->
