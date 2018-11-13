@@ -19,12 +19,11 @@ E.g.:
 - Definitions of domain models
 - API documentation
 
-It _almost_ goes without saying, but other repo-specific interactions such as presenting the rationale for a design
-or offering code-review should leverage the built-in mechanisms of
-[commit messages](/playbooks/engineer-workflow.md#commits),
+Other repo-specific interactions such as presenting the rationale for a design or offering code-review should
+leverage the built-in mechanisms of [commit messages](/playbooks/engineer-workflow.md#commits),
 [pull requests](/playbooks/engineer-workflow.md#pull-requests), and comments.
 
-## Public versus private
+## Public versus private content
 
 When creating a repo, contributing a doc, or discussing in-progress work, consider whether it's appropriate for
 this content to be public or private.
@@ -36,32 +35,34 @@ Content that should always be private:
 - Production data or logs (including indirectly through migration output, etc.)
 - Repositories representing substantial business value, novelty, or criticality (such as the main API, content
   management system, or auction operator tools)
+- Security or compliance topics, including pending security work items or vulnerability-handling procedures
 
 Content that _maybe_ should be private, depending on its sensitivity:
 
-- Security or compliance topics, including pending security work items or vulnerability-handling procedures
 - Incident/support instructions, including data recovery or incident-mitigation procedures
-- Sensitive business rules, definitions, or implementations (tiering, targeting, buyer/bidder qualification, spam
+- Internal business rules, definitions, or implementations (tiering, targeting, buyer/bidder qualification, spam
   heuristics, search ranking algorithms, data partnerships...)
 - Un-announced feature work
-- Industry or user research or analysis that may hold some competitive value
+- User research or industry analysis that may hold competitive value
 - References to private content (according to the criteria above) including documentation of private systems, links
   to private gists that may include private data or logs, etc.
 
-## General engineering content
+## Engineering content _not_ specific to repos
 
-This public [artsy/README](https://github.com/artsy/readme) repo is our default location for shared engineering
+This public [artsy/README](https://github.com/artsy/readme) repo is our default location for general engineering
 content such as:
 
 - onboarding resources
 - team procedures and playbooks
+- other public resources that are not repo-specific
 
-The private [artsy/potential](https://github.com/artsy/potential) repo supplements that with internal resources
-such as:
+The private [artsy/potential](https://github.com/artsy/potential) repo supplements artsy/README with resources such
+as:
 
 - documentation and diagrams of internal architecture
 - security bounty program procedures
 - playbooks for handling common on-call incidents (see [the wiki](https://github.com/artsy/potential/wiki))
+- any other content that should be private according to the criteria above
 
 ## Engineering blog
 
