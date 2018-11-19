@@ -2,6 +2,7 @@
 name: Engineering Onboarding
 about: A list of things to do to become familiar with how our engineering team operates.
 ---
+Mentor: <PICK A MENTOR>
 
 ## Your first day
 
