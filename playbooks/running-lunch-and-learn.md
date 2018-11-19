@@ -110,7 +110,8 @@ Move the card to the "Done" column. Nice work!
 
 ##### Audio problems
 
-- Check the revolabs microphone is plugged in and has green lights
+- Check the revolabs microphone has green lights
+- Check that the mic is plugged in (under the table)
 - Check the zoom iPad to see that it's mic is set up correctly
 
 [lal]: lunch_and_learn.md
