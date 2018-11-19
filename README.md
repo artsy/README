@@ -43,12 +43,12 @@ Engineers typically work on a product team and may also belong to an _Engineerin
   - Slack: [#product-platform](https://artsy.slack.com/messages/product-platform) 🔒
   - [Platform Practice Overview](practices/platform.md)
 
-- Front-end Practice
+- Front-end Practices: web and iOS
 
-  - Team lead: [Orta](https://github.com/orta) [orta.io](http://orta.io)
+  - Team leads: [Justin](https://github.com/zephraph) (web) / [Ash](https://github.com/ashfurrow) (iOS)
   - Slack: [#front-end](https://artsy.slack.com/messages/front-end) 🔒,
     [#front-end-ios](https://artsy.slack.com/messages/front-end-ios) 🔒
-  - [Front-end Practice Overview](practices/front-end.md)
+  - [Front-end Practices Overview](practices/front-end.md)
 
 ## Support
 
