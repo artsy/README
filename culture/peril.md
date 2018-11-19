@@ -1,6 +1,6 @@
 ---
 title: Artsy Engineering Automation via Peril
-description: How do we take own our workflow in GitHub
+description: How do we take on our workflow in GitHub
 ---
 
 Peril has been running in Artsy since mid 2017, the blog post which [covers what Peril is and why it was
