@@ -16,8 +16,8 @@ Install Git, Docker for Mac and Hokusai:
 
 ```
 brew install git && brew tap caskroom/cask && brew cask install docker
-curl https://artsy-provisioning-public.s3.amazonaws.com/hokusai -o /usr/local/bin/hokusai && chmod +x /usr/local/bin/hokusai
-# set AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
+curl https://artsy-provisioning-public.s3.amazonaws.com/hokusai/hokusai-latest-Darwin-x86_64 -o /usr/local/bin/hokusai && chmod +x /usr/local/bin/hokusai
+# Make sure IAM credentials are set in AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY or ~/.aws/credentials
 hokusai configure --kubectl-version 1.10.7 --s3-bucket artsy-citadel --s3-key k8s/config
 ```
 
