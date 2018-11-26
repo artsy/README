@@ -12,12 +12,13 @@ applications deployed to Kubernetes clusters. See [kubernetes.md](kubernetes.md)
 
 ### Quickstart
 
-Install Git, Docker for Mac and Hokusai:
+Install [Git](https://git-scm.com/), [Docker and Docker Compose](https://docs.docker.com/install) with a preferred package manager.  MacOS users, install Docker and Docker Compose with [Docker for Mac](https://docs.docker.com/docker-for-mac/install/).
+
+Install and configure Hokusai:
 
 ```
-brew install git && brew tap caskroom/cask && brew cask install docker
-curl https://artsy-provisioning-public.s3.amazonaws.com/hokusai -o /usr/local/bin/hokusai && chmod +x /usr/local/bin/hokusai
-# set AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
+curl --silent https://artsy-provisioning-public.s3.amazonaws.com/hokusai/hokusai-latest-$(uname -s)-$(uname -m) -o /usr/local/bin/hokusai && chmod +x /use/local/bin/hokusai
+# Make sure IAM credentials are set in AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY or ~/.aws/credentials
 hokusai configure --kubectl-version 1.10.7 --s3-bucket artsy-citadel --s3-key k8s/config
 ```
 
