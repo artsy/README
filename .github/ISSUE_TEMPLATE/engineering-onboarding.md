@@ -10,6 +10,7 @@ _Goal: I’ve met my manager and some members of the engineering team (over lunc
 google (artsymail), 1Password, and know how to use the coffee machine._
 
 - [ ] Add a cool pic of yourself to Slack and Jira
+- [ ] Say hi in the [onboarding-eng](https://artsy.slack.com/messages/CCC37HXE0) slack channel and give BLANK a :wave: as they are the most recently onboarded person.
 
 ## Your first week
 
