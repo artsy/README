@@ -25,3 +25,7 @@ Other than that, we can continue to build up a global list of words to ignore.
 ## Additional Context:
 
 You can see our discussion [in slack here](/link/to/slack.com)
+
+## How is this RFC resolved?
+
+A PR to peril-settings adding the check
