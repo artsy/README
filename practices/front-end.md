@@ -8,7 +8,7 @@ description: What do folks with a front-end focus do?
 ### Team Goals
 
 - Build and maintain primarily user-facing applications.
-- Support product goals through web technology.
+- Support product goals through consistent choices for technology.
 - Productivity and developer happiness.
 - Open source by default.
 
