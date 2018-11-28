@@ -24,6 +24,7 @@ description: What do folks with a platform focus do?
 - [Data Migrations](/playbooks/data-migrations.md)
 - [Technology Choices](/playbooks/technology-choices.md)
 - [Extracting Services](/playbooks/extracting-services.md)
+- [API Authentication - blog post](http://artsy.github.io/blog/2018/11/28/artsy-auth/)
 
 ### Further Platform documentation
 
