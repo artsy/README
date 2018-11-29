@@ -15,7 +15,7 @@ If you're going to start an informational from scratch, you're probably going to
 using the greenhouse "Email [name]" button, then choose the "Engineering - Invite to Coffee template".
 
 If you're going to do it on-site in NYC, ask them to met you at Artsy, and give them a tour. Then take them down to
-[La Colombe](https://code.dblock.org/2016/08/30/phone-screens-are-harmful-and-the-benefits-of-the-informational-interview.html1)
+[La Colombe](https://code.dblock.org/2016/08/30/phone-screens-are-harmful-and-the-benefits-of-the-informational-interview.html)
 for an hour or so.
 
 Then do some back-and-forth to eventually find a time. Make a calendar event for the two of you.
