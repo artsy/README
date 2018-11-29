@@ -22,6 +22,7 @@ practice should be incorporated, submit a PR!
 |--|--|
 | [Conferences](/playbooks/conferences.md#readme) | Attending or speaking at a conference |
 | [Data Migrations](/playbooks/data-migrations.md#readme) | Preparing, reviewing and executing data migrations |
+| [Dependency Management Recommendations](/playbooks/dependencies.md#readme) | How do we want to handle new dependencies to our apps? |
 | [Deployments](/playbooks/deployments.md#readme) | How systems are deployed at Artsy |
 | [Documentation](/playbooks/documentation.md#readme) | How and where to document or share content |
 | [Engineer workflow](/playbooks/engineer-workflow.md#readme) | How we work together |
