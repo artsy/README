@@ -6,7 +6,7 @@ description: How we use use Slack at Artsy
 # Slack
 
 Get on [Slack](https://artsy.slack.com) 🔒. You can download the OS X app from the
-[Apple store](https://itunes.apple.com/us/app/slack/id803453959?mt=12). Also, install it on your phone. We use
+[Mac App store](https://itunes.apple.com/us/app/slack/id803453959?mt=12). Also, install it on your phone. We use
 Slack for all internal messaging, and prefer it to email in, basically, all cases.
 
 ### Engineering Slack Channels
@@ -91,7 +91,7 @@ to check out:
   - \*\***bold**\*\*
 
 - Read this short article on
-  [getting the most out of Slack](https://medium.com/@slackhq/11-useful-tips-for-getting-the-most-of-slack-5dfb3d1af77).
+  [getting the most out of Slack](https://slackhq.com/11-useful-tips-for-getting-the-most-of-slack).
 
 - Please don't swear.
 
