@@ -17,7 +17,7 @@ job, and all the other discussion participants were friendly and insightful.)
 
 ## Building Consensus on Architectural Changes
 
-Not sure of the exact title, but this was actually a broader converations about building consensus around change
+Not sure of the exact title, but this was actually a broader conversation about building consensus around change
 more generally (which is something I've been thinking a lot about lately).
 
 The group's initial discussion focused on RFC's, which were actually popular among participants. One participant
@@ -48,7 +48,7 @@ whose relationships with open source are _very_ different from Artsy's.
 
 Discussion started with the recent
 [npm event-stream exploitation](https://blog.npmjs.org/post/180565383195/details-about-the-event-stream-incident),
-and the subject of security lingered throughout the remainder of converstaion (including some interesting
+and the subject of security lingered throughout the remainder of conversation (including some interesting
 implications of the Android permissions model). We discussed various types of "compliance" and the difficulties of
 both _open sourcing_ code from and also _using open source_ within large companies. It seems very arduous; one
 participant summed it up as "it gets complicated when money and lawyers get involved."

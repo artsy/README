@@ -1,5 +1,8 @@
 ### Conferences notes
 
+These are some notes that Artsy engineers take while at conferences. They're open when appropriate, but we also
+have some [closed notes in potential 🔒](https://github.com/artsy/potential/tree/master/conference-notes).
+
 <!-- prettier-ignore-start -->
 <!-- start_toc -->
 | Doc | Overview |
