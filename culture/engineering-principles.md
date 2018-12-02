@@ -146,8 +146,8 @@ success on automation via documentation for recurring meetings.
 
   - [Danger](http://danger.systems)
   - [Peril](https://github.com/danger/peril#README)
-  - [RFC Process](https://github.com/artsy/guides/blob/master/guides/RFCs.md)
-  - [Retrospectives](https://github.com/artsy/guides/blob/master/guides/Retrospectives.md#retrospectives)
+  - [RFC Process](/playbooks/rfcs.md)
+  - [Retrospectives](/playbooks/retrospectives.md)
   - [artsy/meta](https://github.com/artsy/meta)
 
 - Further Reading
