@@ -9,11 +9,11 @@ A reading list that is useful for on-boarding to the web practice technologies.
 
 ### Next it's important to know Node.js.
 
-- [Node official website](http://nodejs.org/)
+- [Node official website](https://nodejs.org/)
 - [Original node.js presentation](https://www.youtube.com/watch?v=ztspvPYybIY) (this was when Ryan was learning the
   art of public speaking so don't feel the need to stick through the whole thing)
-- [Beginner Tutorial](http://www.nodebeginner.org/)
-- [Neat overview article](http://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js)
+- [Beginner Tutorial](https://www.nodebeginner.org/)
+- [Neat overview article](https://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js)
 
 ### Get familiar with what Force talks to -- our JSON HTTP API (api.artsy.net)
 
@@ -24,21 +24,21 @@ Simply put our API is a Ruby powered web server the serves up our data in JSON f
 
 ### Get to know some of the popular tools Force is built on.
 
-- Popular Node framework: [Express](http://expressjs.com/)
+- Popular Node framework: [Express](https://expressjs.com/)
 - Popular front-end framework: [Backbone](http://backbonejs.org/)
 - A templating language that we use to write HTML: [Jade](http://jade-lang.com/)
-- A stylesheet language we use to write CSS: [Stylus](http://learnboost.github.io/stylus/)
-- Unit testing framework: [Mocha](http://visionmedia.github.io/mocha/)
+- A stylesheet language we use to write CSS: [Stylus](http://stylus-lang.com)
+- Unit testing framework: [Mocha](https://mochajs.org/)
 
 ### We do something quite unique and bleeding edge at Artsy that's being coined as "isomorphic javascript".
 
-- [AirBnB blog post explaining isomorphic Javascript](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/)
-  and [similar slides](http://www.slideshare.net/spikebrehm/a-28174727)
+- [AirBnB blog post explaining isomorphic Javascript](https://medium.com/airbnb-engineering/isomorphic-javascript-the-future-of-web-apps-10882b7a2ebc)
+  and [similar slides](https://www.slideshare.net/spikebrehm/a-28174727)
 - [Browserify](http://browserify.org/)—The node tool we use to share modules between Node & the browser
 
 ### Finally, read up on our open source boilerplate which is just a light-weight combination of the above things.
 
-- [Project website](http://ezeljs.com/)
-- [Blog post introducing it](http://artsy.github.io/blog/2013/11/30/rendering-on-the-server-and-client-in-node-dot-js/)
+- [Project website](https://github.com/artsy/ezel)
+- [Blog post introducing it](https://artsy.github.io/blog/2013/11/30/rendering-on-the-server-and-client-in-node-dot-js/)
 
 Good luck, and please ask any questions in the [#web Slack channel](https://artsy.slack.com/messages/web/) 🔒.

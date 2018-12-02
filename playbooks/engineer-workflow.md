@@ -35,7 +35,7 @@ README if you want to know who to start asking questions to.
 
 ### Fork-and-branch
 
-Artsy teams employ the [fork-and-branch](http://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/)
+Artsy teams employ the [fork-and-branch](https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/)
 model of project collaboration popular in open source. That means work happens on developers' own repositories
 (e.g., [mzikherman/force](https://github.com/mzikherman/force)) forked from the "trunk"
 ([artsy/force](https://github.com/artsy/force)). [Pull requests](#pull-requests) are then made from developers'
@@ -44,7 +44,7 @@ working branches to the trunk's `master` branch.
 ### Commits
 
 > A well-crafted git commit message is the best way to communicate context about a change to fellow developers (and
-> indeed to [our] future selves). -[How to write a git commit message](http://chris.beams.io/posts/git-commit/)
+> indeed to [our] future selves). -[How to write a git commit message](https://chris.beams.io/posts/git-commit/)
 
 The code change itself should be internally consistent and coherent. If you're modifying a method signature,
 propagate the change to calling code. If you've implemented a new behavior, update test assertions to match. Except
@@ -112,7 +112,7 @@ Further reading:
 - See some epic examples of great PRs: [artsy/gravity#9787](https://github.com/artsy/gravity/pull/9787) 🔒,
   [artsy/gravity#9557](https://github.com/artsy/gravity/pull/9557) 🔒
 - [On empathy and pull requests](https://slack.engineering/on-empathy-pull-requests-979e4257d158)
-- [Rules of communicating at GitHub](http://ben.balter.com/2014/11/06/rules-of-communicating-at-github/)
+- [Rules of communicating at GitHub](https://ben.balter.com/2014/11/06/rules-of-communicating-at-github/)
 
 ### Testing
 

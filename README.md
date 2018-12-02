@@ -8,7 +8,7 @@ This repo is a work in progress. In fact, your first pull request could be to fi
 engineering team with questions, or try the [#dev Slack channel](https://artsy.slack.com/messages/dev) 🔒.
 
 Whether you're seasoned or fresh out of school, take a moment to read
-[Your First 60 Days at an Engineering Job](http://code.dblock.org/2015/04/23/your-first-60-days-at-an-engineering-job.html).
+[Your First 60 Days at an Engineering Job](https://code.dblock.org/2015/04/23/your-first-60-days-at-an-engineering-job.html).
 
 We split this repo out into different sections, each one has a summary of what's inside to make it easy to browse.
 
@@ -40,7 +40,7 @@ Engineers typically work on a product team and may also belong to an _Engineerin
 
 - Platform Practice
 
-  - Team lead: [Joey](https://github.com/joeyAghion) [joey.aghion.com](http://joey.aghion.com)
+  - Team lead: [Joey](https://github.com/joeyAghion) [joey.aghion.com](https://joey.aghion.com)
   - Slack: [#product-platform](https://artsy.slack.com/messages/product-platform) 🔒
   - [Platform Practice Overview](practices/platform.md)
 
@@ -57,4 +57,4 @@ If you are on call or asked to fix an immediate issue, check out our doc on
 [how support works](/playbooks/support.md#readme) and reference our
 [support wiki](https://github.com/artsy/potential/wiki) 🔒 for up-to-date playbooks on how to solve issues.
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />

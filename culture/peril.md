@@ -48,6 +48,6 @@ the [`peril.settings.json`][settings] in [`artsy/peril-settings`][repo].
 - Post diff notifications for all GraphQL APIs that changed in the last week into slack
 
 
-[blog]: http://artsy.github.io/blog/2017/09/04/Introducing-Peril/
+[blog]: https://artsy.github.io/blog/2017/09/04/Introducing-Peril/
 [settings]: https://github.com/artsy/peril-settings/blob/master/peril.settings.json
 [repo]: https://github.com/artsy/peril-settings/

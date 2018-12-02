@@ -13,7 +13,7 @@ Happy Hour is held inside our offices, on a weekly basis. We strive to make them
 tech & arts spectrum. Other than friends we tend to invite great candidates that we might not be currently interviewing, but
 maybe will consider in the future, or that we believe could use some help networking with fellow engineers.
 
-<a href="http://www.nytimes.com/2013/06/20/fashion/the-calorie-packed-perk.html" target="_blank">![happy hour, via the New York Times](images/happy_hour.jpg)</a>
+<a href="https://www.nytimes.com/2013/06/20/fashion/the-calorie-packed-perk.html" target="_blank">![happy hour, via the New York Times](images/happy_hour.jpg)</a>
 
 There are small snacks, drinks (including beer, wine, whiskey, etc.). We have a bartender.
 

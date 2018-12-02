@@ -7,7 +7,7 @@ description: Career development at Artsy
 
 This documents Artsy's Engineering Ladder. The Engineering Ladder is a framework to help evaluate performance,
 goals, and compensation for engineers at Artsy. Our ladder was first established and opened in 2015, which you can
-read more about [on our blog](http://artsy.github.io/blog/2015/04/03/artsy-engineering-compensation-framework/).
+read more about [on our blog](https://artsy.github.io/blog/2015/04/03/artsy-engineering-compensation-framework/).
 
 Since then Artsy has synced up with the Artsy
 [company-wide framework 🔑](https://docs.google.com/spreadsheets/d/1SJXiaA5TYQxqDQmOiVG5NjLj3FFaAAC6aFVVB40bUAs/edit#gid=1182416267)

@@ -24,7 +24,7 @@ not exhaustive, and do not form part of our licenses.
   applying it. Licensors should also secure all rights necessary before applying our licenses so that the public
   can reuse the material as expected. Licensors should clearly mark any material not subject to the license. This
   includes other CC-licensed material, or material used under an exception or limitation to copyright.
-  [More considerations for licensors](http://wiki.creativecommons.org/Considerations_for_licensors_and_licensees#Considerations_for_licensors).
+  [More considerations for licensors](https://wiki.creativecommons.org/Considerations_for_licensors_and_licensees#Considerations_for_licensors).
 
 - **Considerations for the public:** By using one of our public licenses, a licensor grants the public permission
   to use the licensed material under specified terms and conditions. If the licensor’s permission is not necessary
@@ -34,7 +34,7 @@ not exhaustive, and do not form part of our licenses.
   including because others have copyright or other rights in the material. A licensor may make special requests,
   such as asking that all changes be marked or described. Although not required by our licenses, you are encouraged
   to respect those requests where reasonable.
-  [More considerations for the public](http://wiki.creativecommons.org/Considerations_for_licensors_and_licensees#Considerations_for_licensees).
+  [More considerations for the public](https://wiki.creativecommons.org/Considerations_for_licensors_and_licensees#Considerations_for_licensees).
 
 ## Creative Commons Attribution 4.0 International Public License
 
@@ -263,7 +263,7 @@ or authority.
 > of its public licenses to material it publishes and in those instances will be considered the “Licensor.” Except
 > for the limited purpose of indicating that material is shared under a Creative Commons public license or as
 > otherwise permitted by the Creative Commons policies published at
-> [creativecommons.org/policies](http://creativecommons.org/policies), Creative Commons does not authorize the use
+> [creativecommons.org/policies](https://creativecommons.org/policies), Creative Commons does not authorize the use
 > of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written
 > consent including, without limitation, in connection with any unauthorized modifications to any of its public
 > licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the

@@ -42,7 +42,7 @@ The standup is fully documented [here](/events/open-standup.md).
   place to start.
 - **Ask Your Neighbor:** Everyone is friendly. Don't hesitate to reach out to the people around you for even the
   most basic of questions.
-- **Check Atlas:** Turns out a lot of common questions are available in [atlas.artsy.net](http://atlas.artsy.net) .
+- **Check Atlas:** Turns out a lot of common questions are available in [atlas.artsy.net](http://atlas.artsy.net) 🔒.
 
 ## Who we are
 
@@ -53,16 +53,16 @@ world, or keep up with the latest news.
 ### Open Source Culture + Projects
 
 At Artsy, we <3 open source and encourage you to become part of the community. Here is a
-[list of some open source technologies](http://artsy.github.io/open-source/) we currently use.
+[list of some open source technologies](https://artsy.github.io/open-source/) we currently use.
 
 Read @dblock's blog post on
-[Becoming Open Source by Default](http://code.dblock.org/2015/02/09/becoming-open-source-by-default.html).
+[Becoming Open Source by Default](https://code.dblock.org/2015/02/09/becoming-open-source-by-default.html).
 
-Read this [article by the mobile team](http://www.objc.io/issue-22/artsy.html) on the culture of open source at
+Read this [article by the mobile team](https://www.objc.io/issues/22-scale/artsy/) on the culture of open source at
 Artsy and their reasons behind open-sourcing our [mobile app](https://github.com/artsy/eigen).
 
 Orta also wrote a blog post on the
-[mechanics behind open-sourcing Eigen](http://artsy.github.io/blog/2015/04/28/how-we-open-sourced-eigen/).
+[mechanics behind open-sourcing Eigen](https://artsy.github.io/blog/2015/04/28/how-we-open-sourced-eigen/).
 
 
 ## Our stack/technologies
@@ -90,9 +90,9 @@ IAM profile within our organization's account (see
 ### Artsy's Stack(s)
 
 Read @orta's
-[blog post describing our stack in 2017](http://artsy.github.io/blog/2017/04/14/artsy-technology-stack-2017/),
-which evolved from [our stack in 2015](http://artsy.github.io/blog/2015/03/23/artsy-technology-stack-2015/), which
-evolved from [our tech stack at launch in 2012](http://artsy.github.io/blog/2012/10/10/artsy-technology-stack/),
+[blog post describing our stack in 2017](https://artsy.github.io/blog/2017/04/14/artsy-technology-stack-2017/),
+which evolved from [our stack in 2015](https://artsy.github.io/blog/2015/03/23/artsy-technology-stack-2015/), which
+evolved from [our tech stack at launch in 2012](https://artsy.github.io/blog/2012/10/10/artsy-technology-stack/),
 which evolved from a Rails monolith.
 
 ### Artsy APIs
@@ -135,7 +135,7 @@ can find a
 ### Contributing Code
 
 As all of our code is housed on GitHub, we make contributions through
-[pull requests](http://artsy.github.io/blog/2012/01/29/how-art-dot-sy-uses-github-to-build-art-dot-sy/).
+[pull requests](https://artsy.github.io/blog/2012/01/29/how-art-dot-sy-uses-github-to-build-art-dot-sy/).
 
 Read more in [the engineer workflow playbook](/playbooks/engineer-workflow.md#readme) or see this
 [step-by-step guide](https://github.com/artsy/potential/blob/master/github/workflow.md) 🔒. If you're unfamiliar with
