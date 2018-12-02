@@ -176,7 +176,7 @@ The small improvements eventually add up so that you can do industry-impact work
   - [Artsy x React Native](http://artsy.github.io/artsy-x-react-native.html)
   - [JavaScriptures](http://artsy.github.io/series/javascriptures/)
   - [Learn Swift at Artsy](http://artsy.github.io/series/swift-at-artsy/)
-  - [The Artsy Engineering Blog](http://artsy.github.io/blog/)
+  - [The Artsy Engineering Blog](https://artsy.github.io/)
   - [artsy/meta][meta]
   - [Peer Labs](https://peerlab.community)
   - [Artsy Engineering Compensation Framework](http://artsy.github.io/blog/2015/04/03/artsy-engineering-compensation-framework/)
