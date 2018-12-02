@@ -93,7 +93,7 @@ clearly, publicly and be empathetic to the priorities of others.
 - Examples:
 
   - [Grape](https://github.com/ruby-grape/grape)
-  - [CocoaPods](https://cocoapods.rog)
+  - [CocoaPods](https://cocoapods.org)
   - The Artsy Omakase
 
 ### Incremental Revolution
