@@ -113,8 +113,8 @@ trade-offs.
 
 - Further Reading
 
-  - [Building a Pod Library](http://artsy.github.io/blog/2018/04/17/making-a-components-pod/)
-  - [Modernizing Force](http://artsy.github.io/blog/2017/09/05/Modernizing-Force/)
+  - [Building a Pod Library](https://artsy.github.io/blog/2018/04/17/making-a-components-pod/)
+  - [Modernizing Force](https://artsy.github.io/blog/2017/09/05/Modernizing-Force/)
 
 ### Being Nice is Nice
 
@@ -152,9 +152,9 @@ success on automation via documentation for recurring meetings.
 
 - Further Reading
 
-  - [The Artsy Support Process](http://artsy.github.io/blog/2018/05/25/support-process/)
-  - [Introducing Peril to Artsy](http://artsy.github.io/blog/2017/09/04/Introducing-Peril/)
-  - [Artsy Apogee](http://artsy.github.io/blog/2018/02/02/artsy-apogee/)
+  - [The Artsy Support Process](https://artsy.github.io/blog/2018/05/25/support-process/)
+  - [Introducing Peril to Artsy](https://artsy.github.io/blog/2017/09/04/Introducing-Peril/)
+  - [Artsy Apogee](https://artsy.github.io/blog/2018/02/02/artsy-apogee/)
 
 ### Leverage Your Impact
 
@@ -173,13 +173,13 @@ The small improvements eventually add up so that you can do industry-impact work
 
 - Examples
 
-  - [Artsy x React Native](http://artsy.github.io/artsy-x-react-native.html)
-  - [JavaScriptures](http://artsy.github.io/series/javascriptures/)
-  - [Learn Swift at Artsy](http://artsy.github.io/series/swift-at-artsy/)
+  - [Artsy x React Native](https://artsy.github.io/artsy-x-react-native.html)
+  - [JavaScriptures](https://artsy.github.io/series/javascriptures/)
+  - [Learn Swift at Artsy](https://artsy.github.io/series/swift-at-artsy/)
   - [The Artsy Engineering Blog](https://artsy.github.io/)
   - [artsy/meta][meta]
   - [Peer Labs](https://peerlab.community)
-  - [Artsy Engineering Compensation Framework](http://artsy.github.io/blog/2015/04/03/artsy-engineering-compensation-framework/)
+  - [Artsy Engineering Compensation Framework](https://artsy.github.io/blog/2015/04/03/artsy-engineering-compensation-framework/)
 
 ### De-silo Engineers
 
@@ -201,8 +201,8 @@ re-staff periodically throughout a year.
 
 - Further Reading
   - [Loosely Held Strong Convictions](https://www.youtube.com/watch?v=hlLhtWLghGA)
-  - [DevSwap: An Experiment in Randomizing Teams](http://artsy.github.io/blog/2017/09/11/DevSwap/)
-  - [Artsy x React Native](http://artsy.github.io/artsy-x-react-native.html)
+  - [DevSwap: An Experiment in Randomizing Teams](https://artsy.github.io/blog/2017/09/11/DevSwap/)
+  - [Artsy x React Native](https://artsy.github.io/artsy-x-react-native.html)
 
 ### Build for 10x
 
@@ -213,7 +213,7 @@ infrastructure and architecture. It also recognizes that solutions are expected 
 
 - Further Reading
 
-  - [Future Fridays](http://artsy.github.io/blog/2015/12/22/future-fridays/)
+  - [Future Fridays](https://artsy.github.io/blog/2015/12/22/future-fridays/)
   - [Migrations: the sole scalable fix to tech debt](https://lethain.com/migrations/)
   - [Productivity in the age of hypergrowth.](https://lethain.com/productivity-in-the-age-of-hypergrowth/)
 
@@ -233,4 +233,4 @@ project. It's done.
 [eigen]: https://github.com/artsy/eigen
 [mp]: https://github.com/artsy/metaphysics
 [values]: https://github.com/artsy/README/blob/master/culture/what-is-artsy.md#artsy-in-a-nutshell
-[blog]: http://artsy.github.io/blog/2018/08/22/engineering-guiding-principles/
+[blog]: https://artsy.github.io/blog/2018/08/22/engineering-guiding-principles/

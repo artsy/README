@@ -8,7 +8,7 @@ issues](https://github.com/artsy/README/issues).
 
 If you don't work at Artsy, we would love for you to [ask us a question or highlight
 an issue](https://github.com/artsy/README/issues) in our processes, check out
-[our Engineering blog](http://artsy.github.io) or [maybe even consider working with
+[our Engineering blog](https://artsy.github.io) or [maybe even consider working with
 us](https://www.artsy.net/jobs) :)
 
 ## Editing README

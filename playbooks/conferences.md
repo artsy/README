@@ -31,7 +31,7 @@ A growing list of related conferences:
 - JSConf: https://jsconf.com/
 - RailsConf: https://railsconf.com/
 - React conferences: https://reactjs.org/community/conferences.html
-- RubyConf: http://rubyconf.org/
+- RubyConf: https://rubyconf.org/
 - SmashingConf: https://smashingconf.com/
 - Strange Loop: https://www.thestrangeloop.com/index.html
 - dotJS: https://www.dotjs.io/

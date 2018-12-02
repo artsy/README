@@ -8,8 +8,8 @@ description: How to get up to date on the art world
 ### Other online art/design sites
 
 - [1stdibs](https://www.1stdibs.com/)
-- [artnet](http://www.artnet.com/)
-- [Artspace](http://www.artspace.com/)
+- [artnet](https://www.artnet.com/)
+- [Artspace](https://www.artspace.com/)
 - [Paddle8](https://paddle8.com/)
 
 ### Artsy Editorial must-reads
@@ -27,30 +27,30 @@ description: How to get up to date on the art world
 
 - Of course, start with Artsy's [editoral coverage](https://www.artsy.net/articles)
 - [Art F City](http://artfcity.com/)
-- [Art in America](http://www.artinamericamagazine.com/)
-- [Artforum](http://artforum.com/)
+- [Art in America](https://www.artinamericamagazine.com/)
+- [Artforum](https://artforum.com/)
 - [artnet news](https://news.artnet.com/)
-- [Artspace Magazine](http://www.artspace.com/magazine/)
-- [Big Red & Shiny](http://www.bigredandshiny.com/cgi-bin/BRS.cgi)
-- [BLOUIN ARTINFO](http://www.blouinartinfo.com/)
-- [Bomb](http://bombmagazine.org/) - especially artist interviews
-- [Brooklyn Rail](http://www.brooklynrail.org/)
-- [Carolina Miranda / LA Times](http://www.latimes.com/entertainment/arts/miranda/)
-- [Contemporary Art Daily](http://www.contemporaryartdaily.com/)
-- [East of Borneo](http://www.eastofborneo.org/)
-- [Frieze](http://www.frieze.com/magazine/)
-- [greg.org](http://greg.org/)
-- [Hyperallergic](http://hyperallergic.com/)
+- [Artspace Magazine](https://www.artspace.com/magazine/)
+- [Big Red & Shiny](https://bigredandshiny.org/)
+- [BLOUIN ARTINFO](https://www.blouinartinfo.com/)
+- [Bomb](https://bombmagazine.org/) - especially artist interviews
+- [Brooklyn Rail](https://brooklynrail.org/)
+- [Carolina Miranda / LA Times](https://www.latimes.com/entertainment/arts/miranda/)
+- [Contemporary Art Daily](https://www.contemporaryartdaily.com/)
+- [East of Borneo](https://eastofborneo.org/)
+- [Frieze](https://frieze.com/editorial)
+- [greg.org](https://greg.org/)
+- [Hyperallergic](https://hyperallergic.com/)
 - [Mousse](http://moussemagazine.it/)
-- [New York Times Art & Design](http://www.nytimes.com/pages/arts/design/index.html)
-- [Rhizome](http://rhizome.org/)
-- [The Art Newspaper](http://www.theartnewspaper.com/)
-- [Two Coats of Paint](http://www.twocoatsofpaint.com/)
+- [New York Times Art & Design](https://www.nytimes.com/pages/arts/design/index.html)
+- [Rhizome](https://rhizome.org/)
+- [The Art Newspaper](https://www.theartnewspaper.com/)
+- [Two Coats of Paint](https://www.twocoatsofpaint.com/)
 
 ### Books
 
-- [The $12 Million Stuffed Shark: The Curious Economics of Contemporary Art](http://www.amazon.com/The-Million-Stuffed-Shark-Contemporary/dp/0230620590)
-- [The Supermodel and the Brillo Box: Back Stories and Peculiar Economics from the World of Contemporary Art](http://www.amazon.com/The-Supermodel-Brillo-Box-Contemporary/dp/1137279087)
+- [The $12 Million Stuffed Shark: The Curious Economics of Contemporary Art](https://www.amazon.com/The-Million-Stuffed-Shark-Contemporary/dp/0230620590)
+- [The Supermodel and the Brillo Box: Back Stories and Peculiar Economics from the World of Contemporary Art](https://www.amazon.com/The-Supermodel-Brillo-Box-Contemporary/dp/1137279087)
 - [Seven Days in the Art World](https://www.amazon.com/Seven-Days-World-Sarah-Thornton/dp/039333712X)
 - [33 Artists in 3 Acts](https://www.amazon.com/33-Artists-Acts-Sarah-Thornton/dp/039335167X/ref=sr_1_1?s=books&ie=UTF8&qid=1472764571&sr=1-1&keywords=33+artists+in+3+acts)
 
@@ -71,7 +71,7 @@ You'll find many books in the 27th floor library, too.
 
 - [Artsy Podcast](https://soundcloud.com/artsypodcast)
 - [Bad at Sports](http://badatsports.com/)
-- [Modern Art Notes Podcast](http://manpodcast.com/)
+- [Modern Art Notes Podcast](https://manpodcast.com/)
 
 ### Apps
 
@@ -81,11 +81,11 @@ You'll find many books in the 27th floor library, too.
 ### Miscellaneous
 
 - [Twitter list of Artsy team](https://twitter.com/artsy/lists/artsy-team)
-- [Barry Hoggard & James Wagner on Building a Major Collection on a Budget](http://www.artspace.com/magazine/interviews_features/how_i_collect_hoggard_and_wagner) -
+- [Barry Hoggard & James Wagner on Building a Major Collection on a Budget](https://www.artspace.com/magazine/interviews_features/how_i_collect/how_i_collect_hoggard_and_wagner-51452) -
   Barry works here, so ask him anything!
 - Two part interview with collector Alain Servais:
-  [1](http://www.artspace.com/magazine/interviews_features/alain-servais-interview),
-  [2](http://www.artspace.com/magazine/interviews_features/alain-servais-interview-part-2)
+  [1](https://www.artspace.com/magazine/interviews_features/how_i_collect/alain-servais-interview-52794),
+  [2](https://www.artspace.com/magazine/interviews_features/how_i_collect/alain-servais-interview-part-2-52876)
 - Articles by art dealer [Edward Winkleman](https://twitter.com/WinklemanNYC)
   - [The Myth of Disruptive Innovation in Online Art Selling Channels](http://www.edwardwinkleman.com/2015/05/the-myth-of-innovative-disruption-in.html)
   - [10 Reasons You Should Buy Art](http://www.edwardwinkleman.com/2015/02/10-reasons-you-should-buy-art.html)
@@ -93,6 +93,6 @@ You'll find many books in the 27th floor library, too.
   - [An Interview with Elizabeth Dee about the Contemporary Art Gallery Model, Part I](http://www.edwardwinkleman.com/2013/06/an-interview-with-elizabeth-dee-about.html)
   - [A Conversation with Elizabeth Dee on the Contemporary Art Gallery Model, Part II](http://www.edwardwinkleman.com/2013/06/a-conversation-with-elizabeth-dee-on.html)
 - Articles by journalist [Felix Salmon](https://twitter.com/felixsalmon)
-  - [The Not So Special Hundred-Million-Dollar Giacometti](http://www.newyorker.com/business/currency/the-hundred-million-dollar-giacometti)
-  - [A guide to the market oligopoly system](http://blogs.reuters.com/felix-salmon/2010/12/28/a-guide-to-the-market-oligopoly-system/)
-  - [Jeff Koons: a master innovator turning money into art](http://www.theguardian.com/artanddesign/2014/jul/03/jeff-koons-master-innovator-whitney-money-art)
+  - [The Not So Special Hundred-Million-Dollar Giacometti](https://www.newyorker.com/business/currency/the-hundred-million-dollar-giacometti)
+  - [A guide to the market oligopoly system](https://blogs.reuters.com/felix-salmon/2010/12/28/a-guide-to-the-market-oligopoly-system/)
+  - [Jeff Koons: a master innovator turning money into art](https://www.theguardian.com/artanddesign/2014/jul/03/jeff-koons-master-innovator-whitney-money-art)

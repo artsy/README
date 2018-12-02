@@ -75,4 +75,4 @@ Read More:
 
 - [Phone Screens are Harmful and The Benefits of the Informational Interview](https://code.dblock.org/2016/08/30/phone-screens-are-harmful-and-the-benefits-of-the-informational-interview.html)
 
-- [Interviewing, applying and getting your first job in iOS](http://artsy.github.io/blog/2016/01/30/iOS-Junior-Interviews/)
+- [Interviewing, applying and getting your first job in iOS](https://artsy.github.io/blog/2016/01/30/iOS-Junior-Interviews/)

@@ -49,9 +49,9 @@ distribute sense of ownership throughout the process.
 
 **Format** There are dozens of retrospective formats in Agile
 [Retrospectives](https://www.amazon.com/Agile-Retrospectives-Making-Teams-Great/dp/0977616649) or
-[online](http://retrospectivewiki.org/index.php?title=Retrospective_Plans). The most commonly used one is called
+[online](https://retrospectivewiki.org/index.php?title=Retrospective_Plans). The most commonly used one is called
 “Glad, Sad, Mad.” According to
-[Retrospectivewiki](http://retrospectivewiki.org/index.php?title=Agile_Retrospective_Resource_Wiki), this format is
+[Retrospectivewiki](https://retrospectivewiki.org/index.php?title=Agile_Retrospective_Resource_Wiki), this format is
 described as follows:
 
 > Issues, changes or observations made during a sprint are listed by all participants and then categorized as
@@ -104,4 +104,4 @@ such as [zoom.us](https://zoom.us/) and [retrium.com](https://www.retrium.com/).
 - [10 things all agile teams need to know to run effective retrospectives](https://blog.retrium.com/10-things-all-agile-teams-need-to-know-to-run-effective-retrospectives)
 - [Retrospective](https://www.atlassian.com/team-playbook/plays/retrospective)
 - [The Collector Experience & GMV team’s first retro](https://github.com/artsy/collector-experience/wiki/Our-First-Retro)
-- [iOS Retrospectives](http://artsy.github.io/blog/2017/05/27/ios-retrospectives/)
+- [iOS Retrospectives](https://artsy.github.io/blog/2017/05/27/ios-retrospectives/)

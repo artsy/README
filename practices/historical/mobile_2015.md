@@ -5,7 +5,7 @@
 ### Culture
 
 We collectively created an article for the magazine
-[objc.io on Artsy Mobiles's culture](http://www.objc.io/issue-22/artsy.html).
+[objc.io on Artsy Mobiles's culture](https://www.objc.io/issue-22/artsy.html).
 
 ### Team Goals
 
@@ -106,7 +106,7 @@ Other mobile projects:
 
 We use GitHub, tada. Because we run OSS then we use GitHub more like how
 [GitHub](https://speakerdeck.com/holman/how-github-uses-github-to-build-github) does than
-[Artsy](http://artsy.github.io/blog/2012/01/29/how-art-dot-sy-uses-github-to-build-art-dot-sy/). We use branches on
+[Artsy](https://artsy.github.io/blog/2012/01/29/how-art-dot-sy-uses-github-to-build-art-dot-sy/). We use branches on
 the app's main repos. All of our apps have convenient `make` commands to simplify name prefixes for branches. E.g.
 `make push` would take the branch `new_vir` and push it as `orta-new_vir` making it obvious who is the owner. Check
 the `Makefile` in the repo to see other commands like: `make fpush`, `make pr` etc.
@@ -128,7 +128,7 @@ on CocoaPods.
 #### Testing
 
 We test our apps to ensure that our behavior is what we expect. We use a collection of
-[FBSnapshot](http://www.objc.io/issue-15/snapshot-testing.html) Tests and Unit Tests via
+[FBSnapshot](https://www.objc.io/issue-15/snapshot-testing.html) Tests and Unit Tests via
 [Specta/Expecta](https://github.com/specta/specta) or [Quick/Nimble](https://github.com/Quick/Quick/).
 
 #### Eigen
@@ -136,7 +136,7 @@ We test our apps to ensure that our behavior is what we expect. We use a collect
 - **Useful:** [ORStackView](https://github.com/orta/ORStackView/),
   [ARAnalytics](https://github.com/orta/ARAnalytics) +
   [RAC DSL](https://github.com/artsy/eigen/blob/6bcacede194ca5b948e916746d313e7c96ec085e/Artsy/Classes/ARAppDelegate%2BAnalytics.m)
-  and [ReactiveCocoa](http://reactivecocoa.io).
+  and [ReactiveCocoa](https://reactivecocoa.io).
 - **Essentials:** Auto Layout, [JLRoutes](https://github.com/joeldev/JLRoutes)
 
 #### Energy

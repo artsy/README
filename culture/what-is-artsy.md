@@ -6,7 +6,7 @@ description: An externally-aimed document on what the company does
 # Artsy in a Nutshell
 
 If you're interested in how the engineering team is set up specifically, I'd recommend this blog post:
-[Artsy's Engineering Organization Stack, 2016](http://artsy.github.io/blog/2016/03/28/artsy-engineering-organization-stack/).
+[Artsy's Engineering Organization Stack, 2016](https://artsy.github.io/blog/2016/03/28/artsy-engineering-organization-stack/).
 I'll be quoting it in here occasionally.
 
 Artsy is well known for our work in the open source domain, but as developers we regularly get asked "What is
@@ -32,7 +32,7 @@ distance from the other, we believe that magical things happen at the intersecti
 that intersection in everything we do and in the people we hire.
 
 > **Example**: We work as engineers, but we aren't defined by that role; Artsy holds an annual
-> [Salon](http://www.dictionary.com/browse/salon) and we encourage our engineers (and indeed, all our colleagues)
+> [Salon](https://www.dictionary.com/browse/salon) and we encourage our engineers (and indeed, all our colleagues)
 > to submit work. Engineer contributions to this event have included generative pixel art, interactive video game,
 > photo, video, sculpture, painting, live music and cartographic pieces.
 
@@ -92,7 +92,7 @@ Currently Artsy is over 200 people, with ~30 of them being the Engineering team.
 ### How do we make money?
 
 From
-[Artsy's Engineering Organization Stack, 2016](http://artsy.github.io/blog/2016/03/28/artsy-engineering-organization-stack/):
+[Artsy's Engineering Organization Stack, 2016](https://artsy.github.io/blog/2016/03/28/artsy-engineering-organization-stack/):
 
 > Artsy has 3 businesses: _Listings_, _Auctions_ and _Content_.
 
@@ -162,11 +162,11 @@ We bake it into our engineering team culture. I'll quote the
 > day-to-day tasks, and over-communicating on GitHub has helped the remote members of our team.
 
 We take the time to educate the rest of the team about why OSS is important for us, ranging
-[from company videos](http://code.dblock.org/2015/02/09/becoming-open-source-by-default.html) to in-house training
+[from company videos](https://code.dblock.org/2015/02/09/becoming-open-source-by-default.html) to in-house training
 sessions on GitHub. We work hard on this.
 
-To quote [@dblock](http://code.dblock.org)'s post on
-[OSS by Default](http://code.dblock.org/2015/02/09/becoming-open-source-by-default.html):
+To quote [@dblock](https://code.dblock.org)'s post on
+[OSS by Default](https://code.dblock.org/2015/02/09/becoming-open-source-by-default.html):
 
 > To quote Scott Berkun’s A Year Without Pants: attributes of culture don’t arrive by some technique sprinkled
 > around the company years after it started. This applies to organizations and individuals alike - I didn’t start

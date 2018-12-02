@@ -19,7 +19,7 @@ Previous demos include:
   [@orta][orta].
 - Experimenting with [Rails+React+TypeScript](https://github.com/jonallured/update_queue) with [@jonallured][jon].
 - Preview of
-  [Building Better Software by Building Better Teams](http://appdevcon.nl/session/building-better-software-by-building-better-teams/)
+  [Building Better Software by Building Better Teams](https://appdevcon.nl/session/building-better-software-by-building-better-teams/)
   by [@ashfurrow][ash].
 - Experimenting with [Isomorphic Relay](https://github.com/damassi/isomorphic-relay-app) by [@damassi][chris].
 

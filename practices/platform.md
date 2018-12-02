@@ -16,7 +16,7 @@ description: What do folks with a platform focus do?
 - Automated notifications appear in [#platform-machines](https://artsy.slack.com/messages/platform-machines/) 🔒
 - Significant alerts go to [#platform-alerts](https://artsy.slack.com/messages/platform-alerts/) 🔒
 - Fridays are **Future Fridays**, where we take a break from in progress work to focus on longer-term improvements.
-  (See [blog post](http://artsy.github.io/blog/2015/12/22/future-fridays/).) _[Experimental]_
+  (See [blog post](https://artsy.github.io/blog/2015/12/22/future-fridays/).) _[Experimental]_
 
 ### Platform Documentation
 
@@ -24,7 +24,7 @@ description: What do folks with a platform focus do?
 - [Data Migrations](/playbooks/data-migrations.md)
 - [Technology Choices](/playbooks/technology-choices.md)
 - [Extracting Services](/playbooks/extracting-services.md)
-- [API Authentication - blog post](http://artsy.github.io/blog/2018/11/28/artsy-auth/)
+- [API Authentication - blog post](https://artsy.github.io/blog/2018/11/28/artsy-auth/)
 
 ### Further Platform documentation
 

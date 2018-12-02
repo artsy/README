@@ -9,12 +9,12 @@ When Artsy was under 50 people, we would hold "Brown Bag" meetings. These were t
 topics. As we out-grew the format, we started doing engineering "Brown Bag" meetings. Occasionally.
 
 This worked for a while, but was sporadic and mostly the same speakers. Once we moved to
-[a new stand-up format](http://artsy.github.io/blog/2015/03/23/artsy-technology-stack-2015/) it felt like time to
+[a new stand-up format](https://artsy.github.io/blog/2015/03/23/artsy-technology-stack-2015/) it felt like time to
 re-vamp our brown bags too.
 
 Our format is pretty simple, every Thursday we have an hour slot at 12:30 (NYC time) on the calendar for someone to
-give a talk or presentation. I think [Alan](http://twitter.com/alanjay1/) described it well on
-[Professional Development at Artsy](http://artsy.github.io/blog/2016/09/22/professional-development-at-artsy-engineering/):
+give a talk or presentation. I think [Alan](https://twitter.com/alanjay1/) described it well on
+[Professional Development at Artsy](https://artsy.github.io/blog/2016/09/22/professional-development-at-artsy-engineering/):
 
 > Every Thursday, we do a Lunch-and-Learn session. Historically, we mostly showed off tech we use internally. But
 > over about a year, most of our tech stack has been presented this way, so we also bring in engineers we know at
@@ -22,13 +22,13 @@ give a talk or presentation. I think [Alan](http://twitter.com/alanjay1/) descri
 
 So far, from external contributors we've had:
 
-- How Buffer does Transparency by [Katie Womersley](http://twitter.com/‪katie_wormers‬)
-- How I got started in OSS by [Henry Zhu](http://twitter.com/‪left_pad) of Babel/Behance
-- A D3 Overview by [Amit Schechter](http://twitter.com/‪meetamit‬) of TWO-N
-- How Zalado Works by [Laurita Apple](http://twitter.com/‪LauritaApplez‬) and
-  [Alexander Kops](http://twitter.com/‪koze‬)
-- The ODEN Tech Stack by [@ODEN_tech](http://twitter.com/‪ODEN_tech)
-- Creating a Research Dept in a Startup by [Joe Carrafa](http://twitter.com/‪joetastic‬) of Warby Parker
+- How Buffer does Transparency by [Katie Womersley](https://twitter.com/‪katie_wormers‬)
+- How I got started in OSS by [Henry Zhu](https://twitter.com/‪left_pad) of Babel/Behance
+- A D3 Overview by [Amit Schechter](https://twitter.com/‪meetamit‬) of TWO-N
+- How Zalado Works by [Laurita Apple](https://twitter.com/‪LauritaApplez‬) and
+  [Alexander Kops](https://twitter.com/‪koze‬)
+- The ODEN Tech Stack by [@ODEN_tech](https://twitter.com/‪ODEN_tech)
+- Creating a Research Dept in a Startup by [Joe Carrafa](https://twitter.com/‪joetastic‬) of Warby Parker
 - Data Scince at Tumblr by [Nicola Barbieri](https://twitter.com/nicola_barbieri)
 - Marketing Automation by [Jon Hyman](https://twitter.com/jon_hyman) of AppBoy
 - How we use Docker by [Devon Blandin](https://devon.io/) of Code Climate
@@ -41,7 +41,7 @@ So far, from external contributors we've had:
 - Swift & The Blockchain by [Tamar Nachmany](https://twitter.com/tamarshmallows)
 - CI & CD at Spotify by [Jason Palmer](https://twitter.com/palmerj3)
 - Building great API clients by [Haroen Viaene](https://haroen.me)
-- Using The Art Genome Project data in computational sociology by [Taylor Brown](http://www.taylorwhittenbrown.com)
+- Using The Art Genome Project data in computational sociology by [Taylor Brown](https://www.taylorwhittenbrown.com)
 - Events listings & direct support for art spaces by [withfriends.co](withfriends.co)
 - [Conflict-free Replicated Data Types](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type) by
   [Andrey Sitnik](https://twitter.com/sitnikcode)

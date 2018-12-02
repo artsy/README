@@ -21,5 +21,5 @@ description: An overview of links about Artsy and some of our bigger packaged Ar
   [this video](https://www.artsy.net/article/artsy-editorial-video-the-history-of-the-venice-biennale)
 - [a video series about the art market in partnership with UBS](https://www.artsy.net/art-market-series)
 - [2015 in the art world](https://www.artsy.net/article/artsy-editorial-2015-the-year-in-art)
-- [2014 company report](http://2014.artsy.net)
+- [2014 company report](https://2014.artsy.net/)
 - [2013 company report](http://2013.artsy.net)
