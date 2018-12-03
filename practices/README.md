@@ -7,6 +7,7 @@ which come together regularly to discuss.
 <!-- start_toc -->
 | Doc | Overview |
 |--|--|
+| [The Front-End iOS Practice](/practices/front-end-ios.md#readme) | How does Artsy make iOS Software? |
 | [The Front-End Practice](/practices/front-end.md#readme) | What do folks with a front-end focus do? |
 | [The history of practices at Artsy](/practices/history.md#readme) | How did we get to where we are |
 | [The Platform Practice](/practices/platform.md#readme) | What do folks with a platform focus do? |
