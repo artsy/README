@@ -35,7 +35,7 @@ There are two important Slack groups:
 - **@ios-front-enders** Engineers who work on Artsy's iOS codebases in a native capacity.
 - **@app-release-team** The
   [iOS App Quality Team 🔒](https://www.notion.so/artsy/Artsy-iOS-App-Quality-Team-58b9b55f52484000b9689edd809e7016)
-  is a team of one each Designer, Product Manager, and Engineer who help ensure the
+  is a focused team of one Designer, one Product Manager, and one Engineer who help ensure the
   [Artsy iOS app](http://iphone.artsy.net)'s quality.
 
 ### Team Goals
@@ -48,7 +48,8 @@ iOS software at Artsy. That means we have the following additional goals:
 
 ### Logistics
 
-Each iOS app at Artsy is deployed according to its own unique needs. See their repos for deployment instructions.
+Each iOS app at Artsy is deployed according to its own unique needs. See their repos (listed
+[below](#artsy-ios-apps)) for deployment instructions.
 
 ### Our Technologies
 
@@ -59,8 +60,8 @@ Objective-C and Swift for the foreseeable future, and native code will likely al
 app (notably, [the Augmented Reality feature](http://artsy.github.io/blog/2018/03/18/ar/) and the animation-driven
 [Live Auctions Integration](http://artsy.github.io/blog/2016/08/09/the-tech-behind-live-auction-integration/#The.iOS.native.app:.Eigen),
 user interface). New features are being built using React Native; the remaining native parts of our main app are
-[listed here 🔒](https://www.notion.so/artsy/Eigen-migration-to-React-Native-54dda83b023b4cb4965a8defdae9687f) with
-a decisions and priorities for switching them to React Native. We have no plans at this time to rewrite our
+[listed here 🔒](https://www.notion.so/artsy/Eigen-migration-to-React-Native-54dda83b023b4cb4965a8defdae9687f)
+alongside decisions and priorities for switching them to React Native. We have no plans at this time to rewrite our
 native-only projects in React Native.
 
 ### Artsy iOS Apps
