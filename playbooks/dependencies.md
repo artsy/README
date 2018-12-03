@@ -43,7 +43,7 @@ expect across many browsers or operating systems. There are trade-offs to taking
 
 ## A rubric on whether a dependency needs an RFC?
 
-If you answer yes to most of these questions, then you probably don’t need to write an RFC
+If you answer yes to most of these questions, then you probably don’t need to write an RFC:
 
 - Could you fit this codebase in your head after reading the source?
 - Is this the stand-out obvious answer to a particular domain problem?
@@ -57,20 +57,26 @@ If you answer yes to most of these questions, then you probably don’t need to 
 
 ## Ways to safely work around this
 
-- Re-use existing dependencies, or build the exact implementation that addresses just our needs today. Rather than
-  trying to foresee the future, we should re-asses once we have more information.
+- Re-use existing dependencies, or build the exact implementation that addresses just our needs today and open to
+  the needs of tomorrow. Rather than trying to foresee everything future brings, we should aim re-asses once we
+  have more information or when we [hit 10x][10x] the traffic/scale/contributors/etc
 
-- Directly import just the code you need, see [Importing directly](#importing-directly).
+- Directly import just the code you need, and have it go through the same code-review process that any code we
+  write goes through, see [Importing directly](#importing-directly).
 
 ## Importing Directly
 
 If you need a single function or file of a dependency that is BSD, MIT, or ISC licensed; you can directly copy the
 source code into your app (i.e. [vendor][] it). This code **should** contain a link to the original code and
 **must** need a reference to the original license; which can either be a LICENSE file in the same folder, or the
-inclusion of a stable license URL (such as those hosted by the OSI) in a comment at the top.
+inclusion of a stable license URL (such as those hosted by the [OSI][]) in a comment at the top.
 
 When doing so, be sure to call-out the code that’s being vendored. Because of legal reasons, we don’t want the
 code-reviewer to accidentally gloss over it.
+
+The advantages are that this code is unlikely to surprise us in the future (because it is treated the same as app
+code) and there are less chances of hitting dependency issues (because it cannot be the dependency of another
+dependency.)
 
 ## Notes
 
@@ -82,10 +88,18 @@ Prior Artsy engineer’s writing on the topic of dependency management:
 - https://www.fngtps.com/2013/a-quick-note-on-minimal-dependencies-in-ruby-on-rails/
 - http://artsy.github.io/blog/2017/01/04/OSS-FAQ/
 
-Referential time-sinks, but valuable for extra info
+Referential time-sinks, but valuable for extra info:
 
+- [Roads and Bridges][rnb]
 - https://guides.cocoapods.org/making/quality-indexes.html
 - https://gist.github.com/dominictarr/9fd9c1024c94592bc7268d36b8d83b3a
 - https://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm
 
-[vendor]: https://en.wiktionary.org/wiki/vendor#Verb
+<!-- prettier-ignore-start -->
+
+[vendor]: https://codeengineered.com/blog/2015/go-should-i-vendor/
+[rnb]: https://www.fordfoundation.org/about/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/
+[10x]: https://github.com/artsy/README/blob/master/culture/engineering-principles.md#build-for-10x
+[OSI]: https://opensource.org/licenses
+
+<!-- prettier-ignore-end -->
