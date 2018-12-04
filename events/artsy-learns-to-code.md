@@ -33,6 +33,11 @@ _Artsy Learns to Code_ will be structured in two parts:
 - 2 months of creating a project.
   - Or however long it takes, some might finish early.
 
+The Udacity course does _not_ teach about React or HTML or any of the things necessary to build the project – it
+just teaches JavaScript fundamentals. Our hypothesis is that learners will be able to succeed, given: a firm grasp
+of these fundamentals, a scaffold with necessary libraries like React already set up, a brief team-wide
+introduction to React, and help from mentors
+
 We'll have trios: one mentor and two learners, who will be partners throughout _Artsy Learns to Code_.
 
 ## Expectations of Learners
