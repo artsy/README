@@ -17,7 +17,7 @@ Install [Git](https://git-scm.com/), [Docker and Docker Compose](https://docs.do
 Install and configure Hokusai:
 
 ```
-curl --silent https://artsy-provisioning-public.s3.amazonaws.com/hokusai/hokusai-latest-$(uname -s)-$(uname -m) -o /usr/local/bin/hokusai && chmod +x /use/local/bin/hokusai
+curl --silent https://artsy-provisioning-public.s3.amazonaws.com/hokusai/hokusai-latest-$(uname -s)-$(uname -m) -o /usr/local/bin/hokusai && chmod +x /usr/local/bin/hokusai
 # Make sure IAM credentials are set in AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY or ~/.aws/credentials
 hokusai configure --kubectl-version 1.10.7 --s3-bucket artsy-citadel --s3-key k8s/config
 ```
