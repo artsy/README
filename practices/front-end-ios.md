@@ -38,6 +38,9 @@ There are two important Slack groups:
   is a focused team of one Designer, one Product Manager, and one Engineer who help ensure the
   [Artsy iOS app](http://iphone.artsy.net)'s quality.
 
+The Front-End iOS Practice meetings every two weeks; meeting notes are
+[available in Notion](https://www.notion.so/artsy/Front-End-iOS-ecc07763bfd04a848c74107dde3ec6dc).
+
 ### Team Goals
 
 Our goals are the same as the [Front-End Practice goals](./front-end.md#team-goals), but with a focus on supporting
