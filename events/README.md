@@ -6,6 +6,7 @@ What meetings, and regular events do we have.
 <!-- start_toc -->
 | Doc | Overview |
 |--|--|
+| [Artsy Learns to Code](/events/artsy-learns-to-code.md#readme) | Experimental structure where we teach non-engineering colleagues how to code. |
 | [Demo Days](/events/demo-days.md#readme) | How we showcase shipped projects |
 | [Happy Hours](/events/happy-hour.md#readme) | When all of Artsy comes together with partners, friends, artists and engineers. |
 | [Lunch & Learn](/events/lunch-and-learn.md#readme) | A weekly meetup where we talk about things that inspire us. |
