@@ -2,6 +2,7 @@
 name: Engineering Onboarding
 about: A list of things to do to become familiar with how our engineering team operates.
 ---
+
 Mentor: <PICK A MENTOR>
 
 ## Your first day
@@ -10,7 +11,8 @@ _Goal: I’ve met my manager and some members of the engineering team (over lunc
 google (artsymail), 1Password, and know how to use the coffee machine._
 
 - [ ] Add a cool pic of yourself to Slack and Jira
-- [ ] Say hi in the [onboarding-eng](https://artsy.slack.com/messages/CCC37HXE0) slack channel and give BLANK a :wave: as they are the most recently onboarded person.
+- [ ] Say hi in the [onboarding-eng](https://artsy.slack.com/messages/CCC37HXE0) slack channel and give BLANK a
+      :wave: as they are the most recently onboarded person.
 
 ## Your first week
 
@@ -85,16 +87,16 @@ _Remember to review *all* setup scripts before executing them :)_
       [staging environment](https://github.com/artsy/gravity/blob/master/doc/StagingEnvironment.md).
 - [ ] Scan our list of preferred technologies. Dig in where necessary.
   - [ ] [Front-end technologies](https://github.com/artsy/README/blob/master/practices/front-end.md)
+  - [ ] [Front-end iOS technologies](https://github.com/artsy/README/blob/master/practices/front-end-ios.md)
   - [ ] [Back-end/Platform technologies](https://github.com/artsy/README/blob/master/practices/platform.md)
-  - [ ] iOS/React Native? #TODO
 - [ ] Reading: [Best of Our Blog](https://github.com/artsy/README/blob/master/resources/blog.md)
 - [ ] Reading:
       [Internal and external tech learning resources](https://github.com/artsy/README/blob/master/resources/tech-learning.md)
 - [ ] Watch some of our [Lunch & Learns](https://github.com/artsy/README/blob/master/resources/lnl.md)
 - [ ] Join the [#incidents](https://artsy.slack.com/messages/front-end-ios/) slack channel and scan through some
       recent threads
-- [ ] Read the [support doc](https://github.com/artsy/README/blob/master/playbooks/support#readme) about how support
-      incidents are handled by our on-call rotation
+- [ ] Read the [support doc](https://github.com/artsy/README/blob/master/playbooks/support#readme) about how
+      support incidents are handled by our on-call rotation
 - [ ] On-call onboarding #TODO
 
 #### Personal:
