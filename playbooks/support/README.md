@@ -19,7 +19,8 @@ which is determined at least a month in advance (giving people ample time to mak
 
 The schedule is configured on the
 [Engineering On-Call calendar](https://calendar.google.com/calendar/embed?src=artsymail.com_nolej2muchgbpne9etkf7qfet8%40group.calendar.google.com&ctz=America%2FNew_York).
-Trading shifts (because of vacations, obligations, etc.) is encouraged as long as the calendar is kept up-to-date. Please address any scheduling issues as early as possible.
+Trading shifts (because of vacations, obligations, etc.) is encouraged as long as the calendar is kept up-to-date.
+Please address any scheduling issues as early as possible.
 
 During work hours, on-call engineers are responsible for responding to issues in
 [the #incidents slack channel](https://artsy.slack.com/messages/C9RK0BLEP/) 🔒 in a timely fashion. Outside of work
@@ -44,19 +45,23 @@ ongoing sprint and team activities.
 - Look out for trends and create bugs (in the
   [universal bug backlog](https://artsyproduct.atlassian.net/secure/RapidBoard.jspa?rapidView=34)) where necessary
   that can be triaged into individual teams' sprints by a PM.
-- If the issue is obviously a non-incident, take the time to educate the reporter on the desired process (see the [examples](#examples) below). You may point them to the [Guide to Reporting Bugs](https://www.notion.so/artsy/Guide-to-reporting-bugs-cc25e1ff41194228b476c4963c646817) doc in Notion which describes this in a general way.
+- If the issue is obviously a non-incident, take the time to educate the reporter on the desired process (see the
+  [examples](#examples) below). You may point them to the
+  [Guide to Reporting Bugs](https://www.notion.so/artsy/Guide-to-reporting-bugs-cc25e1ff41194228b476c4963c646817)
+  doc in Notion which describes this in a general way.
 
 #### 2. Investigate and address critical issues
 
-- Acknowledge the issue in slack (escalate to the [#incidents](https://artsy.slack.com/messages/C9RK0BLEP/) 🔒 channel
-  if not already there)
+- Acknowledge the issue in slack (escalate to the [#incidents](https://artsy.slack.com/messages/C9RK0BLEP/) 🔒
+  channel if not already there)
 - **Use slack threads** to keep the channel and its notifications focused, and allow others to monitor for new
   incidents at a glance.
 - Investigate the issue individually and as a pair.
 - Judge the severity (based on intuition or a helpful PM/business owner)
 - Fix if possible using [accumulated playbooks (wiki)](https://github.com/artsy/potential/wiki) 🔒.
 - If unable to fix using shared resources, contact the relevant [point-person](#point-people) for help and pair
-  with them on a fix. Be sure to contribute lessons back to shared documentation. **You are not expected to know the ins and outs of every system, so don't hesitate to involve the wider team.**
+  with them on a fix. Be sure to contribute lessons back to shared documentation. **You are not expected to know
+  the ins and outs of every system, so don't hesitate to involve the wider team.**
 - Point-people should only be contacted during off-hours for outages that the on-call engineers are unable to
   diagnose.
 - Share any applicable work-arounds or talking points in the thread to unblock teammates or partners.
@@ -65,7 +70,8 @@ ongoing sprint and team activities.
 - If the issue was mis-reported and doesn't require a timely fix, surface to PM/add to backlog for tracking by the
   appropriate team
 
-**Note:** You are not responsible for fixing all of the bugs that you find. Most problems that require a coding change should be addressed by the relevant team.
+**Note:** You are not responsible for fixing all of the bugs that you find. Most problems that require a coding
+change should be addressed by the relevant team.
 
 #### 3. Track incidents' status
 
@@ -94,8 +100,8 @@ Tips for using the incidents Trello:
 
 ## Handing-off to a new shift
 
-After [engineering-wide stand-up](/events/open-standup.md#dev-team-standup-at-artsy) is a good time for
-the coming and going on-call engineers to sync up and hand off any ongoing responsibilities. Customarily we:
+After [engineering-wide stand-up](/events/open-standup.md#dev-team-standup-at-artsy) is a good time for the coming
+and going on-call engineers to sync up and hand off any ongoing responsibilities. Customarily we:
 
 - Update the "Resolved" column in [the Incidents trello](https://trello.com/b/sZQ9qpVo/incidents) with the past
   week's dates and create a new one for the upcoming shift.
@@ -138,7 +144,7 @@ You can find the point people in the [Potential Wiki](https://github.com/artsy/p
 
 ### Artsy domain information
 
-- [Engineering projects map](https://github.com/artsy/potential/wiki/Project-List) 🔒
+- [Engineering projects map](https://github.com/artsy/potential/blob/master/Project-List.md) 🔒
 - [Monitoring](https://github.com/artsy/potential/blob/master/platform/Monitoring.md) 🔒
 - [Domain Models](https://github.com/artsy/potential/blob/master/platform/DomainModels.md) 🔒
 - [Status Page](http://status.artsy.net/)
@@ -146,13 +152,17 @@ You can find the point people in the [Potential Wiki](https://github.com/artsy/p
 ## Special cases
 
 ### Team members who leave
-If someone who is scheduled to be on-call ends up leaving the engineering team (by moving to a different team or leaving Artsy altogether), it is their (previous) manager's responsibility to cover their shift. The manager will either take the shift themselves or, if they are unavailable, find someone who can.
+
+If someone who is scheduled to be on-call ends up leaving the engineering team (by moving to a different team or
+leaving Artsy altogether), it is their (previous) manager's responsibility to cover their shift. The manager will
+either take the shift themselves or, if they are unavailable, find someone who can.
 
 ### Holidays
 
 Holidays (such as labor day in the US) should be treated as if they are weekends.
 
-For the week between Christmas and New Years, we operate outside of normal shifts. This week is broken into 2-day shifts that individuals can volunteer for.
+For the week between Christmas and New Years, we operate outside of normal shifts. This week is broken into 2-day
+shifts that individuals can volunteer for.
 
 ## Examples
 
