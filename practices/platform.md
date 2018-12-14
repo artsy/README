@@ -64,8 +64,8 @@ Some projects leverage [Docker](https://www.docker.com/) and our [Kubernetes](ht
 
 [Gravity](https://github.com/artsy/gravity) was Artsy’s original monolith and now hosts the main API. Follow the
 [Gravity docs](https://github.com/artsy/gravity/blob/master/doc/GettingStarted.md) to get set up, or this
-introduction:
-[Working with Gravity](https://github.com/artsy/potential/blob/master/platform/WorkingWithGravity.md) 🔒.
+introduction: [Working with Gravity](https://github.com/artsy/potential/blob/master/platform/WorkingWithGravity.md)
+🔒.
 
 ### Major systems:
 
@@ -83,5 +83,5 @@ introduction:
 
 In general, see project READMEs for project details including links, CI, deployment instructions, and point-people.
 
-The full [project list](https://github.com/artsy/potential/wiki/Project-list) 🔒
-has a more exhaustive list of Artsy's systems.
+The full [project list](https://github.com/artsy/potential/blob/master/Project-List.md) 🔒 has a more exhaustive
+list of Artsy's systems.

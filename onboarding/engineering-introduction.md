@@ -6,14 +6,24 @@ description: A brief introduction
 ## Welcome Logistics
 
 ### Work hours
-Depends on the person/where they are located! We try to schedule meetings at times that are amenable to people being remote (from Amsterdam to Seattle on the engineering team), so they'll usually happen in the middle of the day EST.
 
-Ask your mentor/manager what their general work hours are. Artsy has no policy around this, so use your judgment and be open with your team about when you expect to be available.
+Depends on the person/where they are located! We try to schedule meetings at times that are amenable to people
+being remote (from Amsterdam to Seattle on the engineering team), so they'll usually happen in the middle of the
+day EST.
+
+Ask your mentor/manager what their general work hours are. Artsy has no policy around this, so use your judgment
+and be open with your team about when you expect to be available.
 
 ### Vacation
-Artsy has an open vacation policy. This doesn't mean "don't take vacation." _Please take time off._ Most people take off for bank holidays.
 
-Join the [Design/Product OOO](https://calendar.google.com/calendar/embed?src=artsymail.com_gl81jptn59gjfv1kg0fer1i4jo%40group.calendar.google.com&ctz=America%2FNew_York) calendar and use that to set when you know you'll be out of the office (you don't generally need to post remote work here unless it's out of the ordinary and would benefit from wider communication i.e. you'll be working for a month from somewhere else).
+Artsy has an open vacation policy. This doesn't mean "don't take vacation." _Please take time off._ Most people
+take off for bank holidays.
+
+Join the
+[Design/Product OOO](https://calendar.google.com/calendar/embed?src=artsymail.com_gl81jptn59gjfv1kg0fer1i4jo%40group.calendar.google.com&ctz=America%2FNew_York)
+calendar and use that to set when you know you'll be out of the office (you don't generally need to post remote
+work here unless it's out of the ordinary and would benefit from wider communication i.e. you'll be working for a
+month from somewhere else).
 
 ### Chat
 
@@ -22,7 +32,9 @@ own channels. For more information on our usage of Slack, see [`/culture/slack.m
 
 ### Events
 
-See the [events list](/events) for descriptions of our recurring, engineering-wide events. Look at the [Engineering - Open Meetings calendar](https://calendar.google.com/calendar/r?cid=YXJ0c3ltYWlsLmNvbV9nODFpbzRhOThkZHZuMWloMWEzbG0yb2NkNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to see when they are scheduled and feel free to add yourself to any (or just show up).
+See the [events list](/events) for descriptions of our recurring, engineering-wide events. Look at the
+[Engineering - Open Meetings calendar](https://calendar.google.com/calendar/r?cid=YXJ0c3ltYWlsLmNvbV9nODFpbzRhOThkZHZuMWloMWEzbG0yb2NkNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+to see when they are scheduled and feel free to add yourself to any (or just show up).
 
 We have an engineering team-wide standup on _Mondays at 11:30 a.m. Eastern_ (virtual:
 [https://zoom.us/my/artsyclassroom](https://zoom.us/my/artsyclassroom)) where we:
@@ -38,17 +50,17 @@ The standup is fully documented [here](/events/open-standup.md).
 ### Getting Help
 
 - **Slack:** If you know what team could potentially help you, browse the channels in Slack to find the most
-  relevant place to ask your question. If you aren't sure, [#dev](https://artsy.slack.com/messages/dev) 🔒 is a good
-  place to start.
+  relevant place to ask your question. If you aren't sure, [#dev](https://artsy.slack.com/messages/dev) 🔒 is a
+  good place to start.
 - **Ask Your Neighbor:** Everyone is friendly. Don't hesitate to reach out to the people around you for even the
   most basic of questions.
-- **Check Atlas:** Turns out a lot of common questions are available in [atlas.artsy.net](http://atlas.artsy.net) 🔒.
+- **Check Atlas:** Turns out a lot of common questions are available in [atlas.artsy.net](http://atlas.artsy.net)
+  🔒.
 
 ## Who we are
 
-Some team members have backgrounds in art, but of course not all.
-[/resources/art.md](/resources/art.md) has some useful links if you want to read more about the art
-world, or keep up with the latest news.
+Some team members have backgrounds in art, but of course not all. [/resources/art.md](/resources/art.md) has some
+useful links if you want to read more about the art world, or keep up with the latest news.
 
 ### Open Source Culture + Projects
 
@@ -64,17 +76,20 @@ Artsy and their reasons behind open-sourcing our [mobile app](https://github.com
 Orta also wrote a blog post on the
 [mechanics behind open-sourcing Eigen](https://artsy.github.io/blog/2015/04/28/how-we-open-sourced-eigen/).
 
-
 ## Our stack/technologies
 
 ### GitHub
 
-Artsy stores source code on [GitHub](https://github.com/artsy). Make sure you have an account and are part of the Artsy organization. If you can't visit [this page](https://github.com/artsy/gravity) 🔒, then you don’t have the right access. Your mentor can get you sorted out.
+Artsy stores source code on [GitHub](https://github.com/artsy). Make sure you have an account and are part of the
+Artsy organization. If you can't visit [this page](https://github.com/artsy/gravity) 🔒, then you don’t have the
+right access. Your mentor can get you sorted out.
 
-Our projects use physics terms as code names, starting with [Gravity](https://github.com/artsy/gravity) 🔒 (inspired
-by [Zachary Coffin's "Temple of Gravity"](http://www.zacharycoffin.com/work/temple-of-gravity)).
+Our projects use physics terms as code names, starting with [Gravity](https://github.com/artsy/gravity) 🔒
+(inspired by [Zachary Coffin's "Temple of Gravity"](http://www.zacharycoffin.com/work/temple-of-gravity)).
 
-See the [engineering projects map](https://github.com/artsy/potential/wiki/Project-List) 🔒 for a comprehensive list of our (many) repos and who owns them. It can be a bit overwhelming, so here are some important ones:
+See the [engineering projects map](https://github.com/artsy/potential/blob/master/Project-List.md) 🔒 for a
+comprehensive list of our (many) repos and who owns them. It can be a bit overwhelming, so here are some important
+ones:
 
 - [Gravity](https://github.com/artsy/gravity) 🔒: Artsy's main API
 - [Force](https://github.com/artsy/force): Artsy web site ([www.artsy.net](https://www.artsy.net))
@@ -105,7 +120,8 @@ See [data](https://github.com/artsy/potential/blob/master/data/README.md) 🔒.
 
 ## How We Work
 
-The engineering team [playbooks](/playbooks#readme) discuss why we make the technical and non-technical decisions we do.
+The engineering team [playbooks](/playbooks#readme) discuss why we make the technical and non-technical decisions
+we do.
 
 ### Development Environments
 
@@ -138,8 +154,8 @@ As all of our code is housed on GitHub, we make contributions through
 [pull requests](https://artsy.github.io/blog/2012/01/29/how-art-dot-sy-uses-github-to-build-art-dot-sy/).
 
 Read more in [the engineer workflow playbook](/playbooks/engineer-workflow.md#readme) or see this
-[step-by-step guide](https://github.com/artsy/potential/blob/master/github/workflow.md) 🔒. If you're unfamiliar with
-Git, check out this [short tutorial](https://try.github.io) on basic git commands (such as `git status`,
+[step-by-step guide](https://github.com/artsy/potential/blob/master/github/workflow.md) 🔒. If you're unfamiliar
+with Git, check out this [short tutorial](https://try.github.io) on basic git commands (such as `git status`,
 `git commit`, and `git push`).
 
 ### Deploying
