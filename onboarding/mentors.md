@@ -5,18 +5,25 @@ description: How to be an effective mentor of a new hire
 
 # Mentorship at Artsy
 
-### Historical Context
-- TODO: talk to Orta/Sarah/Joey about how we used to do it.
-- [Alan's post](http://artsy.github.io/blog/2016/09/22/professional-development-at-artsy-engineering/)
+## Why Mentor
+One of Artsy's core values is that [People are Paramount](#). As a company we try to meet this in a number of ways, from all the work of People Ops to Ongoing development conversations between employees and managers. As an engineering team we also try to reflect this value by encouraging mentoring among peers.
 
-## Why
-One of Artsy's core values is that [People are Paramount](#). Artsy's engineering team works to reflect this in practice...
+What does this look like in practice? In an ideal world it would be automatic and spontaneous between every member of the team. Some of our [engineering principles](https://github.com/artsy/README/blob/master/culture/engineering-principles.md#readme) appeal explicitly to this ideal - **Psychological Safety**, **Leverage Your Impact**, **De-silo Engineers** and **Being Nice is Nice** stand out - while others like **Open Source by Default** and **Incremental Revolution**, while technical on the surface have clear analogues in how we work together. In practice we understand that all of these ideals require intentional work and iteration between people to make them reality. Artsy mentors, assigned when a new engineer joins the team, work to bridge that gap.
 
-## What makes a good mentor (Keep?)
-- A first stop for stupid questions
+## What makes a good mentor
+The role of a mentor is purposely different from that of a boss, a manager or a technical lead, and that role shifts to accommodate the needs of a team member. There may be multiple overlapping descriptions - a mentor may be someone who
+- *Facilitates onboarding*: Simply someone who can help a new hire smooth out the bumps of getting onboarded.
+- *Knows how things work*: From a non-judgemental sounding board for ['stupid' questions](#simple-answers-to-common-questions) to someone who can simply help find the best point person or stakeholder for a project.
+- *Helps develop people skills*: Artsy's engineering and company cultures are specific and open, but there is always room for improvement and new perspectives, especially the team changes. A mentor can act as a conduit between their mentee and the team as a whole.
+- *Facilitates career development*: From apprenticeship to pointing someone in the direction of an article, project or pair where they can learn something new, mentoring pairs can help uncover or set new goals and offer help in meeting them.
 
-## Mentorship from day 0
-- Keep tabs on your mentee's schedule. Their first day will be full of meetings with People Ops but some good tasks for a mentor[:
+It's up to the mentoring pair to find what works best for them and to ensure that it evolves over time to remain useful.
+
+## How to mentor
+*Moving from the abstract to the concrete:*
+
+### From day 0
+- Keep tabs on your mentee's schedule. Their first day will be full of paperwork and meetings with People Ops but some good tasks for a mentor:
   - Introduce yourself
   - Set a time for an [introductory coffee or tea](#your-first-meeting)
   - Get in touch with the mentee's manager
@@ -44,12 +51,31 @@ Get to know each other. This can be a nice, casual conversation. Focus on active
   - If they haven't set up hokusai yet, consider pairing on that.
 - Try to have another meeting towards the end of the week- **especially** if they are leaving New York. Revisit things you talked about in the first meeting and look for areas that could have gone better. Consider amending relevant documents like this one.
 
-### Pairing (Keep?)
+### Your first year
+- New hires usually begin with a sprint-by-sprint rotation through our teams, a whirlwind that can last upwards of 2 months. It's good to check in with your mentee during this time.
+- Consider reaching out to other mentors as well
+- Periodically check in with yourself on what you think you know about your mentee:
+  - How are they feeling at work? It's good to be aware (if you can) of comfort level, new technologies and more dynamic pieces of how they are getting situated at Artsy.
+  - Are there any opportunities to pair together (or for them to pair with someone else) on a new technology or domain area?
+- Many mentoring pairs continue scheduling semi-weekly coffee chats in the weeks and months going forward. As the relationship becomes less formal these can be great to keep in touch with a team member you have a special relationship with!
 
-### Common onboardee questions
-- Dev environment step `x` didn't work (create an issue or look at a bugfix with them)
-- What meetings are 'mandatory', 'encouraged' or just open to folks who are interested?
-- When should I show up?
-- How/should I take vacation?
-- How long until I am fully onboarded/up to speed? _& other questions about expectations_
+## Footnotes
+#### Historical Context
+- TODO: talk to Orta/Sarah/Joey about how we used to do it.
+- [Blog post on professional development at Artsy](http://artsy.github.io/blog/2016/09/22/professional-development-at-artsy-engineering/)
+
+#### Simple answers to common questions
+Some common (but certainly not stupid) questions that mentors are well-positioned to address
+- *Dev environment step `x` didn't work*
+  - Try to work through it together with them- then create an issue or PR a fix if possible
+- *What meetings are 'mandatory', 'encouraged' or just open to folks who are interested?* 
+  - Calendar invites and new notification grooming seems to be one of the trickiest parts of the onboarding process, yet it's important to make sure that each new hire feels fully included as soon as possible. Consider showing off your own processes (and helping make sure they are getting all the right invitations)
+- *When should I show up?*
+  - Use your judgement, but communicate your availability when working remotely via slack and the OOO calendar.
+- *How/should I take vacation?*
+  - Yes. Talk to your manager and make sure it is on the OOO calendar.
+- *How long until I am fully onboarded/up to speed?*
+  - Aside from the team sprint rotations we dont have a firm number for this. Keep in touch with each other and, work together to set longer-term goals- encouraging them to work with their manager as well.
 - Who should I talk to or where should I post in slack about `x`?
+  - Answer varies- when in doubt, ask your mentor.
+
