@@ -33,7 +33,7 @@ The dashboards for our Kubernetes operations clusters can be found at:
 
 #### Kubectl CLI
 
-If you [installed and configured Hokusai](hokusai.md) you already have `kubectl` installed as well.  `kubectl` provides a CLI for interacing with Kubernetes clusters.  It uses the Kubernetes API like the Dashboard applications, and so provides a view over the saem resources, but can switch between different clusters using a "context".
+If you [installed and configured Hokusai](hokusai.md) you already have `kubectl` installed as well.  `kubectl` provides a CLI for interacting with Kubernetes clusters.  It uses the Kubernetes API like the Dashboard applications, and so provides a view over the same resources, but can switch between different clusters using a "context".
 
 See all available contexts (set in the `~/.kube/config` file) with `kubectl config get-contexts`
 
@@ -45,7 +45,7 @@ Kubernetes also support namespaces - this provides a level of resource isolation
 
 __Example: get all pods in the staging cluster__
 
-First run `kubectl config use-context staging`.  Then run `kubectl get pods` to see all pods running in the staging cluster's default namespace. Use the `--namespace=kube-system` flag to get all pods in the `kube-system` namespace and the `--all-namesapces` flag to get all pods running in the cluster in all namesapces.
+First run `kubectl config use-context staging`.  Then run `kubectl get pods` to see all pods running in the staging cluster's default namespace. Use the `--namespace=kube-system` flag to get all pods in the `kube-system` namespace and the `--all-namespaces` flag to get all pods running in the cluster in all namespaces.
 
 You can get resources in Yaml or Json, edit, update and delete resources with Kubectl.  More examples can be found [here](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 
@@ -102,7 +102,7 @@ To ssh into an instance, first connect to the staging / production VPN then run 
 
 Nodes run services using [systemd](https://wiki.debian.org/systemd).  Use `systemctl status` to see all running services or `systemctl status docker.service` to inspect the docker daemon service.  Get logs using [`journalctl`](https://manpages.debian.org/stretch/systemd/journalctl.1.en.html) to view logs for systemd services, so for example to see recent logs for the docker service use `journalctl -u docker.service --follow`
 
-We pre-install useful packages for system level debugging in our base AMI for Kubernetes machines, so you have `htop` / `lsof` / `netstat` / `tcpdump` all available.  Another useful tool that aims to provide debugging for container environments is [`sysdig`](https://github.com/draios/sysdig/wiki/sysdig-user-guide) and its curses-interface [`csysdig`](https://github.com/draios/sysdig/wiki/Csysdig-Overview).  With it you can get stackstraces, inspect file allocations, network connections, etc while filtering on a specific process or container name.
+We pre-install useful packages for system level debugging in our base AMI for Kubernetes machines, so you have `htop` / `lsof` / `netstat` / `tcpdump` all available.  Another useful tool that aims to provide debugging for container environments is [`sysdig`](https://github.com/draios/sysdig/wiki/sysdig-user-guide) and its curses-interface [`csysdig`](https://github.com/draios/sysdig/wiki/Csysdig-Overview).  With it you can get stacktraces, inspect file allocations, network connections, etc while filtering on a specific process or container name.
 
 If a node is for any reason unable to schedule containers, serve traffic or unresponsive, it can safely be terminated - AWS autoscaling will replace the machine automatically with a new one and it will rejoin the cluster.  However, terminating a node that is running application pods may result in service disruption for that application if they are the _only_ pods that back that service.
 
