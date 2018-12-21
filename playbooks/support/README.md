@@ -1,37 +1,36 @@
+# Engineering Support @ Artsy
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Engineering Support @ Artsy](#engineering-support--artsy)
-  - [Process Overview](#process-overview)
-  - [On-Call Responsibilities](#on-call-responsibilities)
-  - [Responding to an incident](#responding-to-an-incident)
-    - [Step 1: Alert](#step-1-alert)
-    - [Step 2: Raise](#step-2-raise)
-    - [Step 3: Assess](#step-3-assess)
-    - [Step 4: Address Incident](#step-4-address-incident)
-      - [Investigate --> Identify --> Escalate --> Fix](#investigate----identify----escalate----fix)
-      - [Communicate](#communicate)
-    - [Step 5: Resolve](#step-5-resolve)
-  - [Severity of Incidents](#severity-of-incidents)
-  - [Best practices](#best-practices)
-  - [Handing-off to a new shift](#handing-off-to-a-new-shift)
-  - [Helpful Resources and Playbooks](#helpful-resources-and-playbooks)
-    - [Point-people](#point-people)
-    - [Engineering team playbooks](#engineering-team-playbooks)
-    - [Non-engineering team playbooks](#non-engineering-team-playbooks)
-    - [Artsy domain information](#artsy-domain-information)
-    - [External links](#external-links)
-  - [Special cases](#special-cases)
-    - [Team members who leave](#team-members-who-leave)
-    - [Holidays](#holidays)
-  - [Examples](#examples)
-    - [Non-incidents](#non-incidents)
-    - [Incidents](#incidents)
+- [Process Overview](#process-overview)
+- [On-Call Responsibilities](#on-call-responsibilities)
+- [Responding to an incident](#responding-to-an-incident)
+  - [Step 1: Alert](#step-1-alert)
+  - [Step 2: Raise](#step-2-raise)
+  - [Step 3: Assess](#step-3-assess)
+  - [Step 4: Address Incident](#step-4-address-incident)
+    - [Investigate --> Identify --> Escalate --> Fix](#investigate----identify----escalate----fix)
+    - [Communicate](#communicate)
+  - [Step 5: Resolve](#step-5-resolve)
+- [Severity of Incidents](#severity-of-incidents)
+- [Best practices](#best-practices)
+- [Handing-off to a new shift](#handing-off-to-a-new-shift)
+- [Helpful Resources and Playbooks](#helpful-resources-and-playbooks)
+  - [Point-people](#point-people)
+  - [Engineering team playbooks](#engineering-team-playbooks)
+  - [Non-engineering team playbooks](#non-engineering-team-playbooks)
+  - [Artsy domain information](#artsy-domain-information)
+  - [External links](#external-links)
+- [Special cases](#special-cases)
+  - [Team members who leave](#team-members-who-leave)
+  - [Holidays](#holidays)
+- [Examples](#examples)
+  - [Non-incidents](#non-incidents)
+  - [Incidents](#incidents)
 - [Additional Resources](#additional-resources)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# Engineering Support @ Artsy
 
 This doc outlines our process for tackling _urgent engineering support_, which generally encompasses how we deal
 with:
@@ -268,7 +267,7 @@ incident, talk to your PM." Remember, we're all on the same team!
 - Auction artworks are not available before auction open
 - _Any_ automated alert that shows up in #incidents
 
-# Additional Resources
+## Additional Resources
 
 <!-- prettier-ignore-start -->
 <!-- start_toc -->
