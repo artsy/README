@@ -58,8 +58,8 @@ If you answer yes to most of these questions, then you probably don’t need to 
 ## Ways to safely work around this
 
 - Re-use existing dependencies, or build the exact implementation that addresses just our needs today and open to
-  the needs of tomorrow. Rather than trying to foresee everything future brings, we should aim re-asses once we
-  have more information or when we [hit 10x][10x] the traffic/scale/contributors/etc
+  the needs of tomorrow. Rather than trying to foresee everything the future brings, we should aim to re-assess
+  once we have more information or when we [hit 10x][10x] the traffic/scale/contributors/etc
 
 - Directly import just the code you need, and have it go through the same code-review process that any code we
   write goes through, see [Importing directly](#importing-directly).
