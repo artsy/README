@@ -9,6 +9,8 @@ Happy Hours are a long-standing event at Artsy where employees get together and 
 artists and fellow engineers. It was inspired by the happy hour at Artsy's first office in the co-working space of
 General Assembly in 2010 and remained a tradition ever since.
 
+We run happy hours once a month on the first Friday of every month except in the summer, when it is a Thursday.
+
 Happy Hour is held inside our offices, on a weekly basis. We strive to make them full of interesting people across the
 tech & arts spectrum. Other than friends we tend to invite great candidates that we might not be currently interviewing, but
 maybe will consider in the future, or that we believe could use some help networking with fellow engineers.
@@ -28,13 +30,13 @@ If you have been invited, welcome!
 ## TLDR
 
 - Typically Fridays 6-8:30pm
-- Thursday in summer and every last Thursday of the month
+- Thursday in summer
 - 401 Broadway, closest to Canal Street station, 24th Floor
-- arrive early, doors close to new people at around 8
-- e-mail full names of yourself and everyone you're bringing to your Artsy contact at least 24 hours prior, and make sure they have confirmed - if your name is not on the guest list you will be turned away
-- you must bring a valid ID
-- kids are OK, no dogs allowed
-- have a good time, make new friends
+- Arrive early, doors close to new people at around 8
+- E-mail full names of yourself and everyone you're bringing to your Artsy contact at least 24 hours prior, and make sure they have confirmed - if your name is not on the guest list you will be turned away
+- You must bring a valid ID
+- Kids are OK, no dogs allowed
+- Have a good time, make new friends
 
 ## When Inviting Someone as Artsy Staff
 
