@@ -81,7 +81,7 @@ Once again, the title should concisely explain the change or addition. The descr
 
 _Assign_ another team member to the PR. All team members are encouraged to contribute, but that team member has the
 explicit responsibility to carefully review, consider any unanticipated impact, monitor discussion, and ultimately
-merge or close the PR. You may also want to add reviewers to request other developers for specific input.
+merge or close the PR. You may also want to add reviewers to request other developers' specific input.
 
 Who should you assign? You can ask yourself the following questions as a rubric:
 
@@ -98,9 +98,10 @@ consequences, and monitor a graceful transition. For this reason, it's not uncom
 longer than the corresponding code changes. Pull requests are often referred to _years_ later to understand the
 events surrounding design decisions or code changes of interest. Keep this future reader in mind.
 
-It's almost never too early to open a PR. Seeing real code encourages feedback that might not flow as freely in an
-abstract discussion. A single failing test can be enough to trigger discussion, and clearly indicates that the PR
-can't yet be merged. (We prefer intentionally failing tests to labels like `#dontmerge` for this purpose.)
+A pull request is assumed to be safe to merge and eventually to release. Hence, prerequisite changes in upstream
+systems should be merged _and released to production_ before dependent pull requests are opened. The notable
+exception to this is when the developer wants to solicit early feedback. Such PRs should be clearly designated as
+`[WIP]` or blocked by a failing test. (See [discussion](https://github.com/artsy/README/issues/109).)
 
 PRs are monitored by [Peril](https://github.com/danger/peril/) with a set of rules that come from
 [artsy/artsy-danger](https://github.com/artsy/artsy-danger). Any rule that is applied to every PR was submitted as
