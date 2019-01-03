@@ -23,6 +23,23 @@ Other repo-specific interactions such as presenting the rationale for a design o
 leverage the built-in mechanisms of [commit messages](/playbooks/engineer-workflow.md#commits),
 [pull requests](/playbooks/engineer-workflow.md#pull-requests), and comments.
 
+### READMEs
+
+Project README files should provide enough context to understand and contribute to a project including:
+
+- High-level description of the project's use, as well as metadata including:
+- Development stage (development, beta, production, deprecated, retired...)
+- Links to hosting environment(s)
+- Links to GitHub repo(s)
+- Continuous integration and branching information
+- Deployment instructions
+- Who to contact for guidance
+- Any other relevant links
+- Instructions for setting up, testing, and contributing to the project
+- License (probably [MIT](https://opensource.org/licenses/MIT)) and copyright, if open source
+
+See a [recent example](https://github.com/artsy/impulse#impulse-) 🔒 as a template.
+
 ## Public versus private content
 
 When creating a repo, contributing a doc, or discussing in-progress work, consider whether it's appropriate for

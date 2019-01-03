@@ -178,17 +178,5 @@ repositories that Artsy maintains, organized by the responsible team.
 Product team [slack channels](https://artsy.slack.com) 🔒 are usually the first stop for help in a given team's
 area of responsibility.
 
-Project README files should provide enough context to understand and contribute to a project including:
-
-- High-level description of the project's use, as well as metadata including:
-- Development stage (development, beta, production, deprecated, retired...)
-- Links to hosting environment(s)
-- Links to GitHub repo(s)
-- Continuous integration and branching information
-- Deployment instructions
-- Who to contact for guidance
-- Any other relevant links
-- Instructions for setting up, testing, and contributing to the project
-- License (probably [MIT](https://opensource.org/licenses/MIT)) and copyright, if open source
-
-See a [recent example](https://github.com/artsy/impulse#impulse-) 🔒 as a template.
+See the [documentation playbook](documentation.md) for a discussion of where to document systems, processes, and so
+on.
