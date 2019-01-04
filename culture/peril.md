@@ -27,6 +27,8 @@ the [`peril.settings.json`][settings] in [`artsy/peril-settings`][repo].
   [RFC #10](https://github.com/artsy/peril-settings/issues/10)
 - Any PR to an project that adds a new dependency gets a comment with an overview of the package and its dependencies.
 - Any PR changing a markdown doc will go through a spell checker
+- Any PR opened in a repo with an `.autorc` will have "Release: Patch" label added by default
+  [RFC #1095](https://github.com/artsy/reaction/issues/1095)
 
 #### Issues
 
