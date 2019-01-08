@@ -7,11 +7,9 @@ about: A list of things to do as a new manager to become familiar with the natur
 
 You’ve done general people-ops and engineering team onboarding, and have casually met some team members. Now it’s time to start onboarding as a new engineering manager.
 
-- [ ] If you’re reading this, you’re the first external engineering manager we’ve hired and your name is Adam. Yay! (If not, this will be _real_ awkward.)
+At Artsy we are trying to give new hires ownership over improving the onboarding documentation that they are faced with, in an effort to help the next new hire onboard more smoothly. Things in this document may turn out to be insufficient, too broad, or simply not work at all. That’s all good and you should feel empowered to bring this up openly.
 
-     At Artsy we are trying to give new hires ownership over improving the onboarding documentation that they are faced with, in an effort to help the next new hire onboard more smoothly. As you are the first one, there is plenty of work to do in this area; in fact, this very document is nothing but a first draft. Things in this document may turn out to be insufficient, too broad, or simply not work at all. That’s all good and you should feel empowered to bring this up openly.
-
-     It will be your task to improve [this document](/.github/ISSUE_TEMPLATE/engineering-manager-onboarding.md), drawing from all the things you’ve had to learn. You’re not on your own, your fellow peers will all be available to support you during this task. You got this!
+It will be your task to improve [this document](https://github.com/artsy/README/blob/master/.github/ISSUE_TEMPLATE/engineering-manager-onboarding.md), drawing from all the things you’ve had to learn. You’re not on your own, your fellow peers will all be available to support you during this task. You got this!
 
 - [ ] The people-ops team should have signed you up for the various on-site manager trainings.
 
@@ -19,7 +17,7 @@ You’ve done general people-ops and engineering team onboarding, and have casua
 
 - [ ] Your manager should have scheduled 1:1s for you with the other engineering managers, including the CTO, and other leadership people.
 
-- [ ] While already mentioned in the previous onboarding checklist, it bears repeating for you as a manager that you should internalize [Artsy’s Values](/culture/what-is-artsy.md#artsy-values) and our [Engineering Principles](/culture/engineering-principles.md).
+- [ ] While already mentioned in the previous onboarding checklist, it bears repeating for you as a manager that you should internalize [Artsy’s Values](https://github.com/artsy/README/blob/master/culture/what-is-artsy.md#artsy-values) and our [Engineering Principles](https://github.com/artsy/README/blob/master/culture/engineering-principles.md).
 
 ## Your first ~two months
 
@@ -58,9 +56,9 @@ To help work on the main objective, we’ve tried to identify the following goal
 - [ ] As an engineering manager, hiring will become one of your top-priorities. To familiarize yourself with the process and the people involved you should be the hiring manager for at least one candidate and be a fly on the wall during an interview and a reference call. TBD: We have some disparate google docs on hiring, we should figure out exactly what (compiled) resource to link to for this item.
 
 - [ ] Get to know our team processes and help us learn from your experiences.
-    - [ ] Run an [engineering team standup](/events/open-standup.md).
-    - [ ] Present a [Lunch & Learn](/events/lunch-and-learn.md) session on something you’re familiar with from your previous role.
-    - [ ] _If_ the opportunity arises and somebody needs drop their shift, take a turn in our [support rotation](/playbooks/support.md) sooner rather than later.
+    - [ ] Run an [engineering team standup](https://github.com/artsy/README/blob/master/events/open-standup.md).
+    - [ ] Present a [Lunch & Learn](https://github.com/artsy/README/blob/master/events/lunch-and-learn.md) session on something you’re familiar with from your previous role.
+    - [ ] _If_ the opportunity arises and somebody needs drop their shift, take a turn in our [support rotation](https://github.com/artsy/README/tree/master/playbooks/support) sooner rather than later.
 
 ## Beyond sprint rotation
 
