@@ -104,6 +104,7 @@ This is very much a living document, and likely missing things. so, please send 
 - Sep 2018 - The Artsy Omakase's name [is decided][oma_rfc]
 - Sep 2018 - Engineering highlights [are created][this_pr]
 - Oct 2018 - Buy now [is launched][buy_now]🔒
+- Jan 2019 - Make Offer [is launched][make_offer]
 
 <!-- prettier-ignore-start -->
 [helix-react]: https://artsy.github.io/blog/2015/04/08/creating-a-dynamic-single-page-app-for-our-genome-team-using-react/
@@ -196,3 +197,4 @@ This is very much a living document, and likely missing things. so, please send 
 [this_pr]: https://github.com/artsy/README/pull/50
 [neo-mp]: https://github.com/artsy/metaphysics/pull/809
 [buy_now]: https://artsy.slack.com/archives/C02BC3HEJ/p1539703456000100
+[make_offer]: https://github.com/artsy/force/pull/3300
