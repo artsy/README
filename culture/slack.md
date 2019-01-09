@@ -71,6 +71,7 @@ to check out:
 - [#coffeetalk](https://artsy.slack.com/messages/coffeetalk) 🔒 for chat about coffee
 - [#jam-session](https://artsy.slack.com/messages/jam-session) 🔒 for musicians at Artsy to plan monthly after-work
   jam-sessions
+- [#productivity-tips](https://artsy.slack.com/messages/productivity-tips) 🔒 for random things that make you more productive
 
 ### Tips and Tricks
 
