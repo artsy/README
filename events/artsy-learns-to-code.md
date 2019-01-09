@@ -42,7 +42,7 @@ We'll have trios: one mentor and two learners, who will be partners throughout _
 
 ## Expectations of Learners
 
-- 2+ hours a week to dedicate to taking the course and handling course work. Ideally you do this with you partner.
+- 2+ hours a week to dedicate to taking the course and handling course work. Ideally you do this with your partner.
   Once you complete the course, this time will be dedicated to working on the project.
 - Meeting with your assigned mentor for a one-hour weekly check-in. Bring your questions and make sure to get
   answers from your engineer before you leave.
