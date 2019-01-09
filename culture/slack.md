@@ -32,7 +32,9 @@ Engineering teams each maintain a dedicated channel (but all are welcome):
 
 Some other channels engineers might find helpful:
 
+- [#clojure](https://artsy.slack.com/messages/clojure) 🔒
 - [#data](https://artsy.slack.com/messages/data) 🔒
+- [#elixir](https://artsy.slack.com/messages/elixir) 🔒
 - [#front-end](https://artsy.slack.com/messages/front-end) 🔒
 - [#front-end-ios](https://artsy.slack.com/messages/front-end-ios) 🔒
 - [#global](https://artsy.slack.com/messages/global) 🔒
