@@ -49,7 +49,7 @@ Engineers typically work on a product team and may also belong to an _Engineerin
   - Team leads: [Justin](https://github.com/zephraph) (web) / [Ash](https://github.com/ashfurrow) (iOS)
   - Slack: [#front-end](https://artsy.slack.com/messages/front-end) 🔒,
     [#front-end-ios](https://artsy.slack.com/messages/front-end-ios) 🔒
-  - [Front-end Practices Overview](practices/front-end.md)
+  - [Front-end web Practice Overview](practices/front-end.md), [Front-end iOS Practice Overview](practices/front-end-ios.md)
 
 ## Support
 
