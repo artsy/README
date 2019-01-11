@@ -21,6 +21,7 @@ There are a few other useful dev-related slacks:
 
 - [#dev-banter](https://artsy.slack.com/messages/dev-banter) 🔒: For chatting with developers, not about work.
 - [#dev-candidates](https://artsy.slack.com/messages/dev-candidates) 🔒: If you want to be involved in hiring.
+- [#dev-ersity](https://artsy.slack.com/messages/dev-ersity) 🔒: If you want to get involved in increasing deversity in engineering.
 
 Engineering teams each maintain a dedicated channel (but all are welcome):
 
