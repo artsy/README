@@ -118,4 +118,4 @@ Move the card to the "Done" column. Nice work!
 [after]: #Afterward
 [blog]: https://github.com/artsy/artsy.github.io
 [project]: https://github.com/artsy/README/projects/1
-[event]: /events/lunch-and-learn.md
+[event]: ../events/lunch-and-learn.md
