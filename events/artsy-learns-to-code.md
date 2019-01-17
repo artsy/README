@@ -23,6 +23,12 @@ Artsy Engineer). Over the course of January–April 2019, learners will:
 - Define a small project they'd like to build with the Artsy APIs.
 - Build an minimum-viable-product and present at [Demo Days](./demo-days.md).
 
+## Current Status
+
+As of January 2019, we have 54 learners spread across 27 teams, being mentored by 17 engineers (out of 29 Artsy
+total engineers). Learners are working through the Udacity course. The scaffold for their projects has not yet been
+created.
+
 ## Structure
 
 _Artsy Learns to Code_ will be structured in two parts:
