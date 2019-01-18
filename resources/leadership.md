@@ -12,3 +12,4 @@ description: The best-of from our [#leadership](https://artsy.slack.com/messages
 
 ### Books
 - [Tribal Leadership by David Logan, John King, Halee Fisher-Wright](https://www.amazon.com/Tribal-Leadership-Leveraging-Thriving-Organization/dp/0061251321)
+- [The Five Dysfunctions of a Team by Patrick Lencioni](https://www.tablegroup.com/books/dysfunctions)
