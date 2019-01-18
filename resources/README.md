@@ -11,5 +11,6 @@ Listicles, but on GitHub.
 | [Highlights from our engineering blog](/resources/blog.md#readme) | The best-of from our archives |
 | [Highlights from our L&Ls](/resources/lnl.md#readme) | The best-of from our archives |
 | [How to get started on any of our tech stacks](/resources/tech-learning.md#readme) | The getting started guides |
+| [Leadership resources](/resources/leadership.md#readme) | The best-of from our [#leadership](https://artsy.slack.com/messages/leadership) 🔒 slack channel |
 <!-- end_toc -->
 <!-- prettier-ignore-end -->
