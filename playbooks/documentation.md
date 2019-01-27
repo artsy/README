@@ -5,7 +5,7 @@ description: How and where to document or share content
 
 # Documentation
 
-As engineers we operate in many parallel forums: Github, Jira, Slack, Google docs, e-mail, Notion, and so on. What
+As engineers we operate in many parallel forums: GitHub, Jira, Slack, Google docs, e-mail, Notion, and so on. What
 content should go where?
 
 ## Documentation or discussion of a specific system
