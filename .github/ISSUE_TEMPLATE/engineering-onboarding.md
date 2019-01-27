@@ -16,7 +16,7 @@ google (artsymail), 1Password, and know how to use the coffee machine._
 
 ## Your first week
 
-_Goal: I can ssh into gravity (staging and production). I can PR to a repo in Artsy’s Github org. I know what the
+_Goal: I can ssh into gravity (staging and production). I can PR to a repo in Artsy’s GitHub org. I know what the
 engineering teams are, what their main focuses are, and who leads them. I know my way around the Artsy site._
 
 ### First week checklist
@@ -29,7 +29,7 @@ onboarding. We emphatically do not underestimate it, this is _real_ work!
 
 _Remember to review *all* setup scripts before executing them :)_
 
-- [ ] Get invited to the Artsy Github org _Ask your mentor or another engineer for help, or log into github using
+- [ ] Get invited to the Artsy GitHub org _Ask your mentor or another engineer for help, or log into GitHub using
       the it@artsymail.com account in 1Password and add yourself._
 - [ ] Set up your general dev environment (download your favorite text editor, terminal application, etc.) _If you
       don't have a favorite, ask for advice- by default the initial developer setup script below will install and
