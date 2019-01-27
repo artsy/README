@@ -32,4 +32,4 @@ different product teams. So the practice has two bi-weekly meetings on alternati
 - Storybooks
 - Jest
 - Yarn
-- Visual Studios Code
+- Visual Studio Code
