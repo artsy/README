@@ -105,3 +105,5 @@ such as [zoom.us](https://zoom.us/) and [retrium.com](https://www.retrium.com/).
 - [Retrospective](https://www.atlassian.com/team-playbook/plays/retrospective)
 - [The Collector Experience & GMV team’s first retro](https://github.com/artsy/collector-experience/wiki/Our-First-Retro)
 - [iOS Retrospectives](https://artsy.github.io/blog/2017/05/27/ios-retrospectives/)
+- [Spotify Retro Kit](https://labs.spotify.com/2017/12/15/spotify-retro-kit/)
+- [How we made our team retros more effective](https://engineering.thetrainline.com/how-we-made-our-team-retros-more-effective-c205501a2306)
