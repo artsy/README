@@ -37,7 +37,7 @@ _\*Not all of these goals are routinely achieved._
 
 - Heroku (Radiation, Impulse, Positron, ...)
 - AWS OpsWorks (Gemini, Causality)
-- **Kubernetes** (Gravity, Force, Metaphysics, Volt, Diffusion, ...)
+- **Kubernetes** (Gravity, Force, Metaphysics, Volt, Diffusion, Doppler, ...)
 
 ### Approaches:
 
@@ -138,3 +138,14 @@ critical to avoid the delay of a full CI run or staging deploy, it's possible to
 `hokusai production deploy <tag>` where _tag_ is an image tag (including git SHAs) and can refer to a previous
 release such as `production--2018-09-25--10-19-2`. Projects that depend on other release operations (e.g., to
 compile assets or update configuration) may require additional steps.
+
+### Migrating from Heroku
+
+You may want to migrate an application from Heroku to Kubernetes.
+
+This involves getting Hokusai and being able to `hokusai test` locally, getting Circle-CI to run tests and deploy
+to a new staging K8 environment, then having Circle-CI promote from staging to a new production environment, then
+switching DNS.
+
+- See [doppler#154](https://github.com/artsy/doppler/pull/154) for an example of dockerizing a Rails app.
+- See [doppler#157](https://github.com/artsy/doppler/pull/157) for setting up promotion from staging to production.
