@@ -27,7 +27,8 @@ Are you an Artsy employee? Do you want to suggest someone to present a Lunch & L
 - Go to the #lunch-and-learn Slack channel and let us know
 - Add a card to the [project][] in the appropriate column
 
-We encourage you to follow the rest of this guide. You've got this! And if you need help, or would prefer someone take over from you, just let the Slack channel know.
+We encourage you to follow the rest of this guide. You've got this! And if you need help, or would prefer someone
+take over from you, just let the Slack channel know.
 
 ## Handling a Referral
 

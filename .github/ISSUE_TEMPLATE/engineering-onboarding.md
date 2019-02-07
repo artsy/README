@@ -36,7 +36,7 @@ _Remember to review *all* setup scripts before executing them :)_
       configure vscode._
 - [ ] Set up a baseline development environment:
   - [ ] _Optional:_ Some Artsy engineers have used [strap](https://github.com/MikeMcQuaid/strap) to automate an
-        initial, unopinionated setup (applying updates, activating xcode command line tools & encryption, etc) and
+        initial, un-opinionated setup (applying updates, activating Xcode command line tools & encryption, etc) and
         avoid some later gotchas.
   - [ ] Artsy Engineering's [initial developer setup](https://github.com/artsy/potential/blob/master/scripts/setup)
         provides a base for many artsy projects. Confirm how you want to configure it (ask questions if you're

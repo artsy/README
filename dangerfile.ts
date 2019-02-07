@@ -7,6 +7,19 @@ const markdowns = files.filter(f => f.indexOf(".md") !== -1)
 const skipTODOCheck = ["dangerfile.ts", "CONTRIBUTING.md"]
 
 // Check for [TODO]s in all files changed
+
+const wordsToAvoid = [
+  { word: "Github", reason: "Please use GitHub, capital 'H'" },
+  { word: "Cocoapods", reason: "Please use CocoaPods, capital 'P'" },
+  { word: "Javascript", reason: "Please use JavaScript, capital 'S'" },
+  { word: "Typescript", reason: "Please use TypeScript, capital 'S'" },
+  { word: "Fastlane", reason: "Please use fastlane, lowercase 'f'" },
+  { word: "localhost:4000", reason: "You may have left an internal link in the markdown" },
+  { word: "[]: ???", reason: "You've missed a link" },
+  { word: "[TODO]", reason: "You may have missed a TODO here" },
+  { word: "react native", reason: "Please use React Native with capitals" }
+]
+
 markdowns.forEach(f => {
   if (skipTODOCheck.indexOf(f) !== -1) {
     return
@@ -15,11 +28,13 @@ markdowns.forEach(f => {
   const content = readFileSync(f, "utf8")
   const lines = content.split("\n")
   lines.forEach(l => {
-    if (l.indexOf("[TODO]") !== -1) {
-      const isLocal = !danger.github
-      const message = isLocal ? `TODO detected in ${f}:${lines.indexOf(l) + 1}` : "TODO Detected"
-      warn(message, f, lines.indexOf(l) + 1)
-    }
+    wordsToAvoid.forEach(word => {
+      if (lines.indexOf(word.word) !== -1) {
+        const isLocal = !danger.github
+        const message = isLocal ? `${word.reason} in ${f}:${lines.indexOf(l) + 1}` : word.reason
+        warn(message, f, lines.indexOf(l) + 1)
+      }
+    })
   })
 })
 

@@ -20,59 +20,70 @@ You should always feel up to date on these two:
 There are a few other useful dev-related slacks:
 
 - [#dev-banter](https://artsy.slack.com/messages/dev-banter) 🔒: For chatting with developers, not about work.
-- [#dev-candidates](https://artsy.slack.com/messages/dev-candidates) 🔒: If you want to be involved in hiring.
-- [#dev-ersity](https://artsy.slack.com/messages/dev-ersity) 🔒: If you want to get involved in increasing deversity in engineering.
+- [#dev-candidates](https://artsy.slack.com/messages/dev-candidates) 🔒: To see how hiring is going.
+- [#dev-ersity](https://artsy.slack.com/messages/dev-ersity) 🔒: If you want to get involved in increasing
+  diversity in engineering.
+- [#dev-interviews](https://artsy.slack.com/messages/dev-interviews) 🔒: If you want to get involved in the hiring
+  process.
 
 Engineering teams each maintain a dedicated channel (but all are welcome):
 
+- Auctions: [#product-auctions](https://artsy.slack.com/messages/product-auctions) 🔒
+- Discover: [#product-discover](https://artsy.slack.com/messages/product-discover) 🔒
 - Grow: [#product-grow](https://artsy.slack.com/messages/product-grow) 🔒
-- Discover/Evaluate: [#product-discovaluate](https://artsy.slack.com/messages/product-discovaluate) 🔒
-- Purchase: [#product-purchase](https://artsy.slack.com/messages/product-purchase) 🔒
-- Sell: [#product-sell](https://artsy.slack.com/messages/product-sell) 🔒
 - Platform: [#product-platform](https://artsy.slack.com/messages/product-platform) 🔒
+- Product Galleries: [#product-galleries](https://artsy.slack.com/messages/product-galleries) 🔒
+- Purchase: [#product-purchase](https://artsy.slack.com/messages/product-purchase) 🔒
 
 Some other channels engineers might find helpful:
 
-- [#clojure](https://artsy.slack.com/messages/clojure) 🔒
-- [#data](https://artsy.slack.com/messages/data) 🔒
-- [#elixir](https://artsy.slack.com/messages/elixir) 🔒
+### Practices
+
 - [#front-end](https://artsy.slack.com/messages/front-end) 🔒
 - [#front-end-ios](https://artsy.slack.com/messages/front-end-ios) 🔒
+- [#platform-practice](https://artsy.slack.com/messages/platform-practice) 🔒
+
+### Misc
+
+- [#clojure](https://artsy.slack.com/messages/clojure) 🔒
+- [#data](https://artsy.slack.com/messages/data) 🔒
+- [#deployments](https://artsy.slack.com/messages/deployments) 🔒
+- [#elixir](https://artsy.slack.com/messages/elixir) 🔒
 - [#global](https://artsy.slack.com/messages/global) 🔒
 - [#graphql](https://artsy.slack.com/messages/graphql) 🔒
 - [#onboarding-eng](https://artsy.slack.com/messages/onboarding-eng) 🔒
-- [#product](https://artsy.slack.com/messages/product) 🔒
-- [#deployments](https://artsy.slack.com/messages/deployments) 🔒
 - [#peopleops](https://artsy.slack.com/messages/peopleops) 🔒
+- [#product](https://artsy.slack.com/messages/product) 🔒
 - [#workplace](https://artsy.slack.com/messages/workplace) 🔒
 
 There are _many_ other topic-specific channels. You'll find these out organically. Here is a sample list of
-interesting, [banter-y Slack channels](https://artsy.slack.com/archives/C02531TUD/p1533749286000516) 🔒 you might want
-to check out:
+interesting, [banter-y Slack channels](https://artsy.slack.com/archives/C02531TUD/p1533749286000516) 🔒 you might
+want to check out:
 
 - [#cabort-bookclub](https://artsy.slack.com/messages/cabort-bookclub) 🔒 is a sci-fi book club
 - [#video-games](https://artsy.slack.com/messages/video-games) 🔒 for video games
 - [#cats](https://artsy.slack.com/messages/cats) 🔒 for cat-lovers
 - [#dogs](https://artsy.slack.com/messages/dogs) 🔒 for dog-lovers
 - [#teamcanada](https://artsy.slack.com/messages/teamcanada) 🔒 for Canadians and Canadian-adjacent people
-- [#hotpot](https://artsy.slack.com/messages/hotpot) 🔒 for organizing hotpot dinners in Chinatown, next door to the
-  office
+- [#hotpot](https://artsy.slack.com/messages/hotpot) 🔒 for organizing hotpot dinners in Chinatown, next door to
+  the office
 - [#vr](https://artsy.slack.com/messages/vr) 🔒 for virtual reality
 - [#aotd](https://artsy.slack.com/messages/aotd) 🔒 is "Artwork of the Day", a good place to chat about art
 - [#extreme-bevvies](https://artsy.slack.com/messages/extreme-bevvies) 🔒 is for extreme beverages (started with
   Soylent but has evolved a lot since)
-- [#house-plants](https://artsy.slack.com/messages/house-plants) 🔒 for house plants (conversations, questions, asking
-  for help)
+- [#house-plants](https://artsy.slack.com/messages/house-plants) 🔒 for house plants (conversations, questions,
+  asking for help)
 - [#karaoke](https://artsy.slack.com/messages/karaoke) 🔒 for organizing karaoke outings
-- [#samplesales](https://artsy.slack.com/messages/sameplsales) 🔒 to coordinate around sample sales, a staple of NYC
-  and of Tribeca particularly
+- [#samplesales](https://artsy.slack.com/messages/sameplsales) 🔒 to coordinate around sample sales, a staple of
+  NYC and of Tribeca particularly
 - [#android](https://artsy.slack.com/messages/android) 🔒 for Android-lovers
 - [#anime](https://artsy.slack.com/messages/anime) 🔒 for anime-lovers
 - [#yelling](https://artsy.slack.com/messages/yelling) 🔒 is a CAPS-ONLY channel
 - [#coffeetalk](https://artsy.slack.com/messages/coffeetalk) 🔒 for chat about coffee
 - [#jam-session](https://artsy.slack.com/messages/jam-session) 🔒 for musicians at Artsy to plan monthly after-work
   jam-sessions
-- [#productivity-tips](https://artsy.slack.com/messages/productivity-tips) 🔒 for random things that make you more productive
+- [#productivity-tips](https://artsy.slack.com/messages/productivity-tips) 🔒 for random things that make you more
+  productive
 
 ### Tips and Tricks
 

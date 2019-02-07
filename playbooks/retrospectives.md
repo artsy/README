@@ -44,15 +44,15 @@ retrospective manageable.
 
 Many articles, blog posts, and books suggest having a dedicated facilitator rather than having one of the team
 members play this role, which would help remove bias. In a small team, that may not be an option but is something
-for the facilitator to keep in mind. Rotating facililators is also encouraged to increase participation and
+for the facilitator to keep in mind. Rotating facilitators is also encouraged to increase participation and
 distribute sense of ownership throughout the process.
 
 **Format** There are dozens of retrospective formats in Agile
 [Retrospectives](https://www.amazon.com/Agile-Retrospectives-Making-Teams-Great/dp/0977616649) or
 [online](https://retrospectivewiki.org/index.php?title=Retrospective_Plans). The most commonly used one is called
 “Glad, Sad, Mad.” According to
-[Retrospectivewiki](https://retrospectivewiki.org/index.php?title=Agile_Retrospective_Resource_Wiki), this format is
-described as follows:
+[Retrospectivewiki](https://retrospectivewiki.org/index.php?title=Agile_Retrospective_Resource_Wiki), this format
+is described as follows:
 
 > Issues, changes or observations made during a sprint are listed by all participants and then categorized as
 > either Glad, Sad or Mad. These broadly represent positive notes about the sprint/team, negative notes about the

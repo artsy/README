@@ -11,7 +11,7 @@ This is very much a living document, and likely missing things. so, please send 
 - Oct 2012 - Artsy launches to [the public][nyt]
 - Jan 2012 - ["Hello World"][blog], we start off the Artsy blog
 - Feb 2012 - We move to [401 Broadway][401] 🔒
-- Feb 2012 - Artsy's partner portfolio app: Energy [is released][energy_1] 🔒 to the App Store
+- Feb 2012 - Artsy's partner portfolio app: Energy [is released][energy_1] 🔒 to the App Store as ([Folio][folio])
 - Sep 2012 - The first ["Artsy Tech Stack"][ts1] post, [series][tech-series]
 - Oct 2012 - Order/Purchase are [modeled][auctions-model] 🔒 in Gravity
 - Nov 2012 - Artsy's iOS app: Eigen is [`git init`][eigen_init]d 🔒
@@ -201,3 +201,4 @@ This is very much a living document, and likely missing things. so, please send 
 [buy_now]: https://artsy.slack.com/archives/C02BC3HEJ/p1539703456000100
 [altc]: https://github.com/artsy/README/blob/master/events/artsy-learns-to-code.md
 [make_offer]: https://github.com/artsy/force/pull/3300
+[folio]: https://folio.artsy.net

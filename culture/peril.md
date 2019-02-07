@@ -9,6 +9,11 @@ created][blog] is useful reading for this document.
 This document covers, at the highest level, what Peril does at Artsy. The real source of truth for these rules is
 the [`peril.settings.json`][settings] in [`artsy/peril-settings`][repo].
 
+### Peril Infra
+
+Artsy uses the Peril Staging server, which is hosted by Orta. You can see up-to-date info on the setup over in the
+Peril docs on [the staging server](https://github.com/danger/peril/blob/master/docs/env/staging.md).
+
 ### Workflow improvements
 
 #### Pull Requests
@@ -25,15 +30,15 @@ the [`peril.settings.json`][settings] in [`artsy/peril-settings`][repo].
   [RFC #33](https://github.com/artsy/peril-settings/issues/33)
 - You can comment "Merge on Green" on a PR to have Peril automatically merge the PR
   [RFC #10](https://github.com/artsy/peril-settings/issues/10)
-- Any PR to an project that adds a new dependency gets a comment with an overview of the package and its dependencies.
+- Any PR to an project that adds a new JS dependency gets a comment with an overview of the package and its
+  dependencies.
 - Any PR changing a markdown doc will go through a spell checker
 - Any PR opened in a repo with an `.autorc` will have "Release: Patch" label added by default
   [RFC #1095](https://github.com/artsy/reaction/issues/1095)
 
 #### Issues
 
-- Any issue with RFC in the title becomes an "RFC"
-  [RFC #40](https://github.com/artsy/peril-settings/issues/40)
+- Any issue with RFC in the title becomes an "RFC" [RFC #40](https://github.com/artsy/peril-settings/issues/40)
 - Any "RFC" gets sent into slack three times in the
   [upcoming week](https://github.com/artsy/peril-settings/pull/46)
 
@@ -44,11 +49,16 @@ the [`peril.settings.json`][settings] in [`artsy/peril-settings`][repo].
 
 ### Scheduled Jobs
 
-- 9am on a Monday EST, find [all open RFCs](https://github.com/artsy/peril-settings/pull/77) and send to slack
+- 9am on a Monday EST:
+
+  - Find [all open RFCs](https://github.com/artsy/peril-settings/pull/77) and send to slack message
+  - Summerise updates to any `_schema.graphql` files across Artsy in the #graphql channel
+  - Check for closed source repos [without a reasoning](https://github.com/artsy/README/issues/131))
+  - [Ping who is on-call this week](http://artsy.github.io/blog/2019/01/08/automation-encourages-more-automation/),
+    to prepare them to run [open standup](https://github.com/artsy/README/blob/master/events/open-standup.md)
+
 - Every day, check all our OSS repos for their licenses and update
   [this issue](https://github.com/artsy/potential/issues/157) 🔒
-- Post diff notifications for all GraphQL APIs that changed in the last week into slack
-
 
 [blog]: https://artsy.github.io/blog/2017/09/04/Introducing-Peril/
 [settings]: https://github.com/artsy/peril-settings/blob/master/peril.settings.json

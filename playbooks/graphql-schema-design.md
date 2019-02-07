@@ -117,14 +117,14 @@ e.g. an `artworks` field _and_ an `artworks_connection`, simply choose one form 
 
 ## Schema stitching
 
-As we expand our microservices oriented architecture and take our use of GraphQL more serious, a need has arisen to
-model GraphQL schemas more closely to the data source (i.e. database) in an effort to colocate schema code next to
-the rest of the code related to that data and to make these schema resolvers more performant.
+As we expand our micro-services oriented architecture and take our use of GraphQL more serious, a need has arisen
+to model GraphQL schemas more closely to the data source (i.e. database) in an effort to colocate schema code next
+to the rest of the code related to that data and to make these schema resolvers more performant.
 
 In this new scenario, metaphysics would be an orchestration layer that
 [stitches together](https://www.apollographql.com/docs/graphql-tools/schema-stitching.html) these various schemas
 into a single coherent schema that clients can consume without needing to know about the existence of these various
-microservices.
+micro-services.
 
 - Services should only model the data they themselves are responsible for and leave it up to metaphysics to model
   that further. For example, consider a list of consignment submissions for a user, rather than modelling the
@@ -166,6 +166,9 @@ microservices.
 
   So, perhaps something like `addConsignment` or `addConsignmentSubmission` is the best name to give this mutation,
   in your Convection GraphQL schema.
+
+You can read about how to build and test a stitched API
+[via the blog](http://artsy.github.io/blog/2018/12/11/GraphQL-Stitching/).
 
 ## Unions instead of Merging Responsibilities
 

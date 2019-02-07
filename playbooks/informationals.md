@@ -18,11 +18,28 @@ If you're going to do it on-site in NYC, ask them to met you at Artsy, and give 
 [La Colombe](https://code.dblock.org/2016/08/30/phone-screens-are-harmful-and-the-benefits-of-the-informational-interview.html)
 for an hour or so.
 
-Then do some back-and-forth to eventually find a time. Make a calendar event for the two of you.
+Then do some back-and-forth to eventually find a time. Make a calendar event for the two of you. Maybe even send
+them a link to this doc.
+
+#### Preparation
+
+For the person on the other end of the informational this is a big event. You may do these for Artsy with
+regularity, so it's important to always take time to do research on the person you're talking to and not get
+complacent that you can just sell Artsy.
+
+- Take the time to read through their CV
+- Google them, see what their public internet presence is
+- See if their current engineering team has a public presence
+- Try to see the arc of their work (was it always the same type of work?)
+- Check out their GitHub profile and see what they've been working on (if they do OSS)
+
+Showing that you've taken the time to prepare for the meeting helps reenforce the candidate feel important (which
+they are, otherwise you wouldn't be in this situation ) and can help you orient the conversation in a way that's
+respectful of their time.
 
 #### Chat
 
-Your aims as an Artsy representative is to predominantly have a feel for these questions:
+Your aims as an Artsy representative is to predominantly come out with a feel for these questions:
 
 - Are they a culture add?
 - Could they get through the interview process?
@@ -61,18 +78,18 @@ Once you're certain that you've answered all their questions you should let them
   better for everyone.
 
 - Otherwise thank them for their time, and let them know that there aren't any openings for their fit right now and
-  that they can/should re-apply if their context changes. Honestly, this is really hard to do, you've just answered
-  questions for ~30-45m on why Artsy is an interesting place, then you've turned around and said we don't have a
-  fit for you yet.
+  that they can/should re-apply if their (or our) context changes. Honestly, this is really hard to do, you've just
+  answered questions for ~30-45m on why Artsy is an interesting place, then you've turned around and said we don't
+  have a fit for you yet.
 
-  Putting it into context, interviewing at Artsy is a 3 hour session, so that's a half/full day of work that
-  someone would skip. They'd spend a lot of time thinking and preparing, and if you're only half sure they'll make
-  it then you're potentially wasting a lot of their time.
+  Putting it into a larger context, interviewing at Artsy is a 3 hour session, so that's a half/full day of work
+  that someone would skip. They'd spend a lot of time thinking and preparing, and if you're only half sure they'll
+  make it then you're potentially wasting a lot of their time.
 
 ---
 
 Read More:
 
+- [How Artsy Hires Engineers](http://artsy.github.io/blog/2019/01/23/artsy-engineering-hiring/)
 - [Phone Screens are Harmful and The Benefits of the Informational Interview](https://code.dblock.org/2016/08/30/phone-screens-are-harmful-and-the-benefits-of-the-informational-interview.html)
-
 - [Interviewing, applying and getting your first job in iOS](https://artsy.github.io/blog/2016/01/30/iOS-Junior-Interviews/)
