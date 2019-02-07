@@ -78,21 +78,19 @@ _Remember to review *all* setup scripts before executing them :)_
       your `@artsymail.com` account) and click around without fear. Visit each of the top-nav pages. Bid in an
       auction. Make an inquiry. _Ask your mentor or others for help with any of these concepts. Have them show you
       CMS and some internal apps, like Ohm or Torque._
-- [ ] Besides
-      [Artsy’s base values](https://github.com/artsy/README/blob/master/culture/what-is-artsy.md#artsy-values), the
-      engineering team has its own additional
-      [set of principles](https://github.com/artsy/README/blob/master/culture/engineering-principles.md)
-- [ ] Learn how code goes from your local machine --> production. \_Talk to your mentor. Have them explain the
+- [ ] Read through the following (and anything else you find interesting) from [artsy/README](https://github.com/artsy/README):
+  - [ ] Besides [Artsy’s base values](https://github.com/artsy/README/blob/master/culture/what-is-artsy.md#artsy-values), the engineering team has its own additional [set of principles](https://github.com/artsy/README/blob/master/culture/engineering-principles.md). Check 'em both out!
+  - [ ] Scan our list of preferred technologies. Dig in where necessary.
+    - [ ] [Front-end technologies](https://github.com/artsy/README/blob/master/practices/front-end.md)
+    - [ ] [Front-end iOS technologies](https://github.com/artsy/README/blob/master/practices/front-end-ios.md)
+    - [ ] [Back-end/Platform technologies](https://github.com/artsy/README/blob/master/practices/platform.md)
+  - [ ] [Best of Our Blog](https://github.com/artsy/README/blob/master/resources/blog.md)
+  - [ ] [Internal and external tech learning resources](https://github.com/artsy/README/blob/master/resources/tech-learning.md)
+  - [ ] Check out the [Engineer Workflow](https://github.com/artsy/README/blob/master/playbooks/engineer-workflow.md) for info on how we use project management software and GitHub, among other things
+  - [ ] Watch some of our [Lunch & Learns](https://github.com/artsy/README/blob/master/resources/lnl.md)
+- [ ] Learn how code goes from your local machine --> production. _Talk to your mentor. Have them explain the
       Gravity, Metaphysics, and/or Force/Reaction deployment process. Read about our
-      [staging environment](https://github.com/artsy/gravity/blob/master/doc/StagingEnvironment.md).
-- [ ] Scan our list of preferred technologies. Dig in where necessary.
-  - [ ] [Front-end technologies](https://github.com/artsy/README/blob/master/practices/front-end.md)
-  - [ ] [Front-end iOS technologies](https://github.com/artsy/README/blob/master/practices/front-end-ios.md)
-  - [ ] [Back-end/Platform technologies](https://github.com/artsy/README/blob/master/practices/platform.md)
-- [ ] Reading: [Best of Our Blog](https://github.com/artsy/README/blob/master/resources/blog.md)
-- [ ] Reading:
-      [Internal and external tech learning resources](https://github.com/artsy/README/blob/master/resources/tech-learning.md)
-- [ ] Watch some of our [Lunch & Learns](https://github.com/artsy/README/blob/master/resources/lnl.md)
+      [staging environment](https://github.com/artsy/gravity/blob/master/doc/StagingEnvironment.md)._
 - [ ] Join the [#incidents](https://artsy.slack.com/messages/front-end-ios/) slack channel and scan through some
       recent threads
 - [ ] Read the [support doc](https://github.com/artsy/README/blob/master/playbooks/support#readme) about how
