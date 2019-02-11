@@ -28,7 +28,7 @@ regularity, so it's important to always take time to do research on the person y
 complacent that you can just sell Artsy.
 
 - Take the time to read through their CV
-- Google them, see what their public internet presence is
+- Google them, see check out their public internet presence (so you know what are good topics of conversation)
 - See if their current engineering team has a public presence
 - Try to see the arc of their work (was it always the same type of work?)
 - Check out their GitHub profile and see what they've been working on (if they do OSS)
