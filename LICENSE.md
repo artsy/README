@@ -1,4 +1,4 @@
-2011-2018 Artsy Inc.
+2011-2019 Artsy Inc.
 
 ## creative commons
 
