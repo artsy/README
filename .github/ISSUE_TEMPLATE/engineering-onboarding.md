@@ -29,6 +29,7 @@ onboarding. We emphatically do not underestimate it, this is _real_ work!
 
 _Remember to review *all* setup scripts before executing them :)_
 
+- [ ] [Enable two-factor authentication on your GitHub account](https://help.github.com/articles/securing-your-account-with-two-factor-authentication-2fa/) _You'll need this enabled to join the Artsy GitHub org. You can use [1Password as an authenticator](https://support.1password.com/one-time-passwords/) for 2fa._
 - [ ] Get invited to the Artsy GitHub org _Ask your mentor or another engineer for help, or log into GitHub using
       the it@artsymail.com account in 1Password and add yourself._
 - [ ] Set up your general dev environment (download your favorite text editor, terminal application, etc.) _If you
