@@ -124,6 +124,10 @@ You can find the point people in the [Potential Wiki](https://github.com/artsy/p
 
 ## Special cases
 
+### Trading shifts
+
+If you run into a scheduling conflict for your shift, please trade shifts as early as possible. Find someone to swap with and update both parties' events in the [Engineering On-Call calendar](https://calendar.google.com/calendar/embed?src=artsymail.com_nolej2muchgbpne9etkf7qfet8%40group.calendar.google.com&ctz=America%2FNew_York).
+
 ### Team members who leave
 
 If someone who is scheduled to be on-call ends up leaving the engineering team (by moving to a different team or

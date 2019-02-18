@@ -1,6 +1,6 @@
 # Scheduling
 
-The schedule is configured on the [Engineering On-Call calendar][]. Trading shifts (because of vacations,
+The schedule is configured on the [Engineering On-Call calendar](https://calendar.google.com/calendar/embed?src=artsymail.com_nolej2muchgbpne9etkf7qfet8%40group.calendar.google.com&ctz=America%2FNew_York). Trading shifts (because of vacations,
 obligations, etc.) is encouraged as long as the calendar is kept up-to-date. Please address any scheduling issues
 as early as possible.
 
