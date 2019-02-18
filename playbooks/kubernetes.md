@@ -37,11 +37,11 @@ If you [installed and configured Hokusai](hokusai.md) you already have `kubectl`
 
 See all available contexts (set in the `~/.kube/config` file) with `kubectl config get-contexts`
 
-Ignore the contexts with fully-qualified domain names `kubernetes-*.artsy.systems` - you'll want to use the contexts `staging`, `production`, `ops-staging` and `ops-production` which are aliased to the correct FQDN for the currently running clusters (which change as we make cluster upgrades).
+Ignore the contexts with fully-qualified domain names `kubernetes-*.artsy.systems` such as `kubernetes-production-cepheus.artsy.systems` / `kubernetes-production-orion.artsy.systems` - you'll want to use the contexts `staging`, `production`, `ops-staging` and `ops-production` which are aliased to the correct FQDN for the currently running clusters (which change as we make cluster upgrades).
 
 Use `kubectl config use-context {context}` to select a context.  All further `kubectl` commands will use this context, and issue commands against the API endpoint for that cluster.  You can also explicitly pass a context to an individual `kubectl` command with the `--context` flag (this is how Hokusai shells out to Kubectl so as not to conflict with any implicit context you may have set.)
 
-Kubernetes also support namespaces - this provides a level of resource isolation within a cluster.  We currently only use the "default" namespace to run applications, and the "kube-system" namespace to run Kubernetes services like DNS and cluster autoscaling.
+Kubernetes also supports namespaces - this provides a level of resource isolation within a cluster.  We currently only use the "default" namespace to run applications, and the "kube-system" namespace to run Kubernetes services like DNS and cluster autoscaling.
 
 __Example: get all pods in the staging cluster__
 
@@ -85,10 +85,10 @@ To diagnose application failures, navigate to the Kubernetes dashboard and searc
 search box at the top of the dashboard to filter all Kubernetes domain objects by application name. Once you have a
 view on your application's resources, look for any Pods in an "Error" or "CrashLoopBackoff" state, then _Delete_
 these pods by either using the three-dots "actions" menu to the right of the pod's CPU / Memory graphs, or click
-through to the Pod view and use the "Delete" menu with the trash can at the top of the page, or via the `kubectl` CLI: `kubectl delete {pod-name}`
+through to the Pod view and use the "Delete" menu with the trash can at the top of the page, or via the `kubectl` CLI: `kubectl delete {pod-name}`.
 
 Alternatively, you can (in the application's git checkout, assuming you have the Hokusai CLI installed) run the
-command `hokusai [staging|production] refresh`
+command `hokusai [staging|production] refresh`.
 
 #### When things go wrong (cluster level)
 
@@ -96,7 +96,7 @@ Kubernetes cluster nodes may experience issues with their underlying system (too
 
 To inspect a node, first find its FQDN, which is the private DNS name assigned by AWS EC2 autoscaling.
 
-To view all nodes for a given cluster, run `kubectl get nodes`.  Another useful command, if you wish to see pods along with the node on which they are scheduled / running is `kubectl get pods -o wide`
+To view all nodes for a given cluster, run `kubectl get nodes`.  Another useful command, if you wish to see pods along with the node on which they are scheduled / running is `kubectl get pods -o wide`.  Hokusai will call this command when invoking `hokusai [staging|production] status`.
 
 To ssh into an instance, first connect to the staging / production VPN then run `ssh -i ~/.artsyow.pem admin@{node-FQDN}`
 
@@ -104,16 +104,18 @@ Nodes run services using [systemd](https://wiki.debian.org/systemd).  Use `syste
 
 We pre-install useful packages for system level debugging in our base AMI for Kubernetes machines, so you have `htop` / `lsof` / `netstat` / `tcpdump` all available.  Another useful tool that aims to provide debugging for container environments is [`sysdig`](https://github.com/draios/sysdig/wiki/sysdig-user-guide) and its curses-interface [`csysdig`](https://github.com/draios/sysdig/wiki/Csysdig-Overview).  With it you can get stacktraces, inspect file allocations, network connections, etc while filtering on a specific process or container name.
 
-If a node is for any reason unable to schedule containers, serve traffic or unresponsive, it can safely be terminated - AWS autoscaling will replace the machine automatically with a new one and it will rejoin the cluster.  However, terminating a node that is running application pods may result in service disruption for that application if they are the _only_ pods that back that service.
+If a node is for any reason unable to schedule containers, serve traffic or unresponsive, it can safely be terminated - AWS autoscaling will replace the machine automatically with a new one and it will rejoin the cluster.  However, terminating a node that is running application pods may result in service disruption for that application if they are the _only_ pods that back that service.  Kubernetes attempts to spread Pods for a given Deployment exposed by a Service across multiple hosts to provide redundancy, but in certain cases Pods can end up scheduled on the same host.  Applications should make use of [antiAffinity scheduling rules](https://kubernetes.io/docs/concepts/configuration/assign-pod-node/) or [Pod disruption budgets](https://kubernetes.io/docs/tasks/run-application/configure-pdb/) to increase redundancy and failover.  Use the command `kubectl get pods --selector app={app-name} -o wide` or `hokusai [staging|production] status` to determine the hosts running pods for a given application.
 
 To evict all running pods from a node before terminating it, use the following procedure:
 
 1) Check all the pods running on the node with `kubectl get pods -o wide --all-namespaces | grep {node-FQDN}`
 
-2) If you are concerned that forcefully evicting any of those pods would result in service disruption, scale up the relevant deployments with `kubectl scale deployment/{deployment-name} --replicas {desired-replicas}`
+2) If you are concerned that forcefully evicting any of those pods would result in service disruption, temporarily scale up the relevant deployments with `kubectl scale deployment/{deployment-name} --replicas {desired-replicas}`.  Further config updates to the application will override this from the application's Yaml spec.
 
-3) Drain the node, evicting all running pods with `kubectl drain {node-FQDN} --force --ignore-daemonsets`
+3) Drain the node, evicting all running pods with `kubectl drain {node-FQDN} --force --ignore-daemonsets`.
 
 4) Once the node is drained, terminate it via the AWS CLI or Dashboard.
 
 5) Wait for autoscaling to automatically launch a new instance in place of the terminated one.
+
+The command `./manage.py rotate_cluster_nodes` [in the Substance repo](https://github.com/artsy/substance#rotate-cluster-nodes-drain-termainate-existing-nodes-and-relace-with-new-ones) automates this procedure.
