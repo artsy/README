@@ -5,7 +5,7 @@
 
 - [Process Overview](#process-overview)
 - [On-Call Responsibilities](#on-call-responsibilities)
-- [Responding to an incident](#responding-to-an-incident) ‼
+- [Responding to an incident](#responding-to-an-incident) ❗️
 - [Severity of Incidents](#severity-of-incidents)
 - [Best practices](#best-practices)
 - [Handing-off to a new shift](#handing-off-to-a-new-shift)

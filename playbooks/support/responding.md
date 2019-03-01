@@ -26,6 +26,9 @@ respond to these issues.
    - Take your best guess at the other information, it can always be edited later.
 
 2. Using the slack integration on the Jira Ops ticket, create a new slack channel to discuss resolution.
+
+   _Jira integrations are known to be flakey. If you have trouble getting the integration to work, simply create a channel named `#incident-N` (where `N` corresponds to the Jira Ops ticket) and link to it from the ticket._
+
 3. In the original slack thread in #incidents, put a link to the incident that was created and _direct engineers to
    the newly created slack channel for discussing its resolution_.
 
@@ -77,6 +80,8 @@ One of the on-call members handles internal and external communication for the i
 - Any incident with public impact should be communicated externally via the status page. Communication does not
   have to be detailed. The most important thing is acknowledging issues and communicating progress towards a
   resolution. Use the status page integration on the Jira Ops ticket for posting updates and resolutions.
+
+  _Jira integrations are known to be flakey. If you have trouble getting the integration to work, simply visit [Statuspage](https://statuspage.io), create an incident manually, and link to it from the ticket._
 
 ## Step 5: Resolve
 
