@@ -11,7 +11,7 @@ General Assembly in 2010 and remained a tradition ever since.
 
 We run happy hours once a month on the first Friday of every month except in the summer, when it is a Thursday.
 
-Happy Hour is held inside our offices, on a weekly basis. We strive to make them full of interesting people across the
+Happy Hour is held inside our office. We strive to make them full of interesting people across the
 tech & arts spectrum. Other than friends we tend to invite great candidates that we might not be currently interviewing, but
 maybe will consider in the future, or that we believe could use some help networking with fellow engineers.
 
