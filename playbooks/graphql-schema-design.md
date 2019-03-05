@@ -14,6 +14,14 @@ description: What are our best practices for GraphQL Schema Design?
 - As with most GraphQL advice, our schema should strive to always be backwards compatible. Thus careful
   consideration is needed about naming (be as unambiguous as possible) and the shape of the data returned by a
   field.
+  
+- New fields should use `camelCase` for their name. The reasons for this are:
+  * Most importantly, a lot of legacy fields do not follow what we now consider best conventions and, as we must keep
+    the schema backwards compatible, we cannot update these fields to follow current best conventions. As such, using
+    `camelCase` for new fields gives us this opportunity.
+  * JSON is more closely related to JavaScript than any other language. In [our] JavaScript `camelCase` is idiomatic.
+  * It’s what the [GraphQL specification](http://facebook.github.io/graphql/draft/) uses.
+  * It results in JSON that matches the [Google JSON style-guide][google-json-style-guide].
 
 - Whenever a ‘namespace’ would be used in a field by adding a prefix or suffix (e.g. `for_sale_artwork` or
   `location_city`), this should be taken as a clue that this data needs to be nested instead. E.g.
@@ -330,3 +338,5 @@ type Mutation {
 _Note:_ You don't have to structure the data in your database like this. The difference in the resolvers for
 `submitted` and `drafts` could be a lookup for a `state` field on an object being "submitted". The key concept is
 that you can declare something as being after data validation has occurred.
+
+[google-json-style-guide]: https://google.github.io/styleguide/jsoncstyleguide.xml?showone=Property_Name_Format#Property_Name_Format
