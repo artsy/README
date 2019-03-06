@@ -1,6 +1,6 @@
 # Responding to an incident
 
-## Step 1: Alert
+## Step 1: Monitor
 
 Incidents can be raised by automated or manual means. While on-call, you are responsible for being available to
 respond to these issues.
@@ -11,10 +11,6 @@ respond to these issues.
   These automated system alerts _may_ be the first sign of a problem but don't _necessarily_ warrant treatment as
   immediate incidents. E.g., load-balancers may route around failing EC2 instances or auto-scaling may bring up
   capacity in response to load.
-- If the issue is obviously a non-incident, take the time to educate the reporter on the desired process (see the
-  [examples](#examples) below). You may point them to the
-  [Guide to Reporting Bugs](https://www.notion.so/artsy/Guide-to-reporting-bugs-cc25e1ff41194228b476c4963c646817)
-  doc in Notion which describes this in a general way.
 
 ## Step 2: Raise
 
@@ -46,10 +42,15 @@ respond to these issues.
    - Is this a new problem or something that we are aware of?
 
 3. If the reported incident does not qualify for an immediate response:
+   - Take the time to educate the reporter on the desired process (see the
+  [examples](#examples) below). You may point them to the
+  [Guide to Reporting Bugs](https://www.notion.so/artsy/Guide-to-reporting-bugs-cc25e1ff41194228b476c4963c646817)
+  doc in Notion which describes this in a general way.
    - Direct stakeholders in the slack thread to a product team’s channel to ensure that a Jira Issue is tracked for
      this possible issue
    - Link the Jira Ops ticket to any relevant bugs that are tracked (and create an additional one if necessary)
    - Mark the ticket as **CANCELED**
+   
 
 ## Step 4: Address Incident
 
