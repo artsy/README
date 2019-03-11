@@ -48,7 +48,7 @@ _Props_
 
 -
 
-_CTO Update_
+_Company Updates (CTO/VP)_
 
 -
 
