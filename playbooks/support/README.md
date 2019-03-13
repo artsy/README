@@ -37,7 +37,7 @@ sprints. See [below](#examples) for some common examples.
 
 ## Wait!
 
-If you are new to on-call or looking for a refresher, we recommend watching the [on-call onboarding session](https://www.dropbox.com/home/Artsy%20Engineering/Onboarding/On-Call) 🔒 we ran on 3/8/19 which talks through your responsibilities as an on-call engineer.
+If you are new to on-call or looking for a refresher, we recommend watching the [on-call onboarding session](https://www.dropbox.com/home/Artsy%20Engineering/Onboarding/On-Call) 🔒 we ran on March 8, 2019 which talks through your responsibilities as an on-call engineer.
 
 ## Process Overview
 
