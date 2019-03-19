@@ -1,5 +1,5 @@
 ---
-name: RFC
+name: Dependency RFC
 about: Sample template for a dependency RFC
 ---
 
