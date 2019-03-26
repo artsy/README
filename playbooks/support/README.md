@@ -5,7 +5,7 @@
 
 - [Process Overview](#process-overview)
 - [On-Call Responsibilities](#on-call-responsibilities)
-- [Responding to an incident](#responding-to-an-incident) ❗️
+- [Responding to an incident](#responding-to-an-incident)
 - [Severity of Incidents](#severity-of-incidents)
 - [Best practices](#best-practices)
 - [Handing-off to a new shift](#handing-off-to-a-new-shift)
@@ -16,6 +16,7 @@
   - [Artsy domain information](#artsy-domain-information)
   - [External links](#external-links)
 - [Special cases](#special-cases)
+  - [Trading shifts](#trading-shifts)
   - [Team members who leave](#team-members-who-leave)
   - [Holidays](#holidays)
 - [Examples](#examples)
@@ -126,7 +127,9 @@ You can find the point people in the [Potential Wiki](https://github.com/artsy/p
 
 ### Trading shifts
 
-If you run into a scheduling conflict for your shift, please trade shifts as early as possible. Find someone to swap with and update both parties' events in the [Engineering On-Call calendar](https://calendar.google.com/calendar/embed?src=artsymail.com_nolej2muchgbpne9etkf7qfet8%40group.calendar.google.com&ctz=America%2FNew_York).
+If you run into a scheduling conflict for your shift, please trade shifts as early as possible. Find someone to
+swap with and update both parties' events in the
+[Engineering On-Call calendar](https://calendar.google.com/calendar/embed?src=artsymail.com_nolej2muchgbpne9etkf7qfet8%40group.calendar.google.com&ctz=America%2FNew_York).
 
 ### Team members who leave
 
