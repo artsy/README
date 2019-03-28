@@ -97,7 +97,7 @@ If possible, please use one of these for the Level of Support section:
 - `7: RFC Rejected, with Conflicting Feedback.`
 
 Resolving an RFC requires you to have some nuance about the feedback. If it seems to be unresolved, or still active
-a week later then calling a town hall style meeting for people involved will probably shake out some come kind of
+a week later, then calling a town hall style meeting for people involved will probably shake out some kind of
 resolution.
 
 [potential]: https://github.com/artsy/potential/
