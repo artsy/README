@@ -42,7 +42,7 @@ most of our projects don’t get large enough for their stewardship to become bu
 
 - Examples:
 
-  - [artsy/meta][meta]
+  - [artsy/README][readme]
   - [artsy/force][force]
   - [artsy/eigen][eigen]
   - [artsy/emission][em]
@@ -148,7 +148,7 @@ success on automation via documentation for recurring meetings.
   - [Peril](https://github.com/danger/peril#README)
   - [RFC Process](/playbooks/rfcs.md)
   - [Retrospectives](/playbooks/retrospectives.md)
-  - [artsy/meta](https://github.com/artsy/meta)
+  - [artsy/README][readme]
 
 - Further Reading
 
@@ -177,7 +177,7 @@ The small improvements eventually add up so that you can do industry-impact work
   - [JavaScriptures](https://artsy.github.io/series/javascriptures/)
   - [Learn Swift at Artsy](https://artsy.github.io/series/swift-at-artsy/)
   - [The Artsy Engineering Blog](https://artsy.github.io/)
-  - [artsy/meta][meta]
+  - [artsy/README][readme]
   - [Peer Labs](https://peerlab.community)
   - [Artsy Engineering Compensation Framework](https://artsy.github.io/blog/2015/04/03/artsy-engineering-compensation-framework/)
 
@@ -228,7 +228,7 @@ project. It's done.
 
 [em]: https://github.com/artsy/emission/
 [rn]: https://github.com/artsy/reaction
-[meta]: https://github.com/artsy/meta
+[readme]: https://github.com/artsy/README
 [force]: https://github.com/artsy/force
 [eigen]: https://github.com/artsy/eigen
 [mp]: https://github.com/artsy/metaphysics
