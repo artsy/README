@@ -50,7 +50,7 @@ respond to these issues.
      this possible issue
    - Link the Jira Ops ticket to any relevant bugs that are tracked (and create an additional one if necessary)
    - Mark the ticket as **CANCELED**
-   
+
 
 ## Step 4: Address Incident
 

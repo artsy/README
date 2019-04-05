@@ -3,6 +3,7 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Wait!](#wait)
 - [Process Overview](#process-overview)
 - [On-Call Responsibilities](#on-call-responsibilities)
 - [Responding to an incident](#responding-to-an-incident)
@@ -38,7 +39,9 @@ sprints. See [below](#examples) for some common examples.
 
 ## Wait!
 
-If you are new to on-call or looking for a refresher, we recommend watching the [on-call onboarding session](https://www.dropbox.com/home/Artsy%20Engineering/Onboarding/On-Call) 🔒 we ran on March 8, 2019 which talks through your responsibilities as an on-call engineer.
+If you are new to on-call or looking for a refresher, we recommend watching the
+[on-call onboarding session](https://www.dropbox.com/home/Artsy%20Engineering/Onboarding/On-Call) 🔒 we ran on
+March 8, 2019 which talks through your responsibilities as an on-call engineer.
 
 ## Process Overview
 
@@ -66,7 +69,8 @@ participating in ongoing sprint and team activities.
 
 While we would _like_ to have 24/7 on-call coverage, we recognize that we don't yet have a good solution for
 notifying engineers during non-work hours. Do your best to keep an eye out for issues, and lean on those in more
-favorable timezones where appropriate.
+favorable timezones where appropriate. See our [On-Call SLO document](on-call-slo.md) for a detailed description of
+the coverage we currently promise.
 
 ## Responding to an incident
 
