@@ -79,8 +79,7 @@ One of the on-call members handles internal and external communication for the i
 - Meaningful updates, discoveries, or milestones (e.g. changes in availability or resolution) are added to the Jira
   Ops ticket by the assignee.
 - Any incident with public impact should be communicated externally via the status page. Communication does not
-  have to be detailed. The most important thing is acknowledging issues and communicating progress towards a
-  resolution. Use the status page integration on the Jira Ops ticket for posting updates and resolutions.
+  have to be detailed (Not every stage of the incident necessarily need to be communicated on status page). Remember that this page is targeted to a public audience(i.e., users and partners) of Artsy products. Some might be subscribed to receive updates on every communication here. Use your judgement based on severity and duration of the incident. The most important thing is acknowledging the issue, specifying the services affected and communicating key updates and resolutions. Use the status page integration on the Jira Ops ticket for updating Status page.
 
   _Jira integrations are known to be flakey. If you have trouble getting the integration to work, simply visit [Statuspage](https://statuspage.io), create an incident manually, and link to it from the ticket._
 
