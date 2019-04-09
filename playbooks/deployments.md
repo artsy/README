@@ -26,6 +26,8 @@ description: How systems are deployed at Artsy
 
 _\*Not all of these goals are routinely achieved._
 
+_[Jump ahead to **recommendations**.](#recommendations)_
+
 ## Current state
 
 - A few different approaches, largely historical or based on local teams' preferences.
@@ -101,9 +103,16 @@ branch after the staging deploy is complete and PR from that branch.
   - Release PRs can usually be created from a URL like `<github project URL>/compare/release...staging?expand=1`.
   - See [Reflection's .circleci/config.yml](https://github.com/artsy/reflection/blob/master/.circleci/config.yml)
     as an example of a full set-up for staging and production deploys.
-  - Note that this requires
-    [configuring a read+write key for CircleCI](https://circleci.com/docs/2.0/gh-bb-integration/#creating-a-github-user-key)
-    rather than the default read-only key.
+  - Note that this requires creating a _read+write Github key_ for CircleCI (rather than the default read-only) as
+    follows:
+    - Generate a key with a helpful label: `ssh-keygen -t rsa -b 4096 -C "github_rw_key_for_circle"` (provide a
+      blank passphrase).
+    - Log into Github as the `artsyit` user and, in the project's settings, go to _Deploy keys_ > _Add deploy key_.
+      Give the key a descriptive name (like the label above) and paste in the contents of the public key file.
+    - Check the _Allow write access_ box and click the _Add key_ button to save the new key.
+    - In the CircleCI project settings, go to _SSH Permissions_ > _Add SSH Key_.
+    - Enter `github.com` for _Hostname_ and the contents of the private key file for _Private Key_, then click _Add
+      SSH Key_ to save.
   - Since a `hokusai pipeline promote` promotes the image currently in use by staging at the time of the command,
     it's possible that doesn't match what was merged into the `release` branch by the PR. In the future, we'd like
     to avoid this race condition with an argument to `hokusai pipeline promote`, possibly like
