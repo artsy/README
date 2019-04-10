@@ -28,7 +28,8 @@ that some tools serve only a few individuals or use cases.
 ### Level 0 (_unsupported_):
 
 Retired systems, spikes, or time-bound experiments that aren't significantly used. There shouldn't ever be many of
-these systems, and they aren't expected to satisfy the objectives below.
+these systems, nor should product managers have to consider them. They aren't expected to satisfy the objectives
+below.
 
 ## System expectations (DRAFT)
 
