@@ -69,7 +69,8 @@ participating in ongoing sprint and team activities.
 
 While we would _like_ to have 24/7 on-call coverage, we recognize that we don't yet have a good solution for
 notifying engineers during non-work hours. Do your best to keep an eye out for issues, and lean on those in more
-favorable timezones where appropriate.
+favorable timezones where appropriate. See our [On-Call SLO document](on-call-slo.md) for a detailed description of
+the coverage we currently promise.
 
 ## Responding to an incident
 
