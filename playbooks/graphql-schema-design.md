@@ -3,6 +3,18 @@ title: GraphQL Schema Design
 description: What are our best practices for GraphQL Schema Design?
 ---
 
+Table of contents:
+
+* [How to model our graph](#how-to-model-our-graph)
+* [Root fields](#root-fields)
+* [Connections over Lists](#connections-over-lists)
+* [ID fields](#id-fields)
+* [Global Object Identification](#global-object-identification)
+* [Schema stitching](#schema-stitching)
+* [Unions instead of Merging Responsibilities](#unions-instead-of-merging-responsibilities)
+* [Mutation Responses as Unions](#mutation-responses-as-unions)
+* [Partial Types over nullability](#partial-types-over-nullability)
+
 ## Notes
 
 - GraphQL exposes a data set as [a graph](https://en.wikipedia.org/wiki/Graph_theory). See
@@ -14,7 +26,7 @@ description: What are our best practices for GraphQL Schema Design?
 - As with most GraphQL advice, our schema should strive to always be backwards compatible. Thus careful
   consideration is needed about naming (be as unambiguous as possible) and the shape of the data returned by a
   field.
-  
+
 - New fields should use `camelCase` for their name. The reasons for this are:
   * Most importantly, a lot of legacy fields do not follow what we now consider best conventions and, as we must keep
     the schema backwards compatible, we cannot update these fields to follow current best conventions. As such, using
@@ -122,6 +134,28 @@ e.g. an `artworks` field _and_ an `artworks_connection`, simply choose one form 
 
 - In rare cases an immediate list may be used, but this should only be done in cases where the list has few entries
   and doesn’t require pagination, i.e. fetch _all_ entries at once.
+
+## ID fields
+
+An ID field that refers to e.g. a database ID should be called something like `internalID`, it MUST _never_ be called
+just `id`, as that name is reserved for ‘Global Object Identification’ (further explained in the next section).
+
+Its type should be `ID!`, which is a custom string scalar meant to convey that the value is an identifier and is not
+nullable, as database IDs never are `null`.
+
+## Global Object Identification
+
+All GraphQL services should follow the [Global Object Identification specification](https://facebook.github.io/relay/graphql/objectidentification.htm). Due to schema stitching, for their IDs services should encode their own service ID for metaphysics to be able to resolve a node ID back to its upstream service.
+
+For instance, Exchange should encode an Order with ID 42 as follows:
+
+```
+Base64("exchange:Order:42")
+```
+
+In the example, metaphysics only really cares about the first component, which MUST be a `lower-case` version of the
+service’s name. What metaphysics will do for its `node` root-field is match to match on that first component to know
+that it should send that query on to Exchange’s `node` root-field.
 
 ## Schema stitching
 
