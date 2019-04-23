@@ -50,6 +50,10 @@ of the code they write and systems they maintain is expected to increase.
 
 From one level to another, the scope of direct impact gradually increases and so does the sphere of influence. Increased
 mastery is also a necessary condition but it's not sufficient to expend impact.
+```
+Scope of impact:   Self   >   Team   > Teams > Org
+Level          : IC0, IC1 > IC2, IC3 >  IC4  > IC5
+```
 
 ### IC0 Intern
 
@@ -106,6 +110,7 @@ mastery is also a necessary condition but it's not sufficient to expend impact.
 #### Influence
 - Self-sufficient and makes steady progress on tasks.
 - Knows when to ask for help and how to get unblocked.
+- Effectively partners with other engineers.
 - Provides help and support outside of area under their responsibility.
 - Participates in the interviewing process of new team members.
 
@@ -123,16 +128,20 @@ mastery is also a necessary condition but it's not sufficient to expend impact.
 - Owns a service or large technology component.
 
 #### Impact
-- Helps the team deliver on its goals with impact.
+- Delivers significant business value at team level.
+- Helps the team deliver on its overall goals.
+- Can drive specific initiatives.
 
 #### Influence
 - Persistent in the face of roadblocks, dispatches them efficiently, pulling in others as necessary.
 - Has end-to-end responsibility on projects of increasing complexity and contributes to code that is shared across projects.
+- Effectively partners with team's cross-functional partners (including PM, Designer, Data Analyst).
 - Mentors junior engineers.
 
 #### Discretion
 - Requires minimal direction or oversight, delivers quickly.
 - Understands elements of the business that their work supports.
+- Demonstrates fluency with team KPIs and key drivers of these KPIs.
 - Demonstrates knowledge of industry trends, infrastructure and systems.
 
 ### IC4 Staff Engineer
