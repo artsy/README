@@ -6,8 +6,8 @@ The purpose of the working agreement is to ensure the team shares responsibility
 
 ### Overview
 
-* This process uncovers the existing norms, both positive and negative, that impact team functioning.
 * The goal of a team working agreement is to reinforce positive behaviors while helping our team overcome dysfunctional ones.
+* This process uncovers the existing norms, both positive and negative, that impact team functioning.
 * A great set of questions to ask is:
   * What expectations do team members have of each other?
   * What is working well within our team?
@@ -21,7 +21,7 @@ The purpose of the working agreement is to ensure the team shares responsibility
   * Have forums to discuss tough issues.
   * Cooperate rather than compete with team members.
 * Regularly update the social contract to improve effectiveness.
-* Establish up-front how members will handle violations and how we will hold each other accountable for the social contract.
+* Establish up-front how members will hold each other accountable for the social contract.
 
 ### Procedure
 
@@ -35,13 +35,13 @@ The purpose of the working agreement is to ensure the team shares responsibility
 * Have each team member write down things that are most important to "maximize their capabilities to deliver faster and with higher quality."
   * It’s important to encourage at least 2 items from each team member.
 * Suggest some high level topics such as:
-  * Time and location of Daily Scrum
-  * Testing strategy (unit, functional, integration, performance, stress, etc…)
+  * Time and location of daily standup
+  * Testing strategy (unit, functional, integration, performance, stress, etc.)
   * Build and infrastructure plans (shared responsibilities)
-  * Team norms (be on time, respect estimates, help when needed, etc…)
-  * How to address bugs/fires during Sprint
-  * Product Manager availability (phone, office hours, attendance in Daily Scrum)
-  * Expectations of each role and how they will work together at each phase of the SDLC
+  * Team norms (be on time, respect estimates, help when needed, etc.)
+  * How to address bugs/fires during sprint
+  * Product manager availability (phone, office hours, attendance in daily standup)
+  * Expectations of each role and how they will work together at each phase of the software development life-cycle
 
 #### 3. Generate insights (15 mins)
 
@@ -57,7 +57,7 @@ The purpose of the working agreement is to ensure the team shares responsibility
 
 #### 5. Close (5 mins)
 
-* Make sure someone has taken ownership of documenting the Working Agreement and placing it near your Scrum Board or in your Wiki, Confluence Space or Google Docs.
+* Make sure someone has taken ownership of documenting the working agreement and giving it visibility.
 * Gather feedback from the team on the usefulness/effectiveness of this format for future usage.
 
 ### Sample meeting agenda
@@ -70,16 +70,16 @@ The purpose of the working agreement is to ensure the team shares responsibility
 1. Establish the top 5 habits as the team working agreement.
 1. Revisit the work agreement during each retro for additions/changes.
 
-## Sample team disciplines (habits)
+## Sample team habits
 
-* Any change to the Sprint Backlog requires Product Manager approval.
-* Always adhere to the Definition of Done criteria for User Stories.
-* Update the Backlog before each day’s Standup.
-* Keep cell phones away during every Agile Event.
+* Any change to the sprint backlog requires product manager approval.
+* Always adhere to the Definition of Done criteria for user stories.
+* Update the backlog before each day’s standup.
+* Keep cell phones and laptops away during every sprint meeting.
 * Don’t commit to unknown stories.
 * Documentation for critical tasks.
 * Identify dependencies.
-* Use the Impediment Backlog (or swimlane) for blocked issues.
+* Use an impediment backlog for blocked issues.
 * Adhere to code documentation standards.
 * Respect your team member’s time.
 * Don't be afraid to ask for help.
@@ -88,10 +88,8 @@ The purpose of the working agreement is to ensure the team shares responsibility
 * Communicate individual schedules.
 
 ## References
-1. https://tech.gsa.gov/guides/agile_team_working_agreement/
-2. https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development
-3. https://hbr.org/2012/04/to-ensure-great-teamwork-start
-4. https://medium.com/tech-travelstart/an-exercise-for-creating-a-team-working-agreement-8672c0bf862c
-5. https://www.arrkgroup.com/thought-leadership/work-agreements-for-a-scrum-team/
-6. https://www.clearlyagileinc.com/agile-blog/how-working-agreements-help-scrum-teams
-7. https://www.arrkgroup.com/thought-leadership/work-agreements-for-a-scrum-team/
+1. GSA Tech Guides. _Establishing an Agile Team Working Agreement_. Retrieved from https://tech.gsa.gov/guides/agile_team_working_agreement/
+2. Riordan C. M., & O'Brien K. (2012, April 17). _For Great Teamwork, Start with a Social Contract_. Retrieved from URL https://hbr.org/2012/04/to-ensure-great-teamwork-start
+3. Williams, B. (2018, April 6). _An exercise for creating a team Working Agreement_. Retrieved from https://medium.com/tech-travelstart/an-exercise-for-creating-a-team-working-agreement-8672c0bf862c
+4. Arrk Group. _Work Agreements for a Scrum Team_. Retrieved from https://www.arrkgroup.com/thought-leadership/work-agreements-for-a-scrum-team/
+5. Chapman Z. (2019, October 28). _How Working Agreements Help Scrum Teams_. Retrieved from https://www.clearlyagileinc.com/agile-blog/how-working-agreements-help-scrum-teams
