@@ -78,7 +78,7 @@ architecture.
 
 ## Schedule
 
-- Arrive at Artsy for 12:15am (we're [401 Broadway, 26th Floor, 10013][401] - Canal St is the closest station)
+- Arrive at Artsy for 12:15pm (we're [401 Broadway, 26th Floor, 10013][401] - Canal St is the closest station)
 - Our receptionist on 26 will get in touch with whoever you've been in contact with, probably [Orta][] or [Ash][]
 - They will get you set up on our 27th floor Classroom
 - We will set up [a stream](#recording) for global developers and slides
