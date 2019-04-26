@@ -74,8 +74,9 @@ address.
 
 ### Afterward
 
-Right after the talk, ask the speaker for their slides. Then take the speaker and a few folks out to lunch. Tataki
-is never a bad choice. Make sure to expense this meal.
+Right after the talk, ask the speaker for their slides. Check to make sure it's okay for us to thank them on
+Twitter. Then take the speaker and a few folks out to lunch. Tataki is never a bad choice. Make sure to expense
+this meal.
 
 Later, Zoom.us will email you the video recording. Upload the video and the slides to the Artsy Engineering Dropbox
 folder and post a link to Slack. Send a pull request to the [Lunch and Learn docs][lal] that adds the speaker to
@@ -84,6 +85,9 @@ them a talk now.
 
 If the talk was given by an Artsy colleague, ask them if it would be appropriate to upload to YouTube for public
 viewing. Maybe even a quick [blog post][blog].
+
+If the talk was given by someone outside Artsy, log into the [@ArtsyOpenSource twitter account][twitter]
+(credentials are in 1Password) to post a tweet thanking them (as long as it's okay with them).
 
 Move the card to the "Done" column. Nice work!
 
@@ -120,3 +124,4 @@ Move the card to the "Done" column. Nice work!
 [blog]: https://github.com/artsy/artsy.github.io
 [project]: https://github.com/artsy/README/projects/1
 [event]: ../events/lunch-and-learn.md
+[twitter]: https://twitter.com/ArtsyOpenSource
