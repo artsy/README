@@ -29,7 +29,9 @@ onboarding. We emphatically do not underestimate it, this is _real_ work!
 
 _Remember to review *all* setup scripts before executing them :)_
 
-- [ ] [Enable two-factor authentication on your GitHub account](https://help.github.com/articles/securing-your-account-with-two-factor-authentication-2fa/) _You'll need this enabled to join the Artsy GitHub org. You can use [1Password as an authenticator](https://support.1password.com/one-time-passwords/) for 2fa._
+- [ ] [Enable two-factor authentication on your GitHub account](https://help.github.com/articles/securing-your-account-with-two-factor-authentication-2fa/)
+      _You'll need this enabled to join the Artsy GitHub org. You can use
+      [1Password as an authenticator](https://support.1password.com/one-time-passwords/) for 2fa._
 - [ ] Get invited to the Artsy GitHub org _Ask your mentor or another engineer for help, or log into GitHub using
       the it@artsymail.com account in 1Password and add yourself._
 - [ ] Set up your general dev environment (download your favorite text editor, terminal application, etc.) _If you
@@ -63,6 +65,7 @@ _Remember to review *all* setup scripts before executing them :)_
 - [ ] Make a PR to an Artsy repo.
 - [ ] Ask an engineer for help getting set up with an AWS account. They can find instructions on creating your
       account [here](https://github.com/artsy/potential/wiki/Platform-FAQ#add-a-new-aws-user).
+- [ ] Update your Slack profile with new personal info such as Github and AWS usernames.
 - [ ] Follow the instructions in https://github.com/artsy/hokusai to get set up with hokusai.
 - [ ] Successfully open a gravity staging and production console
 
@@ -79,15 +82,22 @@ _Remember to review *all* setup scripts before executing them :)_
       your `@artsymail.com` account) and click around without fear. Visit each of the top-nav pages. Bid in an
       auction. Make an inquiry. _Ask your mentor or others for help with any of these concepts. Have them show you
       CMS and some internal apps, like Ohm or Torque._
-- [ ] Read through the following (and anything else you find interesting) from [artsy/README](https://github.com/artsy/README):
-  - [ ] Besides [Artsy’s base values](https://github.com/artsy/README/blob/master/culture/what-is-artsy.md#artsy-values), the engineering team has its own additional [set of principles](https://github.com/artsy/README/blob/master/culture/engineering-principles.md). Check 'em both out!
+- [ ] Read through the following (and anything else you find interesting) from
+      [artsy/README](https://github.com/artsy/README):
+  - [ ] Besides
+        [Artsy’s base values](https://github.com/artsy/README/blob/master/culture/what-is-artsy.md#artsy-values),
+        the engineering team has its own additional
+        [set of principles](https://github.com/artsy/README/blob/master/culture/engineering-principles.md). Check
+        'em both out!
   - [ ] Scan our list of preferred technologies. Dig in where necessary.
     - [ ] [Front-end technologies](https://github.com/artsy/README/blob/master/practices/front-end.md)
     - [ ] [Front-end iOS technologies](https://github.com/artsy/README/blob/master/practices/front-end-ios.md)
     - [ ] [Back-end/Platform technologies](https://github.com/artsy/README/blob/master/practices/platform.md)
   - [ ] [Best of Our Blog](https://github.com/artsy/README/blob/master/resources/blog.md)
   - [ ] [Internal and external tech learning resources](https://github.com/artsy/README/blob/master/resources/tech-learning.md)
-  - [ ] Check out the [Engineer Workflow](https://github.com/artsy/README/blob/master/playbooks/engineer-workflow.md) for info on how we use project management software and GitHub, among other things
+  - [ ] Check out the
+        [Engineer Workflow](https://github.com/artsy/README/blob/master/playbooks/engineer-workflow.md) for info on
+        how we use project management software and GitHub, among other things
   - [ ] Watch some of our [Lunch & Learns](https://github.com/artsy/README/blob/master/resources/lnl.md)
 - [ ] Learn how code goes from your local machine --> production. _Talk to your mentor. Have them explain the
       Gravity, Metaphysics, and/or Force/Reaction deployment process. Read about our
