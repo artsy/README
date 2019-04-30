@@ -33,10 +33,13 @@ The person handling the talking parts does this stuff ten minutes before standup
 - Then we get an update about what the practices are currently thinking about
 - Then an update from last week's on-call support team, including follow-up work items
 - We leave a spot for potential cross-team issues
-- We list any open RFCs (see #dev channel in Slack, they get posted every Monday morning)
+- We list any open RFCs (see Peril's Monday morning post in the #dev Slack channel or [here on
+  GitHub][open-rfcs-github])
 - We have a Milestones spot to talk about things people are proud of
 - We then either announce [the Lunch & Learn][ll], or try find one for the week
 - Anyone is free to give closing announcements, or props!
+
+[open-rfcs-github]: https://github.com/issues?utf8=%E2%9C%93&q=org%3Aartsy+label%3ARFC+state%3Aopen
 
 These notes are then copied into a [Notion][] document, and the link passed into #dev on Slack after standup.
 Everyone else leaves links to things they have commented on during the meeting, if they don't, we chase them up.
@@ -62,10 +65,9 @@ _Hiring Updates_
 
 _Practice Updates_
 
-- Front-End: 
-- Front-End iOS: 
-- Platform: 
-
+- Front-End:
+- Front-End iOS:
+- Platform:
 
 _On-call Support Updates_
 
