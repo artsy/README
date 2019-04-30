@@ -79,11 +79,36 @@ Once again, the title should concisely explain the change or addition. The descr
 - Finally, any pre- or post-deploy migration steps should be clearly explained (see
   [migrations](data-migrations.md)).
 
-_Assign_ another team member to the PR. All team members are encouraged to contribute, but that team member has the
-explicit responsibility to carefully review, consider any unanticipated impact, monitor discussion, and ultimately
-merge or close the PR. You may also want to add reviewers to request other developers' specific input.
+**_Request a review_** from at least one team member. This should be someone who has context around the changes
+that were made, experience with the system(s) being modified, and/or knowledge of the language/framework in use.
+Team members that are not explicitly assigned to a PR are encouraged to contribute as well, but reviewers have the
+explicit responsibility to help make sure the code is elegant, understandable, and will not have unforseen impacts.
 
-Who should you assign? You can ask yourself the following questions as a rubric:
+If you want to let someone know the PR is happening without requesting their review, just @ them in the body of the
+PR.
+
+Reviewers are asked to leave their review within one business day of being requested. If that's not possible for
+any reason, it's the reviewer's responsibility to communicate with the author of the PR to establish a different
+timeline or get someone else to review.
+
+**_Assign_** another team member (and only _one_ team member) to the PR. This is the person who is responsible for
+moving the PR forward. Once someone has been assigned to a PR, they should make a good faith effort to take one of
+the following actions within one business day:
+
+- Merge the PR if comfortable doing so and the criteria below are met,
+- Re-assign to the original author so that they can merge, or
+- Request additional review from other developers
+
+These criteria should be fulfilled before a PR is merged:
+
+- All CI status checks should be green
+- Peril/Danger status checks should be green
+- At least one review _approval_ should have been submitted
+
+Since assignees are not explicitly expected to review, it's perfectly fine to both assign and request a review from
+the same person.
+
+**_Who should you assign and ask to review?_** You can ask yourself the following questions as a rubric:
 
 - Do I know who this PR affects and/or someone familiar with the codebase? Assign them.
 - Does the project have point persons listed in the README? Assign one of them.
@@ -114,6 +139,7 @@ Further reading:
   [artsy/gravity#9557](https://github.com/artsy/gravity/pull/9557) 🔒
 - [On empathy and pull requests](https://slack.engineering/on-empathy-pull-requests-979e4257d158)
 - [Rules of communicating at GitHub](https://ben.balter.com/2014/11/06/rules-of-communicating-at-github/)
+- [RFC on defining PR roles at Artsy](https://github.com/artsy/README/issues/177)
 
 ### Testing
 
