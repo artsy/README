@@ -82,7 +82,7 @@ Once again, the title should concisely explain the change or addition. The descr
 **_Request a review_** from at least one team member. This should be someone who has context around the changes
 that were made, experience with the system(s) being modified, and/or knowledge of the language/framework in use.
 Team members that are not explicitly assigned to a PR are encouraged to contribute as well, but reviewers have the
-explicit responsibility to help make sure the code is elegant, understandable, and will not have unforseen impacts.
+explicit responsibility to read the code in question and provide commentary or feedback on it.
 
 If you want to let someone know the PR is happening without requesting their review, just @ them in the body of the
 PR.
@@ -91,9 +91,13 @@ Reviewers are asked to leave their review within one business day of being reque
 any reason, it's the reviewer's responsibility to communicate with the author of the PR to establish a different
 timeline or get someone else to review.
 
-**_Assign_** another team member (and only _one_ team member) to the PR. This is the person who is responsible for
-moving the PR forward. Once someone has been assigned to a PR, they should make a good faith effort to take one of
-the following actions within one business day:
+**_Assign_** a single team member (they will often also be one of your reviewers) to the PR. This is the person who
+is responsible for moving the PR forward.
+
+Assigning exactly one reviewer - no more and no less - helps ensure that there's no question about who is
+responsible. Since assignees are not explicitly expected to review, it's perfectly fine to both assign and request
+a review from the same person. Once someone has been assigned to a PR, they should make a good faith effort to take
+one of the following actions within one business day:
 
 - Merge the PR if comfortable doing so and the criteria below are met,
 - Re-assign to the original author so that they can merge, or
@@ -104,9 +108,6 @@ These criteria should be fulfilled before a PR is merged:
 - All CI status checks should be green
 - Peril/Danger status checks should be green
 - At least one review _approval_ should have been submitted
-
-Since assignees are not explicitly expected to review, it's perfectly fine to both assign and request a review from
-the same person.
 
 **_Who should you assign and ask to review?_** You can ask yourself the following questions as a rubric:
 
