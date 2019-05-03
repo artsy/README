@@ -26,8 +26,10 @@ technology into the Artsy platform:
 - **Deprecated** technologies may remain in production but should be replaced [by _adopted_ choices]
   opportunistically.
 
-(This framework is similar to the Hold/Assess/Trial/Adopt framework popularized by the
-[ThoughtWorks technology radar](https://www.google.com/search?q=technology+radar&tbm=isch).)
+This framework is similar to the Hold/Assess/Trial/Adopt framework popularized by the
+[ThoughtWorks technology radar](https://www.thoughtworks.com/radar/faq). A draft technology radar that's specific
+to Artsy can be edited in [technology_radar/data.csv](/playbooks/technology_radar/data.csv) and viewed
+[here](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fartsy%2Freadme%2Fmaster%2Fplaybooks%2Ftechnology_radar%2Fdata.csv)
 
 Said in stronger terms, [choose boring technology](http://mcfunley.com/choose-boring-technology) because we expect
 our business and product to generate enough risk already. And when in doubt (or in the rare cases when goals are
