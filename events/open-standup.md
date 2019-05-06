@@ -51,7 +51,7 @@ _Props_
 
 -
 
-_Company Updates (CTO/VP)_
+_Company Updates (VP of Engineering)_
 
 -
 
