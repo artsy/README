@@ -78,7 +78,7 @@ _Cross-dependencies / Requests for Pairing_
 
 -
 
-_New Milestones / Repos / Blog posts_
+_New Milestones / Repos / Blog posts (prompt each TL for team's milestone: Auction, Gallery, Platform, Grow, Discover, Purchase)_
 
 -
 
