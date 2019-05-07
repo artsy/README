@@ -31,7 +31,7 @@ IC0 > IC1 > IC2 > IC3 > IC4 > IC5
 ### Evaluation criteria
 
 - Knowledge Leadership
-  - Level of knowledge in a specific area
+  - Level of knowledge in a specific business area
   - Breadth and depth of technical and soft skills
 - Impact
   - Nature and impact of problems solved and decisions made
@@ -48,8 +48,7 @@ Individual contributor engineers define a "maker" role at Artsy where a person i
 regular basis and has no direct reports. As an individual contributor engineer grows at Artsy the scale and impact
 of the code they write and systems they maintain is expected to increase.
 
-From one level to another, the scope of direct impact gradually increases and so does the sphere of influence. Increased
-mastery is also a necessary condition but it's not sufficient to expend impact.
+From one level to another, the scope of direct impact gradually increases and so does the sphere of influence. Increased master is a necessary condition but isn't sufficient to expand impact.
 ```
 Scope of impact:   Self   >   Team   > Teams > Org
 Level          : IC0, IC1 > IC2, IC3 >  IC4  > IC5
@@ -60,19 +59,22 @@ Level          : IC0, IC1 > IC2, IC3 >  IC4  > IC5
 #### tl;dr: focuses on learning core skills and applying them to deliver business value
 
 #### Knowledge Leadership
+
 - Has some knowledge of CS concepts.
 - Focuses on learning tools and processes.
 - Pushes code through the entire lifecycle from development to production.
 
 #### Impact
+
 - Learns to complete well-defined and subdivided tasks.
 
 #### Influence
 
 - Develops individual contributor skills, including source control, editors or test-driven development.
-- Seeks assistance and feedback on a regular basis with teammates and manager
+- Seeks assistance and feedback on a regular basis from teammates and manager
 
 #### Discretion
+
 - Receives active guidance from peers and manager.
 
 ### IC1 Associate Engineer
@@ -80,41 +82,48 @@ Level          : IC0, IC1 > IC2, IC3 >  IC4  > IC5
 #### tl;dr: focuses on being an effective individual contributor
 
 #### Knowledge Leadership
+
 - Has broad knowledge of CS concepts.
 - Focuses on learning tools and processes.
 
 #### Impact
+
 - Can complete well-defined and subdivided tasks.
 
 #### Influence
+
 - Routinely pushes code through the entire lifecycle from development to production.
 - Continues to develop individual contributor skills, including source control, editors or test-driven development.
 - Understands team mission, goals and backlog.
 
 #### Discretion
+
 - Guided by objectives of project or ongoing assignments.
 - Plans own work priorities on a regular basis.
-
 
 ### IC2 Engineer
 
 #### tl;dr: is an effective team member
 
 #### Knowledge Leadership
+
 - Consistently writes and delivers correct and clean quality code with guidance.
-- Owns a small-to-medium feature from technical design through completion.
+- Stewards a small-to-medium feature from technical design through completion.
 
 #### Impact
-- Makes steady, well-paced progress without the need for constant significant feedback from more senior engineers.
+
+- Makes steady, well-paced progress without the need for constant significant feedback from others.
 
 #### Influence
+
 - Self-sufficient and makes steady progress on tasks.
 - Knows when to ask for help and how to get unblocked.
-- Effectively partners with other engineers.
+- Effectively partners with other engineers and with team's cross-functional partners (including PM, Designer, Data Analyst).
 - Provides help and support outside of area under their responsibility.
 - Participates in the interviewing process of new team members.
 
 #### Discretion
+
 - Actively engages in team rituals.
 - Understands business impact of their work.
 
@@ -123,22 +132,27 @@ Level          : IC0, IC1 > IC2, IC3 >  IC4  > IC5
 #### tl;dr: can drive change and impact at the team level
 
 #### Knowledge Leadership
+
 - Understands and makes well-reasoned design decisions and tradeoffs in their area.
 - Works in other areas of the codebase with guidance from owners of that system.
-- Owns a service or large technology component.
+- Takes responsibility for the maintenance and evolution of a significant service or technology.
 
 #### Impact
+
 - Delivers significant business value at team level.
 - Helps the team deliver on its overall goals.
 - Can drive specific initiatives.
+- Effectively translates ambiguous business problems into manageable tasks.
 
 #### Influence
+
 - Persistent in the face of roadblocks, dispatches them efficiently, pulling in others as necessary.
 - Has end-to-end responsibility on projects of increasing complexity and contributes to code that is shared across projects.
-- Effectively partners with team's cross-functional partners (including PM, Designer, Data Analyst).
+- Effectively contribute to longer-term product strategy.
 - Mentors junior engineers.
 
 #### Discretion
+
 - Requires minimal direction or oversight, delivers quickly.
 - Understands elements of the business that their work supports.
 - Demonstrates fluency with team KPIs and key drivers of these KPIs.
@@ -149,20 +163,24 @@ Level          : IC0, IC1 > IC2, IC3 >  IC4  > IC5
 #### tl;dr: can drive change and impact across multiple teams
 
 #### Knowledge Leadership
-- Owns large scale and impact service or collection of services.
+
+- Stewards large scale and impactful service or collection of services.
 
 #### Impact
+
 - Anticipates technical issues at the product level and makes architectural and design decisions to avoid them.
 - Has track record of creating sweeping improvements in stability, performance, and scalability across services.
 - Consistently reduces the complexity of projects, services, and processes in order to get more done with less work.
 - Has made an obvious positive impact on the entire company's technical trajectory.
 
 #### Influence
+
 - Sought out by other team members for technical guidance.
 - Recognized as a prolific contributor.
 - Multiplies the effectiveness of others by facilitating cross-team work.
 
 #### Discretion
+
 - Understands the Artsy business and makes decisions based on its direction.
 - Sets short to medium-term strategic technical direction.
 
@@ -171,18 +189,22 @@ Level          : IC0, IC1 > IC2, IC3 >  IC4  > IC5
 #### tl;dr: can drive change and impact across full Product, Data, Design and Engineering organization
 
 #### Knowledge Leadership
+
 - Creates architecture that enables many potential futures without knowing exactly what the future is.
 - Quickly breaks down complex problems into potential solutions, knowns, and unknowns.
 - Leads the conversations internally about the direction of major areas of the technology.
 
 #### Impact
+
 - Consistently delivers large systems involving one or more teams' contribution.
 
 #### Influence
+
 - Primarily acts as a multiplier by building systems, authoring tools, or introducing policies or patterns.
 
 #### Discretion
-- Anticipates broad technical change and ensures Artsy is always ahead of the curve.
+
+- Ensures Artsy makes judicious technology choices in the face of rapid business and technology advancements.
 - Identifies technology strategic growth opportunities that enable Artsy to grow as a business.
 
 ## Technical Leads
