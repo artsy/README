@@ -7,7 +7,11 @@ description: What are the PRs/releases/ideas that got us to where we are?
 
 This is very much a living document, and likely missing things. so, please send PRs adding new (or old) events.
 
+- Aug 2009 - Exhibytes is [developed][exhibytes_design] at Princeton University
+- May 2010 - Art.sy wins Startup Battlefield "Yahoo! Rookie Award" at TechCrunch Disrupt 
 - Jan 2011 - Artsy's API: Gravity was [`git init`][grav_init]'d 🔒
+- Mar 2011 - Exhibytes is retired, data is migrated to Gravity
+- Jun 2011 - Art.sy is demoed to collectors at Fondation Beyeler during Art Basel 2011
 - Oct 2012 - Artsy launches to [the public][nyt]
 - Jan 2012 - ["Hello World"][blog], we start off the Artsy blog
 - Feb 2012 - We move to [401 Broadway][401] 🔒
@@ -202,3 +206,4 @@ This is very much a living document, and likely missing things. so, please send 
 [altc]: https://github.com/artsy/README/blob/master/events/artsy-learns-to-code.md
 [make_offer]: https://github.com/artsy/force/pull/3300
 [folio]: https://folio.artsy.net
+[exhibytes_design]: http://calvinclee.com/design/index.php?/web/exhibytes/
