@@ -78,10 +78,10 @@ Right after the talk, ask the speaker for their slides. Check to make sure it's 
 Twitter. Then take the speaker and a few folks out to lunch. Tataki is never a bad choice. Make sure to expense
 this meal.
 
-Later, Zoom.us will email you the video recording. Upload the video and the slides to the Artsy Engineering Dropbox
-folder and post a link to Slack. Send a pull request to the [Lunch and Learn docs][lal] that adds the speaker to
-the list. Make sure to thank the speaker again over email, offer a copy of the video, and reiterate that we owe
-them a talk now.
+Later, Zoom.us will email you the video recording. Upload the video and the slides to the [Everyone at Artsy/Lunch
+& Learn Dropbox folder][dropbox-folder] and post a link to Slack. Send a pull request to the [Lunch and Learn
+docs][lal] that adds the speaker to the list. Make sure to thank the speaker again over email, offer a copy of the
+video, and reiterate that we owe them a talk now.
 
 If the talk was given by an Artsy colleague, ask them if it would be appropriate to upload to YouTube for public
 viewing. Maybe even a quick [blog post][blog].
@@ -90,6 +90,8 @@ If the talk was given by someone outside Artsy, log into the [@ArtsyOpenSource t
 (credentials are in 1Password) to post a tweet thanking them (as long as it's okay with them).
 
 Move the card to the "Done" column. Nice work!
+
+[dropbox-folder]: https://www.dropbox.com/home/Everyone%20at%20Artsy/Lunch%20%26%20Learn
 
 ### Troubleshooting
 
