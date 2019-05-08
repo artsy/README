@@ -10,6 +10,8 @@ enum FIELDS {
   DESC
 }
 
+const RING_ORDER = ["adopt", "trial", "assess", "hold"]
+
 const data = readFileSync(DATA_FILE, "utf8")
 
 const [headers, ...entries] = data.split("\n")
@@ -20,6 +22,7 @@ const sortedEntries = entries
     const fieldsA = a.split(",")
     const fieldsB = b.split(",")
     return (
+      RING_ORDER.indexOf(fieldsA[FIELDS.RING]) - RING_ORDER.indexOf(fieldsB[FIELDS.RING]) ||
       fieldsA[FIELDS.QUADRANT].localeCompare(fieldsB[FIELDS.QUADRANT]) ||
       fieldsA[FIELDS.NAME].localeCompare(fieldsB[FIELDS.NAME])
     )
