@@ -126,7 +126,7 @@ a copy of the recording.
 talk and show things that are not for public consumption. We will not share
 anything externally without your express permission.
 
-[orta]: https://github.com/orta
+[Roop]: https://github.com/anandaroop
 [ash]: https://github.com/ashfurrow
 [401]: https://www.google.com/maps/place/401+Broadway/@40.718958,-74.0049492,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598a7196824f:0xddf53435afbdd5b9!8m2!3d40.718954!4d-74.0027552
 [trouble]: https://github.com/artsy/README/blob/master/playbooks/running-lunch-and-learn.md#troubleshooting
