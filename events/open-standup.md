@@ -27,7 +27,7 @@ The person handling the talking parts does this stuff ten minutes before standup
 
 - **Important**: Make sure the person taking notes doesn't have their laptop next to the Zoom speakerphone.
 - We start off with props, as a nod towards [People are Paramount][pplp]
-- Then we get an update from the CTO
+- Then we get an update from the VP of Engineering
 - Then an update from the Product managers (someone should be present to give one)
 - Then we get updates on new hires, people starting this week, newly accepted offers and etc.
 - Then we get an update about what the practices are currently thinking about
