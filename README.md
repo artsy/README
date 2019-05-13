@@ -67,7 +67,7 @@ If you are on call or asked to fix an immediate issue, check out our doc on
 
 This project is the work of engineers at [Artsy][footer_website], the world's
 leading and largest online art marketplace and platform for discovering art.
-One of our most core [Engineering Principles][footer_principles] is being [Open
+One of our core [Engineering Principles][footer_principles] is being [Open
 Source by Default][footer_open] which means we strive to share as many details
 of our work as makes sense.
 
