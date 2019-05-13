@@ -61,7 +61,9 @@ If you are on call or asked to fix an immediate issue, check out our doc on
 
 ## About Artsy
 
-[![artsy][footer_logo]][footer_website]
+<a href="https://www.artsy.net/">
+  <img align="left" src="https://avatars2.githubusercontent.com/u/546231?s=200&v=4"/>
+</a>
 
 This project is supported by [Artsy][footer_website], a marketplace for buying
 and selling art online. One of our most beloved Engineering principles is being
