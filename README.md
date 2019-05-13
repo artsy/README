@@ -57,4 +57,23 @@ If you are on call or asked to fix an immediate issue, check out our doc on
 [how support works](/playbooks/support.md#readme) and reference our
 [support wiki](https://github.com/artsy/potential/wiki) 🔒 for up-to-date playbooks on how to solve issues.
 
-<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+
+## About Artsy
+
+[![artsy][footer_logo]][footer_website]
+
+This project is supported by [Artsy][footer_website], a marketplace for buying
+and selling art online. One of our most beloved Engineering principles is being
+[Open Source by Default][footer_open] - learn more about our open source
+projects from [our blog](footer_blog) and following
+[@ArtsyOpenSource](footer_twitter) or check out [our API][footer_api]. If you're
+interested in a career at Artsy, check out our [job postings](footer_jobs)!
+
+[footer_logo]: https://avatars2.githubusercontent.com/u/546231?s=200&v=4
+[footer_website]: https://www.artsy.net/
+[footer_open]: culture/engineering-principles.md#open-source-by-default
+[footer_blog]: https://artsy.github.io/
+[footer_twitter]: https://twitter.com/ArtsyOpenSource
+[footer_api]: https://developers.artsy.net/
+[footer_jobs]: https://www.artsy.net/jobs
