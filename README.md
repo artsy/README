@@ -69,9 +69,9 @@ This project is supported by [Artsy][footer_website], a marketplace for buying
 and selling art online. Because one of our most beloved [Engineering
 Principles][footer_principles] is being [Open Source by Default][footer_open],
 we share a lot of how we work with the open source community. You can learn more
-about our open source projects from [our blog](footer_blog) and following
-[@ArtsyOpenSource](footer_twitter) or check out [our API][footer_api]. If you're
-interested in a career at Artsy, check out our [job postings](footer_jobs)!
+about our open source projects from [our blog][footer_blog] and following
+[@ArtsyOpenSource][footer_twitter] or check out [our API][footer_api]. If you're
+interested in a career at Artsy, check out our [job postings][footer_jobs]!
 
 [footer_logo]: https://avatars2.githubusercontent.com/u/546231?s=200&v=4
 [footer_website]: https://www.artsy.net/
