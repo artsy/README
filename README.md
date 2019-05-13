@@ -65,15 +65,17 @@ If you are on call or asked to fix an immediate issue, check out our doc on
   <img align="left" src="https://avatars2.githubusercontent.com/u/546231?s=200&v=4"/>
 </a>
 
-This project is supported by [Artsy][footer_website], a marketplace for buying
-and selling art online. Because one of our most beloved [Engineering
-Principles][footer_principles] is being [Open Source by Default][footer_open],
-we share a lot of how we work with the open source community. You can learn more
-about our open source projects from [our blog][footer_blog] and following
-[@ArtsyOpenSource][footer_twitter] or check out [our API][footer_api]. If you're
-interested in a career at Artsy, check out our [job postings][footer_jobs]!
+This project is the work of engineers at [Artsy][footer_website], the world's
+leading and largest online art marketplace and platform for discovering art.
+One of our most core [Engineering Principles][footer_principles] is being [Open
+Source by Default][footer_open] which means we strive to share as many details
+of our work as makes sense.
 
-[footer_logo]: https://avatars2.githubusercontent.com/u/546231?s=200&v=4
+You can learn more about this work from [our blog][footer_blog] and by following
+[@ArtsyOpenSource][footer_twitter] or explore our public data by checking out
+[our API][footer_api]. If you're interested in a career at Artsy, read through
+our [job postings][footer_jobs]!
+
 [footer_website]: https://www.artsy.net/
 [footer_principles]: culture/engineering-principles.md
 [footer_open]: culture/engineering-principles.md#open-source-by-default
