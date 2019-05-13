@@ -86,14 +86,12 @@ _Current team-wide RFCs_ (see #dev for list 9am EST on Mondays)
 
 -
 
-_Lunch & Learn_ (if you don't know, ask in #lunch_and_learn)
+_Lunch & Learn_ || _Show & Tell_ (if you don't know, ask in #lunch_and_learn or #dev-show-n-tell)
 
 -
 
 _Closing Announcements_
 
-- Show & Tell is this Friday at 11:00 NYC time in the Studio on 24 (and over Zoom). See the docs for more info:
-  https://github.com/artsy/README/blob/master/events/show-and-tell.md
 - The last two support engineers should stick around to chat with us, the new support engineers after this meeting.
 - We'll also be having the front-end office hours right after this meeting, so stick around if you have questions.
 -
