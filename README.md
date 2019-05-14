@@ -69,7 +69,7 @@ This project is the work of engineers at [Artsy][footer_website], the world's
 leading and largest online art marketplace and platform for discovering art.
 One of our core [Engineering Principles][footer_principles] is being [Open
 Source by Default][footer_open] which means we strive to share as many details
-of our work as makes sense.
+of our work as possible.
 
 You can learn more about this work from [our blog][footer_blog] and by following
 [@ArtsyOpenSource][footer_twitter] or explore our public data by checking out
