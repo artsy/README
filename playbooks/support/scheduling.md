@@ -1,59 +1,83 @@
 # Scheduling
 
-The schedule is configured on the [Engineering On-Call calendar](https://calendar.google.com/calendar/embed?src=artsymail.com_nolej2muchgbpne9etkf7qfet8%40group.calendar.google.com&ctz=America%2FNew_York). Trading shifts (because of vacations,
-obligations, etc.) is encouraged as long as the calendar is kept up-to-date. Please address any scheduling issues
+The [Engineering On-Call schedule][schedule] is configured in OpsGenie. Trading shifts (because of vacations,
+obligations, etc.) is encouraged as long as the schedule is kept up-to-date. Please address any scheduling issues
 as early as possible.
 
 A month before the next round of on-call is slated to begin (can check when the current round ends to verify this
 timeline), we being scheduling the next round.
 
-[engineering on-call calendar]:
-  https://calendar.google.com/calendar/embed?src=artsymail.com_nolej2muchgbpne9etkf7qfet8%40group.calendar.google.com&ctz=America%2FNew_York
-
 ## Steps for Scheduling On-Call
 
+We use a staggered schedule to retain context and limit disruption as engineers shift in/out of rotation. "A"
+rotations start/end on a Monday at 11am. "B" rotations start/end on a Wednesday at 11am.
+
 1. Generate a list of current engineers. This should include everyone who started before the next round is supposed
-   to begin. (Can use team.artsy.net as a reference)
-2. Clone the
-   [Notion template](https://www.notion.so/artsy/Template-On-Call-Scheduling-20079a4d56634b29bebfa80a6813c800) and
-   generate a list of shift dates
+   to begin (can use [Team Navigator][] as a reference)
 
-- Dates should stagger where possible (so shifts go Monday --> Monday and Wednesday --> Wednesday)
-- If the round covers the December/January holidays, segment the period into 2-day shifts. Tag them as "Holiday
-  Volunteer Shift"
-- Add tags for shifts that cover notable holidays (i.e. "American Thanksgiving")
+1. Split engineers into A and B groups. Group B should include all engineers located outside of the Eastern Time
+   zone. This ensures that we always have one engineer on-call during Eastern working hours.
 
-3. Identify any exceptions/special cases and address them. These may include:
+1. Identify any exceptions/special cases and address them. These may include:
 
-- People who doubled-up the last round (should be left out of this round)
-- People who have very recently started (as a courtesy, you can ask them to sign up for a shift before opening it
-  up for the group, as it is likely beneficial for them to choose a timeslot towards the end of the round)
+   - People who doubled-up the last round (should be left out of this round)
+   - People who have very recently started (as a courtesy, you should schedule them towards the end of the round)
 
-4. Put a note in the #dev channel announcing that the shifts are open for signup. Give the team a week to
-   self-select. This may look something like:
+1. Create a new A rotation:
 
-```
-:alert: Hello team! It's time to sign up for the next round of on-call, which begins on January 10. Please visit the Notion doc here: <link> which has instructions on how to sign up. Please do so between now and **next Monday, December 17**. After that time I will randomly select shifts. Note relevant tags (notable holidays, the Holiday Volunteer Shifts). Thank you! :tada: :tada:
-```
+   - Name the new rotation "rot-a-next"
+   - Add all participants from group A into the A rotation
+   - Set the rotation type to "weekly"
+   - Set the "Start on" date to correspond with the "End on" date from the previous A rotation
+   - Set the "Ends on" date far out enough so that every participant has one shift
 
-5. Remind the team to sign up during open standup, and if necessary on slack.
-6. After announcing that signup is closed, assign the remaining people to shifts randomly. It's helpful to check
-   the OOO calendar to avoid scheduling over someone's vacation.
-7. Create Google calendar events for the shifts:
+   <img width=800 src="images/opsgenie-schedule-0.png" />
+   <img width=800 src="images/opsgenie-schedule-1.png" />
 
-- Create a week-long event on the Engineering On-Call calendar
-- Invite the on-call person
-- Name the event "<their name> On-Call"
-- Check the box so the guest can modify the event
-- Make sure to say "yes" for sending email invites
-- I usually create one this way and then duplicate it so all of the settings remain the same
+1. Create a new B rotation:
 
-8. Double-check that the calendar invites look okay, then announce in slack that scheduling has finished. Something
-   like:
+   - Name the new rotation "rot-b-next"
+   - Add all participants from group B into the rotation
+   - Set the rotation type to "weekly"
+   - Set the "Start on" date to correspond with the "End on" date from the previous B rotation
+   - Set the "Ends on" date far out enough so that every participant has one shift
 
-```
-Hi team! Just finished creating calendar invites for this round of on-call. If something looks wrong, please let me know! Soon I will be deleting the Notion doc so we can use this as the source of truth. Note that you can still switch shifts if something comes up!
-```
+  <img width=800 src="images/opsgenie-schedule-2.png" />
 
-9. After a couple of days, delete the Notion doc to avoid confusion.
-10. Schedule a reminder to repeat this process for the next round.
+1. Put a note in the #dev channel announcing that the new rotations are up. This may look something like:
+
+   > @developers Hello team! :wave:
+   >
+   > The upcoming Engineering On-Call rotations are up on OpsGenie. Please take some time to review the schedule
+   > and trade shifts as needed.
+
+1. Schedule a reminder in Slack to remove the previous rotations and remove -next rotation name suffixes.
+1. Schedule a reminder in Slack to repeat this process for the next round about a month before the next round is
+   schedule to end.
+
+[team navigator]: https://team.artsy.net
+
+## Trading / Overriding Shifts
+
+To switch shifts you may schedule an override in OpsGenie.
+
+To override a shift:
+
+1. Navigate to [Engineering On-Call Schedule][schedule]
+1. Find and hover over the shift and click override:
+
+   <img width=500 src="images/opsgenie-override-0.png" />
+
+1. You may want to update the default configuration:
+
+   - By default, you will take the shift. If you'd like to assign someone else, search for and assign them
+   - By default, you will override the entire shift. If you'd like to partially override the shift, adjust the
+     Starts/End on dates
+
+   <img width=500 src="images/opsgenie-override-1.png" />
+
+1. Click "Add" and verify your override:
+
+   <img width=500 src="images/opsgenie-override-2.png" />
+
+[schedule]: https://artsy.app.opsgenie.com/teams/dashboard/ee381004-a72e-42ef-a733-b350d6693c6c/main
