@@ -35,9 +35,10 @@ IC0 > IC1 > IC2 > IC3 > IC4 > IC5
   - Breadth and depth of technical and soft skills
 - Impact
   - Nature and impact of problems solved and decisions made
-  - Level of judgment, analysis or creativity required
+  - Value delivered to the business and team
 - Influence
   - Nature and level of influence on projects, strategy, and internal and external contacts
+  - Effect on people around you and team dynamics
 - Discretion
   - Nature of guidance received
   - Nature of guidance provided to others
@@ -48,7 +49,9 @@ Individual contributor engineers define a "maker" role at Artsy where a person i
 regular basis and has no direct reports. As an individual contributor engineer grows at Artsy the scale and impact
 of the code they write and systems they maintain is expected to increase.
 
-From one level to another, the scope of direct impact gradually increases and so does the sphere of influence. Increased master is a necessary condition but isn't sufficient to expand impact.
+From one level to another, the scope of direct impact gradually increases and so does the sphere of influence.
+Increased master is a necessary condition but isn't sufficient to expand impact.
+
 ```
 Scope of impact:   Self   >   Team   > Teams > Org
 Level          : IC0, IC1 > IC2, IC3 >  IC4  > IC5
@@ -63,6 +66,7 @@ Level          : IC0, IC1 > IC2, IC3 >  IC4  > IC5
 - Has some knowledge of CS concepts.
 - Focuses on learning tools and processes.
 - Pushes code through the entire lifecycle from development to production.
+- Develops individual contributor skills, including source control, editors or test-driven development.
 
 #### Impact
 
@@ -70,12 +74,12 @@ Level          : IC0, IC1 > IC2, IC3 >  IC4  > IC5
 
 #### Influence
 
-- Develops individual contributor skills, including source control, editors or test-driven development.
-- Seeks assistance and feedback on a regular basis from teammates and manager
+- Builds relationship with mentor and manager.
+- Seeks assistance and feedback on a regular basis from teammates and manager.
 
 #### Discretion
 
-- Receives active guidance from peers and manager.
+- Receives active guidance on what to work on and how to do it from peers and manager.
 
 ### IC1 Associate Engineer
 
@@ -85,21 +89,25 @@ Level          : IC0, IC1 > IC2, IC3 >  IC4  > IC5
 
 - Has broad knowledge of CS concepts.
 - Focuses on learning tools and processes.
+- Continues to develop individual contributor skills, including source control, editors, pairing and test-driven
+  development.
+- Routinely pushes code through the entire lifecycle from development to production.
 
 #### Impact
 
 - Can complete well-defined and subdivided tasks.
+- Tasks can be business or learning driven.
 
 #### Influence
 
-- Routinely pushes code through the entire lifecycle from development to production.
-- Continues to develop individual contributor skills, including source control, editors or test-driven development.
 - Understands team mission, goals and backlog.
+- Builds relationship with team members.
+- Actively contributes to team rituals.
 
 #### Discretion
 
 - Guided by objectives of project or ongoing assignments.
-- Plans own work priorities on a regular basis.
+- Plans own work priorities on a regular basis with guidance.
 
 ### IC2 Engineer
 
@@ -113,18 +121,22 @@ Level          : IC0, IC1 > IC2, IC3 >  IC4  > IC5
 #### Impact
 
 - Makes steady, well-paced progress without the need for constant significant feedback from others.
+- Can reliably deliver tasks on the team's critical path.
+- Contributes small tasks to improve the engineering ecosystem.
 
 #### Influence
 
-- Self-sufficient and makes steady progress on tasks.
-- Knows when to ask for help and how to get unblocked.
-- Effectively partners with other engineers and with team's cross-functional partners (including PM, Designer, Data Analyst).
+- Effectively communicates in a distributed teams environment.
+- Presents facts, information, and the weight of the evidence to influence others.
+- Effectively partners with other engineers and with team's cross-functional partners (including PM, Designer, Data
+  Analyst).
 - Provides help and support outside of area under their responsibility.
 - Participates in the interviewing process of new team members.
 
 #### Discretion
 
-- Actively engages in team rituals.
+- Self-directed, plans own work priorities on a regular basis.
+- Knows when to ask for help and how to get unblocked.
 - Understands business impact of their work.
 
 ### IC3 Senior Engineer
@@ -136,6 +148,8 @@ Level          : IC0, IC1 > IC2, IC3 >  IC4  > IC5
 - Understands and makes well-reasoned design decisions and tradeoffs in their area.
 - Works in other areas of the codebase with guidance from owners of that system.
 - Takes responsibility for the maintenance and evolution of a significant service or technology.
+- Can manage complex projects.
+- Demonstrates knowledge of industry trends, infrastructure and systems.
 
 #### Impact
 
@@ -147,16 +161,20 @@ Level          : IC0, IC1 > IC2, IC3 >  IC4  > IC5
 #### Influence
 
 - Persistent in the face of roadblocks, dispatches them efficiently, pulling in others as necessary.
-- Has end-to-end responsibility on projects of increasing complexity and contributes to code that is shared across projects.
+- Has end-to-end responsibility on projects of increasing complexity and contributes to code that is shared across
+  projects.
 - Effectively contribute to longer-term product strategy.
-- Mentors junior engineers.
+- Empowers team members to take on meaty and interesting tasks.
+- Can align a small group of people outside of their immediate team to solve a well defined problem.
+- Mentors junior engineers and / or train other engineers.
+- Participates in decision making at the practice level.
 
 #### Discretion
 
 - Requires minimal direction or oversight, delivers quickly.
 - Understands elements of the business that their work supports.
 - Demonstrates fluency with team KPIs and key drivers of these KPIs.
-- Demonstrates knowledge of industry trends, infrastructure and systems.
+- Makes tradeoffs between business impact and technical strategy.
 
 ### IC4 Staff Engineer
 
@@ -165,24 +183,29 @@ Level          : IC0, IC1 > IC2, IC3 >  IC4  > IC5
 #### Knowledge Leadership
 
 - Stewards large scale and impactful service or collection of services.
+- Demonstrates advanced knowledge in a specific domain and some minimum breadth across the whole stack.
 
 #### Impact
 
 - Anticipates technical issues at the product level and makes architectural and design decisions to avoid them.
 - Has track record of creating sweeping improvements in stability, performance, and scalability across services.
-- Consistently reduces the complexity of projects, services, and processes in order to get more done with less work.
+- Consistently reduces the complexity of projects, services, and processes in order to get more done with less
+  work.
 - Has made an obvious positive impact on the entire company's technical trajectory.
 
 #### Influence
 
-- Sought out by other team members for technical guidance.
+- Sought out by members of other teams for technical guidance.
 - Recognized as a prolific contributor.
 - Multiplies the effectiveness of others by facilitating cross-team work.
+- Can communicate with empathy at scale.
+- Can drive change at the org level by identifying a critical need, spinning up a practice / working group / task
+  force and seeing to completion.
 
 #### Discretion
 
 - Understands the Artsy business and makes decisions based on its direction.
-- Sets short to medium-term strategic technical direction.
+- Sets short to medium-term strategic technical direction and positively impacts business direction.
 
 ### IC5 Senior Staff Engineer
 
