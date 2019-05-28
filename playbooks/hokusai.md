@@ -29,17 +29,24 @@ Via `curl`:
 curl --silent https://artsy-provisioning-public.s3.amazonaws.com/hokusai/hokusai-latest-$(uname -s)-$(uname -m) -o /usr/local/bin/hokusai && chmod +x /usr/local/bin/hokusai
 ```
 
+### Manual Installation with Python / Pip
+
+See https://github.com/artsy/hokusai#setup
+
 #### Configure Hokusai
+
+Prerequisite: install the AWS IAM Authenticator plugin
+
+```
+curl -L https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.4.0/aws-iam-authenticator_0.4.0_$(uname -s | tr '[:upper:]' '[:lower:]')_amd64 -o /usr/local/bin/aws-iam-authenticator
+chmod a+x /usr/local/bin/aws-iam-authenticator
+```
 
 *Make sure IAM credentials are set in AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY or ~/.aws/credentials!*
 
 ```
-hokusai configure --kubectl-version 1.10.7 --s3-bucket artsy-citadel --s3-key k8s/config
+hokusai configure --kubectl-version 1.10.7 --s3-bucket artsy-citadel --s3-key k8s/config-dev
 ```
-
-### Manual Installation with Python / Pip
-
-See https://github.com/artsy/hokusai#setup
 
 #### Note
 
