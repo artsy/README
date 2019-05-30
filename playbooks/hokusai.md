@@ -38,8 +38,7 @@ See https://github.com/artsy/hokusai#setup
 Prerequisite: install the AWS IAM Authenticator plugin
 
 ```
-curl -L https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.4.0/aws-iam-authenticator_0.4.0_$(uname -s | tr '[:upper:]' '[:lower:]')_amd64 -o /usr/local/bin/aws-iam-authenticator
-chmod a+x /usr/local/bin/aws-iam-authenticator
+brew install aws-iam-authenticator
 ```
 
 *Make sure IAM credentials are set in AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY or ~/.aws/credentials!*
