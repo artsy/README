@@ -105,8 +105,9 @@ branch after the staging deploy is complete and PR from that branch.
     as an example of a full set-up for staging and production deploys.
   - Note that this requires creating a _read+write Github key_ for CircleCI (rather than the default read-only) as
     follows:
-    - Generate a key with a helpful label: `ssh-keygen -t rsa -b 4096 -C "github_rw_key_for_circle"` (provide a
+    - Generate a key with a helpful label: `ssh-keygen -t rsa -b 4096 -m PEM -C "github_rw_key_for_circle"` (provide a
       blank passphrase).
+      - Note: the `-m PEM` became necessary in 2019 with the release of macOS Mojave. See [this post](https://support.circleci.com/hc/en-us/articles/360021127693-How-to-generate-and-store-read-write-SSH-keys) for full details
     - Log into Github as the `artsyit` user and, in the project's settings, go to _Deploy keys_ > _Add deploy key_.
       Give the key a descriptive name (like the label above) and paste in the contents of the public key file.
     - Check the _Allow write access_ box and click the _Add key_ button to save the new key.
