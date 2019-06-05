@@ -35,6 +35,8 @@ The dashboards for our Kubernetes operations clusters can be found at:
 
 If you [installed and configured Hokusai](hokusai.md) you already have `kubectl` installed as well.  `kubectl` provides a CLI for interacting with Kubernetes clusters.  It uses the Kubernetes API like the Dashboard applications, and so provides a view over the same resources, but can switch between different clusters using a "context".
 
+Note: to perform cluster admin operations you should configure Hokusai with `--s3-bucket artsy-citadel --s3-key k8s/config-admin`
+
 See all available contexts (set in the `~/.kube/config` file) with `kubectl config get-contexts`
 
 Ignore the contexts with fully-qualified domain names `kubernetes-*.artsy.systems` such as `kubernetes-production-cepheus.artsy.systems` / `kubernetes-production-orion.artsy.systems` - you'll want to use the contexts `staging`, `production`, `ops-staging` and `ops-production` which are aliased to the correct FQDN for the currently running clusters (which change as we make cluster upgrades).
@@ -108,14 +110,26 @@ If a node is for any reason unable to schedule containers, serve traffic or unre
 
 To evict all running pods from a node before terminating it, use the following procedure:
 
-1) Check all the pods running on the node with `kubectl get pods -o wide --all-namespaces | grep {node-FQDN}`
+1) Check all the pods running on the node with `kubectl get pods -o wide --all-namespaces | grep {NODE_FQDN}`
 
-2) If you are concerned that forcefully evicting any of those pods would result in service disruption, temporarily scale up the relevant deployments with `kubectl scale deployment/{deployment-name} --replicas {desired-replicas}`.  Further config updates to the application will override this from the application's Yaml spec.
+2) If you are concerned that forcefully evicting any of those pods would result in service disruption, temporarily scale up the relevant deployments with `kubectl scale deployment/{DEPLOYMENT_NAME} --replicas {NUM_DESIRED_REPLICAS}`.  Further config updates to the application will override this from the application's Yaml spec.
 
-3) Drain the node, evicting all running pods with `kubectl drain {node-FQDN} --force --ignore-daemonsets`.
+3) Drain the node, evicting all running pods with `kubectl drain {NODE_FQDN} --force --ignore-daemonsets --delete-local-data`.
 
 4) Once the node is drained, terminate it via the AWS CLI or Dashboard.
 
 5) Wait for autoscaling to automatically launch a new instance in place of the terminated one.
 
 The command `./manage.py rotate_cluster_nodes` [in the Substance repo](https://github.com/artsy/substance#rotate-cluster-nodes-drain-termainate-existing-nodes-and-relace-with-new-ones) automates this procedure.
+
+##### Example: Kubernetes Nodes failing to Schedule Pods
+
+Kubernetes pods may fail to create if the Docker Daemon becomes unresponsive.  You may see a Pod error like "Failed create pod sandbox: rpc error ... operation timeout: context deadline exceeded".  Likely the Pod is also stuck in the "ContainerCreating" state.
+
+In this case, the Docker daemon on this host has become unresponsive.  To mitigate the issue, take note of Node that the Pod is scheduled on, i.e. for the node `ip-10-0-12-27.ec2.internal`...
+
+1) Mark the node as unschedulable.  Run `kubectl cordon ip-10-0-12-27.ec2.internal`
+
+2) Drain the node to cordon it and evict all pods.  Run `kubectl drain ip-10-0-12-27.ec2.internal --force --ignore-daemonsets --delete-local-data`
+
+3) Terminate the instance `aws ec2 terminate-instances --instance-ids $(aws ec2 describe-instances --filter Name=private-dns-name,Values=ip-10-0-12-27.ec2.internal --query 'Reservations[].Instances[].InstanceId' --output text)`
