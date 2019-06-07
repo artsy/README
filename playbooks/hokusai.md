@@ -169,3 +169,19 @@ Launch the production environment with `hokusai production create` to create the
 To see differences between staging and production, use `hokusai pipeline gitlog`, `hokusai pipeline gitdiff` or `hokusai pipeline gitcompare`.
 
 To roll out the image deployed on staging to production use `hokusai pipeline promote`.
+
+### Updating Environment Variables
+
+To update an environment variable on staging or production, you have to set the key/value and either wait for a standard deploy to finish (this is usually done if the environment variable will be consumed by a recently-merged PR), or manually refresh the pods.
+
+For example, to set the variable `DISABLE_NOTIFICATIONS` to `1` on staging with a manual refresh, you would run:
+```
+hokusai staging env set DISABLE_NOTIFICATIONS=1
+hokusai staging refresh
+```
+
+To unset that variable, you would run:
+```
+hokusai staging env unset DISABLE_NOTIFICATIONS
+hokusai staging refresh
+```
