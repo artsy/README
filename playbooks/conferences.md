@@ -39,7 +39,7 @@ guidelines:
     - Does the event align with individual and business goals?
     - Does the attendance cost fit within the remaining budget?
     - Is attendance being requested far enough in advance to keep costs low?
-    - Have enough engineers being given a chance to attend events?
+    - Have enough engineers been given a chance to attend events?
 - Purchase tickets for the event, and start an expense report in Concur or Vistra.
 - Make travel and loding arrangements via Concur and submit the expense report for approval.
   - Managers will need to approve travel and lodging expenses above a certain rate, which in some cases can put a
