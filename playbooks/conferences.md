@@ -34,7 +34,7 @@ guidelines:
   - How will this event contribute to your and your team's goals?
   - What are the dates of the event?
   - What is the attendance fee for the event?
-  - What travel and lodging feens will be required?
+  - What travel and lodging fees will be required?
   - Managers should consider the following:
     - Does the event align with individual and business goals?
     - Does the attendance cost fit within the remaining budget?
