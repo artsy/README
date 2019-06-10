@@ -27,9 +27,9 @@ guidelines:
 ## Approval Process
 
 - Find an event (conference/seminar/course) that you would like to attend. Identify items in the agenda that will
-  contribute to both your own growth goals as well as Artsy's business goals.
+  contribute to both your growth goals and Artsy's business goals.
 - Estimate any travel or lodging expenses that may be needed to attend the event using Concur to search for airfare
-  and hotels
+  and hotels.
 - Speak to your manager about attending the event before purchasing tickets. Communicate the following items:
   - How will this event contribute to your and your team's goals?
   - What are the dates of the event?
@@ -39,8 +39,7 @@ guidelines:
     - Does the event align with individual and business goals?
     - Does the attendance cost fit within the remaining budget?
     - Is attendance being requested far enough in advance to keep costs low?
-    - Are enough engineers being given a chance to attend events?
-    -
+    - Have enough engineers being given a chance to attend events?
 - Purchase tickets for the event, and start an expense report in Concur or Vistra.
 - Make travel and loding arrangements via Concur and submit the expense report for approval.
   - Managers will need to approve travel and lodging expenses above a certain rate, which in some cases can put a
