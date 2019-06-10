@@ -24,6 +24,31 @@ guidelines:
 - If you need help preparing a conference talk, stop by [Ash][ash]'s weekly Writing Office Hours.
 - It's also recommended sharing the talk and lessons with the team.
 
+## Approval Process
+
+- Find an event (conference/seminar/course) that you would like to attend. Identify items in the agenda that will
+  contribute to both your own growth goals as well as Artsy's business goals.
+- Estimate any travel or lodging expenses that may be needed to attend the event using Concur to search for airfare
+  and hotels
+- Speak to your manager about attending the event before purchasing tickets. Communicate the following items:
+  - How will this event contribute to your and your team's goals?
+  - What are the dates of the event?
+  - What is the attendance fee for the event?
+  - What travel and lodging feens will be required?
+  - Managers should consider the following:
+    - Does the event align with individual and business goals?
+    - Does the attendance cost fit within the remaining budget?
+    - Is attendance being requested far enough in advance to keep costs low?
+    - Are enough engineers being given a chance to attend events?
+    -
+- Purchase tickets for the event, and start an expense report in Concur or Vistra.
+- Make travel and loding arrangements via Concur and submit the expense report for approval.
+  - Managers will need to approve travel and lodging expenses above a certain rate, which in some cases can put a
+    24-hour hold on itineraries pending approval.
+  - For more information, review the [2019 Travel & Expense Policy][2019-travel-and-expense-policy].
+- Attend the event! Have fun, and consider sharing what you've learned with the team in our [Conference
+  Notes][conference-notes] section.
+
 ## Conference List
 
 A growing list of related conferences:
@@ -38,6 +63,9 @@ A growing list of related conferences:
 
 [lunch-and-learn]: /events/lunch-and-learn.md
 [show-and-tell]: /events/show-and-tell.md
+[conference-notes]: /conference-notes
 [travel-and-accommodations-on-atlas]:
   https://sites.google.com/a/artsymail.com/intranet/experience/travel-accommodations
 [ash]: https://github.com/ashfurrow
+[2019-travel-and-expense-policy]:
+  https://docs.google.com/document/d/1a2G_vpiMsvHZBbtn7z8cNsgDvvaR0_N2_NA5LnYdARY/edit?usp=sharing
