@@ -93,7 +93,6 @@ _Lunch & Learn_ || _Show & Tell_ (if you don't know, ask in #lunch_and_learn or 
 _Closing Announcements_
 
 - The last two support engineers should stick around to chat with us, the new support engineers after this meeting.
-- We'll also be having the front-end office hours right after this meeting, so stick around if you have questions.
 -
 ```
 
