@@ -102,3 +102,10 @@ These are some of the technologies we prefer for common challenges, as well as e
 - **Responsive page designs** over separate mobile designs or implementations. In this way we aim to get the most
   leverage from the least code and share a design library and components. As more of our usage in general
   transitions to mobile, it's critical that those visitors have at least parity with the desktop experience.
+- **Mobile software development** is split across two frameworks and three languages: native code is written with
+  UIKit in Objective-C and Swift, while React Native development is done with TypeScript. Our mobile language of
+  choice is Objective-C because core infrastructure of our app, [Eigen](https://github.com/artsy/eigen), is written
+  in it. Additionally, React Native itself is also written in Objective-C. New features in our iOS app should be
+  written using React Native. Our goal when using React Native is to never compromise on software quality for the
+  sake of a cross-platform framework. When building React Native components, we do sometimes need to write native
+  code in Objective-C, using UIKit.
