@@ -107,5 +107,5 @@ These are some of the technologies we prefer for common challenges, as well as e
   choice is Objective-C because core infrastructure of our app, [Eigen](https://github.com/artsy/eigen), is written
   in it. Additionally, React Native itself is also written in Objective-C. New features in our iOS app should be
   written using React Native. Our goal when using React Native is to never compromise on software quality for the
-  sake of a cross-platform framework. When building React Native components, we do sometimes need to write native
+  sake of a cross-platform framework, so sometimes we do need to write native
   code in Objective-C, using UIKit.
