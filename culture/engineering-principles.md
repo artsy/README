@@ -13,7 +13,6 @@ defined our engineering guiding principles, check out [this blog post][blog].
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [Open Source by Default](#open-source-by-default)
 - [Psychological Safety](#psychological-safety)
 - [Own Your Dependencies](#own-your-dependencies)
@@ -53,6 +52,9 @@ most of our projects don’t get large enough for their stewardship to become bu
   - Artsy Blog Series - [OSS by Default](https://artsy.github.io/series/open-source-by-default/)
   - [Open Source Ideology](https://ashfurrow.com/blog/open-source-ideology/)
   - [iOS at Scale: Artsy](https://www.objc.io/issues/22-scale/artsy/)
+
+Note that if an app has begun life as a closed-source project, it is still possible to
+[carefully open-source it](/playbooks/open-sourcing.md).
 
 ### Psychological Safety
 
