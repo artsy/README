@@ -37,6 +37,7 @@ practice should be incorporated, submit a PR!
 | [How to run a Lunch & Learn](/playbooks/running-lunch-and-learn.md#readme) | How to handle the people process for Lunch & Learns |
 | [System Criticality](/playbooks/system-criticality.md#readme) | A framework for treating systems differently according to how critical they are |
 | [Technology choices](/playbooks/technology-choices.md#readme) | Evaluating and adopting new technology at Artsy |
+| [Open-sourcing an app](/playbooks/open-sourcing.md) | How to take an existing private app and open-source it |
 <!-- end_toc -->
 <!-- prettier-ignore-end -->
 
