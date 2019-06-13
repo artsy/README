@@ -40,8 +40,10 @@ sprints. See [below](#examples) for some common examples.
 ## Wait!
 
 If you are new to on-call or looking for a refresher, we recommend watching the
-[on-call onboarding session](https://www.dropbox.com/home/Artsy%20Engineering/Onboarding/On-Call) 🔒 we ran on
-March 8, 2019 which talks through your responsibilities as an on-call engineer.
+[on-call onboarding session](https://www.dropbox.com/work/Artsy%20Engineering/Onboarding/On-Call-06-12-2019) 🔒 we ran on
+June 13, 2019 which talks through your responsibilities as an on-call engineer.
+
+Note: The [onboarding session](https://www.dropbox.com/home/Artsy%20Engineering/Onboarding/On-Call-03-18-2019) 🔒 we ran on March 8, 2019 is still largely relevant, but includes instructions for tracking incidents via Jira Ops, which is now outdated. See the link above for instructions for how to use OpsGenie for this process.
 
 ## Process Overview
 
@@ -50,10 +52,10 @@ which is determined at least a month in advance (see [scheduling doc](scheduling
 
 On Mondays and Wednesdays, rotating on-call engineers sync up and hand off any ongoing responsibilities:
 
-- Review active and recent incidents [on Jira Ops][jira-ops-all-incidents]
+- Review active and recent incidents [in OpsGenie][opsgenie-all-incidents]
 - Hand off any in-progress incident remediation tasks ([see responding doc](responding.md))
 
-[jira-ops-all-incidents]: https://artsyproduct.atlassian.net/projects/INCIDENT/incidents/all
+[opsgenie-all-incidents]: https://artsy.app.opsgenie.com/incident/list
 
 ## On-Call Responsibilities
 
