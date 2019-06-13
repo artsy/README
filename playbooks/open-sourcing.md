@@ -75,6 +75,13 @@ Artsy repo, so you might also need to
       [list of repos](https://github.com/artsy/peril-settings/blob/master/org/ossPRsForbidForks.ts) for which Peril
       will enforce this check
 
+## Update the license
+
+Now that the project is open, it's a good idea to have an appropriate license in the repo as well. We typically use
+the MIT license, which strikes a balance between permissiveness and commercialization.
+
+- [ ] [Add](https://help.github.com/en/articles/adding-a-license-to-a-repository) an MIT license to the project
+
 ## Spread the word
 
 - [ ] Consider adding a post to https://github.com/artsy/artsy.github.io
