@@ -35,6 +35,7 @@ The person handling the talking parts does this stuff ten minutes before standup
 - We leave a spot for potential cross-team issues
 - We list any open RFCs (see Peril's Monday morning post in the #dev Slack channel or [here on
   GitHub][open-rfcs-github])
+- We mention any running peer learning groups (the leads/participates will present this)
 - We have a Milestones spot to talk about things people are proud of
 - We then either announce [the Lunch & Learn][ll], or try find one for the week
 - Anyone is free to give closing announcements, or props!
@@ -83,6 +84,10 @@ _New Milestones / Repos / Blog Posts / New features or updated functionality rel
 -
 
 _Current team-wide RFCs_ (see #dev for list 9am EST on Mondays)
+
+-
+
+_Running peer learning groups_
 
 -
 
