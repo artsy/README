@@ -79,7 +79,7 @@ _Cross-dependencies / Requests for Pairing_
 
 -
 
-_New Milestones / Repos / Blog Posts / New features or updated functionality released: prompt Auction, Gallery, Platform, Grow, Discover, Purchase teams_
+_New Milestones / Repos / Blog Posts / New features or updated functionality released: prompt Auction, Gallery, Platform, Grow, Purchase teams_
 
 -
 
