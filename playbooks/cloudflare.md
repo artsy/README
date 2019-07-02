@@ -9,7 +9,9 @@ description: Working with Cloudflare
 
 Cloudflare is configured via Terraform in the [Infrastructure repo](https://github.com/artsy/infrastructure/blob/master/terraform/staging/cloudflare.tf)
 
-Manage new protected domains by making PRs to this configuration.
+See [Enabling DDos Protection for a Subdomain via Cloudflare](https://github.com/artsy/potential/wiki/Platform-FAQ#enabling-ddos-protection-for-a-subdomain-via-cloudflare) for details on Cloudflare configuration
+
+Manage new protected domains by making PRs to the Infrastructure repo.
 
 ## Cloudflare DNS
 
@@ -21,12 +23,12 @@ To route requests through Cloudflare's firewall...
 
 3) The value `loadBalancerSourceRanges` is set on the [service ELB](https://github.com/artsy/force/blob/master/hokusai/production.yml#L143) restricting traffic coming from Cloudflare's edge nodes
 
-With this setup, Cloudflare resolves requests to IPs of their edge nodes, then makes requests to our ELSb as origin servers.
+With this setup, Cloudflare resolves requests to IPs of their edge nodes, then makes requests to our ELBs as origin servers.
 
 ## Routing requests around Cloudflare
 
-In the case of Cloudflare edge node failures, we have the option to route requests to pass through the Cloudflare Firewall on its edge nodes.  In the DNS settings, if the domain's "Status" field with the Cloud icon on the right-hand column is orange and reports "DNS and HTTP Proxy (CDN)" then the Firewall is active and DNS requests for `*.artsy.net.cdn.cloudflare.net.` will resolve to Cloudflare edge node IPs, as is described above.
+In the case of Cloudflare edge node failures, we have the option to route requests to pass through the Cloudflare firewall on its edge nodes.  In the DNS settings, if the domain's "Status" field with the *☁* icon on the right-hand column is orange and reports "DNS and HTTP Proxy (CDN)" then the firewall is active and DNS requests for `*.artsy.net.cdn.cloudflare.net.` will resolve to Cloudflare edge node IPs, as is described above.
 
-However, this can be toggled to a greyed-out icon that reports "DNS only" and will serve DNS requests for the domain `*.artsy.net.cdn.cloudflare.net.` as a CNAME for the origin server.  In this case, requests resolve to the ELB ips and do not apss through the Cloudflare Edge nodes.
+However, this can be toggled to a greyed-out *☁* icon that reports "DNS only" and will serve DNS requests for the domain `*.artsy.net.cdn.cloudflare.net.` as a CNAME for the origin server.  In this case, requests resolve to the ELB's IP addresses and do not pass through the Cloudflare edge nodes.
 
-Note that if you change to DNS only be sure to first remove the `loadBalancerSourceRanges` setting for the service ELB in config and run `hokusai [staging|production] update` to roll it out.
+Note that if you change DNS only be sure to first remove the `loadBalancerSourceRanges` setting for the service ELB in config and run `hokusai [staging|production] update` to roll it out.
