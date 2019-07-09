@@ -142,15 +142,8 @@ You can find the point people in the [Potential Wiki](https://github.com/artsy/p
 If you run into a scheduling conflict for your shift, please trade shifts as early as possible. Find someone to
 swap with and update both parties' events in the
 [OpsGenie schedule](https://artsy.app.opsgenie.com/teams/dashboard/ee381004-a72e-42ef-a733-b350d6693c6c/main) by
-following these instructions:
-
-1. Hover over the shift you'll be taking over (in the top Rotations calendar) and click the Override button
-2. Double check that everything is correct in the popup and click Add
-3. Hover over your existing shift (again in the Rotations calendar), change the user to whoever is taking over your
-   shift, and click Add (you may need to have them do it themselves if you don't have permissions)
-4. Double check that the bottom calendar (Final Schedule) accurately reflects the updated schedule
-5. (Optional) If you don't already have the on-call calendar on your Google Cal, you can add it by clicking "Open
-   Calendar" in the top right corner of the on call schedule
+following
+[these instructions](https://github.com/artsy/README/blob/master/playbooks/support/scheduling.md#trading--overriding-shifts).
 
 ### Team members who leave
 
