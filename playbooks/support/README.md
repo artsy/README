@@ -40,10 +40,12 @@ sprints. See [below](#examples) for some common examples.
 ## Wait!
 
 If you are new to on-call or looking for a refresher, we recommend watching the
-[on-call onboarding session](https://www.dropbox.com/work/Artsy%20Engineering/Onboarding/On-Call-06-12-2019) 🔒 we ran on
-June 13, 2019 which talks through your responsibilities as an on-call engineer.
+[on-call onboarding session](https://www.dropbox.com/work/Artsy%20Engineering/Onboarding/On-Call-06-12-2019) 🔒 we
+ran on June 13, 2019 which talks through your responsibilities as an on-call engineer.
 
-Note: The [onboarding session](https://www.dropbox.com/home/Artsy%20Engineering/Onboarding/On-Call-03-18-2019) 🔒 we ran on March 8, 2019 is still largely relevant, but includes instructions for tracking incidents via Jira Ops, which is now outdated. See the link above for instructions for how to use OpsGenie for this process.
+Note: The [onboarding session](https://www.dropbox.com/home/Artsy%20Engineering/Onboarding/On-Call-03-18-2019) 🔒
+we ran on March 8, 2019 is still largely relevant, but includes instructions for tracking incidents via Jira Ops,
+which is now outdated. See the link above for instructions for how to use OpsGenie for this process.
 
 ## Process Overview
 
@@ -139,7 +141,16 @@ You can find the point people in the [Potential Wiki](https://github.com/artsy/p
 
 If you run into a scheduling conflict for your shift, please trade shifts as early as possible. Find someone to
 swap with and update both parties' events in the
-[Engineering On-Call calendar](https://calendar.google.com/calendar/embed?src=artsymail.com_nolej2muchgbpne9etkf7qfet8%40group.calendar.google.com&ctz=America%2FNew_York).
+[OpsGenie schedule](https://artsy.app.opsgenie.com/teams/dashboard/ee381004-a72e-42ef-a733-b350d6693c6c/main) by
+following these instructions:
+
+1. Hover over the shift you'll be taking over (in the top Rotations calendar) and click the Override button
+2. Double check that everything is correct in the popup and click Add
+3. Hover over your existing shift (again in the Rotations calendar), change the user to whoever is taking over your
+   shift, and click Add (you may need to have them do it themselves if you don't have permissions)
+4. Double check that the bottom calendar (Final Schedule) accurately reflects the updated schedule
+5. (Optional) If you don't already have the on-call calendar on your Google Cal, you can add it by clicking "Open
+   Calendar" in the top right corner of the on call schedule
 
 ### Team members who leave
 
