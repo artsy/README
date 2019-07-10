@@ -30,7 +30,7 @@ The person handling the talking parts does this stuff ten minutes before standup
 - Then we get an update from the VP of Engineering
 - Then an update from the Product managers (someone should be present to give one)
 - Then we get updates on new hires, people starting this week, newly accepted offers and etc.
-- Then we get an update about what the practices are currently thinking about
+- Then we get an update about what the practices (Front-End, Front-End iOS, and Platform) are currently thinking about
 - Then an update from last week's on-call support team, including follow-up work items
 - We leave a spot for potential cross-team issues
 - We list any open RFCs (see Peril's Monday morning post in the #dev Slack channel or [here on
