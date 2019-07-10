@@ -114,7 +114,7 @@ These criteria should be fulfilled before a PR is merged:
 - Do I know who this PR affects and/or someone familiar with the codebase? Assign them.
 - Does the project have point persons listed in the README? Assign one of them.
 - Is the project targeted by your changes owned by a team in the
-  [Project list](https://github.com/artsy/potential/blob/master/Project-List.md)? Assign someone on that team.
+  [Project list](https://www.notion.so/artsy/17c4b550458a4cb8bcbf1b68060d63e6)? Assign someone on that team.
 - Does GitHub suggest any reviewers, based on git blame data? Consider one of them.
 
 If none of these prompts yields a potential assignee, it's worth bringing up in Slack.
@@ -199,7 +199,7 @@ compromises in pursuit of a healthful state.
 ## Documentation
 
 Teams and projects change to adapt to business needs. Code repositories come and go as well, but usually more
-slowly. The [project map](https://github.com/artsy/potential/blob/master/Project-List.md) 🔒 aims to list all the
+slowly. The [project map](https://www.notion.so/artsy/17c4b550458a4cb8bcbf1b68060d63e6) 🔒 aims to list all the
 repositories that Artsy maintains, organized by the responsible team.
 
 Product team [slack channels](https://artsy.slack.com) 🔒 are usually the first stop for help in a given team's

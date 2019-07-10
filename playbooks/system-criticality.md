@@ -47,5 +47,5 @@ Each level has corresponding expectations for how the system is built, operated,
 | Data                         |                                                                              | Weekly backups                                                                                             | Daily backups                                                                                                                                                                     |
 | Security                     |                                                                              | Known vulnerabilities patched within 30 days                                                               | Known vulnerabilities patched within 7 days                                                                                                                                       |
 
-See the [full list of projects](https://github.com/artsy/potential/blob/master/Project-List.md)🔒 for how
-individual systems align with these levels.
+See the [full list of projects](https://www.notion.so/artsy/17c4b550458a4cb8bcbf1b68060d63e6)🔒 for how individual
+systems align with these levels.
