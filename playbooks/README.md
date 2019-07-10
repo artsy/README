@@ -20,6 +20,7 @@ practice should be incorporated, submit a PR!
 <!-- start_toc -->
 | Doc | Overview |
 |--|--|
+| [Cloudflare](/playbooks/cloudflare.md#readme) | Working with Cloudflare |
 | [Conferences](/playbooks/conferences.md#readme) | Attending or speaking at a conference |
 | [Data Migrations](/playbooks/data-migrations.md#readme) | Preparing, reviewing and executing data migrations |
 | [Dependency Management Recommendations](/playbooks/dependencies.md#readme) | How do we want to handle new dependencies to our apps? |
@@ -32,12 +33,12 @@ practice should be incorporated, submit a PR!
 | [How to give a good Informational](/playbooks/informationals.md#readme) | What are the steps needed to give someone a great experience. |
 | [Jira](/playbooks/jira.md#readme) | Working with Jira boards and tickets |
 | [Kubernetes](/playbooks/kubernetes.md#readme) | Deploying containerized applications at Artsy |
+| [Open-sourcing a project](/playbooks/open-sourcing.md#readme) | How to take a private repo and make it open-source |
 | [How to run a retrospective](/playbooks/retrospectives.md#readme) | The why and how for running a retrospective |
 | [How to create an RFC at Artsy](/playbooks/rfcs.md#readme) | The steps needed to request cultural changes |
 | [How to run a Lunch & Learn](/playbooks/running-lunch-and-learn.md#readme) | How to handle the people process for Lunch & Learns |
 | [System Criticality](/playbooks/system-criticality.md#readme) | A framework for treating systems differently according to how critical they are |
 | [Technology choices](/playbooks/technology-choices.md#readme) | Evaluating and adopting new technology at Artsy |
-| [Open-sourcing an app](/playbooks/open-sourcing.md) | How to take an existing private app and open-source it |
 <!-- end_toc -->
 <!-- prettier-ignore-end -->
 

@@ -101,13 +101,19 @@ branch after the staging deploy is complete and PR from that branch.
   - The staging deploy must update a `staging` _branch_ (instead of publishing a `staging` tag) as a basis for
     release PRs.
   - Release PRs can usually be created from a URL like `<github project URL>/compare/release...staging?expand=1`.
+    - Title the pull request with a brief description of what's being deployed (e.g.,
+      `Deploy inquiry A/B test, homepage analytics`)
+    - As opposed to [usual pull requests](/playbooks/engineer-workflow.md#pull-requests), it's acceptable to
+      self-merge a release PR.
   - See [Reflection's .circleci/config.yml](https://github.com/artsy/reflection/blob/master/.circleci/config.yml)
     as an example of a full set-up for staging and production deploys.
   - Note that this requires creating a _read+write Github key_ for CircleCI (rather than the default read-only) as
     follows:
-    - Generate a key with a helpful label: `ssh-keygen -t rsa -b 4096 -m PEM -C "github_rw_key_for_circle"` (provide a
-      blank passphrase).
-      - Note: the `-m PEM` became necessary in 2019 with the release of macOS Mojave. See [this post](https://support.circleci.com/hc/en-us/articles/360021127693-How-to-generate-and-store-read-write-SSH-keys) for full details
+    - Generate a key with a helpful label: `ssh-keygen -t rsa -b 4096 -m PEM -C "github_rw_key_for_circle"`
+      (provide a blank passphrase).
+      - Note: the `-m PEM` became necessary in 2019 with the release of macOS Mojave. See
+        [this post](https://support.circleci.com/hc/en-us/articles/360021127693-How-to-generate-and-store-read-write-SSH-keys)
+        for full details
     - Log into Github as the `artsyit` user and, in the project's settings, go to _Deploy keys_ > _Add deploy key_.
       Give the key a descriptive name (like the label above) and paste in the contents of the public key file.
     - Check the _Allow write access_ box and click the _Add key_ button to save the new key.
