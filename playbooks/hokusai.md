@@ -12,7 +12,9 @@ applications deployed to Kubernetes clusters. See [kubernetes.md](kubernetes.md)
 
 ### Quickstart
 
-Install [Git](https://git-scm.com/), [Docker and Docker Compose](https://docs.docker.com/install) with a preferred package manager.  MacOS users, install Docker and Docker Compose with [Docker for Mac](https://docs.docker.com/docker-for-mac/install/).
+Install [Git](https://git-scm.com/), [Docker and Docker Compose](https://docs.docker.com/install) with a preferred
+package manager. MacOS users, install Docker and Docker Compose with
+[Docker for Mac](https://docs.docker.com/docker-for-mac/install/).
 
 #### Install Hokusai
 
@@ -41,7 +43,7 @@ Prerequisite: install the AWS IAM Authenticator plugin
 brew install aws-iam-authenticator
 ```
 
-*Make sure IAM credentials are set in AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY or ~/.aws/credentials!*
+_Make sure IAM credentials are set in AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY or ~/.aws/credentials!_
 
 ```
 hokusai configure --kubectl-version 1.10.7 --s3-bucket artsy-citadel --s3-key k8s/config-dev
@@ -56,14 +58,14 @@ openssl libraries are up-to-date: `brew upgrade openssl` and reinstall python vi
 
 #### Configuring access to Kubernetes
 
-Make sure that the environment variables `$AWS_ACCESS_KEY_ID` and `$AWS_SECRET_ACCESS_KEY` are set in your shell or persistently in your `~/.bash_profile`
+Make sure that the environment variables `$AWS_ACCESS_KEY_ID` and `$AWS_SECRET_ACCESS_KEY` are set in your shell or
+persistently in your `~/.bash_profile`
 
 Install `kubectl` along with our Kubernetes configuration with:
 
 `hokusai configure --kubectl-version 1.10.7 --s3-bucket artsy-citadel --s3-key k8s/config`
 
-Note: the artsy-citadel S3 bucket isn't open source, and the above will fail
-for non-Artsy team-members.
+Note: the artsy-citadel S3 bucket isn't open source, and the above will fail for non-Artsy team-members.
 
 #### Setting up a new project
 
@@ -114,7 +116,8 @@ Launch the staging environment with `hokusai staging create` to create the Kuber
 
 ### Creating a review app
 
-Follow the instructions in https://github.com/artsy/hokusai/blob/master/docs/Review_Apps.md to create a review app from a branch or PR
+Follow the instructions in https://github.com/artsy/hokusai/blob/master/docs/Review_Apps.md to create a review app
+from a branch or PR
 
 If you get gravity _Back to Safety_ error when visiting the page you need to add the `redirect_url` to Gravity:
 
@@ -132,29 +135,47 @@ urls << 'https://<your-app-url>'
 app.update_attributes! redirect_urls: urls
 ```
 
+Review apps usually employ a copy of the staging application's configuration. This means that, unless customized,
+they may refer to the same backing services or datastores. Gravity and Metaphysics support an optional
+`CACHE_NAMESPACE` configuration that can isolate review apps' cache keys from each other and from staging.
+
 ### Creating a canary deployment
 
-To create a "canary" deployment (run a different configuration or version of the application along with an old one, monitoring its performance before commiting to rolling out the new version), take the following steps:
+To create a "canary" deployment (run a different configuration or version of the application along with an old one,
+monitoring its performance before commiting to rolling out the new version), take the following steps:
 
-1) In your application's `staging.yml` / `production.yml` file, copy and duplicate your application's "web" deployment in that file, then:
+1. In your application's `staging.yml` / `production.yml` file, copy and duplicate your application's "web"
+   deployment in that file, then:
 
-1) Append "-canary" to the deployment and container `name` fields
-2) Set the deployment's `spec.replicas` to a fixed number, i.e. `1` depending on how much traffic you want to be served by the canary deployment.
-3) Hardcode any environment variables you want to override from the application's environment into the `container`'s `spec.env` field.  Anythin defined here takes precedence over any environment variables defined in the `config.envFrom` directive.  So if you are testing enabling a feature flag, you can set that flag only for the canary deployment in this way.
-4) If you want to deploy a different version of the application, change the `container`'s `spec.image` to reference a new tag, i.e. a Git SHA1 tag.
+1. Append "-canary" to the deployment and container `name` fields
+1. Set the deployment's `spec.replicas` to a fixed number, i.e. `1` depending on how much traffic you want to be
+   served by the canary deployment.
+1. Hardcode any environment variables you want to override from the application's environment into the
+   `container`'s `spec.env` field (e.g., `CACHE_NAMESPACE`). Anything defined here takes precedence over any
+   environment variables defined in the `config.envFrom` directive. So if you are testing enabling a feature flag,
+   you can set that flag only for the canary deployment in this way.
+1. If you want to deploy a different version of the application, change the `container`'s `spec.image` to reference
+   a new tag, i.e. a Git SHA1 tag.
 
-For an example canary deployment in Metaphysics, see https://github.com/artsy/metaphysics/pull/1619/files - in this case the canary is running the image tag `ceb17aec2655475edeffd93a124b5c42f5663d5b` and is configured to report to Datadog under the `metaphysics-canary` service by overriding the `DD_TRACER_SERVICE_NAME` environment variable.
+For an example canary deployment in Metaphysics, see https://github.com/artsy/metaphysics/pull/1619/files - in this
+case the canary is running the image tag `ceb17aec2655475edeffd93a124b5c42f5663d5b` and is configured to report to
+Datadog under the `metaphysics-canary` service by overriding the `DD_TRACER_SERVICE_NAME` environment variable.
 
-When you are ready to launch the Canary, run `hokusai [staging|production] update` (you will likely have to add the `--skip-checks` flag for Hokusai version >= 0.5.5 if you choose not to merge the canary deployment into `master`).
+When you are ready to launch the Canary, run `hokusai [staging|production] update` (you will likely have to add the
+`--skip-checks` flag for Hokusai version >= 0.5.5 if you choose not to merge the canary deployment into `master`).
 
-Once you are ready to tear down the deployment, remove the canary deployment spec, and delete the canary deployment manually (`hokusai [staging|production] update` will _not_ remove resources that become absent from config files).  So run `kubectl --context [staging|production] delete deployment {CANARY_DEPLOYMENT_NAME}`
+Once you are ready to tear down the deployment, remove the canary deployment spec, and delete the canary deployment
+manually (`hokusai [staging|production] update` will _not_ remove resources that become absent from config files).
+So run `kubectl --context [staging|production] delete deployment {CANARY_DEPLOYMENT_NAME}`
 
 ### Configuring CircleCI for Hokusai
 
 Our Hokusai projects adopt a common workflow on CircleCI. Merges to `master` trigger a `hokusai registry push`
-followed by a `hokusai staging deploy` of the built image. The deploy step will fail if you have not created a staging environment as detailed above.
+followed by a `hokusai staging deploy` of the built image. The deploy step will fail if you have not created a
+staging environment as detailed above.
 
-Sample CircleCI configuration will be created when you run `hokusai setup` pulling in our application configuration from `--template-remote git@github.com:artsy/artsy-hokusai-templates.git`
+Sample CircleCI configuration will be created when you run `hokusai setup` pulling in our application configuration
+from `--template-remote git@github.com:artsy/artsy-hokusai-templates.git`
 
 ### Creating a production environment
 
@@ -166,21 +187,26 @@ Launch the production environment with `hokusai production create` to create the
 
 ### Promoting staging to production
 
-To see differences between staging and production, use `hokusai pipeline gitlog`, `hokusai pipeline gitdiff` or `hokusai pipeline gitcompare`.
+To see differences between staging and production, use `hokusai pipeline gitlog`, `hokusai pipeline gitdiff` or
+`hokusai pipeline gitcompare`.
 
 To roll out the image deployed on staging to production use `hokusai pipeline promote`.
 
 ### Updating Environment Variables
 
-To update an environment variable on staging or production, you have to set the key/value and either wait for a standard deploy to finish (this is usually done if the environment variable will be consumed by a recently-merged PR), or manually refresh the pods.
+To update an environment variable on staging or production, you have to set the key/value and either wait for a
+standard deploy to finish (this is usually done if the environment variable will be consumed by a recently-merged
+PR), or manually refresh the pods.
 
 For example, to set the variable `DISABLE_NOTIFICATIONS` to `1` on staging with a manual refresh, you would run:
+
 ```
 hokusai staging env set DISABLE_NOTIFICATIONS=1
 hokusai staging refresh
 ```
 
 To unset that variable, you would run:
+
 ```
 hokusai staging env unset DISABLE_NOTIFICATIONS
 hokusai staging refresh
