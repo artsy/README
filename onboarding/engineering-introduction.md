@@ -87,7 +87,7 @@ right access. Your mentor can get you sorted out.
 Our projects use physics terms as code names, starting with [Gravity](https://github.com/artsy/gravity) 🔒
 (inspired by [Zachary Coffin's "Temple of Gravity"](http://www.zacharycoffin.com/work/temple-of-gravity)).
 
-See the [engineering projects map](https://github.com/artsy/potential/blob/master/Project-List.md) 🔒 for a
+See the [engineering projects map](https://www.notion.so/artsy/17c4b550458a4cb8bcbf1b68060d63e6) 🔒 for a
 comprehensive list of our (many) repos and who owns them. It can be a bit overwhelming, so here are some important
 ones:
 

@@ -83,5 +83,5 @@ introduction: [Working with Gravity](https://github.com/artsy/potential/blob/mas
 
 In general, see project READMEs for project details including links, CI, deployment instructions, and point-people.
 
-The full [project list](https://github.com/artsy/potential/blob/master/Project-List.md) 🔒 has a more exhaustive
-list of Artsy's systems.
+The full [project list](https://www.notion.so/artsy/17c4b550458a4cb8bcbf1b68060d63e6) 🔒 has a more exhaustive list
+of Artsy's systems.

@@ -126,7 +126,7 @@ You can find the point people in the [Potential Wiki](https://github.com/artsy/p
 
 ### Artsy domain information
 
-- [Engineering projects map](https://github.com/artsy/potential/blob/master/Project-List.md) 🔒
+- [Engineering projects list](https://www.notion.so/artsy/17c4b550458a4cb8bcbf1b68060d63e6) 🔒
 - [Monitoring](https://github.com/artsy/potential/blob/master/platform/Monitoring.md) 🔒
 - [Domain Models](https://github.com/artsy/potential/blob/master/platform/DomainModels.md) 🔒
 - [Status Page](http://status.artsy.net/)
