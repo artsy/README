@@ -82,15 +82,7 @@ See the [responding doc](responding.md).
 
 ## Severity of Incidents
 
-The following definitions are borrowed from
-[Atlassian's playbook](https://www.atlassian.com/software/jira/ops/handbook/responding-to-an-incident):
-
-- **Critical**: A critical incident with very high impact (i.e. customer data loss; customer-facing service like
-  CMS is down)
-- **Major**: A major incident with significant impact (i.e. a large number of images are not showing up; a small
-  number of partners cannot access CMS)
-- **Minor**: A minor incident with low impact (i.e. a single user cannot place a bid in an auction; a page linked
-  from the app is showing a 404)
+See the [responding doc](responding.md#severity-of-incidents) for levels of severity.
 
 ## Best practices
 
