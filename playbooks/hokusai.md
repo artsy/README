@@ -139,6 +139,8 @@ Review apps usually employ a copy of the staging application's configuration. Th
 they may refer to the same backing services or datastores. Gravity and Metaphysics support an optional
 `CACHE_NAMESPACE` configuration that can isolate review apps' cache keys from each other and from staging.
 
+Note: there is a [Volt-specific](playbooks/volt-review-app.md) doc too!
+
 ### Creating a canary deployment
 
 To create a "canary" deployment (run a different configuration or version of the application along with an old one,
