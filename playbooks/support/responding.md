@@ -27,7 +27,8 @@ respond to these issues.
 
 2. Create a Slack channel for this incident for discussion of the technical resolution.
 
-   - Name it #incident-N and invite the other on-call engineer and any other active responders.
+   - Name it #incident-N, where N is the incident number from OpsGenie.
+   - Invite the other on-call engineer and any other active responders to the new channel.
    - Add a link to the OpsGenie incident as the Purpose
 
 3. In the original slack thread in #incidents, put a link to the new #incident-N channel and _direct engineers to
