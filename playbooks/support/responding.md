@@ -39,8 +39,6 @@ respond to these issues.
 
    Any incident with public impact should be communicated externally via the status page.
 
-   - Use your judgement to select an "Impact" based on severity and duration of the incident. Refer to the
-     [section on Severity of Incidents for guidance](#severity-of-incidents).
    - Communication does not have to be detailed. Not every stage of the incident needs to be communicated on status
      page.
    - Remember that this page is targeted to a public audience (i.e., users and partners) of Artsy products. Some
@@ -128,8 +126,6 @@ Critical incidents have a very high impact:
 - Customer data loss.
 - “All hands on deck.”
 
-The **Critical** level in OpsGenie equates to the **Critical** impact level in statuspage.io.
-
 #### Examples
 
 - Artsy website is down.
@@ -142,8 +138,6 @@ High incidents have a significant impact:
 - A user-facing service is down for a subset of users.
 - Core functionality is impacted for a specific use-case.
 - Need to find the best people to solve as soon as possible.
-
-The **High** level in OpsGenie equates to the **Major** impact level in statuspage.io.
 
 #### Examples
 
@@ -159,8 +153,6 @@ Moderate incidents have a low impact but require some urgency:
 - Core functionality is impacted for a single resource.
 - Should inform the relevant product team about the issue.
 
-The **Moderate** level in OpsGenie equates to the **Minor** impact level in statuspage.io.
-
 #### Examples
 
 - Broken links in Eigen on UNTITLED art fair page
@@ -173,8 +165,6 @@ Low incidents have low impact and low urgency:
 
 - Known issues that are on a product team’s radar.
 - Issues that can be handled in a regular sprint’s work.
-
-Low incidents do not require an update to the Artsy status page.
 
 #### Examples
 
