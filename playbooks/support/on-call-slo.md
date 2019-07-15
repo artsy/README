@@ -21,7 +21,7 @@ on-call response time to incidents.
 
 ### Measuring performance against this SLO
 
-This SLO targets the time between when an incident is first reported in #incidents and a Jira Ops ticket is
+This SLO targets the time between when an incident is first reported in #incidents and an OpsGenie incident is
 created.
 
 ### Live Auctions
