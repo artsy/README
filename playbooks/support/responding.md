@@ -173,5 +173,4 @@ Low incidents have low impact and low urgency:
 
 ### P5 - **Informational**
 
-Informational incidents are used primarily for training. Use this for incidents you create to practice incident
-response.
+Informational incidents have no customer impact. They are often created for reporting or training purposes.
