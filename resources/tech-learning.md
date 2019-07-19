@@ -5,10 +5,10 @@ description: The getting started guides
 
 # Tech Learning
 
-We often hear that learning to google (or perhaps [DuckDuckGo](https://duckduckgo.com/)) and use stack overflow are the
-most important core competencies of any programmer, but growth and learning happen best outside the vacuum of the
-internet. This page is a list of the engineering team's favorite resources -tutorials, essays, starting points and
-general thoughts- on a variety of programming topics.
+We often hear that learning to google (or perhaps [DuckDuckGo](https://duckduckgo.com/)) and use stack overflow are
+the most important core competencies of any programmer, but growth and learning happen best outside the vacuum of
+the internet. This page is a list of the engineering team's favorite resources -tutorials, essays, starting points
+and general thoughts- on a variety of programming topics.
 
 This is a living document; if you find something out of date or have an addition please open a pull request.
 
@@ -74,13 +74,14 @@ _See also [Platform Practice Resources](#platform-practice) below_
 
 &nbsp;
 
-### Swift + Objective C
+### iOS, React Native, Swift & Objective C
 
-_See also [Frontend-iOS Practice Resources](#frontend-ios-practice) below_
+iOS, and specifically iOS at Artsy, is such a large topic that we have resources collected under the
+[`mobile` directory](./mobile).
 
 | Name                             | Description                                                                            |
 | -------------------------------- | -------------------------------------------------------------------------------------- |
-| [Cocoa Core Competencies][cocoa] | Deprecated but still useful context around development for iOS, especially Objective C |
+| [Cocoa Core Competencies][cocoa] | Deprecated but still useful context around development for iOS, especially Objective-C |
 | []()                             |                                                                                        |
 
 ## &nbsp;

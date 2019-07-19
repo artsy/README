@@ -59,8 +59,9 @@ Each iOS app at Artsy is deployed according to its own unique needs. See their r
 Initially, Artsy apps were built with Objective-C. Then Swift was announced in 2014, and
 [we tried it](http://artsy.github.io/blog/2017/02/05/Retrospective-Swift-at-Artsy/) but have ultimately
 [settled on React Native](http://artsy.github.io/blog/2018/03/17/two-years-of-react-native/). We will still use
-Objective-C and Swift for the foreseeable future, and native code will likely always make sense for parts of our
-app (notably, [the Augmented Reality feature](http://artsy.github.io/blog/2018/03/18/ar/) and the animation-driven
+Objective-C for the foreseeable future, [Swift is "on hold" at Artsy](https://github.com/artsy/README/pull/217),
+and native code will likely always make sense for parts of our app (notably,
+[the Augmented Reality feature](http://artsy.github.io/blog/2018/03/18/ar/) and the animation-driven
 [Live Auctions Integration](http://artsy.github.io/blog/2016/08/09/the-tech-behind-live-auction-integration/#The.iOS.native.app:.Eigen),
 user interface). New features are being built using React Native; the remaining native parts of our main app are
 [listed here 🔒](https://www.notion.so/artsy/Eigen-migration-to-React-Native-54dda83b023b4cb4965a8defdae9687f)
