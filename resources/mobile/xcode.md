@@ -11,7 +11,7 @@ ways:
 
 Either works, but beware! If you have App Store automatic updates enabled, you may come in to work one day and find
 that your IDE has changed (which has implications for Swift language and SDK versions). If you ever need a specific
-version of Xcode, check out Apple's developer portal.
+version of Xcode, check out [Apple's Developer portal 🔐](https://developer.apple.com/download/more/).
 
 Xcode is really different from VSCode. It's Apple's opinion on what a good IDE should be, and sometimes it's
 uncomfortable at first. Some quick differences:
