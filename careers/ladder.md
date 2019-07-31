@@ -19,14 +19,21 @@ engineers.
 
 ## Tracks
 
-The Engineering Ladder encapsulates two tracks—an individual contributor (IC0–IC5) and manager/executive track
-(M1–M4–E1–E2). The manager track is available to engineers who have achieved an "IC3 Senior Engineer" level on the
+The Engineering Ladder encapsulates two tracks—an individual contributor (IC2–IC8) and manager track
+(M3–M6). The manager track is available to engineers who have achieved an "IC5 Senior Engineer" level on the
 individual contributor ladder.
 
-```
-IC0 > IC1 > IC2 > IC3 > IC4 > IC5
-                  M1  > M2  > M3  > M4 > E1 > E2
-```
+| Individual Contributor | Artsy IC Level | Artsy M Level | Manager |
+|------------------------|----------------|---------------|---------|
+| Intern | Intern | | |
+| Associate Engineer | IC2 | | |
+| Engineer | IC3 | |
+| Senior Engineer | IC4 | | |
+| Senior Engineer | IC5 | M3 | Engineering Manager |
+| Staff Engineer | IC6 | M4 | Senior Engineering Manager |
+| Senior Staff Engineer | IC7 | M5 | Director of Engineering |
+| Principal Engineer | IC8 | M6 | Senior Director of Engineering |
+
 
 ### Evaluation criteria
 
@@ -54,10 +61,10 @@ Increased master is a necessary condition but isn't sufficient to expand impact.
 
 ```
 Scope of impact:   Self   >   Team   > Teams > Org
-Level          : IC0, IC1 > IC2, IC3 >  IC4  > IC5
+Level          : IC2, IC3 > IC4, IC5 >  IC6  > IC7, IC8
 ```
 
-### IC0 Intern
+### Intern
 
 #### tl;dr: focuses on learning core skills and applying them to deliver business value
 
@@ -81,7 +88,7 @@ Level          : IC0, IC1 > IC2, IC3 >  IC4  > IC5
 
 - Receives active guidance on what to work on and how to do it from peers and manager.
 
-### IC1 Associate Engineer
+### IC2 Associate Engineer
 
 #### tl;dr: focuses on being an effective individual contributor
 
@@ -109,7 +116,7 @@ Level          : IC0, IC1 > IC2, IC3 >  IC4  > IC5
 - Guided by objectives of project or ongoing assignments.
 - Plans own work priorities on a regular basis with guidance.
 
-### IC2 Engineer
+### IC3 Engineer
 
 #### tl;dr: is an effective team member
 
@@ -139,7 +146,7 @@ Level          : IC0, IC1 > IC2, IC3 >  IC4  > IC5
 - Knows when to ask for help and how to get unblocked.
 - Understands business impact of their work.
 
-### IC3 Senior Engineer
+### IC4/IC5 Senior Engineer
 
 #### tl;dr: can drive change and impact at the team level
 
@@ -176,7 +183,7 @@ Level          : IC0, IC1 > IC2, IC3 >  IC4  > IC5
 - Demonstrates fluency with team KPIs and key drivers of these KPIs.
 - Makes tradeoffs between business impact and technical strategy.
 
-### IC4 Staff Engineer
+### IC6 Staff Engineer
 
 #### tl;dr: can drive change and impact across multiple teams
 
@@ -207,7 +214,7 @@ Level          : IC0, IC1 > IC2, IC3 >  IC4  > IC5
 - Understands the Artsy business and makes decisions based on its direction.
 - Sets short to medium-term strategic technical direction and positively impacts business direction.
 
-### IC5 Senior Staff Engineer
+### IC7 Senior Staff Engineer
 
 #### tl;dr: can drive change and impact across full Product, Data, Design and Engineering organization
 
@@ -257,7 +264,7 @@ of their team considerably more than the direct impact of the code they write.
 - Technical leadership is a recognition of technical ability.
 - Technical leadership is a responsibility to ship software.
 
-### M1 Engineering Manager
+### M3 Engineering Manager
 
 #### People & Business Leadership
 
@@ -288,7 +295,7 @@ of their team considerably more than the direct impact of the code they write.
   them towards their career goals.
 - Effectively aligns goals set by engineering directors with their team and makes consistent progress towards them.
 
-### M2 Senior Engineering Manager
+### M4 Senior Engineering Manager
 
 #### People & Business Leadership
 
@@ -336,18 +343,10 @@ enable many engineers to do their best work. Engineering directors can have a si
 contributors and/or leads as direct reports, and their performance is evaluated by the scale and impact they enable
 for their department and its technology.
 
-### M3 Engineering Director
+### M5 Engineering Director
 
 - TODO
 
-### M4 Senior Engineering Director
-
-- TODO
-
-### E1 VP of Engineering
-
-- TODO
-
-### E2 CTO
+### M6 Senior Engineering Director
 
 - TODO
