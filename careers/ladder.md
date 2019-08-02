@@ -65,15 +65,6 @@ Level          : IC2, IC3 > IC4, IC5 >  IC6  > IC7, IC8
 
 ### Capabilities
 
-<style>
-    .data-table {
-        border-collapse: collapse;
-    }
-    .border-top {
-        border-top: 1px solid #000;
-    }
-</style>
-
 <table class="data-table">
   <tr>
     <th class="border-top">Level</th>
