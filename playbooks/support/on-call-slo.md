@@ -8,6 +8,7 @@ on-call response time to incidents.
 
 - Incidents should have a response time of under 10 minutes during hours of **full support**.
 - Incidents should have a response time of under 30 minutes during hours of **partial support**.
+- There is no official response time expectation during times of **limited support**. Engineers are not expected to respond, although given different timezones and availabilities, it's possible that someone will.
 
 ![visualization of our on-call SLO](images/on-call-slo.jpg)
 
