@@ -76,6 +76,9 @@ respond to these issues.
 
 Discuss the incident's resolution in the dedicated Slack channel.
 
+- Start a video conference with Zoom to communicate in real-time with
+  other responders. Credentials to a shared Engineering Zoom Pro account are in
+  1Password.
 - Fix if possible using [accumulated playbooks (wiki)](https://github.com/artsy/potential/wiki) 🔒.
 - If unable to fix using shared resources, contact the relevant [point-person](#point-people) for help and pair
   with them on a fix. Be sure to contribute lessons back to shared documentation. **You are not expected to know
