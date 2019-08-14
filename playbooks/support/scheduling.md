@@ -43,6 +43,9 @@ rotations start/end on a Monday at 11am. "B" rotations start/end on a Wednesday 
    - Set the "Ends on" date far out enough so that every participant has one shift
 
   <img width=800 src="images/opsgenie-schedule-2.png" />
+ 
+1. Sanity check shifts against OOO calendar - the best way to do this is to have the rotations one on side of your screen and the OOO calendar on the other and then just page through them and look for conflicts. This won't stave off all conflicts, but ensures we're not causing any unnecessary ones.
+
 
 1. Put a note in the #dev channel announcing that the new rotations are up. This may look something like:
 
@@ -52,8 +55,13 @@ rotations start/end on a Monday at 11am. "B" rotations start/end on a Wednesday 
    > and trade shifts as needed.
 
 1. Schedule a reminder in Slack to remove the previous rotations and remove -next rotation name suffixes.
+
+   > /remind #on-call-working-group to remove/rename rotations on BLAH
+
 1. Schedule a reminder in Slack to repeat this process for the next round about a month before the next round is
    schedule to end.
+   
+   > /remind #on-call-working-group to schedule the next round of rotations on BLAH
 
 [team navigator]: https://team.artsy.net
 
