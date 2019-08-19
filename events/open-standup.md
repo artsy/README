@@ -25,18 +25,21 @@ The person handling the talking parts does this stuff ten minutes before standup
 
 ### During standup
 
-- **Important**: Make sure the person taking notes doesn't have their laptop next to the Zoom speakerphone.
-- We start off with props, as a nod towards [People are Paramount][pplp]
-- Then we get an update from the VP of Engineering
-- Then an update from the Product managers (someone should be present to give one)
-- Then we get updates on new hires, people starting this week, newly accepted offers and etc.
-- Then we get an update about what the practices (Front-End, Front-End iOS, and Platform) are currently thinking about
-- Then an update from last week's on-call support team, including follow-up work items
-- We leave a spot for potential cross-team issues
-- We list any open RFCs (see Peril's Monday morning post in the #dev Slack channel or [here on
+**Important**: Make sure the person taking notes doesn't have their laptop next
+to the Zoom speakerphone.
+
+- Props, as a nod towards [People are Paramount][pplp]
+- Update from the VP of Engineering
+- Update from Product Managers (someone should be present to give one)
+- Update on new hires, people starting this week, newly accepted offers, etc.
+- What the practices (Front-End, Front-End iOS, and Platform) are currently thinking about
+- Update from last week's on-call support team, including follow-up work items
+- Potential cross-team dependencies and requests for pairing
+- Open RFCs (see Peril's Monday morning post in the #dev Slack channel or [here on
   GitHub][open-rfcs-github])
-- We mention any running peer learning groups (the leads/participates will present this)
-- We have a Milestones spot to talk about things people are proud of
+- Running peer learning groups (the leads/participates will present this)
+- Milestones spot to talk about things people are proud of (new repos, blog
+  posts, updated functionality, etc.)
 - We then either announce [the Lunch & Learn][ll], or try find one for the week
 - Anyone is free to give closing announcements, or props!
 
