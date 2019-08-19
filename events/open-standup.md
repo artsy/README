@@ -79,15 +79,15 @@ _Cross-dependencies / Requests for Pairing_
 
 -
 
-_New Milestones / Repos / Blog Posts / New features or updated functionality released: prompt Auction, Gallery, Platform, Grow, Purchase teams_
-
--
-
 _Current team-wide RFCs_ (see #dev for list 9am EST on Mondays)
 
 -
 
 _Running peer learning groups_
+
+-
+
+_New Milestones / Repos / Blog Posts / New features or updated functionality released: prompt Auction, Gallery, Platform, Grow, Purchase teams_
 
 -
 
