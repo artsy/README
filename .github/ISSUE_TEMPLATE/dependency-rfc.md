@@ -22,6 +22,7 @@ review
 - [ ] Is this the stand-out obvious answer to a particular domain problem?
 - [ ] Do you expect your team to be the only people who know about this dependency?
 - [ ] Is this obviously being used in production by the maintainers, and thus battle-tested?
+- [ ] Does our bundle already include a (transitive) dependency that solves the problem and could we use that instead?
 - [ ] Do you feel well versed in the domain of this dependency and/or could maintain it if that needs to become an
       option?
 
