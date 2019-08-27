@@ -94,7 +94,7 @@ the presentation mainly being a series of demos, and showing code architecture.
 - Arrive at Artsy by 12:15pm ([401 Broadway, 26th Floor, 10013][401] - Canal St
   is the closest station)
 - Our receptionist on 26 will get in touch with whoever you've been in contact
-  with, probably [Orta][] or [Ash][]
+  with, probably [Ash][] or [Justin][]
 - They will get you set up on our 27th floor Classroom
 - We will set up [a stream](#recording) for global developers and slides
 - We have until 12:30 to get any technical difficulties sorted out ([the docs
@@ -128,6 +128,7 @@ anything externally without your express permission.
 
 [Roop]: https://github.com/anandaroop
 [ash]: https://github.com/ashfurrow
+[justin]: https://github.com/zephraph
 [401]: https://www.google.com/maps/place/401+Broadway/@40.718958,-74.0049492,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598a7196824f:0xddf53435afbdd5b9!8m2!3d40.718954!4d-74.0027552
 [trouble]: https://github.com/artsy/README/blob/master/playbooks/running-lunch-and-learn.md#troubleshooting
 [zoom.us]: https://zoom.us
