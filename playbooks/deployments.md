@@ -115,10 +115,10 @@ branch after the staging deploy is complete and PR from that branch.
         [this post](https://support.circleci.com/hc/en-us/articles/360021127693-How-to-generate-and-store-read-write-SSH-keys)
         for full details
     - Log into Github as the `artsyit` user and, in the project's settings, go to _Deploy keys_ > _Add deploy key_.
-      Give the key a descriptive name (like the label above) and paste in the contents of the public key file.
+      Give the key a descriptive name (like the label above) and paste in the contents of the _public_ (`.pub`) key file.
     - Check the _Allow write access_ box and click the _Add key_ button to save the new key.
     - In the CircleCI project settings, go to _SSH Permissions_ > _Add SSH Key_.
-    - Enter `github.com` for _Hostname_ and the contents of the private key file for _Private Key_, then click _Add
+    - Enter `github.com` for _Hostname_ and the contents of the _private_ key file for _Private Key_, then click _Add
       SSH Key_ to save.
   - Since a `hokusai pipeline promote` promotes the image currently in use by staging at the time of the command,
     it's possible that doesn't match what was merged into the `release` branch by the PR. In the future, we'd like
