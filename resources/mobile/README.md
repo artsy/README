@@ -47,6 +47,11 @@ to further reading.
 
 The documentation on how to use Xcode is in the [xcode.md](./xcode.md) doc.
 
+## How to Find the Code
+
+Say you have some piece of the app and you're looking for the code that backs that UI. How do you do it? It can be
+a little disorienting, but [instructions are here](./finding_code.md).
+
 ## Fundamentals of Objective-C
 
 <!-- TODO: Find some good foundational Objective-C resources -->
