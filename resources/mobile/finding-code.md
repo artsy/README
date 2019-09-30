@@ -20,18 +20,18 @@ Build-and-run the app (the "play" button in Xcode, or ⌘R) and wait for it to l
 simulator, navigate to the UI that you're trying to find the code for. Then open Xcode's visual debugger (it's the
 weird little icon near the bottom of the screen):
 
-![Xcode's visual debugger button](./images/xcode_open_visual_debugger.png)
+![Xcode's visual debugger button](./images/xcode-open-visual-debugger.png)
 
 Xcode will show you a visual debugger. Click somewhere – anywhere, really – in the user interface that you're
 trying to locate code for. When you select the element (single-click!) then the jump bar at the top of the screen
 will show you the ancestors of the selected view. View _controllers_ are in orange.
 
-![Xcode's visual debugger](./images/xcode_visual_debugger.png)
+![Xcode's visual debugger](./images/xcode-visual-debugger.png)
 
 You're looking for the _right-most controller_. This is the "nearest ancestor" to the selected view. You can click
 on the jump bar item for the controller to focus it.
 
-![Xcode's jump bar](./images/xcode_visual_debugger_focus.png)
+![Xcode's jump bar](./images/xcode-visual-debugger-focus.png)
 
 In this example, the controller is `ARHomeComponentViewController`. We can then use Xcode's "quick open" (⌘⇧O) to
 navigate to the file quickly. If the code is in Eigen, we're done! If the code is in Emission (all React Native
