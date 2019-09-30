@@ -116,10 +116,11 @@ iOS, and specifically iOS at Artsy, is such a large topic that we have resources
 
 _See also [JavaScript](#javascript-+-nodejs) & [Swift + Objective C](#swift-+-objective-c)_
 
-| Name               | Description       |
-| ------------------ | ----------------- |
-| [React Native][rn] | The official docs |
-| []()               |                   |
+| Name                                               | Description       |
+| -------------------------------------------------- | ----------------- |
+| [React Native][rn]                                 | The official docs |
+| [iOS Learning Group (Notion) 🔐][ios_learn_notion] |                   |
+| [iOS Learning Resources][ios_learn]                |                   |
 
 <!--
   ## MORE: Papers we love? Computer Science Topics? Emotional Intelligence x tech? ...
@@ -154,3 +155,5 @@ _See also [JavaScript](#javascript-+-nodejs) & [Swift + Objective C](#swift-+-ob
 [rn]: https://facebook.github.io/react-native
 [jest_matchers]: https://medium.com/@boriscoder/the-hidden-power-of-jest-matchers-f3d86d8101b0
 [what_happens_when]: https://github.com/alex/what-happens-when
+[ios_learn]: ../resources/mobile/README.md
+[ios_learn_notion]: https://www.notion.so/artsy/iOS-Learning-Plan-262fe977a5f44c9d96470e685fffbe64
