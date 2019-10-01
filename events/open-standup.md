@@ -18,6 +18,8 @@ team up with the engineer that started the preceding Wednesday. **Pick one perso
 The person handling the talking parts does this stuff ten minutes before standup:
 
 - `@here`s the dev channel. Include where the meeting is in the NYC office (usually the Annex).
+- Make sure on-call staff are prepared to give an update about the past week's incidents. (if you were on call,
+  great! If you weren't, remind your partner.)
 - Check the [Lunch&Learn schedule][ll_schedule].
 - The meeting starts with props (as a nod towards [People are Paramount][pplp]) and you should begin with giving
   props of your own.
