@@ -4,6 +4,18 @@ Before we talk about iOS software, we're going to get started on some long-runni
 local development environments. We'll bounce back and forth between this section and the next, as these
 long-running tasks allow us.
 
+## Before Arriving
+
+- Download **Xcode 10.3** from [Apple's developer tools portal](https://developer.apple.com/download/more/) (login
+  required, use your personal Apple ID)
+  - It's important not to download Xcode from the App Store because it will auto-update, and we want to pin our
+    developer tools.
+- Unzip the download, it will take a while
+- Install [CocoaPods](https://cocoapods.org)
+  - `gem install cocoapods`
+- Install the [React Native Debugger](https://github.com/jhen0409/react-native-debugger)
+  - `brew update && brew cask install react-native-debugger`
+
 ## Setup
 
 First, let's clone Eigen and get it set up. Eigen is the native parts of our app (Objective-C and Swift).
@@ -17,6 +29,10 @@ bundle exec pod install --repo-update # You'll be asked for keys here.
 open Artsy.xcworkspace
 ```
 
+> **Q**: What happens if `bundle exec pod install` fails to run?
+>
+> **A**: Your first step should always be to try re-running it, it often works!
+
 This looks kind of weird, so let's break it down. First we clone the repo, then `cd` into it, then
 `bundle install`. This is because our iOS dependency manager, [CocoaPods](https://cocoapods.org), is itself a
 RubyGem. So we need to use Bundler to install CocoaPods. Then `make artsy` does some neat stuff with git, and then
@@ -26,10 +42,21 @@ finally we install our iOS dependencies and open the Xcode workspace.
 to cache all known pod specs on your disk, which takes a while the first time. Pods are installed into the `Pods`
 directory, similar to `node_modules`.
 
+> **Q**: When to run a repo update?
+>
+> **A**: If `bundle exec pod install` fails because it can't resolve a dependency (usually Emission) then try
+> adding `--repo-update`.
+
 During `pod install`, you'll be asked for keys (API keys, etc). Look for the "Eigen Keys" secure note in the
 1Password vault. We use a CocoaPods plugin that Orta wrote,
 [cocoapods-keys](https://www.github.com/orta/cocoapods-keys), to store keys securely in the macOS keychain. During
 `pod install`, it will obfuscate them to be compiled into the binary (more on that later).
+
+> **Q**: What if I enter a key incorrectly?
+>
+> **A**: You can interact with the key store through the CocoaPods-Keys plugin. Run `bundle exec pod keys --help`
+> for a list of commands, but you'll probably want to _set_ a key. Check out usage with
+> `bundle exec pod keys set --help`.
 
 After that, you should be able to open the Xcode workspace and hit ⌘R to launch the app in a simulator.
 
@@ -53,7 +80,7 @@ Example app. So what's that?
 Emission is kind of complicated. It's three things in one:
 
 - An npm module (our React Native components).
-- A CocoaPods (Objective-C wrappers for our React Native components).
+- A CocoaPod (Objective-C wrappers for our React Native components).
 - An Example app (a testbed for our components).
 
 You'll be asked for keys again during `pod install`.
@@ -100,8 +127,8 @@ to see them reflected in Eigen, it's a little trickier. Both options are
 Here are some questions to take away with you and ponder. Try to answer them, we'll review them next week.
 
 - iOS Software is really different from web software: we ship a binary instead of serving a web page. - What other
-  kinds of software have the same constraints? - We talked today about the disadvantages of iOS' approach to
-  deployments, but can you think of any benefits?
+  kinds of software have the same constraints?
+  - We talked today about the disadvantages of iOS' approach to deployments, but can you think of any benefits?
 - Come up with an idea for Artsy's iOS app. A feature, bug fix, a whole new screen, whatever! Think about how and
   where the code would be to implement it.
 - Extra credit: look at the Palette repo and find a component that works in both React (web) and React Native. Find
