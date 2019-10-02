@@ -18,6 +18,9 @@ description: Collections of further reading about iOS and, more specifically, iO
 Don't forget to check out the [Front-End iOS Practice](../practices/front-end-ios.md) for less technical, more
 organizational resources.
 
+Materials for the iOS Learning Group (currently in-progress at Artsy) can be found
+[here](./learning-group/README.md).
+
 ## Getting Started
 
 There are three distinct ways of developing iOS software at Artsy:
