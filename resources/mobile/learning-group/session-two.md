@@ -176,16 +176,95 @@ code.
 
 ## iOS-Specific Infrastructure
 
-// TODO:
+Everything the user sees in the app can be categorized into one of the following:
 
-What lives where
+- Native code (aka "UIKit code", Objective-C and Swift in Eigen)
+- React Native (TypeScript in Emission)
+- Web view (could be from anywhere!)
 
-how to find where something is
+Web views are really interesting. In some ways, they've helped us move fast without maintaining strict parity
+between web and iOS. On the other hand, we've also got some views that _should_ be native views, but are still web
+views. Let's contrast some examples:
+
+**Q**: The BNMO flow is shown in a web view. What are the advantages/disadvantages of this approach?
+
+<details><summary>Answer</summary>
+
+The BNMO flow is changed frequently, for example when we added SCA compliance. By building the flow in a web view,
+we not only get to re-use the web implementation on iOS, but we also get users to see the latest-deployed web
+version at any time. This bypasses App Store review, which is really convenient.
+
+</details>
+
+**Q**: The Partner page (eg: a gallery) is shown in a web view. It looks awful, because the mobile web partner page
+looks bad. But this could be an advantage, too! Why is that?
+
+<details><summary>Answer</summary>
+
+The advantage of having the Partner page be a web view is that, if we improve the web view, iOS users see the
+improved version without having to update their app version.
+
+</details>
+
+**Q**: The BidFlow project, built by Purchase in 2018, is _not_ a web view. It's built in React Native. Why do you
+think that was?
+
+<details><summary>Answer</summary>
+
+BidFlows on web and iOS differ because user expectations on those platforms differ. By building the BidFlow in iOS,
+we adhere more closely to the users' expectations during this critical path. It also gives us a "native feel" to
+the app, by using UI controls that aren't available on the web (like `UIPickerView` for selecting a bid increment).
+
+</details>
+
+Okay that's all great, but how do we know where the code lives? If you have a bug report, how do you know where to
+look for the code you'll need to change to fix the bug?
+[We have documented instructions](../mobile/finding-code.md) for this. The process involves finding the _view
+controller_ for a given user interface, and then working backwards from there. We'll learn about view controllers
+next week.
+
+## Let's see some code
+
+Objective-C predates what we'll call "common" programming syntax. The following code syntax is representative of
+JavaScript, C, C++, Ruby, and a bunch of other languages:
+
+```ts
+this.relay.refetch(params, null)
+```
+
+So what would this same idea look like, in Objective-C?
+
+```objc
+[self.relay refetch:params renderVariables:nil];
+```
+
+Whoa! Really different. Objective-C has dot-syntax for property access, so `self.relay` works as you'd expect. But
+we have to prefix the object that we're calling the function on with `[`. `params` look similar to the first code
+example, but what is `renderVariables`? Well, Objective-C includes named parameters _at the call site_. This can
+get a little confusing, but we'll cover Objective-C in more detail next week.
+
+And what about Swift? Well, Swift is kind of a weird mix of both:
+
+```swift
+self.relay.refetch(params, renderVariables: nil)
+```
+
+We're going to focus mainly on Objective-C for this course, since
+[Objective-C is our preferred native language](https://github.com/artsy/README/pull/217).
 
 ## Core Concept Review & Homework
 
-// TODO:
+- What are some of the constraints on mobile devices that aren't present on web browsers? What about mobile
+  browsers, did they also have these constraints? Do they still have them?
+- We've seen how Palette components differ across iOS and web, like the `EntityHeader`. How do you think this
+  affects the Relay fragments we use for this component?
+- Recall the idea you came up with for the app, from last week's homework. Considering that features in the app are
+  built in one of three places (native code, React Native code, or a web view), where do you think Artsy should put
+  build your idea? Why?
+- Extra credit: we briefly looked at how to call a function in Objective-C. How do you think that function is
+  defined at the implementation site?
 
 ## Resources / Recommended Reading
 
-// TODO:
+- [Artsy's 3-year retrospective on React Native](https://artsy.github.io/blog/2019/03/17/three-years-of-react-native/)
+- [How to find code for UI in the app](https://github.com/artsy/README/blob/master/resources/mobile/finding-code.md)
