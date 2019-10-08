@@ -186,9 +186,11 @@ Web views are really interesting. In some ways, they've helped us move fast with
 between web and iOS. On the other hand, we've also got some views that _should_ be native views, but are still web
 views. Let's contrast some examples:
 
+<details><summary>
+
 **Q**: The BNMO flow is shown in a web view. What are the advantages/disadvantages of this approach?
 
-<details><summary>Answer</summary>
+</summary>
 
 The BNMO flow is changed frequently, for example when we added SCA compliance. By building the flow in a web view,
 we not only get to re-use the web implementation on iOS, but we also get users to see the latest-deployed web
@@ -196,20 +198,24 @@ version at any time. This bypasses App Store review, which is really convenient.
 
 </details>
 
+<details><summary>
+
 **Q**: The Partner page (eg: a gallery) is shown in a web view. It looks awful, because the mobile web partner page
 looks bad. But this could be an advantage, too! Why is that?
 
-<details><summary>Answer</summary>
+</summary>
 
 The advantage of having the Partner page be a web view is that, if we improve the web view, iOS users see the
 improved version without having to update their app version.
 
 </details>
 
+<details><summary>
+
 **Q**: The BidFlow project, built by Purchase in 2018, is _not_ a web view. It's built in React Native. Why do you
 think that was?
 
-<details><summary>Answer</summary>
+</summary>
 
 BidFlows on web and iOS differ because user expectations on those platforms differ. By building the BidFlow in iOS,
 we adhere more closely to the users' expectations during this critical path. It also gives us a "native feel" to
