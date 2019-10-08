@@ -205,8 +205,8 @@ looks bad. But this could be an advantage, too! Why is that?
 
 </summary>
 
-The advantage of having the Partner page be a web view is that, if we improve the web view, iOS users see the
-improved version without having to update their app version.
+**A**: The advantage of having the Partner page be a web view is that, if we improve the web view, iOS users see
+the improved version without having to update their app version.
 
 </details>
 
@@ -217,14 +217,15 @@ think that was?
 
 </summary>
 
-BidFlows on web and iOS differ because user expectations on those platforms differ. By building the BidFlow in iOS,
-we adhere more closely to the users' expectations during this critical path. It also gives us a "native feel" to
-the app, by using UI controls that aren't available on the web (like `UIPickerView` for selecting a bid increment).
+**A**: BidFlows on web and iOS differ because user expectations on those platforms differ. By building the BidFlow
+in iOS, we adhere more closely to the users' expectations during this critical path. It also gives us a "native
+feel" to the app, by using UI controls that aren't available on the web (like `UIPickerView` for selecting a bid
+increment).
 
 </details>
 
-Okay that's all great, but how do we know where the code lives? If you have a bug report, how do you know where to
-look for the code you'll need to change to fix the bug?
+**A**: Okay that's all great, but how do we know where the code lives? If you have a bug report, how do you know
+where to look for the code you'll need to change to fix the bug?
 [We have documented instructions](../mobile/finding-code.md) for this. The process involves finding the _view
 controller_ for a given user interface, and then working backwards from there. We'll learn about view controllers
 next week.
@@ -268,9 +269,10 @@ We're going to focus mainly on Objective-C for this course, since
   built in one of three places (native code, React Native code, or a web view), where do you think Artsy should put
   build your idea? Why?
 - Extra credit: we briefly looked at how to call a function in Objective-C. How do you think that function is
-  defined at the implementation site?
+  defined at the _implementation_ site?
 
 ## Resources / Recommended Reading
 
 - [Artsy's 3-year retrospective on React Native](https://artsy.github.io/blog/2019/03/17/three-years-of-react-native/)
 - [How to find code for UI in the app](https://github.com/artsy/README/blob/master/resources/mobile/finding-code.md)
+- [The Objective-C Language Reference](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ObjectiveC/Introduction/introObjectiveC.html)
