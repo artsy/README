@@ -33,6 +33,13 @@ open Artsy.xcworkspace
 >
 > **A**: Your first step should always be to try re-running it, it often works!
 
+> **Q**: What if I have more than on Xcode installed?
+>
+> **A**: You can use `xcode-select` to switch between versions of Xcode _used for the command line_. This is
+> critical for command-line use, since which Xcode you use defines which version of `gcc`, `git`, and other tools
+> you'll use. Make sure it's pointed to `Xcode.app` and **not** a subdirectory, like
+> `Xcode.app/Contents/Developer`.
+
 This looks kind of weird, so let's break it down. First we clone the repo, then `cd` into it, then
 `bundle install`. This is because our iOS dependency manager, [CocoaPods](https://cocoapods.org), is itself a
 RubyGem. So we need to use Bundler to install CocoaPods. Then `make artsy` does some neat stuff with git, and then

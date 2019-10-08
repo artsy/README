@@ -31,6 +31,12 @@ There are three distinct ways of developing iOS software at Artsy:
 - Developing React Native _and_ Objective-C and Swift using Emission and Eigen linked together, at the same time.
   [Instructions are in the Eigen docs folder](https://github.com/artsy/eigen/blob/master/docs/using_dev_emission.md)
 
+A few important things to know:
+
+- Development and beta builds of the app appear on your homescreen as `Δrtsy`. App Store builds appear as `Artsy`.
+- The specific version of the app you have installed is on the debug menu of the app (shake your device).
+- The bottom tab bar uses a purple top border while on staging, and a black top border on production.
+
 ## An Introduction for React Native Developers
 
 React Native developers are really common at Artsy; any engineer who writes React can write React Native, and
