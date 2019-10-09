@@ -13,6 +13,9 @@
 Over the past week, there have been changes to both the Eigen and Emission repositories. Let's pull from each and
 make sure we're able to launch the latest code in our simulators.
 
+> **Reminder**: Eigen and Emission use _branches_ on Artsy's repo, and **not** forks. Submit pull requests to
+> Artsy's branch, with a good descriptive name.
+
 ### Eigen
 
 Remember that Eigen uses CocoaPods, which is itself managed through Bundler. You might need to update your gems
@@ -71,13 +74,23 @@ Okay, so using React Native lets us use React in a mobile context. There are a c
 Let's talk about `FlatList`. Consider you are Apple or Google and you're building an SDK for a smartphone in 2007.
 All your resources are constrained: CPU, disk I/O, and RAM are all way slower than desktop computers _and_ storage
 is limited. You decide that your mobile operating system won't support virtual memory (ie: swap space) because it's
-too expensive. To support the best user experience, you would design your app SDK to minimize memory allocations.
+too expensive. Also, there's no garbage collection (on iOS) because it, too, is too expensive. To support the best
+user experience, you would design your app SDK to minimize memory allocations.
 
 Okay, keep that in mind while we think about a hypothetical app. It lists all your favourite art, and you have
 thousands of favourites. As the user scrolls through a list of thousands of artworks, many artworks pass by, but
 only a few are ever visible at the same time. To minimize memory allocations, mobile devices actually _reuse_ views
 from the list. An artwork view that is scrolled offscreen is removed from the view hierarchy and queued up for
 re-use, where it gets re-configured with new data.
+
+**Note**: While `FlatList` often renders homogenous data (ie: every cell is display the same kind of information),
+Artsy uses it generally to render lists of content. For example,
+[the Artwork component](https://github.com/artsy/emission/blob/16cedc92d3420b6b94d78d7f38b9bbc71f152c09/src/lib/Scenes/Artwork/Artwork.tsx#L206-L219)
+is one large list.
+
+(This pattern is called _list virtualization_ and can be applied in many different contexts, mostly for performance
+reasons. Check out [this library](https://github.com/bvaughn/react-virtualized) for a general-purpose React
+implementation.)
 
 Although the resource constraints of 2007 aren't as relevant in 2019, this pattern persists across iOS and Android
 because it's _really_ performant, and there is now more than a decade of APIs built atop it. It is with this spirit
@@ -168,11 +181,22 @@ export * from "./EntityHeader"
 
 The trick is that we have Palette's module lookup configured to import `EntityHeader.tsx` on web, and
 `EntityHeader.ios.tsx` on iOS, when _this_ file imports `from "./EntityHeader"`. So the resolution happens at the
-Palette-level instead of Emission or Reaction.
+React Native-level. [Check out the docs](http://facebook.github.io/react-native/docs/platform-specific-code) for
+more detail.
 
 The big exception to our shared infrastructure is displaying images in React Native. Emission has its own
 `OpaqueImage` component that you should use instead – it shares an image cache with our native Objective-C / Swift
 code.
+
+> **Q**: If React Native uses CSS, what units does it support?
+>
+> **A**: React Native, like iOS, supports a kind of device-independent virtual pixel size called _points_. On
+> 1x-scale devices (like the original iPhone) 1pt = 1px. On a 2x-scale device (like an iPhone 8) 1pt = 2px. We lay
+> out our UI in points to avoid having to deal with these differences.
+> [Check out this blog post](https://medium.com/@0saurabhgour/react-native-density-independent-pixels-pixelratio-1f10d86f631)
+> or [the official docs](https://facebook.github.io/react-native/docs/pixelratio) for more information. Typically,
+> though, we use styled-system and Flexbox (via [Yoga](https://yogalayout.com)) to avoid having to specify these
+> values manually.
 
 ## iOS-Specific Infrastructure
 
@@ -224,8 +248,14 @@ increment).
 
 </details>
 
-**A**: Okay that's all great, but how do we know where the code lives? If you have a bug report, how do you know
-where to look for the code you'll need to change to fix the bug?
+(Routing between views in our app always happens via URLs in Eigen, in the
+[ARSwitchboard class](https://github.com/artsy/eigen/blob/master/Artsy/App/ARSwitchBoard.m). If there is no route
+for a given URL, it falls back to a web view. You can
+[check out the docs for adding new components](https://github.com/artsy/emission/blob/master/docs/adding_new_components.md)
+for more information about how Eigen/Emission routing interop works.)
+
+Okay that's all great, but how do we know where the code lives? If you have a bug report, how do you know where to
+look for the code you'll need to change to fix the bug?
 [We have documented instructions](../mobile/finding-code.md) for this. The process involves finding the _view
 controller_ for a given user interface, and then working backwards from there. We'll learn about view controllers
 next week.
@@ -274,5 +304,7 @@ We're going to focus mainly on Objective-C for this course, since
 ## Resources / Recommended Reading
 
 - [Artsy's 3-year retrospective on React Native](https://artsy.github.io/blog/2019/03/17/three-years-of-react-native/)
+- [Platform-specific code in React Native](http://facebook.github.io/react-native/docs/platform-specific-code)
 - [How to find code for UI in the app](https://github.com/artsy/README/blob/master/resources/mobile/finding-code.md)
 - [The Objective-C Language Reference](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ObjectiveC/Introduction/introObjectiveC.html)
+- [Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/)
