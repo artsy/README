@@ -54,8 +54,8 @@ Native for Android in the longterm, but for now that's the motivation.)
 You can think of React Native as React, but instead of targeting `div`'s and the HTML DOM, you're targeting native
 views to whatever target platform you're running on. So, Artsy uses React Native to target the iOS `UIView`
 hierarchy. Developers write very similar, often identical components to the web, but at runtime, they get rendered
-in native iOS views instead of DOM elements. All the familiar
-[React component lifecycle methods](https://reactjs.org/docs/react-component.html) exist in React Native
+in native iOS views instead of DOM elements. We'll take a look at `EntityHeader` as an example shortly. All the
+familiar [React component lifecycle methods](https://reactjs.org/docs/react-component.html) exist in React Native
 components, too. From a high-level, rendering is the same on both platforms.
 
 Okay, so using React Native lets us use React in a mobile context. There are a couple of problems with this:
