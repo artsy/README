@@ -180,7 +180,7 @@ module resolution.
 So when the `Box` is defined as `styled.View`, it's being defined
 [as a styled-components `div` on web](https://github.com/artsy/palette/blob/cef079d8a81002533fc9a977d9ba717a9eafd835/packages/palette/src/platform/primitives.ts#L5-L9)
 and
-[as a a styled-components `View` on iOS](https://github.com/artsy/palette/blob/cef079d8a81002533fc9a977d9ba717a9eafd835/packages/palette/src/platform/primitives.ios.ts#L7-L11).
+[as a styled-components `View` on iOS](https://github.com/artsy/palette/blob/cef079d8a81002533fc9a977d9ba717a9eafd835/packages/palette/src/platform/primitives.ios.ts#L7-L11).
 (Styled-components is doing a bit more abstraction for us here, depending on iOS-vs-Android. Ultimately, on iOS,
 `Box` components are rendered as native Objective-C `UIView` subclasses.)
 
