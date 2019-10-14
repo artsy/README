@@ -143,10 +143,48 @@ So we've gone from a point where two teams were using separate languages, text e
 libraries... to a point where it's no longer productive to think about "web" and "mobile" engineers. Pretty great!
 
 Let's dive into detail on Palette because, for front-end work, it's one of the most important packages to
-understand.
+understand. If you're using to using Palette on the web, then you'll _mostly_ be able to use Palette in React
+Native like you're used to. We're going to look at two examples, of a fundamental component and a
+slightly-more-complex component.
 
-If you're using to using Palette on the web, then you'll _mostly_ be able to use Palette in React Native like
-you're used to. Let's see how that works in practice.
+First, `Box`. Developers who have used Palette are accustomed to writing components with `Box` rather than `div`.
+Why is that? Well, there are a few reasons, but one of the most important ones is to make the component compatible
+with React Native. Earlier, we said:
+
+> You can think of React Native as React, but instead of targeting `div`'s and the HTML DOM, you're targeting
+> native views to whatever target platform you're running on.
+
+`div` is an HTML-specific component, and `Box` is designed to be cross-platform. Let's see what it looks like in
+the Palette source code.
+[`Box` is defined as a "primative view"](https://github.com/artsy/palette/blob/cef079d8a81002533fc9a977d9ba717a9eafd835/packages/palette/src/elements/Box/Box.tsx#L59):
+
+```tsx
+export const Box = primitives.View<BoxProps>`
+```
+
+`primitives` come from Palette, which is defined in two files.
+
+```sh
+➜ tree packages/palette/src/platform/
+packages/palette/src/platform/
+├── ...
+├── primitives.ios.ts
+└── primitives.ts
+```
+
+React Native will import the `.ios.ts` file when it gets `import`ed from iOS. Similarly, it will import
+`.android.ts` (but we don't have an Android app). The web defaults to just `.ts`.
+[Check out the docs](http://facebook.github.io/react-native/docs/platform-specific-code) for more detail on this
+module resolution.
+
+So when the `Box` is defined as `styled.View`, it's being defined
+[as a styled-components `div` on web](https://github.com/artsy/palette/blob/cef079d8a81002533fc9a977d9ba717a9eafd835/packages/palette/src/platform/primitives.ts#L5-L9)
+and
+[as a styled-components `View` on iOS](https://github.com/artsy/palette/blob/cef079d8a81002533fc9a977d9ba717a9eafd835/packages/palette/src/platform/primitives.ios.ts#L7-L11).
+(Styled-components is doing a bit more abstraction for us here, depending on iOS-vs-Android. Ultimately, on iOS,
+`Box` components are rendered as native Objective-C `UIView` subclasses.)
+
+Let's take a look at a more complex component example.
 
 ![Comparison between Reaction and Emission](./images/session-two-comparison.png)
 
@@ -180,9 +218,8 @@ export * from "./EntityHeader"
 ```
 
 The trick is that we have Palette's module lookup configured to import `EntityHeader.tsx` on web, and
-`EntityHeader.ios.tsx` on iOS, when _this_ file imports `from "./EntityHeader"`. So the resolution happens at the
-React Native-level. [Check out the docs](http://facebook.github.io/react-native/docs/platform-specific-code) for
-more detail.
+`EntityHeader.ios.tsx` on iOS, when _this_ file imports `from "./EntityHeader"`. So the resolution happens within
+Palette, abstracted from the developer using the component.
 
 The big exception to our shared infrastructure is displaying images in React Native. Emission has its own
 `OpaqueImage` component that you should use instead – it shares an image cache with our native Objective-C / Swift
