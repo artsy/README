@@ -17,3 +17,9 @@ This week, we will cover what makes React Native distinct from React on the web,
 shared infrastructure (such as Palette) to make it easier for engineers to work in either one.
 
 [Materials are here](./session-two.md).
+
+## Session Three
+
+This week, we will cover how to create a new view controller. View controllers are the main unit of composition for
+native iOS apps, and we integrate our "Scene" React components as view controllers. This includes routing between
+view controller, from both native Objective-C and React Native code.
