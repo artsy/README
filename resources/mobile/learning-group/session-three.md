@@ -12,6 +12,19 @@
 - Extra credit: we briefly looked at how to call a function in Objective-C. How do you think that function is
   defined at the _implementation_ site?
 
+<details>
+<summary>Answer</summary>
+
+```objc
+// Given this call site:
+[self.relay refetch:params renderVariables:nil];
+
+// What would the implementation look like?
+- (void)refetch:(RefetchParameters *)params renderVariables:(NSDictionary *)renderVariables;
+```
+
+</details>
+
 ## View Controllers
 
 In native iOS applications,
@@ -34,6 +47,9 @@ If you're adding a whole new screen, then you'll need to add a new view controll
 Objective-C.
 
 ## Creating a new Emission View Controller
+
+(**Note**: You can find the Emission code after these changes at the
+[`ios-learning-session-three-finished` tag](https://github.com/artsy/emission/tree/ios-learning-session-three-finished).)
 
 Instead of outlining all the steps to take to build a new view controller in Emission, we're going to
 [rely on the documentation](https://github.com/artsy/emission/blob/master/docs/adding_new_components.md). We're
@@ -111,7 +127,8 @@ Recompile Eigen and tap any artwork in any artwork grid; it should route to your
 ## Core Concept Review & Homework
 
 - What is the purpose of a view controller, from a developer's perspective? What about from a user's perspective?
-- How does a parameters on the Objective-C view controller `init` method get sent to the React component hierarchy?
+- How does a parameters on the Objective-C view controller `init` method get sent to the React component hierarchy
+  as a prop?
 - We've seen how to create new controllers and link them with Eigen. Routing between view controller is all
   URL-based; what are the advantages and disadvantages to this approach?
 - Related: in `ARSwitchBoard.m`, you'll see two different methods for adding routes: `addRoute:handler:` and
