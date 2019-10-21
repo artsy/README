@@ -48,10 +48,6 @@ _Company Updates (VP of Engineering)_
 
 -
 
-_Product Manager Updates_
-
--
-
 _Hiring Updates_
 
 -
