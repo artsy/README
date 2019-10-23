@@ -23,3 +23,9 @@ shared infrastructure (such as Palette) to make it easier for engineers to work 
 This week, we will cover how to create a new view controller. View controllers are the main unit of composition for
 native iOS apps, and we integrate our "Scene" React components as view controllers. This includes routing between
 view controller, from both native Objective-C and React Native code.
+
+## Session Four
+
+This week, we will create our own React component to fit within the new view controller from Week 3. This will be a
+Relay container, fetching data from Metaphysics v2. We will cover how to fetch data, how to re-fetch data, as well
+as how Eigen and Emission integrate together to provide client-side API response caches (both Relay and others).
