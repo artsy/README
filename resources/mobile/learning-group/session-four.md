@@ -1,4 +1,4 @@
-# iOS Learning Group Session Three
+# iOS Learning Group Session Four
 
 ## Homework review
 
@@ -16,7 +16,7 @@ screen, it might be composed of child controllers as the develop sees fit.
 
 </details>
 
-- How does a parameters on the Objective-C view controller `init` method get sent to the React component hierarchy
+- How does a parameter on the Objective-C view controller `init` method get sent to the React component hierarchy
   as a prop?
 
 <details>
@@ -36,19 +36,19 @@ translating Objective-C types into JavaScript types.
 <details>
 <summary>Answer</summary>
 
-**Advantages**: Getting to use the same URL's as the web means push notifications, deep links, and email deep links
+**Advantages**: Getting to use the same URLs as the web means push notifications, deep links, and email deep links
 all use the same routing infrastructure as UI interactions. We also get to fall back to web views for URLs that the
 app doesn't handle.
 
 **Disadvantages**: Data passed from one controller to another has to be serialized into a URL first. Common
-patterns such as passing `delegate` references or completion handlers forward to new view controllers is not
+patterns such as passing `delegate` references or forwarding completion handlers to new view controllers is not
 possible.
 
 </details>
 
 - Related: in `ARSwitchBoard.m`, you'll see two different methods for adding routes: `addRoute:handler:` and
-  `registerEchoRouteForKey:handler:`. This lets us define routing URL's in [Echo](https://github.com/artsy/echo),
-  Artsy's feature-flag-as-a-service. Why do you think this added functionality here?
+  `registerEchoRouteForKey:handler:`. This lets us define routing URLs in [Echo](https://github.com/artsy/echo),
+  Artsy's feature-flag-as-a-service. Why do you think this functionality was added here?
 
 <details>
 <summary>Answer</summary>
@@ -65,8 +65,8 @@ scheme. It's never been used, though.
 <details>
 <summary>Answer</summary>
 
-The `isVisible` is passed to all top-level components (ie: components backed by a component view controller). This
-lets the component know if it's currently visible to the user or not.
+The `isVisible` prop is passed to all top-level components (ie: components backed by a component view controller).
+This lets the component know if it's currently visible to the user or not.
 
 </details>
 
@@ -332,13 +332,13 @@ And that's it! Completed code from this session can be found in Emission's repo 
 
 ## What about the Query Map?
 
-When ran in development mode, Emission sends the full GraphQL query and variables to Metaphysics. However, in
-deployed versions (App Store releases **and** betas!) don't do this. Instead, they use GraphQL persisted queries.
+When ran in development mode, Emission sends the full GraphQL query and variables to Metaphysics. However, deployed
+versions (App Store releases **and** betas!) don't do this. Instead, they use GraphQL persisted queries.
 Metaphysics has a
 [flat JSON file](https://github.com/artsy/metaphysics/blob/9b782b05e9e7da08937581fddb4ef1cf315e2136/src/data/complete.queryMap.json)
 that defines every query of every version of Emission ever released. When a new version of Emission is made, the
 release script automatically generates a new query map, merges it with the existing one, and opens a pull request
-([exmaple](https://github.com/artsy/metaphysics/pull/1993)).
+([example](https://github.com/artsy/metaphysics/pull/1993)).
 
 (In the longterm, we plan to move away from a flat file for persisted queries. This will unlock other clients to
 use the persisted queries, too, since Emission is currently the only one.)
@@ -358,7 +358,7 @@ channel.
 - Emission is currently the only client to use persisted queries. Why do you think Emission uses them while other
   client apps (like Volt and Reaction) don't yet?
 - Extra credit: We see that the content of our component is touching the top edge of the simulator screen. This
-  makes sense,but poses a problem. What do you think the problem is, and how do you think we could fix it? Hint:
+  makes sense, but poses a problem. What do you think the problem is, and how do you think we could fix it? Hint:
   take a look around the Emission codebase for "SafeAreaInsets" and see what you find.
 
 ## Resources / Recommended Reading
