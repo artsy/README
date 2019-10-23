@@ -7,10 +7,12 @@
 <details>
 <summary>Answer</summary>
 
-A view controller is the main unit of composition for building native iOS UI's. From a user's perspective, they
-might call it "a screen", since view controllers commonly take up the entire screen of an app. However, view
-controllers really can be _composed_ so while a view controller might indeed take up the entire screen, it might be
-composed of child controllers as the develop sees fit.
+Recall from the last session that a view controller fits within the iOS Model-View-Controller framework. View
+controllers are the glue between data models and user interfaces, mediating updates from the data models and user
+interactions from the UI. A view controller is the main unit of composition for building native iOS UI's. From a
+user's perspective, they might call it "a screen", since view controllers commonly take up the entire screen of an
+app. However, view controllers really can be _composed_ so while a view controller might indeed take up the entire
+screen, it might be composed of child controllers as the develop sees fit.
 
 </details>
 
@@ -35,7 +37,8 @@ translating Objective-C types into JavaScript types.
 <summary>Answer</summary>
 
 **Advantages**: Getting to use the same URL's as the web means push notifications, deep links, and email deep links
-all use the same routing infrastructure as UI interactions.
+all use the same routing infrastructure as UI interactions. We also get to fall back to web views for URLs that the
+app doesn't handle.
 
 **Disadvantages**: Data passed from one controller to another has to be serialized into a URL first. Common
 patterns such as passing `delegate` references or completion handlers forward to new view controllers is not
@@ -286,7 +289,7 @@ will fail to compile because we aren't using the new `artistID` parameter yet. W
  {
    return [self tappableCellDataWithTitle:@"My New Component" selection: ^{
 -    [self.navigationController pushViewController:[[ARMyNewComponentViewController alloc] init] animated:YES];
-+    [self.navigationController pushViewController:[[ARMyNewComponentViewController alloc] initWithArtistID:@"tim-fishlock-bloody"] animated:YES];
++    [self.navigationController pushViewController:[[ARMyNewComponentViewController alloc] initWithArtistID:@"tim-fishlock"] animated:YES];
    }];
  }
 ```
@@ -361,3 +364,4 @@ channel.
 ## Resources / Recommended Reading
 
 - [Relay docs](https://relay.dev)
+- [JavaScriptures session on Relay](https://artsy.github.io/blog/2018/06/13/JavaScriptures-4.1-Relay/)
