@@ -14,7 +14,7 @@ composed of child controllers as the develop sees fit.
 
 </details>
 
-- How does a parameters on the Objective-C view controller `init` method get sent to the React component hierarchy
+- How does a parameter on the Objective-C view controller `init` method get sent to the React component hierarchy
   as a prop?
 
 <details>
