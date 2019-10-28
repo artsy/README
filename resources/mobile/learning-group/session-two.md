@@ -156,7 +156,7 @@ with React Native. Earlier, we said:
 
 `div` is an HTML-specific component, and `Box` is designed to be cross-platform. Let's see what it looks like in
 the Palette source code.
-[`Box` is defined as a "primative view"](https://github.com/artsy/palette/blob/cef079d8a81002533fc9a977d9ba717a9eafd835/packages/palette/src/elements/Box/Box.tsx#L59):
+[`Box` is defined as a "primitive view"](https://github.com/artsy/palette/blob/cef079d8a81002533fc9a977d9ba717a9eafd835/packages/palette/src/elements/Box/Box.tsx#L59):
 
 ```tsx
 export const Box = primitives.View<BoxProps>`
@@ -293,7 +293,7 @@ for more information about how Eigen/Emission routing interop works.)
 
 Okay that's all great, but how do we know where the code lives? If you have a bug report, how do you know where to
 look for the code you'll need to change to fix the bug?
-[We have documented instructions](../mobile/finding-code.md) for this. The process involves finding the _view
+[We have documented instructions](../finding-code.md) for this. The process involves finding the _view
 controller_ for a given user interface, and then working backwards from there. We'll learn about view controllers
 next week.
 
