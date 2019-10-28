@@ -99,7 +99,7 @@ that React Native introduced the `FlatList` component.
 All this dequeuing business takes a lot of code, and `FlatList` handles it all for you. Let's compare what a list
 in React looks like compared to React Native.
 
-```tax
+```tsx
 // In React
 {conversations.map(({item}, index) => ( // Here's the data.
 	<ConversationSnippet // Here's how to render each data item.
