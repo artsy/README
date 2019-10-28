@@ -111,7 +111,7 @@ Open Eigen's `ARSwitchBoard.m` file (⌘⇧O in Xcode). This defines all the rou
      }];
 
 +    [self.routes addRoute:@"/my-new-component/:text" handler:JLRouteParams{
-+        return [[ARMyComponentViewController alloc] init];
++        return [[ARMyNewComponentViewController alloc] init];
 +    }];
 +
      // The menu items' paths are added in ARTopMenuViewController
