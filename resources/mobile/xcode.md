@@ -32,7 +32,7 @@ invoked is different for each one:
 - Opened from Finder, Xcode projects+workspaces can change versions by right-clicking and selecting "Open with...",
   optionally using "Get Info" to make the change permanent.
 - Compiled from the command like, use `xcode-select`. `-p` will print the path to the current Xcode, and `-s` will
-  switch it. For example: `sudo xcode-select -s /Application/Xcode10/Xcode.app`.
+  switch it. For example: `sudo xcode-select -s /Applications/Xcode10/Xcode.app`.
 
 What about simulators? Officially, you need to run the new Xcode versions to use the new iOS version in a
 simulator.
