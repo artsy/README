@@ -33,3 +33,10 @@ Relay container, fetching data from Metaphysics v2. We will cover how to fetch d
 as how Eigen and Emission integrate together to provide client-side API response caches (both Relay and others).
 
 [Materials are here](./session-four.md).
+
+## Session Five
+
+This is the final week. Participants are asked to bring an iOS bug from their product team's backlog that they
+would like to fix as a group.
+
+[Materials are here](./session-five.md).
