@@ -97,10 +97,17 @@ One of the on-call members handles internal and external communication for the i
 - #incidents is for non-on-call people to raise possible incidents or follow up (questions, etc.) about existing
   threads.
 - Resolution happens exclusively in the dedicated slack channel associated with the OpsGenie incident.
-- Meaningful updates, discoveries, or milestones (e.g. changes in availability or resolution) are added to the
-  OpsGenie incident by its responders.
 - Communicate progress and major milestones publicly through statuspage.io. Updates don't need to be specific, but
   it is important that we give customers confidence that we are dealing with the incident.
+  
+#### Updating the Timeline
+The person handling communications for the incident should keep track of meaningful updates, discoveries, or milestones (e.g. changes in availability or resolution) in the OpsGenie timeline.
+
+Don't be afraid to over-communicate. The timeline is only available from within OpsGenie, so there is no risk of alerting external stakeholders. In general, you should post to the timeline much more frequently than you post to the StatusPage.
+
+Keep in mind that the timeline will be referenced later while reviewing the incident. It's important to have as much information captured as possible for piecing together the steps to resolution. If you forget to add an entry in the moment, no worries! OpsGenie allows you to add entries after-the-fact with the correct timestamp.
+
+For an example of a comprehensive timeline, check out [this postmortem report](https://artsy.app.opsgenie.com/reports/post-mortem/b5710803-4bcb-4f0b-a906-4a2343521328/detail)🔒 from 10/29/19.
 
 ## Step 5: Resolve
 
