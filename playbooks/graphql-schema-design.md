@@ -5,15 +5,15 @@ description: What are our best practices for GraphQL Schema Design?
 
 Table of contents:
 
-* [How to model our graph](#how-to-model-our-graph)
-* [Root fields](#root-fields)
-* [Connections over Lists](#connections-over-lists)
-* [ID fields](#id-fields)
-* [Global Object Identification](#global-object-identification)
-* [Schema stitching](#schema-stitching)
-* [Unions instead of Merging Responsibilities](#unions-instead-of-merging-responsibilities)
-* [Mutation Responses as Unions](#mutation-responses-as-unions)
-* [Partial Types over nullability](#partial-types-over-nullability)
+- [How to model our graph](#how-to-model-our-graph)
+- [Root fields](#root-fields)
+- [Connections over Lists](#connections-over-lists)
+- [ID fields](#id-fields)
+- [Global Object Identification](#global-object-identification)
+- [Schema stitching](#schema-stitching)
+- [Unions instead of Merging Responsibilities](#unions-instead-of-merging-responsibilities)
+- [Mutation Responses as Unions](#mutation-responses-as-unions)
+- [Partial Types over nullability](#partial-types-over-nullability)
 
 ## Notes
 
@@ -28,12 +28,14 @@ Table of contents:
   field.
 
 - New fields should use `camelCase` for their name. The reasons for this are:
-  * Most importantly, a lot of legacy fields do not follow what we now consider best conventions and, as we must keep
-    the schema backwards compatible, we cannot update these fields to follow current best conventions. As such, using
-    `camelCase` for new fields gives us this opportunity.
-  * JSON is more closely related to JavaScript than any other language. In [our] JavaScript `camelCase` is idiomatic.
-  * It’s what the [GraphQL specification](http://facebook.github.io/graphql/draft/) uses.
-  * It results in JSON that matches the [Google JSON style-guide][google-json-style-guide].
+
+  - Most importantly, a lot of legacy fields do not follow what we now consider best conventions and, as we must
+    keep the schema backwards compatible, we cannot update these fields to follow current best conventions. As
+    such, using `camelCase` for new fields gives us this opportunity.
+  - JSON is more closely related to JavaScript than any other language. In [our] JavaScript `camelCase` is
+    idiomatic.
+  - It’s what the [GraphQL specification](http://facebook.github.io/graphql/draft/) uses.
+  - It results in JSON that matches the [Google JSON style-guide][google-json-style-guide].
 
 - Whenever a ‘namespace’ would be used in a field by adding a prefix or suffix (e.g. `for_sale_artwork` or
   `location_city`), this should be taken as a clue that this data needs to be nested instead. E.g.
@@ -42,8 +44,8 @@ Table of contents:
   {
     show(id: "kate-oh-gallery-metropolis") {
       # Don’t do this:
-      location_city
-      location_country
+      locationCity
+      locationCountry
       # Instead do this:
       location {
         city
@@ -53,47 +55,18 @@ Table of contents:
   }
   ```
 
-- Design the schema around first class domain-models, not functional details.
+- Design the schema around first class domain-models, not functional details, as long as the resulting API remains
+  intuitive.
 
   For instance, rather than mimicking a back-end endpoint that allows one to filter artworks by defining a
-  `filter_artworks` field that has a nested artworks connection, expose the ability to filter artworks in a plain
-  `artworks` connection field instead.
+  `filterArtworksConnection` field, expose the ability to filter artworks in a plain `artworksConnection` field
+  instead. The key aspect here is that we are trying to expose **artworks**, which are the same as artworks
+  retrieved through other means, only the ‘feed’ they are retrieved from is different and that’s an implementation
+  detail, there is no such model as **filter artworks**.
 
-  The key aspect here is that we are trying to expose **artworks**, which are the same as artworks retrieved
-  through other means, only the ‘feed’ they are retrieved from is different and that’s an implementation detail,
-  there is no such model as **filter artworks**.
-
-  ```graphql
-  # Bad
-  {
-    filter_artworks(aggregations: [TOTAL]) {
-      counts {
-        total
-      }
-      artworks(first: 10) {
-        edges {
-          node {
-            title
-          }
-        }
-      }
-    }
-  }
-
-  # Good
-  {
-    artworks(aggregations: [TOTAL], first: 10) {
-      counts {
-        total
-      }
-      edges {
-        node {
-          title
-        }
-      }
-    }
-  }
-  ```
+  If, however, the two upstream API endpoints are so different that trying to fold them into a single schema field
+  would result in too many mutually exclusive arguments, perhaps that is a signal that indicates these should
+  **not** be merged.
 
 ## Root fields
 
@@ -107,7 +80,8 @@ Table of contents:
 - For the cases where there is no root field, but you still need to be able to retrieve an arbitrary node of the
   graph (e.g. when you need to re-fetch a node without needing to re-fetch all parent nodes along the path from the
   root to said node), there is the special
-  [`node` root field](https://facebook.github.io/relay/graphql/objectidentification.htm).
+  [`node` root field](https://facebook.github.io/relay/graphql/objectidentification.htm). Similarly, when multiple
+  nodes need to be re-fetched, use the `nodes` field–which, at the time of writing, we don’t have yet.
 
   In short, this field is able to retrieve an arbitrary node by using a special ‘global’ ID, which has data encoded
   needed for our system to know the type of that entity and how to retrieve it. For example, based on just
@@ -117,8 +91,8 @@ Table of contents:
 ## Connections over Lists
 
 It is undesirable to have multiple fields that semantically refer to the same data. So rather than defining both
-e.g. an `artworks` field _and_ an `artworks_connection`, simply choose one form applicable to the data and call it
-`artworks`.
+e.g. an `artworks` field _and_ an `artworksConnection`, simply choose one form applicable to the data and call it
+`artworksConnection`.
 
 - A paginated list (such as most associated types) should use ‘connections’ (see
   [the spec](https://facebook.github.io/relay/graphql/connections.htm) and
@@ -137,15 +111,19 @@ e.g. an `artworks` field _and_ an `artworks_connection`, simply choose one form 
 
 ## ID fields
 
-An ID field that refers to e.g. a database ID should be called something like `internalID`, it MUST _never_ be called
-just `id`, as that name is reserved for ‘Global Object Identification’ (further explained in the next section).
+An ID field that refers to e.g. a database ID should be called something like `internalID`, it MUST _never_ be
+called just `id`, as that name is reserved for ‘Global Object Identification’ (further explained in the next
+section).
 
-Its type should be `ID!`, which is a custom string scalar meant to convey that the value is an identifier and is not
-nullable, as database IDs never are `null`.
+Its type should be `ID!`, which is a custom string scalar meant to convey that the value is an identifier and is
+not nullable, as database IDs never are `null`.
 
 ## Global Object Identification
 
-All GraphQL services should follow the [Global Object Identification specification](https://facebook.github.io/relay/graphql/objectidentification.htm). Due to schema stitching, for their IDs services should encode their own service ID for metaphysics to be able to resolve a node ID back to its upstream service.
+All GraphQL services should follow the
+[Global Object Identification specification](https://facebook.github.io/relay/graphql/objectidentification.htm).
+Due to schema stitching, for their IDs services should encode their own service ID for metaphysics to be able to
+resolve a node ID back to its upstream service.
 
 For instance, Exchange should encode an Order with ID 42 as follows:
 
@@ -153,9 +131,9 @@ For instance, Exchange should encode an Order with ID 42 as follows:
 Base64("exchange:Order:42")
 ```
 
-In the example, metaphysics only really cares about the first component, which MUST be a `lower-case` version of the
-service’s name. What metaphysics will do for its `node` root-field is match to match on that first component to know
-that it should send that query on to Exchange’s `node` root-field.
+In the example, metaphysics only really cares about the first component, which MUST be a `lower-case` version of
+the service’s name. What metaphysics will do for its `node` root-field is match to match on that first component to
+know that it should send that query on to Exchange’s `node` root-field.
 
 ## Schema stitching
 
@@ -182,11 +160,11 @@ micro-services.
   }
   ```
 
-  Make `submissions` a root field that takes a `user_id` argument:
+  Make `submissions` a root field that takes a `userID` argument:
 
   ```graphql
   {
-    submissions(user_id: 42) {
+    submissions(userID: 42) {
       # ...
     }
   }
@@ -222,10 +200,10 @@ sending a physical object to a person, they could get it in a few ways. Instead 
 type Order {
   item: Thing
 
-  is_pickup: Boolean!
+  isPickup: Boolean!
 
-  address_1: String!
-  address_2: String
+  address1: String!
+  address2: String
   country: String!
   phone: String!
 }
@@ -239,8 +217,8 @@ type Pickup {
 }
 
 type Mail {
-  address_1: String!
-  address_2: String
+  address1: String!
+  address2: String
   country: String!
   phone: String!
 }
@@ -256,7 +234,7 @@ type Order {
 
 This ensures that:
 
-- You can never end up in a state where `is_pickup` is true, but there is address metadata available
+- You can never end up in a state where `isPickup` is true, but there is address metadata available
 - You can safely extend `Shipping` with a new type (like a digital work with a url/email)
 - Clients need to specify and be aware of the objects they want to handle when making queries
 
@@ -373,4 +351,5 @@ _Note:_ You don't have to structure the data in your database like this. The dif
 `submitted` and `drafts` could be a lookup for a `state` field on an object being "submitted". The key concept is
 that you can declare something as being after data validation has occurred.
 
-[google-json-style-guide]: https://google.github.io/styleguide/jsoncstyleguide.xml?showone=Property_Name_Format#Property_Name_Format
+[google-json-style-guide]:
+  https://google.github.io/styleguide/jsoncstyleguide.xml?showone=Property_Name_Format#Property_Name_Format
