@@ -92,7 +92,7 @@ change should be addressed by the relevant team.
 
 ### Communicate
 
-One of the on-call members handles internal and external communication for the incident.
+One of the on-call members handles internal and external communication for the incident. Assign this person to the Communications Officer role in OpsGenie.
 
 - #incidents is for non-on-call people to raise possible incidents or follow up (questions, etc.) about existing
   threads.
@@ -101,9 +101,9 @@ One of the on-call members handles internal and external communication for the i
   it is important that we give customers confidence that we are dealing with the incident.
   
 #### Updating the Timeline
-The person handling communications for the incident should keep track of meaningful updates, discoveries, or milestones (e.g. changes in availability or resolution) in the OpsGenie timeline.
+The Communications Officer should keep track of meaningful updates, discoveries, or milestones (e.g. changes in availability or resolution) in the OpsGenie timeline.
 
-Don't be afraid to over-communicate. The timeline is only available from within OpsGenie, so there is no risk of alerting external stakeholders. In general, you should post to the timeline much more frequently than you post to the StatusPage.
+Don't be afraid to over-communicate. The timeline is only available from within OpsGenie, so there is no risk of alerting external stakeholders. In general, you should post to the timeline as any progress is made on the incident, and much more frequently than you post to the StatusPage.
 
 Keep in mind that the timeline will be referenced later while reviewing the incident. It's important to have as much information captured as possible for piecing together the steps to resolution. If you forget to add an entry in the moment, no worries! OpsGenie allows you to add entries after-the-fact with the correct timestamp.
 
