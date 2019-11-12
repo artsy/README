@@ -16,7 +16,7 @@ Let's kick off another session of Artsy Learns to Code!
 - Build empathy across Artsy
 - It's fun! Boosts morale
 - Empowers non-technical people
-- Gets engineers used to active teaching for non-technical people
+- Gets engineers used to teaching regularly
 
 ## Features
 
@@ -43,6 +43,25 @@ should be following. Instead, groups can set their own cadence and work on a sch
 
 Then groups can decide on what they might want to make with p5.js, and mentors can guide them.
 
+### Some Core Competencies We Could Aim Teach
+
+- Fundamentals:
+  - Syntax
+  - Data types & Variables
+  - Conditionals
+  - Functions
+  - Loops
+  - Arrays
+  - Objects
+- Web Development:
+  - What is a library/package?
+  - How does JS/CSS/HTML interact with each other?
+  - What is a server? A client?
+- More General Software Development:
+  - Algorithms
+  - Classes/OOP
+  - SQL
+
 ## Expectations of Learners
 
 - Passion to learn and try something new
@@ -51,8 +70,9 @@ Then groups can decide on what they might want to make with p5.js, and mentors c
 
 ## Expectations of Mentoring Engineers
 
+- Mentors should expect to spend 1-2 hrs a week of their time to meet regularly and answer questions async on slack
 - Mentors should feel empowered to come up with their own teaching plan (and ideally share it with the rest of the
-  mentors)
+  mentors!). Note: mentors should consider the extra time required to craft their own teaching plan.
 - Act as a resource for when learners have questions
 - Act as a motivator for when learners get frustrated
   - Normalize frustration (https://www.youtube.com/watch?v=QYjPBcqo1-s)
