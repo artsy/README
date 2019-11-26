@@ -1,29 +1,32 @@
 name,ring,quadrant,isNew,description
-GraphQL,adopt,languages & frameworks,TRUE,
-Objective-C,adopt,languages & frameworks,FALSE,
+GraphQL,adopt,languages & frameworks,TRUE,"Appreciated for its flexibility and efficiency for clients."
+JSON,adopt,languages & frameworks,FALSE,"We prefer JSON over most other data formats for its self-describing properties."
+Objective-C,adopt,languages & frameworks,FALSE,"We generally opt for React Native, but when necessary for quality or usability, we will build native features in Objective-C using UIKit. Core Eigen infrastructure and React Native itself is written in Objective-C."
 Rails,adopt,languages & frameworks,FALSE,
-React Native,adopt,languages & frameworks,FALSE,
-React Native,adopt,languages & frameworks,FALSE,
+React Native,adopt,languages & frameworks,FALSE,"New iOS work should use React Native. See also Objective-C."
 React.js,adopt,languages & frameworks,FALSE,
 Relay,adopt,languages & frameworks,FALSE,
 Ruby,adopt,languages & frameworks,FALSE,
+Spark,adopt,languages & frameworks,FALSE,"Artsy manages a Spark cluster and patterns exist to load data from the main Gravity database as well as other systems, distribute processing among all of the available nodes, and interact with S3, HDFS, or Redshift. See the Cinder repo."
 SQL,adopt,languages & frameworks,FALSE,
 styled-components,adopt,languages & frameworks,FALSE,
 Typescript,adopt,languages & frameworks,FALSE,
-UIKit,adopt,languages & frameworks,FALSE,
+UIKit,adopt,languages & frameworks,FALSE,"See Objective-C."
 AWS,adopt,platforms,FALSE,
 Docker,adopt,platforms,FALSE,
 HSTS,adopt,platforms,FALSE,
-Kubernetes,adopt,platforms,FALSE,
+Kubernetes,adopt,platforms,FALSE,"We manage staging and production clusters, and have solutions for logging, monitoring, alerting, scaling, and routing. See Hokusai and Substance repos."
 Redis,adopt,platforms,FALSE,
+Responsive web pages,adopt,techniques,FALSE,"Rather than mobile- or desktop-specific designs, we prefer pages to degrade gracefully."
 Babel,adopt,tools,TRUE,"This is the description. You can use basic html such as the <strong>strong tag to emphasise keywords and phrases</strong> and insert <a href=""https://www.thoughtworks.com"">anchor links to documentation and referance material</a>."
-CircleCI,adopt,tools,FALSE,
+CircleCI,adopt,tools,FALSE,"for continuous integration over other services like Travis or Semaphore. Shared orbs and contexts help our projects apply best practices."
 Cloudflare,adopt,tools,TRUE,
 Datadog APM,adopt,tools,FALSE,
+Elasticsearch,adopt,tools,FALSE,"for search, similarity, and sophisticated filtering"
 Fastlane,adopt,tools,FALSE,
 Grafana,adopt,tools,FALSE,
-Postgresql,adopt,tools,FALSE,
-RabbitMQ,adopt,tools,FALSE,
+Postgresql,adopt,tools,FALSE,"We rely on Heroku or Amazon's RDS to host these databases. Though MongoDB was chosen to host core API data, in the long run we found the data (and maybe all data) to be more relational than document-oriented."
+RabbitMQ,adopt,tools,FALSE,"Its stream allows source systems to publish their notable events and other systems to subscribe as desired. This avoids coupling systems directly. After evaluating Kafka for this purpose, we had more operational success with RabbitMQ."
 Sidekiq,adopt,tools,FALSE,
 Terraform,adopt,tools,FALSE,
 Webpack,adopt,tools,FALSE,
@@ -45,6 +48,7 @@ Swift,hold,languages & frameworks,FALSE,
 AWS Lambda,hold,platforms,TRUE,
 Google cloud,hold,platforms,FALSE,
 Bug bounties,hold,techniques,FALSE,
+Hypermedia,hold,techniques,FALSE,"While discoverable and easy to consume, we've found hypermedia APIs inefficient to consume."
 Serverless architecture,hold,techniques,TRUE,
 Consul,hold,tools,FALSE,
 Jenkins CI/CD,hold,tools,FALSE,
