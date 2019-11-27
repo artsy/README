@@ -34,7 +34,8 @@ When new systems, technologies, or architectures are considered, we document the
 a [technical plan document](https://github.com/artsy/README/issues/245)
 ([examples](https://www.notion.so/artsy/Technical-Plans-f94b206fcec54cee8b4d864e67d5b70f)🔒). This document is a
 good place to state the problem, surface questions, and list possible approaches. Feedback should be invited from
-relevant experts within the team and beyond.
+relevant experts within the team _and beyond_, because these circumstances are rarely unique, and the choices tend
+to outlive specific engineers or even teams.
 
 Sometimes consensus can be achieved with the document alone, but often a [technology review]() discussion helps
 resolve open questions. Ultimately, a team's engineers should recommend a path forward. If there still isn't clear
@@ -44,12 +45,12 @@ When a plan depends on technology that isn't in the "adopt" category, it's worth
 
 - justify the suitability of the choice
 - document the goals of the "trial"
-- limit any production risk
+- limit any production risk or organizational burden
 - if successful, plan to deprecate competing or overlapping technologies
 
 ## Frequently Asked Questions
 
-#### `<So and so>` is an interesting technology to keep an eye on.
+#### _Helm_ (e.g.) is an interesting technology to keep an eye on.
 
 It sure is!
 
@@ -58,17 +59,23 @@ It sure is!
 Sounds like it should be **assess**ed. Go ahead and add it (via pull request) to the radar. This is also a great
 time for spikes or proofs-of-concept.
 
-#### I think we should incorporate `<some new technology, language, or approach>` into our stack!
+#### I think we should incorporate _Sorbet_ (e.g.) into our stack!
 
 Propose a [technical plan](#technical-plans-and-review) for how this choice could be trialed in production. Make
 clear the goals of the trial and potential benefits it offers. If replacing an alternative, consider whether we
 would consolidate on the new choice (and _how_) or support multiple approaches. Specify a target timeline for
 deciding about the trial either way. Avoid trialing multiple unproven things in the same project or system.
 
-#### We've had a positive experience with `<something>` and should adopt it in more places.
+#### We've had a positive experience with _Phoenix_ (e.g.) and should adopt it in more places.
 
-Congrats! Is there a critical mass of engineers comfortable working with this tech? If so, consider a lunch & learn
-or practice meeting discussion to review your experience and share any lessons. Make a pull request to the radar
-and make sure to request comments from the relevant engineers or experts. Remember that it may not be sufficient to
-just "adopt" a new choice. If this replaces an alternative that's in place at Artsy, that should probably move to
-"hold" and a strategy be decided for migrating away (e.g., opportunistically or deliberately).
+Congrats! Is there a critical mass of engineers (`>=3`) comfortable working with this tech? If so, consider a lunch
+& learn or practice meeting discussion to review your experience and share any lessons. Make a pull request to the
+radar and make sure to request comments from the relevant engineers or experts. Remember that it may not be
+sufficient to just "adopt" a new choice. If this replaces an alternative that's in place at Artsy, that should
+probably move to "hold" and a strategy be decided for migrating away (e.g., opportunistically or deliberately).
+
+#### I just want to build a feature _this_ way or with _this_ library. Is a technical plan necessary?
+
+Use your judgment. Minor dependency selections may not warrant broad input. If a library or approach influences how
+future code will be written or how other developers will work, though, it's worth a time-out to get feedback,
+consider competing options, and choose deliberately.
