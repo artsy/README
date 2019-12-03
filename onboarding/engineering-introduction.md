@@ -113,7 +113,7 @@ which evolved from a Rails monolith.
 ### Artsy APIs and concepts
 
 See [apis](https://github.com/artsy/potential/blob/master/apis/README.md) 🔒 and
-[domain models](https://github.com/artsy/potential/blob/master/platform/DomainModels.md) in Potential.
+[domain models](https://github.com/artsy/potential/blob/master/platform/DomainModels.md) 🔒 in Potential.
 
 ## How We Work
 
