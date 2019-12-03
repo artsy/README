@@ -27,7 +27,7 @@ description: Things for managers to remember during the early days of onboarding
 - [ ] Introduce new hire to their mentor
 - [ ] When they are set up with Slack add them to the `@developers`
       [user group](https://artsy.slack.com/admin/user_groups) 🔒, which should automatically invite them to
-      developer related channels, and invite them to channels relavent to the individual
+      developer related channels, and invite them to channels relevant to the individual
 
 ### Week 1
 
