@@ -25,16 +25,14 @@ It's up to the mentoring pair to find what works best for them and to ensure the
 - Keep tabs on your mentee's schedule. Their first day will be full of paperwork and meetings with People Ops but some good tasks for a mentor:
   - Introduce yourself
   - Set a time for an [introductory coffee or tea](#your-first-meeting)
-  - Get in touch with the mentee's manager
-  - (Re-)familiarize yourself with people resources across the company that will be important to your mentee:
-    - Point people in Workplace & People Ops
-    - Their manager
-    - Their team lead
-    - Artsy atlas, calendars, benefit websites, mail filters, Jira and Github management tools...
+  - Introduce the engineering team activities (Monday stand-up, Lunch & Learn, Demo Days, etc.)
+  - Introduce the on-call process
+  - (If we the mentor is on the new hire's first rotation team) introduce current team projects
   
 
 ### Your first meeting
 Get to know each other. This can be a nice, casual conversation. Focus on active listening.
+
 - Talk about your own history at and before joining Artsy
 - Where are they coming from?
   - If they will be remote, where are they from? What is it like there & what works for them in terms of remote work?
@@ -45,9 +43,15 @@ Get to know each other. This can be a nice, casual conversation. Focus on active
 
 ### Your first week
 - Check in to make sure your onboardee is moving forward in their checklist. Common stumbling areas include stale steps in the developer setup and getting invited to myriad organizations, lists and websites (slack, jira, github, notion, heroku, aws+hokusai, zeplin, ...)
+  - Be available to troubleshoot checklist items.
+  - Encourage (pair) on documenting problems with the checklist.
 - Look for chances to pair or work alongside one another throughout the week.
   - If their early work hasn't exposed them to `artsy/gravity`, consider pairing on something trivial or just setting it up, breaking and fixing a test.
   - If they haven't set up hokusai yet, consider pairing on that.
+  - Notice what types of tasks they are good at and connect them to engineers who share that strength. (https://dev.to/flippedcoding/how-to-be-a-good-software-engineer-mentor-4b)
+  - Notice what types of tasks they struggle with and connect them to engineers who can help. (https://dev.to/flippedcoding/how-to-be-a-good-software-engineer-mentor-4b)
+  - Encourage improvements to READMEs while setting up projects.
+- Take your onboardee to team meetings and explain any business context after attending.
 - Try to have another meeting towards the end of the week- **especially** if they are leaving New York. Revisit things you talked about in the first meeting and look for areas that could have gone better. Consider amending relevant documents like this one.
 
 ### Your first year
