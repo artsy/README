@@ -44,3 +44,5 @@ rotations, the engineer will join a team on a more stable basis.
   - reviewing the [team's documentation](https://www.notion.so/artsy/Product-470238180cf94c87906ef1d3ee259e05)🔒
   - [`good-first-issue` tickets](https://artsyproduct.atlassian.net/issues/?jql=labels%20%3D%20good-first-issue)
     within the team's backlog
+- Schedule a convenient time (30 minutes should be sufficient) with the product manager to be introduced to the
+  team's goals and metrics.
