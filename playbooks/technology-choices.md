@@ -21,9 +21,9 @@ adopting, and retiring technologies:
   your project seems like a fit.
 - **Assess:** Technologies we are interested in and maybe even built proofs-of-concept for, but haven't yet trialed
   in production.
-- **Hold:** We haven't had good experiences with these technologies and warn that they should be avoided as flawed
-  or immature. In some cases these remain in legacy production uses, but we should take every opportunity to retire
-  or migrate away.
+- **Hold:** Based on our experience, these technologies should be avoided. We've found them to be flawed, immature,
+  or simply supplanted by better alternatives. In some cases these remain in legacy production uses, but we should
+  take every opportunity to retire or migrate away.
 
 Artsy's current choices can be edited in [technology_radar/data.csv](/playbooks/technology_radar/data.csv) and
 [viewed in radar format here](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fartsy%2Freadme%2Fmaster%2Fplaybooks%2Ftechnology_radar%2Fdata.csv).
@@ -35,7 +35,7 @@ a [technical plan document](https://github.com/artsy/README/issues/245)
 ([examples](https://www.notion.so/artsy/Technical-Plans-f94b206fcec54cee8b4d864e67d5b70f)🔒). This document is a
 good place to state the problem, surface questions, and list possible approaches. Feedback should be invited from
 relevant experts within the team _and beyond_, because these circumstances are rarely unique, and the choices tend
-to outlive specific engineers or even teams.
+to outlast specific projects or even teams.
 
 Sometimes consensus can be achieved with the document alone, but often a [technology review]() discussion helps
 resolve open questions. Ultimately, a team's engineers should recommend a path forward. If there still isn't clear
@@ -72,10 +72,11 @@ Congrats! Is there a critical mass of engineers (`>=3`) comfortable working with
 & learn or practice meeting discussion to review your experience and share any lessons. Make a pull request to the
 radar and make sure to request comments from the relevant engineers or experts. Remember that it may not be
 sufficient to just "adopt" a new choice. If this replaces an alternative that's in place at Artsy, that should
-probably move to "hold" and a strategy be decided for migrating away from the old tech (e.g., opportunistically or deliberately).
+probably move to "hold" and a strategy be decided for migrating away from the old tech (e.g., opportunistically or
+deliberately).
 
 #### I just want to build a feature _this_ way or with _this_ library. Is a technical plan necessary?
 
 Use your judgment. Minor dependency selections may not warrant broad input. If a library or approach influences how
-future code will be written or how other developers will work, though, it's worth a time-out to get feedback,
-consider competing options, and choose deliberately.
+future code will be written or how other developers will work, though, it's often worth a time-out to consider
+competing options, get feedback, choose deliberately, and document the choice.
