@@ -14,9 +14,6 @@ description: The best-of from our archives
 
 ## Folks at Artsy
 
-- [What dB does](https://www.dropbox.com/home/Everyone%20at%20Artsy/Lunch%20&%20Learn/2018-10-11%20-%20What%20Does%20dB%20Do)
-  🔒
-- [What Devang does](https://www.dropbox.com/home/Everyone%20at%20Artsy/Lunch%20&%20Learn/2018-08-17%20-%20What%20Does%20Devang%20Do)
   🔒
 - [What is Product Marketing?](https://www.dropbox.com/home/Everyone%20at%20Artsy/Lunch%20&%20Learn/2018-11-08%20-%20What%20is%20Product%20Marketing%20with%20Liz%20Derby)
   🔒
