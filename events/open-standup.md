@@ -3,6 +3,8 @@ title: Open Standup
 description: How do we do whole-team standup at Artsy?
 ---
 
+<!-- NOTE: When making updates to this document, please also update the Notion template https://www.notion.so/artsy/Month-Day-Year-fbc9df949fef430a9f9359f34158dec6 -->
+
 # Dev Team Standup at Artsy
 
 We've been doing engineering stand-ups for as long as there has been an engineering team. The format has changed
