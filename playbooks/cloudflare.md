@@ -19,9 +19,7 @@ To route requests through Cloudflare's firewall...
 
 1) A [DNS record for artsy.net](https://dash.cloudflare.com/0373426be7be649ff052277fb5377c4f/artsy.net/dns) is created in Cloudflare's interface providing the CNAME of the ELB backing the given service.  You can obtain the DNS record of the ELB for a service by running `hokusai [staging|production] status` and looking at the `EXTERNAL-IP` column for the service record.
 
-2) The DNS record [provided by Dyn](https://manage.dynect.net) is set to `*.artsy.net.cdn.cloudflare.net.` where `*` is the name of the record in Cloudflare's DNS settings.
-
-3) The value `loadBalancerSourceRanges` is set on the [service ELB](https://github.com/artsy/force/blob/master/hokusai/production.yml#L143) restricting traffic coming from Cloudflare's edge nodes
+2) The value `loadBalancerSourceRanges` is set on the [service ELB](https://github.com/artsy/force/blob/master/hokusai/production.yml#L143) restricting traffic coming from Cloudflare's edge nodes
 
 With this setup, Cloudflare resolves requests to IPs of their edge nodes, then makes requests to our ELBs as origin servers.
 
