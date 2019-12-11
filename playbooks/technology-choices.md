@@ -16,17 +16,18 @@ adopting, and retiring technologies:
 
 - **Adopt:** Reasonable defaults for most work. These choices have been exercised successfully in production at
   Artsy and there is a critical mass of engineers comfortable working with them.
-- **Trial:** These technologies are being evaluated in limited production circumstances. We don't have enough production
-  experience to recommend them for high-risk or business-critical use cases, but they may be worth consideration if
-  your project seems like a fit.
+- **Trial:** These technologies are being evaluated in limited production circumstances. We don't have enough
+  production experience to recommend them for high-risk or business-critical use cases, but they may be worth
+  consideration if your project seems like a fit.
 - **Assess:** Technologies we are interested in and maybe even built proofs-of-concept for, but haven't yet trialed
   in production.
 - **Hold:** Based on our experience, these technologies should be avoided. We've found them to be flawed, immature,
   or simply supplanted by better alternatives. In some cases these remain in legacy production uses, but we should
   take every opportunity to retire or migrate away.
 
-Artsy's current choices can be edited in [technology_radar/data.csv](/playbooks/technology_radar/data.csv) and
-[viewed in radar format here](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fartsy%2Freadme%2Fmaster%2Fplaybooks%2Ftechnology_radar%2Fdata.csv).
+Artsy's current choices can be edited in
+[technology_radar/artsy-tech-radar.csv](/playbooks/technology_radar/artsy-tech-radar.csv) and
+[viewed in radar format here](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fartsy%2Freadme%2Fmaster%2Fplaybooks%2Ftechnology_radar%2Fartsy-tech-radar.csv).
 
 ## Technical Plans and Review
 
