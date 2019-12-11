@@ -6,106 +6,77 @@ description: Evaluating and adopting new technology at Artsy
 **High-level architecture and technology choices** are some of the most important and carefully considered
 decisions we make as engineers.
 
-## Adopting new technology at Artsy
+## Evolving Technology at Artsy
 
-We want to accomplish a lot with a lean team. This means we must choose stable technologies, but also that we must
-leverage the work of others (e.g., open source) extensively. We rely on individual engineers' judgment to decide
-what libraries, stacks, tools, etc. suit each use case, but here are some suggested criteria for incorporating new
-technology into the Artsy platform:
+We want to accomplish a lot with a lean team, which means we must
+[choose stable technologies](http://boringtechnology.club/). However, we also want to adopt best-of-breed
+technologies or best-suited tools to a given need, which may need work or still be evolving. We've borrowed from
+[ThoughtWorks' Radar](https://www.thoughtworks.com/radar/faq) to define the following stages for evaluating,
+adopting, and retiring technologies:
 
-- **Experimental** technologies are being assessed or evaluated. They:
-  - are suitable for proofs-of-concept
-  - can be applied to low-risk (e.g., internal) production projects
-  - shouldn't block time-sensitive product efforts
-- **Adopted** technologies represent reasonable, default choices. They:
-  - can be worked on by a critical mass of Artsy engineers
-  - have been exercised enough in production _at Artsy_ for bugs/gotchas to emerge, and for common usage patterns
-    to be established
-  - can be employed during routine product work without deep tool/library-specific expertise
-  - have library support that doesn't require [much] upstream work to fix
-- **Deprecated** technologies may remain in production but should be replaced [by _adopted_ choices]
-  opportunistically.
+- **Adopt:** Reasonable defaults for most work. These choices have been exercised successfully in production at
+  Artsy and there is a critical mass of engineers comfortable working with them.
+- **Trial:** These technologies are being evaluated in limited production circumstances. We don't have enough production
+  experience to recommend them for high-risk or business-critical use cases, but they may be worth consideration if
+  your project seems like a fit.
+- **Assess:** Technologies we are interested in and maybe even built proofs-of-concept for, but haven't yet trialed
+  in production.
+- **Hold:** Based on our experience, these technologies should be avoided. We've found them to be flawed, immature,
+  or simply supplanted by better alternatives. In some cases these remain in legacy production uses, but we should
+  take every opportunity to retire or migrate away.
 
-This framework is similar to the Hold/Assess/Trial/Adopt framework popularized by the
-[ThoughtWorks technology radar](https://www.thoughtworks.com/radar/faq). A draft technology radar that's specific
-to Artsy can be edited in [technology_radar/data.csv](/playbooks/technology_radar/data.csv) and viewed
-[here](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fartsy%2Freadme%2Fmaster%2Fplaybooks%2Ftechnology_radar%2Fdata.csv)
+Artsy's current choices can be edited in [technology_radar/data.csv](/playbooks/technology_radar/data.csv) and
+[viewed in radar format here](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fartsy%2Freadme%2Fmaster%2Fplaybooks%2Ftechnology_radar%2Fdata.csv).
 
-Said in stronger terms, [choose boring technology](http://mcfunley.com/choose-boring-technology) because we expect
-our business and product to generate enough risk already. And when in doubt (or in the rare cases when goals are
-too difficult to achieve with existing tools), have an open conversation with the wider team so considerations are
-shared and choices are deliberate.
+## Technical Plans and Review
 
-## Technology Roadmap
+When new systems, technologies, or architectures are considered, we document their rationale and gather feedback in
+a [technical plan document](https://github.com/artsy/README/issues/245)
+([examples](https://www.notion.so/artsy/Technical-Plans-f94b206fcec54cee8b4d864e67d5b70f)🔒). This document is a
+good place to state the problem, surface questions, and list possible approaches. Feedback should be invited from
+relevant experts within the team _and beyond_, because these circumstances are rarely unique, and the choices tend
+to outlast specific projects or even teams.
 
-These are some of the technologies we prefer for common challenges, as well as evolutions in our thinking:
+Sometimes consensus can be achieved with the document alone, but often a [technology review]() discussion helps
+resolve open questions. Ultimately, a team's engineers should recommend a path forward. If there still isn't clear
+agreement, you may want to revisit the problem and rationale (or just ask engineering leadership to weigh in).
 
-### Tools
+When a plan depends on technology that isn't in the "adopt" category, it's worth special care to:
 
-- **PostgresQL** for common data storage needs. We rely on Heroku or Amazon's RDS to host these databases. Though
-  MongoDB was chosen to host core API data, in the long run we found the data (and maybe all data) to be more
-  relational than document-oriented.
-- **Spark** jobs for data-intensive processing or learning tasks. Patterns exist for
-  [our cluster](http://spark.artsy.net:7180/) to load data from the main Gravity database as well as other systems,
-  distribute processing among all of the available nodes, and interact with S3, HDFS, or Redshift. See
-  [Cinder](https://github.com/artsy/cinder).
-- **CircleCI** for continuous integration over other services like Travis or Semaphore. See
-  [projects](https://circleci.com/build-insights/gh/artsy).
-- **JSON** over most other data formats.
-- **Kubernetes** over Heroku and AWS Opsworks for simple system deployments (or even some complex ones). We've
-  built out clusters, monitoring, and logging, and have solutions for common needs like data storage, CI, crons,
-  and shells. It's still the early days but production-ready. The [hokusai](https://github.com/artsy/hokusai)
-  utility embeds many of our adopted practices, or see [the production dash](https://kubernetes.artsy.net).
-- **Elasticsearch** for search, similarity, and sophisticated filtering. It replaces a large number of alternative
-  solutions including Solr, offline indexes, and data snapshots.
-- **Hypermedia** (usually [HAL](http://stateless.co/hal_specification.html)) is preferred over custom resource-ful
-  APIs. We like the self-documenting properties of a HAL API as well as how easily it can be consumed by clients
-  (e.g., via [`hyperclient`](<(https://github.com/codegram/hyperclient)>). There remain concerns about clients
-  being able to efficiently traverse large sets or extended relations, so these days for most purposes we prefer:
-- **GraphQL** is our go-to option for API communication, popular for the focused, customizable responses and direct
-  applicability to client views. There are concerns include efficiency.
-- **RabbitMQ** offers a lightweight alternative to choosing _any_ API between systems. Its stream allows source
-  systems to publish their notable events and other systems to subscribe as desired. The events themselves tend to
-  be minimal JSON blobs, so some other data-sharing (e.g., via API) may be required. We prefer joining systems in
-  this event-oriented way over directly invoking downstream systems from upstream ones.
+- justify the suitability of the choice
+- document the goals of the "trial"
+- limit any production risk or organizational burden
+- if successful, plan to deprecate competing or overlapping technologies
 
-### The Artsy Ecosystem
+## Frequently Asked Questions
 
-- **Focused services** over monolithic projects to ease developers' cognitive overhead, speed development and
-  testing, and allow for flexible technology evolution (see above). Projects can be focused around a _function_
-  (such as messaging) or a _domain_ (such as consignments).
-- **Focused, smaller management utilities** over earlier iterations of admin utilities such as
-  [Torque](https://admin.artsy.net). Examples include [CMS](https://cms.artsy.net)
-  ([Volt](https://github.com/artsy/volt)) for partners, [Helix](https://helix.artsy.net) for genomers, and
-  [auctions.artsy.net](https://auctions.artsy.net) ([Ohm](https://github.com/artsy/ohm)) for managing sales. We aim
-  to _opportunitistically_ transition remaining administrative functions (such as for inquiries or users) to new
-  tools.
-- **Opaque IDs** over "slugs" for any programmatic access. While slugs are more friendly for URLs, they can change
-  in practice so we prefer more opaque, permanent identifiers when used internally or programmatically.
-- **Direct database exports** for extracting data from source systems into Redshift. In general we prefer loading
-  raw source data into the warehouse and performing aggregation or calculations there (over synthesizing in source
-  apps' code and exporting just the results). See Fulcrum's demonstration of extracting from
-  [Mongodb sources](https://github.com/artsy/fulcrum/blob/master/lib/fulcrum/extract/gravity_extracts.rb) 🔒 such
-  as Gravity's or [Postgres sources](https://github.com/artsy/fulcrum/blob/master/tasks/extract.rake) 🔒.
-- **Artwork objects** over artwork pages. While much of our early infrastructure focused on serving content in the
-  form artsy.net required, we expect our future product needs to demand more accurate representation of art world
-  realities. That includes greater pricing variants, traceable provenance, an understanding of condition, physical
-  location, and important distinctions among editions, sizes, and versions of a work.
-- **Gravity's v2 API** corrects some of the out-of-favor patterns from v1. It also accommodates clients that are
-  external to Artsy (usually only permitting them to access public-domain works). It is still far less complete
-  than v1, but has strong patterns in place for making additions. Clients wanting to avoid implementing custom
-  API-consuming code or ensure greater forward-compatibility can leverage v2 today.
-- **Causality** for auction state. Historically, auctions were handled by the main API. Causality includes a
-  better-suited architecture for near-real-time event handling. It currently exclusively handles processing of live
-  auction events and shadows the Gravity bidding engine for timed auctions. Eventually, it aims to be the
-  source-of-truth for all auction state.
-- **Responsive page designs** over separate mobile designs or implementations. In this way we aim to get the most
-  leverage from the least code and share a design library and components. As more of our usage in general
-  transitions to mobile, it's critical that those visitors have at least parity with the desktop experience.
-- **Mobile software development** is split across two frameworks and three languages: native code is written with
-  UIKit in Objective-C and Swift, while React Native development is done with TypeScript. Our mobile language of
-  choice is Objective-C because core infrastructure of our app, [Eigen](https://github.com/artsy/eigen), is written
-  in it. Additionally, React Native itself is also written in Objective-C. New features in our iOS app should be
-  written using React Native. Our goal when using React Native is to never compromise on software quality for the
-  sake of a cross-platform framework, so sometimes we do need to write native
-  code in Objective-C, using UIKit.
+#### _Helm_ (e.g.) is an interesting technology to keep an eye on.
+
+It sure is!
+
+#### No, seriously. It might be a great fit for Artsy's needs.
+
+Sounds like it should be **assess**ed. Go ahead and add it (via pull request) to the radar. This is also a great
+time for spikes or proofs-of-concept.
+
+#### I think we should incorporate _Sorbet_ (e.g.) into our stack!
+
+Propose a [technical plan](#technical-plans-and-review) for how this choice could be trialed in production. Make
+clear the goals of the trial and potential benefits it offers. If replacing an alternative, consider whether we
+would consolidate on the new choice (and _how_) or support multiple approaches. Specify a target timeline for
+deciding about the trial either way. Avoid trialing multiple unproven things in the same project or system.
+
+#### We've had a positive experience with _Phoenix_ (e.g.) and should adopt it in more places.
+
+Congrats! Is there a critical mass of engineers (`>=3`) comfortable working with this tech? If so, consider a lunch
+& learn or practice meeting discussion to review your experience and share any lessons. Make a pull request to the
+radar and make sure to request comments from the relevant engineers or experts. Remember that it may not be
+sufficient to just "adopt" a new choice. If this replaces an alternative that's in place at Artsy, that should
+probably move to "hold" and a strategy be decided for migrating away from the old tech (e.g., opportunistically or
+deliberately).
+
+#### I just want to build a feature _this_ way or with _this_ library. Is a technical plan necessary?
+
+Use your judgment. Minor dependency selections may not warrant broad input. If a library or approach influences how
+future code will be written or how other developers will work, though, it's often worth a time-out to consider
+competing options, get feedback, choose deliberately, and document the choice.
