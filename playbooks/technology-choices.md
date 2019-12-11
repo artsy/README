@@ -16,7 +16,7 @@ adopting, and retiring technologies:
 
 - **Adopt:** Reasonable defaults for most work. These choices have been exercised successfully in production at
   Artsy and there is a critical mass of engineers comfortable working with them.
-- **Trial:** These are being evaluated in limited production circumstances. We don't have enough production
+- **Trial:** These technologies are being evaluated in limited production circumstances. We don't have enough production
   experience to recommend them for high-risk or business-critical use cases, but they may be worth consideration if
   your project seems like a fit.
 - **Assess:** Technologies we are interested in and maybe even built proofs-of-concept for, but haven't yet trialed
