@@ -1,10 +1,22 @@
 ---
 title: Technology choices
-description: Evaluating and adopting new technology at Artsy
+description: How to make technology decisions at Artsy
 ---
 
 **High-level architecture and technology choices** are some of the most important and carefully considered
-decisions we make as engineers.
+decisions we make as engineers. This document goes into a lot of detail around how we made decisions, but the short
+version is:
+
+- If you have an idea,
+  [write a technical plan](https://www.notion.so/artsy/Technical-Plans-f94b206fcec54cee8b4d864e67d5b70f), then...
+- Share the plan with the team: bring it up
+  [at standup](https://github.com/artsy/README/blob/master/events/open-standup.md) in "cross-team dependencies" and
+  share it in Slack.
+
+This applies for really big ideas, and sometimes small ones, too! Check the [FAQ](#frequently-asked-questions) for
+more context. Writing a technical plan is the go-to solution for making technology decisions at Artsy because even
+if the decision is uncontroversial, the exercise of writing a plan will help guide your thought process _and_ will
+record the rationale for the decision. (This is historical context is super-userful.) You got this!
 
 ## Evolving Technology at Artsy
 
@@ -16,9 +28,9 @@ adopting, and retiring technologies:
 
 - **Adopt:** Reasonable defaults for most work. These choices have been exercised successfully in production at
   Artsy and there is a critical mass of engineers comfortable working with them.
-- **Trial:** These technologies are being evaluated in limited production circumstances. We don't have enough production
-  experience to recommend them for high-risk or business-critical use cases, but they may be worth consideration if
-  your project seems like a fit.
+- **Trial:** These technologies are being evaluated in limited production circumstances. We don't have enough
+  production experience to recommend them for high-risk or business-critical use cases, but they may be worth
+  consideration if your project seems like a fit.
 - **Assess:** Technologies we are interested in and maybe even built proofs-of-concept for, but haven't yet trialed
   in production.
 - **Hold:** Based on our experience, these technologies should be avoided. We've found them to be flawed, immature,
