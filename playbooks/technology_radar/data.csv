@@ -17,6 +17,7 @@ Docker,adopt,platforms,FALSE,
 HSTS,adopt,platforms,FALSE,
 Kubernetes,adopt,platforms,FALSE,"We manage staging and production clusters, and have solutions for logging, monitoring, alerting, scaling, and routing. See Hokusai and Substance repos."
 Redis,adopt,platforms,FALSE,
+Opaque identifiers,adopt,techniques,FALSE,"Friendly identifiers or 'slugs' are fine for URLs but opaque, permanent identifiers are preferred for all internal or programmatic uses."
 Responsive web pages,adopt,techniques,FALSE,"Rather than mobile- or desktop-specific designs, we prefer pages to degrade gracefully."
 Babel,adopt,tools,TRUE,"This is the description. You can use basic html such as the <strong>strong tag to emphasise keywords and phrases</strong> and insert <a href=""https://www.thoughtworks.com"">anchor links to documentation and referance material</a>."
 CircleCI,adopt,tools,FALSE,"for continuous integration over other services like Travis or Semaphore. Shared orbs and contexts help our projects apply best practices."
