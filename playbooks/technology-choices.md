@@ -92,3 +92,26 @@ deliberately).
 Use your judgment. Minor dependency selections may not warrant broad input. If a library or approach influences how
 future code will be written or how other developers will work, though, it's often worth a time-out to consider
 competing options, get feedback, choose deliberately, and document the choice.
+
+#### When should I use an RFC? When should I write a technical plan?
+
+RFC, or _Requests for Comments_ are
+[defined in the RFC playbook](https://github.com/artsy/README/blob/master/playbooks/rfcs.md) as:
+
+> a process used in large open source orgs to coordinate talking about a change and giving many people the chance
+> to express ideas and discuss changes
+
+Technical were [introduced in #245](https://github.com/artsy/README/issues/245) as:
+
+> an effort to make our planning more consistent, deliberate, and discoverable.
+
+These two things are not mutually exclusive, and there is some overlap. So which is the right one to use? In
+practice, either can work. These are both tools to help guide us, and shouldn't be seen as constraints.
+
+If you're asking which makes sense to use, this is a good general rule:
+
+- RFC's are better at discussing changes to _how_ we work.
+- Technical plans are better at discussing changes to _what_ tools we work with.
+
+But there are always exceptions ([this RFC](https://github.com/artsy/README/issues/268), for example, covers both).
+You really can't go wrong, though!
