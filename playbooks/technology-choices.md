@@ -9,14 +9,14 @@ version is:
 
 - If you have an idea,
   [write a technical plan](https://www.notion.so/artsy/Technical-Plans-f94b206fcec54cee8b4d864e67d5b70f), then...
-- Share the plan with the team: bring it up
+- Share the plan with the wider engineering team: bring it up
   [at standup](https://github.com/artsy/README/blob/master/events/open-standup.md) in "cross-team dependencies" and
   share it in Slack.
 
 This applies for really big ideas, and sometimes small ones, too! Check the [FAQ](#frequently-asked-questions) for
 more context. Writing a technical plan is the go-to solution for making technology decisions at Artsy because even
 if the decision is uncontroversial, the exercise of writing a plan will help guide your thought process _and_ will
-record the rationale for the decision. (This is historical context is super-userful.) You got this!
+record the rationale for the decision. (This historical context is super-userful.) You got this!
 
 ## Evolving Technology at Artsy
 
