@@ -32,7 +32,7 @@ A lot of platform practice documentation is inside
 [artsy/potential](https://github.com/artsy/potential/blob/master/platform/) 🔒
 
 Artsy's favorite resources (including those of the platform team) are in
-[Tech Learning](/resources/tech_learning.md#platform-practice)
+[Tech Learning](/resources/tech-learning.md#platform-practice)
 
 - [AWS](https://github.com/artsy/potential/blob/master/platform/AWS.md) 🔒
   ([AWS login](https://artsy.signin.aws.amazon.com/console))
