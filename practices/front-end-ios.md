@@ -30,15 +30,9 @@ then, is to support Front-End engineers contributing to our iOS projects (mostly
 
 ## Team Information
 
-There are two important Slack groups:
-
-- **@ios-front-enders** Engineers who work on Artsy's iOS codebases in a native capacity.
-- **@app-release-team** The
-  [iOS App Quality Team 🔒](https://www.notion.so/artsy/Artsy-iOS-App-Quality-Team-58b9b55f52484000b9689edd809e7016)
-  is a focused team of one Designer, one Product Manager, and one Engineer who help ensure the
-  [Artsy iOS app](http://iphone.artsy.net)'s quality.
-
-The Front-End iOS Practice meetings every two weeks; meeting notes are
+Engineers who work on iOS code at artsy are included in the **@ios-front-enders** Slack group. They'll be
+automatically added to the #front-end-ios Slack channel. The Front-End iOS Practice meetings every two weeks;
+meeting notes are
 [available in Notion](https://www.notion.so/artsy/Front-End-iOS-ecc07763bfd04a848c74107dde3ec6dc).
 
 ### Team Goals
@@ -52,7 +46,9 @@ iOS software at Artsy. That means we have the following additional goals:
 ### Logistics
 
 Each iOS app at Artsy is deployed according to its own unique needs. See their repos (listed
-[below](#artsy-ios-apps)) for deployment instructions.
+[below](#artsy-ios-apps)) for deployment instructions. Releases of the main, collector-focused app (Eigen) are
+handled by the Mobile Experience team on
+[a 2-week cadence 🔐](https://www.notion.so/artsy/2-week-Release-Cadence-f3427549d9cb4d8b809ad16c57338c2d).
 
 ### Our Technologies
 
