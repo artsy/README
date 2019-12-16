@@ -38,7 +38,7 @@ practice should be incorporated, submit a PR!
 | [How to create an RFC at Artsy](/playbooks/rfcs.md#readme) | The steps needed to request cultural changes |
 | [How to run a Lunch & Learn](/playbooks/running-lunch-and-learn.md#readme) | How to handle the people process for Lunch & Learns |
 | [System Criticality](/playbooks/system-criticality.md#readme) | A framework for treating systems differently according to how critical they are |
-| [Technology choices](/playbooks/technology-choices.md#readme) | Evaluating and adopting new technology at Artsy |
+| [Technology choices](/playbooks/technology-choices.md#readme) | How to make technology decisions at Artsy |
 <!-- end_toc -->
 <!-- prettier-ignore-end -->
 
