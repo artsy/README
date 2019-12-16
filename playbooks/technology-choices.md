@@ -101,7 +101,7 @@ RFC, or _Requests for Comments_ are
 > a process used in large open source orgs to coordinate talking about a change and giving many people the chance
 > to express ideas and discuss changes
 
-Technical were [introduced in #245](https://github.com/artsy/README/issues/245) as:
+Technical plans were [introduced in #245](https://github.com/artsy/README/issues/245) as:
 
 > an effort to make our planning more consistent, deliberate, and discoverable.
 
@@ -110,8 +110,10 @@ practice, either can work. These are both tools to help guide us, and shouldn't 
 
 If you're asking which makes sense to use, this is a good general rule:
 
-- RFC's are better at discussing changes to _how_ we work.
-- Technical plans are better at discussing changes to _what_ tools we work with.
+- RFC's are better at discussing changes to **how we work as engineers**.
+- Technical plans are better at discussing changes to **what tools we work with** and **how we work with those
+  tools** to solve specific problems.
 
 But there are always exceptions ([this RFC](https://github.com/artsy/README/issues/268), for example, covers both).
-You really can't go wrong, though!
+You really can't go wrong, though! A key point is to _write down your thinking_, ensuring that the team is
+communicating strongly about the topic at hand and allowing us to retrospect on decisions we've made.
