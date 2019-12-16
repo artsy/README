@@ -47,8 +47,7 @@ iOS software at Artsy. That means we have the following additional goals:
 
 Each iOS app at Artsy is deployed according to its own unique needs. See their repos (listed
 [below](#artsy-ios-apps)) for deployment instructions. Releases of the main, collector-focused app (Eigen) are
-handled by the Mobile Experience team on
-[a 2-week cadence 🔐](https://www.notion.so/artsy/2-week-Release-Cadence-f3427549d9cb4d8b809ad16c57338c2d).
+handled by the Mobile Experience team on [a 2-week cadence 🔐](../resources/mobile/release-cadence.md).
 
 ### Our Technologies
 
