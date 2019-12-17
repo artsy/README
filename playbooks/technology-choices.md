@@ -1,10 +1,22 @@
 ---
 title: Technology choices
-description: Evaluating and adopting new technology at Artsy
+description: How to make technology decisions at Artsy
 ---
 
 **High-level architecture and technology choices** are some of the most important and carefully considered
-decisions we make as engineers.
+decisions we make as engineers. This document goes into a lot of detail around how we made decisions, but the short
+version is:
+
+- If you have an idea,
+  [write a technical plan](https://www.notion.so/artsy/Technical-Plans-f94b206fcec54cee8b4d864e67d5b70f), then...
+- Share the plan with the wider engineering team: bring it up
+  [at standup](https://github.com/artsy/README/blob/master/events/open-standup.md) in "cross-team dependencies" and
+  share it in Slack.
+
+This applies for really big ideas, and sometimes small ones, too! Check the [FAQ](#frequently-asked-questions) for
+more context. Writing a technical plan is the go-to solution for making technology decisions at Artsy because even
+if the decision is uncontroversial, the exercise of writing a plan will help guide your thought process _and_ will
+record the rationale for the decision. (This historical context is super-userful.) You got this!
 
 ## Evolving Technology at Artsy
 
@@ -81,3 +93,28 @@ deliberately).
 Use your judgment. Minor dependency selections may not warrant broad input. If a library or approach influences how
 future code will be written or how other developers will work, though, it's often worth a time-out to consider
 competing options, get feedback, choose deliberately, and document the choice.
+
+#### When should I use an RFC? When should I write a technical plan?
+
+RFC, or _Requests for Comments_ are
+[defined in the RFC playbook](https://github.com/artsy/README/blob/master/playbooks/rfcs.md) as:
+
+> a process used in large open source orgs to coordinate talking about a change and giving many people the chance
+> to express ideas and discuss changes
+
+Technical plans were [introduced in #245](https://github.com/artsy/README/issues/245) as:
+
+> an effort to make our planning more consistent, deliberate, and discoverable.
+
+These two things are not mutually exclusive, and there is some overlap. So which is the right one to use? In
+practice, either can work. These are both tools to help guide us, and shouldn't be seen as constraints.
+
+If you're asking which makes sense to use, this is a good general rule:
+
+- RFC's are better at discussing changes to **how we work as engineers**.
+- Technical plans are better at discussing changes to **what tools we work with** and **how we work with those
+  tools** to solve specific problems.
+
+But there are always exceptions ([this RFC](https://github.com/artsy/README/issues/268), for example, covers both).
+You really can't go wrong, though! A key point is to _write down your thinking_, ensuring that the team is
+communicating strongly about the topic at hand and allowing us to retrospect on decisions we've made.
