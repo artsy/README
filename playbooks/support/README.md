@@ -99,6 +99,10 @@ See the [responding doc](responding.md#severity-of-incidents) for levels of seve
 
 ## Handing-off to a new shift
 
+- On the last day of your shift verify in [OpsGenie schedule](https://artsy.app.opsgenie.com/schedule/whoIsOnCall)
+  who is coming to replace you and have a quick check in with them about current outstanding issues.
+- Update header of the slack #incidents channel with the current on-call engeneers' names.
+
 ## Helpful Resources and Playbooks
 
 ### Point-people
