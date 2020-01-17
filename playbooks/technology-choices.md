@@ -48,11 +48,15 @@ a [technical plan document](https://github.com/artsy/README/issues/245)
 ([examples](https://www.notion.so/artsy/Technical-Plans-f94b206fcec54cee8b4d864e67d5b70f)🔒). This document is a
 good place to state the problem, surface questions, and list possible approaches. Feedback should be invited from
 relevant experts within the team _and beyond_, because these circumstances are rarely unique, and the choices tend
-to outlast specific projects or even teams.
+to outlast specific projects or even teams. [Weekly engineering stand-up](/events/open-standup.md) is a good
+opportunity to ask for the wider engineering team's input.
 
-Sometimes consensus can be achieved with the document alone, but often a [technology review]() discussion helps
-resolve open questions. Ultimately, a team's engineers should recommend a path forward. If there still isn't clear
-agreement, you may want to revisit the problem and rationale (or just ask engineering leadership to weigh in).
+Once initial feedback and updates are reflected on the technical plan document, a face-to-face _technical review_
+discussion is an efficient way to resolve open issues and confirm next steps. This discussion can be scheduled for
+standing practice meetings, team knowledge-shares, or ad hoc if necessary. In the review, the relevant teams'
+engineers are responsible for recommending a path forward. (If there isn't clear agreement, you may want to revisit
+the problem and rationale.) The teams' technical leads and someone from engineering leadership (Dir/VP) should be
+stakeholders on the plan and invited to the review discussion as well.
 
 When a plan depends on technology that isn't in the "adopt" category, it's worth special care to:
 
