@@ -69,7 +69,7 @@ _Cross-dependencies / Requests for Pairing_
 
 -
 
-_Current team-wide RFCs_ (see #dev for list 9am EST on Mondays)
+_Open RFCs (see #dev for list 9am EST on Mondays) or technical plans under consideration_
 
 -
 
