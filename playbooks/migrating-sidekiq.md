@@ -31,7 +31,7 @@ At this point, you should see a squeaky clean Sidekiq dashboard at your applicat
 4) Migrate Sidekiq jobs and stats from the old Redis instance - plug in the old and new Redis URLs to `$SIDEKIQ_OLD_REDIS_URL` and `$SIDEKIQ_NEW_REDIS_URL`
 
 ```
-kubectl --context [staging|production] run sidekiq-migrate-$MY_APP --restart=Never --rm -i --tty --image artsy/sidekiq-migrate --overrides='{"spec": {"containers": [{"tty": true, "stdin": true, "name": "sidekiq-migrate-$MY_APP", "env": [{"name": "SIDEKIQ_OLD_REDIS_URL", "value": "$SIDEKIQ_OLD_REDIS_URL"}, {"name": "SIDEKIQ_NEW_REDIS_URL", "value": "$SIDEKIQ_NEW_REDIS_URL"}, {"name": "MIGRATE_STATS", "value": "true"}, {"name": "ACTUAL_RUN", "value": "true"}], "image": "artsy/sidekiq-migrate:latest", "args": ["/usr/local/bin/ruby", "/migrate.rb"], "stdinOnce": true, "imagePullPolicy": "Always"}], "nodeSelector": {"tier": "background"}}, "apiVersion": "v1"}'
+kubectl --context [staging|production] run sidekiq-migrate-$MY_APP --restart=Never --rm -i --tty --image artsy/sidekiq-migrate --overrides='{"spec": {"containers": [{"tty": true, "stdin": true, "name": "sidekiq-migrate-$MY_APP", "env": [{"name": "SIDEKIQ_OLD_REDIS_URL", "value": "$SIDEKIQ_OLD_REDIS_URL"}, {"name": "SIDEKIQ_NEW_REDIS_URL", "value": "$SIDEKIQ_NEW_REDIS_URL"}], "image": "artsy/sidekiq-migrate:latest", "args": ["/usr/local/bin/ruby", "/migrate.rb"], "stdinOnce": true, "imagePullPolicy": "Always"}], "nodeSelector": {"tier": "background"}}, "apiVersion": "v1"}'
 ```
 
 Refresh the Sidekiq dashboard at and confirm everything is migrated.
