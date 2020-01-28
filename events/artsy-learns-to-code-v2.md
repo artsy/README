@@ -27,8 +27,8 @@ Let's kick off another session of Artsy Learns to Code!
 
 ## Structure
 
-Similar to the previous ALTC, we'll have trios: one mentor and two learners, who will be partners throughout _Artsy
-Learns to Code_.
+Similar to the previous ALTC, we'll aim to have trios: one mentor and two learners (depending on availability), who
+will be partners throughout _Artsy Learns to Code_. If fewer mentors are available, we can adjust accordingly.
 
 As a default course, we'll recommend p5.js, a direct JS port of Processing. We hope that working with p5.js will be
 more engaging than a course on vanilla JS. It also embodies the Artsy value _Art x Science_.
@@ -43,7 +43,7 @@ should be following. Instead, groups can set their own cadence and work on a sch
 
 Then groups can decide on what they might want to make with p5.js, and mentors can guide them.
 
-### Some Core Competencies We Could Aim Teach
+### Some Core Competencies We Could Aim To Teach
 
 - Fundamentals:
   - Syntax
@@ -57,6 +57,7 @@ Then groups can decide on what they might want to make with p5.js, and mentors c
   - What is a library/package?
   - How does JS/CSS/HTML interact with each other?
   - What is a server? A client?
+  - https://github.com/alex/what-happens-when
 - More General Software Development:
   - Algorithms
   - Classes/OOP
@@ -67,14 +68,18 @@ Then groups can decide on what they might want to make with p5.js, and mentors c
 - Passion to learn and try something new
 - An open mind
 - (Optional) Come with an idea of what they want to learn
+- (Optional) Come with an idea of how much time they'd like to commit to
 
 ## Expectations of Mentoring Engineers
 
-- Mentors should expect to spend 1-2 hrs a week of their time to meet regularly and answer questions async on slack
+- Mentors should expect to spend 1-2 hrs a week of their time to meet regularly and answer questions async on
+  slack.
+- Mentors should come with an idea of how many weeks they'd like to commit to, but we recommend somewhere in the
+  ballpark of 3-4 months, similar to the last ALTC. Actual timeline will be at mentor's discretion.
 - Mentors should feel empowered to come up with their own teaching plan (and ideally share it with the rest of the
   mentors!). Note: mentors should consider the extra time required to craft their own teaching plan.
-- Act as a resource for when learners have questions
-- Act as a motivator for when learners get frustrated
+- Act as a resource for when learners have questions.
+- Act as a motivator for when learners get frustrated.
   - Normalize frustration (https://www.youtube.com/watch?v=QYjPBcqo1-s)
 - If mentor group agrees to go the route of learning Processing.js, then the mentor should try to familiarize
   themselves with p5js, or at least follow along with the course.
@@ -93,24 +98,15 @@ Here are a couple examples that [@sepans][sepans] have created:
 | Sunglass (capturing data and displaying it)      | https://editor.p5js.org/sepans/sketches/s9tmMft3R |
 | Load artwork image from artsy (API)              | https://editor.p5js.org/sepans/sketches/NbuDfgC47 |
 
-Here are tools that [@sepans][sepans] recommended to his group in the previous ALTC:
-
-| Tool Name                                      | Link                            |
-| ---------------------------------------------- | ------------------------------- |
-| Prettier: Format you code online               | https://prettier.io/playground/ |
-| Codepen: To write a small JS/HTML sketch       | https://codepen.io              |
-| VS Code: Code Editor                           | https://code.visualstudio.com/  |
-| Glitch: remix existing apps to create new ones | http://glitch.com               |
-
 Even more resources that [@sepans][sepans] compiled:
 
-| Resource Name                                            | Link                                          |
-| -------------------------------------------------------- | --------------------------------------------- |
-| Cool p5 sketches to tweak and play with                  | http://www.generative-gestaltung.de/2/        |
-| p5 DOM: use p5 to create and interact with HTML elements | https://p5js.org/reference/#/libraries/p5.dom |
-| p5 editor                                                | https://editor.p5js.org/                      |
-| p5 video tutorials                                       | https://www.youtube.com/user/shiffman/        |
-| Tutorial examples                                        | https://p5js.org/examples/                    |
-| Reference                                                | https://p5js.org/reference/                   |
+| Resource Name                           | Link                                   |
+| --------------------------------------- | -------------------------------------- |
+| Cool p5 sketches to tweak and play with | http://www.generative-gestaltung.de/2/ |
+| p5 editor                               | https://editor.p5js.org/               |
+| p5 video tutorials                      | https://www.youtube.com/user/shiffman/ |
+| Tutorial examples                       | https://p5js.org/examples/             |
+| Reference                               | https://p5js.org/reference/            |
+| Openprocessing.org                      | http://openprocessing.org              |
 
 [sepans]: https://github.com/sepans
