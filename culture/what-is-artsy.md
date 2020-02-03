@@ -99,7 +99,7 @@ From
 > **Listings**: Artsy [gallery partners](https://www.artsy.net/galleries) pay a flat monthly subscription fee to
 > list an unlimited number of artworks for sale, plus a host of other benefits. They do not pay a commission fee on
 > sales made through Artsy. We have
-> [announced 1800 paying customers](theverge.com/2017/7/18/15983712/artsy-fine-art-galleries-online-auction-sales).
+> [announced 1800 paying customers](https://www.theverge.com/2017/7/18/15983712/artsy-fine-art-galleries-online-auction-sales).
 
 > **Auctions**: In 2015 Artsy expanded into hosting commercial auctions on our platform. Much like our Listings
 > business, we work with top auction houses. The latter pay commissions from sales. Check out
