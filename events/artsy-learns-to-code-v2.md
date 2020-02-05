@@ -98,15 +98,17 @@ Here are a couple examples that [@sepans][sepans] have created:
 | Sunglass (capturing data and displaying it)      | https://editor.p5js.org/sepans/sketches/s9tmMft3R |
 | Load artwork image from artsy (API)              | https://editor.p5js.org/sepans/sketches/NbuDfgC47 |
 
-Even more resources that [@sepans][sepans] compiled:
+Even more resources that we compiled (thank you [@sepans][sepans] and [@bhoggard][bhoggard]!):
 
-| Resource Name                           | Link                                   |
-| --------------------------------------- | -------------------------------------- |
-| Cool p5 sketches to tweak and play with | http://www.generative-gestaltung.de/2/ |
-| p5 editor                               | https://editor.p5js.org/               |
-| p5 video tutorials                      | https://www.youtube.com/user/shiffman/ |
-| Tutorial examples                       | https://p5js.org/examples/             |
-| Reference                               | https://p5js.org/reference/            |
-| Openprocessing.org                      | http://openprocessing.org              |
+| Resource Name                             | Link                                   |
+| ----------------------------------------- | -------------------------------------- |
+| Cool p5 sketches to tweak and play with   | http://www.generative-gestaltung.de/2/ |
+| p5 editor                                 | https://editor.p5js.org/               |
+| p5 video tutorials                        | https://www.youtube.com/user/shiffman/ |
+| Tutorial examples                         | https://p5js.org/examples/             |
+| Reference                                 | https://p5js.org/reference/            |
+| Openprocessing.org                        | http://openprocessing.org              |
+| The Missing Semester of Your CS Education | https://missing.csail.mit.edu/         |
 
 [sepans]: https://github.com/sepans
+[bhoggard]: https://github.com/bhoggard
