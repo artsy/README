@@ -13,6 +13,8 @@ See [Enabling DDos Protection for a Subdomain via Cloudflare](https://github.com
 
 Manage new protected domains by making PRs to the Infrastructure repo.
 
+Artsy engineers can find additional information in [Notion > Product Platform > Cloudflare](https://www.notion.so/artsy/Cloudflare-80c2c0ed608644199e3eeb9da36f3b94).
+
 ## Cloudflare DNS
 
 To route requests through Cloudflare's firewall...
