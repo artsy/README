@@ -32,6 +32,8 @@ The dashboards for our Kubernetes operations clusters can be found at:
 - Staging Operations: https://kubernetes-operations-staging.artsy.net/
 
 ### Monitoring
+We use [Datadog](https://app.datadoghq.com/) for cluster monitoring and alerting.
+
 - [Production Cluster Overview](https://app.datadoghq.com/infrastructure/map?mapid=4312&fillby=avg%3Acpuutilization&sizeby=avg%3Asystem.mem.used&groupby=autoscaling_group%2Cavailability-zone&filter=kubernetescluster%3Akubernetes-production-virgo.artsy.systems&nameby=name&nometrichosts=false&tvMode=false&nogrouphosts=false&palette=green_to_orange&paletteflip=false&node_type=host)
 - [Staging Cluster Overview](https://app.datadoghq.com/infrastructure/map?mapid=4320&fillby=avg%3Acpuutilization&sizeby=avg%3Asystem.mem.used&groupby=autoscaling_group%2Cavailability-zone&filter=kubernetescluster%3Akubernetes-staging-lyra.artsy.systems&nameby=name&nometrichosts=false&tvMode=false&nogrouphosts=false&palette=green_to_orange&paletteflip=false&node_type=host)
 - [Container Overview](https://app.datadoghq.com/containers?columns=container_name,container_cpu,container_memory,container_net_sent_bps,container_net_rcvd_bps,container_status,container_started&options=normalizeCPU&sort=container_memory,DESC)
@@ -55,18 +57,6 @@ __Example: get all pods in the staging cluster__
 First run `kubectl config use-context staging`.  Then run `kubectl get pods` to see all pods running in the staging cluster's default namespace. Use the `--namespace=kube-system` flag to get all pods in the `kube-system` namespace and the `--all-namespaces` flag to get all pods running in the cluster in all namespaces.
 
 You can get resources in Yaml or Json, edit, update and delete resources with Kubectl.  More examples can be found [here](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
-
-### Monitoring
-
-We use [Datadog](https://app.datadoghq.com/) for cluster monitoring and alerting.
-
-#### Metrics
-
-Useful dashboards:
-
-- [Production Cluster Overview](https://app.datadoghq.com/infrastructure/map?mapid=4312&fillby=avg%3Acpuutilization&sizeby=avg%3Asystem.mem.used&groupby=autoscaling_group%2Cavailability-zone&filter=kubernetescluster%3Akubernetes-production-virgo.artsy.systems&nameby=name&nometrichosts=false&tvMode=false&nogrouphosts=false&palette=green_to_orange&paletteflip=false&node_type=host)
-- [Staging Cluster Overview](https://app.datadoghq.com/infrastructure/map?mapid=4320&fillby=avg%3Acpuutilization&sizeby=avg%3Asystem.mem.used&groupby=autoscaling_group%2Cavailability-zone&filter=kubernetescluster%3Akubernetes-staging-lyra.artsy.systems&nameby=name&nometrichosts=false&tvMode=false&nogrouphosts=false&palette=green_to_orange&paletteflip=false&node_type=host)
-- [Container Overview](https://app.datadoghq.com/containers?columns=container_name,container_cpu,container_memory,container_net_sent_bps,container_net_rcvd_bps,container_status,container_started&options=normalizeCPU&sort=container_memory,DESC)
 
 #### Logging
 
