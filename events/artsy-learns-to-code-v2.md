@@ -41,7 +41,8 @@ https://www.youtube.com/user/shiffman/playlists?view=50&sort=dd&shelf_id=2
 In an effort to keep attendance up and keep learners motivated, we won't enforce a schedule that all learners
 should be following. Instead, groups can set their own cadence and work on a schedule that works for them.
 
-Then groups can decide on what they might want to make with p5.js, and mentors can guide them.
+Then groups can decide on what they might want to make with p5.js, and mentors can guide them. Teams are encouraged to
+use the [p5.js online editor](https://editor.p5js.org) and [Glitch](https://glitch.com) to avoid local setup difficulties.
 
 ### Some Core Competencies We Could Aim To Teach
 
@@ -105,6 +106,7 @@ Even more resources that we compiled (thank you [@sepans][sepans] and [@bhoggard
 | Cool p5 sketches to tweak and play with   | http://www.generative-gestaltung.de/2/ |
 | p5 editor                                 | https://editor.p5js.org/               |
 | p5 video tutorials                        | https://www.youtube.com/user/shiffman/ |
+| p5 team on Gtlich                         | https://glitch.com/@p5js               |
 | Tutorial examples                         | https://p5js.org/examples/             |
 | Reference                                 | https://p5js.org/reference/            |
 | Openprocessing.org                        | http://openprocessing.org              |
