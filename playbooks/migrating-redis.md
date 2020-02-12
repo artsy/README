@@ -12,19 +12,20 @@ Note: this migration process does not ensure data consistency if your app is act
 
 1) Check the old Redis URL
 
-Assuming your app is `$MY_APP`...
-
 ```
 hokusai [staging|production] get REDIS_URL
 ```
 
 This will be supplied to the migration container via `$SOURCE_REDIS_URL`
 
-2) Migrate all keys from the old Redis database to the new - plug in your app's name to $MY_APP the old and new Redis URLs to `$SOURCE_REDIS_URL` and `$DESTINATION_REDIS_URL`
+2) Migrate all keys from the old Redis database to the new - plug in the old and new Redis URLs to `$SOURCE_REDIS_URL` and `$DESTINATION_REDIS_URL`
 
-```
-kubectl --context [staging|production] run redis-migrate-$MY_APP --restart=Never --rm -i --tty --image artsy/redis-migrate --overrides='{"spec": {"containers": [{"tty": true, "stdin": true, "name": "redis-migrate-$MY_APP", "image": "artsy/redis-migrate:latest", "args": ["$SOURCE_REDIS_URL", "$DESTINATION_REDIS_URL"], "stdinOnce": true, "imagePullPolicy": "Always"}], "nodeSelector": {"tier": "background"}}, "apiVersion": "v1"}'
-```
+
+4a) Run `docker pull artsy/redis-migrate:latest` to pull the `artsy/redis-migrate:latest` image to your local Docker image cache, busting the cache if you happen to have an older version.  Note:  this step will become obsolte [in Docker version 19.09](https://github.com/moby/moby/issues/13331#issuecomment-493531462) with the [addition](https://github.com/docker/cli/pull/1498) of the `--pull` flag to `docker run`
+
+4b) Connect to the staging or production VPN and [ensure your local Docker is configured to use the VPN interface](https://www.notion.so/artsy/VPN-Configuration-60798c292185407687356997bf251d8c).
+
+4c) Run `docker run -ti artsy/redis-migrate:latest $SOURCE_REDIS_URL $DESTINATION_REDIS_URL`
 
 See https://github.com/artsy/docker-images/tree/master/redis-migrate for further options / enviornment variables to enable debug logging, perform a dry run, or clean up the source redis database's keys.
 

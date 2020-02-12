@@ -6,8 +6,6 @@ We publish a [Docker image](https://hub.docker.com/r/artsy/sidekiq-migrate) `art
 
 1) Check the old Redis URL
 
-Assuming your app is `$MY_APP`...
-
 ```
 hokusai [staging|production] get REDIS_URL
 ```
@@ -28,15 +26,16 @@ hokusai [staging|production] refresh
 
 At this point, you should see a squeaky clean Sidekiq dashboard at your application's Sidekiq admin URL.
 
-4) Migrate Sidekiq jobs and stats from the old Redis instance - plug in your app's name to $MY_APP the old and new Redis URLs to `$SIDEKIQ_OLD_REDIS_URL` and `$SIDEKIQ_NEW_REDIS_URL`
+4) Migrate Sidekiq jobs and stats from the old Redis instance - plug in the old and new Redis URLs to `$SIDEKIQ_OLD_REDIS_URL` and `$SIDEKIQ_NEW_REDIS_URL`
 
-```
-kubectl --context [staging|production] run sidekiq-migrate-$MY_APP --restart=Never --rm -i --tty --image artsy/sidekiq-migrate --overrides='{"spec": {"containers": [{"tty": true, "stdin": true, "name": "sidekiq-migrate-$MY_APP", "env": [{"name": "SIDEKIQ_OLD_REDIS_URL", "value": "$SIDEKIQ_OLD_REDIS_URL"}, {"name": "SIDEKIQ_NEW_REDIS_URL", "value": "$SIDEKIQ_NEW_REDIS_URL"}], "image": "artsy/sidekiq-migrate:latest", "args": ["/usr/local/bin/ruby", "/migrate.rb"], "stdinOnce": true, "imagePullPolicy": "Always"}], "nodeSelector": {"tier": "background"}}, "apiVersion": "v1"}'
-```
+4a) Run `docker pull artsy/sidekiq-migrate:latest` to pull the `artsy/sidekiq-migrate:latest` image to your local Docker image cache, busting the cache if you happen to have an older version.  Note:  this step will become obsolte [in Docker version 19.09](https://github.com/moby/moby/issues/13331#issuecomment-493531462) with the [addition](https://github.com/docker/cli/pull/1498) of the `--pull` flag to `docker run`
 
-Refresh the Sidekiq dashboard at and confirm everything is migrated.
+4b) Connect to the staging or production VPN and [ensure your local Docker is configured to use the VPN interface](https://www.notion.so/artsy/VPN-Configuration-60798c292185407687356997bf251d8c).
+
+4c) Run `docker run -ti --env "SIDEKIQ_OLD_REDIS_URL=$SIDEKIQ_OLD_REDIS_URL" --env "SIDEKIQ_NEW_REDIS_URL=$SIDEKIQ_NEW_REDIS_URL" artsy/sidekiq-migrate:latest`
 
 See https://github.com/artsy/docker-images/tree/master/sidekiq-migrate for further options / enviornment variables to enable debug logging, perform a dry run, or clean up the source redis database's Sidekiq-specific keys.
 
+Refresh the Sidekiq dashboard at and confirm everything is migrated.
 
 5) Update your app's Redis database assignments in our [staging](https://github.com/artsy/infrastructure/blob/master/terraform/staging/redis-database-assignments.tf) and [production](https://github.com/artsy/infrastructure/blob/master/terraform/production/redis-database-assignments.tf) Terrform config so we can track and reference it in our "shared-redis-db-assignments" Kubernetes ConfigMap
