@@ -28,9 +28,9 @@ channel.
   - Kick things off by introducing yourself and what you're working on today.
   - Ask if anyone has dietary restrictions.
   - Wish everyone luck.
-- After standup, order pizza on Seamless. Ash's account has approval for it. Saluggi's is our go-to spot.
+- After standup, order pizza on Seamless. Ash's account has approval for it. Saluggi's is our go-to spot. Generally we estimate 1 pizza per 8 people - 3 is almost always the right number. Cutting slices in half also helps make sure everyone gets the right amount.
 - Around 1:30, or whenever you feel like leaving, wrap up. Put the stickers and power strips away. Clean up the
-  kitchen.
+  kitchen. Before you go, do a quick sweep of the meeting rooms to make sure everyone is out and no one's left a mess.
 
 [meetup]: https://www.meetup.com/CocoaPods-NYC/
 [blog]: https://artsy.github.io/blog/2015/08/10/peer-lab/
