@@ -13,5 +13,6 @@ What meetings, and regular events do we have.
 | [Lunch & Learn](/events/lunch-and-learn.md#readme) | A meetup where we talk about things that inspire us. |
 | [Open Standup](/events/open-standup.md#readme) | How do we do whole-team standup at Artsy? |
 | [Show & Tell](/events/show-and-tell.md#readme) | Internal presentations with no preparation |
+| [Writing Office Hours](/events/writing-office-hours.md#readme) | Weekly meeting for support sharing knowledge |
 <!-- end_toc -->
 <!-- prettier-ignore-end -->
