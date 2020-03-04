@@ -142,7 +142,7 @@ $ hokusai [staging|production] create --filename ./hokusai/rubyrep.yml
 
 7) When the database is synced and replication is active, we are ready to make a cutover.
 
-  7a) Confirm that the databases are in-sync.  Run a rubyrep scan with:
+  7a) Confirm that the databases are in-sync.  Run a rubyrep [scan command](http://www.rubyrep.org/scan_command.html) with:
   ```
   kubectl --context [staging|production] run rubyrep-$(whoami) --restart=Never --rm -i --tty --overrides '
   {
@@ -153,6 +153,7 @@ $ hokusai [staging|production] create --filename ./hokusai/rubyrep.yml
         {
           "name": "rubyrep",
           "image": "artsy/rubyrep",
+          "args": ["/rubyrep-2.0.1/rubyrep", "scan", "-c", "/mnt/default.conf", "--summary=detailed", "--detailed=diff"],
           "stdin": true,
           "stdinOnce": true,
           "tty": true,
@@ -170,7 +171,7 @@ $ hokusai [staging|production] create --filename ./hokusai/rubyrep.yml
         }
       }]
     }
-  }' --image artsy/rubyrep -- /rubyrep-2.0.1/rubyrep --verbose scan -c /mnt/default.conf
+  }' --image artsy/rubyrep
   ```
 
   The diff should show `0` in total for all tables.
