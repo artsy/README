@@ -16,7 +16,26 @@ hokusai [staging|production] run --env "DATABASE_URL=postgres://{new database cr
 
 3) Check the database schemas.
   3a) If you want to download a dump of the current db to a local postgres, you can check schemas by running `rake db:schema:dump` locally, and checking in the diff in `db/schema.rb`.  You can also inspect the `schema_migrations` tables across the databases and compare to migrations.
-  3b) Log into the new database and note all foreign key constraints.  You can get foreign key constraints for each table with `\d+ table`.  Save the constraints to later re-enable.
+  3b) Log into the new database and note all foreign key constraints.  You can get foreign key constraints for each table with `\d+ table` or to see forign key constraints for all tables in the `public` schema, run:
+  ```
+  SELECT conrelid::regclass AS table_from
+       , conname
+       , pg_get_constraintdef(oid)
+  FROM   pg_constraint
+  WHERE  contype IN ('f')
+  AND    connamespace = 'public'::regnamespace  -- your schema here
+  ORDER  BY conrelid::regclass::text, contype DESC;
+  ```
+
+  Example output:
+  ```
+       table_from     |       conname       |                    pg_get_constraintdef
+--------------------+---------------------+-------------------------------------------------------------
+ foo                  | fk_rails_fbc9d01ca0 | FOREIGN KEY (bar_id) REFERENCES bar(id)
+ bar                  | fk_rails_80eb82ccbf | FOREIGN KEY (foo_id) REFERENCES foo(id) ON DELETE CASCADE
+```
+
+Save the constraints to later re-enable.
 
 4) Disable all foreign key constraints, for example for tables `foo` and `bar` you would run:
 ```
@@ -45,7 +64,7 @@ data:
         :password => 'REDACTED',
         :host     => 'OLD_DATABASE',
         :sslmode  => 'require',
-        :logger   => STDOUT
+        # :logger   => STDOUT
       }
 
       config.right = {
@@ -55,7 +74,7 @@ data:
         :password => 'REDACTED',
         :host     => 'NEW_DATABASE',
         :sslmode  => 'require',
-        :logger   => STDOUT
+        # :logger   => STDOUT
       }
 
       config.include_tables /./
@@ -64,7 +83,7 @@ data:
 
       config.options[:adjust_sequences] = false
 
-      config.options[:logged_replication_events] = [:all_changes, :all_conflicts]
+      # config.options[:logged_replication_events] = [:all_changes, :all_conflicts]
 
     end
 ```
@@ -121,15 +140,13 @@ Create the deployment with:
 $ hokusai [staging|production] create --filename ./hokusai/rubyrep.yml
 ```
 
-7) When the database is synced and replication is active, we are ready to make a cutover. To avoid race conditions regarding auto-incrementing primary keys, we will have to accept a brief window of downtime while performing a cutover to the new database.
+7) When the database is synced and replication is active, we are ready to make a cutover. To avoid race conditions regarding auto-incrementing primary keys, first we need to reset the table id sequences, leaving an offset for writes to the new database and replication from the old.  Check database / application write throughput to determine a reasonable value (i.e. writes/minute * 5) to leave room for the deployment rollout.  For, example, given an offset of `100`, run:
+```
+SELECT setval('foo_id_seq', COALESCE((SELECT MAX(id)+100 FROM foo), 1), false);
+SELECT setval('bar_id_seq', COALESCE((SELECT MAX(id)+100 FROM bar), 1), false);
+```
 
-  7a) Scale all deployments down to 0 replicas.  You may need to temporarily delete horizontal pod autoscalers if configured.
-  ```
-  kubectl --context [staging|production] delete hpa myapp-web
-  kubectl --context [staging|production] scale deployment/myapp-web --replicas 0
-  ```
-
-  7b) Confirm that replication is complete.  You can tail logs from the `myapp-rubyrep` pod or run a rubyrep scan:
+  7a) Confirm that replication is complete.  If you want to see verbose logging from the Rubyrep deployment, uncomment the logger sections in the above configuration, and delete the existing rubyrep pod to roll it out.  You can tail then logs from the `myapp-rubyrep` pod and/or run a rubyrep scan:
   ```
   kubectl --context [staging|production] run rubyrep-$(whoami) --restart=Never --rm -i --tty --overrides '
   {
@@ -160,35 +177,29 @@ $ hokusai [staging|production] create --filename ./hokusai/rubyrep.yml
   }' --image artsy/rubyrep -- /rubyrep-2.0.1/rubyrep --verbose scan -c /mnt/default.conf
   ```
 
-  7c) Stop replication by deleting the replication deployment
+  7b) Update the application's DATABASE_URL environment variable
+  ```
+  hokusai [staging|production] env set "DATABASE_URL={new database url}"
+  ```
+
+  7c) Refresh the application
+  ```
+  hokusai [staging|production] refresh
+  ```
+
+  7d) Once the rollout is complete and all writes are going to the new database / replication is complete, stop replication by deleting the rubyrep deployment
   ```
   $ hokusai [staging|production] delete --filename ./hokusai/rubyrep.yml
   ```
 
-  7d) IMPORTANT! Re-enable foreign key constraints
+  7e) IMPORTANT! Remember to re-enable foreign key constraints
   ```
   ALTER TABLE foo ADD CONSTRAINT fk_rails_fbc9d01ca0 FOREIGN KEY (bar_id) REFERENCES bar(id);
   ALTER TABLE bar ADD CONSTRAINT fk_rails_80eb82ccbf FOREIGN KEY (foo_id) REFERENCES foo(id) ON DELETE CASCADE;
   ```
 
-  7e) IMPORTANT! Reset table id sequences as Rubyrep does not propogate them
-  ```
-  SELECT setval('foo_id_seq', COALESCE((SELECT MAX(id) FROM foo), 1), false);
-  SELECT setval('bar_id_seq', COALESCE((SELECT MAX(id) FROM bar), 1), false);
-  ```
 
-  7c) Update the DATABASE_URL environment variable
-  ```
-  hokusai [staging|production] env set "DATABASE_URL={new database url}"
-  ```
-
-  7d) Scale deployments back up to their original values
-  ```
-  hokusai [staging|production] update
-  ```
-
-
-8) Finally, clean up rubyrep's tables and triggers...
+8) Finally, clean up Rubyrep's tables and triggers...
 ```
 $ kubectl config use-context [staging|production]
 $ kubectl run rubyrep-$(whoami) --restart=Never --rm -i --tty --overrides '
