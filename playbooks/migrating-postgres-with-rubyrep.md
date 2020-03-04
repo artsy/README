@@ -140,13 +140,9 @@ Create the deployment with:
 $ hokusai [staging|production] create --filename ./hokusai/rubyrep.yml
 ```
 
-7) When the database is synced and replication is active, we are ready to make a cutover. To avoid race conditions regarding auto-incrementing primary keys, first we need to reset the table id sequences, leaving an offset for writes to the new database and replication from the old.  Check database / application write throughput to determine a reasonable value (i.e. writes/minute * 5) to leave room for the deployment rollout.  For, example, given an offset of `100`, run:
-```
-SELECT setval('foo_id_seq', COALESCE((SELECT MAX(id)+100 FROM foo), 1), false);
-SELECT setval('bar_id_seq', COALESCE((SELECT MAX(id)+100 FROM bar), 1), false);
-```
+7) When the database is synced and replication is active, we are ready to make a cutover.
 
-  7a) Confirm that replication is complete.  If you want to see verbose logging from the Rubyrep deployment, uncomment the logger sections in the above configuration, and delete the existing rubyrep pod to roll it out.  You can tail then logs from the `myapp-rubyrep` pod and/or run a rubyrep scan:
+  7a) Confirm that the databases are in-sync.  Run a rubyrep scan with:
   ```
   kubectl --context [staging|production] run rubyrep-$(whoami) --restart=Never --rm -i --tty --overrides '
   {
@@ -177,32 +173,49 @@ SELECT setval('bar_id_seq', COALESCE((SELECT MAX(id)+100 FROM bar), 1), false);
   }' --image artsy/rubyrep -- /rubyrep-2.0.1/rubyrep --verbose scan -c /mnt/default.conf
   ```
 
-  7b) Update the application's DATABASE_URL environment variable
+  The diff should show `0` in total for all tables.
+
+  If you want to see verbose logging from the Rubyrep deployment, uncomment the logger sections in the above configuration, and delete the existing rubyrep pod to roll it out.  You can tail then logs from the `myapp-rubyrep` pod.
+
+  7b) To avoid race conditions regarding auto-incrementing primary keys, reset the table id sequences, leaving an offset for writes to the new database and headroom for replicated inserts from the old.  Check database / application write throughput to determine a reasonable value (i.e. writes/minute * 5) to leave room for the deployment rollout.  For, example, given an offset of `100`, run:
+  ```
+  SELECT setval('foo_id_seq', COALESCE((SELECT MAX(id)+100 FROM foo), 1), false);
+  SELECT setval('bar_id_seq', COALESCE((SELECT MAX(id)+100 FROM bar), 1), false);
+  ```
+
+  7c) Update the application's DATABASE_URL environment variable
   ```
   hokusai [staging|production] env set "DATABASE_URL={new database url}"
   ```
 
-  7c) Refresh the application
+  7d) Refresh the application
   ```
   hokusai [staging|production] refresh
   ```
 
-  7d) Once the rollout is complete and all writes are going to the new database / replication is complete, stop replication by deleting the rubyrep deployment
-  ```
-  $ hokusai [staging|production] delete --filename ./hokusai/rubyrep.yml
-  ```
+  7e) Once the rollout is complete and all writes are going to the new database, Rubyrep's replication will work in reverse, propogating all changes from the new database back to the old.
 
-  7e) IMPORTANT! Remember to re-enable foreign key constraints
+  Monitor your application and verify data integrity with another `scan` command.
+
+  If you need to rollback, simply repeat steps 7b on the original database, then steps 7c reverting to the old `DATABASE_URL` and 7d.
+
+  7f) IMPORTANT! Re-enable foreign key constraints
   ```
   ALTER TABLE foo ADD CONSTRAINT fk_rails_fbc9d01ca0 FOREIGN KEY (bar_id) REFERENCES bar(id);
   ALTER TABLE bar ADD CONSTRAINT fk_rails_80eb82ccbf FOREIGN KEY (foo_id) REFERENCES foo(id) ON DELETE CASCADE;
   ```
 
+  If there are any unsatisfiable foreign key constraints, these commands will fail and you should roll back / check data integrity.
+
+  7g) Stop replication by deleting the Rubyrep deployment
+  ```
+  $ hokusai [staging|production] delete --filename ./hokusai/rubyrep.yml
+  ```
+
 
 8) Finally, clean up Rubyrep's tables and triggers...
 ```
-$ kubectl config use-context [staging|production]
-$ kubectl run rubyrep-$(whoami) --restart=Never --rm -i --tty --overrides '
+$ kubectl --context [staging|production] run rubyrep-$(whoami) --restart=Never --rm -i --tty --overrides '
 {
   "apiVersion": "v1",
   "kind": "Pod",
@@ -211,6 +224,7 @@ $ kubectl run rubyrep-$(whoami) --restart=Never --rm -i --tty --overrides '
       {
         "name": "rubyrep",
         "image": "artsy/rubyrep",
+        "args": ["/rubyrep-2.0.1/rubyrep", "--verbose", "uninstall", "-c", "/mnt/default.conf"],
         "stdin": true,
         "stdinOnce": true,
         "tty": true,
@@ -228,7 +242,7 @@ $ kubectl run rubyrep-$(whoami) --restart=Never --rm -i --tty --overrides '
       }
     }]
   }
-}' --image artsy/rubyrep -- /rubyrep-2.0.1/rubyrep --verbose uninstall -c /mnt/default.conf
+}' --image artsy/rubyrep
 
 ```
 
