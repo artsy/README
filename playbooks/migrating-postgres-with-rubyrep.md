@@ -83,7 +83,11 @@ data:
 
       config.options[:adjust_sequences] = false
 
-      # config.options[:logged_replication_events] = [:all_changes, :all_conflicts]
+      config.options[:sync_conflict_handling] = :left_wins
+      config.options[:logged_sync_events] = :all_conflicts
+
+      config.options[:replication_conflict_handling] = :left_wins
+      config.options[:logged_replication_events] = :all_conflicts
 
     end
 ```
