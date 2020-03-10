@@ -26,8 +26,8 @@ contributor ladder.
 | Individual Contributor | Artsy IC Level | Artsy M Level | Manager                        |
 | ---------------------- | -------------- | ------------- | ------------------------------ |
 | Intern                 | Intern         |               |                                |
-| Associate Engineer     | IC2            |               |                                |
-| Engineer               | IC3            |               |
+| Engineer 1             | IC2            |               |                                |
+| Engineer 2             | IC3            |               |
 | Senior Engineer        | IC4            |               |                                |
 | Senior Engineer        | IC5            | M3            | Engineering Manager            |
 | Staff Engineer         | IC6            | M4            | Senior Engineering Manager     |
@@ -101,7 +101,7 @@ Level          : IC2, IC3 > IC4, IC5 >  IC6  > IC7, IC8
     </td>
   </tr>
   <tr>
-    <td>Associate Engineer (IC2)<br/>tl;dr focuses on being an effective individual contributor</td>
+    <td>Engineer 1 (IC2)<br/>tl;dr focuses on being an effective individual contributor</td>
     <td>
       <ul>
         <li>Has broad knowledge of CS concepts.</li>
@@ -131,7 +131,7 @@ Level          : IC2, IC3 > IC4, IC5 >  IC6  > IC7, IC8
     </td>
   </tr>
   <tr>
-    <td>Engineer (IC3)<br/>tl;dr: is an effective team member</td>
+    <td>Engineer 2 (IC3)<br/>tl;dr: is an effective team member</td>
     <td>
       <ul>
         <li>Consistently writes and delivers correct and clean quality code with guidance.</li>
