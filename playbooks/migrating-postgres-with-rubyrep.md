@@ -107,6 +107,8 @@ spec:
           value: { app aws access key id }
         - name: AWS_SECRET_ACCESS_KEY
           value: { app secret access key }
+        - name: SWALLOW_ERRORS_ON_RESTORE
+          value: "1"
         image: artsy/pg-data-sync
         imagePullPolicy: Always
         name: { myapp }-data-import
