@@ -280,9 +280,17 @@ $ hokusai [staging|production] create --filename ./hokusai/rubyrep.yml
 
   The diff should show `0` in total for all tables.
 
-  If you want to see verbose logging from the Rubyrep deployment, uncomment the logger sections in the above configuration, and delete the existing rubyrep pod to roll it out.  You can tail then logs from the `{ myapp }-rubyrep` pod.
+  7b) To avoid race conditions regarding auto-incrementing primary keys, reset _all_ table id sequences except for `rr_*` RubyRep tables and id sequences such as `rr_pending_changes_id_seq`, leaving an offset for writes to the new database and headroom for replicated inserts from the old.
 
-  7b) To avoid race conditions regarding auto-incrementing primary keys, reset the table id sequences, leaving an offset for writes to the new database and headroom for replicated inserts from the old.  Check database / application write throughput to determine a reasonable value (i.e. writes/minute * 5) to leave room for the deployment rollout.  For, example, given an offset of `100`, run:
+  Run this command for _all_ tables / table_id_sequences in the database.  To get a list of all tables and id sequences, log into the database via `psql` and run `\d+`
+
+  ```
+  SELECT setval('{ table }_id_seq', COALESCE((SELECT MAX(id)+{ offset } FROM { table }), 1), false);
+  ```
+
+  Check database / application write throughput to determine a reasonable value for the offset (i.e. writes/minute * 5) to leave room for the deployment rollout.
+
+  For, example, given an offset of `100`, and tables `foo` and `bar` you would run:
   ```
   SELECT setval('foo_id_seq', COALESCE((SELECT MAX(id)+100 FROM foo), 1), false);
   SELECT setval('bar_id_seq', COALESCE((SELECT MAX(id)+100 FROM bar), 1), false);
@@ -304,7 +312,8 @@ $ hokusai [staging|production] create --filename ./hokusai/rubyrep.yml
 
   If you need to rollback, simply repeat steps 7b on the original database, then steps 7c reverting to the old `DATABASE_URL` and 7d.
 
-  7f) IMPORTANT! Re-enable foreign key constraints
+  7f) IMPORTANT! Re-enable foreign key constraints.  Refer to the foreign key constrainst you deleted before, and reverse them using `ALTER TABLE { table } ADD CONSTRAINT { constraint }` so following our example above...
+
   ```
   ALTER TABLE foo ADD CONSTRAINT fk_rails_fbc9d01ca0 FOREIGN KEY (bar_id) REFERENCES bar(id);
   ALTER TABLE bar ADD CONSTRAINT fk_rails_80eb82ccbf FOREIGN KEY (foo_id) REFERENCES foo(id) ON DELETE CASCADE;
