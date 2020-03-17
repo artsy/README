@@ -62,7 +62,7 @@ Apply with `hokusai [staging|production] create --filename ./hokusai/export-old-
 
 Delete with `hokusai [staging|production] delete --filename ./hokusai/export-old-production.yml`
 
-To restore to the new datanase, create the folling Yaml file as `./hokusai/import-to-new-production.yml`
+To restore to the new database, create the folling Yaml file as `./hokusai/import-to-new-production.yml`
 
 ```
 ---
