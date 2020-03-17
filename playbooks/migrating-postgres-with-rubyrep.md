@@ -22,7 +22,7 @@ To backup, create the following Yaml file as `./hokusai/export-old-production.ym
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: myapp-data-export
+  name: { myapp }-data-export
   namespace: default
 spec:
   backoffLimit: 0
@@ -44,11 +44,11 @@ spec:
       - args:
         - sh
         - ./export-db.sh
-        - production
+        - { environment }
         - "-O -Fc -v"
         env:
         - name: APP_NAME
-          value: myapp
+          value: { myapp }
         - name: DATABASE_URL
           value: { old-database-url }
         - name: AWS_ACCESS_KEY_ID
@@ -57,7 +57,7 @@ spec:
           value: { app secret access key }
         image: artsy/pg-data-sync
         imagePullPolicy: Always
-        name: myapp-data-export
+        name: { myapp }-data-export
       dnsPolicy: ClusterFirst
       restartPolicy: Never
       terminationGracePeriodSeconds: 30
@@ -74,7 +74,7 @@ To restore to the new datanase, create the folling Yaml file as `./hokusai/impor
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: myapp-data-import
+  name: { myapp }-data-import
   namespace: default
 spec:
   backoffLimit: 0
@@ -96,11 +96,11 @@ spec:
       - args:
         - sh
         - ./import-db.sh
-        - production
+        - { environment }
         - "--clean --no-owner --schema=public -j 5 -v"
         env:
         - name: APP_NAME
-          value: myapp
+          value: { myapp }
         - name: DATABASE_URL
           value: { new-database-url }
         - name: AWS_ACCESS_KEY_ID
@@ -109,7 +109,7 @@ spec:
           value: { app secret access key }
         image: artsy/pg-data-sync
         imagePullPolicy: Always
-        name: myapp-data-import
+        name: { myapp }-data-import
       dnsPolicy: ClusterFirst
       restartPolicy: Never
       terminationGracePeriodSeconds: 30
@@ -157,8 +157,8 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   labels:
-    app: myapp
-  name: rubyrep-myapp
+    app: { myapp }
+  name: rubyrep-{ myapp }
   namespace: default
 data:
   default.conf: |
@@ -210,7 +210,7 @@ $ hokusai production create --filename ./hokusai/rubyrep-config.yml
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: myapp-rubyrep
+  name: { myapp }-rubyrep
   namespace: default
 spec:
   strategy:
@@ -221,13 +221,13 @@ spec:
   template:
     metadata:
       labels:
-        app: myapp
+        app: { myapp }
         component: rubyrep
         layer: data
-      name: myapp-rubyrep
+      name: { myapp }-rubyrep
     spec:
       containers:
-        - name: rubyrep-myapp
+        - name: rubyrep-{ myapp }
           image: artsy/rubyrep
           args: ["/rubyrep-2.0.1/rubyrep", "replicate", "-c", "/mnt/default.conf"]
           imagePullPolicy: Always
@@ -236,13 +236,13 @@ spec:
               cpu: 200m
               memory: 256Mi
           volumeMounts:
-            - name: rubyrep-myapp
+            - name: rubyrep-{ myapp }
               mountPath: /mnt/default.conf
               subPath: default.conf
       volumes:
-        - name: rubyrep-myapp
+        - name: rubyrep-{ myapp }
           configMap:
-            name: rubyrep-myapp
+            name: rubyrep-{ myapp }
 ```
 
 Create the deployment with:
@@ -270,14 +270,14 @@ $ hokusai production create --filename ./hokusai/rubyrep.yml
           "volumeMounts": [{
             "mountPath": "/mnt/default.conf",
             "subPath": "default.conf",
-            "name": "rubyrep-myapp"
+            "name": "rubyrep-{ myapp }"
           }]
         }
       ],
       "volumes": [{
-        "name": "rubyrep-myapp",
+        "name": "rubyrep-{ myapp }",
         "configMap": {
-          "name": "rubyrep-myapp"
+          "name": "rubyrep-{ myapp }"
         }
       }]
     }
@@ -286,7 +286,7 @@ $ hokusai production create --filename ./hokusai/rubyrep.yml
 
   The diff should show `0` in total for all tables.
 
-  If you want to see verbose logging from the Rubyrep deployment, uncomment the logger sections in the above configuration, and delete the existing rubyrep pod to roll it out.  You can tail then logs from the `myapp-rubyrep` pod.
+  If you want to see verbose logging from the Rubyrep deployment, uncomment the logger sections in the above configuration, and delete the existing rubyrep pod to roll it out.  You can tail then logs from the `{ myapp }-rubyrep` pod.
 
   8b) To avoid race conditions regarding auto-incrementing primary keys, reset the table id sequences, leaving an offset for writes to the new database and headroom for replicated inserts from the old.  Check database / application write throughput to determine a reasonable value (i.e. writes/minute * 5) to leave room for the deployment rollout.  For, example, given an offset of `100`, run:
   ```
@@ -342,14 +342,14 @@ $ kubectl --context [staging|production] run rubyrep-$(whoami) --restart=Never -
         "volumeMounts": [{
           "mountPath": "/mnt/default.conf",
           "subPath": "default.conf",
-          "name": "rubyrep-myapp"
+          "name": "rubyrep-{ myapp }"
         }]
       }
     ],
     "volumes": [{
-      "name": "rubyrep-myapp",
+      "name": "rubyrep-{ myapp }",
       "configMap": {
-        "name": "rubyrep-myapp"
+        "name": "rubyrep-{ myapp }"
       }
     }]
   }
