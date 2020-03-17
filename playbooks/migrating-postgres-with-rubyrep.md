@@ -117,6 +117,15 @@ Apply with `hokusai [staging|production] create --filename ./hokusai/import-to-n
 
 Once complete, delete with `hokusai [staging|production] delete --filename ./hokusai/import-to-new-production.yml`
 
+Note: if you are unable to backup the old database and restore to the new via the `pg-data-sync` image (for instance in the case of differing Postgres major versions) you can load the app schema into the new database instead, and let RubyRep perform the migration.
+
+Start a shell in the application with the new database connection and load the app schema with:
+```
+hokusai production run --env "DATABASE_URL=postgres://{new database credentials}" "bundle exec rake db:schema:load"
+```
+
+However, be aware the RubyRep is known to deadlock in some cases when migrating large tables ( over 1Gb in size ) so skipping the initial dump and restore should only be used as a fallback!
+
 3) Log into the new database and note all foreign key constraints.  You can get foreign key constraints for each table with `\d+ table` or to see forign key constraints for all tables in the `public` schema, run:
 ```
 SELECT conrelid::regclass AS table_from
