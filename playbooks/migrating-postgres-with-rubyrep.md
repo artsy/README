@@ -99,7 +99,6 @@ spec:
         - production
         - "--clean --no-owner --schema=public -j 5 -v"
         env:
-        env:
         - name: APP_NAME
           value: myapp
         - name: DATABASE_URL
