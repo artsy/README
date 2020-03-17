@@ -45,7 +45,7 @@ spec:
         - name: APP_NAME
           value: { myapp }
         - name: DATABASE_URL
-          value: { old-database-url }
+          value: { old database url }
         - name: AWS_ACCESS_KEY_ID
           value: { app aws access key id }
         - name: AWS_SECRET_ACCESS_KEY
@@ -97,7 +97,7 @@ spec:
         - name: APP_NAME
           value: { myapp }
         - name: DATABASE_URL
-          value: { new-database-url }
+          value: { new database url }
         - name: AWS_ACCESS_KEY_ID
           value: { app aws access key id }
         - name: AWS_SECRET_ACCESS_KEY
@@ -160,22 +160,20 @@ data:
     RR::Initializer::run do |config|
       config.left = {
         :adapter  => 'postgresql',
-        :database => 'REDACTED',
-        :username => 'REDACTED',
-        :password => 'REDACTED',
-        :host     => 'OLD_DATABASE',
-        :sslmode  => 'require',
-        :logger   => STDOUT
+        :database => { old database name },
+        :username => { old database username },
+        :password => { old database password },
+        :host     => { old database host },
+        :sslmode  => 'require'
       }
 
       config.right = {
         :adapter  => 'postgresql',
-        :database => 'REDACTED',
-        :username => 'REDACTED',
-        :password => 'REDACTED',
-        :host     => 'NEW_DATABASE',
-        :sslmode  => 'require',
-        :logger   => STDOUT
+        :database => { new database name },
+        :username => { new database username },
+        :password => { new database password },
+        :host     => { new database host },
+        :sslmode  => 'require'
       }
 
       config.include_tables /./
@@ -191,11 +189,12 @@ data:
       config.options[:logged_replication_events] = :all_conflicts
 
     end
+
 ```
 
 Create the configmap with:
 ```
-$ hokusai production create --filename ./hokusai/rubyrep-config.yml
+$ hokusai [staging|production] create --filename ./hokusai/rubyrep-config.yml
 ```
 
 6) Create the file `./hokusai/rubyrep.yml`.  When the deployment is created, rubyrep will perform an initial sync.
@@ -242,7 +241,7 @@ spec:
 
 Create the deployment with:
 ```
-$ hokusai production create --filename ./hokusai/rubyrep.yml
+$ hokusai [staging|production] create --filename ./hokusai/rubyrep.yml
 ```
 
 7) When the database is synced and replication is active, we are ready to make a cutover.
@@ -291,12 +290,12 @@ $ hokusai production create --filename ./hokusai/rubyrep.yml
 
   7c) Update the application's DATABASE_URL environment variable
   ```
-  hokusai production env set "DATABASE_URL={new database url}"
+  hokusai [staging|production] env set "DATABASE_URL={new database url}"
   ```
 
   7d) Refresh the application
   ```
-  hokusai production refresh
+  hokusai [staging|production] refresh
   ```
 
   7e) Once the rollout is complete and all writes are going to the new database, Rubyrep's replication will work in reverse, propogating all changes from the new database back to the old.
@@ -315,7 +314,7 @@ $ hokusai production create --filename ./hokusai/rubyrep.yml
 
   7g) Stop replication by deleting the Rubyrep deployment
   ```
-  $ hokusai production delete --filename ./hokusai/rubyrep.yml
+  $ hokusai [staging|production] delete --filename ./hokusai/rubyrep.yml
   ```
 
 
@@ -354,5 +353,5 @@ $ kubectl --context [staging|production] run rubyrep-$(whoami) --restart=Never -
 
 ...and delete the rubyrep configmap
 ```
-$ hokusai production delete --filename ./hokusai/rubyrep-config.yml
+$ hokusai [staging|production] delete --filename ./hokusai/rubyrep-config.yml
 ```
