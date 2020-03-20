@@ -266,7 +266,7 @@ $ hokusai [staging|production] create --filename ./hokusai/rubyrep.yml
         {
           "name": "rubyrep",
           "image": "artsy/rubyrep",
-          "args": ["/rubyrep-2.0.1/rubyrep", "sync", "-c", "/mnt/default.conf", "-s"],
+          "args": ["/rubyrep-2.0.1/rubyrep", "scan", "-c", "/mnt/default.conf", "-s"],
           "stdin": true,
           "stdinOnce": true,
           "tty": true,
