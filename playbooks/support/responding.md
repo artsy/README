@@ -11,6 +11,17 @@ respond to these issues.
   These automated system alerts _may_ be the first sign of a problem but don't _necessarily_ warrant treatment as
   immediate incidents. E.g., load-balancers may route around failing EC2 instances or auto-scaling may bring up
   capacity in response to load.
+- Monitor and acknowledge automated uptime alerts created by OpsGenie.
+
+  - For high-criticality systems, OpsGenie will open alerts if
+    [Pingdom](https://my.pingdom.com/app/newchecks/checks) uptime checks are failing. Alerts will automatically
+    close if resolved via Pingdom.
+  - All engineers should have the OpsGenie app for
+    [iPhone](http://itunes.apple.com/us/app/opsgenie/id528590328?mt=8) or
+    [Android](https://play.google.com/store/apps/details?id=com.ifountain.opsgenie&hl=en) installed and be logged
+    in.
+  - Double check your preferences for push notifications, text messages, and/or phone calls for alerting in your
+    [OpsGenie user notification settings](https://artsy.app.opsgenie.com/settings/user/notification).
 
 ## Step 2: Raise
 
@@ -76,9 +87,8 @@ respond to these issues.
 
 Discuss the incident's resolution in the dedicated Slack channel.
 
-- Start a video conference with Zoom to communicate in real-time with
-  other responders. Credentials to a shared Engineering Zoom Pro account are in
-  1Password.
+- Start a video conference with Zoom to communicate in real-time with other responders. Credentials to a shared
+  Engineering Zoom Pro account are in 1Password.
 - Fix if possible using [accumulated playbooks (wiki)](https://github.com/artsy/potential/wiki) 🔒.
 - If unable to fix using shared resources, contact the relevant [point-person](#point-people) for help and pair
   with them on a fix. Be sure to contribute lessons back to shared documentation. **You are not expected to know
@@ -92,22 +102,31 @@ change should be addressed by the relevant team.
 
 ### Communicate
 
-One of the on-call members handles internal and external communication for the incident. Assign this person to the Communications Officer role in OpsGenie.
+One of the on-call members handles internal and external communication for the incident. Assign this person to the
+Communications Officer role in OpsGenie.
 
 - #incidents is for non-on-call people to raise possible incidents or follow up (questions, etc.) about existing
   threads.
 - Resolution happens exclusively in the dedicated slack channel associated with the OpsGenie incident.
 - Communicate progress and major milestones publicly through statuspage.io. Updates don't need to be specific, but
   it is important that we give customers confidence that we are dealing with the incident.
-  
+
 #### Updating the Timeline
-The Communications Officer should keep track of meaningful updates, discoveries, or milestones (e.g. changes in availability or resolution) in the OpsGenie timeline.
 
-Don't be afraid to over-communicate. The timeline is only available from within OpsGenie, so there is no risk of alerting external stakeholders. In general, you should post to the timeline as any progress is made on the incident, and much more frequently than you post to the StatusPage.
+The Communications Officer should keep track of meaningful updates, discoveries, or milestones (e.g. changes in
+availability or resolution) in the OpsGenie timeline.
 
-Keep in mind that the timeline will be referenced later while reviewing the incident. It's important to have as much information captured as possible for piecing together the steps to resolution. If you forget to add an entry in the moment, no worries! OpsGenie allows you to add entries after-the-fact with the correct timestamp.
+Don't be afraid to over-communicate. The timeline is only available from within OpsGenie, so there is no risk of
+alerting external stakeholders. In general, you should post to the timeline as any progress is made on the
+incident, and much more frequently than you post to the StatusPage.
 
-For an example of a comprehensive timeline, check out [this postmortem report](https://artsy.app.opsgenie.com/reports/post-mortem/b5710803-4bcb-4f0b-a906-4a2343521328/detail)🔒 from 10/29/19.
+Keep in mind that the timeline will be referenced later while reviewing the incident. It's important to have as
+much information captured as possible for piecing together the steps to resolution. If you forget to add an entry
+in the moment, no worries! OpsGenie allows you to add entries after-the-fact with the correct timestamp.
+
+For an example of a comprehensive timeline, check out
+[this postmortem report](https://artsy.app.opsgenie.com/reports/post-mortem/b5710803-4bcb-4f0b-a906-4a2343521328/detail)🔒
+from 10/29/19.
 
 ## Step 5: Resolve
 
