@@ -11,14 +11,23 @@ respond to these issues.
   These automated system alerts _may_ be the first sign of a problem but don't _necessarily_ warrant treatment as
   immediate incidents. E.g., load-balancers may route around failing EC2 instances or auto-scaling may bring up
   capacity in response to load.
-- Monitor automated uptime incidents created by OpsGenie.
+- Monitor and acknowledge automated uptime incidents created by OpsGenie.
+
   - For high-criticality systems, OpsGenie will open incidents if
     [Pingdom](https://my.pingdom.com/app/newchecks/checks) uptime checks are failing. Alerts will automatically
     close if resolved.
-  - All engineers should have the [OpsGenie mobile app](http://itunes.apple.com/us/app/opsgenie/id528590328?mt=8)
-    installed and be logged in.
+  - All engineers should have the OpsGenie app for
+    [iPhone](http://itunes.apple.com/us/app/opsgenie/id528590328?mt=8) or
+    [Android](https://play.google.com/store/apps/details?id=com.ifountain.opsgenie&hl=en) installed and be logged
+    in.
   - Select your preferences for push notifications, text messages, and/or phone calls for alerting in your
     [OpsGenie user notification settings](https://artsy.app.opsgenie.com/settings/user/notification).
+
+    Recommended settings:
+
+    - Immediately via push notification
+    - After 5 minutes via SMS
+    - After 15 minutes via phone call
 
 ## Step 2: Raise
 
