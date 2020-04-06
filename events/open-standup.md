@@ -56,7 +56,6 @@ _Hiring Updates_
 
 _Practice Updates_
 
-- Front-End:
 - Front-End iOS:
 - Platform:
 
