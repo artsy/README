@@ -46,7 +46,7 @@ _Props_
 
 -
 
-_Company Updates (VP of Engineering)_
+_Company Updates_
 
 -
 
