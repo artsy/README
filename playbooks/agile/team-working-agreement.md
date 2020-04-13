@@ -46,7 +46,8 @@ The purpose of the working agreement is to ensure the team shares responsibility
 #### 3. Generate insights (15 mins)
 
 * Discuss each item added by the team members and start grouping items which seem to relate to each other.
-* If you want to limit the number of groups based on importance to keep focussed on the most important items, you can then use voting to determine priority.
+* Include time for team members to discuss items they didn't write. This will uncover nuance and help identify which items are not universally agreed upon.
+* Be mindful of the timebox. If you want to limit the number of groups based on importance to keep focused on the most important items, you can then use voting to determine priority.
   * This is optional because some teams have found value in this, while others have not.
   * Voting is also useful if there are a large number of conflicting views on how to do things.
 
