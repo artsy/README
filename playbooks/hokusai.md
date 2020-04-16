@@ -43,7 +43,9 @@ Prerequisite: install the AWS IAM Authenticator plugin
 brew install aws-iam-authenticator
 ```
 
-_Make sure IAM credentials are set in AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY or ~/.aws/credentials!_
+_Make sure IAM credentials are set in your shell via AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY environment variables or ~/.aws/credentials!_
+
+Also set `AWS_DEFAULT_REGION=us-east-1`
 
 ```
 hokusai configure --kubectl-version 1.10.7 --s3-bucket artsy-citadel --s3-key k8s/config-dev
