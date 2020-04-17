@@ -45,7 +45,9 @@ brew install aws-iam-authenticator
 
 _Make sure IAM credentials are set in your shell via AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY environment variables or ~/.aws/credentials!_
 
-Also set `AWS_DEFAULT_REGION=us-east-1`
+If you have the [aws cli](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html) installed, you can set up your ` ~/.aws/config` and ` ~/.aws/credentials` files with the command `aws configure`
+
+Also make sure you set your default region to `us-east-1` either via config or by settine the environment variable `AWS_DEFAULT_REGION=us-east-1`
 
 ```
 hokusai configure --kubectl-version 1.10.7 --s3-bucket artsy-citadel --s3-key k8s/config-dev
