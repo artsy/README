@@ -60,3 +60,4 @@ MongoDB,hold,tools,FALSE,
 Pingdom,hold,tools,TRUE,
 Semaphore,hold,tools,FALSE,
 Travis CI,hold,tools,TRUE,
+Heroku,hold,platforms,FALSE
