@@ -4,25 +4,16 @@ description: How to make technology decisions at Artsy
 ---
 
 **High-level architecture and technology choices** are some of the most important and carefully considered
-decisions we make as engineers. This document goes into a lot of detail around how we made decisions, but the short
-version is:
+decisions we make as engineers. This document describes how we make decisions, including:
 
-- If you have an idea,
-  [write a technical plan](https://www.notion.so/artsy/Technical-Plans-f94b206fcec54cee8b4d864e67d5b70f), then...
-- Share the plan with the wider engineering team: bring it up
-  [at standup](https://github.com/artsy/README/blob/master/events/open-standup.md) in "cross-team dependencies" and
-  share it in Slack.
-
-This applies for really big ideas, and sometimes small ones, too! Check the [FAQ](#frequently-asked-questions) for
-more context. Writing a technical plan is the go-to solution for making technology decisions at Artsy because even
-if the decision is uncontroversial, the exercise of writing a plan will help guide your thought process _and_ will
-record the rationale for the decision. (This historical context is super-userful.) You got this!
+- A **radar** for capturing current technology preferences and
+- **Technical plans and reviews** for adjusting those preferences or making other significant technology decisions
 
 ## Evolving Technology at Artsy
 
 We want to accomplish a lot with a lean team, which means we must
 [choose stable technologies](http://boringtechnology.club/). However, we also want to adopt best-of-breed
-technologies or best-suited tools to a given need, which may need work or still be evolving. We've borrowed from
+technologies or best-suited tools, which may need work or still be evolving. We've borrowed from
 [ThoughtWorks' Radar](https://www.thoughtworks.com/radar/faq) to define the following stages for evaluating,
 adopting, and retiring technologies:
 
@@ -37,19 +28,18 @@ adopting, and retiring technologies:
   or simply supplanted by better alternatives. In some cases these remain in legacy production uses, but we should
   take every opportunity to retire or migrate away.
 
-Artsy's current choices can be edited in
-[technology_radar/artsy-tech-radar.csv](/playbooks/technology_radar/artsy-tech-radar.csv) and
+Artsy's current choices can be [edited in raw form here](/playbooks/technology_radar/artsy-tech-radar.csv) and
 [viewed in radar format here](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fartsy%2Freadme%2Fmaster%2Fplaybooks%2Ftechnology_radar%2Fartsy-tech-radar.csv).
 
 ## Technical Plans and Review
 
 When new systems, technologies, or architectures are considered, we document their rationale and gather feedback in
 a [technical plan document](https://github.com/artsy/README/issues/245)
-([examples](https://www.notion.so/artsy/Technical-Plans-f94b206fcec54cee8b4d864e67d5b70f)🔒). This document is a
-good place to state the problem, surface questions, and list possible approaches. Feedback should be invited from
-relevant experts within the team _and beyond_, because these circumstances are rarely unique, and the choices tend
-to outlast specific projects or even teams. [Weekly engineering stand-up](/events/open-standup.md) is a good
-opportunity to ask for the wider engineering team's input.
+([examples](https://www.notion.so/artsy/Technical-Plans-f94b206fcec54cee8b4d864e67d5b70f)🔒). This document states
+the problem, surfaces questions, and lists possible approaches. Feedback should be invited from relevant experts
+within the team _and beyond_, because these circumstances are rarely unique, and the choices tend to outlast
+specific projects or even teams. [Weekly engineering stand-up](/events/open-standup.md) is a good opportunity to
+request feedback from the wider team.
 
 Once initial feedback and updates are reflected on the technical plan document, a face-to-face _technical review_
 discussion is an efficient way to resolve open issues and confirm next steps. This discussion can be scheduled for
@@ -78,10 +68,10 @@ time for spikes or proofs-of-concept.
 
 #### I think we should incorporate _Sorbet_ (e.g.) into our stack!
 
-Propose a [technical plan](#technical-plans-and-review) for how this choice could be trialed in production. Make
-clear the goals of the trial and potential benefits it offers. If replacing an alternative, consider whether we
-would consolidate on the new choice (and _how_) or support multiple approaches. Specify a target timeline for
-deciding about the trial either way. Avoid trialing multiple unproven things in the same project or system.
+Propose a [technical plan](#technical-plans-and-review) for how this choice could be trialed in production. Clarify
+the goals and potential benefits of the trial. If replacing an alternative, consider whether we would consolidate
+on the new choice (and _how_) or support multiple approaches. Specify a target timeline for deciding about the
+trial either way. Avoid trialing multiple unproven things in the same project or system.
 
 #### We've had a positive experience with _Phoenix_ (e.g.) and should adopt it in more places.
 
@@ -98,27 +88,22 @@ Use your judgment. Minor dependency selections may not warrant broad input. If a
 future code will be written or how other developers will work, though, it's often worth a time-out to consider
 competing options, get feedback, choose deliberately, and document the choice.
 
+#### What plans or communication are expected when creating new projects or repositories?
+
+As above, if the new project will affect developers' work or employ technology that's not "adopted," a technical
+plan is recommended. In all cases, lean on our other documentation and communication practices like:
+
+- Ensure the README
+  [provides necessary context](https://github.com/artsy/README/blob/c4bc55cfd6bb7b768cc9aef0e99f35bf175cbb33/playbooks/documentation.md#readmes)
+- Share new repositories
+  [in open stand-up](https://github.com/artsy/README/blob/c4bc55cfd6bb7b768cc9aef0e99f35bf175cbb33/events/open-standup.md)
+- Add new projects to the
+  [project list](https://www.notion.so/artsy/17c4b550458a4cb8bcbf1b68060d63e6?v=3604e2682d024b64bde705abb2facebd)
+  🔒 and specify which team will support them.
+
 #### When should I use an RFC? When should I write a technical plan?
 
-RFC, or _Requests for Comments_ are
-[defined in the RFC playbook](https://github.com/artsy/README/blob/master/playbooks/rfcs.md) as:
-
-> a process used in large open source orgs to coordinate talking about a change and giving many people the chance
-> to express ideas and discuss changes
-
-Technical plans were [introduced in #245](https://github.com/artsy/README/issues/245) as:
-
-> an effort to make our planning more consistent, deliberate, and discoverable.
-
-These two things are not mutually exclusive, and there is some overlap. So which is the right one to use? In
-practice, either can work. These are both tools to help guide us, and shouldn't be seen as constraints.
-
-If you're asking which makes sense to use, this is a good general rule:
-
-- RFC's are better at discussing changes to **how we work as engineers**.
-- Technical plans are better at discussing changes to **what tools we work with** and **how we work with those
-  tools** to solve specific problems.
-
-But there are always exceptions ([this RFC](https://github.com/artsy/README/issues/268), for example, covers both).
-You really can't go wrong, though! A key point is to _write down your thinking_, ensuring that the team is
-communicating strongly about the topic at hand and allowing us to retrospect on decisions we've made.
+[RFCs or _Requests for Comments_](https://github.com/artsy/README/blob/master/playbooks/rfcs.md) are ideal for
+discussing changes to **how we work as engineers.** [Technical plans](https://github.com/artsy/README/issues/245)
+are better for considering **technical approaches and technology or tool choices**. You can't go wrong, though!
+Both ensure we discuss in the open and record our thinking.
