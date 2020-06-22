@@ -56,6 +56,7 @@ So far, from external contributors we've had:
 - Events listings & direct support for art spaces by [withfriends.co](withfriends.co)
 - [Conflict-free Replicated Data Types](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type) by
   [Andrey Sitnik](https://twitter.com/sitnikcode)
+- George F on [Bed Stuy Strong's System Automation](https://www.youtube.com/watch?v=1CvwtLVNh4c)
 
 Here are some examples of internal presentations:
 
