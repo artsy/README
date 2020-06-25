@@ -22,57 +22,37 @@ Artsy?" Well, Artsy pays our wages, so we probably owe you and the company an ex
 
 ## Artsy Values
 
-Artsy has 5 core values:
+Artsy has 6 core values:
 
-### Art meets Science
+### For the Love of Art
 
-We believe in bringing together the often separated worlds of art and science, emotion and logic, creativity and
-analysis, the subjective and the objective. While some people feel more comfortable on one side and like to keep
-distance from the other, we believe that magical things happen at the intersection of the two, and look to create
-that intersection in everything we do and in the people we hire.
+We are obsessed with art because we believe in its power to move us and change the way we experience the world. 
+Together, we are dedicated to expanding art’s impact on humanity.  
 
-> **Example**: We work as engineers, but we aren't defined by that role; Artsy holds an annual
-> [Salon](https://www.dictionary.com/browse/salon) and we encourage our engineers (and indeed, all our colleagues)
-> to submit work. Engineer contributions to this event have included generative pixel art, interactive video game,
-> photo, video, sculpture, painting, live music and cartographic pieces.
+### Own Our Outcomes
 
-### People are Paramount
+We are all individual owners of Artsy’s shared success. We are resourceful and resilient, and to get the job done,
+we each take responsibility for our outcomes.
 
-We believe in empowering each of our team members to feel like the CEO of their area of responsibility. People are
-our company’s most valuable asset, and this is reflected in the high degree of responsibility and freedom we afford
-every team member. This approach guides how Artsy treats our people in all other realms as well.
+### Lead with Openness
 
-> **Example**: We hold a weekly team lunch with a healthy, delicious meal; after introducing any new colleagues,
-> our People Ops team encourages everyone to sit and eat with people they don't normally get to talk to.
+We trust in our teammates. We have the courage to be vulnerable, to communicate honestly, and to invite diverse
+perspectives. A more open art world starts with us.
 
-### Quality Worthy of Art
+### Transform Together
 
-We strive to be a platform that is worthy of presenting the world’s most beautiful and culturally significant
-objects to all of humanity. By choosing to work at Artsy, we accept responsibility for this endeavor, and our work
-demonstrates a level of quality and intention that is worthy of the artists and people we serve.
+Our mission asks us to challenge the status quo. We embrace learning, growth, and change so that we can transform
+our industry, our company, and ourselves. 
 
-> **Example**: We have opted to not release products that are ready to ship because of they would not be up to par
-> based on externalities we can't control. For example we choose not to ship an Apple Watch app because platform
-> contraints would have made the bidding experience frustrating.
+### Impact Over Perfection
 
-### Positive Energy
+Using both art and science, we debate and decide swiftly and iterate on our plans as we learn. To make the biggest
+impact, we prioritize speed and clarity of action over perfection.
 
-We believe that art is fundamentally a positive force that can allow people to feel more inspired, connected, and
-present. Sadly, today many people’s perception of the art world is associated with negative feelings, such as
-exclusion, confusion, or judgment. We actively work to counteract these negative feelings by making our users’
-interactions with art as inclusive and positive as possible.
+### Do the Right Thing, Always 
 
-> **Example**: We begin our weekly engineering standups with "props"; everyone is encouraged to recognize and
-> celebrate contributions that team members have made since the last standup.
-
-### Openness
-
-We believe that openness allows for fuller self-expression and for art to be more fully experienced. We believe
-that being truly open in our communication—both giving and receiving—leads to more informed decisions and more
-productive relationships, which leads to better business.
-
-> **Example**: We encourage our engineering team members to be open about asking for help; our weekly stand-ups
-> have a 'requests for pairing' where we encourage folks to ask for help on anything they've been struggling with.
+We are building a company and community we can all be proud of. We make decisions with honesty and integrity,
+even when it’s not convenient. Empathy, respect, and inclusivity are core to our mission. 
 
 ## What does this mean in practice?
 
