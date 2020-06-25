@@ -16,7 +16,9 @@ URL:
 ### Motivation
 
 <!--
-Describe why you'd like to add the dependency. Be as brief or detailed as you see fit. Remember that we're responsible for all the code we ship, even for our dependencies.
+Describe why you'd like to add the dependency. Your goal here is to help other engineers understand why a dependency will help us do our job. If it's an improvement to the User Experience, include a link to the designs and describe how the dependency helps us achieve that UX. If it's an improvement to the Developer Experience, then include a before-and-after comparison of code to describe how the dependency helps us achieve a better DX.
+
+Remember that we're responsible for all the code we ship, even for our dependencies.
 -->
 
 ### Check List
