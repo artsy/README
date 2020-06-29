@@ -122,37 +122,37 @@ _Tips_:
 
 ### Ways that you can buy art as an Artsy user...
 1. Inquire on an artwork that is owned by a known test account (i.e. Invoicing Demo Partner)
-  - Inquiries are sent to gallery contacts that are subscribed to receive inquiry messages
-  - Galleries can respond via Conversations (in CMS) or email
-  - Collectors can respond via Messaging (in the iOS app) or email
-  - Inquiries are a key metric for our teams as it can indicate an intent to buy (and eventually lead to a purchase)
-  - Reference:
-    - [Inquiry model](https://github.com/artsy/gravity/blob/master/app/models/domain/inquiry_request.rb) 🔒
-    - [Conversation model in Impulse](https://github.com/artsy/impulse/blob/master/app/models/conversation.rb) 🔒
-    - [Message model in Radiation](https://github.com/artsy/radiation/blob/master/app/models/message.rb) 🔒
-    - [Conversations app in CMS](https://github.com/artsy/volt/tree/master/app/views/conversations) 🔒
+    - Inquiries are sent to gallery contacts that are subscribed to receive inquiry messages
+    - Galleries can respond via Conversations (in CMS) or email
+    - Collectors can respond via Messaging (in the iOS app) or email
+    - Inquiries are a key metric for our teams as it can indicate an intent to buy (and eventually lead to a purchase)
+    - Reference:
+      - [Inquiry model](https://github.com/artsy/gravity/blob/master/app/models/domain/inquiry_request.rb) 🔒
+      - [Conversation model in Impulse](https://github.com/artsy/impulse/blob/master/app/models/conversation.rb) 🔒
+      - [Message model in Radiation](https://github.com/artsy/radiation/blob/master/app/models/message.rb) 🔒
+      - [Conversations app in CMS](https://github.com/artsy/volt/tree/master/app/views/conversations) 🔒
 
 1. Register for an auction
-  - Some auctions require that you are _approved_ by an admin before you are allowed to bid
-  - Reference:
-    - [Bidder model](https://github.com/artsy/gravity/blob/master/app/models/domain/bidder.rb) 🔒
+    - Some auctions require that you are _approved_ by an admin before you are allowed to bid
+    - Reference:
+      - [Bidder model](https://github.com/artsy/gravity/blob/master/app/models/domain/bidder.rb) 🔒
 
 1. Bid in an online-only auction
-  - This creates a max bid (meaning, you agree to pay _up to_ that amount for the work).
-  - When the auction ends, the highest bidder wins
-  - Reference:
-    - [BidderPosition model](https://github.com/artsy/gravity/blob/master/app/models/domain/bidder_position.rb) 🔒
+    - This creates a max bid (meaning, you agree to pay _up to_ that amount for the work).
+    - When the auction ends, the highest bidder wins
+    - Reference:
+      - [BidderPosition model](https://github.com/artsy/gravity/blob/master/app/models/domain/bidder_position.rb) 🔒
 
 1. Bid in a live auction (and pull up operator to show the live auction process)
-  - The operator keeps track of progress in the room
-  - You can jump in at any time to bid that _exact_ amount
-  - Reference:
-    - [Live bidding in Causality (model/engine)](https://github.com/artsy/causality) 🔒
-    - [Live bidding from Prediction (operator/bidder UI)](https://github.com/artsy/prediction) 🔒
+    - The operator keeps track of progress in the room
+    - You can jump in at any time to bid that _exact_ amount
+    - Reference:
+      - [Live bidding in Causality (model/engine)](https://github.com/artsy/causality) 🔒
+      - [Live bidding from Prediction (operator/bidder UI)](https://github.com/artsy/prediction) 🔒
 
 1. Buy a work through the e-commerce checkout flow
-  - When you buy through e-commerce, the artwork is immediately marked as Sold. Partners approve your order at which point you are charged for it.
-  - Reference:
-    - [Order model in Exchange](https://github.com/artsy/exchange/blob/master/app/models/order.rb)
-    - [Order app (in Force)](https://github.com/artsy/force/tree/master/src/desktop/apps/order2)
-    - [Order app (in Reaction)](https://github.com/artsy/reaction/tree/master/src/Apps/Order)
+    - When you buy through e-commerce, the artwork is immediately marked as Sold. Partners approve your order at which point you are charged for it.
+    - Reference:
+      - [Order model in Exchange](https://github.com/artsy/exchange/blob/master/app/models/order.rb)
+      - [Order app (in Force)](https://github.com/artsy/force/tree/master/src/desktop/apps/order2)
+      - [Order app (in Reaction)](https://github.com/artsy/reaction/tree/master/src/Apps/Order)
