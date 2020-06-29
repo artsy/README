@@ -132,33 +132,25 @@ _Tips_:
     - [Message model in Radiation](https://github.com/artsy/radiation/blob/master/app/models/message.rb) 🔒
     - [Conversations app in CMS](https://github.com/artsy/volt/tree/master/app/views/conversations) 🔒
 
-2. Respond to an inquiry with an invoice, and pay for it
-  - An inquiry may have an invoice attached from a gallery
-  - Invoices are created by partners (with any number of line items)
-  - Collectors pay invoices via a separate interface
-  - Reference:
-    - [Invoice model](https://github.com/artsy/lewitt-api/blob/master/app/models/invoice.rb)
-    - [Invoicing UI (for collectors)](https://github.com/artsy/lewitt-web-public)
-
-3. Register for an auction
+1. Register for an auction
   - Some auctions require that you are _approved_ by an admin before you are allowed to bid
   - Reference:
     - [Bidder model](https://github.com/artsy/gravity/blob/master/app/models/domain/bidder.rb) 🔒
 
-4. Bid in an online-only auction
+1. Bid in an online-only auction
   - This creates a max bid (meaning, you agree to pay _up to_ that amount for the work).
   - When the auction ends, the highest bidder wins
   - Reference:
     - [BidderPosition model](https://github.com/artsy/gravity/blob/master/app/models/domain/bidder_position.rb) 🔒
 
-5. Bid in a live auction (and pull up operator to show the live auction process)
+1. Bid in a live auction (and pull up operator to show the live auction process)
   - The operator keeps track of progress in the room
   - You can jump in at any time to bid that _exact_ amount
   - Reference:
     - [Live bidding in Causality (model/engine)](https://github.com/artsy/causality) 🔒
     - [Live bidding from Prediction (operator/bidder UI)](https://github.com/artsy/prediction) 🔒
 
-6. Buy a work through the e-commerce checkout flow
+1. Buy a work through the e-commerce checkout flow
   - When you buy through e-commerce, the artwork is immediately marked as Sold. Partners approve your order at which point you are charged for it.
   - Reference:
     - [Order model in Exchange](https://github.com/artsy/exchange/blob/master/app/models/order.rb)
