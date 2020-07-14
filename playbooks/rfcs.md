@@ -11,7 +11,7 @@ Example RFCs from other communities:
 - React - [Overview](https://github.com/reactjs/rfcs/blob/master/README.md) -
   [Template](https://github.com/reactjs/rfcs/blob/master/0000-template.md)
 - Swift - [Overview](https://github.com/apple/swift-evolution/blob/master/process.md#how-to-propose-a-change) -
-  [Template](https://github.com/apple/swift-evolution/blob/master/0000-template.md)
+  [Template](https://github.com/apple/swift-evolution/blob/master/proposal-templates/0000-swift-template.md)
 - Rust - [Overview](https://github.com/rust-lang/rfcs#rust-rfcs) -
   [Template](https://github.com/rust-lang/rfcs/blob/master/0000-template.md)
 
