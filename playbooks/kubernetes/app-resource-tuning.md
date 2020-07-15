@@ -62,3 +62,7 @@ spec:
 It takes iterations to get those parameters right. Generally, when launching an app, give it more resources than you think it needs, observe actual utilization over time, and dial down as needed. Here's a dashboard that helps monitoring an app's resource usage over time:
 
 https://app.datadoghq.com/dashboard/2n5-6tr-ypp/kubernetes-cpumemory-usage-by-deployment
+
+It might help to have a view of resource usage/allocation cluster wide. Here's a dashboard for that:
+
+https://app.datadoghq.com/dashboard/u2e-uhw-hwj/kubernetes-cpumemory-usage-by-cluster
