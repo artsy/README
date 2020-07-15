@@ -34,7 +34,7 @@ spec:
 ...
     spec:
       containers:
-        - name: gravity-web
+        - name: example-web
 
           resources:
             requests:
