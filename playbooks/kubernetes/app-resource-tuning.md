@@ -69,11 +69,11 @@ When load spikes, HPA adds pods, which triggers Cluster Autoscaler to add EC2 in
 
 https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/
 
-We scale our apps by scaling out, that is, by adding more instances. In k8s, each instance is a pod. Pods are managed by a `deployment`. HPA manages the pod count of a `deployment`. It adds or removes pods in response to pods' CPU utilization (as % of their CPU Request). It has several knobs:
+We scale our apps by scaling out, that is, by adding more instances. In k8s, each instance is a pod. Pods are managed by a `deployment`. HPA manages the pod count of a `deployment`. It adds or removes pods in response to changes in workload. It has several knobs:
 
 - `minReplicas` specifies the number of pods a deployment has at a minimum. Even if there's zero load, HPA still ensures there is that number of pods.
 - `maxReplicas` specifies the maximum number of pods a deployment can have. HPA caps the count at that, even if load is sky-high.
-- `targetCPUUtilizationPercentage` tells HPA to maintain each pod's CPU utilization at that level. When utilization exeeds (or drops below) the target, HPA adds (or removes) pods, but pod count will be constrained by min/max settings.
+- `targetCPUUtilizationPercentage` tells HPA to maintain pods' CPU utilization at that level. When utilization exeeds (or drops below) the target, HPA adds (or removes) pods, but pod count will be constrained by min/max settings.
 
 ```
 apiVersion: autoscaling/v1
@@ -91,12 +91,18 @@ spec:
   targetCPUUtilizationPercentage: ???
 ```
 ## Recommendations
+
 ### minReplicas
+- Set it to 2 for redundancy.
+
 ### maxReplicas
+- Set it to as many as required to meet reasonable workload. We have unlimited capacity. Cluster Auto-Scaler will add EC2 instances to back up the pods. Cap it at a number beyond which you feel is unreasonable for the app.
+
 ### targetCPUUtilizationPercentage
+- Set it to less than 100% so there is headroom for the pods to meet quick surges in workload, so that client requests are not dropped while HPA/CA add pods/EC2-instances which takes time. But don't set it so low that a lot of CPU sits idle. Try 70%-80%. For example, if set at 70%, pods' CPU utilization will be around 70%. When there's a surge in workload and HPA has added pods up to max, utilization will go beyond 70%.
 
 # Process of tuning those parameters.
-It takes iterations to get those parameters right. Generally, when launching an app, give it more resources than you think it needs, observe actual utilization over time, and dial down as needed. Here's a dashboard that helps monitoring an app's resource usage over time:
+It takes iterations to get those parameters right. Generally, when launching an app, give it more resources (especially memory) than you think it needs, observe actual utilization over time, and dial down as needed. Here's a dashboard that helps monitoring an app's resource usage over time:
 
 https://app.datadoghq.com/dashboard/2n5-6tr-ypp/kubernetes-cpumemory-usage-by-deployment
 
