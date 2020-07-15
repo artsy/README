@@ -13,7 +13,7 @@ However, we should tune them per app. This doc provides some guidelines on tunin
 
 # Container CPU/Memory Request/Limit.
 
-These parameters are set per container. `requests` means how much of a resource will be reserved for the container. `limits` means the maximum amount of a resource that the container is allowed to use. If an app hits CPU limit, it will get throttled. If it hits memory limit, it will likely terminate with out-of-memory error.
+These parameters are set per container. `requests` means how much of a resource will be reserved for the container. `limits` means the maximum amount of a resource that the container is allowed to use. If an app hits CPU limit, it will get throttled and slows down but it won't terminate. If it hits memory limit, it will likely terminate with out-of-memory error.
 
 CPU values are expressed in "number of CPU's". For example, 0.2 means 0.2 cpus. The value can also be expressed in units of milli cpus. So 200m is also 0.2 cpus. We prefer to use milli cpu units.
 
@@ -46,19 +46,24 @@ spec:
 ```
 
 ## General Recommendations
+These are very general recommendations, as CPU and memory usage are both hard to gauge. Some apps such as Pulse use a lot of CPU but only rarely. For memory, some apps such as Gemini try to use more and more until they hit OOM and crash.
+
 ### CPU Request
-- Set it to as much as the app (pod) actually uses most of the time. Find that out by monitoring usage over weeks (see below).
+- Set it to as much as the app (pod) actually uses most of the time. Find that out by monitoring usage over weeks (see below). Beware that utilization might be constrained by HPA as discussed below.
 - Set it to at least 200m cpu's even if the app uses less than that.
 - Cap it at 1 cpu, but if the app can take advantage of more than 1 cpu, give it more but no more than 2. The more CPU's requested, the harder it is for k8s to find room to fit the pod.
 
-When load exceeds what 1 pod can handle, HPA adds another pod, and so forth.
+When load spikes, HPA adds pods, which triggers Cluster Autoscaler to add EC2 instances.
 
 ### CPU Limit
 - For critical apps such as Gravity, leave it, do not set it. The benefit is that when workload spikes, the pods can handle the load by using any idle CPU on the node, over what it requested. When HPA has kicked-in and added more pods, utilization per pod should go back to normal.
 - For less critical apps, set it to 1, or 2 if CPU request is set to greater than 1.
 
 ### Memory Request
+- Observe memory usage over time. Set request to 1.5x that. For example, if a pod uses 512Mi consistently, set request to 768Mi.
+
 ### Memory Limit
+- Set it to 2x usage. Example, if a pod uses 512Mi consistently, set it to 1Gi. Beware that there might be similar limit set on app-side. For example, Nodejs apps might be configured with `max_old_space_size` setting which should match the limit set in k8s.
 
 # Horizontal Pod Auto-Scaler (HPA)
 
