@@ -1,13 +1,21 @@
-Kubernetes has knobs that allow you to control how much of the clusters' cpu/memory will be used by an app.
-This doc provides guidelines on how to set them.
+Kubernetes has knobs that allow you to control how much of the clusters' cpu/memory will be used by an app. Some good references:
 
-These settings are configured in k8s manifests (Hokusai staging/production.yml), in each app's repo.
+https://kubernetes.io/docs/tasks/configure-pod-container/assign-cpu-resource/
+
+https://kubernetes.io/docs/tasks/administer-cluster/out-of-resource/
+
+These settings are configured in k8s manifests (Hokusai staging/production.yml), in each app's repo. Hokusai templates come with example values for these settings:
+
+https://github.com/artsy/artsy-hokusai-templates
+
+However, we should tune them per app. This doc provides some guidelines on tuning.
+
 
 # Container CPU/Memory Request/Limit.
 
-This is a container-level configuration. `requests` means how much of a resource will be reserved for the container. `limits` means the maxium of a resource the container is allowed to use.
+These parameters are set per container. `requests` means how much of a resource will be reserved for the container. `limits` means the maximum amount of a resource that the container is allowed to use. If an app hits CPU limit, it will get throttled. If it hits memory limit, it will likely terminate with out-of-memory error.
 
-For CPU, values are expressed in number of CPU's. For example, value of 0.2 means 0.2 cpus. It can also be expressed in units of milli cpus. So 200m is also 0.2 cpus. We prefer to use milli cpu units.
+CPU values are expressed in "number of CPU's". For example, 0.2 means 0.2 cpus. The value can also be expressed in units of milli cpus. So 200m is also 0.2 cpus. We prefer to use milli cpu units.
 
 For memory, the value is in bytes.
 
@@ -41,9 +49,9 @@ spec:
 ### CPU Request
 - Set it to as much as the app (pod) actually uses most of the time. Find that out by monitoring usage over weeks (see below).
 - Set it to at least 200m cpu's even if the app uses less than that.
-- Cap it at 1 cpu, but if the app can take advantage of more than 1 cpu, give it more but no more than 2.
+- Cap it at 1 cpu, but if the app can take advantage of more than 1 cpu, give it more but no more than 2. The more CPU's requested, the harder it is for k8s to find room to fit the pod.
 
-More load is handled by HPA adding pods.
+When load exceeds what 1 pod can handle, HPA adds another pod, and so forth.
 
 ### CPU Limit
 - For critical apps such as Gravity, leave it, do not set it. The benefit is that when workload spikes, the pods can handle the load by using any idle CPU on the node, over what it requested. When HPA has kicked-in and added more pods, utilization per pod should go back to normal.
