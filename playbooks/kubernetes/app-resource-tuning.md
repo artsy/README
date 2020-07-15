@@ -5,7 +5,13 @@ These settings are configured in k8s manifests (Hokusai staging/production.yml),
 
 # Container CPU/Memory Request/Limit.
 
-This is a container-level configuration. `requests` means how much of a resource will be reserved for the container. `limits` means the maxium of a resource the container is allowed to use. For CPU, values are expressed in number of CPU's. For example, value of 0.2 means 0.2 cpus. It can also be expressed in units of milli cpus. So 200m is also 0.2 cpus. For memory, the value is in bytes.
+This is a container-level configuration. `requests` means how much of a resource will be reserved for the container. `limits` means the maxium of a resource the container is allowed to use.
+
+For CPU, values are expressed in number of CPU's. For example, value of 0.2 means 0.2 cpus. It can also be expressed in units of milli cpus. So 200m is also 0.2 cpus. We prefer to use milli cpu units.
+
+For memory, the value is in bytes.
+
+For a pod that has a web container as well as an nginx container, our practice is that we set these parameters for the web container only.
 
 ```
 ---
@@ -34,12 +40,15 @@ spec:
 ## General Recommendations
 ### CPU Request
 - Set it to as much as the app (pod) actually uses most of the time. Find that out by monitoring usage over weeks (see below).
-- Set it to at least 0.2 cpu's even if the app uses less than that.
+- Set it to at least 200m cpu's even if the app uses less than that.
 - Cap it at 1 cpu, but if the app can take advantage of more than 1 cpu, give it more but no more than 2.
 
-If there's more workload than one pod can handle, we add pods (via HPA) to handle the load.
+More load is handled by HPA adding pods.
 
 ### CPU Limit
+- For critical apps such as Gravity, leave it, do not set it. The benefit is that when workload spikes, the pods can handle the load by using any idle CPU on the node, over what it requested. When HPA has kicked-in and added more pods, utilization per pod should go back to normal.
+- For less critical apps, set it to 1, or 2 if CPU request is set to greater than 1.
+
 ### Memory Request
 ### Memory Limit
 
