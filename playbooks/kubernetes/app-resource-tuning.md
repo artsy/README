@@ -1,8 +1,4 @@
-Kubernetes has knobs that allow you to control how much of the clusters' cpu/memory will be used by an app. Some good references:
-
-https://kubernetes.io/docs/tasks/configure-pod-container/assign-cpu-resource/
-
-https://kubernetes.io/docs/tasks/administer-cluster/out-of-resource/
+Kubernetes has knobs that allow you to control how much of the clusters' cpu/memory will be used by an app.
 
 These settings are configured in k8s manifests (Hokusai staging/production.yml), in each app's repo. Hokusai templates come with example values for these settings:
 
@@ -12,6 +8,10 @@ However, we should tune them per app. This doc provides some guidelines on tunin
 
 
 # Container CPU/Memory Request/Limit.
+
+https://kubernetes.io/docs/tasks/configure-pod-container/assign-cpu-resource/
+
+https://kubernetes.io/docs/tasks/administer-cluster/out-of-resource/
 
 These parameters are set per container. `requests` means how much of a resource will be reserved for the container. `limits` means the maximum amount of a resource that the container is allowed to use. If an app hits CPU limit, it will get throttled and slows down but it won't terminate. If it hits memory limit, it will likely terminate with out-of-memory error.
 
@@ -67,17 +67,13 @@ When load spikes, HPA adds pods, which triggers Cluster Autoscaler to add EC2 in
 
 # Horizontal Pod Auto-Scaler (HPA)
 
-HPA manages the pod count of a `deployment`. It adds or removes pods in response to load.
+https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/
 
-`minReplicas` sets the minimum number of pods. The deployment will have that number of pods, even when there's no load.
+We scale our apps by scaling out, that is, by adding more instances. In k8s, each instance is a pod. Pods are managed by a `deployment`. HPA manages the pod count of a `deployment`. It adds or removes pods in response to pods' CPU utilization (as % of their CPU Request). It has several knobs:
 
-`maxReplicas` sets the maximum. The deployment pod count is capped at that, even if load is sky-high.
-
-`targetCPUUtilizationPercentage` is a threshold that tells HPA when to add/remove pods.
-
-Consider a pod's cpu utilization as % of its cpu `request` (see above).
-If util goes above the threshold, HPA adds pods. If it goes below, HPA removes pods.
-The effect is that the pods' cpu util always hovers around the threshold, until HPA can no longer add/remove pods as constrained by min/maxReplicas.
+- `minReplicas` specifies the number of pods a deployment has at a minimum. Even if there's zero load, HPA still ensures there is that number of pods.
+- `maxReplicas` specifies the maximum number of pods a deployment can have. HPA caps the count at that, even if load is sky-high.
+- `targetCPUUtilizationPercentage` tells HPA to maintain each pod's CPU utilization at that level. When utilization exeeds (or drops below) the target, HPA adds (or removes) pods, but pod count will be constrained by min/max settings.
 
 ```
 apiVersion: autoscaling/v1
