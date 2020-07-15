@@ -1,4 +1,4 @@
-Kubernetes has knobs that allow you to control how much of the clusters' cpu/memory will be used by an app.
+Kubernetes has knobs that allow you to allocate cpu/memory for an app.
 
 These settings are configured in k8s manifests (Hokusai staging/production.yml), in each app's repo. Hokusai templates come with example values for these settings:
 
@@ -46,17 +46,17 @@ spec:
 ```
 
 ## General Recommendations
-These are very general recommendations, as CPU and memory usage are both hard to gauge. Some apps such as Pulse use a lot of CPU but only rarely. For memory, some apps such as Gemini try to use more and more until they hit OOM and crash.
+These are very general recommendations, as CPU and memory usage are both hard to gauge. Some apps such as Pulse use a lot of CPU but only momentarily. For memory, some apps such as Gemini try to use more and more until they hit OOM and crash.
 
 ### CPU Request
 - Set it to as much as the app (pod) actually uses most of the time. Find that out by monitoring usage over weeks (see below). Beware that utilization might be constrained by HPA as discussed below.
-- Set it to at least 200m cpu's even if the app uses less than that.
+- Set it to at least 200m even if the app uses less than that.
 - Cap it at 1 cpu, but if the app can take advantage of more than 1 cpu, give it more but no more than 2. The more CPU's requested, the harder it is for k8s to find room to fit the pod.
-
-When load spikes, HPA adds pods, which triggers Cluster Autoscaler to add EC2 instances.
+- For apps that work efficiently with many instances, we can request less cpu per pod and use many pods.
 
 ### CPU Limit
-- For critical apps such as Gravity, leave it, do not set it. The benefit is that when workload spikes, the pods can handle the load by using any idle CPU on the node, over what it requested. When HPA has kicked-in and added more pods, utilization per pod should go back to normal.
+- For critical apps such as Gravity, leave it, do not set it. The benefit is that when workload spikes, the pods can handle the load by using any idle CPU on the node, over what it requested.
+
 - For less critical apps, set it to 1, or 2 if CPU request is set to greater than 1.
 
 ### Memory Request
