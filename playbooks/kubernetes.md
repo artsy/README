@@ -7,7 +7,7 @@ description: Deploying containerized applications at Artsy
 
 [Kubernetes](https://kubernetes.io/) is an open-source container orchestration platform developed by Google and
 maintained by a growing community. It provides the ability to manage and scale container deployments and integrates
-with our existing AWS infrastructure. See [hokusai.md](hokusai.md) for help managing deployed applications.
+with our existing AWS infrastructure. See [hokusai.md](../hokusai.md) for help managing deployed applications.
 
 ## Substance
 
@@ -24,23 +24,19 @@ The dashboards for our Kubernetes application clusters can be found at:
 - Production: https://kubernetes.artsy.net/
 - Staging: https://kubernetes-staging.artsy.net/
 
-### Operations
-
-The dashboards for our Kubernetes operations clusters can be found at:
-
-- Production Operations: https://kubernetes-operations.artsy.net/
-- Staging Operations: https://kubernetes-operations-staging.artsy.net/
-
 ### Monitoring
 We use [Datadog](https://app.datadoghq.com/) for cluster monitoring and alerting.
 
-- [Production Cluster Overview](https://app.datadoghq.com/infrastructure/map?mapid=4312&fillby=avg%3Acpuutilization&sizeby=avg%3Asystem.mem.used&groupby=autoscaling_group%2Cavailability-zone&filter=kubernetescluster%3Akubernetes-production-virgo.artsy.systems&nameby=name&nometrichosts=false&tvMode=false&nogrouphosts=false&palette=green_to_orange&paletteflip=false&node_type=host)
-- [Staging Cluster Overview](https://app.datadoghq.com/infrastructure/map?mapid=4320&fillby=avg%3Acpuutilization&sizeby=avg%3Asystem.mem.used&groupby=autoscaling_group%2Cavailability-zone&filter=kubernetescluster%3Akubernetes-staging-lyra.artsy.systems&nameby=name&nometrichosts=false&tvMode=false&nogrouphosts=false&palette=green_to_orange&paletteflip=false&node_type=host)
+- [Production Cluster Overview](https://app.datadoghq.com/infrastructure/map?mapid=4312&fillby=avg%3Acpuutilization&sizeby=avg%3Asystem.mem.used&groupby=autoscaling_group%2Cavailability-zone&filter=kubernetescluster%3Akubernetes-production-orion.artsy.systems&nameby=name&nometrichosts=false&tvMode=false&nogrouphosts=false&palette=green_to_orange&paletteflip=false&node_type=host)
+- [Staging Cluster Overview](https://app.datadoghq.com/infrastructure/map?mapid=4320&fillby=avg%3Acpuutilization&sizeby=avg%3Asystem.mem.used&groupby=autoscaling_group%2Cavailability-zone&filter=kubernetescluster%3Akubernetes-staging-aquila.artsy.systems&nameby=name&nometrichosts=false&tvMode=false&nogrouphosts=false&palette=green_to_orange&paletteflip=false&node_type=host)
 - [Container Overview](https://app.datadoghq.com/containers?columns=container_name,container_cpu,container_memory,container_net_sent_bps,container_net_rcvd_bps,container_status,container_started&options=normalizeCPU&sort=container_memory,DESC)
 
-#### Kubectl CLI
+### Allocating Kubernetes resources for apps.
+Kubernetes allows you to allocate CPU/Memory for apps. Here are some [guidelines](app-resource-tuning.md) on how to do it.
 
-If you [installed and configured Hokusai](hokusai.md) you already have `kubectl` installed as well.  `kubectl` provides a CLI for interacting with Kubernetes clusters.  It uses the Kubernetes API like the Dashboard applications, and so provides a view over the same resources, but can switch between different clusters using a "context".
+### Kubectl CLI
+
+If you [installed and configured Hokusai](../hokusai.md) you already have `kubectl` installed as well.  `kubectl` provides a CLI for interacting with Kubernetes clusters.  It uses the Kubernetes API like the Dashboard applications, and so provides a view over the same resources, but can switch between different clusters using a "context".
 
 Note: to perform cluster admin operations you should configure Hokusai with `--s3-bucket artsy-citadel --s3-key k8s/config-admin`
 
