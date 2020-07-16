@@ -1,3 +1,5 @@
+# Guidelines on app resource tuning.
+
 Kubernetes has knobs that allow you to allocate cpu/memory for an app.
 
 These settings are configured in k8s manifests (Hokusai staging/production.yml), in each app's repo. Hokusai templates come with example values for these settings:
@@ -46,7 +48,7 @@ spec:
 ```
 
 ## General Recommendations
-These are very general recommendations, as CPU and memory usage are both hard to gauge. Some apps such as Pulse use a lot of CPU but only momentarily. For memory, some apps such as Gemini try to use more and more until they hit OOM and crash.
+These are very general recommendations, as CPU and memory usage are both hard to gauge. Some apps such as Pulse use a lot of CPU but only momentarily. For memory, some apps such as Gemini try to use more and more until they hit OOM and are killed.
 
 ### CPU Request
 - Set it to as much as the app (pod) actually uses most of the time. Find that out by monitoring usage over weeks (see below). Beware that utilization might be constrained by HPA as discussed below.
