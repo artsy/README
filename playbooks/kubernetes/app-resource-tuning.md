@@ -1,4 +1,7 @@
-# Guidelines on app resource tuning.
+---
+title: Guidelines on app resource tuning.
+description: How to set CPU/Memory requests and limits for an app?
+---
 
 Kubernetes has knobs that allow you to allocate cpu/memory for an app.
 
