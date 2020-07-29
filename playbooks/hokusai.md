@@ -35,7 +35,7 @@ curl --silent https://artsy-provisioning-public.s3.amazonaws.com/hokusai/hokusai
 
 See https://github.com/artsy/hokusai#setup
 
-#### Configure Hokusai
+### Configure Hokusai
 
 Prerequisite: install the AWS IAM Authenticator plugin
 
@@ -55,23 +55,12 @@ hokusai configure --kubectl-version 1.10.7 --s3-bucket artsy-citadel --s3-key k8
 
 #### Note
 
-Due to
-[recent PyPi upgrades](https://gis.stackexchange.com/questions/278989/pip-no-longer-works-with-qgis-2-18-x-python-tls-version-no-longer-supported)
-`pip install --upgrade hokusai` may complain about SSL cipers being out of date. To fix this, make sure your
-openssl libraries are up-to-date: `brew upgrade openssl` and reinstall python via `brew reinstall python`.
+- Due to [recent PyPi upgrades](https://gis.stackexchange.com/questions/278989/pip-no-longer-works-with-qgis-2-18-x-python-tls-version-no-longer-supported)
+`pip install --upgrade hokusai` may complain about SSL cipers being out of date. To fix this, make sure your openssl libraries are up-to-date: `brew upgrade openssl` and reinstall python via `brew reinstall python`.
 
-#### Configuring access to Kubernetes
+- The artsy-citadel S3 bucket isn't open source, and the above will fail for non-Artsy team-members.
 
-Make sure that the environment variables `$AWS_ACCESS_KEY_ID` and `$AWS_SECRET_ACCESS_KEY` are set in your shell or
-persistently in your `~/.bash_profile`
-
-Install `kubectl` along with our Kubernetes configuration with:
-
-`hokusai configure --kubectl-version 1.10.7 --s3-bucket artsy-citadel --s3-key k8s/config`
-
-Note: the artsy-citadel S3 bucket isn't open source, and the above will fail for non-Artsy team-members.
-
-#### Setting up a new project
+### Setting up a new project
 
 We keep templates for bootstrapping new projects in https://github.com/artsy/artsy-hokusai-templates
 
