@@ -44,7 +44,6 @@ most of our projects don’t get large enough for their stewardship to become bu
   - [artsy/README][readme]
   - [artsy/force][force]
   - [artsy/eigen][eigen]
-  - [artsy/emission][em]
 
 - Further Reading:
 
@@ -109,7 +108,7 @@ trade-offs.
 
 - Examples
 
-  - [Emission][em] / [Reaction][rn] (React component libraries for integration in other projects)
+  - ~[Emission][em] / [Reaction][rn] (React component libraries for integration in other projects)~ Tried but in the end they got embedded in the project they were used in.
   - [Stitch](https://github.com/artsy/stitch) (A way to incrementally add React to web-apps)
   - [Metaphysics][mp] (Our GraphQL API which encapsulates and expands Artsy's APIs)
 
