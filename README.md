@@ -54,7 +54,7 @@ Engineers typically work on a product team and may also belong to an _Engineerin
 ## Support
 
 If you are on call or asked to fix an immediate issue, check out our doc on
-[how support works](/playbooks/support.md#readme) and reference our
+[how support works](/playbooks/support) and reference our
 [support wiki](https://github.com/artsy/potential/wiki) 🔒 for up-to-date playbooks on how to solve issues.
 
 <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
