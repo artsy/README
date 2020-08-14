@@ -17,7 +17,7 @@ interviews may change slightly based on the level, but the ethos will be the sam
 At a high level, our interviews have three phases:
 
 - [**Phone screen**](#phone-screen): Short chats with a recruiter and (often) an engineering manager.
-- [**On-site**](#"on-site"-interview): Our standard interview loop. Includes four interviews with engineers and
+- [**On-site**](#on-site-interview): Our standard interview loop. Includes four interviews with engineers and
   non-engineers.
 - [**References**](#references): Three professional references (this part is the same for interviews across Artsy).
 
