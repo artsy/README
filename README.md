@@ -34,7 +34,7 @@ We split this repo out into different sections, each one has a summary of what's
 
 Artsy product engineering is organized in product teams. Each team has a _purpose_, eg. _"Help galleries get the
 most out of Artsy and run their business better"_, and Key Performance Indicators, or KPIs, eg. _"The number of
-artworks uploaded by partners."_ Each team has members with different responsibilities, including a _Project
+artworks uploaded by partners."_ Each team has members with different responsibilities, including a _Product
 Manager_, a _Designer_, a _Technical Lead_ and _Engineers_, depending on size. Sometimes the same person wears
 multiple hats.
 

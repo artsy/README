@@ -160,8 +160,8 @@ success on automation via documentation for recurring meetings.
 
 ### Leverage Your Impact
 
-We built an large reputation for our size as an engineering team via these principles. This gives internal
-engineers the ability to move local impact to a larger communal impact.
+We built a large reputation for our size as an engineering team via these principles. This gives internal engineers
+the ability to move local impact to a larger communal impact.
 
 Consider ways in which you can expand the scope of impact for your time:
 

@@ -11,11 +11,17 @@ process. Our goal is to give you the information you need to feel prepared.
 We'll update this as often as we can when things change, but note that the details may shift slightly. Our
 Recruitment team will be available to answer any questions you may have throughout the hiring process!
 
-This guide is tailored to our standard interviews for the IC3-IC5 levels on
-[our ladder](/careers/ladder.md#readme). The content of the interviews may change slightly for other levels, but
-the ethos will be the same.
+This guide is tailored to our standard interviews for most individual-contributor roles. The content of the
+interviews may change slightly based on the level, but the ethos will be the same.
 
-### Phone screens
+At a high level, our interviews have three phases:
+
+- [**Phone screen**](#phone-screen): Short chats with a recruiter and (often) an engineering manager.
+- [**On-site**](#"on-site"-interview): Our standard interview loop. Includes four interviews with engineers and
+  non-engineers.
+- [**References**](#references): Three professional references (this part is the same for interviews across Artsy).
+
+### Phone Screen
 
 As a very first step, you’ll speak with one of our recruiters and perhaps an engineering manager. These
 conversations are a way for us to learn more about you, what motivates you, and gauge whether Artsy and the
@@ -27,7 +33,7 @@ to ask your interviewer. Remember, this is also for _you_ to make sure Artsy wou
 
 ### "On-site" Interview
 
-During your "on-site", you will participate in four 30 minute interviews, and one 60 minute interview:
+During your "on-site," you will usually participate in four 30 minute interviews and one 60 minute interview:
 
 #### 1. Hiring Manager
 
@@ -50,19 +56,19 @@ manager interview, this is non-technical but be prepared to discuss past experie
 This interview will be with a member of our Product, Design or Data teams.
 
 Similar to the Peer (Engineer) interview above, this is non-technical but you should be prepared to discuss past
-experiences working cross-collaboratively.
+experiences and especially collaborations with non-technical colleagues.
 
 #### 4. Technical Fluency
 
-This interview will be with an engineer. The focus of this interview varies for different levels and specialities.
-Most likely, the person you interview with will be at the same (or higher) level than the one you are interviewing
-for and have expertise in the domain.
+This interview will be with an engineer. The focus of this interview varies for different levels and specialties.
+Most likely, the person you interview with will be someone with experience relevant to the role.
 
 You will not be asked to code but we will dig into the technical details of projects you've worked on. In general,
 we care more about hearing how you think through problems vs. whether you're familiar with a specific technology.
 
 Some advice: dig into the details! Talk about how you approached problems and why. We like to hear your thought
-process but also understand if you need a few moments to think before answering-- let us know if this is the case!
+process but also understand if you need a few moments to think before answering-- let us know if this is the case,
+and don't be afraid to ask clarifying questions!
 
 #### 5. System Design
 
@@ -72,21 +78,22 @@ remote setup) to explain your work, but you will not be asked to code anything.
 
 In this interview, we're evaluating the following key areas:
 
-- Systems thinking: Are you able to think holistically about the problem and dig into details.
-- Decision-making: What factors are you employing when making decisions. Can you explain why you chose X or Y?
+- Systems thinking: Are you able to both think holistically about the problem and dig into details?
+- Decision-making: What factors are you employing when making decisions? Can you explain why you chose X or Y?
 - Communication: We want to hear your thought-process and assumptions as you make them.
 
 \*"System" is used generically here to represent a chunk of an ecosystem. We tailor the prompt to the specific
-role. (For example: if it's an iOS role, you may be asked to design a feature in an iOS app. We're not trying to
-trick you here!)
+role, so for example if it's an iOS role, you may be asked to design a feature in an iOS app; if it's a full stack
+role, it could be something like a simple architecture for notifications. We're not trying to trick you here or
+catch you out, we just want hear how you leverage your knowledge and experience.
 
 ### References
 
-After the interview loop, we will connect with your professional references.
+Based on feedback from these interviews, we'll ask to connect with your professional references.
 
 References are an important part of Artsy's hiring strategy across all roles. We’ll ask for three references—these
 should be a combination of direct managers and close collaborators. If you’re unable to provide three (i.e. if
-you’ve been in the same job your whole career), let us know!
+you’ve been in the same job your whole career), let us know and we'll figure something out!
 
 During these calls, we'll ask your references in-depth questions about their experience working with you. See
 [this blog post on hiring](https://artsy.github.io/blog/2019/01/23/artsy-engineering-hiring/) for more details.
@@ -101,12 +108,11 @@ During these calls, we'll ask your references in-depth questions about their exp
   etc.
 - You are not required to have a deep knowledge of Artsy's product or engineering team before interviewing, but it
   can be helpful to do some research ahead of time as a way to frame your questions or discussion. We recommend
-  poking around artsy.net, looking at our engineering blog, and checking out our
-  [Artsy in a Nutshell](/culture/what-is-artsy.md#readme) doc in this repo.
+  poking around [artsy.net](https://www.artsy.net/), looking at our [engineering blog](https://artsy.github.io/),
+  and checking out our [Artsy in a Nutshell](/culture/what-is-artsy.md#readme) doc in this repo.
 
 ### Additional Resources
 
 - [This blog post](https://artsy.github.io/blog/2019/01/23/artsy-engineering-hiring/) on our hiring process written
   in January of 2019 is still relevant! Details around the exact structure of our interviews is outdated (refer to
   this doc for up-to-date information), but the general approach is the same.
--
