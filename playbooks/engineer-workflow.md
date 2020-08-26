@@ -12,6 +12,7 @@ description: How we work together
     - [Fork-and-branch](#fork-and-branch)
     - [Commits](#commits)
     - [Pull requests](#pull-requests)
+    - [Code Reviews](#code-reviews)
     - [Testing](#testing)
     - [Deployment](#deployment)
   - [Continuous improvement](#continuous-improvement)
@@ -141,6 +142,15 @@ Further reading:
 - [On empathy and pull requests](https://slack.engineering/on-empathy-pull-requests-979e4257d158)
 - [Rules of communicating at GitHub](https://ben.balter.com/2014/11/06/rules-of-communicating-at-github/)
 - [RFC on defining PR roles at Artsy](https://github.com/artsy/README/issues/177)
+
+### Code Reviews
+
+The best PR comments are clear in their intention. While we don't mandate that PR comments follow any specific
+format, some people have found it helpful to adopt the standards outlined in
+[Conventional Comments](https://conventionalcomments.org).
+
+In particular, we encourage the use of `blocking` and `non-blocking` to signal whether or not a question or comment
+should be resolved before merging.
 
 ### Testing
 
