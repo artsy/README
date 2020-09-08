@@ -80,8 +80,8 @@ or explore our public data by checking out [our API][footer_api]. If you're inte
 through our [job postings][footer_jobs]!
 
 [footer_website]: https://www.artsy.net/
-[footer_principles]: culture/engineering-principles.md
-[footer_open]: culture/engineering-principles.md#open-source-by-default
+[footer_principles]: https://github.com/artsy/README/blob/master/culture/engineering-principles.md
+[footer_open]: https://github.com/artsy/README/blob/master/culture/engineering-principles.md#open-source-by-default
 [footer_blog]: https://artsy.github.io/
 [footer_twitter]: https://twitter.com/ArtsyOpenSource
 [footer_api]: https://developers.artsy.net/
