@@ -26,142 +26,64 @@ description: How systems are deployed at Artsy
 
 _\*Not all of these goals are routinely achieved._
 
-_[Jump ahead to **recommendations**.](#recommendations)_
-
-## Current state
-
-- A few different approaches, largely historical or based on local teams' preferences.
-- In all cases, CI deploys to staging
-- In almost all cases, **CircleCI** is responsible for CI
-- Want to deploy? Check the **README** of any system to be sure.
-
-### Hosting Environments:
-
-- Heroku (Radiation, Impulse, Positron, ...)
-- AWS OpsWorks (Gemini, Causality)
-- **Kubernetes** (Gravity, Force, Metaphysics, Volt, Diffusion, Doppler, ...)
-
-### Approaches:
-
-#### Run a single command from a developer's check-out
-
-E.g.:
-
-- `hokusai pipeline promote` (Metaphysics, Diffusion, Vibrations...)
-- `git push heroku master` (...?)
-
-This approach is simple and a straightforward usage of our existing tools, BUT:
-
-- Requires a working environment (at least with `hokusai`/`git` and credentials)
-- May have a different effect depending on the local state (e.g., of git remotes or `hokusai/*.yml` configurations)
-- Isn't adaptable to multi-step deploys (e.g., compiling assets)
-- Doesn't enforce the exact deploy commands (though they may be documented)
-- May not match the code and configuration used (by CI) to deploy to staging
-
-#### Run a jenkins job
-
-E.g.:
-
-- [deploy-gravity-production](https://joe.artsy.net/job/deploy-gravity-production/)
-- [deploy-gemini-production](https://joe.artsy.net/job/deploy-gemini-production/)
-
-Conveniently, jenkins jobs are visible to others. They leverage a precisely configured (and thus repeatable)
-environment, and even prevent tasks from overlapping. However:
-
-- Spinning up Jenkins slaves simply to execute a deploy command feels like overkill
-- Once again, the set-up for such a job may not match that used by CI to deploy to staging
-
-#### Open and merge a PR to trigger a release
-
-E.g.:
-
-- via `hokusai pipeline promote` ([Volt](https://github.com/artsy/volt/blob/master/.circleci/config.yml), ...)
-- via `hokusai production deploy ...`
-  ([Kaws](https://github.com/artsy/kaws/blob/2e8e0ca8be2bc14e30e979cf2481e01767762f5e/.circleci/config.yml),
-  [Force](https://github.com/artsy/force/blob/4e81b8f92d40bcdcd6c575be31ac561e1500f203/.circleci/config.yml))
-- via `git push heroku master` ([Impulse](https://github.com/artsy/impulse/blob/master/.circleci/config.yml))
-
-This leverages the exact set-up already in use to deploy staging, and is independent of any developer's
-environment. The pull request also acts as a convenient record of the deploy, including commits and any discussion.
-It's possible, however, for deploys to end up blocked or delayed by other CI tasks. This approach also requires a
-little extra CircleCI configuration.
-
-Some projects trigger a deploy by PR-ing `master` to a `release` branch. This risks including commits that haven't
-completed a full CI run over the `master` branch. To avoid this, others update a `staging` or `master-stable`
-branch after the staging deploy is complete and PR from that branch.
-
 ## Recommendations
 
-- It's acceptable for projects to start by recommending a basic `hokusai pipeline promote`
-- When setting up projects, use `hokusai setup` in combination with the templates in
-  [artsy/artsy-hokusai-templates](https://github.com/artsy/artsy-hokusai-templates). They provide reasonable
-  starting points for `.circleci/config.yml` and other configuration files.
-- Full-fledged projects should drive releases (via CircleCI) with pull requests from a `staging` branch to a
-  `release` branch as described above.
-  - The staging deploy must update a `staging` _branch_ (instead of publishing a `staging` tag) as a basis for
-    release PRs.
-  - Release PRs can usually be created from a URL like `<github project URL>/compare/release...staging?expand=1`.
-    - Title the pull request with a brief description of what's being deployed (e.g.,
-      `Deploy inquiry A/B test, homepage analytics`)
-    - As opposed to [usual pull requests](/playbooks/engineer-workflow.md#pull-requests), it's acceptable to
-      self-merge a release PR.
-  - See [Reflection's .circleci/config.yml](https://github.com/artsy/reflection/blob/master/.circleci/config.yml)
-    as an example of a full set-up for staging and production deploys.
-  - Note that this requires creating a _read+write Github key_ for CircleCI (rather than the default read-only) as
-    follows:
-    - Generate a key with a helpful label: `ssh-keygen -t rsa -b 4096 -m PEM -C "github_rw_key_for_circle"`
-      (provide a blank passphrase).
-      - Note: the `-m PEM` became necessary in 2019 with the release of macOS Mojave. See
-        [this post](https://support.circleci.com/hc/en-us/articles/360021127693-How-to-generate-and-store-read-write-SSH-keys)
-        for full details
-    - Log into Github as the `artsyit` user and, in the project's settings, go to _Deploy keys_ > _Add deploy key_.
-      Give the key a descriptive name (like the label above) and paste in the contents of the _public_ (`.pub`) key file.
-    - Check the _Allow write access_ box and click the _Add key_ button to save the new key.
-    - In the CircleCI project settings, go to _SSH Permissions_ > _Add SSH Key_.
-    - Enter `github.com` for _Hostname_ and the contents of the _private_ key file for _Private Key_, then click _Add
-      SSH Key_ to save.
-  - Since a `hokusai pipeline promote` promotes the image currently in use by staging at the time of the command,
-    it's possible that doesn't match what was merged into the `release` branch by the PR. In the future, we'd like
-    to avoid this race condition with an argument to `hokusai pipeline promote`, possibly like
-    `--only $CIRCLE_SHA1`.
+- Pull requests undergo the full test suite and any other linting or coverage steps imposed by the project.
+- Once merged to the `master` branch and successfully tested/built, changes are automatically pushed to the
+  container registry and deployed to staging by CI steps.
+- Any necessary pre-deploy steps (such as migrations) or post-deploy steps occur automatically during the deploy.
+- A `staging` branch is updated based on each deploy to the staging environment.
+- Opening, reviewing, and merging a pull request from the `staging` to the `release` branch triggers a promotion
+  from the staging to production environment (i.e., a release).
+- For visibility, announce any production releases in [#dev](https://artsy.slack.com/messages/dev).
 
-In all cases:
+## Tools
 
-- Announce deploys for visibility in [#dev](https://artsy.slack.com/messages/dev)
-- Document accurate deploy procedure in README
+We use the [hokusai](hokusai.md) tool to drive this process via
+[CircleCI](https://app.circleci.com/projects/project-dashboard/github/artsy). The
+[artsy/artsy-hokusai-templates](https://github.com/artsy/artsy-hokusai-templates) project provides solid starting
+points for `.circleci/config.yml` and other configuration files. The
+[artsy/hokusai orb](https://github.com/artsy/orbs/tree/master/src/hokusai) packages up the common steps for
+convenient reuse. See
+[Convection's .circleci/config.yml](https://github.com/artsy/convection/blob/master/.circleci/config.yml) for a
+complete example.
 
-## Advanced topics
+We use [horizon](https://github.com/artsy/horizon/) to poll for the status of our deployments and visualize them as
+a dashboard. See [its instructions](https://github.com/artsy/horizon#add-a-new-project) for defining a new project
+and configuring release pull requests to be opened [and optionally merged] automatically.
 
-### Tags
+If a project should _not_ be released for any reason (such as needing QA or known issues in staging),
+[create a deploy block](https://github.com/artsy/horizon#add-a-deploy-block) to record the reason and timing. The
+[artsy/release](https://github.com/artsy/orbs/blob/master/src/release/release.yml) orb defines a `block` step that
+will respect any unresolved deploy blocks and cause release builds to short-circuit.
 
-`hokusai` can automatically push tags to the artsy remote via the `--git-remote` argument.
+If a project strays from these common practices, it's _especially_ important to document the correct process in its
+README.
 
-E.g.:
+## Setting up a project in CircleCI
 
-- `hokusai staging deploy $SHA --git-remote upstream` pushes `staging` and, e.g., `staging--2018-10-16--16-59-42`
-  tags
-- `hokusai pipeline promote --git-remote upstream` pushes `production` and, e.g.,
-  `production--2018-10-16--16-59-42` tags
+- See [CircleCI's docs](https://circleci.com/docs/2.0/getting-started/#section=getting-started) for general set-up
+  steps.
+- Artsy's project templates depend on write access to the repo (in order to push branches from CI steps). To create
+  a _read+write Github key_ for CircleCI (rather than the default read-only):
+  - Generate a key with a helpful label: `ssh-keygen -t rsa -b 4096 -m PEM -C "github_rw_key_for_circle"` (provide
+    a blank passphrase).
+  - Log into Github as the `artsyit` user and, in the project's settings, go to _Deploy keys_ > _Add deploy key_.
+    Give the key a descriptive name (like the label above) and paste in the contents of the _public_ (`.pub`) key
+    file.
+  - Check the _Allow write access_ box and click the _Add key_ button to save the new key.
+  - In the CircleCI project settings, go to _SSH Permissions_ > _Add SSH Key_.
+  - Enter `github.com` for _Hostname_ and the contents of the _private_ key file for _Private Key_, then click _Add
+    SSH Key_ to save.
+- In the projects' settings, generally speaking:
+  - _build forked pull requests_ should be enabled
+  - _pass secrets to builds from forked pull requests_ should be disabled
 
-This can be helpful for recording each release. However, Github doesn't support creating _PRs_ from tags like
-`staging` so avoid that when employing the PR-driven release approach.
+## "Hot" fixes and roll-backs
 
-### "Hot" fixes and roll-backs
-
-Sometimes there are urgent fixes to release. We always prefer using the typical pipeline (from pull requests to
-`master` to staging and then to production), even in cases of reverted PRs or timely fixes. When it's absolutely
-critical to avoid the delay of a full CI run or staging deploy, it's possible to simply
-`hokusai production deploy <tag>` where _tag_ is an image tag (including git SHAs) and can refer to a previous
-release such as `production--2018-09-25--10-19-2`. Projects that depend on other release operations (e.g., to
-compile assets or update configuration) may require additional steps.
-
-### Migrating from Heroku
-
-You may want to migrate an application from Heroku to Kubernetes.
-
-This involves getting Hokusai and being able to `hokusai test` locally, getting Circle-CI to run tests and deploy
-to a new staging K8 environment, then having Circle-CI promote from staging to a new production environment, then
-switching DNS.
-
-- See [doppler#154](https://github.com/artsy/doppler/pull/154) for an example of dockerizing a Rails app.
-- See [doppler#157](https://github.com/artsy/doppler/pull/157) for setting up promotion from staging to production.
+Sometimes there are urgent fixes to release. We always prefer using the typical pipeline to "roll forward," even in
+cases of reverted PRs or timely fixes. When it's critical to avoid the delay of a full CI run or staging deploy,
+it's possible to simply `hokusai production deploy <tag>` where _tag_ is an image tag (including git SHAs) and can
+refer to a previous release such as `production--2018-09-25--10-19-2`. (Run `hokusai registry images` to see recent
+tags.) Projects that depend on other release operations (e.g., to compile assets or update configuration) may
+require additional steps.
