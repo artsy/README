@@ -46,7 +46,7 @@ _Props_
 
 -
 
-_Company Updates_
+_Company Updates & Important Communication_
 
 -
 
@@ -86,6 +86,10 @@ _Lunch & Learn_ || _Show & Tell_ (if you don't know, ask in #lunch_and_learn or 
 -
 
 _Closing Announcements_
+
+-
+
+_Optional: Q&A / Open Discussion_
 
 -
 ```
