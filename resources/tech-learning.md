@@ -70,7 +70,7 @@ _See also [Platform Practice Resources](#platform-practice) below_
 | [Ramping up a team in scala][ramping_scala] | Short video tour of the language from Thoughtworks engineer Susie Marshall |
 | [Effective Scala][effective_scala]          | Style Guide + Patterns from Twitter                                        |
 | [Free ebooks from Underscore][underscore]   | Essential Scala, Slick, Play...                                            |
-| []()                                        |                                                                            |
+| [Scala Book](https://docs.scala-lang.org/overviews/scala-book/introduction.html)|Free Scala book from Alvin Alexander    |
 
 &nbsp;
 
