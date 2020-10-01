@@ -6,6 +6,7 @@
 - [Wait!](#wait)
 - [Process Overview](#process-overview)
 - [On-Call Responsibilities](#on-call-responsibilities)
+- [Preparing for your on-call shift](#preparing-for-your-on-call-shift)
 - [Responding to an incident](#responding-to-an-incident)
 - [Severity of Incidents](#severity-of-incidents)
 - [Best practices](#best-practices)
@@ -76,6 +77,10 @@ notifying engineers during non-work hours. Do your best to keep an eye out for i
 favorable timezones where appropriate. See our [On-Call SLO document](on-call-slo.md) for a detailed description of
 the coverage we currently promise.
 
+## Preparing for your on-call shift
+- Make sure you have read all the above.
+- [Set up Slack Notifications](https://github.com/artsy/README/blob/master/playbooks/support/slack-notifications.md)
+
 ## Responding to an incident
 
 See the [responding doc](responding.md).
@@ -113,7 +118,6 @@ You can find the point people in the [Potential Wiki](https://github.com/artsy/p
 
 - [The wiki](https://github.com/artsy/potential/wiki) 🔒 contains playbooks of support procedures for various teams
   and systems.
-- [Setting up Slack Notifications](https://github.com/artsy/README/blob/master/playbooks/support/slack-notifications.md)
 
 ### Non-engineering team playbooks
 
