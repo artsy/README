@@ -9,7 +9,7 @@ description: How we work together
 - [Working together](#working-together)
   - [Project Management](#project-management)
   - [Workflow](#workflow)
-    - [Fork-and-branch](#fork-and-branch)
+    - [Working in branches](#working-in-branches)
     - [Commits](#commits)
     - [Pull requests](#pull-requests)
     - [Testing](#testing)
@@ -33,13 +33,13 @@ All developers have access to all repositories. Pull requests are always welcome
 or developers for help getting up to speed. Production repos should have a point-person or point-team in their
 README if you want to know who to start asking questions to.
 
-### Fork-and-branch
+### Working in branches
 
-Artsy teams employ the [fork-and-branch](https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/)
-model of project collaboration popular in open source. That means work happens on developers' own repositories
-(e.g., [mzikherman/force](https://github.com/mzikherman/force)) forked from the "trunk"
-([artsy/force](https://github.com/artsy/force)). [Pull requests](#pull-requests) are then made from developers'
-working branches to the trunk's `master` branch.
+After using the [fork-and-branch](https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/) workflow 
+for several years, Artsy teams now prefer to work in branches directly on the main repository. This means that 
+developers should clone the repo, create a branch from `master` for the work they are doing, and then push that
+branch back to the main repo. [Pull requests](#pull-requests) are then made from the working branch back to the
+`master` branch.
 
 ### Commits
 
