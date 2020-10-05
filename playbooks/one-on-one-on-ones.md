@@ -52,19 +52,19 @@ example of this email (inspired -- along with other parts of this playbook -- by
 >
 > Here's the plan:
 >
-> 1. <Old Manager> will cover:
+> 1. [Old Manager] will cover:
 >
 > - Most recent review cycle feedback
 > - More recent feedback, projects, and other info since the last review cycle
-> - <Individual>'s goals, growth areas, things I should know
+> - [Individual]'s goals, growth areas, things I should know
 >
-> 2. <Individual>, this will also be an opportunity for you to agree/disagree with how these things are
+> 2. [Individual], this will also be an opportunity for you to agree/disagree with how these things are
 >    described/characterized, and also an opportunity for you to have a complete picture of the info shared between
 >    <Old Manager> and me. The goal is to make sure we're transparent in the handoff of your career, how you want
 >    to grow, and the best ways I can support you.
 >
 > This stuff can naturally be very awkward for all involved :) This is okay (and normal!). The payoff for this
-> awkwardness is clarity, a smooth transition, and enabling me to fully support <Individual>'s career path.
+> awkwardness is clarity, a smooth transition, and enabling me to fully support [Individual]'s career path.
 >
 > I hope that you're both happy and comfortable with this arrangement. If not, or if you're unsure about anything,
 > feel free to let me know your questions, doubts or complaints!
