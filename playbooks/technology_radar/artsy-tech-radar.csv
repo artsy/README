@@ -50,6 +50,7 @@ Swift,hold,languages & frameworks,FALSE,
 AWS Lambda,hold,platforms,TRUE,
 Google cloud,hold,platforms,FALSE,
 Heroku,hold,platforms,FALSE,"We prefer kubernetes where we have shared solutions for authorization, logging, monitoring, alerting, scaling, and routing."
+Backends for Frontends,hold,techniques,TRUE,"Rather than tailor backends to particular product surfaces or teams, we strive to serve clients via a unified GraphQL schema, reconciling or disambiguating domain concepts as necessary."
 Bug bounties,hold,techniques,FALSE,
 Hypermedia,hold,techniques,FALSE,"While discoverable and easy to consume, we've found hypermedia APIs inefficient to consume."
 Metaphysics' v1 schema,hold,techniques,TRUE,"The v1 schema is deprecated and should be considered frozen. Consumers should switch to v2 rather than make further modifications to v1."

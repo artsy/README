@@ -78,6 +78,7 @@ favorable timezones where appropriate. See our [On-Call SLO document](on-call-sl
 the coverage we currently promise.
 
 ## Preparing for your on-call shift
+
 - Make sure you have read all the above.
 - [Set up Slack Notifications](https://github.com/artsy/README/blob/master/playbooks/support/slack-notifications.md)
 
