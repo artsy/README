@@ -1,4 +1,4 @@
-### Agile
+### Management
 
 Documentation on engineering management, Artsy style
 
