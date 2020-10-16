@@ -49,8 +49,8 @@ convenient reuse. See
 complete example.
 
 We use [horizon](https://github.com/artsy/horizon/) to poll for the status of our deployments and visualize them as
-a dashboard. See [its instructions](https://github.com/artsy/horizon#add-a-new-project) for defining a new project
-and configuring release pull requests to be opened [and optionally merged] automatically.
+a dashboard. See [its instructions](https://github.com/artsy/horizon#adding-a-new-project) for defining a new
+project and configuring release pull requests to be opened [and optionally merged] automatically.
 
 If a project should _not_ be released for any reason (such as needing QA or known issues in staging),
 [create a deploy block](https://github.com/artsy/horizon#add-a-deploy-block) to record the reason and timing. The
