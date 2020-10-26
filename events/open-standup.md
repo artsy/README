@@ -72,10 +72,6 @@ _Open RFCs (see #dev for list 9am EST on Mondays) or technical plans under consi
 
 -
 
-_Running peer learning groups_
-
--
-
 _New Milestones / Repos / Blog Posts / New features or updated functionality released: prompt Auction, Gallery,
 Platform, Grow, Purchase teams_
 
