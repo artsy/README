@@ -22,12 +22,12 @@ Artsy?" Well, Artsy pays our wages, so we probably owe you and the company an ex
 
 ## Artsy Values
 
-Artsy has 6 core values:
+Artsy has 5 core values:
 
 ### For the Love of Art
 
-We are obsessed with art because we believe in its power to move us and change the way we experience the world. 
-Together, we are dedicated to expanding art’s impact on humanity.  
+We have relentless curiosity, empathy, and passion for collectors, arists, and the art market. We are here to make 
+the art world more fair and welcoming  
 
 ### Own Our Outcomes
 
@@ -36,23 +36,18 @@ we each take responsibility for our outcomes.
 
 ### Lead with Openness
 
-We trust in our teammates. We have the courage to be vulnerable, to communicate honestly, and to invite diverse
-perspectives. A more open art world starts with us.
+We trust in our teammates. We seek diverse perspectives, communicate authentically, and act with integrity. A more
+open art world starts with us.
 
 ### Transform Together
 
-Our mission asks us to challenge the status quo. We embrace learning, growth, and change so that we can transform
+Our mission asks us to challenge the status quo. We embrace feedback, learning, and change so that we can transform
 our industry, our company, and ourselves. 
 
 ### Impact Over Perfection
 
 Using both art and science, we debate and decide swiftly and iterate on our plans as we learn. To make the biggest
 impact, we prioritize speed and clarity of action over perfection.
-
-### Do the Right Thing, Always 
-
-We are building a company and community we can all be proud of. We make decisions with honesty and integrity,
-even when it’s not convenient. Empathy, respect, and inclusivity are core to our mission. 
 
 ## What does this mean in practice?
 
