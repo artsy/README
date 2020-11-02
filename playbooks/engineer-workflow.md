@@ -35,11 +35,10 @@ README if you want to know who to start asking questions to.
 
 ### Working in branches
 
-After using the [fork-and-branch](https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/) workflow
-for several years, Artsy teams now prefer to work in branches directly on the main repository. This means that
-developers should clone the repo, create a branch from `master` for the work they are doing, and then push that
-branch back to the main repo. [Pull requests](#pull-requests) are then made from the working branch back to the
-`master` branch.
+Artsy teams prefer to work in branches on a shared repository rather than forks. This means that developers should
+clone the repo, create a working branch from `master`, then push that branch back to the main repo.
+[Pull requests](#pull-requests) are then made from the working branch back to the `master` branch. For tidiness,
+working branches should be named by their creator like `<github_user_name>/<topic>`, even when a collaboration.
 
 ### Commits
 
