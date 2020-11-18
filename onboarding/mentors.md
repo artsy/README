@@ -77,7 +77,7 @@ Get to know each other. This can be a nice, casual conversation. Focus on active
 
 - Check in to make sure your onboardee is moving forward in their checklist. Common stumbling areas include stale
   steps in the developer setup and getting invited to myriad organizations, lists and websites (slack, jira,
-  github, notion, heroku, aws+hokusai, zeplin, ...)
+  github, notion, heroku, aws, hokusai ...)
 - Look for chances to pair or work alongside one another throughout the week.
   - If their early work hasn't exposed them to `artsy/gravity`, consider pairing on something trivial or just
     setting it up, breaking and fixing a test.
