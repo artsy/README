@@ -65,6 +65,21 @@ rotations start/end on a Monday at 11am. "B" rotations start/end on a Wednesday 
 
 [team navigator]: https://team.artsy.net
 
+## Holiday Scheduling
+
+Holiday on-call shifts will take place from December 21st to Janurary 6th, these holiday rotations are labeled `Holiday-a` and `Holiday-b`.
+During this time, on-call shifts will be on a volunteer basis and rotate every two days.
+
+To volunteer for a holiday shift:
+
+1. Navigate to [Engineering On-Call Schedule][schedule]
+2. Browse any of the available holiday rotations
+  <img width="500" src="https://user-images.githubusercontent.com/12748344/99718836-82df1700-2a79-11eb-8cba-b642f93a434b.png">
+
+3. Refer to the existing Trading/Overriding instructions to assign yourself a shift.
+
+**To note**: No need to edit the original Holiday-a/Holiday-b rotations, these shifts will be handled as overrides.
+
 ## Trading / Overriding Shifts
 
 To switch shifts you may schedule an override in OpsGenie.
