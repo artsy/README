@@ -50,7 +50,7 @@ If you have the [aws cli](https://docs.aws.amazon.com/cli/latest/userguide/cli-c
 Also make sure you set your default region to `us-east-1` either via config or by setting the environment variable `AWS_DEFAULT_REGION=us-east-1`
 
 ```
-hokusai configure --kubectl-version 1.10.7 --s3-bucket artsy-citadel --s3-key k8s/config-dev
+hokusai configure --kubectl-version 1.18.10 --s3-bucket artsy-citadel --s3-key k8s/config-dev
 ```
 
 #### Note
