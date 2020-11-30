@@ -39,6 +39,24 @@ Find the right repo:
 - Does it affect the whole dev team? (use [README](https://github.com/artsy/README))
 - Can't figure it out or needs to be private? (use [Potential][] as a fallback)
 
+Create a plan for how the RFC will be implemented. If the change is complex or large in scope consider defining a
+feedback process to iterate on the proposal as you implement and creating milestones and/or metrics to track
+progress.
+
+Decide who needs to know about this proposal, what role teammates will play in the process and how the RFC will be
+considered approved.
+
+- What is the scope of the proposal? Does the whole engineering team need to know or just a smaller group of
+  engineers?
+- Who should actively approve of this RFC? Who should give feedback?
+- Does the change make sense without further discussion from engineering leadership?
+
+Here are some examples of how an RFC could be resolved:
+
+- X% of the engineering team actively approves this change.
+- The point people of the impacted repos approve this change.
+- Engineering leadership approves the changes after collecting feedback from the team.
+
 Create an issue, and work from this template:
 
     Title: "RFC: Add a Markdown Spell Checker to all Markdown docs in PR"
@@ -65,14 +83,25 @@ Create an issue, and work from this template:
 
     You can see our discussion [in slack here](/link/to/slack.com)
 
-Give a week.
+    ## How this RFC is implemented
+
+    As a trial, we'll add a new Peril rule that implements spellchecking on every PR that includes
+    a Markdown document in README. We'll then gather asynchronous feedback from engineers about the
+    new Peril rule and how it impacted their workflow. We'll confirm we want this rule and incorporate
+    any further changes to the original RFC. We'll then roll out the Peril rule to all systems.
+
+    ## How this RFC is resolved
+
+    This RFC will be considered approved when 50% of the engineers at Artsy actively approve this proposal.
+
+Give a week for discussion.
 
 ### Resolution
 
-Resolve the RFC, you can work with this template:
+To resolve the RFC you can work with this template:
 
     ## Resolution
-    We decided to do it.
+    We decided to do it. 50% of the engineering team actively approved of this change.
 
     ## Level of Support
     3: Majority acceptance, with conflicting feedback.
