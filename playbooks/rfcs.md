@@ -43,19 +43,14 @@ Create a plan for how the RFC will be implemented. If the change is complex or l
 feedback process to iterate on the proposal as you implement and creating milestones and/or metrics to track
 progress.
 
-Decide who needs to know about this proposal, what role teammates will play in the process and how the RFC will be
-considered approved.
+Decide how you'll resolve the RFC:
 
-- What is the scope of the proposal? Does the whole engineering team need to know or just a smaller group of
-  engineers?
-- Who should actively approve of this RFC? Who should give feedback?
-- Does the change make sense without further discussion from engineering leadership?
-
-Here are some examples of how an RFC could be resolved:
-
-- X% of the engineering team actively approves this change.
-- The point people of the impacted repos approve this change.
-- Engineering leadership approves the changes after collecting feedback from the team.
+- Specify whose feedback is necessary on this RFC with review requests.
+- Specify for how long feedback will be collected and incorporated into the proposal. At least a week for feedback
+  is appropriate for any proposal impacting all of engineering.
+- Specify how approval will ultimately be decided. Does this depend on X% of the engineering team actively
+  approving, point people of certain repos, or perhaps engineering leadership? If specific people need to approve
+  use an `@` mention in the RFC to say so.
 
 Create an issue, and work from this template:
 
@@ -64,6 +59,11 @@ Create an issue, and work from this template:
     ## Proposal:
 
     Apply a spell checker to every markdown document that appears in a PR.
+
+    As a trial, we'll add a new Peril rule that implements spellchecking on every PR that includes
+    a Markdown document in README. We'll then gather asynchronous feedback from engineers about the
+    new Peril rule and how it impacted their workflow. We'll confirm we want this rule and incorporate
+    any further changes to the original RFC. We'll then roll out the Peril rule to all systems.
 
     ## Reasoning
 
@@ -83,16 +83,11 @@ Create an issue, and work from this template:
 
     You can see our discussion [in slack here](/link/to/slack.com)
 
-    ## How this RFC is implemented
-
-    As a trial, we'll add a new Peril rule that implements spellchecking on every PR that includes
-    a Markdown document in README. We'll then gather asynchronous feedback from engineers about the
-    new Peril rule and how it impacted their workflow. We'll confirm we want this rule and incorporate
-    any further changes to the original RFC. We'll then roll out the Peril rule to all systems.
-
     ## How this RFC is resolved
 
-    This RFC will be considered approved when 50% of the engineers at Artsy actively approve this proposal.
+    We'll collect feedback on this RFC from the team for a week. We'll consider this RFC approved
+    if 50% of the engineering team actively approves of this change. Add a 👍 or 👎  reaction to
+    this proposal to vote.
 
 Give a week for discussion.
 
@@ -124,10 +119,6 @@ If possible, please use one of these for the Level of Support section:
 - `5: Unclear Resolution.`
 - `6: RFC Rejected.`
 - `7: RFC Rejected, with Conflicting Feedback.`
-
-Resolving an RFC requires you to have some nuance about the feedback. If it seems to be unresolved, or still active
-a week later, then calling a town hall style meeting for people involved will probably shake out some kind of
-resolution.
 
 [potential]: https://github.com/artsy/potential/
 [mobile]: https://github.com/artsy/mobile
