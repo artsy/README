@@ -48,9 +48,11 @@ Decide how you'll resolve the RFC:
 - Specify whose feedback is necessary on this RFC with review requests.
 - Specify for how long feedback will be collected and incorporated into the proposal. At least a week for feedback
   is appropriate for any proposal impacting all of engineering.
-- Specify how approval will ultimately be decided. Does this depend on X% of the engineering team actively
-  approving, point people of certain repos, or perhaps engineering leadership? If specific people need to approve
-  use an `@` mention in the RFC to say so.
+- Specify how approval will ultimately be decided. By default most proposals can be considered approved if there is
+  no objection. However, if the change is complex or has wide impact you may want a more structured approval
+  process. For example, does this depend on X% of the engineering team actively approving, point people of certain
+  repos, or perhaps engineering leadership? If specific people need to approve use an `@` mention in the RFC to say
+  so.
 
 Create an issue, and work from this template:
 
