@@ -56,7 +56,8 @@ _Hiring Updates_
 
 _Practice Updates_
 
-- Front-End iOS:
+- Mobile:
+- Web:
 - Platform:
 
 _On-call Support Updates_
