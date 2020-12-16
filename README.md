@@ -43,29 +43,25 @@ You can see this organization
 
 In addition to working on a product team, engineers are encouraged to participate in our practices:
 
-- Platform Practice
+* Platform Practice
+  * Practice lead: [Anson](https://github.com/ansor4)
+  * [Slack: #practice-platform](https://artsy.slack.com/messages/practice-platform) 🔒
+  * [Notion](https://www.notion.so/artsy/Platform-Practice-1b558d0627444c9c9bf7ed7583767ca2) 🔒
 
-  - Team lead: [Anson](https://github.com/ansor4) [joey.aghion.com](https://joey.aghion.com)
-  - [Slack: #practice-platform](https://artsy.slack.com/messages/practice-platform) 🔒
-  - [Notion](https://www.notion.so/artsy/Platform-Practice-1b558d0627444c9c9bf7ed7583767ca2)
-
-– Mobile Practice
-
-  – Practice lead: [Mounir](https://github.com/MounirDhahri)
-  – [Slack: #practice-mobile](https://artsy.slack.com/messages/practice-mobile) 🔒
-  – [Notion](https://www.notion.so/artsy/Mobile-Practice-ecc07763bfd04a848c74107dde3ec6dc) 🔒
+* Mobile Practice
+  * Practice lead: [Mounir](https://github.com/MounirDhahri)
+  * [Slack: #practice-mobile](https://artsy.slack.com/messages/practice-mobile) 🔒
+  * [Notion](https://www.notion.so/artsy/Mobile-Practice-ecc07763bfd04a848c74107dde3ec6dc) 🔒
   
-– Web Practice
+* Web Practice
+  * Practice lead: [Chris](https://github.com/damassi)
+  * [Slack: #practice-web](https://artsy.slack.com/messages/practice-web) 🔒
+  * [Notion](https://www.notion.so/artsy/Web-Practice-bfe55e2c614a4c0eae493b7830622843) 🔒
 
-  – Practice lead: [Chris](https://github.com/damassi)
-  – [Slack: #practice-web](https://artsy.slack.com/messages/practice-web) 🔒
-  – [Notion](https://www.notion.so/artsy/Web-Practice-bfe55e2c614a4c0eae493b7830622843) 🔒
-
-– Data Practice
-
-  – Practice lead: [Ani](https://github.com/anipetrov)
-  – [Slack: #practice-data](https://artsy.slack.com/messages/practice-data) 🔒
-  – [Notion](https://www.notion.so/artsy/Data-Practice-e248b46638604067a89ba77ca70b39b1) 🔒
+* Data Practice
+  * Practice lead: [Ani](https://github.com/anipetrov)
+  * [Slack: #practice-data](https://artsy.slack.com/messages/practice-data) 🔒
+  * [Notion](https://www.notion.so/artsy/Data-Practice-e248b46638604067a89ba77ca70b39b1) 🔒
 
 
 ## Support
