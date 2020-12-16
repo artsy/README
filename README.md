@@ -45,17 +45,28 @@ Engineers typically work on a product team and may also belong to an _Engineerin
 
 - Platform Practice
 
-  - Team lead: [Joey](https://github.com/joeyAghion) [joey.aghion.com](https://joey.aghion.com)
-  - Slack: [#product-platform](https://artsy.slack.com/messages/product-platform) 🔒
-  - [Platform Practice Overview](practices/platform.md)
+  - Team lead: [Anson](https://github.com/ansor4) [joey.aghion.com](https://joey.aghion.com)
+  - [Slack: #practice-platform](https://artsy.slack.com/messages/practice-platform) 🔒
+  - [Notion](https://www.notion.so/artsy/Platform-Practice-1b558d0627444c9c9bf7ed7583767ca2)
 
-- Front-end Practices: web and iOS
+– Mobile Practice
 
-  - Team leads: [Justin](https://github.com/zephraph) (web) / [Ash](https://github.com/ashfurrow) (iOS)
-  - Slack: [#front-end](https://artsy.slack.com/messages/front-end) 🔒,
-    [#front-end-ios](https://artsy.slack.com/messages/front-end-ios) 🔒
-  - [Front-end web Practice Overview](practices/front-end.md),
-    [Front-end iOS Practice Overview](practices/front-end-ios.md)
+  – Practice lead: [Mounir](https://github.com/MounirDhahri)
+  – [Slack: #practice-mobile](https://artsy.slack.com/messages/practice-mobile) 🔒
+  – [Notion](https://www.notion.so/artsy/Mobile-Practice-ecc07763bfd04a848c74107dde3ec6dc) 🔒
+  
+– Web Practice
+
+  – Practice lead: [Chris](https://github.com/damassi)
+  – [Slack: #practice-web](https://artsy.slack.com/messages/practice-web) 🔒
+  – [Notion](https://www.notion.so/artsy/Web-Practice-bfe55e2c614a4c0eae493b7830622843) 🔒
+
+– Data Practice
+
+  – Practice lead: [Ani](https://github.com/anipetrov)
+  – [Slack: #practice-data](https://artsy.slack.com/messages/practice-data) 🔒
+  – [Notion](https://www.notion.so/artsy/Data-Practice-e248b46638604067a89ba77ca70b39b1) 🔒
+
 
 ## Support
 
