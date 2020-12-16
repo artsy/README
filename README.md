@@ -45,9 +45,9 @@ Engineers typically work on a product team and may also belong to an _Engineerin
 
 - Platform Practice
 
-  - Team lead: [Joey](https://github.com/joeyAghion) [joey.aghion.com](https://joey.aghion.com)
-  - Slack: [#product-platform](https://artsy.slack.com/messages/product-platform) 🔒
-  - [Platform Practice Overview](practices/platform.md)
+  - Team lead: [Anson](https://github.com/ansor4) [joey.aghion.com](https://joey.aghion.com)
+  - [Slack: #practice-platform](https://artsy.slack.com/messages/practice-platform) 🔒
+  - [Notion](https://www.notion.so/artsy/Platform-Practice-1b558d0627444c9c9bf7ed7583767ca2)
 
 – Mobile Practice
 
