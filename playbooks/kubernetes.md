@@ -21,8 +21,10 @@ stateful, operational ones.
 
 The dashboards for our Kubernetes application clusters can be found at:
 
-- Production: https://kubernetes.artsy.net/
-- Staging: https://kubernetes-staging.artsy.net/
+(VPN connection required)
+
+- Production: https://kubernetes.prd.artsy.systems/
+- Staging: https://kubernetes.stg.artsy.systems/
 
 ### Monitoring
 We use [Datadog](https://app.datadoghq.com/) for cluster monitoring and alerting.
