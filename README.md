@@ -41,7 +41,7 @@ multiple hats.
 You can see this organization
 [in the Product section of Notion 🔑](https://www.notion.so/artsy/Product-470238180cf94c87906ef1d3ee259e05).
 
-Engineers typically work on a product team and may also belong to an _Engineering Practice_.
+In addition to working on a product team, engineers are encouraged to participate in our practices:
 
 - Platform Practice
 
