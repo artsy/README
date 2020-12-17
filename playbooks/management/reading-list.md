@@ -31,6 +31,10 @@ recommend it!_
 - Radical Candor (Kim Scott, 2017)
   - (From [Sarah][sarah]) Another book on communication, this time about how to care about people and challenge
     them at the same time through candid feedback.
+- Multiplier (Liz Wiseman, 2010)
+  - (From [Adam][adam]) This was our another book from the manager book club at Artsy. Describes the behaviors of
+  "multiplier" leaders that allow a team's full potential to be unlocked, as well as the pitfalls of "diminishing"
+  behaviors that can (often inadvertently) lead to disengagement.
 
 ## Newsletters
 
@@ -47,3 +51,4 @@ recommend it!_
 TODO
 
 [sarah]: https://github.com/sweir27
+[adam]: https://github.com/iskounen
