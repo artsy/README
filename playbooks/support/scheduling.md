@@ -13,7 +13,11 @@ We use a staggered schedule to retain context and limit disruption as engineers 
 rotations start/end on a Monday at 11am. "B" rotations start/end on a Wednesday at 11am.
 
 1. Generate a list of current engineers. This should include everyone who started before the next round is supposed
-   to begin (can use [Team Navigator][] as a reference)
+   to begin (can use [Team Navigator][] as a reference). Bonus points for using [artsy-cli][]:
+   
+   ```
+   $ artsy on-call:list --team-name=Engineering --randomize --split=2
+   ```
 
 1. Split engineers into A and B groups. Group B should include all engineers located outside of the Eastern Time
    zone. This ensures that we always have one engineer on-call during Eastern working hours.
@@ -104,3 +108,4 @@ To override a shift:
    <img width=500 src="images/opsgenie-override-2.png" />
 
 [schedule]: https://artsy.app.opsgenie.com/teams/dashboard/ee381004-a72e-42ef-a733-b350d6693c6c/main
+[artsy-cli]: https://github.com/artsy/artsy-cli
