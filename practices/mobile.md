@@ -17,7 +17,7 @@ mobile practice. Those things include:
   easily; we deploy code to hardware our users control and can't guarantee upgrading at all, so we have to
   anticipate how mobile code will continue to operate in production for _years_).
 
-We do have a lot in common with the [Wen Practice](./web.md):
+We do have a lot in common with the [Web Practice](./web.md):
 
 - Large parts of our codebase are written in the [Artsy Omakase](./front-end.md#the-artsy-omakase).
 - Our React/Native apps share [a common design system](https://github.com/artsy/palette/).
