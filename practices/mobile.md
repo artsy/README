@@ -13,7 +13,7 @@ mobile practice. Those things include:
 - Testing is different from other Artsy systems (Web and Platform practices test on staging; we test in betas).
 - Deploying is different from other Artsy systems (Web and Platform practices promote from staging to production;
   for iOS, we cut betas and submit to Apple for App Store approval).
-- Long-term maintenance is different (Wen and Platform practices deploy code to hardware they control and can patch
+- Long-term maintenance is different (Web and Platform practices deploy code to hardware they control and can patch
   easily; we deploy code to hardware our users control and can't guarantee upgrading at all, so we have to
   anticipate how mobile code will continue to operate in production for _years_).
 
