@@ -64,13 +64,13 @@ _See also [Platform Practice Resources](#platform-practice) below_
 
 _See also [Platform Practice Resources](#platform-practice) below_
 
-| Name                                        | Description                                                                |
-| ------------------------------------------- | -------------------------------------------------------------------------- |
-| [Scala Exercises][scala_exercises]          | Exercises divided by topic (std lib, akka, play, fp...)                    |
-| [Ramping up a team in scala][ramping_scala] | Short video tour of the language from Thoughtworks engineer Susie Marshall |
-| [Effective Scala][effective_scala]          | Style Guide + Patterns from Twitter                                        |
-| [Free ebooks from Underscore][underscore]   | Essential Scala, Slick, Play...                                            |
-| [Scala Book](https://docs.scala-lang.org/overviews/scala-book/introduction.html)|Free Scala book from Alvin Alexander    |
+| Name                                                                             | Description                                                                |
+| -------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| [Scala Exercises][scala_exercises]                                               | Exercises divided by topic (std lib, akka, play, fp...)                    |
+| [Ramping up a team in scala][ramping_scala]                                      | Short video tour of the language from Thoughtworks engineer Susie Marshall |
+| [Effective Scala][effective_scala]                                               | Style Guide + Patterns from Twitter                                        |
+| [Free ebooks from Underscore][underscore]                                        | Essential Scala, Slick, Play...                                            |
+| [Scala Book](https://docs.scala-lang.org/overviews/scala-book/introduction.html) | Free Scala book from Alvin Alexander                                       |
 
 &nbsp;
 
@@ -96,7 +96,7 @@ iOS, and specifically iOS at Artsy, is such a large topic that we have resources
 | [Michael Hartl's Rails Tutorial][rails_tuts] | Another popular rails tutorial in book form                                                  |
 | [Platform Practice][plat]                    |                                                                                              |
 
-### Frontend Practice
+### Web Practice
 
 | Name                                               | Description                                                                                                              |
 | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -112,7 +112,7 @@ iOS, and specifically iOS at Artsy, is such a large topic that we have resources
 | [TypeScript Deep Dive][ts_dive]                    | Get to the part where TypeScript feels good quicker                                                                      |
 | [The hidden power of Jest matchers][jest_matchers] | Check out all the cool matchers built into Jest                                                                          |
 
-### Frontend iOS Practice
+### Mobile Practice
 
 _See also [JavaScript](#javascript-+-nodejs) & [Swift + Objective C](#swift-+-objective-c)_
 
