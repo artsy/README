@@ -11,11 +11,7 @@ with our existing AWS infrastructure. See [hokusai.md](../hokusai.md) for help m
 
 ## Substance
 
-Artsy runs multiple Kubernetes clusters, for staging and production, service-level and user-level applications. The
-clusters themselves are configured and managed by [Substance](https://github.com/artsy/substance).
-
-Currently, we retain two clusters per VPC environment to separate stateless application-level deployments from
-stateful, operational ones.
+Artsy runs two Kubernetes clusters, one for staging and one for production. The clusters themselves are configured and managed by [Substance](https://github.com/artsy/substance).
 
 ### Applications
 
@@ -29,8 +25,8 @@ The dashboards for our Kubernetes application clusters can be found at:
 ### Monitoring
 We use [Datadog](https://app.datadoghq.com/) for cluster monitoring and alerting.
 
-- [Production Cluster Overview](https://app.datadoghq.com/infrastructure/map?mapid=4312&fillby=avg%3Acpuutilization&sizeby=avg%3Asystem.mem.used&groupby=autoscaling_group%2Cavailability-zone&filter=kubernetescluster%3Akubernetes-production-orion.artsy.systems&nameby=name&nometrichosts=false&tvMode=false&nogrouphosts=false&palette=green_to_orange&paletteflip=false&node_type=host)
-- [Staging Cluster Overview](https://app.datadoghq.com/infrastructure/map?mapid=4320&fillby=avg%3Acpuutilization&sizeby=avg%3Asystem.mem.used&groupby=autoscaling_group%2Cavailability-zone&filter=kubernetescluster%3Akubernetes-staging-aquila.artsy.systems&nameby=name&nometrichosts=false&tvMode=false&nogrouphosts=false&palette=green_to_orange&paletteflip=false&node_type=host)
+- [Production Cluster Overview](https://app.datadoghq.com/infrastructure/map?mapid=4312&fillby=avg%3Acpuutilization&sizeby=avg%3Asystem.mem.used&groupby=autoscaling_group%2Cavailability-zone&filter=kubernetescluster%3Akubernetes-production-pictor.artsy.systems&nameby=name&nometrichosts=false&tvMode=false&nogrouphosts=false&palette=green_to_orange&paletteflip=false&node_type=host)
+- [Staging Cluster Overview](https://app.datadoghq.com/infrastructure/map?mapid=4320&fillby=avg%3Acpuutilization&sizeby=avg%3Asystem.mem.used&groupby=autoscaling_group%2Cavailability-zone&filter=kubernetescluster%3Akubernetes-staging-leo.artsy.systems&nameby=name&nometrichosts=false&tvMode=false&nogrouphosts=false&palette=green_to_orange&paletteflip=false&node_type=host)
 - [Container Overview](https://app.datadoghq.com/containers?columns=container_name,container_cpu,container_memory,container_net_sent_bps,container_net_rcvd_bps,container_status,container_started&options=normalizeCPU&sort=container_memory,DESC)
 
 ### Allocating Kubernetes resources for apps.
@@ -44,7 +40,7 @@ Note: to perform cluster admin operations you should configure Hokusai with `--s
 
 See all available contexts (set in the `~/.kube/config` file) with `kubectl config get-contexts`
 
-Ignore the contexts with fully-qualified domain names `kubernetes-*.artsy.systems` such as `kubernetes-production-cepheus.artsy.systems` / `kubernetes-production-orion.artsy.systems` - you'll want to use the contexts `staging`, `production`, `ops-staging` and `ops-production` which are aliased to the correct FQDN for the currently running clusters (which change as we make cluster upgrades).
+There should just be two contexts (staging, production) which are aliases to the FQDN of the running clusters (which change as we make cluster upgrades).
 
 Use `kubectl config use-context {context}` to select a context.  All further `kubectl` commands will use this context, and issue commands against the API endpoint for that cluster.  You can also explicitly pass a context to an individual `kubectl` command with the `--context` flag (this is how Hokusai shells out to Kubectl so as not to conflict with any implicit context you may have set.)
 
