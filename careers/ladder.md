@@ -638,7 +638,7 @@ increase from one team to multiple teams and from managing ICs to managing ICs a
           <li>Ensures that their reports consistently deliver high quality work.</li>
           <li>Active contributor in a given product / platform team.</li>
           <li>Proactively monitors team health and delivery.</li>
-          <li>Identifies team dysfunctions and make them visible in forum like team retrospective or the manager forum when necessary.</li>
+          <li>Identifies team dysfunctions and, where necessary, makes them visible in contexts such as team retrospectives or manager forums.</li>
         </ul>
       </td>
       <td class="border-top">
