@@ -652,7 +652,7 @@ increase from one team to multiple teams and from managing ICs to managing ICs a
         <ul>
           <li>Will usually have 2-4 direct reports.</li>
           <li>Provides timely, actionable feedback.</li>
-          <li>Get support from their manager to establish the right growth path for their reports.</li>
+          <li>Enlists support from their manager to establish the right growth path for their reports.</li>
           <li>This is usually a transitional step into management from an IC role. This level is internal only (i.e. we won't hire into this level) and we expect EM1 to grow to EM2 within ~18m or so.</li>
         </ul>
       </td>
