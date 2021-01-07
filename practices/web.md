@@ -1,5 +1,5 @@
 ---
-title: The Front-End Practice
+title: The Web Practice
 description: What do folks with a front-end focus do?
 ---
 
@@ -14,11 +14,11 @@ description: What do folks with a front-end focus do?
 
 ### Logistics
 
-The front-end practice is more ad-hoc than the [platform practice](/practices/platform.md), as most members are in
+The web practice is more ad-hoc than the [platform practice](/practices/platform.md), as most members are in
 different product teams. So the practice has two bi-weekly meetings on alternative weeks:
 
 - A practice meeting with a web and general infrastructure focus
-- A practice meeting with an iOS focus
+- A practice meeting with a mobile focus
 
 ### Our Technologies
 

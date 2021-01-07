@@ -346,7 +346,7 @@ use the persisted queries, too, since Emission is currently the only one.)
 Until this PR is merged, the updated query map won't be deployed to staging. That means that the build of Emission
 won't work at all. Once deployed to staging, the build will work _only on staging_. Until we promote Metaphysics to
 production, queries will fail on production. **This is a common source of bug reports** from colleagues when we cut
-a new beta. If you release Emission, make sure to communicate with your team and in the #front-end-ios Slack
+a new beta. If you release Emission, make sure to communicate with your team and in the #practice-mobile Slack
 channel.
 
 ## Core Concept Review & Homework

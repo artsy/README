@@ -39,9 +39,9 @@ Some other channels engineers might find helpful:
 
 ### Practices
 
-- [#front-end](https://artsy.slack.com/messages/front-end) 🔒
-- [#front-end-ios](https://artsy.slack.com/messages/front-end-ios) 🔒
-- [#platform-practice](https://artsy.slack.com/messages/platform-practice) 🔒
+- [#practice-web](https://artsy.slack.com/messages/practice-web) 🔒
+- [#practice-mobile](https://artsy.slack.com/messages/practice-mobile) 🔒
+- [#platform-practice](https://artsy.slack.com/messages/practice-platform) 🔒
 
 ### Misc
 
