@@ -29,7 +29,7 @@ is to support them contributing to our mobile projects (mostly via React Native,
 
 ## Team Information
 
-Engineers who work on mobile code at artsy are included in the **@ios-front-enders** Slack group. They'll be
+Engineers who work on mobile code at artsy are included in the **@mobile-practice** Slack group. They'll be
 automatically added to the #practice-mobile Slack channel. The Mobile Practice meetings happen every two weeks;
 meeting notes are [available in Notion](https://www.notion.so/Mobile-Practice-ecc07763bfd04a848c74107dde3ec6dc).
 
