@@ -644,7 +644,7 @@ increase from one team to multiple teams and from managing ICs to managing ICs a
       <td class="border-top">
         <ul>
           <li>Builds strong ties to the rest of the engineering manager community and activity participates in manager-wide forums.</li>
-          <li>Knows how to get high quality feedback from PMs, TLs and other members of their report's teams.</li>
+          <li>Knows how to get high quality feedback from PMs, TLs and other members of their reports' teams.</li>
           <li>Identifies team staffing needs.</li>
         </ul>
       </td>
