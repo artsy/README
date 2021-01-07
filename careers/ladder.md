@@ -671,7 +671,7 @@ increase from one team to multiple teams and from managing ICs to managing ICs a
       <td class="border-top">
         <ul>
           <li>Works closely with the team to meet the sprint goals; significantly accelerates the delivery and increases the impact of the team throughout the quarter.</li>
-          <li>Addresses effectively team health issues in their own team and their reports' team when need be.</li>
+          <li>Effectively addresses team health issues both in their own and their reports' teams when need be.</li>
           <li>Leads some engineering wide improvements.</li>
           <li>Partners effectively with the tech lead (and the core team) to get their team to a higher performing state.</li>
         </ul>
