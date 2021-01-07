@@ -59,6 +59,7 @@ _Practice Updates_
 - Mobile:
 - Web:
 - Platform:
+- Data:
 
 _On-call Support Updates_
 
