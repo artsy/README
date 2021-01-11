@@ -571,17 +571,6 @@ Additionally, they're expected to significantly impact teams' delivery by provid
 and / or contribute to delivery management. As an engineering manager grows at Artsy, their scope of impact will
 increase from one team to multiple teams and from managing ICs to managing ICs and other EMs.
 
-### People Management vs Technical Leadership
-
-- People management is orthogonal to technical leadership.
-- People management is a responsibility to develop and support people.
-
-**vs**
-
-- Technical Leadership is an official role in a project, not a title.
-- Technical leadership is a recognition of technical ability.
-- Technical leadership is a responsibility to ship software.
-
 ### tl;dr
 
 - Engineering Manager 1: Transitional from an Individual Contributor role, the main focus is learn how to manage
