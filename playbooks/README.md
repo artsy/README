@@ -42,6 +42,7 @@ practice should be incorporated, submit a PR!
 | [How to run a Lunch & Learn](/playbooks/running-lunch-and-learn.md#readme) | How to handle the people process for Lunch & Learns |
 | [System Criticality](/playbooks/system-criticality.md#readme) | A framework for treating systems differently according to how critical they are |
 | [Technology choices](/playbooks/technology-choices.md#readme) | How to make technology decisions at Artsy |
+| [Vendor Evaluations](/playbooks/vendor-evaluations.md#readme) | How to evaluate 3rd party vendors |
 <!-- end_toc -->
 <!-- prettier-ignore-end -->
 
