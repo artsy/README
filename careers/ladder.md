@@ -565,11 +565,10 @@ for an expanded set of Tech Lead Responsibilities at Artsy.
 
 ## Engineering Management
 
-A manager’s role at Artsy balances people management responsibilities with team delivery responsibilities. As a
-people manager, they are responsible for hiring, retaining, growing and managing the performance of their reports.
-Additionally, they're expected to significantly impact teams' delivery by providing a strong technical contribution
-and / or contribute to delivery management. As an engineering manager grows at Artsy, their scope of impact will
-increase from one team to multiple teams and from managing ICs to managing ICs and other EMs.
+A manager’s role at Artsy balances people management responsibilities with team delivery responsibilities. 
+As a people manager, they are responsible for hiring, retaining, growing and managing the performance of their reports.
+Additionally, they're expected to significantly impact teams' success through their own technical contribution and/or delivery management. Delivery management is broadly defined here as any non-coding activity that will help the team ship faster, with better quality, and with increased impact (for instance: improving team processes, mitaging risks around release planning, facilitating internal and external communication).
+As an engineering manager grows at Artsy, their scope of impact will increase from one team to multiple teams and from managing ICs to managing ICs and other EMs.
 
 ### tl;dr
 
