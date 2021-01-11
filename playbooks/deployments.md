@@ -75,6 +75,7 @@ README.
   - In the CircleCI project settings, go to _SSH Permissions_ > _Add SSH Key_.
   - Enter `github.com` for _Hostname_ and the contents of the _private_ key file for _Private Key_, then click _Add
     SSH Key_ to save.
+  - If necessary, add the ssh key fingerprint to your `.circleci/config.yml` following the instructions [here](https://circleci.com/docs/2.0/configuration-reference/#add_ssh_keys).
 - In the projects' settings, generally speaking:
   - _build forked pull requests_ should be enabled
   - _pass secrets to builds from forked pull requests_ should be disabled
