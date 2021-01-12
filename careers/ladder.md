@@ -19,7 +19,7 @@ engineers.
 
 ## Tracks
 
-The Engineering Ladder encapsulates two tracks—an individual contributor (IC2–IC8) and manager track (M3–M6). The
+The Engineering Ladder encapsulates two tracks—an individual contributor (IC2–IC8) and manager track (M2–M6). The
 manager track is available to engineers who have achieved an "IC5 Senior Engineer" level on the individual
 contributor ladder.
 
@@ -27,27 +27,12 @@ contributor ladder.
 | ---------------------- | -------------- | ------------- | ------------------------------ |
 | Intern                 | Intern         |               |                                |
 | Engineer 1             | IC2            |               |                                |
-| Engineer 2             | IC3            |               |
-| Senior Engineer 1      | IC4            |               |                                |
-| Senior Engineer 2      | IC5            | M3            | Engineering Manager            |
+| Engineer 2             | IC3            |               |                                |
+| Senior Engineer 1      | IC4            | M2            | Engineering Manager 1          |
+| Senior Engineer 2      | IC5            | M3            | Engineering Manager 2          |
 | Staff Engineer         | IC6            | M4            | Senior Engineering Manager     |
 | Senior Staff Engineer  | IC7            | M5            | Director of Engineering        |
 | Principal Engineer     | IC8            | M6            | Senior Director of Engineering |
-
-### Evaluation criteria
-
-- Knowledge Leadership
-  - Level of knowledge in a specific business area
-  - Breadth and depth of technical and soft skills
-- Impact
-  - Nature and impact of problems solved and decisions made
-  - Value delivered to the business and team
-- Influence
-  - Nature and level of influence on projects, strategy, and internal and external contacts
-  - Effect on people around you and team dynamics
-- Discretion
-  - Nature of guidance received
-  - Nature of guidance provided to others
 
 ### How promotions work
 
@@ -85,6 +70,21 @@ _Note: This ladder is heavily inspired by
 [Better's Technical Career Ladder](https://better.engineering/technical-career-ladder/) and
 [Rent the Runway's Engineering Ladder](https://dresscode.renttherunway.com/blog/ladder), which we believe have the
 appropriate levels of specificity to enable meaningful career development conversations._
+
+### Evaluation criteria
+
+- Knowledge Leadership
+  - Level of knowledge in a specific business area
+  - Breadth and depth of technical and soft skills
+- Impact
+  - Nature and impact of problems solved and decisions made
+  - Value delivered to the business and team
+- Influence
+  - Nature and level of influence on projects, strategy, and internal and external contacts
+  - Effect on people around you and team dynamics
+- Discretion
+  - Nature of guidance received
+  - Nature of guidance provided to others
 
 ### Knowledge Leadership
 
@@ -563,108 +563,219 @@ See
 [this document](https://www.notion.so/artsy/Artsy-Tech-Lead-Expanded-Responsibilities-Public-710ee0cd2fce47dcaa722ece80e365b2)
 for an expanded set of Tech Lead Responsibilities at Artsy.
 
-## Management
+## Engineering Management
 
-A manager’s role at Artsy balances few individual contributor responsibilities with more people management
-responsibilities. As an engineering manager grows at Artsy, any code they write is expected to shift from
-delivering direct value on project progress to having a multiplying effect by enabling their team to do better
-work. As such, an Engineering Manager has direct reports and their performance is evaluated by the scale and impact
-of their team considerably more than the direct impact of the code they write.
+A manager’s role at Artsy balances people management responsibilities with team delivery responsibilities. 
+As a people manager, they are responsible for hiring, retaining, growing and managing the performance of their reports.
+Additionally, they're expected to significantly impact teams' success through their own technical contribution and/or delivery management. Delivery management is broadly defined here as any non-coding activity that will help the team ship faster, with better quality, and with increased impact (for instance: improving team processes, mitaging risks around release planning, facilitating internal and external communication).
+As an engineering manager grows at Artsy, their scope of impact will increase from one team to multiple teams and from managing ICs to managing ICs and other EMs.
 
-## People Management vs Technical Leadership
+### tl;dr
 
-- People management is orthogonal to technical leadership.
-- People management is a responsibility to develop and support people.
+- Engineering Manager 1: Transitional from an Individual Contributor role, the main focus is learn how to manage
+  people.
+- Engineering Manager 2: Proficient at managing 6+ Individual Contributors and act as a delivery multiplier on
+  their team.
+- Senior Engineering Manager: Has meaningful delivery impact across multiple teams and starts having engineering
+  org wide impact, can start learning how to manage managers.
+- Director of Engineering: Proficient at managing Engineering Managers and has consistent engineering org wide
+  impact.
+- Senior Director of Engineering: Has consistent company wide impact.
 
-**vs**
+### Evaluation criteria
 
-- Technical Leadership is an official role in a project, not a title.
-- Technical leadership is a recognition of technical ability.
-- Technical leadership is a responsibility to ship software.
+- People & Business Leadership
+  - Nature and level of strategy used in people direction
+  - Level of analysis and judgment applied to business issues
+- Impact
+  - Nature and level of accountability for results
+  - Level and type of impact made via decisions and people direction
+- Influence
+  - Nature and level of influence on projects, strategy, and internal and external contacts
+  - Size and complexity of managing organizations
+- Discretion
+  - Nature of guidance received
+  - Nature of guidance provided to others
 
-### M3 Engineering Manager
+### Engineering Management Ladder
 
-#### People & Business Leadership
-
-- Removes roadblocks by delegating tasks without micromanaging and minimizes the need for their own code.
-- Triages bug fixes or distracting work to keep their teammates focused.
-- Jumps into critical systems to debug and manage the resolution of timely issues.
-
-#### Impact
-
-- Ensures their team is consistently delivering high quality work with minimal bugs through use of automated
-  testing and other software quality practices.
-- Makes educated decisions to introduce new technology that better enables their team. Effectively builds consensus
-  and spreads knowledge of new technologies.
-- Team delivers projects in a timely manner and is effective at making tradeoffs to meet deadlines.
-
-#### Relationships & Influence
-
-- Keeps team motivated with strong retention. Recognizes good work and minimizes tensions around mistakes or poor
-  performance.
-- Recruits and hires engineering talent that fills their team’s needs.
-- Facilitates constructive collaboration between teammates, stakeholders, and peers in code review, meetings, etc.
-- Encourages feedback for themselves and between teammates and peers.
-
-#### Discretion
-
-- Makes time to focus team on technical debt and refactoring efforts.
-- Sets clear goals with teammates that advance their career growth. Meets with team members regularly to advance
-  them towards their career goals.
-- Effectively aligns goals set by engineering directors with their team and makes consistent progress towards them.
-
-### M4 Senior Engineering Manager
-
-#### People & Business Leadership
-
-- Effective at eliminating roadblocks by delegating ownership and expertise of large projects or codebases and does
-  not make themselves a bottleneck.
-- Solves and prevents future bugs or distracting work by managing vendor relationships, implementing support
-  systems, automating processes, etc.—keeping their teammates highly focused.
-- Instills confidence in their teammates’ ability to debug critical systems and resolve timely issues.
-- Manages a wide range of skill-sets and optimizes for teammates' strengths.
-
-#### Impact
-
-- Innovates on software quality practices setting new standards for their team and impacting Engineering at large.
-- Introduces new technology that results in a competitive advantage for, and used widely by, Engineering at large.
-  Empowers teammates to contribute back to these technologies, as well as contributing themselves, through open
-  source or otherwise.
-- Team consistently delivers high impact projects in a timely manner which have lasting value.
-
-#### Relationships & Influence
-
-- Has highly motivated team where successes are celebrated and failures are normalized, and learned from, through
-  blameless post mortems, retrospectives, etc. Facilitates team bonding through team outings like lunches and
-  conference visits.
-- Attracts top talent via blog posts, conferences, networking, etc. Effective at building an optimally performing
-  team through a diversity of backgrounds, experience and skillsets.
-- Instills a culture of open collaboration and improvement. Leads meetings between stakeholders and peers,
-  advocating for their teammates voice. Navigates tensions between teammates and their peers to maintain positive
-  energy.
-
-#### Discretion
-
-- Effectively works with stakeholders to ensure minimal technical debt while maintaining overall velocity on
-  feature delivery.
-- Regularly holds teammates accountable for falling behind goals. Provides help and constructive feedback to
-  promptly set teammates back on course. Ensures their teammates meet their goals in a timely manner and always
-  have opportunities to advance.
-- Collaborates with engineering directors, CTO, and Leadership to set goals and notices new opportunities to make
-  business impact.
-
-## Directors
-
-Director engineers define a manager role at Artsy that heavily emphasizes people management responsibilities over
-writing code on a regular basis. A director's responsibility is to lead process, architecture, and systems that
-enable many engineers to do their best work. Engineering directors can have a significant amount of individual
-contributors and/or leads as direct reports, and their performance is evaluated by the scale and impact they enable
-for their department and its technology.
-
-### M5 Engineering Director
-
-- TODO
-
-### M6 Senior Engineering Director
-
-- TODO
+<table class="data-table">
+  <tbody>
+    <tr>
+      <td class="border-top">Artsy Level</td>
+      <td class="border-top">Title</td>
+      <td class="border-top">People & Business Leadership</td>
+      <td class="border-top">Impact</td>
+      <td class="border-top">Influence</td>
+      <td class="border-top">Discretion</td>
+    </tr>
+    <tr>
+      <td class="border-top">M2</td>
+      <td class="border-top">Engineering Manager 1</td>
+      <td class="border-top">
+        <ul>
+          <li>Can own a hiring pipeline (including: JD, sourcing, interview process, closing, onboarding) for a junior role with support from their manager.</li>
+          <li>Can manage effectively Engineering 1, 2 and Senior Eng 1 ICs, ensure engineers have the skills needed to support their team and help them grow to the next level.</li>
+          <li>Can address performance issues with support from their manager.</li>
+          <li>Knows how to run 1:1s effectively; facilitates constructive development conversations and reviews; and participates in Engineering Calibration.</li>
+          <li>Ensures engineers understand how the work they are doing ladders up to OKRs & wider company goals.</li>
+        </ul>
+      </td>
+      <td class="border-top">
+        <ul>
+          <li>Ensures that their reports consistently deliver high quality work.</li>
+          <li>Active contributor in a given product / platform team.</li>
+          <li>Proactively monitors team health and delivery.</li>
+          <li>Identifies team dysfunctions and, where necessary, makes them visible in contexts such as team retrospectives or manager forums.</li>
+        </ul>
+      </td>
+      <td class="border-top">
+        <ul>
+          <li>Builds strong ties to the rest of the engineering manager community and activity participates in manager-wide forums.</li>
+          <li>Knows how to get high quality feedback from PMs, TLs and other members of their reports' teams.</li>
+          <li>Identifies team staffing needs.</li>
+        </ul>
+      </td>
+      <td class="border-top">
+        <ul>
+          <li>Will usually have 2-4 direct reports.</li>
+          <li>Provides timely, actionable feedback.</li>
+          <li>Enlists support from their manager to establish the right growth path for their reports.</li>
+          <li>This is usually a transitional step into management from an IC role. This level is internal only (i.e. we won't hire into this level) and we expect EM1 to grow to EM2 within ~18m or so.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td class="border-top">M3</td>
+      <td class="border-top">Engineer Manager 2</td>
+      <td class="border-top">
+        <ul>
+          <li>Can own a hiring pipeline and drive improvements to successfully fill open roles with high quality candidates without compromising on diversity within a reasonable timeline.</li>
+          <li>Effectively coaches senior engineers in a way that lines up with team goals.</li>
+          <li>Knows how to help engineers identify their superpowers and increase their impact by leaning into their strengths.</li>
+          <li>Addresses performance issues in a timely manner and with empathy.</li>
+        </ul>
+      </td>
+      <td class="border-top">
+        <ul>
+          <li>Works closely with the team to meet the sprint goals; significantly accelerates the delivery and increases the impact of the team throughout the quarter.</li>
+          <li>Effectively addresses team health issues both in their own and their reports' teams when need be.</li>
+          <li>Leads some engineering wide improvements.</li>
+          <li>Partners effectively with the tech lead (and the core team) to get their team to a higher performing state.</li>
+        </ul>
+      </td>
+      <td class="border-top">
+        <ul>
+          <li>Develops strong collaboration with PMs and can give feedback on the teams' strategy.</li>
+          <li>Facilitates cross pollination to improve quality and delivery processes.</li>
+          <li>Leverages insights from XFN partners to make globally optimal staffing decisions, aligning business needs with their reports' growth opportunities.</li>
+          <li>Can effectively collaborate with XFN partners to drive team wide improvements.</li>
+          <li>Knows how best to leverage strong technical guidance and / or effective delivery management to accelerate team's impact.</li>
+        </ul>
+      </td>
+      <td class="border-top">
+        <ul>
+          <li>Will usually have 6+ Eng IC Reports.</li>
+          <li>Establishes the right growth path for their reports with minimal guidance from their manager.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td class="border-top">M4</td>
+      <td class="border-top">Senior Engineering Manager</td>
+      <td class="border-top">
+        <ul>
+          <li>Optimizes Eng IC hiring at scale and across pipelines.</li>
+          <li>Starts managing Engineering Managers.</li>
+          <li>Can own a EM hiring pipeline with support from their manager.</li>
+          <li>Can grow Tech Leads to have a multiplier effect on their team.</li>
+        </ul>
+      </td>
+      <td class="border-top">
+        <ul>
+          <li>Can navigate and lead teams through ambiguous situations, tackle complex issues, and align strategy with company priorities.</li>
+          <li>Significantly accelerates the delivery and increases the impact of multiple teams.</li>
+          <li>Guides teams to provide maximum, user-focused impact. Pushes team to demonstrate greater sense of urgency. Constantly experiments with ways to become more efficient.</li>
+          <li>Regularly drives engineering wide improvements.</li>
+        </ul>
+      </td>
+      <td class="border-top">
+        <ul>
+          <li>Develops strong collaboration with PDDE Leadership team members.</li>
+          <li>Can successfully influence XFN partners to drive improvements across teams (and even more so the Tech Leads).</li>
+          <li>Suggest optimal resource allocation given business goals and constraints.</li>
+          <li>Knows how to combine technical guidance, delivery management and coaching to increase teams' impact.</li>
+          <li>Proactively identifies issues across multiple teams and effectively addresses them.</li>
+        </ul>
+      </td>
+      <td class="border-top">
+        <ul>
+          <li>Get supports from their manager to establish the right growth path for their EM reports, autonomously drives career of all their ICs reports.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td class="border-top">M5</td>
+      <td class="border-top">Director of Engineering</td>
+      <td class="border-top">
+        <ul>
+          <li>Manage and coach Engineering Managers to be effective communicators and managers of their people.</li>
+          <li>Can drive and improve EM hiring pipeline.</li>
+          <li>Ensures that EMs and TLs are mentoring and managing teams effectively towards results.</li>
+        </ul>
+      </td>
+      <td class="border-top">
+        <ul>
+          <li>Proactively identifies and drives engineering wide improvements.</li>
+          <li>Proactively identifies issues across teams and disciplines and effectively addresses them.</li>
+          <li>Drives execution of large & complex PDDE initiatives.</li>
+          <li>Is accountable for long term technical roadmap to support the business needs and unlock growth.</li>
+        </ul>
+      </td>
+      <td class="border-top">
+        <ul>
+          <li>Drives PDDE changes in close partnership with PDDE Leadership team.</li>
+          <li>Actively participates in cross-org leadership activities.</li>
+          <li>Leverages network across the company to develop strong empathy for the various business needs.</li>
+          <li>Can give effective feedback on and influence company strategy.</li>
+          <li>Regularly delegates and increases own impact by helping others to achieve more.</li>
+        </ul>
+      </td>
+      <td class="border-top">
+        <ul>
+          <li>Works in partnership (provides input and data) with leadership to set goals and objectives for area of responsibility.</li>
+          <li>Plans the growth of their organization and scales the team.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td class="border-top">M6</td>
+      <td class="border-top">Senior Director of Engineering</td>
+      <td class="border-top">
+        <ul>
+          <li>Can manage Directors as well as EMs.</li>
+          <li>Can drive Director hiring pipeline.</li>
+          <li>Grows engineering leaders.</li>
+          <li>Provides the right balance of direction and empowerment so EMs, TLs, and teams make decisions that are aligned with the company and engineering strategy and goals.</li>
+        </ul>
+      </td>
+      <td class="border-top">
+        <ul>
+          <li>Guide teams and their leaders in setting aggressive OKRs and goals that maximize impact while continually improving their ability to execute more quickly, effectively, and healthily towards delivering results.</li>
+          <li>Drives execution of company-wide initiatives.</li>
+        </ul>
+      </td>
+      <td class="border-top">
+        <ul>
+          <li>Builds effective collaboration with other organizations outside of PDDE.</li>
+        </ul>
+      </td>
+      <td class="border-top">
+        <ul>
+          <li>Influences future strategy and results through input to leadership teams and management of key business operations.</li>
+          <li>Develops innovative ideas, solutions and market opportunities by integrating expertise in area and understanding of the business and market.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
