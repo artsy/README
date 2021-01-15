@@ -9,6 +9,9 @@ grouped by larger themes:
 **Cost**
 - <details><summary>ROI</summary>
       <ul>
+        <li>What is the cost of the vendor? How does their fee structure scale?</li>
+      </ul>
+      <ul>
           <li>What the value would we get out of integrating with this vendor? Can we put a number on it in terms of dollars/engineering hours? </li>
       </ul>
       </details>
@@ -48,7 +51,7 @@ grouped by larger themes:
     <ul>
         <li>Would to be hard to migrate off this vendor if we change our minds?</li>
         <li>Is the integration very custom to our stack?</li>
-        <li>Is there a data export feature?</li>
+        <li>Is there a data export feature? Is the data export protocol established industry standard or proprietary?</li>
     </ul>
     </details>
 - <details><summary>Vendor Ecosystem</summary>
