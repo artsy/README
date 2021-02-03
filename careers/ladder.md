@@ -641,7 +641,7 @@ As an engineering manager grows at Artsy, their scope of impact will increase fr
           <li>Will usually have 2-4 direct reports.</li>
           <li>Provides timely, actionable feedback.</li>
           <li>Enlists support from their manager to establish the right growth path for their reports.</li>
-          <li>This is usually a transitional step into management from an IC role. This level is internal only (i.e. we won't hire into this level) and we expect EM1 to grow to EM2 within ~18m or so.</li>
+          <li>This is usually a transitional step into management for an established Senior Engineer. This level is internal only (i.e. we won't hire into this level) and we expect EM1 to grow to EM2 within ~18m or so.</li>
         </ul>
       </td>
     </tr>
