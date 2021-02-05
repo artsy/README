@@ -17,7 +17,7 @@ description: Things for managers to remember during the early days of onboarding
       there will be a period where their machine is still being setup and they won’t yet have access to their
       calendar.
 - [ ] Invite new hire to all engineering-wide meetings
-- [ ] Determine [sprint rotation plan](/onboarding/sprint-rotation.md)
+- [ ] Determine [sprint rotation plan](/onboarding/sprint-rotation.md) and update the [onboarding calendar](https://calendar.google.com/calendar/b/1?cid=YXJ0c3ltYWlsLmNvbV9jc2RocTFnNHNyMmhhY2Nvc3RmMTA1bTEwc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)🔒 accordingly
 
 ### Day 1
 
