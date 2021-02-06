@@ -1,0 +1,36 @@
+name: "Monday Informationals"
+on:
+  schedule:
+    - cron: "0 14 * * MON"
+
+jobs:
+  monday_informationals:
+    name: Monday Informationals
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Dependencies
+        run: yarn global add --silent @artsy/cli@alpha
+      - name: Run CLI
+        id: cli
+        run: |
+          echo "::set-output name=standup::$(artsy scheduled:standup-reminder)"
+          echo "::set-output name=rfcs::$(artsy scheduled:rfcs)"
+        env:
+          OPSGENIE_API_KEY: ${{ secrets.OPSGENIE_API_KEY }}
+          SLACK_WEB_API_TOKEN: ${{ secrets.SLACK_WEB_API_TOKEN }}
+      - name: Standup Reminder > Slack
+        uses: 8398a7/action-slack@v3
+        with:
+          status: custom
+          custom_payload: |
+            ${{steps.cli.outputs.standup}}
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+      - name: Open RFCs > Slack
+        uses: 8398a7/action-slack@v3
+        with:
+          status: custom
+          custom_payload: |
+            ${{steps.cli.outputs.rfcs}}
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
