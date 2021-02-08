@@ -16,6 +16,7 @@ jobs:
           echo "::set-output name=standup::$(artsy scheduled:standup-reminder)"
           echo "::set-output name=rfcs::$(artsy scheduled:rfcs)"
         env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           OPSGENIE_API_KEY: ${{ secrets.OPSGENIE_API_KEY }}
           SLACK_WEB_API_TOKEN: ${{ secrets.SLACK_WEB_API_TOKEN }}
       - name: Standup Reminder > Slack
