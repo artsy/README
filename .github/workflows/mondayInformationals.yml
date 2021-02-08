@@ -1,7 +1,7 @@
 name: "Monday Informationals"
 on:
   schedule:
-    - cron: "0 14 * * MON"
+    - cron: "15 1 * * MON"
 
 jobs:
   monday_informationals:
