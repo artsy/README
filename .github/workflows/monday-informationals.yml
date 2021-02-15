@@ -16,7 +16,7 @@ jobs:
           node-version: '12'
 
       - name: Install Dependencies
-        run: npm install --global @artsy/cli@alpha
+        run: npm install --global @artsy/cli
 
       - name: Run CLI
         id: cli
