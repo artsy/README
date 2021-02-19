@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Engineering Ladder](#engineering-ladder)
+  - [Tracks](#tracks)
+  - [Individual Contributors](#individual-contributors)
+  - [Technical Leads](#technical-leads)
+  - [Staff Engineer Archetypes](#staff-engineer-archetypes)
+  - [Engineering Management](#engineering-management)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ---
 title: The Artsy Engineering Ladder
 description: Career development at Artsy
@@ -563,9 +575,66 @@ See
 [this document](https://www.notion.so/artsy/Artsy-Tech-Lead-Expanded-Responsibilities-Public-710ee0cd2fce47dcaa722ece80e365b2)
 for an expanded set of Tech Lead Responsibilities at Artsy.
 
+## Staff Engineer Archetypes
+
+For engineers who would like to continue growing on the IC track, archetypes can serve to clarify what it looks
+like for an IC to have an impact at the Staff Engineer level. These archetypes paint a picture of the different
+flavors of specialization that engineers can pursue at the Staff Engineer level once they have demonstrated their
+impact across the gamut of engineering activities at Artsy.
+
+### Optimizers
+
+These engineers love to dive deep into complex problems and resurface with solutions that are accessible to the
+team. This archetype tends to go wherever they're needed, and might end up switching teams often in order to follow
+complex, impactful problems.
+
+Example projects:
+
+1.
+2.
+
+### Product Engineers
+
+These engineers are passionate about delivering value to users, findng crafty ways to overcome roadblocks to
+shipping product, and feel comfortable helping to shape the product strategy based on their knowledge of technical
+and user needs.
+
+Example projects:
+
+1. Identifying a new capability being rolled out to iOS, seeing how it would fit into Artsy's near-term business
+   and product strategy, and working with PMs to plan and prioritize the work among product teams.
+2.
+
+### Infrastructure Engineers
+
+These engineers enjoy buildng the tools and frameworks that other engineers in the organization use, and cultivate
+a deep understanding of how software interacts with hardware at the system level.
+
+Example projects:
+
+1.
+2.
+
+### Team Leader
+
+These engineers take responsibility for the success of teams by assisting in activities to scope work, coordinate
+implementation and unblock engineers, all while leading initiatives to grow the next batch of technical leaders
+across the organization.
+
+Example projects:
+
+1.
+2.
+
+### Citations
+
+- [The 7 different personality types in software engineering](https://medium.com/engineering-management/engineering-archetypes-ce4e80639f47)
+- [Software Engineering Archetypes: Build A Balanced Tech Team](https://amzur.com/blog/software-engineering-archetypes-in-it-industry/)
+- [Staff archetypes](https://staffeng.com/guides/staff-archetypes)
+
 ## Engineering Management
 
-A manager’s role at Artsy balances people management responsibilities with team delivery responsibilities. 
+A manager’s role at Artsy balances people management responsibilities with team delivery responsibilities.
 As a people manager, they are responsible for hiring, retaining, growing and managing the performance of their reports.
 Additionally, they're expected to significantly impact teams' success through their own technical contribution and/or delivery management. Delivery management is broadly defined here as any non-coding activity that will help the team ship faster, with better quality, and with increased impact (for instance: improving team processes, mitigating risks around release planning, facilitating internal and external communication).
 As an engineering manager grows at Artsy, their scope of impact will increase from one team to multiple teams and from managing ICs to managing ICs and other EMs.
