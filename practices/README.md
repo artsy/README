@@ -16,6 +16,7 @@ is useful for deciding how to organize and divide large efforts up among product
 | [The history of practices at Artsy](/practices/history.md#readme) | How did we get to where we are |
 | [The Mobile Practice](/practices/mobile.md#readme) | How does Artsy make mobile Software? |
 | [The Platform Practice](/practices/platform.md#readme) | What do folks with a platform focus do? |
+| [The Practice Playbook](/practices/playbook.md#readme) | How do you run a practice at Artsy? |
 | [The Web Practice](/practices/web.md#readme) | What do folks with a front-end focus do? |
 <!-- end_toc -->
 <!-- prettier-ignore-end -->
