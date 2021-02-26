@@ -49,6 +49,21 @@ It is useful for discussion topics to have the following:
 See the Platform Practice's
 [Discussion Topic Playbook](https://www.notion.so/artsy/Discussion-Topic-Playbook-4a11a9c2313c409782b3f33eda9bb4ee)
 
+### Create Jira Board To Track Action Items
+
+Action items from the practice meeting should be tracked on product teams' projects but visible in one aggregated
+board. The practice should not have a separate board to track work. Action items from practices should ideally be
+folded into a normal sprint on a product team.
+
+- Create a new board
+- Create a new label to mark tickets as related to the practice
+- Change the board settings to filter by label and remove project filter
+
+The board should be able to show tickets from other projects but with the practice label.
+
+See the Platform Practice's
+[Kanban Board](https://artsyproduct.atlassian.net/secure/RapidBoard.jspa?rapidView=79&projectKey=PLATFORM)
+
 ## Running The Practice Meeting
 
 The facilitator of the practice meeting should go over the agenda. Afterwards,whoever is championing the topic at
