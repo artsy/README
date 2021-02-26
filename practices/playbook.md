@@ -49,6 +49,16 @@ It is useful for discussion topics to have the following:
 See the Platform Practice's
 [Discussion Topic Playbook](https://www.notion.so/artsy/Discussion-Topic-Playbook-4a11a9c2313c409782b3f33eda9bb4ee)
 
+## Running The Practice Meeting
+
+The facilitator of the practice meeting should go over the agenda. Afterwards,whoever is championing the topic at
+hand should drive the discussion.
+
+Stop often to give space for questions. It is important that members are given the opportunity to give input.
+
+And remember, facilitating the meeting takes energy, but the energy that you put into it is the energy that you'll
+get back. Be excited about the things you're talking about and people will get excited for you!
+
 ## Signal Boost The Topics
 
 Announce at Monday's engineering standup what the practice will be discussing that week. If there is no topic,
@@ -74,6 +84,3 @@ thus maximizing time for discussion and feedback.
   - If not, consider blocking off the next practice meeting for brainstorming with fellow practice members. Try to
     get at how the practice can be improved, grouping pieces of feedback into themes and new ideas. Miro boards are
     useful here!
-
-And remember, facilitating the meeting takes energy, but the energy that you put into it is the energy that you'll
-get back. Be excited about the things you're talking about and people will get excited for you!
