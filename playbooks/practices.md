@@ -52,12 +52,13 @@ See the Platform Practice's
 ### Create Jira Board To Track Action Items
 
 Action items from the practice meeting should be tracked on product teams' projects but visible in one aggregated
-board. The practice should not have a separate board to track work. Action items from practices should ideally be
-folded into a normal sprint on a product team.
+board. The practice should not have a separate Jira project to track work. Action items from practices should
+ideally be folded into a normal sprint on a product team.
 
-- Create a new board
-- Create a new label to mark tickets as related to the practice
-- Change the board settings to filter by label and remove project filter
+- Create a new label to mark tickets as related to the practice (for example, `platform-practice`)
+- Create a saved filter query that filters on that label
+- Create a new board in an existing project (choose the most relevant)
+- Change the board settings to use the saved filter query you created above
 
 The board should be able to show tickets from other projects but with the practice label.
 
