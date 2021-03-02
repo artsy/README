@@ -37,6 +37,7 @@ practice should be incorporated, submit a PR!
 | [Migrating Redis](/playbooks/migrating-redis.md#readme) | How to migrate data between Redis instances. |
 | [Migrating Sidekiq](/playbooks/migrating-sidekiq.md#readme) | How to migrate Sidekiq to a new Redis instance |
 | [Open-sourcing a project](/playbooks/open-sourcing.md#readme) | How to take a private repo and make it open-source |
+| [The Practice Playbook](/playbooks/practices.md#readme) | How do you run a practice at Artsy? |
 | [How to run a retrospective](/playbooks/retrospectives.md#readme) | The why and how for running a retrospective |
 | [How to create an RFC at Artsy](/playbooks/rfcs.md#readme) | The steps needed to request cultural changes |
 | [How to run a Lunch & Learn](/playbooks/running-lunch-and-learn.md#readme) | How to handle the people process for Lunch & Learns |
