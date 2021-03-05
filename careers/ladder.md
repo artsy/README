@@ -607,7 +607,7 @@ Example projects:
 
 ### Infrastructure Engineers
 
-These engineers enjoy buildng the tools and frameworks that other engineers in the organization use, and cultivate
+These engineers enjoy building the tools and frameworks that other engineers in the organization use, and cultivate
 a deep understanding of how software interacts with hardware at the system level.
 
 Example projects:
