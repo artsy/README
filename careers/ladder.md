@@ -595,7 +595,7 @@ Example projects:
 
 ### Product Engineers
 
-These engineers are passionate about delivering value to users, findng crafty ways to overcome roadblocks to
+These engineers are passionate about delivering value to users, finding crafty ways to overcome roadblocks to
 shipping product, and feel comfortable helping to shape the product strategy based on their knowledge of technical
 and user needs.
 
