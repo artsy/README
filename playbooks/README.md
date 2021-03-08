@@ -25,6 +25,7 @@ practice should be incorporated, submit a PR!
 | [Data Migrations](/playbooks/data-migrations.md#readme) | Preparing, reviewing and executing data migrations |
 | [Dependency Management Recommendations](/playbooks/dependencies.md#readme) | How do we want to handle new dependencies to our apps? |
 | [Deployments](/playbooks/deployments.md#readme) | How systems are deployed at Artsy |
+| [Development environments](/playbooks/development-environments.md#readme) | Getting set up to work on new projects |
 | [Documentation](/playbooks/documentation.md#readme) | How and where to document or share content |
 | [Engineer workflow](/playbooks/engineer-workflow.md#readme) | How we work together |
 | [Extracting Services](/playbooks/extracting-services.md#readme) | When and why to consider extracting or decoupling systems |
