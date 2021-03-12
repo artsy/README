@@ -78,6 +78,8 @@ Once again, the title should concisely explain the change or addition. The descr
 - and any to-dos, considerations for the future, or fall-out for other developers.
 - Finally, any pre- or post-deploy migration steps should be clearly explained (see
   [migrations](data-migrations.md)).
+  
+Include any details that add context to the PR, as [reviewers likely have less context than you](https://artsy.github.io/blog/2020/08/11/improve-pull-requests-by-including-valuable-context/). 
 
 **_Request a review_** from at least one team member. This should be someone who has context around the changes
 that were made, experience with the system(s) being modified, and/or knowledge of the language/framework in use.
@@ -136,6 +138,7 @@ an RFC with an explanation of why, you can check out
 
 Further reading:
 
+- [Strategies for small, focused Pull Requests](https://artsy.github.io/blog/2021/03/09/strategies-for-small-focused-pull-requests/)
 - See some epic examples of great PRs: [artsy/gravity#9787](https://github.com/artsy/gravity/pull/9787) 🔒,
   [artsy/gravity#9557](https://github.com/artsy/gravity/pull/9557) 🔒
 - [On empathy and pull requests](https://slack.engineering/on-empathy-pull-requests-979e4257d158)
