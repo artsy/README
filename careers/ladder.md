@@ -553,11 +553,13 @@ appropriate levels of specificity to enable meaningful career development conver
 
 ## Technical Leads
 
-Every product team at Artsy needs a technical lead. A technical lead is the point person between business, product
-and engineering for that project. Their responsibilities are to help keep project management up to date, and to
-keep an eye on the larger picture of the project. This role is well suited to IC who has previous experience with
-the types of technical work involved. Being a technical lead on a project is a short term role as projects are
-launched, and wrapped up with some regularity, making a technical lead not a job title.
+Every team at Artsy has a Technical Lead who is part of the Core Team (Product Manager, Technical Lead, Data Analyst, Product Designer and Engineering Manager). The Technical Lead's key responsibilities are:
+
+- Partnering closely with the rest of the Core Team to jointly lead the team and deliver business value effectively (including proactively defining team strategy, roadmap, project scoping and milestone definitions, etc.)
+- Driving the team's technology choices and aligning their decisions with the rest of the Engineering organization
+- Ensuring successful project delivery.
+
+Taking on a Technical Lead role is a great opportunity for someone to expand their impact (including to expand scope, to achieve team wide impact, or to pave the way towards an Engineering Management career). Throughout their career, an Individual Contributor or an Engineering Manager may swap in and out of this Technical Lead role.
 
 See
 [this document](https://www.notion.so/artsy/Artsy-Tech-Lead-Expanded-Responsibilities-Public-710ee0cd2fce47dcaa722ece80e365b2)
@@ -565,7 +567,7 @@ for an expanded set of Tech Lead Responsibilities at Artsy.
 
 ## Engineering Management
 
-A manager’s role at Artsy balances people management responsibilities with team delivery responsibilities. 
+A manager's role at Artsy balances people management responsibilities with team delivery responsibilities.
 As a people manager, they are responsible for hiring, retaining, growing and managing the performance of their reports.
 Additionally, they're expected to significantly impact teams' success through their own technical contribution and/or delivery management. Delivery management is broadly defined here as any non-coding activity that will help the team ship faster, with better quality, and with increased impact (for instance: improving team processes, mitigating risks around release planning, facilitating internal and external communication).
 As an engineering manager grows at Artsy, their scope of impact will increase from one team to multiple teams and from managing ICs to managing ICs and other EMs.
