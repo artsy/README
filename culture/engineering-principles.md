@@ -32,7 +32,7 @@ We consider that our data and relationships with the art world makes Artsy a dif
 code only represents ideals of our past and close-to present. A code project should start as open, then move to
 closed if there are valid business needs that require it to be private.
 
-Working in the open allows individual to retain their work and ideas post-Artsy. We can share the exact problems we
+Working in the open allows you to retain your work and ideas post-Artsy. We can share the exact problems we
 see with others, and provide great high ways to teach via direct references.
 
 Expectations for our OSS _apps_ are different than OSS _libraries_. An app has little-to-no desire for community
