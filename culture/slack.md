@@ -19,20 +19,21 @@ You should always feel up to date on these two:
 
 There are a few other useful dev-related slacks:
 
+- [#dev-help](https://artsy.slack.com/messages/dev-help) 🔒: Get help with any engineering-related questions.
 - [#dev-banter](https://artsy.slack.com/messages/dev-banter) 🔒: For chatting with developers, not about work.
-- [#dev-candidates](https://artsy.slack.com/messages/dev-candidates) 🔒: To see how hiring is going.
-- [#dev-ersity](https://artsy.slack.com/messages/dev-ersity) 🔒: If you want to get involved in increasing
-  diversity in engineering.
 - [#dev-interviews](https://artsy.slack.com/messages/dev-interviews) 🔒: If you want to get involved in the hiring
   process.
+- [#dev-ersity](https://artsy.slack.com/messages/dev-ersity) 🔒: If you want to get involved in increasing
+  diversity in engineering.
 
 Engineering teams each maintain a dedicated channel (but all are welcome):
 
-- Auctions: [#product-auctions](https://artsy.slack.com/messages/product-auctions) 🔒
-- Discover: [#product-discover](https://artsy.slack.com/messages/product-discover) 🔒
+- Collector Experience:
+  [#product-collector-experience](https://artsy.slack.com/messages/product-collector-experience) 🔒
+- Find & Explore: [#product-find-explore](https://artsy.slack.com/messages/product-find-explore) 🔒
 - Grow: [#product-grow](https://artsy.slack.com/messages/product-grow) 🔒
+- Partner Experience: [#product-partner-experience](https://artsy.slack.com/messages/product-partner-experience) 🔒
 - Platform: [#product-platform](https://artsy.slack.com/messages/product-platform) 🔒
-- Product Galleries: [#product-galleries](https://artsy.slack.com/messages/product-galleries) 🔒
 - Purchase: [#product-purchase](https://artsy.slack.com/messages/product-purchase) 🔒
 
 Some other channels engineers might find helpful:
@@ -41,7 +42,13 @@ Some other channels engineers might find helpful:
 
 - [#practice-web](https://artsy.slack.com/messages/practice-web) 🔒
 - [#practice-mobile](https://artsy.slack.com/messages/practice-mobile) 🔒
-- [#platform-practice](https://artsy.slack.com/messages/practice-platform) 🔒
+- [#practice-platform](https://artsy.slack.com/messages/practice-platform) 🔒
+- [#practice-data](https://artsy.slack.com/messages/practice-data) 🔒
+
+### Incident Handling
+
+- [#alerts](https://artsy.slack.com/messages/alerts)🔒: automated system alerts
+- [#incidents](https://artsy.slack.com/messages/alerts)🔒: Any incident-handling starts (as a thread) here.
 
 ### Misc
 
