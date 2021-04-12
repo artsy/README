@@ -46,3 +46,6 @@ rotations, the engineer will join a team on a more stable basis.
     within the team's backlog
 - Schedule a convenient time (30 minutes should be sufficient) with the product manager to be introduced to the
   team's goals and metrics.
+- The
+  [in-progress][team process handbook](https://www.notion.so/artsy/Team-Process-Handbook-3fbeb0ae934d48ca9074131331b46cff)🔒
+  covers many of the events and practices that are common among teams.
