@@ -7,7 +7,7 @@ description: Deploying containerized applications at Artsy
 
 [Kubernetes](https://kubernetes.io/) is an open-source container orchestration platform developed by Google and
 maintained by a growing community. It provides the ability to manage and scale container deployments and integrates
-with our existing AWS infrastructure. See [hokusai.md](../hokusai.md) for help managing deployed applications.
+with our existing AWS infrastructure. See [hokusai.md](hokusai.md) for help managing deployed applications.
 
 ## Substance
 
@@ -34,7 +34,7 @@ Kubernetes allows you to allocate CPU/Memory for apps. Here are some [guidelines
 
 ### Kubectl CLI
 
-If you [installed and configured Hokusai](../hokusai.md) you already have `kubectl` installed as well.  `kubectl` provides a CLI for interacting with Kubernetes clusters.  It uses the Kubernetes API like the Dashboard applications, and so provides a view over the same resources, but can switch between different clusters using a "context".
+If you [installed and configured Hokusai](hokusai.md) you already have `kubectl` installed as well.  `kubectl` provides a CLI for interacting with Kubernetes clusters.  It uses the Kubernetes API like the Dashboard applications, and so provides a view over the same resources, but can switch between different clusters using a "context".
 
 Note: to perform cluster admin operations you should configure Hokusai with `--s3-bucket artsy-citadel --s3-key k8s/config-admin`
 
