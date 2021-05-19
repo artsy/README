@@ -166,7 +166,18 @@ to make sure code changes did not break existing features.
 Many of our apps automatically deploy to a staging environment once CI (continuous integration) succeeds.
 Production deploys vary by project, but are usually documented in project READMEs.
 
-We try to deploy early and often. You don't need permission to deploy--just announce in #dev slack channel in case
-the team has any concerns.
+We try to deploy early and often. You don't need permission to deploy--just announce in #dev slack channel in case the team has any concerns. _Seriously_, see this [slack message](https://artsy.slack.com/archives/CP9P4KR35/p1620259315282100?thread_ts=1620251649.277200&cid=CP9P4KR35) 🔒.
 
 More about [continuous improvement](/playbooks/engineer-workflow.md#continuous-improvement).
+
+### Project Management / Sprints
+
+Teams at Artsy work with product management via [Jira](https://artsyproduct.atlassian.net/) 🔒. Teams tend to work in 2 week sprints, with a planning meeting at the start and a review/retrospective at the end. 
+
+### Future Fridays
+
+PDDE-wide, the 2nd Friday of each sprint is "Future Friday." This is a lightweight process focused on collecting ideas about longer-term opportunities during the course of day-to-day work. 
+
+Conversations can be labeled with #ff so they're find-able later. When Friday comes (if you're so compelled), choose a direction to explore/experiment and report back any results at end-of-day. Participation is optional and collaborations are encouraged.
+
+You can read more in the original [RFC](https://github.com/artsy/potential/issues/146) and [blog post](https://artsy.github.io/blog/2015/12/22/future-fridays/).
