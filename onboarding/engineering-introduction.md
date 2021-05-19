@@ -166,7 +166,7 @@ to make sure code changes did not break existing features.
 Many of our apps automatically deploy to a staging environment once CI (continuous integration) succeeds.
 Production deploys vary by project, but are usually documented in project READMEs.
 
-We try to deploy early and often. You don't need permission to deploy--just announce in #dev slack channel in case the team has any concerns. _Seriously_, see this [slack message](https://artsy.slack.com/archives/CP9P4KR35/p1620259315282100?thread_ts=1620251649.277200&cid=CP9P4KR35) 🔒 slack message.
+We try to deploy early and often. You don't need permission to deploy--just announce in #dev slack channel in case the team has any concerns. _Seriously_, see this [slack message](https://artsy.slack.com/archives/CP9P4KR35/p1620259315282100?thread_ts=1620251649.277200&cid=CP9P4KR35) 🔒.
 
 More about [continuous improvement](/playbooks/engineer-workflow.md#continuous-improvement).
 
