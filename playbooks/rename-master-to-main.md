@@ -12,7 +12,7 @@ A list of repositories that are not software services or not connected / automat
 - [infrastructure](https://github.com/artsy/infrastructure)
 - [ops-util](https://github.com/artsy/ops-util)
 
-A list of artsy gems and libraries (usually included in a gemfile or something of that kind and therefor not connected with the name of the main branch).
+A list of artsy gems and libraries that might be loaded into gemfiles with referring to the master branch.
 
 - [watt](https://github.com/artsy/watt)
 - [omniauth-artsy](https://github.com/artsy/omniauth-artsy)
