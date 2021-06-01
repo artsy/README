@@ -48,6 +48,11 @@ A list of artsy gems and libraries that might be loaded into gemfiles with refer
 - [update-repo](https://github.com/artsy/update-repo)
 - [passport-local-with-otp](https://github.com/artsy/passport-local-with-otp)
 
+Projects that use hokusai for automated deployments but not mission-critical to the Artsy ecosystem:
+
+- [joule](https://github.com/artsy/joule)
+- [team](https://github.com/artsy/team)
+- [dev-help-helper-bot](https://github.com/artsy/dev-help-helper-bot)
 
 ### Check for open PRs on master
 ### Renaming the Remote master Branch
