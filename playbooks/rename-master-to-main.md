@@ -104,3 +104,5 @@ $ git checkout main
 # delete local master branch
 $ git branch -D master
 ```
+
+# ⚠️ After renaming a branch, the PRs that were comparing to `master` are now closed. The working branches need to open new PRs comparing with `main` now.  
