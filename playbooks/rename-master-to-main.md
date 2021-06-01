@@ -4,7 +4,7 @@
 
 A list of repositories that are not software services or not connected / automatically hooked with software services and therefor could easily be changing the main branch name to 'main':
 
-- [README](https://github.com/artsy/README)
+- [README](https://github.com/artsy/README) ✅
 - [potential](https://github.com/artsy/potential)
 - [arts.github.io](https://github.com/artsy/artsy.github.io)
 - [clouds](https://github.com/artsy/clouds)
