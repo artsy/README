@@ -5,7 +5,7 @@
 A list of repositories that are not software services or not connected / automatically hooked with software services and therefor could easily be changing the main branch name to 'main':
 
 - [README](https://github.com/artsy/README) ✅
-- [potential](https://github.com/artsy/potential)
+- [potential](https://github.com/artsy/potential) ✅
 - [arts.github.io](https://github.com/artsy/artsy.github.io)
 - [clouds](https://github.com/artsy/clouds)
 - [minotaur](https://github.com/artsy/minotaur)
@@ -58,10 +58,10 @@ Because on Github you probably configured the `master` branch as the default bra
 
 ![screen shot branch settings](https://user-images.githubusercontent.com/15628617/120303879-8d535680-c2cf-11eb-890c-a2ef4ac665ae.png)
 
-Now every team member needs to update their local default branch.
+Now every team member needs to update their local default branch. This is what you can see on GitHub once the master branch is renamed. You can copy the commands from the section [Team Duties after rename](#team-duties-after-rename) below.
 ![update local default branch](https://user-images.githubusercontent.com/15628617/120304648-431ea500-c2d0-11eb-82e7-a1431de19b93.png)
 
-### Team Duties after that
+### Team Duties after rename
 The complicated way:
 
 ```bash
