@@ -48,17 +48,11 @@ A list of artsy gems and libraries that might be loaded into gemfiles with refer
 - [update-repo](https://github.com/artsy/update-repo)
 - [passport-local-with-otp](https://github.com/artsy/passport-local-with-otp)
 
-### Renaming the Local master Branch to main
+
+### Check for open PRs on master
+### Renaming the Remote master Branch
 
 Make sure you are on your local master branch and also pulled the latest changes.
-The first step is to rename the "master" branch in your local Git repositories:
-
-```bash
-git branch -m master main
-```
-Check with `git status` if it worked.
-
-### Renaming the Remote master Branch
 
 Because on Github you probably configured the `master` branch as the default branch. To configure the main branch as default, go to the settings/branches and change the default branch to main.
 
