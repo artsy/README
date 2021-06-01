@@ -47,3 +47,60 @@ A list of artsy gems and libraries that might be loaded into gemfiles with refer
 - [lint-changed](https://github.com/artsy/lint-changed)
 - [update-repo](https://github.com/artsy/update-repo)
 - [passport-local-with-otp](https://github.com/artsy/passport-local-with-otp)
+
+### Renaming the Local master Branch to main
+
+Make sure you are on your local master branch and also pulled the latest changes.
+The first step is to rename the "master" branch in your local Git repositories:
+
+```bash
+git branch -m master main
+```
+Check with `git status` if it worked.
+
+### Renaming the Remote master Branch
+Check out your local `main` branch with `git checkout main` and then push your branch to the remote repository with
+```bash
+git push -u origin main
+```
+Before deleting the remote master branch, you want to go and check for open PRs. Are they all comparing to master? If so, they will automatically be closed once you delete master. But this is no problem, since the working branches are all still there and the history with the closed PRs as well and you can just open new PRs comparing to main for them. Do that manually as you would for a new PR anyway. You can also do this after deleting the remote master branch.
+
+Now remove the old master branch remotely with
+```bash
+git push origin --delete master
+```
+Now there could be the following error message coming up:
+```bash
+To https://github.com/gittower/git-crashcourse.git
+! [remote rejected]   master (refusing to delete the current branch: refs/heads/master)
+error: failed to push some refs to 'https://example@github.com/gittower/git-crashcourse.git'
+```
+Because on Github you probably configured the `master` branch as the default branch. To configure the main branch as default, go to the settings/branches and change the default branch to main. Then try deleting master again with the command given above and it should work.
+
+### Team Duties after that
+The complicated way:
+
+```bash
+# Switch to the "master" branch:
+$ git checkout master
+
+# Rename it to "main":
+$ git branch -m master main
+
+# Get the latest commits (and branches!) from the remote:
+$ git fetch
+
+# Remove the existing tracking connection with "origin/master":
+$ git branch --unset-upstream
+
+# Create a new tracking connection with the new "origin/main" branch:
+$ git branch -u origin/main
+```
+The easy way:
+```bash
+# get the remote main branch and check it out locally
+$ git checkout main
+
+# delete local master branch
+$ git branch -D master
+```
