@@ -59,23 +59,13 @@ git branch -m master main
 Check with `git status` if it worked.
 
 ### Renaming the Remote master Branch
-Check out your local `main` branch with `git checkout main` and then push your branch to the remote repository with
-```bash
-git push -u origin main
-```
-Before deleting the remote master branch, you want to go and check for open PRs. Are they all comparing to master? If so, they will automatically be closed once you delete master. But this is no problem, since the working branches are all still there and the history with the closed PRs as well and you can just open new PRs comparing to main for them. Do that manually as you would for a new PR anyway. You can also do this after deleting the remote master branch.
 
-Now remove the old master branch remotely with
-```bash
-git push origin --delete master
-```
-Now there could be the following error message coming up:
-```bash
-To https://github.com/gittower/git-crashcourse.git
-! [remote rejected]   master (refusing to delete the current branch: refs/heads/master)
-error: failed to push some refs to 'https://example@github.com/gittower/git-crashcourse.git'
-```
-Because on Github you probably configured the `master` branch as the default branch. To configure the main branch as default, go to the settings/branches and change the default branch to main. Then try deleting master again with the command given above and it should work.
+Because on Github you probably configured the `master` branch as the default branch. To configure the main branch as default, go to the settings/branches and change the default branch to main.
+
+![screen shot branch settings](https://user-images.githubusercontent.com/15628617/120303879-8d535680-c2cf-11eb-890c-a2ef4ac665ae.png)
+
+Now every team member needs to update their local default branch.
+![update local default branch](https://user-images.githubusercontent.com/15628617/120304648-431ea500-c2d0-11eb-82e7-a1431de19b93.png)
 
 ### Team Duties after that
 The complicated way:
@@ -88,14 +78,15 @@ $ git checkout master
 $ git branch -m master main
 
 # Get the latest commits (and branches!) from the remote:
-$ git fetch
-
-# Remove the existing tracking connection with "origin/master":
-$ git branch --unset-upstream
+$ git fetch origin
 
 # Create a new tracking connection with the new "origin/main" branch:
-$ git branch -u origin/main
+$ git branch -u origin/main main
+
+# Reset the remote head to main:
+$ git remote set-head origin -a
 ```
+
 The easy way:
 ```bash
 # get the remote main branch and check it out locally
