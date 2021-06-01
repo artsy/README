@@ -96,4 +96,17 @@ $ git checkout main
 $ git branch -D master
 ```
 
-# ⚠️ After renaming a branch, the PRs that were comparing to `master` are now closed. The working branches need to open new PRs comparing with `main` now.  
+### Reopen PRs with `main`
+ ⚠️ After renaming a branch, the PRs that were comparing to `master` are now drafts. The working branches need to reopen the draft PRs comparing with `main` now.  
+
+Go find your working branch in the open branches and click on the number of the draft PR.
+
+![find your branch](https://user-images.githubusercontent.com/15628617/120306559-431fa480-c2d2-11eb-85ca-22911f40416c.png)
+
+Check if the draft PR compares to main now.
+
+![compare to main](https://user-images.githubusercontent.com/15628617/120306921-add0e000-c2d2-11eb-91d1-e96551eb3d92.png)
+
+Reopen the draft PR by clicking on "Ready for Review".
+
+![](https://user-images.githubusercontent.com/15628617/120307122-e83a7d00-c2d2-11eb-8e1d-d3468d3db770.png)
