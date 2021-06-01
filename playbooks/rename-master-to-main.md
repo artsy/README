@@ -6,9 +6,9 @@ A list of repositories that are not software services or not connected / automat
 
 - [README](https://github.com/artsy/README) ✅
 - [potential](https://github.com/artsy/potential) ✅
-- [arts.github.io](https://github.com/artsy/artsy.github.io)
-- [clouds](https://github.com/artsy/clouds)
-- [minotaur](https://github.com/artsy/minotaur)
+- [artsy.github.io](https://github.com/artsy/artsy.github.io) (contacted @pepopowitz)
+- [clouds](https://github.com/artsy/clouds) (not sure about any references pointing to master)
+- [minotaur](https://github.com/artsy/minotaur) ✅
 - [infrastructure](https://github.com/artsy/infrastructure)
 - [ops-util](https://github.com/artsy/ops-util)
 - [cli](https://github.com/artsy/cli)
@@ -55,6 +55,8 @@ Projects that use hokusai for automated deployments but not mission-critical to 
 - [dev-help-helper-bot](https://github.com/artsy/dev-help-helper-bot)
 
 ### Check for open PRs on master
+
+Make sure that after the renaming process the PRs are still open and now pointing to main. 
 ### Renaming the Remote master Branch
 
 Make sure you are on your local master branch and also pulled the latest changes.
@@ -63,7 +65,7 @@ Because on Github you probably configured the `master` branch as the default bra
 
 ![screen shot branch settings](https://user-images.githubusercontent.com/15628617/120303879-8d535680-c2cf-11eb-890c-a2ef4ac665ae.png)
 
-Now every team member needs to update their local default branch. This is what you can see on GitHub once the master branch is renamed. You can copy the commands from the section [Team Duties after rename](#team-duties-after-rename) below.
+Now every team member needs to update their local default branch. This is what you can see on GitHub once the master branch is renamed. You can copy the commands from the section [Team Duties after rename](#team-duties-after-rename) below. There are two options listed, a complicated and an easier way 😄.
 ![update local default branch](https://user-images.githubusercontent.com/15628617/120304648-431ea500-c2d0-11eb-82e7-a1431de19b93.png)
 
 ### Team Duties after rename
@@ -88,24 +90,12 @@ $ git remote set-head origin -a
 
 The easy way:
 ```bash
+# fetch main
+$ git fetch origin main
+
 # get the remote main branch and check it out locally
 $ git checkout main
 
 # delete local master branch
 $ git branch -D master
 ```
-
-### Reopen PRs with `main`
- ⚠️ After renaming a branch, the PRs that were comparing to `master` are now drafts. The working branches need to reopen the draft PRs comparing with `main` now.  
-
-Go find your working branch in the open branches and click on the number of the draft PR.
-
-![find your branch](https://user-images.githubusercontent.com/15628617/120306559-431fa480-c2d2-11eb-85ca-22911f40416c.png)
-
-Check if the draft PR compares to main now.
-
-![compare to main](https://user-images.githubusercontent.com/15628617/120306921-add0e000-c2d2-11eb-91d1-e96551eb3d92.png)
-
-Reopen the draft PR by clicking on "Ready for Review".
-
-![](https://user-images.githubusercontent.com/15628617/120307122-e83a7d00-c2d2-11eb-8e1d-d3468d3db770.png)
