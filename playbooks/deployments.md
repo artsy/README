@@ -76,7 +76,7 @@ README.
   - Enter `github.com` for _Hostname_ and the contents of the _private_ key file for _Private Key_, then click _Add
     SSH Key_ to save.
   - If necessary, add the ssh key fingerprint to your `.circleci/config.yml` following the instructions [here](https://circleci.com/docs/2.0/configuration-reference/#add_ssh_keys).
-  - The default read-only key under __Checkout SSH Keys__ is still required for Circle to checkout the repo, so don't delete.
+  - The default read-only key under _Checkout SSH Keys_ is still required for Circle to checkout the repo, so don't delete.
 - In the projects' settings, generally speaking:
   - _build forked pull requests_ should be enabled
   - _pass secrets to builds from forked pull requests_ should be disabled
