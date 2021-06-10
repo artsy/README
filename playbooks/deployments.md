@@ -65,7 +65,7 @@ README.
 - See [CircleCI's docs](https://circleci.com/docs/2.0/getting-started/#section=getting-started) for general set-up
   steps.
 - Artsy's project templates depend on write access to the repo (in order to push branches from CI steps). To create
-  a _read+write Github key_ for CircleCI (rather than the default read-only key under _Checkout SSH Keys_):
+  a _read+write Github key_ for CircleCI (rather than the default read-only key):
   - Generate a key with a helpful label: `ssh-keygen -t rsa -b 4096 -m PEM -C "github_rw_key_for_circle"` (provide
     a blank passphrase).
   - Log into Github as the `artsyit` user and, in the project's settings, go to _Deploy keys_ > _Add deploy key_.
