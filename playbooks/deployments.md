@@ -65,17 +65,18 @@ README.
 - See [CircleCI's docs](https://circleci.com/docs/2.0/getting-started/#section=getting-started) for general set-up
   steps.
 - Artsy's project templates depend on write access to the repo (in order to push branches from CI steps). To create
-  a _read+write Github key_ for CircleCI (rather than the default read-only):
+  a _read+write Github key_ for CircleCI (rather than the default read-only key):
   - Generate a key with a helpful label: `ssh-keygen -t rsa -b 4096 -m PEM -C "github_rw_key_for_circle"` (provide
     a blank passphrase).
   - Log into Github as the `artsyit` user and, in the project's settings, go to _Deploy keys_ > _Add deploy key_.
     Give the key a descriptive name (like the label above) and paste in the contents of the _public_ (`.pub`) key
     file.
   - Check the _Allow write access_ box and click the _Add key_ button to save the new key.
-  - In the CircleCI project settings, go to _SSH Permissions_ > _Add SSH Key_.
+  - In the CircleCI project settings, go to _Additional SSH Keys_ > _Add SSH Key_.
   - Enter `github.com` for _Hostname_ and the contents of the _private_ key file for _Private Key_, then click _Add
     SSH Key_ to save.
   - If necessary, add the ssh key fingerprint to your `.circleci/config.yml` following the instructions [here](https://circleci.com/docs/2.0/configuration-reference/#add_ssh_keys).
+  - The default read-only key under _Checkout SSH Keys_ is still required for Circle to checkout the repo, so don't delete.
 - In the projects' settings, generally speaking:
   - _build forked pull requests_ should be enabled
   - _pass secrets to builds from forked pull requests_ should be disabled
