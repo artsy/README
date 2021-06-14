@@ -19,7 +19,7 @@ mobile practice. Those things include:
 
 We do have a lot in common with the [Web Practice](./web.md):
 
-- Large parts of our codebase are written in the [Artsy Omakase](./front-end.md#the-artsy-omakase).
+- Large parts of our codebase are written in the [Artsy Omakase](./web.md#the-artsy-omakase).
 - Our React/Native apps share [a common design system](https://github.com/artsy/palette/).
 - We're all solving problems for Artsy.
 
