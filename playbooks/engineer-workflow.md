@@ -82,6 +82,10 @@ Once again, the title should concisely explain the change or addition. The descr
 Include any details that add context to the PR, as
 [reviewers likely have less context than you](https://artsy.github.io/blog/2020/08/11/improve-pull-requests-by-including-valuable-context/).
 
+#### Assignees and Reviewers
+
+> TLDR; If your PR is ready to be reviewed, be sure to use the `assignee` field to assign it directly to someone; that person will then be ultimately responsible for merging and / or approving (so that you can merge). Folks tagged under the `reviewers` section typically provide feedback, but don’t ultimately merge. However, if the PR is still in progress then one generally adds `WIP` to the title/description and assigns to self.
+
 **_Request a review_** from at least one team member. This should be someone who has context around the changes
 that were made, experience with the system(s) being modified, and/or knowledge of the language/framework in use.
 Team members that are not explicitly assigned to a PR are encouraged to contribute as well, but reviewers have the
