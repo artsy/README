@@ -35,7 +35,7 @@ description: The best-of from our archives
 
 ### Culture
 
-- [What is the interviewing process at Aetsy?](http://artsy.github.io/blog/2019/01/23/artsy-engineering-hiring/)
+- [What is the interviewing process at Artsy?](http://artsy.github.io/blog/2019/01/23/artsy-engineering-hiring/)
 - [What is the interviewing process for a Junior?](https://artsy.github.io/blog/2016/01/30/iOS-Junior-Interviews/)
 - [What is our engineering support process?](https://artsy.github.io/blog/2018/05/25/support-process/)
 - [How do we automate stand-ups?](https://artsy.github.io/blog/2018/05/07/fully-automated-standups/)
