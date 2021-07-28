@@ -45,8 +45,8 @@ respond to these issues.
 3. In the original slack thread in #incidents, put a link to the new #incident-N channel and _direct engineers to
    continue communication in that channel_.
 
-4. Update the [Artsy status page](status.artsy.net) by logging into the
-   [Artsy StatusPage.io](https://manage.statuspage.io/pages/hmhlbjlmdhgh/incidents) account (creds in 1Password).
+4. Update the [Artsy status page](https://status.artsy.net) by logging into the
+   [Artsy StatusPage.io](https://manage.statuspage.io/pages/hmhlbjlmdhgh/incidents) account (steps in 1Password).
 
    Any incident with public impact should be communicated externally via the status page.
 
