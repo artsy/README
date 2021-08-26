@@ -135,7 +135,7 @@ _See also [JavaScript](#javascript-+-nodejs) & [Swift + Objective C](#swift-+-ob
 [es6]: https://medium.com/sons-of-javascript/javascript-an-introduction-to-es6-1819d0d89a0f
 [dinos]: https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70
 [rdoc]: https://ruby-doc.org/core-2.5.1/
-[poignant_guide]: https://poignant.guide/
+[poignant_guide]: https://poignant.guide/book/chapter-3.html
 [scala_exercises]: https://www.scala-exercises.org/
 [ramping_scala]: https://www.thoughtworks.com/talks/scala-the-good-parts-how-to-ramp-up-a-team-in-scala
 [effective_scala]: https://twitter.github.io/effectivescala
