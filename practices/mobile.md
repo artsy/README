@@ -5,9 +5,8 @@ description: How does Artsy make mobile Software?
 
 ## Practice Information
 
-The Mobile Practice is distinct from the Web Practice at Artsy; although there is significant overlap between the
-two, there are some things that are necessarily very different when building mobile software that it warrants a
-mobile practice. Those things include:
+The Mobile Practice is distinct from the Web Practice at Artsy. While there is significant overlap between the
+two, some things are necessarily different when building mobile software. Those differences include:
 
 - Much of our code is written in Objective-C and Swift, which aren't commonly used within Artsy Engineering.
 - Testing is different from other Artsy systems (Web and Platform practices test on staging; we test in betas).
@@ -58,7 +57,7 @@ Objective-C for the foreseeable future, [Swift is "on hold" at Artsy](https://gi
 and native code will likely always make sense for parts of our app (notably,
 [the Augmented Reality feature](http://artsy.github.io/blog/2018/03/18/ar/) and the animation-driven
 [Live Auctions Integration](http://artsy.github.io/blog/2016/08/09/the-tech-behind-live-auction-integration/#The.iOS.native.app:.Eigen),
-user interface). New features are being built using React Native; the remaining native parts of our main app are
+user interface). New features are built using React Native; the remaining native parts of our main app are
 [listed here 🔒](https://www.notion.so/artsy/Eigen-migration-to-React-Native-54dda83b023b4cb4965a8defdae9687f)
 alongside decisions and priorities for switching them to React Native. We have no plans at this time to rewrite our
 native-only projects in React Native.
