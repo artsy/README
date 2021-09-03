@@ -91,6 +91,7 @@ want to check out:
   jam-sessions
 - [#productivity-tips](https://artsy.slack.com/messages/productivity-tips) 🔒 for random things that make you more
   productive
+- [#postcards](https://artsy.slack.com/messages/postcards) 🔒 for the love of postcards
 
 ### Tips and Tricks
 
