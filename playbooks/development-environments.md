@@ -68,10 +68,9 @@ running a `./bin/setup` script (or whatever is idiomatic for that stack). The sc
 
 ## Shared configuration
 
-We strive to avoid committing any sensitive values to repositories, but sometimes they are necessary for local
-development. By convention, projects load configuration values from both:
+By convention, projects load configuration values from both:
 
-- a `.env.shared` file with common configuration values, and
+- a `.env.shared` file with _sensitive_ and _common_ configuration values
 - a `.env` file with any developer-specific overrides (or empty)
 
 These files are excluded from source-control. The setup command initializes them, updating `.env.shared` from a
