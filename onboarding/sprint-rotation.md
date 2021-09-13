@@ -25,14 +25,11 @@ rotations, the engineer will join a team on a more stable basis.
 #### Managers' responsibilities
 
 - Taking into account other rotating engineers and individual teams' schedules, managers decide an appropriate
-  sequence of rotations and add each to the
-  [engineering onboarding calendar](https://calendar.google.com/calendar/b/1?cid=YXJ0c3ltYWlsLmNvbV9jc2RocTFnNHNyMmhhY2Nvc3RmMTA1bTEwc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)🔒,
-  inviting the engineer as well as the chosen team's technical lead and product manager.
+  sequence of rotations and add each to the [engineering onboarding Notion page](https://www.notion.so/artsy/Onboarding-Rotations-073f98b82d4840aaa0b2bba71343e7cc)🔒.
 - For each rotation, managers should nominate a "buddy" from the team. This other engineer can help the new
   engineer get set up, pair on their own sprint work, and be a primary point of contact for context about tickets
   and projects. A new hire's [mentor](/onboarding/mentors.md) is a great choice for initial rotation "buddy."
-- Collaborate with each team's technical lead to ensure a healthy backlog of
-  [`good-first-issue`s](https://artsyproduct.atlassian.net/issues/?jql=labels%20%3D%20good-first-issue).
+- Collaborate with each team's technical lead to ensure a healthy backlog of [`good-first-issue`s](https://artsyproduct.atlassian.net/issues/?jql=labels%20%3D%20good-first-issue).
 
 #### New engineers' responsibilities
 
