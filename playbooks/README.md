@@ -31,6 +31,7 @@ practice should be incorporated, submit a PR!
 | [Extracting Services](/playbooks/extracting-services.md#readme) | When and why to consider extracting or decoupling systems |
 | [GraphQL Schema Design](/playbooks/graphql-schema-design.md#readme) | What are our best practices for GraphQL Schema Design? |
 | [Hokusai](/playbooks/hokusai.md#readme) | a CLI to manage applications deployed to Kubernetes |
+| [Incident Handling](/playbooks/incident-handling.md#readme) | How engineers share on-call duties and provide urgent support |
 | [How to give a good Informational](/playbooks/informationals.md#readme) | What are the steps needed to give someone a great experience. |
 | [Jira](/playbooks/jira.md#readme) | Working with Jira boards and tickets |
 | [Kubernetes](/playbooks/kubernetes.md#readme) | Deploying containerized applications at Artsy |

@@ -3,7 +3,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [Wait!](#wait)
 - [Process Overview](#process-overview)
 - [On-Call Responsibilities](#on-call-responsibilities)
@@ -108,7 +107,7 @@ See the [responding doc](responding.md#severity-of-incidents) for levels of seve
 
 - On the last day of your shift verify in [OpsGenie schedule](https://artsy.app.opsgenie.com/schedule/whoIsOnCall)
   who is coming to replace you and have a quick check in with them about current outstanding issues.
-- Update header of the slack #incidents channel with the current on-call engeneers' names.
+- Update header of the slack #incidents channel with the current on-call engineers' names.
 
 ## Helpful Resources and Playbooks
 
