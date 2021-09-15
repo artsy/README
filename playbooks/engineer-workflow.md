@@ -6,12 +6,14 @@ description: How we work together
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
 - [Working together](#working-together)
   - [Project Management](#project-management)
   - [Workflow](#workflow)
     - [Working in branches](#working-in-branches)
     - [Commits](#commits)
     - [Pull requests](#pull-requests)
+      - [Assignees and Reviewers](#assignees-and-reviewers)
     - [Code Reviews](#code-reviews)
     - [Testing](#testing)
     - [Deployment](#deployment)
@@ -84,7 +86,10 @@ Include any details that add context to the PR, as
 
 #### Assignees and Reviewers
 
-> TLDR; If your PR is ready to be reviewed, be sure to use the `assignee` field to assign it directly to someone; that person will then be ultimately responsible for merging and / or approving (so that you can merge). Folks tagged under the `reviewers` section typically provide feedback, but don’t ultimately merge. However, if the PR is still in progress then one generally adds `WIP` to the title/description and assigns to self.
+> TLDR; If your PR is ready to be reviewed, be sure to use the `assignee` field to assign it directly to someone;
+> that person will then be ultimately responsible for merging and / or approving (so that you can merge). Folks
+> tagged under the `reviewers` section typically provide feedback, but don’t ultimately merge. However, if the PR
+> is still in progress then one generally adds `WIP` to the title/description and assigns to self.
 
 **_Request a review_** from at least one team member. This should be someone who has context around the changes
 that were made, experience with the system(s) being modified, and/or knowledge of the language/framework in use.

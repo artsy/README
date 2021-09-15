@@ -1,3 +1,8 @@
+---
+title: Renaming master branches to main
+description: a CLI to manage applications deployed to Kubernetes
+---
+
 # Guide on how to rename master branches to 'main'
 
 ## Starting with the easier repositories

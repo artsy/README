@@ -8,6 +8,7 @@ description: Getting set up to work on new projects
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
 - [Goals](#goals)
 - [Prerequisites](#prerequisites)
 - [Project set-up](#project-set-up)
