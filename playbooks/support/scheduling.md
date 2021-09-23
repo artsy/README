@@ -2,13 +2,13 @@
 
 The [Engineering On-Call schedule](https://artsy.app.opsgenie.com/teams/dashboard/ee381004-a72e-42ef-a733-b350d6693c6c/main) is configured in OpsGenie and works on a rotation basis. Each engineer will be on-call for one week per rotation. A rotation lasts for the period of time it takes for each participant to be on-call once, and will repeat itself indefinitely.
 
-Trading shifts (because of vacations, obligations, etc.) are encouraged as long as the schedule is kept up-to-date. Please address any scheduling issues as early as possible.
+Trading shifts (because of vacations, obligations, etc.) is encouraged as long as the schedule is kept up-to-date. Please address any scheduling issues as early as possible.
 
 ## Steps for Scheduling On-Call
 
 We use a staggered schedule to retain context and limit disruption as engineers shift in/out of rotation. "A" rotations start/end on a Monday at 11 am. "B" rotations start/end on a Wednesday at 11 am. Each engineer will be on-call once per rotation.
 
-1. Generate a list of current engineers. This should include everyone who started before the next round is supposed to begin (you can use [Team Navigator](https://team.artsy.net/) as a reference).  Bonus points for using [artsy-cli](https://github.com/artsy/artsy-cli):
+1. Generate a list of current engineers. This should include everyone who started before the next round is supposed to begin (you can use [Bamboo](https://artsy.bamboohr.com/anytime/directory.php) as a reference).  Bonus points for using [artsy-cli](https://github.com/artsy/artsy-cli):
    
    ```
    $ artsy on-call:list --team-name=Engineering --randomize --split=2
@@ -92,14 +92,14 @@ Generally, new engineers should be added to the end of the schedule rotation ass
 Considerations when adding a new engineer:
 
 - You should aim to avoid pairings with two new engineers and you can place the engineer earlier in the rotation to avoid this.
-- **NOTE: If you add engineers anywhere other than the end of the rotation, the schedule of the engineers who have not completed their shifts will be modified, as the order of the participants matters. You should therefore update the affected engineers to avoid scheduling conflicts.**
-- A new hire should be given 60 days after their start date to get the necessary context before having an on-call shift.
+- **NOTE: If you add engineers anywhere other than the end of the rotation, the schedule of the engineers who have not completed their shifts will be modified, as the order of the participants matters. You should therefore update the affected engineers to avoid scheduling conflicts. You can message them something like:** 
+- A new hire should be given 60 days after their start date to get the necessary context before having an on-call shift. If a new engineer's start date is withn 60 days of the current rotation ending, then you should delay adding them until the new rotation has started.
 - Check for an unbalanced number of rotation participants in rot-a vs rot-b. If staff locations result in one rotation having significantly fewer engineers, you should prioritize a balanced rotation schedule over Eastern Time Zone coverage.
 
-### Removing  Engineers
+## Removing  Engineers
 
 When an engineer leaves:
 
-- They will be replaced with a no-one placeholder in the schedule as part of the [off-boarding checklist](https://docs.google.com/document/d/10mmqkXnYVp0ZOmF5JwVPyxkzcyIN-rqO8prHgIi11lw/edit) and replaced with a no-one placeholder
+- They will be replaced with a no-one placeholder in the schedule as part of the [off-boarding checklist](https://docs.google.com/document/d/10mmqkXnYVp0ZOmF5JwVPyxkzcyIN-rqO8prHgIi11lw/edit).
 - The user’s manager will be asked (in #dev-managers) to override that shift with themselves.
 - Their Opsgenie user account will be deleted.
