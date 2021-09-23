@@ -117,3 +117,8 @@ When an engineer leaves:
 - They will be replaced with a no-one placeholder in the schedule as part of the [off-boarding checklist](https://docs.google.com/document/d/10mmqkXnYVp0ZOmF5JwVPyxkzcyIN-rqO8prHgIi11lw/edit).
 - The user’s manager will be asked (in #dev-managers) to override that shift with themselves.
 - Their Opsgenie user account will be deleted.
+
+
+Responsibility of the departing engineer's manager:
+
+- Once an engineering manager overrides the departing engineer's next shift with yourself, they should remove the no-one placeholder from the participants list. 
