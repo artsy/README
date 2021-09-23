@@ -91,9 +91,23 @@ Generally, new engineers should be added to the end of the schedule rotation ass
 
 Considerations when adding a new engineer:
 
-- You should aim to avoid pairings with two new engineers and you can place the engineer earlier in the rotation to avoid this.
-- **NOTE: If you add engineers anywhere other than the end of the rotation, the schedule of the engineers who have not completed their shifts will be modified, as the order of the participants matters. You should therefore update the affected engineers to avoid scheduling conflicts. You can message them something like:** 
-- A new hire should be given 60 days after their start date to get the necessary context before having an on-call shift. If a new engineer's start date is withn 60 days of the current rotation ending, then you should delay adding them until the new rotation has started.
+- A new hire should be given 60 days after their start date to get the necessary context before having an on-call shift. If a new engineer's start date is within 60 days of the current rotation ending, then you should delay adding them until the new rotation has started. You can identify when a new rotation ends by checking the end date of the last participant's next rotation:
+
+   <img width=500 src="images/opsgenie-addengs-3.png" />
+
+   - We recommend setting a [Slack reminder](https://slack.com/blog/productivity/never-forget-the-little-things-with-remind) or calendar event for yourself. In Slack you can:
+
+      > /remind me to add @new-engineer to on-call rotations in 60 days
+
+- You should aim to avoid pairings with two new engineers and can place the new engineer earlier in the rotation to avoid this.
+- **NOTE: If you add engineers anywhere other than the end of the rotation, the schedule of the engineers who have not completed their shifts will be modified, as the order of the participants matters. You should therefore update the affected engineers to avoid scheduling conflicts. You can message them something like:**
+
+   > Hi @engingeer-whose-schedule-shifted! We've added a new engineer to the on-call schedule which has modified the dates of your on-call shift. Please take some time to review the schedule and trade shifts as needed.
+
+   - In certain scenarios, to minimize shifting multiple engineers schedules, it may be preferable to reach out to one engineer directly and ask them to switch shifts. Something like:
+
+      > Hi @engineer! We've added a @new-engineer to the schedule and would like to support them by not pairing them with another new engineer for their first on-call shift. Would you be able to switch shifts with them? The new dates of your on-call shift would be X to Y.
+
 - Check for an unbalanced number of rotation participants in rot-a vs rot-b. If staff locations result in one rotation having significantly fewer engineers, you should prioritize a balanced rotation schedule over Eastern Time Zone coverage.
 
 ## Removing  Engineers
