@@ -11,7 +11,7 @@ We use a staggered schedule to retain context and limit disruption as engineers 
 1. Generate a list of current engineers. This should include everyone who started before the next round is supposed to begin (you can use [Bamboo](https://artsy.bamboohr.com/anytime/directory.php) as a reference).  Bonus points for using [artsy-cli](https://github.com/artsy/artsy-cli):
    
    ```
-   $ artsy on-call:list --team-name=Engineering --randomize --split=2
+   $ artsy on-call:list --team-name=Engineering-team --randomize --split=2
    ```
 
 2. Split engineers into A and B groups. Group B should include all engineers located outside of the US Eastern Time zone. This ensures that we always have one engineer on-call during Eastern working hours.
@@ -49,6 +49,7 @@ To volunteer for a holiday shift:
 
 1. Navigate to [Engineering On-Call Schedule][schedule]
 2. Browse any of the available holiday rotations
+
   <img width="500" src="https://user-images.githubusercontent.com/12748344/99718836-82df1700-2a79-11eb-8cba-b642f93a434b.png">
 
 3. Refer to the existing Trading/Overriding instructions to assign yourself a shift.
@@ -80,14 +81,16 @@ To override a shift:
 
 ## **Adding Engineers**
 
-Generally, new engineers should be added to the end of the schedule rotation associated with their time zone. To do this: 
+Generally, new engineers should be added to the end of the schedule rotation associated with their time zone. To do this:
 
-1. Navigate to the [On-Call Schedule](https://artsy.app.opsgenie.com/teams/dashboard/ee381004-a72e-42ef-a733-b350d6693c6c/main) and edit the engineer's respective rotation.
+1. If the engineer doesn't have an Opsgenie account already, [create an one for them](/Users/mattjones/code/README/playbooks/support/scheduling.md) in the Settings -> Users page, then [add them](https://support.atlassian.com/opsgenie/docs/create-a-team-and-add-members/)to the Engineering team in the Engingeering members page (Teams -> Engineering -> Members).
+
+2. Navigate to the [On-Call Schedule](https://artsy.app.opsgenie.com/teams/dashboard/ee381004-a72e-42ef-a733-b350d6693c6c/main) and edit the engineer's respective rotation.
 
    <img width=500 src="images/opsgenie-addengs-1.png" />
    <img width=500 src="images/opsgenie-addengs-2.png" />
 
-2. Add the engineer to the end of the participants list. Their position in the rotation will match their position in the participants list on the rotation edit page, for example:
+3. Add the engineer to the end of the participants list. Their position in the rotation will match their position in the participants list on the rotation edit page, for example:
 
 Considerations when adding a new engineer:
 
