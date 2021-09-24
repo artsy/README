@@ -11,7 +11,7 @@ We use a staggered schedule to retain context and limit disruption as engineers 
 1. Generate a list of current engineers. This should include everyone who started before the next round is supposed to begin (you can use [Bamboo](https://artsy.bamboohr.com/anytime/directory.php) as a reference).  Bonus points for using [artsy-cli](https://github.com/artsy/artsy-cli):
    
    ```
-   $ artsy on-call:list --team-name=Engineering-team --randomize --split=2
+   $ artsy on-call:list --team=Engineering --randomize --split=2
    ```
 
 2. Split engineers into A and B groups. Group B should include all engineers located outside of the US Eastern Time zone. This ensures that we always have one engineer on-call during Eastern working hours.
@@ -24,15 +24,15 @@ We use a staggered schedule to retain context and limit disruption as engineers 
     - Name the new rotation "rot-a-next"
     - Add all participants from group A into the A rotation
     - Set the rotation type to "weekly"
-    - Set the "Start on" date to January 8th (the end of the holiday schedule)
-    - Set the "End on" date to December 20th (the start of the holiday schedule).
+    - Set the "Start on" date to correspond with the "End on" date from the previous A rotation
+    - Leave "Ends on" unselected to ensure rotations repeat indefinitly
 
 5. Create a new B rotation:
-- Name the new rotation "rot-b-next"
-- Add all participants from group B into the rotation
-- Set the rotation type to "weekly"
-- Set the "Start on" date to January 8th (the end of the holiday schedule)
-- Set the "End on" date to December 20th (the start of the holiday schedule).
+   - Name the new rotation "rot-b-next"
+   - Add all participants from group B into the rotation
+   - Set the rotation type to "weekly"
+   - Set the "Start on" date to correspond with the "End on" date from the previous B rotation
+   - Leave "Ends on" unselected to ensure rotations repeat indefinitly
 
 6. Put a note in the #dev channel announcing that the new rotations are up. This may look something like this:
    > @developers Hello team! :wave:
