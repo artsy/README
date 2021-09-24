@@ -124,4 +124,4 @@ When an engineer leaves:
 
 Responsibility of the departing engineer's manager:
 
-- Once an engineering manager overrides the departing engineer's next shift with yourself, they should remove the no-one placeholder from the participants list. 
+- Once an engineering manager overrides the departing engineer's next shift, they should remove the no-one placeholder from the participants list. 
