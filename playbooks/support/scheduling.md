@@ -32,7 +32,7 @@ We use a staggered schedule to retain context and limit disruption as engineers 
    - Add all participants from group B into the rotation
    - Set the rotation type to "weekly"
    - Set the "Start on" date to correspond with the "End on" date from the previous B rotation
-   - Leave "Ends on" unselected to ensure rotations repeat indefinitly
+   - Leave "Ends on" unselected to ensure rotations repeat indefinitely
 
 6. Put a note in the #dev channel announcing that the new rotations are up. This may look something like this:
    > @developers Hello team! :wave:
