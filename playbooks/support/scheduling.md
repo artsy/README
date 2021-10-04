@@ -83,7 +83,7 @@ To override a shift:
 
 Generally, new engineers should be added to the end of the schedule rotation associated with their time zone. To do this:
 
-1. If the engineer doesn't have an Opsgenie account already, [create an one for them](/Users/mattjones/code/README/playbooks/support/scheduling.md) in the Settings -> Users page, then [add them](https://support.atlassian.com/opsgenie/docs/create-a-team-and-add-members/)to the Engineering team in the Engingeering members page (Teams -> Engineering -> Members).
+1. If the engineer doesn't have an Opsgenie account already, create one for them in the Settings -> Users page, then [add them](https://support.atlassian.com/opsgenie/docs/create-a-team-and-add-members/) to the Engineering team in the Engineering members page (Teams -> Engineering -> Members).
 
 2. Navigate to the [On-Call Schedule](https://artsy.app.opsgenie.com/teams/dashboard/ee381004-a72e-42ef-a733-b350d6693c6c/main) and edit the engineer's respective rotation.
 
