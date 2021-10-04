@@ -98,6 +98,8 @@ Generally, new engineers should be added to the end of the schedule rotation ass
 
 3. Add the engineer to the end of the participants list. Their position in the rotation will match their position in the participants list on the rotation edit page, for example:
 
+   <img width=500 src="images/opsgenie-addengs-3.png" />
+
 Considerations when adding a new engineer:
 
 - A new hire should be given 60 days after their start date to get the necessary context before having an on-call shift. If a new engineer's start date is within 60 days of the current rotation ending, then you should delay adding them until the new rotation has started. You can identify when a new rotation ends by checking the end date of the last participant's next rotation:
