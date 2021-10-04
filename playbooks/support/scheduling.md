@@ -53,7 +53,7 @@ During this time, on-call shifts will be on a volunteer basis and rotate every t
 
 To volunteer for a holiday shift:
 
-1. Navigate to [Engineering On-Call Schedule][schedule]
+1. Navigate to [Engineering On-Call Schedule](https://artsy.app.opsgenie.com/settings/schedule/detail/aa7d47fa-ab67-4c09-b9ca-d43a20efbb04)
 2. Browse any of the available holiday rotations
 
   <img width="500" src="https://user-images.githubusercontent.com/12748344/99718836-82df1700-2a79-11eb-8cba-b642f93a434b.png">
@@ -64,11 +64,9 @@ To volunteer for a holiday shift:
 
 ## Trading / Overriding Shifts
 
-To switch shifts you may schedule an override in OpsGenie.
+To switch shifts you may schedule an override in OpsGenie. To override a shift:
 
-To override a shift:
-
-1. Navigate to [Engineering On-Call Schedule][schedule]
+1. Navigate to [Engineering On-Call Schedule](https://artsy.app.opsgenie.com/settings/schedule/detail/aa7d47fa-ab67-4c09-b9ca-d43a20efbb04)
 1. Find and hover over the shift and click override:
 
    <img width=500 src="images/opsgenie-override-0.png" />
@@ -79,7 +77,7 @@ To override a shift:
    - By default, you will override the entire shift. If you'd like to partially override the shift, adjust the
      Starts/End on dates
 
-   <img width=500 src="images/opsgenie-override-1.png" />
+      <img width=500 src="images/opsgenie-override-1.png" />
 
 1. Click "Add" and verify your override:
 
@@ -87,31 +85,34 @@ To override a shift:
 
 ## **Adding Engineers**
 
-Generally, new engineers should be added to the end of the schedule rotation associated with their time zone. To do this:
-
 1. If the engineer doesn't have an Opsgenie account already, create one for them in the Settings -> Users page, then [add them](https://support.atlassian.com/opsgenie/docs/create-a-team-and-add-members/) to the Engineering team in the Engineering members page (Teams -> Engineering -> Members).
 
 2. Navigate to the [On-Call Schedule](https://artsy.app.opsgenie.com/teams/dashboard/ee381004-a72e-42ef-a733-b350d6693c6c/main) and edit the engineer's respective rotation.
 
-   <img width=500 src="images/opsgenie-addengs-1.png" />
-   <img width=500 src="images/opsgenie-addengs-2.png" />
+3. To add an engineer to the rotation: </br>
 
-3. Add the engineer to the end of the participants list. Their position in the rotation will match their position in the participants list on the rotation edit page, for example:
+   a. Swap them with the first `no-one` placholder that's **greater than 60 days away** from the new engineer's start date.</br>
+
+   ![](images/opsgenie-addengs-4.gif)
+
+   b. If there are no `no-one` placeholders add the new engineer to the end of the current rotation, **if greater than 60 days away from their start date**, by placing them last in the participants list.
+
+   <img width=500 src="images/opsgenie-addengs-2.png" /> </br>
+
+   You can identify when the rotation ends by checking the end date of the last participant's next rotation. For example:
 
    <img width=500 src="images/opsgenie-addengs-3.png" />
 
-Considerations when adding a new engineer:
-
-- A new hire should be given 60 days after their start date to get the necessary context before having an on-call shift. If a new engineer's start date is within 60 days of the current rotation ending, then you should delay adding them until the new rotation has started. You can identify when a new rotation ends by checking the end date of the last participant's next rotation:
-
-   <img width=500 src="images/opsgenie-addengs-3.png" />
+   c. If a new engineer's start date is within 60 days of the current rotation end date, then you should delay adding them until the new rotation has started. 
 
    - We recommend setting a [Slack reminder](https://slack.com/blog/productivity/never-forget-the-little-things-with-remind) or calendar event for yourself. In Slack you can:
 
       > /remind me to add @new-engineer to on-call rotations in 60 days
 
+Considerations when adding a new engineer:
+
 - You should aim to avoid pairings with two new engineers and can place the new engineer earlier in the rotation to avoid this.
-- **NOTE: If you add engineers anywhere other than the end of the rotation, the schedule of the engineers who have not completed their shifts will be modified, as the order of the participants matters. You should therefore update the affected engineers to avoid scheduling conflicts. You can message them something like:**
+- **NOTE: If for some reason you need to add a new engineer anywhere other than a) where there was a `no one` placehold or b) the end of a rotation, the schedule of the engineers who have not completed their shifts will be modified, as the order of the participants matters. If necessary to do this, you will need to update the affected engineers to avoid scheduling conflicts. You can message them something like:**
 
    > Hi @engingeer-whose-schedule-shifted! We've added a new engineer to the on-call schedule which has modified the dates of your on-call shift. Please take some time to review the schedule and trade shifts as needed.
 
@@ -128,8 +129,3 @@ When an engineer leaves:
 - They will be replaced with a no-one placeholder in the schedule as part of the [off-boarding checklist](https://docs.google.com/document/d/10mmqkXnYVp0ZOmF5JwVPyxkzcyIN-rqO8prHgIi11lw/edit).
 - The user’s manager will be asked (in #dev-managers) to override that shift with themselves.
 - Their Opsgenie user account will be deleted.
-
-
-Responsibility of the departing engineer's manager:
-
-- Once an engineering manager overrides the departing engineer's next shift, they should remove the no-one placeholder from the participants list.
