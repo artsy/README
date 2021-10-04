@@ -27,12 +27,18 @@ We use a staggered schedule to retain context and limit disruption as engineers 
     - Set the "Start on" date to correspond with the "End on" date from the previous A rotation
     - Leave "Ends on" unselected to ensure rotations repeat indefinitly
 
+      <img width=800 src="images/opsgenie-schedule-0.png" />
+      <img width=800 src="images/opsgenie-schedule-1.png" />
+
+   
 5. Create a new B rotation:
    - Name the new rotation "rot-b-next"
    - Add all participants from group B into the rotation
    - Set the rotation type to "weekly"
    - Set the "Start on" date to correspond with the "End on" date from the previous B rotation
    - Leave "Ends on" unselected to ensure rotations repeat indefinitely
+
+      <img width=800 src="images/opsgenie-schedule-2.png" />
 
 6. Put a note in the #dev channel announcing that the new rotations are up. This may look something like this:
    > @developers Hello team! :wave:
@@ -113,7 +119,7 @@ Considerations when adding a new engineer:
 
 - Check for an unbalanced number of rotation participants in rot-a vs rot-b. If staff locations result in one rotation having significantly fewer engineers, you should prioritize a balanced rotation schedule over Eastern Time Zone coverage.
 
-## Removing  Engineers
+## Removing Engineers
 
 When an engineer leaves:
 
@@ -124,4 +130,4 @@ When an engineer leaves:
 
 Responsibility of the departing engineer's manager:
 
-- Once an engineering manager overrides the departing engineer's next shift, they should remove the no-one placeholder from the participants list. 
+- Once an engineering manager overrides the departing engineer's next shift, they should remove the no-one placeholder from the participants list.
