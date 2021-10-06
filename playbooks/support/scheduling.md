@@ -1,73 +1,50 @@
 # Scheduling
 
-The [Engineering On-Call schedule][schedule] is configured in OpsGenie. Trading shifts (because of vacations,
-obligations, etc.) is encouraged as long as the schedule is kept up-to-date. Please address any scheduling issues
-as early as possible.
+The [Engineering On-Call schedule](https://artsy.app.opsgenie.com/teams/dashboard/ee381004-a72e-42ef-a733-b350d6693c6c/main) is configured in OpsGenie and works on a rotation basis. Each engineer will be on-call for one week per rotation. A rotation lasts for the period of time it takes for each participant to be on-call once, and will repeat itself indefinitely.
 
-A month before the next round of on-call is slated to begin (can check when the current round ends to verify this
-timeline), we being scheduling the next round.
+Trading shifts (because of vacations, obligations, etc.) is encouraged as long as the schedule is kept up-to-date. Please address any scheduling issues as early as possible.
 
 ## Steps for Scheduling On-Call
 
-We use a staggered schedule to retain context and limit disruption as engineers shift in/out of rotation. "A"
-rotations start/end on a Monday at 11am. "B" rotations start/end on a Wednesday at 11am.
+We use a staggered schedule to retain context and limit disruption as engineers shift in/out of rotation. "A" rotations start/end on a Monday at 11 am. "B" rotations start/end on a Wednesday at 11 am. Each engineer will be on-call once per rotation.
 
-1. Generate a list of current engineers. This should include everyone who started before the next round is supposed
-   to begin (can use [Team Navigator][] as a reference). Bonus points for using [artsy-cli][]:
+1. Generate a list of current engineers. This should include everyone who started before the next round is supposed to begin (you can use [Bamboo](https://artsy.bamboohr.com/anytime/directory.php) as a reference).  Bonus points for using [artsy-cli](https://github.com/artsy/artsy-cli):
    
    ```
-   $ artsy on-call:list --team-name=Engineering --randomize --split=2
+   $ artsy on-call:list --team=Engineering --randomize --split=2
    ```
 
-1. Split engineers into A and B groups. Group B should include all engineers located outside of the Eastern Time
-   zone. This ensures that we always have one engineer on-call during Eastern working hours.
+2. Split engineers into A and B groups. Group B should include all engineers located outside of the US Eastern Time zone. This ensures that we always have one engineer on-call during Eastern working hours.
 
-1. Identify any exceptions/special cases and address them. These may include:
+3. Identify any exceptions/special cases and address them. These may include:
+    - People who have very recently started (as a courtesy, you should schedule them towards the end of the round)
+    - An unbalanced number of rotation participants. If staff locations result in one rotation having significantly fewer engineers, you should prioritize a balanced rotation schedule over Eastern Time Zone coverage.
 
-   - People who doubled-up the last round (should be left out of this round)
-   - People who have very recently started (as a courtesy, you should schedule them towards the end of the round)
+4. Create a new A rotation:
+    - Name the new rotation "rot-a-next"
+    - Add all participants from group A into the A rotation
+    - Set the rotation type to "weekly"
+    - Set the "Start on" date to correspond with the "End on" date from the previous A rotation
+    - Leave "Ends on" unselected to ensure rotations repeat indefinitly
 
-1. Create a new A rotation:
+      <img width=800 src="images/opsgenie-schedule-0.png" />
+      <img width=800 src="images/opsgenie-schedule-1.png" />
 
-   - Name the new rotation "rot-a-next"
-   - Add all participants from group A into the A rotation
-   - Set the rotation type to "weekly"
-   - Set the "Start on" date to correspond with the "End on" date from the previous A rotation
-   - Set the "Ends on" date far out enough so that every participant has one shift
-
-   <img width=800 src="images/opsgenie-schedule-0.png" />
-   <img width=800 src="images/opsgenie-schedule-1.png" />
-
-1. Create a new B rotation:
-
+   
+5. Create a new B rotation:
    - Name the new rotation "rot-b-next"
    - Add all participants from group B into the rotation
    - Set the rotation type to "weekly"
    - Set the "Start on" date to correspond with the "End on" date from the previous B rotation
-   - Set the "Ends on" date far out enough so that every participant has one shift
+   - Leave "Ends on" unselected to ensure rotations repeat indefinitely
 
-  <img width=800 src="images/opsgenie-schedule-2.png" />
- 
-1. Sanity check shifts against OOO calendar - the best way to do this is to have the rotations one on side of your screen and the OOO calendar on the other and then just page through them and look for conflicts. This won't stave off all conflicts, but ensures we're not causing any unnecessary ones.
+      <img width=800 src="images/opsgenie-schedule-2.png" />
 
-
-1. Put a note in the #dev channel announcing that the new rotations are up. This may look something like:
-
+6. Put a note in the #dev channel announcing that the new rotations are up. This may look something like this:
    > @developers Hello team! :wave:
    >
    > The upcoming Engineering On-Call rotations are up on OpsGenie. Please take some time to review the schedule
    > and trade shifts as needed.
-
-1. Schedule a reminder in Slack to remove the previous rotations and remove -next rotation name suffixes.
-
-   > /remind #on-call-working-group to remove/rename rotations on BLAH
-
-1. Schedule a reminder in Slack to repeat this process for the next round about a month before the next round is
-   schedule to end.
-   
-   > /remind #on-call-working-group to schedule the next round of rotations on BLAH
-
-[team navigator]: https://team.artsy.net
 
 ## Holiday Scheduling
 
@@ -76,8 +53,9 @@ During this time, on-call shifts will be on a volunteer basis and rotate every t
 
 To volunteer for a holiday shift:
 
-1. Navigate to [Engineering On-Call Schedule][schedule]
+1. Navigate to [Engineering On-Call Schedule](https://artsy.app.opsgenie.com/settings/schedule/detail/aa7d47fa-ab67-4c09-b9ca-d43a20efbb04)
 2. Browse any of the available holiday rotations
+
   <img width="500" src="https://user-images.githubusercontent.com/12748344/99718836-82df1700-2a79-11eb-8cba-b642f93a434b.png">
 
 3. Refer to the existing Trading/Overriding instructions to assign yourself a shift.
@@ -86,11 +64,9 @@ To volunteer for a holiday shift:
 
 ## Trading / Overriding Shifts
 
-To switch shifts you may schedule an override in OpsGenie.
+To switch shifts you may schedule an override in OpsGenie. To override a shift:
 
-To override a shift:
-
-1. Navigate to [Engineering On-Call Schedule][schedule]
+1. Navigate to [Engineering On-Call Schedule](https://artsy.app.opsgenie.com/settings/schedule/detail/aa7d47fa-ab67-4c09-b9ca-d43a20efbb04)
 1. Find and hover over the shift and click override:
 
    <img width=500 src="images/opsgenie-override-0.png" />
@@ -101,11 +77,55 @@ To override a shift:
    - By default, you will override the entire shift. If you'd like to partially override the shift, adjust the
      Starts/End on dates
 
-   <img width=500 src="images/opsgenie-override-1.png" />
+      <img width=500 src="images/opsgenie-override-1.png" />
 
 1. Click "Add" and verify your override:
 
    <img width=500 src="images/opsgenie-override-2.png" />
 
-[schedule]: https://artsy.app.opsgenie.com/teams/dashboard/ee381004-a72e-42ef-a733-b350d6693c6c/main
-[artsy-cli]: https://github.com/artsy/artsy-cli
+## **Adding Engineers**
+
+1. If the engineer doesn't have an Opsgenie account already, create one for them in the Settings -> Users page, then [add them](https://support.atlassian.com/opsgenie/docs/create-a-team-and-add-members/) to the Engineering team in the Engineering members page (Teams -> Engineering -> Members).
+
+2. Navigate to the [On-Call Schedule](https://artsy.app.opsgenie.com/teams/dashboard/ee381004-a72e-42ef-a733-b350d6693c6c/main) and edit the engineer's respective rotation.
+
+3. To add an engineer to the rotation: </br>
+
+   a. Swap them with the first `no-one` placholder that's **greater than 60 days away** from the new engineer's start date.</br>
+
+   ![](images/opsgenie-addengs-4.gif)
+
+   b. If there are no `no-one` placeholders add the new engineer to the end of the current rotation, **if greater than 60 days away from their start date**, by placing them last in the participants list.
+
+   <img width=500 src="images/opsgenie-addengs-2.png" /> </br>
+
+   You can identify when the rotation ends by checking the end date of the last participant's next rotation. For example:
+
+   <img width=500 src="images/opsgenie-addengs-3.png" />
+
+   c. If a new engineer's start date is within 60 days of the current rotation end date, then you should delay adding them until the new rotation has started. 
+
+   - We recommend setting a [Slack reminder](https://slack.com/blog/productivity/never-forget-the-little-things-with-remind) or calendar event for yourself. In Slack you can:
+
+      > /remind me to add @new-engineer to on-call rotations in 60 days
+
+Considerations when adding a new engineer:
+
+- You should aim to avoid pairings with two new engineers and can place the new engineer earlier in the rotation to avoid this.
+- **NOTE: If for some reason you need to add a new engineer anywhere other than a) where there was a `no one` placehold or b) the end of a rotation, the schedule of the engineers who have not completed their shifts will be modified, as the order of the participants matters. If necessary to do this, you will need to update the affected engineers to avoid scheduling conflicts. You can message them something like:**
+
+   > Hi @engingeer-whose-schedule-shifted! We've added a new engineer to the on-call schedule which has modified the dates of your on-call shift. Please take some time to review the schedule and trade shifts as needed.
+
+   - In certain scenarios, to minimize shifting multiple engineers schedules, it may be preferable to reach out to one engineer directly and ask them to switch shifts. Something like:
+
+      > Hi @engineer! We've added a @new-engineer to the schedule and would like to support them by not pairing them with another new engineer for their first on-call shift. Would you be able to switch shifts with them? The new dates of your on-call shift would be X to Y.
+
+- Check for an unbalanced number of rotation participants in rot-a vs rot-b. If staff locations result in one rotation having significantly fewer engineers, you should prioritize a balanced rotation schedule over Eastern Time Zone coverage.
+
+## Removing Engineers
+
+When an engineer leaves:
+
+- They will be replaced with a no-one placeholder in the schedule as part of the [off-boarding checklist](https://docs.google.com/document/d/10mmqkXnYVp0ZOmF5JwVPyxkzcyIN-rqO8prHgIi11lw/edit).
+- The user’s manager will be asked (in #dev-managers) to override that shift with themselves.
+- Their Opsgenie user account will be deleted.
