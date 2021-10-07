@@ -91,5 +91,5 @@ To _update_ shared configuration values, simply modify `.env.shared` and re-uplo
 
 ## Examples
 
-- [Gravity's `script/setup`](https://github.com/artsy/gravity/blob/master/script/setup)🔒
+- [Gravity's `script/setup`](https://github.com/artsy/gravity/blob/master/bin/setup)🔒
 - [Metaphysics' `scripts/setup.sh`](https://github.com/artsy/metaphysics/blob/master/scripts/setup.sh)
