@@ -100,6 +100,13 @@ Discuss the incident's resolution in the dedicated Slack channel.
 **Note:** You are **not** responsible for fixing all of the bugs that you find. Most problems that require a coding
 change should be addressed by the relevant team.
 
+### Escalations
+
+When investigating an incident, you should get the relevent team and stakeholders involved as soon as possible to help fix the issue. To do this:
+
+- Add the relevent team as a responder on the issue and mark them as "Subject Matter Experts". This will notify the team according to their escalation policy.
+- Add the the PM as a stakholder to the issue. This will notify the PM in accordance with the Stakeholder template.
+
 ### Communicate
 
 One of the on-call members handles internal and external communication for the incident. Assign this person to the
