@@ -104,8 +104,10 @@ change should be addressed by the relevant team.
 
 When investigating an incident, you should get the relevent team and stakeholders involved as soon as possible to help fix the issue. To do this:
 
-- Add the relevent team as a responder on the issue and mark them as "Subject Matter Experts". This will notify the team according to their escalation policy.
-- Add the the PM as a stakholder to the issue. This will notify the PM in accordance with the Stakeholder template.
+- Add the relevent team as a responder on the issue and [mark them as "Subject Matter Experts"](https://support.atlassian.com/opsgenie/docs/define-incident-response-roles/). This will notify the team of the incident according to their escalation policy. You can find the relevent team by reviewing the [project list](https://www.notion.so/artsy/17c4b550458a4cb8bcbf1b68060d63e6?v=3604e2682d024b64bde705abb2facebd).
+- Add the the PM as a stakholder to the issue. This will notify them via email and allow them to receive updates on the ongoing progress of the incident.
+
+  <img width=800 src="images/opsgenie-responding-0.png" />
 
 ### Communicate
 
