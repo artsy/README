@@ -85,13 +85,15 @@ To switch shifts you may schedule an override in OpsGenie. To override a shift:
 
 ## **Adding Engineers**
 
-1. If the engineer doesn't have an Opsgenie account already, create one for them in the Settings -> Users page, then [add them](https://support.atlassian.com/opsgenie/docs/create-a-team-and-add-members/) to the Engineering team in the Engineering members page (Teams -> Engineering -> Members).
+1. If the engineer doesn't have an Opsgenie account already, create one for them in the Settings -> Users page (give them the role of 'Responder').Then [add them](https://support.atlassian.com/opsgenie/docs/create-a-team-and-add-members/) to the Engineering team in the Engineering members page by going to Teams -> Engineering -> Members (give them the role of 'User').
+   - If we have hit our user count limit, ask an the #on-call-working-group to add an additional license. This requires a user role of "Owner". 
+   - An 'Owner' can you can add an additional user license by going to Settings > Subscriptions, clicking "Update Jira Ops Plan" button, and then increasing the user count by one.
 
-2. Navigate to the [On-Call Schedule](https://artsy.app.opsgenie.com/teams/dashboard/ee381004-a72e-42ef-a733-b350d6693c6c/main) and edit the engineer's respective rotation.
+2. Navigate to the [On-Call Schedule](https://artsy.app.opsgenie.com/teams/dashboard/ee381004-a72e-42ef-a733-b350d6693c6c/main).
 
-3. To add an engineer to the rotation: </br>
+3. Add an engineer to a rotation: </br>
 
-   a. Swap them with the first `no-one` placholder that's **greater than 60 days away** from the new engineer's start date.</br>
+   a. If there are `no-one` placeholders in a rotation, swap them with the first `no-one` placeholder that's **greater than 60 days away** from the new engineer's start date.</br>
 
    ![](images/opsgenie-addengs-4.gif)
 
