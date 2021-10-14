@@ -90,10 +90,8 @@ Discuss the incident's resolution in the dedicated Slack channel.
 - Start a video conference with Zoom to communicate in real-time with other responders. Credentials to a shared
   Engineering Zoom Pro account are in 1Password.
 - Fix if possible using [accumulated playbooks (wiki)](https://github.com/artsy/potential/wiki) 🔒.
-- If unable to fix using shared resources, contact the relevant [point-person](#point-people) for help and pair
-  with them on a fix. Be sure to contribute lessons back to shared documentation. **You are not expected to know
-  the ins and outs of every system, so don't hesitate to involve the wider team.**
-- Share any applicable work-arounds or talking points in the thread to unblock teammates or partners.
+- If unable to fix using shared resources, escalate the issue (see section below)
+
 - If you make an immediate fix but addressing the root cause requires further work, add the issue to the bug
   backlog so it can be prioritized accordingly.
 
@@ -102,12 +100,17 @@ change should be addressed by the relevant team.
 
 ### Escalations
 
-When investigating an incident, you should get the relevent team and stakeholders involved as soon as possible to help fix the issue. To do this:
+When investigating an incident, you should involve the relevent team and stakeholders involved as soon as possible. **You are not expected to know the ins and outs of every system, so don't hesitate to involve the wider team.**
 
-- Add the relevent team as a responder on the issue and [mark them as "Subject Matter Experts"](https://support.atlassian.com/opsgenie/docs/define-incident-response-roles/). This will notify the team of the incident according to their escalation policy. You can find the relevent team by reviewing the [project list](https://www.notion.so/artsy/17c4b550458a4cb8bcbf1b68060d63e6?v=3604e2682d024b64bde705abb2facebd).
-- Add the the PM as a stakholder to the issue. This will notify them via email and allow them to receive updates on the ongoing progress of the incident.
+To escalate an issue:
+
+- [Add](https://support.atlassian.com/opsgenie/docs/add-or-remove-a-responder/) the affected service's point person as a responder on the issue and [mark them as "Subject Matter Expert"](https://support.atlassian.com/opsgenie/docs/define-incident-response-roles/). This will notify them via opsgenie of the incident and keep them alerted to ongoing developments. You can find the relevent point person by reviewing the [project list](https://www.notion.so/artsy/17c4b550458a4cb8bcbf1b68060d63e6?v=3604e2682d024b64bde705abb2facebd).
+
+- Add the the PM as a stakholder to the issue. This will notify the stakeholder via email and allow them to receive updates on the ongoing progress of the incident.
 
   <img width=800 src="images/opsgenie-responding-0.png" />
+
+- Alert the relevent team via slack in the dedicated slack channel you created for the incident and share any applicable work-arounds or talking points in the thread to unblock teammates or partners.
 
 ### Communicate
 
