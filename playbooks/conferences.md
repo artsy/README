@@ -36,8 +36,6 @@ A growing list of related conferences:
 - Strange Loop: https://www.thestrangeloop.com/index.html
 - dotJS: https://www.dotjs.io/
 
-[lunch-and-learn]: /events/lunch-and-learn.md
-[show-and-tell]: /events/show-and-tell.md
 [travel-and-accommodations-on-atlas]:
   https://sites.google.com/a/artsymail.com/intranet/experience/travel-accommodations
 [ash]: https://github.com/ashfurrow

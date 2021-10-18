@@ -5,7 +5,7 @@ description: How to handle the people process for Lunch & Learns
 
 # Running a Lunch & Learn
 
-Hello Artsy employee or curious outsider! This document outlines how to run our [lunch and learns][lal]. The
+Hello Artsy employee or curious outsider! This document outlines how to run our [lunch and learns][event]. The
 process of planning a L&L spans weeks and generally goes through the following steps. The planning process is
 managed in the [Lunch and Learns GitHub project][project].
 
@@ -36,7 +36,7 @@ Sometimes you'll get an introduction to a speaker from a colleague, passing the 
 event. Just follow these steps:
 
 - Say thanks!
-- Pass along the link to the [lunch_and_learn.md][lal].
+- Pass along the link to the [lunch_and_learn.md][event].
 - Add a card to the "In Conversation" section of the [Lunch and Learn project][project], or move the existing card
   there from "Ideas".
 - Discuss what topic makes sense.
@@ -86,7 +86,7 @@ subfolder:
 YYYY-MM-DD <presentation title> with <speaker name>
 ```
 
-Send a pull request to the [Lunch and Learn docs][lal] that adds the speaker to the list. Make sure to thank the
+Send a pull request to the [Lunch and Learn docs][event] that adds the speaker to the list. Make sure to thank the
 speaker again over email, offer a copy of the video, and reiterate that we owe them a talk now.
 
 If the talk was given by an Artsy colleague, ask them if it would be appropriate to upload to YouTube for public
@@ -127,7 +127,6 @@ Move the card to the "Done" column. Nice work!
 - Check that the mic is plugged in (under the table)
 - Check the zoom iPad to see that it's mic is set up correctly
 
-[lal]: lunch_and_learn.md
 [after]: #Afterward
 [blog]: https://github.com/artsy/artsy.github.io
 [project]: https://github.com/artsy/README/projects/1
