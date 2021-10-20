@@ -39,8 +39,8 @@ README if you want to know who to start asking questions to.
 Artsy teams prefer to work in branches on a shared repository rather than forks. This means that developers should
 clone the repo, create a working branch from `master`, then push that branch back to the main repo.
 [Pull requests](#pull-requests) are then made from the working branch back to the `master` branch. 
-For tidiness, working branches should be named by their creator like `github_username/ticket-number/description`, 
-and Pull Request titles `commitizen-type/ticket-number/description`
+For tidiness, working branches should be named by their creator like `username/ticketnumber/description`, 
+and Pull Request titles `commitizentype/ticketnumber/description`
 
 ### Commits
 
