@@ -106,7 +106,7 @@ To escalate an issue:
 
 - [Add](https://support.atlassian.com/opsgenie/docs/add-or-remove-a-responder/) the affected service's point person as a responder on the issue and [mark them as "Subject Matter Expert"](https://support.atlassian.com/opsgenie/docs/define-incident-response-roles/). This will notify them via opsgenie of the incident and keep them alerted to ongoing developments. You can find the relevent point person by reviewing the [project list](https://www.notion.so/artsy/17c4b550458a4cb8bcbf1b68060d63e6?v=3604e2682d024b64bde705abb2facebd).
 
-- Add the the PM as a stakholder to the issue. This will notify the stakeholder via email and allow them to receive updates on the ongoing progress of the incident.
+- Add the PM as a stakeholder to the issue. This will notify the stakeholder via email and allow them to receive updates on the ongoing progress of the incident.
 
   <img width=800 src="images/opsgenie-responding-0.png" />
 
