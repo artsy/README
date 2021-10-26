@@ -154,9 +154,9 @@ follow-up items are tracked and the OpsGenie incident clearly reflects this stat
 
 3. Resolve any outstanding incidents on our status page via statuspage.io.
 4. Create a postmortem report in OpsGenie.
-    > Please aim to complete the analysis within 36-48 hours.
-5. Add a new row to the [Incident Review table](https://www.notion.so/artsy/Incident-Reviews-725052225efc49e78532b13e166ba3c7)
- with links to the incident and the postmortem as well as the date of the incident.
+    > Aim to complete the analysis within 2 days.
+5. Add a new row to the [Incident Review Schedule](https://www.notion.so/artsy/852e6a28fcda46ada5596f6190c9e006?v=210da6a9fe314893babbd81220b0523e)
+ with links to the _incident_ and the _postmortem_ as well as the _date of the incident_.
 6. Update relevant [playbooks](https://github.com/artsy/potential/wiki) 🔒 with any lessons.
 
 ## Severity of Incidents
