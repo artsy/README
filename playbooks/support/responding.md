@@ -153,8 +153,11 @@ follow-up items are tracked and the OpsGenie incident clearly reflects this stat
    - Mark the incident as **RESOLVED**
 
 3. Resolve any outstanding incidents on our status page via statuspage.io.
-4. Create a post mortem in OpsGenie.
-5. Update relevant [playbooks](https://github.com/artsy/potential/wiki) 🔒 with any lessons.
+4. Create a postmortem report in OpsGenie.
+    > Aim to complete the analysis within 2 days.
+5. Add a new row to the [Incident Review Schedule](https://www.notion.so/artsy/852e6a28fcda46ada5596f6190c9e006?v=210da6a9fe314893babbd81220b0523e)
+ with links to the _incident_, the _postmortem_, the _date of the incident_ and a brief _summary_.
+6. Update relevant [playbooks](https://www.notion.so/Engineering-Playbooks-b655fe54c1ce4b35af342c9ed9a489ae) 🔒 with any lessons.
 
 ## Severity of Incidents
 
