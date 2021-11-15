@@ -31,7 +31,7 @@ for details.
 2. Navigate to the
    [On-Call Schedule](https://artsy.app.opsgenie.com/teams/dashboard/ee381004-a72e-42ef-a733-b350d6693c6c/main)🔒.
 
-3. Add an engineer to a rotation: </br>
+3. Add a new engineer to a rotation: </br>
 
    a. If there are `no-one` placeholders in a rotation, swap them with the first `no-one` placeholder that's
    **greater than 60 days away** from the new engineer's start date.</br>
@@ -61,8 +61,8 @@ Considerations when adding a new engineer:
 
 - Avoid pairings of two new engineers. Place the new engineer earlier in the rotation to avoid this.
 
-- If for some reason you need to add a new engineer anywhere other than (a) where there was a `no one` placehold or
-  (b) the end of a rotation, the upcoming schedule of shifts will be modified, as the order of the participants
+- If for some reason you need to add a new engineer anywhere other than (a) where there was a `no-one` placeholder
+  or (b) the end of a rotation, the upcoming schedule of shifts will be modified, as the order of the participants
   matters. **You should notify the affected engineers to avoid scheduling conflicts.** E.g.:
 
   > Hi @impacted-engineer! We've added a new engineer to the on-call schedule which has modified the dates of your
@@ -86,7 +86,7 @@ Considerations when adding a new engineer:
 
 When an engineer leaves:
 
-- They will be replaced with a `no one` placeholder in the schedule as part of the
+- They will be replaced with a `no-one` placeholder in the schedule as part of the
   [off-boarding checklist](https://docs.google.com/document/d/10mmqkXnYVp0ZOmF5JwVPyxkzcyIN-rqO8prHgIi11lw/edit)🔒.
 - Their manager will be asked to override that shift with themselves.
 - Their Opsgenie user account will be deleted.
@@ -121,9 +121,9 @@ To switch shifts you may schedule an override in OpsGenie. To override a shift:
 <details>
   <summary>Special holiday shifts</summary>
 
-Holiday on-call shifts will take place from December 21st to Janurary 6th, these holiday rotations are labeled
-`Holiday-a` and `Holiday-b`. During this time, on-call shifts will be on a volunteer basis and rotate every two
-days.
+Holiday on-call shifts take place from 2-3 days before December 25th to 2-3 days after January 1st. These holiday
+rotations are labeled `Holiday-a` and `Holiday-b`. During this time, on-call shifts will be on a volunteer basis
+and rotate every two days.
 
 To volunteer for a holiday shift:
 
@@ -140,8 +140,8 @@ To volunteer for a holiday shift:
   <summary>Creating a new on-call schedule</summary>
 
 We use a staggered schedule to retain context and limit disruption as engineers shift in/out of rotation. "A"
-rotations start/end on a Monday at 11 am. "B" rotations start/end on a Wednesday at 11 am. Each engineer will be
-on-call once per rotation.
+rotations start/end on a Monday at 11am ET. "B" rotations start/end on a Wednesday at 11am ET. Each engineer will
+be on-call once per rotation.
 
 1. Generate a list of current engineers. This should include everyone who started before the next round is supposed
    to begin (you can use [Bamboo](https://artsy.bamboohr.com/anytime/directory.php) as a reference). Bonus points
@@ -312,6 +312,7 @@ Many people follow the #incidents channel closely, so avoid noise by keeping dis
 - Select _Artsy_ as the impacted service.
 - Enter a short description and link to the #incidents thread in the summary field.
 - Use your judgment to select a suitable _Priority_ level, based on the incident's severity.
+  <!-- TODO: define how to apply priority levels more consistently -->
 - Take your best guess at the other information; it can always be edited later.
 
 2. **Create a Slack channel** dedicated to the incident's technical resolution
@@ -347,10 +348,11 @@ the incident commander can perform both roles or ask for another volunteer.
 
 Discuss the incident's resolution in the dedicated Slack channel. Tips:
 
-- Scan [recent releases](https://github.com/pulls?q=is%3Amerged+is%3Apr+archived%3Afalse+org%3Aartsy+deploy) that
-  may be responsible.
-  [Roll back](https://github.com/artsy/hokusai/blob/master/docs/Command_Reference.md#how-to-do-a-rollback) the
-  culprit if necessary.
+- Scan [recent releases](https://github.com/pulls?q=is%3Amerged+is%3Apr+archived%3Afalse+org%3Aartsy+deploy). If
+  the timing or changes indicate that a particular release is responsible,
+  [rolling it back](https://github.com/artsy/hokusai/blob/master/docs/Command_Reference.md#how-to-do-a-rollback) is
+  often the simplest and fastest solution. Follow up by reverting the relevant pull request, so the main branch and
+  staging environment are once again healthy and deploys are unblocked while a more complete fix is implemented.
 - Start a video conference to communicate in real-time with other responders (see 1Password for shared Zoom account
   credentials).
 - See
@@ -371,13 +373,15 @@ engineer**.
 
 #### Escalate
 
-When investigating an incident, you should involve the relevent team and stakeholders involved as soon as possible.
+When investigating an incident, you should involve the relevant team and stakeholders involved as soon as possible.
 **You are not expected to know the ins and outs of every system, so don't hesitate to involve the wider team.**
 
 <details>
   <summary>To escalate an issue:</summary>
 
 - Identify the engineer responsible for the associated pull request or release. If not obvious, the
+  [relevant team](https://www.notion.so/artsy/Product-Teams-Scope-Ticket-creation-a4d8357954764f2cb34b4eb9d1cb6763)
+  can suggest a familiar engineer. Absent that, the
   [affected system's local point person](https://www.notion.so/artsy/17c4b550458a4cb8bcbf1b68060d63e6?v=3604e2682d024b64bde705abb2facebd)
   may be a good choice and can help investigate further.
 - [Add the responder](https://support.atlassian.com/opsgenie/docs/add-or-remove-a-responder/) to the incident as a
@@ -390,22 +394,25 @@ When investigating an incident, you should involve the relevent team and stakeho
 
   <img width=800 src="images/opsgenie-responding-0.png" />
 
-- Alert the relevent team via slack in the #inc-\* slack channel you created for the incident and share any
+- Alert the relevant team via slack in the #inc-\* slack channel you created for the incident and share any
   applicable work-arounds or talking points in the thread to unblock teammates or partners.
   </details>
 
 #### Communicate
 
-The Communications Officer should note meaningful updates, discoveries, or milestones (e.g. changes in availability
-or resolution) in the OpsGenie timeline. This timeline will be referenced later while reviewing the incident
+The Communications Officer is responsible for updates across several locations:
+
+Incident updates, discoveries, or milestones (e.g. changes in availability or resolution) should be recorded in
+**the OpsGenie timeline**. This timeline will be referenced later while reviewing the incident
 ([e.g.](https://artsy.app.opsgenie.com/reports/post-mortem/b5710803-4bcb-4f0b-a906-4a2343521328/detail)), so it's
 helpful to have as much information captured as possible. Entries can even be added after-the-fact with a past
 timestamp.
 
-Internal stakeholders should be updated about any status changes or work-arounds in the original #incidents thread.
+Internal stakeholders should be updated about any status changes or work-arounds in **the original #incidents
+thread**.
 
-As the incident changes state from being investigated to mitigated to hopefully resolved, update the StatusPage
-entry accordingly. If an incident is especially lengthy, consider updating the entry periodically to reaffirm its
+As the incident changes state from being investigated to mitigated to hopefully resolved, update **the StatusPage
+entry** accordingly. If an incident is especially lengthy, consider updating the entry periodically to reaffirm its
 status. (But not too often: customers may be subscribed to receive each of these updates by email.)
 
 If at any point the severity of problem is better understood to be non-urgent, _resolve_ the incident and direct
