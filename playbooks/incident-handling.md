@@ -446,7 +446,7 @@ from your work week.
 
 5. Add a new row to the
    [Incident Review Schedule](https://www.notion.so/artsy/852e6a28fcda46ada5596f6190c9e006?v=210da6a9fe314893babbd81220b0523e)🔒
-   with a link to the postmortem and a brief description of the incident.
+   with a link to the incident, the postmortem and a brief description of the incident.
 6. Update relevant [playbooks](https://www.notion.so/Engineering-Playbooks-b655fe54c1ce4b35af342c9ed9a489ae)🔒 with
    any procedures or scripts that were useful in mitigating the incident.
 
