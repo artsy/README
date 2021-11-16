@@ -31,6 +31,7 @@ practice should be incorporated, submit a PR!
 | [Extracting Services](/playbooks/extracting-services.md#readme) | When and why to consider extracting or decoupling systems |
 | [GraphQL Schema Design](/playbooks/graphql-schema-design.md#readme) | What are our best practices for GraphQL Schema Design? |
 | [Hokusai](/playbooks/hokusai.md#readme) | a CLI to manage applications deployed to Kubernetes |
+| [Incident Handling](/playbooks/incident-handling.md#readme) | How engineers share on-call duties and provide urgent support |
 | [How to give a good Informational](/playbooks/informationals.md#readme) | What are the steps needed to give someone a great experience. |
 | [Jira](/playbooks/jira.md#readme) | Working with Jira boards and tickets |
 | [Kubernetes](/playbooks/kubernetes.md#readme) | Deploying containerized applications at Artsy |
@@ -39,6 +40,7 @@ practice should be incorporated, submit a PR!
 | [Migrating Sidekiq](/playbooks/migrating-sidekiq.md#readme) | How to migrate Sidekiq to a new Redis instance |
 | [Open-sourcing a project](/playbooks/open-sourcing.md#readme) | How to take a private repo and make it open-source |
 | [The Practice Playbook](/playbooks/practices.md#readme) | How do you run a practice at Artsy? |
+| [Renaming master branches to main](/playbooks/rename-master-to-main.md#readme) | a CLI to manage applications deployed to Kubernetes |
 | [How to run a retrospective](/playbooks/retrospectives.md#readme) | The why and how for running a retrospective |
 | [How to create an RFC at Artsy](/playbooks/rfcs.md#readme) | The steps needed to request cultural changes |
 | [How to run a Lunch & Learn](/playbooks/running-lunch-and-learn.md#readme) | How to handle the people process for Lunch & Learns |
