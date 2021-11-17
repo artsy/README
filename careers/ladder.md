@@ -88,7 +88,7 @@ appropriate levels of specificity to enable meaningful career development conver
 
 ### Knowledge Leadership
 
-<table class="data-table">
+<table class="data-table" style="width:1290px">
   <tbody>
     <tr>
       <td class="border-top">Knowledge leadership</td>
