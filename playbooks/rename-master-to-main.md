@@ -7,7 +7,8 @@ description: a CLI to manage applications deployed to Kubernetes
 
 ## Starting with the easier repositories
 
-A list of repositories that are not software services or not connected / automatically hooked with software services and therefor could easily be changing the main branch name to 'main':
+A list of repositories that are not software services or not connected / automatically hooked with software
+services and therefor could easily be changing the main branch name to 'main':
 
 - [README](https://github.com/artsy/README) ✅
 - [potential](https://github.com/artsy/potential) ✅
@@ -30,7 +31,6 @@ A list of repositories that are not software services or not connected / automat
 - [homebrew-formulas](https://github.com/artsy/homebrew-formulas)
 - [artsy-hokusai-templates](https://github.com/artsy/artsy-hokusai-templates)
 - [orbs](https://github.com/artsy/orbs)
-
 
 A list of artsy gems and libraries that might be loaded into gemfiles with referring to the master branch.
 
@@ -61,19 +61,25 @@ Projects that use hokusai for automated deployments but not mission-critical to 
 
 ### Check for open PRs on master
 
-Make sure that after the renaming process the PRs are still open and now pointing to main. 
+Make sure that after the renaming process the PRs are still open and now pointing to main.
+
 ### Renaming the Remote master Branch
 
 Make sure you are on your local master branch and also pulled the latest changes.
 
-Because on Github you probably configured the `master` branch as the default branch. To configure the main branch as default, go to the settings/branches and change the default branch to main.
+Because on Github you probably configured the `master` branch as the default branch. To configure the main branch
+as default, go to the settings/branches and change the default branch to main.
 
 ![screen shot branch settings](https://user-images.githubusercontent.com/15628617/120303879-8d535680-c2cf-11eb-890c-a2ef4ac665ae.png)
 
-Now every team member needs to update their local default branch. This is what you can see on GitHub once the master branch is renamed. You can copy the commands from the section [Team Duties after rename](#team-duties-after-rename) below. There are two options listed, a complicated and an easier way 😄.
+Now every team member needs to update their local default branch. This is what you can see on GitHub once the
+master branch is renamed. You can copy the commands from the section
+[Team Duties after rename](#team-duties-after-rename) below. There are two options listed, a complicated and an
+easier way 😄.
 ![update local default branch](https://user-images.githubusercontent.com/15628617/120304648-431ea500-c2d0-11eb-82e7-a1431de19b93.png)
 
 ### Team Duties after rename
+
 The complicated way:
 
 ```bash
@@ -94,6 +100,7 @@ $ git remote set-head origin -a
 ```
 
 The easy way:
+
 ```bash
 # fetch main
 $ git fetch origin main
@@ -104,3 +111,21 @@ $ git checkout main
 # delete local master branch
 $ git branch -D master
 ```
+
+### Update CI and docs
+
+Search the repository for any references to the old `master` branch name and update them to use `main`, especially:
+
+- Continuous integration steps configured in `.circleci/config.yml`
+- Any set-up instructions or scripts
+
+Create a pull request with these changes ([e.g.](https://github.com/artsy/doppler/pull/218)), and monitor that they
+build and deploy to staging successfully.
+
+### Release Automation
+
+If the project's release pipeline is automated with [Horizon](https://github.com/artsy/horizon/), edit the
+project's "stages":
+
+- Rename the `master` stage to `main`
+- Input `main` as the branch name as well
