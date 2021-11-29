@@ -39,7 +39,17 @@ _See also [Frontend Practice Resources](#frontend-practice) below_
 | [][]                                       |                                                                                                                                                  |
 
 &nbsp;
+### React
 
+_See also [Platform Practice Resources](#platform-practice) below_
+
+| Name                                           | Description                               |
+| ---------------------------------------------- | ----------------------------------------- |
+| [advancedreact][advancedreact]                 | Advanced React course. For access check 1Password in the engineering vault “React + Graph QL Course)”   |
+| []()                                           |                                           |
+
+<!--
+&nbsp;
 ### Ruby
 
 _See also [Platform Practice Resources](#platform-practice) below_
@@ -126,7 +136,7 @@ _See also [JavaScript](#javascript-+-nodejs) & [Swift + Objective C](#swift-+-ob
 <!--
   ## MORE: Papers we love? Computer Science Topics? Emotional Intelligence x tech? ...
 -->
-
+[advancedreact]: https://advancedreact.com/
 [zines]: https://jvns.ca/zines
 [learn_x_in_y]: https://learnxinyminutes.com/
 [learn_vim]: https://github.com/damassi/learn-vim
