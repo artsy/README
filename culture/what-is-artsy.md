@@ -62,7 +62,7 @@ We map large aspects of the Art world in our apps and websites: [Shows](https://
 > global audience to learn about, discover, and collect art. Launched in 2012, Artsy is headquartered in New York
 > City with offices in London and Berlin.
 
-Currently Artsy is over 200 people, with ~30 of them being the Engineering team.
+Currently Artsy is over 200 people, with ~60 of them being the Engineering team.
 
 ### How do we make money?
 
