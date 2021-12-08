@@ -60,7 +60,7 @@ hokusai [staging|production] refresh
 ```
 
 5. Update your app's Redis database assignments in our
-   [staging](https://github.com/artsy/infrastructure/blob/master/terraform/staging/redis-database-assignments.tf)
+   [staging](#TODO)
    and
-   [production](https://github.com/artsy/infrastructure/blob/master/terraform/production/redis-database-assignments.tf)
+   [production](#TODO)
    Terrform config so we can track and reference it in our "shared-redis-db-assignments" Kubernetes ConfigMap
