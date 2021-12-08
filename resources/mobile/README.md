@@ -28,7 +28,7 @@ There are three distinct ways of developing iOS software at Artsy:
 - Writing Objective-C and Swift in [Eigen](https://github.com/artsy/eigen) (setup instructions in Readme),
   sometimes importing React Native components _from_ Emission (as Objective-C `ARComponentController` subclasses).
 - Developing React Native _and_ Objective-C and Swift using Emission and Eigen linked together, at the same time.
-  [Instructions are in the Eigen docs folder](https://github.com/artsy/eigen/blob/master/docs/using_dev_emission.md)
+  [Instructions are in the Eigen docs folder](#TODO)
 
 A few important things to know:
 

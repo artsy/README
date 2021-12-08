@@ -335,7 +335,7 @@ Many people follow the #incidents channel closely, so avoid noise by keeping dis
 #### Roles
 
 The first on-call engineer on the scene should
-[take the role of **Incident Commander**](<(https://docs.opsgenie.com/docs/incident-response-roles)>) unless
+[take the role of **Incident Commander**](<(https://support.atlassian.com/opsgenie/docs/define-incident-response-roles/)>) unless
 there's another volunteer or naturally responsible candidate. Your responsibility in this role is to _facilitate_ a
 successful resolution, not to solve the problem yourself.
 

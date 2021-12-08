@@ -30,7 +30,7 @@ We use [Datadog](https://app.datadoghq.com/) for cluster monitoring and alerting
 - [Container Overview](https://app.datadoghq.com/containers?columns=container_name,container_cpu,container_memory,container_net_sent_bps,container_net_rcvd_bps,container_status,container_started&options=normalizeCPU&sort=container_memory,DESC)
 
 ### Allocating Kubernetes resources for apps.
-Kubernetes allows you to allocate CPU/Memory for apps. Here are some [guidelines](app-resource-tuning.md) on how to do it.
+Kubernetes allows you to allocate CPU/Memory for apps. Here are some [guidelines](#TODO) on how to do it.
 
 ### Kubectl CLI
 
@@ -109,7 +109,7 @@ To evict all running pods from a node before terminating it, use the following p
 
 5) Wait for autoscaling to automatically launch a new instance in place of the terminated one.
 
-The command `./manage.py rotate_cluster_nodes` [in the Substance repo](https://github.com/artsy/substance#rotate-cluster-nodes-drain-termainate-existing-nodes-and-relace-with-new-ones) automates this procedure.
+The command `./manage.py rotate_cluster_nodes` [in the Substance repo](#TODO) automates this procedure.
 
 ##### Example: Kubernetes Nodes failing to Schedule Pods
 
