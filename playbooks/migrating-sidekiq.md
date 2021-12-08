@@ -53,7 +53,7 @@ to enable debug logging, perform a dry run, or clean up the source redis databas
 Refresh the Sidekiq dashboard at and confirm everything is migrated.
 
 5. Update your app's Redis database assignments in our
-   [staging](#TODO)
+   [staging](https://github.com/artsy/infrastructure/blob/master/terraform/staging/redis-database-assignments.tf)
    and
-   [production](#TODO)
+   [production](https://github.com/artsy/infrastructure/blob/master/terraform/production/redis-database-assignments.tf)
    Terrform config so we can track and reference it in our "shared-redis-db-assignments" Kubernetes ConfigMap

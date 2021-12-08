@@ -9,7 +9,7 @@ description: An overview of links about Artsy and some of our bigger packaged Ar
 
 ### Big Questions
 
-- [what is Artsy?](/culture/what-is-artsy.md)
+- [what is Artsy?](../culture/what_is_artsy.md)
 - [give me just one article to read on Artsy](https://www.theverge.com/2017/7/18/15983712/artsy-fine-art-galleries-online-auction-sales)
 - [what is it like to be an engineer at Artsy?](https://medium.com/artsy-blog/what-it-feels-like-to-work-in-a-supportive-environment-for-female-engineers-3c994a001007)
 - [where is our jobs page?](https://www.artsy.net/jobs)

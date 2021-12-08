@@ -34,7 +34,7 @@ Table of contents:
     such, using `camelCase` for new fields gives us this opportunity.
   - JSON is more closely related to JavaScript than any other language. In [our] JavaScript `camelCase` is
     idiomatic.
-  - It’s what the [GraphQL specification](https://spec.graphql.org/) uses.
+  - It’s what the [GraphQL specification](http://facebook.github.io/graphql/draft/) uses.
   - It results in JSON that matches the [Google JSON style-guide][google-json-style-guide].
 
 - Whenever a ‘namespace’ would be used in a field by adding a prefix or suffix (e.g. `for_sale_artwork` or

@@ -9,7 +9,7 @@ description: Working with Cloudflare
 
 Cloudflare is configured via Terraform in the [Infrastructure repo](https://github.com/artsy/infrastructure/blob/master/terraform/staging/cloudflare.tf)
 
-See [Enabling DDos Protection for a Subdomain via Cloudflare](#TODO) for details on Cloudflare configuration
+See [Enabling DDos Protection for a Subdomain via Cloudflare](https://github.com/artsy/potential/wiki/Platform-FAQ#enabling-ddos-protection-for-a-subdomain-via-cloudflare) for details on Cloudflare configuration
 
 Manage new protected domains by making PRs to the Infrastructure repo.
 
