@@ -30,7 +30,7 @@ We use [Datadog](https://app.datadoghq.com/) for cluster monitoring and alerting
 - [Container Overview](https://app.datadoghq.com/containers?columns=container_name,container_cpu,container_memory,container_net_sent_bps,container_net_rcvd_bps,container_status,container_started&options=normalizeCPU&sort=container_memory,DESC)
 
 ### Allocating Kubernetes resources for apps.
-Kubernetes allows you to allocate CPU/Memory for apps. Here are some [guidelines](#TODO) on how to do it.
+Kubernetes allows you to allocate CPU/Memory for apps. Here are some [guidelines](https://www.notion.so/artsy/Guidelines-on-tuning-an-app-s-CPU-and-memory-consumption-in-a-Kubernetes-cluster-797977be895643af84015a7d4b60a5dc) on how to do it.
 
 ### Kubectl CLI
 
