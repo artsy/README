@@ -109,7 +109,7 @@ To evict all running pods from a node before terminating it, use the following p
 
 5) Wait for autoscaling to automatically launch a new instance in place of the terminated one.
 
-The command `./manage.py rotate_cluster_nodes` [in the Substance repo](#TODO) automates this procedure.
+The command `python manage.py replace_cluster_nodes {cluster_directory}` [in the Substance repo](https://github.com/artsy/substance#replace-cluster-nodes-drain-termainate-existing-nodes-and-relace-with-new-ones) automates this procedure.
 
 ##### Example: Kubernetes Nodes failing to Schedule Pods
 
