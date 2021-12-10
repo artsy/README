@@ -129,3 +129,9 @@ project's "stages":
 
 - Rename the `master` stage to `main`
 - Input `main` as the branch name as well
+
+### External tools
+
+Since we haver external tools that are not possible to map by checking the repository code itself, this is something we need to consider as a Team duties after rename as well.
+Well known tools that are not easy to map:
+ - Jenkins
