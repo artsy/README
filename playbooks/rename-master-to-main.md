@@ -64,6 +64,16 @@ Projects that use hokusai for automated deployments but not mission-critical to 
 
 Make sure that after the renaming process the PRs are still open and now pointing to main.
 
+### Update CI and docs
+
+Search the repository for any references to the old `master` branch name and update them to use `main`, especially:
+
+- Continuous integration steps configured in `.circleci/config.yml`
+- Any set-up instructions or scripts
+
+Create a pull request with these changes ([e.g.](https://github.com/artsy/doppler/pull/218)), and monitor that they
+build and deploy to staging successfully.
+
 ### Renaming the Remote master Branch
 
 Make sure you are on your local master branch and also pulled the latest changes.
@@ -113,15 +123,6 @@ $ git checkout main
 $ git branch -D master
 ```
 
-### Update CI and docs
-
-Search the repository for any references to the old `master` branch name and update them to use `main`, especially:
-
-- Continuous integration steps configured in `.circleci/config.yml`
-- Any set-up instructions or scripts
-
-Create a pull request with these changes ([e.g.](https://github.com/artsy/doppler/pull/218)), and monitor that they
-build and deploy to staging successfully.
 
 ### Release Automation
 
