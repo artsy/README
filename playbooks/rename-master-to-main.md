@@ -31,6 +31,7 @@ services and therefor could easily be changing the main branch name to 'main':
 - [homebrew-formulas](https://github.com/artsy/homebrew-formulas)
 - [artsy-hokusai-templates](https://github.com/artsy/artsy-hokusai-templates)
 - [orbs](https://github.com/artsy/orbs)
+- [lattice](https://github.com/artsy/lattice) ✅
 
 A list of artsy gems and libraries that might be loaded into gemfiles with referring to the master branch.
 
