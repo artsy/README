@@ -119,8 +119,11 @@ $ git branch -D master
 If the project's release pipeline is automated with [Horizon](https://github.com/artsy/horizon/), edit the
 project's "stages":
 
-- Rename the `master` stage to `main`
-- Input `main` as the branch name as well
+- Login to https://releases.artsy.net/admin/projects 
+- Find the project in Horizon's project list, click "edit."
+- Click "stages" to list the stages and "edit" to edit the `master` branch.
+- Update the name and branch fields to be `main` as mentioned in the doc. 
+- Click `Update` to save.
 
 ### External tools
 
