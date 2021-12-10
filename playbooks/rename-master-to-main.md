@@ -43,16 +43,6 @@ A list of artsy gems and libraries that might be loaded into gemfiles with refer
 - [delta](https://github.com/artsy/delta) ⚠️ _seems more complex though_
 - [gravitype](https://github.com/artsy/gravitype)
 - [day-schedule-selector](https://github.com/artsy/day-schedule-selector)
-- [fresnsel](https://github.com/artsy/fresnel)
-- [reaction](https://github.com/artsy/reaction)
-- [palette](https://github.com/artsy/palette)
-- [cohesion](https://github.com/artsy/cohesion)
-- [palette-figma](https://github.com/artsy/palette-figma)
-- [artsy-passport](https://github.com/artsy/artsy-passport)
-- [stitch](https://github.com/artsy/stitch)
-- [lint-changed](https://github.com/artsy/lint-changed)
-- [update-repo](https://github.com/artsy/update-repo)
-- [passport-local-with-otp](https://github.com/artsy/passport-local-with-otp)
 
 Projects that use hokusai for automated deployments but not mission-critical to the Artsy ecosystem:
 
