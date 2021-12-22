@@ -285,8 +285,7 @@ increment).
 
 </details>
 
-(Routing between views in our app always happens via URLs in Eigen, in the
-[ARSwitchboard class](https://github.com/artsy/eigen/blob/master/Artsy/App/ARSwitchBoard.m). If there is no route
+(Routing between views in our app always happens via URLs in Eigen, in the ARSwitchboard class (DEPRECATED). If there is no route
 for a given URL, it falls back to a web view. You can
 [check out the docs for adding new components](https://github.com/artsy/emission/blob/master/docs/adding_new_components.md)
 for more information about how Eigen/Emission routing interop works.)

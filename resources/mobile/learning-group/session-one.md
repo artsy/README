@@ -127,7 +127,7 @@ components, we'll run Eigen and get it to work with our local Emission.
 There are two levels of doing this. If you just need to link React Native changes, then it's easy to point Eigen to
 the local React Native Packager (in the debug menu). If you're also making Objective-C changes to Emission and want
 to see them reflected in Eigen, it's a little trickier. Both options are
-[detailed in the documentation](https://github.com/artsy/eigen/blob/master/docs/using_dev_emission.md).
+[detailed in the documentation](https://github.com/artsy/eigen/tree/main/docs).
 
 ## Core Concept Review & Homework
 

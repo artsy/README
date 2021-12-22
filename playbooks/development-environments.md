@@ -48,7 +48,7 @@ Setup tooling is optimized for a default set of tools:
 Developers who find other tools compelling may need to adapt setup procedures to their choices. For the sake of
 simplicity, we avoid making setup tooling heavily conditional on local choices.
 
-The [shared setup script](https://github.com/artsy/potential/blob/master/scripts/setup)🔒 installs these tools, and
+The [shared setup script](https://github.com/artsy/potential/blob/main/scripts/setup)🔒 installs these tools, and
 individual projects' setups may depend on them.
 
 These choices can and should be improved (by [RFC-style](rfcs.md) pull request), but care should be taken to update

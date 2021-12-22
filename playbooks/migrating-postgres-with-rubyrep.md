@@ -5,7 +5,7 @@ description: How to migrate a Postgres to a new instance using Rubyrep
 
 # Migrating Postgres with Rubyrep
 
-To set up database replication via [rubyrep](rubyrep.org), do the following:
+To set up database replication via [rubyrep](https://www.rubyrep.org/), do the following:
 
 1) Create the new Postgres database and user
 

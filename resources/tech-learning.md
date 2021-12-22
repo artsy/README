@@ -21,7 +21,6 @@ This is a living document; if you find something out of date or have an addition
 | [exercism.io][]                        | Algorithmic code challenges with social feedback                                                                                                               |
 | [@damassi/learn-vim][learn_vim]        | "It's not so bad, really."                                                                                                                                     |
 | [what-happens-when][what_happens_when] | An answer to the classic interview question, "what happens when you type google.com into your browser and hit enter?"                                          |
-| []()                                   |                                                                                                                                                                |
 
 ## &nbsp;
 
@@ -36,7 +35,6 @@ _See also [Frontend Practice Resources](#frontend-practice) below_
 | [JavaScript: The Weird Parts][js_weird]    | [video] - 'An advanced Javascript course for everyone, giving a deep understanding of the language by understanding how it works under the hood' |
 | [Intro to ES6][es6]                        | An intro to modern JS features                                                                                                                   |
 | [Modern JS explained for dinosaurs][dinos] | How we got from `<script src='foo'/> <script src='bar' /> <script...` to `export default App`                                                    |
-| [][]                                       |                                                                                                                                                  |
 
 &nbsp;
 ### React
@@ -46,7 +44,6 @@ _See also [Platform Practice Resources](#platform-practice) below_
 | Name                                           | Description                               |
 | ---------------------------------------------- | ----------------------------------------- |
 | [advancedreact][advancedreact]                 | Advanced React course. For access check 1Password in the engineering vault “React + Graph QL Course)”   |
-| []()                                           |                                           |
 
 <!--
 &nbsp;
@@ -93,7 +90,6 @@ iOS, and specifically iOS at Artsy, is such a large topic that we have resources
 | Name                             | Description                                                                            |
 | -------------------------------- | -------------------------------------------------------------------------------------- |
 | [Cocoa Core Competencies][cocoa] | Deprecated but still useful context around development for iOS, especially Objective-C |
-| []()                             |                                                                                        |
 
 ## &nbsp;
 

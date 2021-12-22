@@ -100,7 +100,7 @@ important ones:
 
 Many applications depend on Amazon Web Services. Your mentor or anyone else in Engineering can set you up with an
 IAM profile within our organization's account (see
-[instructions](https://github.com/artsy/potential/wiki/Platform-FAQ#add-a-new-aws-user) 🔒).
+[instructions](https://www.notion.so/artsy/AWS-c03e8475a72540789e6b86b0642781a9) 🔒).
 
 ### Artsy's Stack(s)
 

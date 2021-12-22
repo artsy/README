@@ -6,7 +6,7 @@ description: Given some UI in the app, how does one find the code that backs tha
 ## Setup
 
 You need to have Xcode installed, running a version of Eigen ([here are the docs][getting_started]). You don't need
-to have [Eigen and Emission linked](https://github.com/artsy/eigen/blob/master/docs/using_dev_emission.md) if you
+to have [Eigen and Emission linked](https://github.com/artsy/eigen/tree/main/docs) if you
 just want to find the code – linking is only required if you want to debug/modify any React Native components in
 Emission.
 
