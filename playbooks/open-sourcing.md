@@ -29,13 +29,13 @@ But it is still worth auditing the repo to ensure no secrets have been checked i
 
 #### Automated scan
 
-As an extra precaution, check the current state of your repo with a tool such as
-https://github.com/Yelp/detect-secrets. This is a straightforward utility which scans a codebase for known secret
-patterns such as AWS keys, as well as "high entropy strings" that are typical of keys and tokens in general.
+As an extra precaution, scan the repo for secrets using the following tools:
 
-- [ ] Use a tool such as detect-secrets to:
+- [ ] [detect-secrets](https://github.com/Yelp/detect-secrets). It scans a codebase for known secret patterns such as AWS keys, as well as "high entropy strings" that are typical of keys and tokens in general. Please note that it does NOT scan commit history.
   - [ ] Perform an initial scan and audit any found secrets
   - [ ] Consider adding a git hook to prevent committing secrets in the future
+
+- [ ] [trufflehog](https://github.com/trufflesecurity/truffleHog). Similar to `detect-secrets`, but it scans both code and commit history.
 
 ## Review other repository areas for sensitive content
 
