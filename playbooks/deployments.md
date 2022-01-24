@@ -53,7 +53,7 @@ a dashboard. See [its instructions](https://github.com/artsy/horizon#adding-a-ne
 project and configuring release pull requests to be opened [and optionally merged] automatically.
 
 If a project should _not_ be released for any reason (such as needing QA or known issues in staging),
-[create a deploy block](https://github.com/artsy/horizon#add-a-deploy-block) to record the reason and timing. The
+[create a deploy block](https://github.com/artsy/horizon#adding-a-deploy-block) to record the reason and timing. The
 [artsy/release](https://github.com/artsy/orbs/blob/master/src/release/release.yml) orb defines a `block` step that
 will respect any unresolved deploy blocks and cause release builds to short-circuit.
 
