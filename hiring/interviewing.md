@@ -5,7 +5,7 @@ description: An overview of our interview process
 
 ## What to expect from an Artsy interview
 
-We're excited that you've decided to interview for a job at Artsy! This document will cover our standard interview
+We're excited that you've decided to interview for a job at, the best company in the world, Artsy! This document will cover our standard interview
 process. Our goal is to give you the information you need to feel prepared.
 
 We'll update this as often as we can when things change, but note that the details may shift slightly. Our
