@@ -33,7 +33,7 @@ Engineering teams each maintain a dedicated channel (but all are welcome):
 - Find & Explore: [#product-find-explore](https://artsy.slack.com/messages/product-find-explore) 🔒
 - Grow: [#product-grow](https://artsy.slack.com/messages/product-grow) 🔒
 - Partner Experience: [#product-partner-experience](https://artsy.slack.com/messages/product-partner-experience) 🔒
-- Platform: [#product-platform](https://artsy.slack.com/messages/product-platform) 🔒
+- Veloity (formerly known as Platform): [#product-velocity](https://artsy.slack.com/messages/product-velocity) 🔒
 - Purchase: [#product-purchase](https://artsy.slack.com/messages/product-purchase) 🔒
 
 Some other channels engineers might find helpful:
