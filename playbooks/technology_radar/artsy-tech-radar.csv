@@ -1,7 +1,6 @@
 name,ring,quadrant,isNew,description
 GraphQL,adopt,languages & frameworks,TRUE,"Appreciated for its flexibility and efficiency for clients."
 JSON,adopt,languages & frameworks,FALSE,"We prefer JSON over most other data formats for its self-describing properties."
-Objective-C,hold,languages & frameworks,FALSE,"Because we use React Native some amount of Objective-C bridging code will remain necessary, these should be thin layers to swift features. Some legacy core Eigen infrastructure and React Native itself is written in Objective-C."
 Rails,adopt,languages & frameworks,FALSE,
 React Native,adopt,languages & frameworks,FALSE,"New iOS work should use React Native. See also Objective-C."
 React.js,adopt,languages & frameworks,FALSE,
@@ -10,6 +9,7 @@ Ruby,adopt,languages & frameworks,FALSE,
 Spark,adopt,languages & frameworks,FALSE,"Artsy manages a Spark cluster and patterns exist to load data from the main Gravity database as well as other systems, distribute processing among all of the available nodes, and interact with S3, HDFS, or Redshift. See the Cinder repo."
 SQL,adopt,languages & frameworks,FALSE,
 styled-components,adopt,languages & frameworks,FALSE,
+Swift,adopt,languages & frameworks,FALSE,"We generally opt for React Native, but when necessary for quality, usability or features tightly integrated with OS, we will build native features in Swift using UIKit. see Objective-C."
 Typescript,adopt,languages & frameworks,FALSE,
 UIKit,adopt,languages & frameworks,FALSE,"See Objective-C."
 AWS,adopt,platforms,FALSE,
@@ -20,6 +20,7 @@ Redis,adopt,platforms,FALSE,
 Metaphysics' v2 schema,adopt,techniques,TRUE,"Consumers should switch to v2 rather than make further modifications to v1."
 Opaque identifiers,adopt,techniques,FALSE,"Friendly identifiers or 'slugs' are fine for URLs but opaque, permanent identifiers are preferred for all internal or programmatic uses."
 Responsive web pages,adopt,techniques,FALSE,"Rather than mobile- or desktop-specific designs, we prefer pages to degrade gracefully."
+Split testing,adopt,techniques,TRUE,"When scale permits (such as around high-volume product surfaces or early funnel steps), we prefer to make data-driven product decisions by evaluating user experiences in parallel through A/B- or A/B/*-style tests"
 Babel,adopt,tools,TRUE,"This is the description. You can use basic html such as the <strong>strong tag to emphasise keywords and phrases</strong> and insert <a href=""https://www.thoughtworks.com"">anchor links to documentation and referance material</a>."
 CircleCI,adopt,tools,FALSE,"for continuous integration over other services like Travis or Semaphore. Shared orbs and contexts help our projects apply best practices."
 Cloudflare,adopt,tools,TRUE,
@@ -35,6 +36,7 @@ Webpack,adopt,tools,FALSE,
 Elixir,trial,languages & frameworks,TRUE,
 Phoenix,trial,languages & frameworks,TRUE,
 OpsGenie,trial,tools,TRUE,
+Unleash,trial,tools,TRUE,"Unleash offers an open-source solution for feature-flagging, gradual roll-outs, and split-testing. Official SDKs simplify consumption from multiple clients and stacks."
 VSCode pairing,trial,tools,TRUE,
 Redux,assess,languages & frameworks,FALSE,
 Apollo Server,assess,platforms,TRUE,
@@ -45,8 +47,8 @@ Datadog Synthetics,assess,tools,TRUE,
 HashiCorp Vault,assess,tools,TRUE,
 Helm,assess,tools,TRUE,
 Coffeescript,hold,languages & frameworks,FALSE,
+Objective-C,hold,languages & frameworks,FALSE,"Because we use React Native some amount of Objective-C bridging code will remain necessary, these should be thin layers to swift features. Some legacy core Eigen infrastructure and React Native itself is written in Objective-C."
 Scala,hold,languages & frameworks,FALSE,
-Swift,adopt,languages & frameworks,FALSE,"We generally opt for React Native, but when necessary for quality, usability or features tightly integrated with OS, we will build native features in Swift using UIKit. see Objective-C."
 AWS Lambda,hold,platforms,TRUE,
 Google cloud,hold,platforms,FALSE,
 Heroku,hold,platforms,FALSE,"We prefer kubernetes where we have shared solutions for authorization, logging, monitoring, alerting, scaling, and routing."
@@ -58,7 +60,9 @@ Serverless architecture,hold,techniques,TRUE,
 Consul,hold,tools,FALSE,
 Jenkins CI/CD,hold,tools,FALSE,
 Kafka,hold,tools,FALSE,
+LabFeatures (Gravity),hold,tools,TRUE,"Unleash supports similar feature-enabling on an individual account basis, while also being flexible enough for gradual roll-outs and split tests."
 MongoDB,hold,tools,FALSE,
 Pingdom,hold,tools,TRUE,
 Semaphore,hold,tools,FALSE,
+SiteFeatures (Gravity),hold,tools,TRUE,"Site Features were used to turn on or off core functionality, but are easily replaced by Unleash (for platform-wide toggles) or Flipper (for Gravity-only settings)."
 Travis CI,hold,tools,TRUE,
