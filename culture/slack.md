@@ -52,12 +52,10 @@ Some other channels engineers might find helpful:
 
 ### Misc
 
-- [#clojure](https://artsy.slack.com/messages/clojure) 🔒
-- [#data](https://artsy.slack.com/messages/data) 🔒
 - [#deployments](https://artsy.slack.com/messages/deployments) 🔒
 - [#elixir](https://artsy.slack.com/messages/elixir) 🔒
 - [#global](https://artsy.slack.com/messages/global) 🔒
-- [#graphql](https://artsy.slack.com/messages/graphql) 🔒
+- [#dev-graphql](https://artsy.slack.com/messages/dev-graphql) 🔒
 - [#onboarding-eng](https://artsy.slack.com/messages/onboarding-eng) 🔒
 - [#peopleops](https://artsy.slack.com/messages/peopleops) 🔒
 - [#product](https://artsy.slack.com/messages/product) 🔒
