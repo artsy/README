@@ -29,7 +29,7 @@ adopting, and retiring technologies:
   take every opportunity to retire or migrate away.
 
 Artsy's current choices can be [edited in raw form here](/playbooks/technology_radar/artsy-tech-radar.csv) and
-[viewed in radar format here](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fartsy%2Freadme%2Fmaster%2Fplaybooks%2Ftechnology_radar%2Fartsy-tech-radar.csv).
+[viewed in radar format here](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fartsy%2Freadme%2Fmain%2Fplaybooks%2Ftechnology_radar%2Fartsy-tech-radar.csv).
 
 ## Technical Plans and Review
 

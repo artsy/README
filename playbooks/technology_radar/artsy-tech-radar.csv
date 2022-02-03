@@ -65,4 +65,5 @@ MongoDB,hold,tools,FALSE,
 Pingdom,hold,tools,TRUE,
 Semaphore,hold,tools,FALSE,
 SiteFeatures (Gravity),hold,tools,TRUE,"Site Features were used to turn on or off core functionality, but are easily replaced by Unleash (for platform-wide toggles) or Flipper (for Gravity-only settings)."
+Split.io,hold,tools,TRUE,"After a trial in the mobile app, we decided not to adopt this split-testing tool broadly (mostly due to cost)"
 Travis CI,hold,tools,TRUE,
