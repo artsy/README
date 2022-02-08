@@ -17,6 +17,8 @@ description: How systems are deployed at Artsy
   by developers who may have to consider how to undo a change or its impact on other systems.
 - _Independent_: Releases should be chunked and sequenced such that any one system can be updated independently of
   others.
+- _Continuous_: Releases should not require manual involvement by engineers. Release increments should be small and
+  tests, builds, migrations, and other safeguards should be sufficient to ensure most releases can be unattended.
 - _Reversible\*_: We should be able to roll back a deploy while keeping the state of the system stable and
   consistent. (This may also include associated changes such as to dependencies or configuration.)
 - _Consistent\*_: Ideally the deployment operation is the same whether a change includes just code, updated
@@ -29,13 +31,15 @@ _\*Not all of these goals are routinely achieved._
 ## Recommendations
 
 - Pull requests undergo the full test suite and any other linting or coverage steps imposed by the project.
-- Once merged to the `master` branch and successfully tested/built, changes are automatically pushed to the
-  container registry and deployed to staging by CI steps.
+- Once merged to the `main` branch and successfully tested/built, changes are automatically pushed to the container
+  registry and deployed to staging by CI steps.
 - Any necessary pre-deploy steps (such as migrations) or post-deploy steps occur automatically during the deploy.
 - A `staging` branch is updated based on each deploy to the staging environment.
 - Opening, reviewing, and merging a pull request from the `staging` to the `release` branch triggers a promotion
   from the staging to production environment (i.e., a release).
-- For visibility, announce any production releases in [#dev](https://artsy.slack.com/messages/dev).
+- Whenever possible, production releases should proceed automatically, typically after having been open for 24
+  hours.
+- For visibility, announce any manual production releases in [#dev](https://artsy.slack.com/messages/dev).
 
 ## Tools
 
@@ -48,14 +52,15 @@ convenient reuse. See
 [Convection's .circleci/config.yml](https://github.com/artsy/convection/blob/master/.circleci/config.yml) for a
 complete example.
 
-We use [horizon](https://github.com/artsy/horizon/) to poll for the status of our deployments and visualize them as
-a dashboard. See [its instructions](https://github.com/artsy/horizon#adding-a-new-project) for defining a new
-project and configuring release pull requests to be opened [and optionally merged] automatically.
+We use [horizon](https://github.com/artsy/horizon/) to visualize the status of our deployments and automatically
+open and [usually] merge production release PRs. See
+[its instructions](https://github.com/artsy/horizon#adding-a-new-project) for defining a new project and
+configuring deployment steps, including Slack channels to notify prior to releases.
 
 If a project should _not_ be released for any reason (such as needing QA or known issues in staging),
-[create a deploy block](https://github.com/artsy/horizon#adding-a-deploy-block) to record the reason and timing. The
-[artsy/release](https://github.com/artsy/orbs/blob/master/src/release/release.yml) orb defines a `block` step that
-will respect any unresolved deploy blocks and cause release builds to short-circuit.
+[create a deploy block](https://github.com/artsy/horizon#adding-a-deploy-block) to record the reason and timing.
+The [artsy/release](https://github.com/artsy/orbs/blob/master/src/release/release.yml) orb defines a `block` step
+that will respect any unresolved deploy blocks and cause release builds to short-circuit.
 
 If a project strays from these common practices, it's _especially_ important to document the correct process in its
 README.
@@ -75,8 +80,10 @@ README.
   - In the CircleCI project settings, go to _Additional SSH Keys_ > _Add SSH Key_.
   - Enter `github.com` for _Hostname_ and the contents of the _private_ key file for _Private Key_, then click _Add
     SSH Key_ to save.
-  - If necessary, add the ssh key fingerprint to your `.circleci/config.yml` following the instructions [here](https://circleci.com/docs/2.0/configuration-reference/#add_ssh_keys).
-  - The default read-only key under _Checkout SSH Keys_ is still required for Circle to checkout the repo, so don't delete.
+  - If necessary, add the ssh key fingerprint to your `.circleci/config.yml` following the instructions
+    [here](https://circleci.com/docs/2.0/configuration-reference/#add_ssh_keys).
+  - The default read-only key under _Checkout SSH Keys_ is still required for Circle to checkout the repo, so don't
+    delete.
 - In the projects' settings, generally speaking:
   - _build forked pull requests_ should be enabled
   - _pass secrets to builds from forked pull requests_ should be disabled
