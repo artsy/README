@@ -17,7 +17,7 @@ description: Things for managers to remember during the early days of onboarding
 
 - [ ] Organize lunch outing, if applicable
 - [ ] Ask the new hire for their GitHub account. One can use their personal account. Invite them to Artsy Git and the Engineering and Engineering Staff teams.
-- [ ] Set up thier [AWS account](https://www.notion.so/artsy/Add-a-new-AWS-user-c140d2ed914d4886a6359ff7f381ff0b)🔒. For consistency, it is encouraged to use the same name as their GitHub username.
+- [ ] Set up their [AWS account](https://www.notion.so/artsy/Add-a-new-AWS-user-c140d2ed914d4886a6359ff7f381ff0b)🔒. For consistency, it is encouraged to use the same name as their GitHub username.
 - [ ] Invite them to [DataDog](https://app.datadoghq.com/organization-settings/users/invite)🔒
 - [ ] Invite the new starter to [OpsGenie](https://artsy.app.opsgenie.com/teams/dashboard/ee381004-a72e-42ef-a733-b350d6693c6c/members)🔒. Add the engineer to the [On Call calendar](https://artsy.app.opsgenie.com/settings/schedule/detail/aa7d47fa-ab67-4c09-b9ca-d43a20efbb04)🔒 in either rot-a (US based) or rot-b (EU based).
 - [ ] Give an overview of what the onboarding will look like. This is a good time to walk through the onboarding template.
