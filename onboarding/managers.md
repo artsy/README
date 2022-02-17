@@ -19,7 +19,7 @@ description: Things for managers to remember during the early days of onboarding
 - [ ] Ask the new hire for their GitHub account. One can use their personal account. Invite them to Artsy Git and the Engineering and Engineering Staff teams.
 - [ ] Set up their [AWS account](https://www.notion.so/artsy/Add-a-new-AWS-user-c140d2ed914d4886a6359ff7f381ff0b)🔒. For consistency, it is encouraged to use the same name as their GitHub username.
 - [ ] Invite them to [DataDog](https://app.datadoghq.com/organization-settings/users/invite)🔒
-- [ ] Invite the new starter to [OpsGenie](https://artsy.app.opsgenie.com/teams/dashboard/ee381004-a72e-42ef-a733-b350d6693c6c/members)🔒. Add the engineer to the [On Call calendar](https://artsy.app.opsgenie.com/settings/schedule/detail/aa7d47fa-ab67-4c09-b9ca-d43a20efbb04)🔒 in either rot-a (US based) or rot-b (EU based).
+- [ ] Invite the new starter to [OpsGenie](https://artsy.app.opsgenie.com/teams/dashboard/ee381004-a72e-42ef-a733-b350d6693c6c/members)🔒 and add them to the [on-call rotations calendar](/playbooks/incident-handling.md#on-call-rotations).
 - [ ] Give an overview of what the onboarding will look like. This is a good time to walk through the onboarding template.
 - [ ] Introduce new hire to their mentor
 - [ ] When they are set up with Slack add them to the `@developers` [user group](https://artsy.slack.com/admin/user_groups) 🔒, which should automatically invite them to developer related channels, and invite them to channels relevant to the individual. As a non Slack Admin, you can search `@developer` on slack, click on it in one of the results. A User Groups tab will apear on the right side. You can edit the group members there.
