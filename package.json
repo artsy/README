@@ -14,7 +14,7 @@
   },
   "scripts": {
     "precommit": "yarn setup-structure; yarn sort-tech-radar-data; lint-staged",
-    "prepush": "yarn danger local",
+    "prepush": "echo 'skipping yarn danger local'",
     "setup-structure": "ts-node --skip-project scripts/create-readmes.ts; git add .",
     "sort-tech-radar-data": "ts-node scripts/sort-tech-radar-data.ts; git add ."
   },
