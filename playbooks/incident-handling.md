@@ -144,7 +144,7 @@ rotations start/end on a Monday at 11am ET. "B" rotations start/end on a Wednesd
 be on-call once per rotation.
 
 1. Generate a list of current engineers. This should include everyone who started before the next round is supposed
-   to begin (you can use [Bamboo](https://artsy.bamboohr.com/anytime/directory.php) as a reference). Bonus points
+   to begin (you can use [Bamboo](https://artsy.bamboohr.com/anytime/directory.php)🔒 as a reference). Bonus points
    for using [artsy-cli](https://github.com/artsy/artsy-cli):
 
    ```
@@ -417,7 +417,7 @@ status. (But not too often: customers may be subscribed to receive each of these
 
 If at any point the severity of problem is better understood to be non-urgent, _resolve_ the incident and direct
 stakeholders to
-[the relevant team for further follow-up](https://www.notion.so/artsy/Guide-to-reporting-bugs-cc25e1ff41194228b476c4963c646817).
+[the relevant team for further follow-up](https://www.notion.so/artsy/Guide-to-reporting-bugs-cc25e1ff41194228b476c4963c646817) 🔒.
 
 ### 4. Resolve
 
@@ -430,6 +430,7 @@ and linked to the corresponding OpsGenie incident.
 
    - Add a timeline entry describing why you're resolving the incident
    - Mark the incident as **RESOLVED**
+   - Close relevant [alerts](https://artsy.app.opsgenie.com/alert/list) 🔒
 
 3. If applicable, resolve the incident on our status page.
 
