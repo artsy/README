@@ -14,12 +14,13 @@ This is a living document; if you find something out of date or have an addition
 
 ## Good starting points & tools
 
-| Name                                                                  | Description                                                                              |
-| --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| [b0rk's zines][zines]                                                 | [Julia Evans](https://www.twitter.com/b0rk) makes great comics about \*nix programming - |
-| [here's a team favorite on learning](https://jvns.ca/wizard-zine.pdf) |                                                                                          | [Learn X in Y minutes][learn_x_in_y] |
-| Scenic tours of pretty much every language                            |                                                                                          | [exercism.io][] | Algorithmic code challenges with social feedback |
-| [@damassi/learn-vim][learn_vim]                                       | "It's not so bad, really."                                                               |  | [what-happens-when][what_happens_when] | An |
+| Name                                                                  | Description                                                                                                                               |
+| --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| [Egghead.io][egghead]                                                 | a large library of courses, which tend to be very informative and easily digestible. For access check 1Password in the engineering vault. |
+| [b0rk's zines][zines]                                                 | [Julia Evans](https://www.twitter.com/b0rk) makes great comics about \*nix programming -                                                  |
+| [here's a team favorite on learning](https://jvns.ca/wizard-zine.pdf) |                                                                                                                                           | [Learn X in Y minutes][learn_x_in_y] |
+| Scenic tours of pretty much every language                            |                                                                                                                                           | [exercism.io][] | Algorithmic code challenges with social feedback |
+| [@damassi/learn-vim][learn_vim]                                       | "It's not so bad, really."                                                                                                                |  | [what-happens-when][what_happens_when] | An |
 
 answer to the classic interview question, "what happens when you type google.com into your browser and hit enter?"
 |
@@ -169,3 +170,4 @@ _See also [JavaScript](#javascript-+-nodejs) & [Swift + Objective C](#swift-+-ob
 [what_happens_when]: https://github.com/alex/what-happens-when
 [ios_learn]: ../resources/mobile/README.md
 [ios_learn_notion]: https://www.notion.so/artsy/iOS-Learning-Plan-262fe977a5f44c9d96470e685fffbe64
+[egghead]: https://egghead.io
