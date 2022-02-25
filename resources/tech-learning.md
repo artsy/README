@@ -14,13 +14,15 @@ This is a living document; if you find something out of date or have an addition
 
 ## Good starting points & tools
 
-| Name                                   | Description                                                                                                                                                    |
-| -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [b0rk's zines][zines]                  | [Julia Evans](https://www.twitter.com/b0rk) makes great comics about \*nix programming - [here's a team favorite on learning](https://jvns.ca/wizard-zine.pdf) |
-| [Learn X in Y minutes][learn_x_in_y]   | Scenic tours of pretty much every language                                                                                                                     |
-| [exercism.io][]                        | Algorithmic code challenges with social feedback                                                                                                               |
-| [@damassi/learn-vim][learn_vim]        | "It's not so bad, really."                                                                                                                                     |
-| [what-happens-when][what_happens_when] | An answer to the classic interview question, "what happens when you type google.com into your browser and hit enter?"                                          |
+| Name                                                                  | Description                                                                              |
+| --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| [b0rk's zines][zines]                                                 | [Julia Evans](https://www.twitter.com/b0rk) makes great comics about \*nix programming - |
+| [here's a team favorite on learning](https://jvns.ca/wizard-zine.pdf) |                                                                                          | [Learn X in Y minutes][learn_x_in_y] |
+| Scenic tours of pretty much every language                            |                                                                                          | [exercism.io][] | Algorithmic code challenges with social feedback |
+| [@damassi/learn-vim][learn_vim]                                       | "It's not so bad, really."                                                               |  | [what-happens-when][what_happens_when] | An |
+
+answer to the classic interview question, "what happens when you type google.com into your browser and hit enter?"
+|
 
 ## &nbsp;
 
@@ -37,13 +39,14 @@ _See also [Frontend Practice Resources](#frontend-practice) below_
 | [Modern JS explained for dinosaurs][dinos] | How we got from `<script src='foo'/> <script src='bar' /> <script...` to `export default App`                                                    |
 
 &nbsp;
+
 ### React
 
 _See also [Platform Practice Resources](#platform-practice) below_
 
-| Name                                           | Description                               |
-| ---------------------------------------------- | ----------------------------------------- |
-| [advancedreact][advancedreact]                 | Advanced React course. For access check 1Password in the engineering vault “React + Graph QL Course)”   |
+| Name                           | Description                                                                                           |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------- |
+| [advancedreact][advancedreact] | Advanced React course. For access check 1Password in the engineering vault “React + Graph QL Course)” |
 
 <!--
 &nbsp;
@@ -132,6 +135,7 @@ _See also [JavaScript](#javascript-+-nodejs) & [Swift + Objective C](#swift-+-ob
 <!--
   ## MORE: Papers we love? Computer Science Topics? Emotional Intelligence x tech? ...
 -->
+
 [advancedreact]: https://advancedreact.com/
 [zines]: https://jvns.ca/zines
 [learn_x_in_y]: https://learnxinyminutes.com/
