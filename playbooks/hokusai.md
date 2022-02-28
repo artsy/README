@@ -37,7 +37,7 @@ See https://github.com/artsy/hokusai#setup
 
 ### Configure Hokusai
 
-Prerequisite: install the aws-iam-authenticator plugin
+Prerequisite: install the [aws-iam-authenticator](https://github.com/kubernetes-sigs/aws-iam-authenticator) plugin
 
 A specific version is required to work with our Kubernetes config files. Please see our [setup script](https://github.com/artsy/potential/blob/main/scripts/setup).
 
