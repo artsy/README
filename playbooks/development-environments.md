@@ -90,10 +90,9 @@ To _update_ shared configuration values, simply modify `.env.shared` and re-uplo
 
     aws s3 cp .env.shared s3://artsy-citadel/dev/.env.zulu
 
-If you are _adding_ a new configuration value, you need to run additional cmds:
-
-    hokusai [staging|production] env set NEW_ENV_VARIABLE=<value>
-    hokusai [staging|production] refresh
+If you are _adding_ a new configuration value and need it reflected on remote
+environments, check this
+[doc](https://github.com/artsy/README/blob/3b82f9d0853e55ec7ebba76d1f50dc5e386ac18d/playbooks/hokusai.md#updating-environment-variables)
 
 ## Examples
 
