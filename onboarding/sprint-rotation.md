@@ -33,8 +33,9 @@ rotations, the engineer will join a team on a more stable basis.
 
 #### New engineers' responsibilities
 
-- Engineers should join team slack channels, distribution lists, and events. (Confirm that joining the team's
-  google group adds team events such as sprint planning to your calendar.)
+- Engineers should join team slack channels, distribution lists, and events. You can join the team's google groups
+by going to this [URL](https://groups.google.com/all-groups). If you have any issues joining the group, please
+let your manager know.
 - When possible, pair with your buddy or other team members on their sprint work.
 - When a pair isn't available, it can be useful to work independently on:
   - setting up development environments for the team's major systems
