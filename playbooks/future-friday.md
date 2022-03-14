@@ -24,8 +24,9 @@ just a process improvement or deferred maintenance need.
 
 ## Other Resources
 
-- [Furure Friday Jira Board](https://artsyproduct.atlassian.net/browse/CX-2401)
-- [Project Tracker](https://www.notion.so/artsy/Future-Friday-projects-outcomes-20e796fae93b48f38a79ec0af6de028b)
-  🔒
+- [Project Tracker](https://www.notion.so/artsy/Future-Friday-projects-outcomes-20e796fae93b48f38a79ec0af6de028b) 🔒
 - [RFC](https://github.com/artsy/potential/issues/146) 🔒
 - [Blog Post](https://artsy.github.io/blog/2015/12/22/future-fridays/)
+
+### Future Friday by team
+CX team's [Furure Friday Jira Board](https://artsyproduct.atlassian.net/browse/CX-2401) 🔒
