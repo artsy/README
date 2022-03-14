@@ -29,4 +29,4 @@ just a process improvement or deferred maintenance need.
 - [Blog Post](https://artsy.github.io/blog/2015/12/22/future-fridays/)
 
 ### Future Friday by team
-CX team's [Furure Friday Jira Board](https://artsyproduct.atlassian.net/browse/CX-2401) 🔒
+Collector Experience (CX) team's [Furure Friday Jira Board](https://artsyproduct.atlassian.net/browse/CX-2401) 🔒
