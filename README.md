@@ -63,11 +63,13 @@ In addition to working on a product team, engineers are encouraged to participat
   * [Slack: #practice-data](https://artsy.slack.com/messages/practice-data) 🔒
   * [Notion](https://www.notion.so/artsy/Data-Practice-e248b46638604067a89ba77ca70b39b1) 🔒
 
+## Request For Comments (RFC)
+Requests For Comments is how we change things, by opening a discussion that everyone can participate in and deciding if we want to move forward with the suggested change or not. 
+[RFC template](https://github.com/artsy/README/issues/new/choose) | [Resolved RFCs](https://github.com/search?q=org:Artsy+label:RFC) | [Open RFCs](https://github.com/search?q=org:Artsy+label:RFC+state:open) 
 
 ## Support
 
-If you are on call or asked to fix an immediate issue, check out our doc on
-[how support works](/playbooks/support) and reference our
+If you are on call or asked to fix an immediate issue reference our
 [support wiki](https://github.com/artsy/potential/wiki) 🔒 for up-to-date playbooks on how to solve issues.
 
 <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
