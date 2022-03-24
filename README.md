@@ -63,8 +63,8 @@ In addition to working on a product team, engineers are encouraged to participat
   * [Slack: #practice-data](https://artsy.slack.com/messages/practice-data) 🔒
   * [Notion](https://www.notion.so/artsy/Data-Practice-e248b46638604067a89ba77ca70b39b1) 🔒
 
-## Request For Comments (RFC)
-Requests For Comments is how we change things, by opening a discussion that everyone can participate in and deciding if we want to move forward with the suggested change or not. 
+## Request For Comments
+A Request For Comments (or RFC) is how we change things, by opening a discussion that everyone can participate in and deciding if we want to move forward with the suggested change or not. 
 [RFC template](https://github.com/artsy/README/issues/new/choose) | [Resolved RFCs](https://github.com/search?q=org:Artsy+label:RFC) | [Open RFCs](https://github.com/search?q=org:Artsy+label:RFC+state:open) 
 
 ## Support
