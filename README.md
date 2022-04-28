@@ -58,7 +58,7 @@ In addition to working on a product team, engineers are encouraged to participat
   * Practice lead: [Chris](https://github.com/damassi)
   * [Slack: #practice-web](https://artsy.slack.com/messages/practice-web) 🔒
   * [Notion](https://www.notion.so/artsy/Web-Practice-bfe55e2c614a4c0eae493b7830622843) 🔒
-  * [force](https://github.com/artsy/force): the main web development repository
+  * [force](https://github.com/artsy/force): the main web development (frontend) repository
 
 * Data Practice
   * Practice lead: [Ani](https://github.com/anipetrov)
