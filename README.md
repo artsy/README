@@ -52,11 +52,13 @@ In addition to working on a product team, engineers are encouraged to participat
   * Practice lead: [Mounir](https://github.com/MounirDhahri)
   * [Slack: #practice-mobile](https://artsy.slack.com/messages/practice-mobile) 🔒
   * [Notion](https://www.notion.so/artsy/Mobile-Practice-ecc07763bfd04a848c74107dde3ec6dc) 🔒
+  * [Eigen](https://github.com/artsy/eigen): the main mobile development repository
   
 * Web Practice
   * Practice lead: [Chris](https://github.com/damassi)
   * [Slack: #practice-web](https://artsy.slack.com/messages/practice-web) 🔒
   * [Notion](https://www.notion.so/artsy/Web-Practice-bfe55e2c614a4c0eae493b7830622843) 🔒
+  * [Force](https://github.com/artsy/force): the main web development (frontend) repository
 
 * Data Practice
   * Practice lead: [Ani](https://github.com/anipetrov)
