@@ -52,7 +52,7 @@ In addition to working on a product team, engineers are encouraged to participat
   * Practice lead: [Mounir](https://github.com/MounirDhahri)
   * [Slack: #practice-mobile](https://artsy.slack.com/messages/practice-mobile) 🔒
   * [Notion](https://www.notion.so/artsy/Mobile-Practice-ecc07763bfd04a848c74107dde3ec6dc) 🔒
-  * [eigen](https://github.com/artsy/eigen): the main mobile development repository
+  * [Eigen](https://github.com/artsy/eigen): the main mobile development repository
   
 * Web Practice
   * Practice lead: [Chris](https://github.com/damassi)
