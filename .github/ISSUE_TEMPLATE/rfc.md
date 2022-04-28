@@ -42,5 +42,5 @@ Things to do after you create the RFC:
 
 Once the RFC is ready to be resolved, feel free to copy the resolution template that can be found here: https://github.com/artsy/README/blob/43c400d81ff9fee7276c3dd934de26b985da362f/playbooks/rfcs.md#resolution
 
-post it as the last comment, if you want also post it on the bottom of RFC description and close the issue.
+You can now populate the template and post this as the last comment, if you want also post it on the bottom of RFC description, and finally close the issue.
 -->
