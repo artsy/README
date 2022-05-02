@@ -1,31 +1,30 @@
 ---
-title: How to run a Lunch & Learn
-description: How to handle the people process for Lunch & Learns
+title: How to run a Knowledge Share
+description: How to handle the people process for Knowledge Shares
 ---
 
-# Running a Lunch & Learn
+# Running a Knowledge Share
 
-Hello Artsy employee or curious outsider! This document outlines how to run our [lunch and learns][event]. The
-process of planning a L&L spans weeks and generally goes through the following steps. The planning process is
-managed in the [Lunch and Learns GitHub project][project].
+Hello Artsy employee or curious outsider! This document outlines how to run our [knowledge shares][event]. The
+process of planning a KS generally goes through the following steps. The planning process is
+managed in the [Knowledge Shares GitHub project][project].
 
-If you're interested in speaking at one of our lunch and learns, you can find out all about [it here][event]
+If you're interested in speaking at one of our knowledge shares, you can find out all about [it here][event]
 
-- **Ideas**: These can be either people we'd like to present or ideas that we'd like to find speakers for – either
-  Artsy employees or external speakers we'd like to invite in.
-- **In Conversation**: We have reached out and are in talks with someone specific to present a L&L.
+- **Ideas**: These can be either people we'd like to present or ideas that we'd like to find speakers for – either Artsy employees or external speakers we'd like to invite in.
+- **In Conversation**: We have reached out and are in talks with someone specific to present a KS
 - **Scheduled**: A date has been confirmed with the speaker and they have received a calendar event invitation.
-- **Add to Docs/Dropbox/YouTube**: The presentation is finished but needs to be documented ([see below][after]).
+- **Add to README/Google Drive**: The presentation is finished but needs to be documented ([see below][after]).
 - **Done**: It's done!
 
 Read on for more specifics.
 
 ## Suggesting a Presenter
 
-Are you an Artsy employee? Do you want to suggest someone to present a Lunch & Learn? Great!
+Are you an Artsy employee? Do you want to suggest someone to present a Knowledge Share? Great!
 
-- Go to the #lunch-and-learn Slack channel and let us know
-- Add a card to the [project][] in the appropriate column
+- Go to the #dev-knowledge-share Slack channel and let us know
+- Add a card to the [project][project] in the appropriate column
 
 We encourage you to follow the rest of this guide. You've got this! And if you need help, or would prefer someone
 take over from you, just let the Slack channel know.
@@ -36,14 +35,14 @@ Sometimes you'll get an introduction to a speaker from a colleague, passing the 
 event. Just follow these steps:
 
 - Say thanks!
-- Pass along the link to the [lunch_and_learn.md][event].
-- Add a card to the "In Conversation" section of the [Lunch and Learn project][project], or move the existing card
+- Pass along the link to the [knowledge-share.md][event].
+- Add a card to the "In Conversation" section of the [Knowledge Share project][project], or move the existing card
   there from "Ideas".
 - Discuss what topic makes sense.
 - Pick a date and move their card to the "Scheduled" column (and add the date to the card title). Send them a
   calendar invitation.
 
-## Running a Lunch & Learn
+## Running a Knowledge Share
 
 ### The Monday Before
 
@@ -57,36 +56,32 @@ event. Just follow these steps:
 
 ### The Day Of
 
-We have The Classroom booked from 12:00–12:30 for setup, so go check at noon that everything is working:
+If this is an IRL presentation from an external speaker, make sure there is a Zoom room booked and
 
 - [ ] TV is turned on.
 - [ ] Zoom iPad is on and plugged in.
 
-Be on 26 at 12:10 to receive our guest (they should have been asked to arrive at 12:15). Take them upstairs and
-while they're getting set up, offer some water. Get them set up on the Zoom.us meeting and remind them that you'll
+Receive our guest (they should have been asked to arrive at 15 minutes early). While they're getting set up, offer some water. Get them set up on the Zoom.us meeting and remind them that you'll
 take them out for lunch afterward.
 
-At 12:20, send an `@here` reminder in the #dev (also post in #general if applicable). Give folks a few minutes past
-12:30 to show up, but don't hold the show up waiting for them.
+Ten minutes beforehand, send an `@here` reminder in the #dev (also post in #general if applicable). Give folks a few minutes past to show up, but don't hold the show up waiting for them.
 
-Immediately before you present the speaker, hit the record button in Zoom.us and it'll ask you for your email
-address.
+Immediately before you present the speaker, hit the record button in Zoom.us and it'll ask you for your email address.
 
 ### Afterward
 
 Right after the talk, ask the speaker for their slides. Check to make sure it's okay for us to thank them on
-Twitter. Then take the speaker and a few folks out to lunch. Tataki is never a bad choice. Make sure to expense
+Twitter. Then take the speaker and a few folks out to lunch. Tataki is never a bad choice in NYC. Make sure to expense
 this meal.
 
-Later, Zoom.us will email you the video recording. Upload the video and the slides to the [Everyone at Artsy/Lunch
-& Learn Dropbox folder][dropbox-folder] and post a link to Slack. Use the following convention to name the
+Later, Zoom.us will email you the video recording. Upload the video and the slides to the [Google Drive archive][google_drive_presentation_archive] and post a link to Slack. Use the following convention to name the
 subfolder:
 
 ```
 YYYY-MM-DD <presentation title> with <speaker name>
 ```
 
-Send a pull request to the [Lunch and Learn docs][event] that adds the speaker to the list. Make sure to thank the
+Send a pull request to the [Knowledge Share docs][event] that adds the speaker to the list. Make sure to thank the
 speaker again over email, offer a copy of the video, and reiterate that we owe them a talk now.
 
 If the talk was given by an Artsy colleague, ask them if it would be appropriate to upload to YouTube for public
@@ -97,8 +92,7 @@ If the talk was given by someone outside Artsy, log into the [@ArtsyOpenSource t
 
 Move the card to the "Done" column. Nice work!
 
-[dropbox-folder]: https://www.dropbox.com/home/Everyone%20at%20Artsy/Lunch%20%26%20Learn
-
+[google_drive_presentation_archive]: https://drive.google.com/drive/folders/1X8w7iFbdeVwi6v_xWLWfQdeJ81iewYWB?usp=sharing
 ### Troubleshooting
 
 ##### Connecting to the screen
@@ -130,5 +124,5 @@ Move the card to the "Done" column. Nice work!
 [after]: #Afterward
 [blog]: https://github.com/artsy/artsy.github.io
 [project]: https://github.com/artsy/README/projects/1
-[event]: ../events/lunch-and-learn.md
+[event]: ../events/knowledge-share.md
 [twitter]: https://twitter.com/ArtsyOpenSource

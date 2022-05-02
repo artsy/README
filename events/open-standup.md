@@ -22,7 +22,7 @@ The person handling the talking parts does this stuff ten minutes before standup
 - `@here`s the dev channel. Include where the meeting is in the NYC office (usually the Annex).
 - Make sure on-call staff are prepared to give an update about the past week's incidents. (if you were on call,
   great! If you weren't, remind your partner.)
-- Check the [Lunch&Learn schedule][ll_schedule].
+- Check the [Knowledge Share schedule][ks_schedule].
 - The meeting starts with props (as a nod towards [People are Paramount][pplp]) and you should begin with giving
   props of your own.
 
@@ -87,7 +87,7 @@ _Peer Learning Group Updates_
 
 -
 
-_Lunch & Learn_ || _Show & Tell_ (if you don't know, ask in #lunch_and_learn or #dev-show-n-tell)
+_Knowledge Share_
 
 -
 
@@ -101,7 +101,7 @@ _Optional: Q&A / Open Discussion_
 ```
 
 [pplp]: https://github.com/artsy/README/blob/master/culture/what-is-artsy.md#people-are-paramount
-[ll]: https://github.com/artsy/README/blob/master/events/lunch-and-learn.md
-[ll_schedule]: https://github.com/artsy/README/projects/1
+[ll]: https://github.com/artsy/README/blob/master/events/knowledge-share.md
+[ks_schedule]: https://github.com/artsy/README/projects/1
 [notion]: https://www.notion.so/artsy/Standup-Notes-28a5dfe4864645788de1ef936f39687c
 [standup_blog]: https://artsy.github.io/blog/2018/05/07/fully-automated-standups/
