@@ -1,9 +1,9 @@
 ---
-title: Lunch & Learn
-description: A meetup where we talk about things that inspire us.
+title: Knowledge Share
+description: A meetup where we share knowledge formally and informally across the org
 ---
 
-# Lunch & Learn
+# Knowledge Share
 
 When Artsy was under 50 people, we would hold "Brown Bag" meetings. These were
 talks on a variety of art+science topics. As we out-grew the format, we started
@@ -13,11 +13,9 @@ This worked for a while, but was sporadic and mostly the same speakers. Once we
 moved to [a new stand-up format][standup_post] it felt like time to re-vamp our
 brown bags too.
 
-[standup_post]: https://artsy.github.io/blog/2015/03/23/artsy-technology-stack-2015/
+[standup_post]: https://artsy.github.io/blog/2018/05/07/fully-automated-standups/
 
-Our format is pretty simple, every other Thursday we have an hour slot at 12:30
-(NYC time) on the calendar for someone to give a talk or presentation. I think
-[Alan][alan] described it well on [Professional Development at
+For a few years we ran a weekly "Lunch & Learn" on Thursdays to educate the team about our stack, business proceses, recent projects, or other interesting technical topics. [Alan][alan] described it well on [Professional Development at
 Artsy][alan_post]:
 
 [alan]: https://twitter.com/alanjay1/
@@ -26,12 +24,17 @@ Artsy][alan_post]:
 > Every Thursday, we do a Lunch-and-Learn session. Historically, we mostly
 > showed off tech we use internally. But over about a year, most of our tech
 > stack has been presented this way, so we also bring in engineers we know at
-> other companies to share what they’re working on.
+> other companies
 
-On the off weeks we have a [Show & Tell](show-and-tell.md) and those weeks where
-we can't find a Lunch & Learn speaker we fall back to doing Show & Tell.
 
-So far, from external contributors we've had:
+After a while we decided to mix things up by:
+
+- Inviting the occasional external speaker (see some examples below)
+- Alternating formal, scheduled Lunch & Learns with informal, open-mic style [Show & Tells](show-and-tell.md)
+
+As the team has grown and become more international (and no longer lunches around the same time), we've renamed this event to Engineering Knowledge Share. We still aim to alternate between formal presentations, and informal show-and-tells.
+
+In the past we've had external contributors, for example:
 
 - How Buffer does Transparency by [Katie Womersley](https://twitter.com/‪katie_wormers‬)
 - How I got started in OSS by [Henry Zhu](https://twitter.com/‪left_pad) of Babel/Behance
@@ -66,17 +69,21 @@ Here are some examples of internal presentations:
 - How we use [Hokusai](https://github.com/artsy/hokusai) to deploy software
 - How to use vim
 
+If you are an Artsy employee you can find an archive of many, many more such topics in our [archives][google_drive_presentation_archive].
+
+[google_drive_presentation_archive]: https://drive.google.com/drive/folders/1X8w7iFbdeVwi6v_xWLWfQdeJ81iewYWB?usp=sharing
+
 ---
 
-You're probably seeing this as an external developer to Artsy, who has been
-invited to talk.
+You may be seeing this as an external developer to Artsy, who has been
+invited to talk, or as an internal colleage who's been asked to give a presentation.
 
 ## Format
 
 The format is definitely not set in stone, however these are what has worked for
 us internally and for past contributors.
 
-#### Presentation
+### Presentation
 
 Traditional conference/meetup style: You bring slides, we watch. You talk, we
 listen. You finish, we ask questions.
@@ -84,30 +91,11 @@ listen. You finish, we ask questions.
 We don't expect conference/meetup-level presentation or practice. A lack of
 polish is okay. This is a great opportunity to present new talks ideas.
 
-#### Company Walkthrough
+### Company Walkthrough
 
 More informal, you can come with other speakers and talk about the ways in which
 your company works. Covering your tech stack, the decisions behind them. With
 the presentation mainly being a series of demos, and showing code architecture.
-
-## Schedule
-
-- Arrive at Artsy by 12:15pm ([401 Broadway, 26th Floor, 10013][401] - Canal St
-  is the closest station)
-- Our receptionist on 26 will get in touch with whoever you've been in contact
-  with, probably [Ash][] or [Justin][]
-- They will get you set up on our 27th floor Classroom
-- We will set up [a stream](#recording) for global developers and slides
-- We have until 12:30 to get any technical difficulties sorted out ([the docs
-  are here][trouble])
-- You give a presentation (~30 minutes)
-- We ask a bunch of questions (~15 minutes)
-- Whoever helped get you set up takes you out for lunch on us
-
-Artsy Engineering now owes you, and your company [a talk back][ash_talk]. Feel
-free to arrange that whenever you like.
-
-[ash_talk]: https://speakerdeck.com/ashfurrow/teaching-and-learning-1
 
 ## Recording
 
@@ -116,6 +104,7 @@ We ask that we can share a livestream of your talk, because we have a lot of
 your computer and sharing your screen.
 
 [global_post]: https://www.artsy.net/article/eloy-duran-going-global-5-tips-to-make-remote-work
+[zoom.us]: https://zoom.us
 
 We also ask that we get a recording of the talk (kept internal within Artsy),
 for colleagues who couldn't attend or want to review your awesome talk later.
@@ -126,10 +115,3 @@ a copy of the recording.
 **If you don't want to be recorded, no problem**. We understand that you might
 talk and show things that are not for public consumption. We will not share
 anything externally without your express permission.
-
-[Roop]: https://github.com/anandaroop
-[ash]: https://github.com/ashfurrow
-[justin]: https://github.com/zephraph
-[401]: https://www.google.com/maps/place/401+Broadway/@40.718958,-74.0049492,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598a7196824f:0xddf53435afbdd5b9!8m2!3d40.718954!4d-74.0027552
-[trouble]: https://github.com/artsy/README/blob/master/playbooks/running-lunch-and-learn.md#troubleshooting
-[zoom.us]: https://zoom.us

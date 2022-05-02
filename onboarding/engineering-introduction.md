@@ -39,7 +39,7 @@ We have an engineering team-wide standup on _Mondays at 12:00 p.m. Eastern_ wher
 - Share any team updates
 - Mention significant project milestones or new repositories
 - Ask for help if we're blocked or need input from a different team
-- Plan the week's _lunch and learn_
+- Plan the week's _knowledge share_
 - Recognize and congratulate each other for significant accomplishments
 
 The standup is fully documented [here](/events/open-standup.md).
@@ -172,11 +172,11 @@ More about [continuous improvement](/playbooks/engineer-workflow.md#continuous-i
 
 ### Project Management / Sprints
 
-Teams at Artsy work with product management via [Jira](https://artsyproduct.atlassian.net/) 🔒. Teams tend to work in 2 week sprints, with a planning meeting at the start and a review/retrospective at the end. 
+Teams at Artsy work with product management via [Jira](https://artsyproduct.atlassian.net/) 🔒. Teams tend to work in 2 week sprints, with a planning meeting at the start and a review/retrospective at the end.
 
 ### Future Fridays
 
-PDDE-wide, the 2nd Friday of each sprint is "Future Friday." This is a lightweight process focused on collecting ideas about longer-term opportunities during the course of day-to-day work. 
+PDDE-wide, the 2nd Friday of each sprint is "Future Friday." This is a lightweight process focused on collecting ideas about longer-term opportunities during the course of day-to-day work.
 
 Conversations can be labeled with #ff so they're find-able later. When Friday comes (if you're so compelled), choose a direction to explore/experiment and report back any results at end-of-day. Participation is optional and collaborations are encouraged.
 

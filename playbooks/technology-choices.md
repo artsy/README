@@ -75,8 +75,8 @@ trial either way. Avoid trialing multiple unproven things in the same project or
 
 #### We've had a positive experience with _Phoenix_ (e.g.) and should adopt it in more places.
 
-Congrats! Is there a critical mass of engineers (`>=3`) comfortable working with this tech? If so, consider a lunch
-& learn or practice meeting discussion to review your experience and share any lessons. Make a pull request to the
+Congrats! Is there a critical mass of engineers (`>=3`) comfortable working with this tech? If so, consider a Knowledge Share
+or practice meeting discussion to review your experience and share any lessons. Make a pull request to the
 radar and make sure to request comments from the relevant engineers or experts. Remember that it may not be
 sufficient to just "adopt" a new choice. If this replaces an alternative that's in place at Artsy, that should
 probably move to "hold" and a strategy be decided for migrating away from the old tech (e.g., opportunistically or

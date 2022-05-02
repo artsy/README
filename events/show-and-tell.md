@@ -11,9 +11,10 @@ working on. These short talks/demos/code reviews are not meant to be polished
 presentations, but instead impromptu ways we can share lessons learned and cool
 things discovered!
 
-This happens at the same time slot as [Lunch & Learn](lunch-and-learn.md) and we
-alternate between the two events. On Lunch & Learn weeks without a speaker lined
-up, we fall back to doing a bonus Show & Tell.
+This happens at the same time slot as [Knowledge Share](knowledge-share.md),
+where we alternate between these informal show & tells, and more formal
+presentations. On Knowledge Share weeks without a formal speaker lined up,
+we fall back to doing a bonus Show & Tell.
 
 Previous demos include:
 

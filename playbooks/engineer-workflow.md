@@ -41,12 +41,12 @@ README if you want to know who to start asking questions to.
 Artsy teams prefer to work in branches on a shared repository rather than forks. This means that developers should
 clone the repo, create a working branch from `main`, then push that branch back to the main repo.
 [Pull requests](#pull-requests) are then made from the working branch back to the `main` branch. For tidiness,
-working branches should be named by their creator like `<github_user_name>/<prefix>/<topic>`, even when a 
+working branches should be named by their creator like `<github_user_name>/<prefix>/<topic>`, even when a
 collaboration.
 
-Wait, what? What prefix? We use [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) prefixes in our 
-PR titles, because by default, we squash our commits when merging a PR, and this means that the squashed commit 
-automatically ends up using the conventional commit format. Using the prefix in your branch name is not essential, 
+Wait, what? What prefix? We use [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) prefixes in our
+PR titles, because by default, we squash our commits when merging a PR, and this means that the squashed commit
+automatically ends up using the conventional commit format. Using the prefix in your branch name is not essential,
 but it's, well, nice.
 
 ### Commits
@@ -90,9 +90,9 @@ Once again, the title should concisely explain the change or addition. The descr
 Include any details that add context to the PR, as
 [reviewers likely have less context than you](https://artsy.github.io/blog/2020/08/11/improve-pull-requests-by-including-valuable-context/).
 
-As mentioned above, PRs will be squashed when merged, unless there's a good reason not to (see the [RFC](https://github.com/artsy/README/issues/327) 
-that initiated this practice for more explanation and discussion). When they're squashed the title of the PR will 
-be used for the single squashed commit, so make sure that you use [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) 
+As mentioned above, PRs will be squashed when merged, unless there's a good reason not to (see the [RFC](https://github.com/artsy/README/issues/327)
+that initiated this practice for more explanation and discussion). When they're squashed the title of the PR will
+be used for the single squashed commit, so make sure that you use [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/)
 format in your PR title.
 
 #### Assignees and Reviewers
@@ -207,7 +207,7 @@ The tools of change, including aggressive **refactoring**, **data migrations**, 
 our efforts, so are worth significant investment despite being disconnected from user-facing features.
 
 Finally, Artsy aims for a culture of continuous improvement to both code _and_ process. We try to share wins, teach
-best practices and offer constructive feedback. Tools like lunch-and-learns,
+best practices and offer constructive feedback. Tools like knowledge-shares,
 [postmortems](https://github.com/artsy/post_mortems) 🔒, [kaizen](https://en.wikipedia.org/wiki/Kaizen) or
 [retrospectives](https://en.wikipedia.org/wiki/Retrospective) help us reflect on our own practices and make change.
 
