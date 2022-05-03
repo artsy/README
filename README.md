@@ -43,31 +43,36 @@ You can see this organization
 
 In addition to working on a product team, engineers are encouraged to participate in our practices:
 
-* Platform Practice
-  * Practice lead: [Anson](https://github.com/ansor4)
-  * [Slack: #practice-platform](https://artsy.slack.com/messages/practice-platform) 🔒
-  * [Notion](https://www.notion.so/artsy/Platform-Practice-1b558d0627444c9c9bf7ed7583767ca2) 🔒
+- Platform Practice
 
-* Mobile Practice
-  * Practice lead: [Mounir](https://github.com/MounirDhahri)
-  * [Slack: #practice-mobile](https://artsy.slack.com/messages/practice-mobile) 🔒
-  * [Notion](https://www.notion.so/artsy/Mobile-Practice-ecc07763bfd04a848c74107dde3ec6dc) 🔒
-  * [Eigen](https://github.com/artsy/eigen): the main mobile development repository
-  
-* Web Practice
-  * Practice lead: [Chris](https://github.com/damassi)
-  * [Slack: #practice-web](https://artsy.slack.com/messages/practice-web) 🔒
-  * [Notion](https://www.notion.so/artsy/Web-Practice-bfe55e2c614a4c0eae493b7830622843) 🔒
-  * [Force](https://github.com/artsy/force): the main web development (frontend) repository
+  - Practice lead: [Elena Grahovac](https://github.com/rumyantseva)
+  - [Slack: #practice-platform](https://artsy.slack.com/messages/practice-platform) 🔒
+  - [Notion](https://www.notion.so/artsy/Platform-Practice-1b558d0627444c9c9bf7ed7583767ca2) 🔒
 
-* Data Practice
-  * Practice lead: [Ani](https://github.com/anipetrov)
-  * [Slack: #practice-data](https://artsy.slack.com/messages/practice-data) 🔒
-  * [Notion](https://www.notion.so/artsy/Data-Practice-e248b46638604067a89ba77ca70b39b1) 🔒
+- Mobile Practice
+
+  - Practice lead: [Pavlos Vinieratos](https://github.com/pvinis)
+  - [Slack: #practice-mobile](https://artsy.slack.com/messages/practice-mobile) 🔒
+  - [Notion](https://www.notion.so/artsy/Mobile-Practice-ecc07763bfd04a848c74107dde3ec6dc) 🔒
+
+- Web Practice
+
+  - Practice lead: [Rachel Quartararo](https://github.com/rquartararo)
+  - [Slack: #practice-web](https://artsy.slack.com/messages/practice-web) 🔒
+  - [Notion](https://www.notion.so/artsy/Web-Practice-bfe55e2c614a4c0eae493b7830622843) 🔒
+
+- Data Practice
+  - Practice lead: [Emma Dickson](https://github.com/emmadickson)
+  - [Slack: #practice-data](https://artsy.slack.com/messages/practice-data) 🔒
+  - [Notion](https://www.notion.so/artsy/Data-Practice-e248b46638604067a89ba77ca70b39b1) 🔒
 
 ## Request For Comments
-A Request For Comments (or RFC) is how we change things, by opening a discussion that everyone can participate in and deciding if we want to move forward with the suggested change or not. 
-[RFC template](https://github.com/artsy/README/issues/new/choose) | [Resolved RFCs](https://github.com/search?q=org:Artsy+label:RFC) | [Open RFCs](https://github.com/search?q=org:Artsy+label:RFC+state:open) 
+
+A Request For Comments (or RFC) is how we change things, by opening a discussion that everyone can participate in
+and deciding if we want to move forward with the suggested change or not.
+[RFC template](https://github.com/artsy/README/issues/new/choose) |
+[Resolved RFCs](https://github.com/search?q=org:Artsy+label:RFC) |
+[Open RFCs](https://github.com/search?q=org:Artsy+label:RFC+state:open)
 
 ## Support
 
