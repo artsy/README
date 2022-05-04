@@ -30,4 +30,5 @@ Managers will arrange for new engineers to join a sequence of 3 or more teams fo
   - reviewing the [team's documentation](https://www.notion.so/artsy/Product-470238180cf94c87906ef1d3ee259e05)🔒
   - [`good-first-issue` tickets](https://artsyproduct.atlassian.net/issues/?jql=labels%20%3D%20good-first-issue) within the team's backlog
 - Schedule a convenient time (30 minutes should be sufficient) with the product manager to be introduced to the team's goals and metrics.
+- Schedule brief 1:1s with the other team members. Networking is an important part of rotations, as it enables you to get to know the organization through other people experiences and have a deeper understanding of what different folks in the team are doing. 
 - The [in-progress][team process handbook](https://www.notion.so/artsy/Team-Process-Handbook-3fbeb0ae934d48ca9074131331b46cff)🔒 covers many of the events and practices that are common among teams.
