@@ -6,3 +6,4 @@ The RFC is a pull request that creates a new markdown document in this directory
 
 These documents can of course be changed at a later date via a new RFC PR.
 
+For a more detailed description of the process, take a look at our [RFC Playbook](/artsy/README/blob/main/playbooks/rfcs.md).
