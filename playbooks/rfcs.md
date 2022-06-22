@@ -20,12 +20,12 @@ process with as much bang for buck as possible given our size.
 
 ### TLDR: Our process looks like:
 
-- Someone opens an issue on a repo that begins with "RFC: ", and that causes a message to be posted to Slack's #dev
-  room via Peril.
+- Someone opens a pull request on a repo (or an issue, if it's a repo that doesn't have an rfc directory to hold RFC docs) that begins with "RFC: "; this causes a message to be posted to Slack's #dev
+  channel via Peril.
 - The RFC proposer announces the RFC in the next weekly dev standup.
 - At least a week goes by for discussion. After this the proposer uses the resolution template to summarize the
   outcome.
-- Changes are either enacted, or not based on the discussion.
+- Changes are either enacted or not, based on the discussion.
 
 A lack of response from others is assumed to be positive indifference.
 
@@ -54,7 +54,7 @@ Decide how you'll resolve the RFC:
   repos, or perhaps engineering leadership? If specific people need to approve use an `@` mention in the RFC to say
   so.
 
-Create an issue, and work from this template:
+Create a PR (or an issue), and work from this template:
 
     Title: "RFC: Add a Markdown Spell Checker to all Markdown docs in PR"
 
@@ -123,4 +123,3 @@ If possible, please use one of these for the Level of Support section:
 - `7: RFC Rejected, with Conflicting Feedback.`
 
 [potential]: https://github.com/artsy/potential/
-[mobile]: https://github.com/artsy/mobile
