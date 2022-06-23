@@ -71,5 +71,5 @@ Using codepush will not work native code changes, PR or release. In these cases,
 
 ## How is this RFC resolved?
 
-- [ ] I made a tech plan (that I have started) for how we set up the PR list and the releases.
+- [ ] I make a tech plan (that I have started) for how we set up the PR list and the releases.
 - [ ] Get the tech plan approved, and further work continues from there.
