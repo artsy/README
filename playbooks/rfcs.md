@@ -95,7 +95,7 @@ Give a week for discussion.
 
 ### Resolution
 
-To resolve the RFC you can work with this template:
+If the RFC is accepted, you should add the following template (changing the text in each section, obviously!) and merge the PR. If the RFC is not accepted, you should add this template and close the PR without merging. The details of rejected PR can still be easily found by searching for closed PRs with the `RFC` label.
 
     ## Resolution
     We decided to do it. 50% of the engineering team actively approved of this change.
