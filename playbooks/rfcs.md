@@ -54,7 +54,7 @@ Decide how you'll resolve the RFC:
   repos, or perhaps engineering leadership? If specific people need to approve use an `@` mention in the RFC to say
   so.
 
-Create a PR (or an issue), and work from this template:
+[Create a PR](https://github.com/artsy/README/pulls/new?template=rfc) (or an issue), and work from this template:
 
     Title: "RFC: Add a Markdown Spell Checker to all Markdown docs in PR"
 
