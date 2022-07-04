@@ -54,42 +54,7 @@ Decide how you'll resolve the RFC:
   repos, or perhaps engineering leadership? If specific people need to approve use an `@` mention in the RFC to say
   so.
 
-[Create a PR](https://github.com/artsy/README/pulls/new?template=rfc) (or an issue), and work from this template:
-
-    Title: "RFC: Add a Markdown Spell Checker to all Markdown docs in PR"
-
-    ## Proposal:
-
-    Apply a spell checker to every markdown document that appears in a PR.
-
-    As a trial, we'll add a new Peril rule that implements spellchecking on every PR that includes
-    a Markdown document in README. We'll then gather asynchronous feedback from engineers about the
-    new Peril rule and how it impacted their workflow. We'll confirm we want this rule and incorporate
-    any further changes to the original RFC. We'll then roll out the Peril rule to all systems.
-
-    ## Reasoning
-
-    We want to have polished documents, both internally and externally. Having a spellcheck
-    happening without any effort on a developers part means that we'll get a second look at
-    any documentation improvements on any repo.
-
-    ## Exceptions:
-
-    This won't be perfect, but it is better to get something working than to not have it at all.
-    I added the ability to ignore files: so CHANGELOGs which tend to be really jargon heavy will
-    be avoided in every repo.
-
-    Other than that, we can continue to build up a global list of words to ignore.
-
-    ## Additional Context:
-
-    You can see our discussion [in slack here](/link/to/slack.com)
-
-    ## How this RFC is resolved
-
-    We'll collect feedback on this RFC from the team for a week. We'll consider this RFC approved
-    if 50% of the engineering team actively approves of this change. Add a 👍 or 👎  reaction to
-    this proposal to vote.
+Create a PR, and work from either the [rfc template](https://raw.githubusercontent.com/artsy/README/main/_templates/rfc.md) or the [dependency rfc template](https://raw.githubusercontent.com/artsy/README/main/_templates/dependency-rfc.md) (if your RFC is about adding a dependency).
 
 Give a week for discussion.
 
