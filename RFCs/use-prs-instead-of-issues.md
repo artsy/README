@@ -18,3 +18,5 @@ We will use PRs for all RFCs from now on. I have updated the [RFC Playbook](/art
 
 #### Exceptions
 RFCs in individual repos should continue to use Issues, unless the team decides to add an rfc directory to a repo and start storing docs there.
+
+Discussion: https://github.com/artsy/README/pull/467
