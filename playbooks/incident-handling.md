@@ -365,7 +365,7 @@ Discuss the incident's resolution in the dedicated Slack channel. Tips:
 - Logs are searchable [in Papertrail](https://papertrailapp.com/dashboard).
 - The [Kubernetes dashboard](https://kubernetes.prd.artsy.systems/) reflects the configuration, scale, or events
   relating to specific system deployments.
-- See also other metrics and dashboards (AWS, MongoDB, Elasticsearch/kibana, Sendgrid...).
+- See also other metrics and dashboards (AWS, MongoDB, Elasticsearch/kibana, Sendgrid, Cloudflare...).
 
 If a mitigation (such as rolling back a release) requires some follow-up, make sure to note it on the incident and
 surface to the appropriate team. If a mitigation isn't immediately apparent, **escalate to an appropriate team or
