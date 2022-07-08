@@ -26,8 +26,8 @@ Creating an agenda will keep the practice grounded and consistent. An example ag
 2. Ask for updates on any action items from previous meetings
 3. Go over any metrics related to the practice
 4. Ask for updates from any working groups or tasks forces that have overlapping concerns with the practice.
-5. Decide on a topic for next week
-6. Discuss this week's topic
+5. Decide on a topic for the next practice meeting
+6. Discuss this week topic(s)
 
 ### Create Backlog Of Topics
 
@@ -72,8 +72,8 @@ hand should drive the discussion.
 
 Stop often to give space for questions. It is important that members are given the opportunity to give input.
 
-And remember, facilitating the meeting takes energy, but the energy that you put into it is the energy that you'll
-get back. Be excited about the things you're talking about and people will get excited for you!
+And remember, **facilitating the meeting takes energy, but the energy that you put into it is the energy that
+you'll get back**. Be excited about the things you're talking about and people will get excited for you!
 
 ## Signal Boost The Topics
 
@@ -87,6 +87,9 @@ pertains to more people. Make sure those people know that they should attend.
 A day or so before the practice meeting, send out a pre-read on the topic to be discussed. This will help ground
 attendees and share context. It will also cut down on the time in the meeting where someone is sharing context,
 thus maximizing time for discussion and feedback.
+
+After the meeting finishes, make sure to share the meeting notes at the practice channel so other engineers who
+missed the practice can take a quick look at what was discussed and the related action items.
 
 ## Ask For Feedback & Iterate
 
