@@ -15,66 +15,58 @@ All of the interviews are conducted via zoom video call, we have a ‘video on�
 
 At a high level, our interviews have four stages:
 
-- [**Recruiter Interview**](#recruiter-interview): 30 minute video call with a member of our Talent Acquisition Team.
-- 
-- [**On-site**](#on-site-interview): Our standard interview loop. Includes four interviews with engineers and
+- [**Recruiter Interview**](#recruiter-interview): 30 minute video call with a member of our Talent Acquisition Team
+- [**Hiring Manager Interview**](#hiring-manager-interview): 45 minute video interview with an Engineering Manager
+- [**Team Interviews**](#team-interviews): Our standard interview loop. Includes four interviews with engineers and
   non-engineers.
-- [**References**](#references): Three professional references (this part is the same for interviews across Artsy).
+- [**Leadership Interview**](#leadership-interview): Final 45 minute interview with an Engineering Director
+
+After the interviews, we will ask you to provide 2-3 professional [references](#references) (this part is the same for interviews across Artsy, regardless of which role you are interviewing for).
 
 ### Recruiter Interview
 
-As a very first step, you’ll speak with one of our recruiters and perhaps an engineering manager. These
-conversations are a way for us to learn more about you, what motivates you, and gauge whether Artsy and the
-opportunity is a good fit for your career goals.
+As a very first step, you’ll speak with one of our recruiters. These conversations are a way for us to learn more about you, what motivates you, and gauge whether Artsy and the opportunity aligns with your career goals.
 
-**How to prepare** Be prepared to speak to the work you’ve accomplished on your resume—we may ask you to describe a
-recent project and/or specific technologies you’ve used in the past. Also make sure to come prepared with questions
-to ask your interviewer. Remember, this is also for _you_ to make sure Artsy would be a good fit!
+**How to prepare**: Be prepared to speak to the work you’ve accomplished on your resume—we may ask you to describe a recent project and/or specific technologies you’ve used in the past. Also make sure to come prepared with questions to ask your interviewer. Remember, this is also for _you_ to make sure Artsy would be a good fit!
 
-### "On-site" Interview
+### Hiring Manager Interview
 
-During your "on-site," you will usually participate in four 30 minute interviews and one 60 minute interview:
+This interview is with the hiring manager for the role. The hiring manager will be an Engineering Manager on the team, and in _most_ cases, will be your people manager if you are to join Artsy.
 
-#### 1. Hiring Manager
+This interview focuses on the capabilities described in [our engineering ladder](/careers/ladder.md#readme). You will not be asked to whiteboard, but be prepared to talk about past experiences working on teams or projects.
 
-This interview is with the hiring manager for the role. The hiring manager will be an Engineering Manager on the
-team, and in _most_ cases, will be your people manager if you are to join Artsy.
+**How to prepare**: Be prepared to answer example/evidence based questions (also known as competency questions) with examples from your past experience. We recommend familiarising yourself with the [STAR](https://www.indeed.com/hire/c/info/star-interview-format?gclid=Cj0KCQiAubmPBhCyARIsAJWNpiNRbpkF0ySYh7vZSbZyI4v7i7oYZpY8iBNYBDjKz3qnv8JCxxJGCscaAvVeEALw_wcB&aceid=) interviewing framework.
 
-This interview focuses on the capabilities described in [our engineering ladder](/careers/ladder.md#readme). You
-will not be asked to whiteboard, but be prepared to talk about past experiences working on teams or projects.
+### Team Interviews
 
-#### 2. Peer (Engineer)
+During your team interviews, you will participate in four one to one interviews that vary in length. We do our best to keep our interview process as speedy as possible. Your recruiter can provide more specific information for each role or answer any questions you have on how to prepare.
 
-This interview will be with an engineer. We have a semi-fluid team structure, so this person may or may not be on
-the same team as this role.
+#### 1. Peer (Engineer)
 
-The goal of this interview is to learn about your experience collaborating with other engineers. Like the hiring
-manager interview, this is non-technical but be prepared to discuss past experiences.
+This interview will be with an engineer. We have a semi-fluid team structure, so this person may or may not be on the same team as this role.
 
-#### 3. Peer (Non-Engineer)
+The goal of this interview is to learn about your experience collaborating with other engineers. Like the hiring manager interview, this is non-technical but be prepared to discuss past experiences.
+
+#### 2. Peer (Non-Engineer)
 
 This interview will be with a member of our Product, Design or Data teams.
 
-Similar to the Peer (Engineer) interview above, this is non-technical but you should be prepared to discuss past
-experiences and especially collaborations with non-technical colleagues.
+Similar to the Peer (Engineer) interview above, this is non-technical but you should be prepared to discuss past experiences and especially collaboration with non-technical colleagues.
 
-#### 4. Technical Fluency
+#### 3. Technical Fluency
 
-This interview will be with an engineer. The focus of this interview varies for different levels and specialties.
-Most likely, the person you interview with will be someone with experience relevant to the role.
+This interview will be with an engineer. The focus of this interview varies for different levels and specialties. Most likely, the person you interview with will be someone with experience relevant to the role.
 
-You will not be asked to code but we will dig into the technical details of projects you've worked on. In general,
-we care more about hearing how you think through problems vs. whether you're familiar with a specific technology.
+In this interview, we will be assessing your ability to write and reason about code. We want this process to be as smooth as possible for you, and so we let you choose between one of three options: 
+- Code sample (where you send us code you’ve already written, followed by an in-person discussion about it)
+- Take-home exercise (where we give you an exercise and you spend a limited time on it, followed by a short in-person discussion), or 
+- Pair programming exercise (where you complete an exercise with another engineer, switching drivers and collaborating as you would in a standard pair programming environment, followed by a short debrief).
 
-Some advice: dig into the details! Talk about how you approached problems and why. We like to hear your thought
-process but also understand if you need a few moments to think before answering-- let us know if this is the case,
-and don't be afraid to ask clarifying questions!
+All of the options are equal from our perspective, so we encourage you to choose the one that feels best for you. Your recruiter can share more details around the length of these interviews including the at home preparation time vs. time during the call with an Engineer.
 
-#### 5. System Design
+#### 4. System Design
 
-This interview is with an engineer, and lasts an hour. Here, you will be presented a scenario and asked to design a
-system\*. You are expected to take us through your thought process and may use a whiteboard (or equivalent in a
-remote setup) to explain your work, but you will not be asked to code anything.
+This interview is with an engineer, and lasts an hour. Here, you will be presented a scenario and asked to design a system\*. You are expected to take us through your thought process and may use a whiteboard (or equivalent in a remote setup) to explain your work, but you will not be asked to code anything.
 
 In this interview, we're evaluating the following key areas:
 
@@ -82,21 +74,19 @@ In this interview, we're evaluating the following key areas:
 - Decision-making: What factors are you employing when making decisions? Can you explain why you chose X or Y?
 - Communication: We want to hear your thought-process and assumptions as you make them.
 
-\*"System" is used generically here to represent a chunk of an ecosystem. We tailor the prompt to the specific
-role, so for example if it's an iOS role, you may be asked to design a feature in an iOS app; if it's a full stack
-role, it could be something like a simple architecture for notifications. We're not trying to trick you here or
-catch you out, we just want hear how you leverage your knowledge and experience.
+\*"System" is used generically here to represent a chunk of an ecosystem. We tailor the prompt to the specific role, so for example if it's an iOS role, you may be asked to design a feature in an iOS app; if it's a full stack role, it could be something like a simple architecture for notifications. We're not trying to trick you here or catch you out, we just want hear how you leverage your knowledge and experience.
+
+### Leadership Interview
+
+This will be your final interview with an Engineering Director. This is a final opportunity for you to ask any outstanding questions about Artsy, the role and expectations. We will ask a handful of competency questions to assess your potential for growth, self-motivation and alignment with our [core values](https://github.com/artsy/README/blob/main/culture/what-is-artsy.md#artsy-values). 
 
 ### References
 
-Based on feedback from these interviews, we'll ask to connect with your professional references.
+At the end of our process,we'll ask to connect with your professional references.
 
-References are an important part of Artsy's hiring strategy across all roles. We’ll ask for three references—these
-should be a combination of direct managers and close collaborators. If you’re unable to provide three (i.e. if
-you’ve been in the same job your whole career), let us know and we'll figure something out!
+References are an important part of Artsy's hiring strategy across all roles. We’ll ask for two to three references—these should be a combination of direct managers and close collaborators. If you’re unable to provide us with a couple of references or aren’t sure who to provide (i.e. if you’ve been in the same job your whole career), let us know and we'll figure something out!
 
-During these calls, we'll ask your references in-depth questions about their experience working with you. See
-[this blog post on hiring](https://artsy.github.io/blog/2019/01/23/artsy-engineering-hiring/) for more details.
+These calls last between 15-30 minutes and we'll ask your references in-depth questions about their experience working with you. See [this blog post on hiring](https://artsy.github.io/blog/2019/01/23/artsy-engineering-hiring/) for more details. Whilst it was written in January 2019, there is still some relevant information!
 
 ### General Tips
 
@@ -108,11 +98,8 @@ During these calls, we'll ask your references in-depth questions about their exp
   etc.
 - You are not required to have a deep knowledge of Artsy's product or engineering team before interviewing, but it
   can be helpful to do some research ahead of time as a way to frame your questions or discussion. We recommend
-  poking around [artsy.net](https://www.artsy.net/), looking at our [engineering blog](https://artsy.github.io/),
-  and checking out our [Artsy in a Nutshell](/culture/what-is-artsy.md#readme) doc in this repo.
+  poking around [artsy.net](https://www.artsy.net/), looking at our [engineering blog](https://artsy.github.io/) and [Engineering Radio](https://open.spotify.com/show/0gJYxpqN6P11dbjNw8VT2a) podcast, and checking out our [Artsy in a Nutshell](/culture/what-is-artsy.md#readme) doc in this repo.
 
 ### Additional Resources
 
-- [This blog post](https://artsy.github.io/blog/2019/01/23/artsy-engineering-hiring/) on our hiring process written
-  in January of 2019 is still relevant! Details around the exact structure of our interviews is outdated (refer to
-  this doc for up-to-date information), but the general approach is the same.
+- This page about our hiring process was updated in July 2022! For details around the exact structure of your upcoming  interviews, feel free to connect with your recruiter who can provide more information.
