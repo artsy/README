@@ -5,23 +5,23 @@ description: An overview of our interview process
 
 ## What to expect from an Artsy interview
 
-We're excited that you've decided to interview for a job at Artsy! This document will cover our standard interview
-process. Our goal is to give you the information you need to feel prepared.
+We're excited that you've decided to interview for a job at Artsy! This document will cover our standard interview process. Our goal is to give you the information you need to feel prepared.
 
-We'll update this as often as we can when things change, but note that the details may shift slightly. Our
-Recruitment team will be available to answer any questions you may have throughout the hiring process!
+We'll update this as often as we can when things change, but note that the details may shift slightly. Our Recruitment team will be available to answer any questions you may have throughout the hiring process! You can reach them on recruitment@artsymail.com or reach out to your recruiter directly. 
 
-This guide is tailored to our standard interviews for most individual-contributor roles. The content of the
-interviews may change slightly based on the level, but the ethos will be the same.
+This guide is tailored to our standard interviews for most individual-contributor roles. The content of the interviews may change slightly based on the level, but the ethos will be the same. If you are interviewing for an Engineering Manager or leadership role, the process is roughly the same as the below, however the themes of questions will vary. You will also meet with other Engineering Managers and an Engineer who you might manage if you join us! 
 
-At a high level, our interviews have three phases:
+All of the interviews are conducted via zoom video call, we have a ‘video on’ culture at Artsy and are excited to virtually meet you!
 
-- [**Phone screen**](#phone-screen): Short chats with a recruiter and (often) an engineering manager.
+At a high level, our interviews have four stages:
+
+- [**Recruiter Interview**](#recruiter-interview): 30 minute video call with a member of our Talent Acquisition Team.
+- 
 - [**On-site**](#on-site-interview): Our standard interview loop. Includes four interviews with engineers and
   non-engineers.
 - [**References**](#references): Three professional references (this part is the same for interviews across Artsy).
 
-### Phone Screen
+### Recruiter Interview
 
 As a very first step, you’ll speak with one of our recruiters and perhaps an engineering manager. These
 conversations are a way for us to learn more about you, what motivates you, and gauge whether Artsy and the
