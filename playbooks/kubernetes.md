@@ -8,6 +8,7 @@ description: Deploying containerized applications at Artsy
 [Kubernetes](https://kubernetes.io/) is an open-source container orchestration platform developed by Google and
 maintained by a growing community. It provides the ability to manage and scale container deployments and integrates
 with our existing AWS infrastructure. See [hokusai.md](hokusai.md) for help managing deployed applications.
+For upgrading Kubernetes to a new version, go to the [Kubernetes-upgrade-playbook](kubernetes-upgrade.md).
 
 ## Substance
 
