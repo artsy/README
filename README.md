@@ -45,7 +45,7 @@ In addition to working on a product team, engineers are encouraged to participat
 
 - Platform Practice
 
-  - Practice lead: [Elena Grahovac](https://github.com/rumyantseva)
+  - Practice lead: [Kaja Santro](https://github.com/kajatiger)
   - [Slack: #practice-platform](https://artsy.slack.com/messages/practice-platform) 🔒
   - [Notion](https://www.notion.so/artsy/Platform-Practice-1b558d0627444c9c9bf7ed7583767ca2) 🔒
 
