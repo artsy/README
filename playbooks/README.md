@@ -20,6 +20,7 @@ practice should be incorporated, submit a PR!
 <!-- start_toc -->
 | Doc | Overview |
 |--|--|
+| [Request for Comments [RFC]](/playbooks/rfc.md) | How do we make a Request for Comments? |
 | [Cloudflare](/playbooks/cloudflare.md#readme) | Working with Cloudflare |
 | [Conferences](/playbooks/conferences.md#readme) | Attending or speaking at a conference |
 | [Data Migrations](/playbooks/data-migrations.md#readme) | Preparing, reviewing and executing data migrations |
