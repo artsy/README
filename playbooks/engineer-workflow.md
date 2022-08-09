@@ -49,26 +49,38 @@ PR titles, because by default, we squash our commits when merging a PR, and this
 automatically ends up using the conventional commit format. Using the prefix in your branch name is not essential,
 but it's, well, nice.
 
-### Commits
+### Commit Messages
 
 > A well-crafted git commit message is the best way to communicate context about a change to fellow developers (and
 > indeed to [our] future selves). -[How to write a git commit message](https://chris.beams.io/posts/git-commit/)
 
-The code change itself should be internally consistent and coherent. If you're modifying a method signature,
-propagate the change to calling code. If you've implemented a new behavior, update test assertions to match. Except
-in rare cases where you intend to share a work-in-progress, commits should not leave tests in a failing state.
+In support of this, Artsy engineering adopted [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) as its commit message convention (see RFC [Best Practices for Naming and Merging PRs](https://github.com/artsy/README/issues/327)). We ecourage you to read the [spec](https://www.conventionalcommits.org/en/v1.0.0/#specification) for more detail but, in general, all commits should match the following format ([see examples](https://excalidraw.com/#json=dMGWGEi9PAmxEZXBsC0kG,kUHekoAEfwndFljUuTUqOA)): 
 
-Commit subjects should concisely describe the enhancement or fix in the imperative form ("Add tracking of email
-deliveries" or "Undo home page A/B test"). Git subcommands (like `git blame`, `revert`, `log`...) expect this
-format and become more transparent to use when you adhere to that convention.
+```
+<type>[optional scope]: <description>
 
-Expand on the subject to explain _why_ and add any helpful background or links in the commit body (separated by 1
-line). If your project uses GitHub issues, you can include keywords (like `closes #23`) to
-[close issues via commit](https://help.github.com/articles/closing-issues-via-commit-messages/).
+[optional body]
 
-Sometimes bad commit messages aren't apparent until later. Feel free to
-[squash](https://github.com/blog/2141-squash-your-commits) and rewrite commits on your working branch (even when
-it's in pull request form).
+[optional footer(s)]
+```
+
+The two main `types` of commits are `fix` and `feat`, however, commits with the following `types` are allowed: 
+- `build`
+- `chore`
+- `ci`
+- `docs`
+- `feat`
+- `fix`
+- `perf`
+- `refactor`
+- `revert`
+- `style`
+- `style`
+- `test`
+
+**Engineers should use the `type` that best describes the commit**, but we believe the majority of work will fit within the `feat`, `fix` and (to a lesser extent) `refactor` types.
+
+An additional benefit of using conventional commits is that it allows us to track the ratio of new work (i.e., feature work) against rework (i.e., bug/regression fixes). We currently use this ratio as one measure of code quality. **Importantly, this means that consistent commit messages and type accuracy supports meaningful metrics**. The ratio of feature to rework can be viewed here (TODO: link to public view once done).
 
 ### Pull requests
 
