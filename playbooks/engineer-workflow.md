@@ -64,6 +64,10 @@ In support of this, Artsy engineering adopted [conventional commits](https://www
 [optional footer(s)]
 ```
 
+Many Artsy engineers will include the Jira ticket id as the `scope`, which will automatically link the PR to the Jira ticket. A basic Artsy commit may look like: 
+
+`feat(FX-4093): curated marketing collections`
+
 The two main `types` of commits are `fix` and `feat`, however, commits with the following `types` are allowed: 
 - `build`
 - `chore`
@@ -79,7 +83,7 @@ The two main `types` of commits are `fix` and `feat`, however, commits with the 
 
 **Engineers should use the `type` that best describes the commit**, but we believe the majority of work will fit within the `feat`, `fix` and (to a lesser extent) `refactor` types.
 
-An additional benefit of using conventional commits is that it allows us to track the ratio of new work (i.e., feature work) against rework (i.e., bug/regression fixes). We currently use this ratio as one measure of code quality. **Importantly, this means that consistent commit messages and type accuracy supports meaningful metrics**. The ratio of feature to rework can be viewed here (TODO: link to public view once done).
+An additional benefit of using conventional commits is that it allows us to track the ratio of new work (i.e., feature work) against rework (i.e., bug/regression fixes). We currently use this ratio as one measure of code quality. **Importantly, this means that consistent commit messages and type accuracy supports meaningful metrics**. The ratio of feature to rework can be viewed [here](https://artsy.net/rework-metric).
 
 ### Pull requests
 
