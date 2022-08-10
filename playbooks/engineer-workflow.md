@@ -75,7 +75,6 @@ The two main `types` of commits are `fix` and `feat`, however, commits with the 
 - `refactor`
 - `revert`
 - `style`
-- `style`
 - `test`
 
 **Engineers should use the `type` that best describes the commit**, but we believe the majority of work will fit within the `feat`, `fix` and (to a lesser extent) `refactor` types.
