@@ -78,6 +78,23 @@ The advantages are that this code is unlikely to surprise us in the future (beca
 code) and there are less chances of hitting dependency issues (because it cannot be the dependency of another
 dependency.)
 
+## Automatically updating Dependencies with Dependabot
+
+In most of our repositories we have dependabot enabled (through github). You can find the configurations for the dependabot PRs for a repository in a file called _dependabot.yml_ where things like the package ecosystem and the interval for checking updates are defined. Here is an example:
+```yml
+version: 2
+updates:
+  - package-ecosystem: bundler
+    directory: "/"
+    schedule:
+      interval: daily
+    # Limit to 0 to enable only security updates:
+    open-pull-requests-limit: 0
+    assignees:
+      - fclesio
+    reviewers:
+      - artsy/data-platform
+```
 ## Notes
 
 Prior Artsy engineer’s writing on the topic of dependency management:
