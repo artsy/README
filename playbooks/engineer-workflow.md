@@ -54,7 +54,7 @@ but it's, well, nice.
 > A well-crafted git commit message is the best way to communicate context about a change to fellow developers (and
 > indeed to [our] future selves). -[How to write a git commit message](https://chris.beams.io/posts/git-commit/)
 
-In support of this, Artsy engineering adopted [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) as its commit message convention (see RFC [Best Practices for Naming and Merging PRs](https://github.com/artsy/README/issues/327)). We ecourage you to read the [spec](https://www.conventionalcommits.org/en/v1.0.0/#specification) for more detail but, in general, all commits should match the following format ([see examples](https://www.conventionalcommits.org/en/v1.0.0/#examples)): 
+In support of this, Artsy engineering adopted [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) as its commit message convention (see RFC [Best Practices for Naming and Merging PRs](https://github.com/artsy/README/issues/327)). We encourage you to read the [spec](https://www.conventionalcommits.org/en/v1.0.0/#specification) for more detail but, in general, all commits should match the following format ([see examples](https://www.conventionalcommits.org/en/v1.0.0/#examples)): 
 
 ```
 <type>[optional scope]: <description>
