@@ -46,29 +46,56 @@ collaboration.
 
 Wait, what? What prefix? We use [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) prefixes in our
 PR titles, because by default, we squash our commits when merging a PR, and this means that the squashed commit
-automatically ends up using the conventional commit format. Using the prefix in your branch name is not essential,
+automatically ends up using the Conventional Commit format. Using the prefix in your branch name is not essential,
 but it's, well, nice.
 
-### Commits
+### Commit Messages
 
 > A well-crafted git commit message is the best way to communicate context about a change to fellow developers (and
 > indeed to [our] future selves). -[How to write a git commit message](https://chris.beams.io/posts/git-commit/)
 
-The code change itself should be internally consistent and coherent. If you're modifying a method signature,
-propagate the change to calling code. If you've implemented a new behavior, update test assertions to match. Except
-in rare cases where you intend to share a work-in-progress, commits should not leave tests in a failing state.
+In support of this, Artsy engineering adopted [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) as its commit message convention (see RFC [Best Practices for Naming and Merging PRs](https://github.com/artsy/README/issues/327)). We encourage you to read the [spec](https://www.conventionalcommits.org/en/v1.0.0/#specification) for more detail but, in general, all commits should match the following format ([see examples](https://www.conventionalcommits.org/en/v1.0.0/#examples)): 
 
-Commit subjects should concisely describe the enhancement or fix in the imperative form ("Add tracking of email
-deliveries" or "Undo home page A/B test"). Git subcommands (like `git blame`, `revert`, `log`...) expect this
-format and become more transparent to use when you adhere to that convention.
+```
+<type>[optional scope]: <description>
 
-Expand on the subject to explain _why_ and add any helpful background or links in the commit body (separated by 1
-line). If your project uses GitHub issues, you can include keywords (like `closes #23`) to
-[close issues via commit](https://help.github.com/articles/closing-issues-via-commit-messages/).
+[optional body]
 
-Sometimes bad commit messages aren't apparent until later. Feel free to
-[squash](https://github.com/blog/2141-squash-your-commits) and rewrite commits on your working branch (even when
-it's in pull request form).
+[optional footer(s)]
+```
+
+Many Artsy engineers will include the Jira ticket id as the `scope`, which will automatically link the PR to the Jira ticket, though this is not required. A basic Artsy commit may look like: 
+
+
+```bash
+# commit with type of 'feat' and 'description'
+feat: curated marketing collections
+
+# commit with optional jira ticket number as 'scope'
+feat(FX-4093): curated marketing collections
+
+#commit with optional subject scope
+feat(onboarding): add user onboarding flow analytics tracking
+```
+
+The two main `types` of commits are `fix` and `feat`, however, commits with the following `types` are allowed: 
+- `build`
+- `chore`
+- `ci`
+- `docs`
+- `feat`
+- `fix`
+- `perf`
+- `refactor`
+- `revert`
+- `style`
+- `test`
+
+**Engineers should use the `type` that best describes the commit**, but we believe the majority of work will fit within the `feat`, `fix` and (to a lesser extent) `refactor` types.
+
+In instances where a PR will be simply merged - as opposed to being squashed before being merged - we generally expect each individual commit within the PR to follow the Conventional Commit format. **However, a developer may choose to use a good but "*unconvenitonal*" commit messages within a PR instead if they feel it will result in a more precise commit history on the `main` branch** (relevent discussion in this [PR](https://github.com/artsy/README/pull/478)). The PR title should still use the Conventional Commit format (see the [Pull requests](#pull-requests) section).
+
+An additional benefit of using Conventional Commits is that it allows us to track the ratio of new work (i.e., feature work) against rework (i.e., bug/regression fixes). We currently use this ratio as one measure of code quality. **Importantly, this means that consistent commit messages and type accuracy supports meaningful metrics**. The ratio of feature to rework can be viewed [here](https://artsy.net/rework-metric).
 
 ### Pull requests
 
@@ -93,7 +120,7 @@ Include any details that add context to the PR, as
 As mentioned above, PRs will be squashed when merged, unless there's a good reason not to (see the [RFC](https://github.com/artsy/README/issues/327)
 that initiated this practice for more explanation and discussion). When they're squashed the title of the PR will
 be used for the single squashed commit, so make sure that you use [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/)
-format in your PR title.
+format in your PR title. 
 
 #### Assignees and Reviewers
 
