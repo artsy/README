@@ -11,7 +11,7 @@ description: How we work together
   - [Project Management](#project-management)
   - [Workflow](#workflow)
     - [Working in branches](#working-in-branches)
-    - [Commits](#commits)
+    - [Commit Messages](#commit-messages)
     - [Pull requests](#pull-requests)
       - [Assignees and Reviewers](#assignees-and-reviewers)
     - [Code Reviews](#code-reviews)
@@ -54,7 +54,7 @@ but it's, well, nice.
 > A well-crafted git commit message is the best way to communicate context about a change to fellow developers (and
 > indeed to [our] future selves). -[How to write a git commit message](https://chris.beams.io/posts/git-commit/)
 
-In support of this, Artsy engineering adopted [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) as its commit message convention (see RFC [Best Practices for Naming and Merging PRs](https://github.com/artsy/README/issues/327)). We encourage you to read the [spec](https://www.conventionalcommits.org/en/v1.0.0/#specification) for more detail but, in general, all commits should match the following format ([see examples](https://www.conventionalcommits.org/en/v1.0.0/#examples)): 
+In support of this, Artsy engineering adopted [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) as its commit message convention (see RFC [Best Practices for Naming and Merging PRs](https://github.com/artsy/README/issues/327)). We encourage you to read the [spec](https://www.conventionalcommits.org/en/v1.0.0/#specification) for more detail but, in general, all commits should match the following format ([see examples](https://www.conventionalcommits.org/en/v1.0.0/#examples)):
 
 ```
 <type>[optional scope]: <description>
@@ -64,7 +64,7 @@ In support of this, Artsy engineering adopted [Conventional Commits](https://www
 [optional footer(s)]
 ```
 
-Many Artsy engineers will include the Jira ticket id as the `scope`, which will automatically link the PR to the Jira ticket, though this is not required. A basic Artsy commit may look like: 
+Many Artsy engineers will include the Jira ticket id as the `scope`, which will automatically link the PR to the Jira ticket, though this is not required. A basic Artsy commit may look like:
 
 
 ```bash
@@ -78,7 +78,7 @@ feat(FX-4093): curated marketing collections
 feat(onboarding): add user onboarding flow analytics tracking
 ```
 
-The two main `types` of commits are `fix` and `feat`, however, commits with the following `types` are allowed: 
+The two main `types` of commits are `fix` and `feat`, however, commits with the following `types` are allowed:
 - `build`
 - `chore`
 - `ci`
@@ -120,7 +120,7 @@ Include any details that add context to the PR, as
 As mentioned above, PRs will be squashed when merged, unless there's a good reason not to (see the [RFC](https://github.com/artsy/README/issues/327)
 that initiated this practice for more explanation and discussion). When they're squashed the title of the PR will
 be used for the single squashed commit, so make sure that you use [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/)
-format in your PR title. 
+format in your PR title.
 
 #### Assignees and Reviewers
 
