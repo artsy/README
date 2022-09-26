@@ -13,6 +13,7 @@ Slack for all internal messaging, and prefer it to email in, basically, all case
 
 You should always feel up to date on these two:
 
+- [#dev-announce](https://artsy.slack.com/messages/dev-announce)🔒: Engineering announcements. No chatter outside of thread responses.
 - [#dev](https://artsy.slack.com/messages/dev) 🔒: Engineering-wide chat.
 - [#dev-offtopic](https://artsy.slack.com/messages/dev-offtopic) 🔒: Engineers chatting about less timely and
   work-relevant topics.
