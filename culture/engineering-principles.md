@@ -58,7 +58,7 @@ Note that if an app has begun life as a closed-source project, it is still possi
 
 ### Psychological Safety
 
-At it's core, engineering is the practice of learning. To learn effectively and to be productive, engineers
+At its core, engineering is the practice of learning. To learn effectively and to be productive, engineers
 **must** feel safe asking questions and discussing mistakes. Everyone in Artsy Engineering, but especially those in
 leadership positions, are responsible for fostering a psychologically safe work environment. Specifically, that
 means:
