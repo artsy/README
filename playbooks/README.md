@@ -18,7 +18,7 @@ practice should be incorporated, submit a PR!
 
 <!-- prettier-ignore-start -->
 <!-- start_toc -->
-## Cultural
+### Cultural
 | Doc | Overview |
 |--|--|
 | [Engineer workflow](/playbooks/engineer-workflow.md#readme) | How we work together |
@@ -33,7 +33,7 @@ practice should be incorporated, submit a PR!
 | [Taming notifications](/playbooks/taming-notifications.md#readme) | How to set up notifications so that they leave you alone outside of working hours |
 | [Technology choices](/playbooks/technology-choices.md#readme) | How to make technology decisions at Artsy |
 | [Vendor Evaluations](/playbooks/vendor-evaluations.md#readme) | How to evaluate 3rd party vendors |
-## Technical
+### Technical
 | Doc | Overview |
 |--|--|
 | [Development environments](/playbooks/development-environments.md#readme) | Getting set up to work on new projects |
