@@ -18,38 +18,42 @@ practice should be incorporated, submit a PR!
 
 <!-- prettier-ignore-start -->
 <!-- start_toc -->
+## Cultural
 | Doc | Overview |
 |--|--|
+| [Engineer workflow](/playbooks/engineer-workflow.md#readme) | How we work together |
 | [Request for Comments [RFC]](/playbooks/rfcs.md) | How do we make a Request for Comments? |
-| [Cloudflare](/playbooks/cloudflare.md#readme) | Working with Cloudflare |
+| [Documentation](/playbooks/documentation.md#readme) | How and where to document or share content |
+| [Future Friday](/playbooks/future-friday.md#readme) | What is Future Friday? |
 | [Conferences](/playbooks/conferences.md#readme) | Attending or speaking at a conference |
+| [How to give a good Informational](/playbooks/informationals.md#readme) | What are the steps needed to give someone a great experience. |
+| [The Practice Playbook](/playbooks/practices.md#readme) | How do you run a practice at Artsy? |
+| [Retrospectives](/playbooks/retrospectives.md#readme) | The why and how for running a retrospective |
+| [Knowledge Shares](/playbooks/running-knowledge-share.md#readme) | How to handle the people process for Knowledge Shares |
+| [Taming notifications](/playbooks/taming-notifications.md#readme) | How to set up notifications so that they leave you alone outside of working hours |
+| [Technology choices](/playbooks/technology-choices.md#readme) | How to make technology decisions at Artsy |
+| [Vendor Evaluations](/playbooks/vendor-evaluations.md#readme) | How to evaluate 3rd party vendors |
+## Technical
+| Doc | Overview |
+|--|--|
+| [Development environments](/playbooks/development-environments.md#readme) | Getting set up to work on new projects |
+| [Cloudflare](/playbooks/cloudflare.md#readme) | Working with Cloudflare |
 | [Data Migrations](/playbooks/data-migrations.md#readme) | Preparing, reviewing and executing data migrations |
 | [Dependency Management Recommendations](/playbooks/dependencies.md#readme) | How do we want to handle new dependencies to our apps? |
 | [Deployments](/playbooks/deployments.md#readme) | How systems are deployed at Artsy |
-| [Development environments](/playbooks/development-environments.md#readme) | Getting set up to work on new projects |
-| [Documentation](/playbooks/documentation.md#readme) | How and where to document or share content |
-| [Engineer workflow](/playbooks/engineer-workflow.md#readme) | How we work together |
 | [Extracting Services](/playbooks/extracting-services.md#readme) | When and why to consider extracting or decoupling systems |
-| [Future Friday](/playbooks/future-friday.md#readme) | What is Future Friday? |
 | [GraphQL Schema Design](/playbooks/graphql-schema-design.md#readme) | What are our best practices for GraphQL Schema Design? |
 | [Hokusai](/playbooks/hokusai.md#readme) | a CLI to manage applications deployed to Kubernetes |
-| [Incident Handling](/playbooks/incident-handling.md#readme) | How engineers share on-call duties and provide urgent support |
-| [How to give a good Informational](/playbooks/informationals.md#readme) | What are the steps needed to give someone a great experience. |
 | [Jira](/playbooks/jira.md#readme) | Working with Jira boards and tickets |
+| [Incident Handling](/playbooks/incident-handling.md#readme) | How engineers share on-call duties and provide urgent support |
 | [Kubernetes](/playbooks/kubernetes.md#readme) | Deploying containerized applications at Artsy |
 | [Migrating Postgres with Rubyrep](/playbooks/migrating-postgres-with-rubyrep.md#readme) | How to migrate a Postgres to a new instance using Rubyrep |
 | [Migrating Redis](/playbooks/migrating-redis.md#readme) | How to migrate data between Redis instances. |
 | [Migrating Sidekiq](/playbooks/migrating-sidekiq.md#readme) | How to migrate Sidekiq to a new Redis instance |
 | [Open-sourcing a project](/playbooks/open-sourcing.md#readme) | How to take a private repo and make it open-source |
-| [The Practice Playbook](/playbooks/practices.md#readme) | How do you run a practice at Artsy? |
 | [Renaming master branches to main](/playbooks/rename-master-to-main.md#readme) | a CLI to manage applications deployed to Kubernetes |
-| [How to run a retrospective](/playbooks/retrospectives.md#readme) | The why and how for running a retrospective |
-| [How to create an RFC at Artsy](/playbooks/rfcs.md#readme) | The steps needed to request cultural changes |
-| [How to run a Knowledge Share](/playbooks/running-knowledge-share.md#readme) | How to handle the people process for Knowledge Shares |
 | [System Criticality](/playbooks/system-criticality.md#readme) | A framework for treating systems differently according to how critical they are |
-| [Taming notifications](/playbooks/taming-notifications.md#readme) | How to set up notifications so that they leave you alone outside of working hours |
-| [Technology choices](/playbooks/technology-choices.md#readme) | How to make technology decisions at Artsy |
-| [Vendor Evaluations](/playbooks/vendor-evaluations.md#readme) | How to evaluate 3rd party vendors |
+
 <!-- end_toc -->
 <!-- prettier-ignore-end -->
 
