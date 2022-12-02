@@ -65,7 +65,7 @@ Since all developers are invited to participate on a tech plan and leave feedbac
 
 If there is someone that you explicitly want feedback from, include them in the Stakeholders section (and don't hesitate to remind them directly, Notion notifications are easily lost).
 
-Significant tech plans benefit from a synchronous review in a practice meeting. If there is not a practice meeting that works for your timeline, schedule something ad-hoc. Make sure to mention the tech plan in our weekly engineering standup to invite broader feedback.
+Significant tech plans benefit from a synchronous review in a practice meeting. If there is not a practice meeting that works for your timeline, schedule something ad-hoc. Make sure to mention the tech plan in [our weekly engineering standup](https://github.com/artsy/README/blob/main/events/open-standup.md) to invite broader feedback.
 
 ## Giving Tech Plan Feedback
 Feedback is expected and encouraged. Similar to leaving PR comments, please distinguish between blocking and non-blocking feedback so that your intent is clear.
