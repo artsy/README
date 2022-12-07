@@ -50,7 +50,7 @@ Helm,assess,tools,TRUE,
 Coffeescript,hold,languages & frameworks,FALSE,
 Objective-C,hold,languages & frameworks,FALSE,"Because we use React Native some amount of Objective-C bridging code will remain necessary, these should be thin layers to swift features. Some legacy core Eigen infrastructure and React Native itself is written in Objective-C."
 Scala,hold,languages & frameworks,FALSE,
-Lambda,hold,platforms,TRUE,
+AWS Lambda,hold,platforms,TRUE,
 Google cloud,hold,platforms,FALSE,
 Heroku,hold,platforms,FALSE,"We prefer kubernetes where we have shared solutions for authorization, logging, monitoring, alerting, scaling, and routing."
 Backends for Frontends,hold,techniques,TRUE,"Rather than tailor backends to particular product surfaces or teams, we strive to serve clients via a unified GraphQL schema, reconciling or disambiguating domain concepts as necessary."
