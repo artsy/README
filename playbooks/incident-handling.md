@@ -315,6 +315,8 @@ Many people follow the #incidents channel closely, so avoid noise by keeping dis
   <!-- TODO: define how to apply priority levels more consistently -->
 - Take your best guess at the other information; it can always be edited later.
 
+Issues isolated to staging (i.e., issues that do not have have an observable impact on production) resulting in major workflow disruptions should also be treated as incidents. When communicating a staging incident, it should be made clear that there is no preceived impact on production to avoid creating confusion for the team members following the incident.
+
 2. **Create a Slack channel** dedicated to the incident's technical resolution
 
 - Follow the **Create Slack channel** link from the OpsGenie incident page and create a `#inc-*` channel named with
