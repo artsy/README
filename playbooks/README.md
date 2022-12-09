@@ -32,6 +32,7 @@ practice should be incorporated, submit a PR!
 | [Knowledge Shares](/playbooks/running-knowledge-share.md#readme) | How to handle the people process for Knowledge Shares |
 | [Taming notifications](/playbooks/taming-notifications.md#readme) | How to set up notifications so that they leave you alone outside of working hours |
 | [Technology choices](/playbooks/technology-choices.md#readme) | How to make technology decisions at Artsy |
+| [Technical planning](/playbooks/technical-planning.md#readme) | How to write technical plans |
 | [Vendor Evaluations](/playbooks/vendor-evaluations.md#readme) | How to evaluate 3rd party vendors |
 ### Technical
 | Doc | Overview |
@@ -53,7 +54,6 @@ practice should be incorporated, submit a PR!
 | [Open-sourcing a project](/playbooks/open-sourcing.md#readme) | How to take a private repo and make it open-source |
 | [Renaming master branches to main](/playbooks/rename-master-to-main.md#readme) | a CLI to manage applications deployed to Kubernetes |
 | [System Criticality](/playbooks/system-criticality.md#readme) | A framework for treating systems differently according to how critical they are |
-
 <!-- end_toc -->
 <!-- prettier-ignore-end -->
 

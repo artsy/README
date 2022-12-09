@@ -33,27 +33,7 @@ Artsy's current choices can be [edited in raw form here](/playbooks/technology_r
 
 ## Technical Plans and Review
 
-When new systems, technologies, or architectures are considered, we document their rationale and gather feedback in
-a [technical plan document](https://github.com/artsy/README/issues/245)
-([examples](https://www.notion.so/artsy/Technical-Plans-f94b206fcec54cee8b4d864e67d5b70f)🔒). This document states
-the problem, surfaces questions, and lists possible approaches. Feedback should be invited from relevant experts
-within the team _and beyond_, because these circumstances are rarely unique, and the choices tend to outlast
-specific projects or even teams. [Weekly engineering stand-up](/events/open-standup.md) is a good opportunity to
-request feedback from the wider team.
-
-Once initial feedback and updates are reflected on the technical plan document, a face-to-face _technical review_
-discussion is an efficient way to resolve open issues and confirm next steps. This discussion can be scheduled for
-standing practice meetings, team knowledge-shares, or ad hoc if necessary. In the review, the relevant teams'
-engineers are responsible for recommending a path forward. (If there isn't clear agreement, you may want to revisit
-the problem and rationale.) The teams' technical leads and someone from engineering leadership (Dir/VP) should be
-stakeholders on the plan and invited to the review discussion as well.
-
-When a plan depends on technology that isn't in the "adopt" category, it's worth special care to:
-
-- justify the suitability of the choice
-- document the goals of the "trial"
-- limit any production risk or organizational burden
-- if successful, plan to deprecate competing or overlapping technologies
+See [this document](/playbooks/technical-planning.md) for more information on technical planning.
 
 ## Frequently Asked Questions
 
