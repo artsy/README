@@ -48,7 +48,7 @@ practice should be incorporated, submit a PR!
 | [System Criticality](/playbooks/system-criticality.md#readme) | A framework for treating systems differently according to how critical they are |
 | [Taming notifications](/playbooks/taming-notifications.md#readme) | How to set up notifications so that they leave you alone outside of working hours |
 | [Technology choices](/playbooks/technology-choices.md#readme) | How to make new technology decisions at Artsy |
-| [Technical planning](/playbooks/technical-planning.md#readme) | How to write technical plans at Artsy |
+| [Technical planning](/playbooks/technical-planning.md#readme) | How to write technical plans |
 | [Vendor Evaluations](/playbooks/vendor-evaluations.md#readme) | How to evaluate 3rd party vendors |
 <!-- end_toc -->
 <!-- prettier-ignore-end -->
