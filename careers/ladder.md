@@ -87,7 +87,7 @@ appropriate levels of specificity to enable meaningful career development conver
   - Nature of guidance provided to others
 
 ### Bragging Document
-It can be helpful to maintain a bragging document to really understand the ladder and also to get your work recognized. Julia Evan has put it really well in her [blog post](https://jvns.ca/blog/brag-documents/) explaining that neither you nor your manager will remember everything you did. To help you track your work and also get alignment with your manager on where you are standing in terms of performance you can use this [template](https://docs.google.com/spreadsheets/d/1yPZeLhkFjlEMUfstDvOXxQXLqBKmr-I-xD0uUwdO2Zc/edit#gid=0) as a base for your bragging. It also contains some real world bragging examples of fellow Artsy engineers.
+It can be helpful to maintain a bragging document to really understand the ladder and also to get your work recognized. Julia Evans has put it really well in her [blog post](https://jvns.ca/blog/brag-documents/) explaining that neither you nor your manager will remember everything you did. To help you track your work and also get alignment with your manager on where you are standing in terms of performance you can use this [template](https://docs.google.com/spreadsheets/d/1yPZeLhkFjlEMUfstDvOXxQXLqBKmr-I-xD0uUwdO2Zc/edit#gid=0) as a base for your bragging. It also contains some real world bragging examples of fellow Artsy engineers.
 
 
 ### Visualisation
