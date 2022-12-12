@@ -86,6 +86,10 @@ appropriate levels of specificity to enable meaningful career development conver
   - Nature of guidance received
   - Nature of guidance provided to others
 
+### Bragging Document
+It can be helpful to maintain a bragging document to really understand the ladder and also to get your work recognized. Julia Evan has put it really well in her [blog post](https://jvns.ca/blog/brag-documents/) explaining that neither you nor your manager will remember everything you did. To help you track your work and also get alignment with your manager on where you are standing in terms of performance you can use this [template](https://docs.google.com/spreadsheets/d/1yPZeLhkFjlEMUfstDvOXxQXLqBKmr-I-xD0uUwdO2Zc/edit#gid=0) as a base for your bragging. It also contains some real world bragging examples of fellow Artsy engineers.
+
+
 ### Visualisation
 
 To help with the visualisation of the ladder we have created this visual, inspired by [honeycomb.io](https://www.honeycomb.io/blog/engineering-levels-at-honeycomb/). It is not perfect but it allows for a quick overview of the levels in terms of impact as well as ownership. We wanted to show that each level encompasses the previous levels and there is flexibility in how to interpret and operate on each level based on individual interests. As mentioned in the linked article "...someone might operate at a higher level of ownership in a smaller scope or at a smaller level of ownership at a larger scope, or somewhere in between. Of course, there is value in growing in both dimensions, but it is more common to stretch in one direction or the other at any given point."
