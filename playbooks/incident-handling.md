@@ -304,6 +304,8 @@ Many people follow the #incidents channel closely, so avoid noise by keeping dis
 - time-sensitive disruptions, such as preventing an auction from opening or closing
   </details>
 
+Issues not observably effecting production, but resulting in major workflow disruptions, should also be treated as incidents. When communicating a non-production incident, it should be made clear that there is no preceived impact on production to avoid creating confusion for the team members following the incident. These types of incidents should be marked as "low" (P4) or "informational" (P5) in OpsGenie.
+
 ### 2. Raise
 
 1. **Track the incident** by creating an incident in [OpsGenie](https://artsy.app.opsgenie.com/incident/list) based
@@ -323,7 +325,7 @@ Many people follow the #incidents channel closely, so avoid noise by keeping dis
 - In the original #incidents thread, share a link to the new #inc-\* channel and _direct any further technical
   discussion there_.
 
-4. If the incident affects a critical public function (e.g. search) or a broad category of users (e.g., all
+3. If the incident affects a critical public function (e.g. search) or a broad category of users (e.g., all
    partners), **update the [Artsy status page](https://status.artsy.net)** via the
    [StatusPage.io](https://manage.statuspage.io/pages/hmhlbjlmdhgh/incidents) account (details in 1Password). The
    update should _briefly_ acknowledge the issue, focusing on public impact
