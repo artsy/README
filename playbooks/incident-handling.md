@@ -325,7 +325,7 @@ Issues not observably effecting production, but resulting in major workflow disr
 - In the original #incidents thread, share a link to the new #inc-\* channel and _direct any further technical
   discussion there_.
 
-4. If the incident affects a critical public function (e.g. search) or a broad category of users (e.g., all
+3. If the incident affects a critical public function (e.g. search) or a broad category of users (e.g., all
    partners), **update the [Artsy status page](https://status.artsy.net)** via the
    [StatusPage.io](https://manage.statuspage.io/pages/hmhlbjlmdhgh/incidents) account (details in 1Password). The
    update should _briefly_ acknowledge the issue, focusing on public impact
