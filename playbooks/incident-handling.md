@@ -304,6 +304,8 @@ Many people follow the #incidents channel closely, so avoid noise by keeping dis
 - time-sensitive disruptions, such as preventing an auction from opening or closing
   </details>
 
+Issues not observably effecting production, but resulting in major workflow disruptions, should also be treated as incidents. When communicating a non-production incident, it should be made clear that there is no preceived impact on production to avoid creating confusion for the team members following the incident. These types of incidents should be marked as "low" (P4) or "informational" (P5) in OpsGenie.
+
 ### 2. Raise
 
 1. **Track the incident** by creating an incident in [OpsGenie](https://artsy.app.opsgenie.com/incident/list) based
@@ -314,8 +316,6 @@ Many people follow the #incidents channel closely, so avoid noise by keeping dis
 - Use your judgment to select a suitable _Priority_ level, based on the incident's severity.
   <!-- TODO: define how to apply priority levels more consistently -->
 - Take your best guess at the other information; it can always be edited later.
-
-Issues isolated to staging (i.e., issues that do not have have an observable impact on production) resulting in major workflow disruptions should also be treated as incidents. When communicating a staging incident, it should be made clear that there is no preceived impact on production to avoid creating confusion for the team members following the incident.
 
 2. **Create a Slack channel** dedicated to the incident's technical resolution
 
