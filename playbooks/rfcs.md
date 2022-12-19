@@ -30,6 +30,7 @@ process with as much bang for buck as possible given our size.
 A lack of response from others is assumed to be positive indifference.
 
 - Here is the list of [closed RFCs](https://github.com/artsy/README/issues?q=label%3ARFC+sort%3Aupdated-desc+is%3Aclosed) you can use as an example.
+- Create a new RFC [template](https://github.com/artsy/README/issues/new/choose)
 
 ---
 
