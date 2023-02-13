@@ -2,7 +2,7 @@ name,ring,quadrant,isNew,description
 GraphQL Stitching,hold,techniques,TRUE,"We prefer to connect to upstream REST APIs instead of GraphQL APIs."
 GraphQL,adopt,languages & frameworks,TRUE,"Appreciated for its flexibility and efficiency for clients."
 JSON,adopt,languages & frameworks,FALSE,"We prefer JSON over most other data formats for its self-describing properties."
-Python,adopt,languages & frameworks,FALSE,
+Python,adopt,languages & frameworks,FALSE,"For ETL, Analytics and ML workloads we use Python as a data engineering standard."
 Rails,adopt,languages & frameworks,FALSE,
 React Native,adopt,languages & frameworks,FALSE,"New iOS work should use React Native. See also Objective-C."
 React.js,adopt,languages & frameworks,FALSE,
