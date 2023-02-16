@@ -57,7 +57,11 @@ any dependent projects.
 ## Project set-up
 
 Project's READMEs should clearly document the commands necessary for fresh set-up, ideally just reviewing and
-running a `./bin/setup` script (or whatever is idiomatic for that stack). The script should:
+running a `./bin/setup` script (or whatever is idiomatic for that stack). E.g.:
+
+> Review the `bin/setup` script and run it _or the equivalent steps for your environment_.
+
+The script should:
 
 - install dependencies such as data stores
 - install necessary language runtimes/versions
