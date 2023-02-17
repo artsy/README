@@ -3,10 +3,6 @@ name: Dependency RFC
 about: Sample template for a dependency RFC
 ---
 
-<!--
-Hello Artsy Engineer 👋 Sometimes the best way to communicate an RFC for adding a new dependency is with a pull request! Feel free to copy the following template onto a pull request showing how you'd use the new dependency. Probably best to make it a small PR – just enough detail to help have a productive conversation.
--->
-
 ### New Dependency
 
 Name:
