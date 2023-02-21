@@ -436,7 +436,7 @@ and linked to the corresponding OpsGenie incident.
 
 3. If applicable, resolve the incident on our status page.
 
-If you've been responding to an incident outside of usual working hours, you're encouraged to reclaim that time
+   If you've been responding to an incident outside of usual working hours, you're encouraged to reclaim that time
 from your work week.
 
 4. Draft the postmortem in Opsgenie
@@ -447,8 +447,18 @@ from your work week.
    - Once the basics are reflected in the postmortem, invite input on the draft from other on-call engineers or
      subject matter experts.
 
-5. Add a new row to the [Incident Review Schedule](https://www.notion.so/artsy/852e6a28fcda46ada5596f6190c9e006?v=210da6a9fe314893babbd81220b0523e)🔒 and include: a link to the incident and the postmortem, date of the incident, a brief summary and (optionally) one or more responders as speakers.
-   > The postmortem should remain in 'Draft' state until the review session.
+5. Schedule an _Incident Review_ by adding a new row to the [Incident Review Schedule](https://www.notion.so/artsy/Incident-Reviews-725052225efc49e78532b13e166ba3c7)🔒
+  
+    Fill out the required details:
+
+    - The Opsgenie incident number
+    - A link the postmortem
+    - Set the date of the incident and the date the incident will be reviewed on
+    - A brief summary
+    - One or more responders as speakers
+
+  > The postmortem should remain in 'Draft' state until the review session.
+
 6. Update relevant [playbooks](https://www.notion.so/Engineering-Playbooks-b655fe54c1ce4b35af342c9ed9a489ae)🔒 with
    any procedures or scripts that were useful in mitigating the incident.
 
