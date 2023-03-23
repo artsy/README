@@ -90,9 +90,25 @@ README.
 
 ## "Hot" fixes and roll-backs
 
-Sometimes there are urgent fixes to release. We always prefer using the typical pipeline to "roll forward," even in
-cases of reverted PRs or timely fixes. When it's critical to avoid the delay of a full CI run or staging deploy,
-it's possible to simply `hokusai production deploy <tag>` where _tag_ is an image tag (including git SHAs) and can
-refer to a previous release such as `production--2018-09-25--10-19-2`. (Run `hokusai registry images` to see recent
-tags.) Projects that depend on other release operations (e.g., to compile assets or update configuration) may
-require additional steps.
+We prefer to use our CI pipeline to "roll forward" even for reverts or timely fixes.
+
+When it's critical to avoid the delay of a full CI run or staging deploy, you can hot-fix/roll-back using Hokusai, as follows:
+
+- Show a list of the project's ECR images tagged with `production-...`.
+  ```
+  hokusai registry images --filter-tags production
+  ```
+
+- From the list, identify the last good working image - the one you want to revert to. Note it's tag.
+
+- Revert Production deployments to the last good working image.
+  ```
+  hokusai production deploy <tag>
+  ```
+
+  That updates Kubernetes `Deployments` only. If other Kubernetes resources (e.g. `Ingress`) have to be reverted also, add `update-config` flag:
+  ```
+  hokusai production deploy <tag> --update-config
+  ```
+
+Please note that additional manual steps (e.g. assets compilation, updating configuration) may be required to achieve a complete fix/roll-back, depending on the Project and your situation.
