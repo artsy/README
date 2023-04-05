@@ -27,7 +27,7 @@ Artsy uses [a fork][fork] of Peril. It currently runs in our staging Kubernetes 
   [RFC #7](https://github.com/artsy/peril-settings/issues/7)
 - When PRs with specific labels are merged, they can send a notification to slack rooms
   [RFC #33](https://github.com/artsy/peril-settings/issues/33)
-- You can comment "#mergeOnGreen" or "#squashOnGreen" on a PR to have Peril automatically merge the PR
+- You can comment "#mergeOnGreen" on a PR to have Peril automatically merge the PR
   [RFC #10](https://github.com/artsy/peril-settings/issues/10)
 - Any PR to an project that adds a new JS dependency gets a comment with an overview of the package and its
   dependencies.
