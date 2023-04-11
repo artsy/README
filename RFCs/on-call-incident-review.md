@@ -9,7 +9,7 @@ Incident review meeting is prepared for and facilitated by an on-call engineer.
 
 ## Reasoning
 
-The Incident review meeting is an important part of the incident follow-up process. It is an opportunity to reflect on the incident, learn from it, share knowledge and experience with others. #product-velocity wants to make the process more _inclusive_ and more _transparent_. The goal is to make the incident review process _simple_ and _easily repeatable_, so that any engineer can facilitate the meeting, like we do with open-standup.
+The incident review meeting is an important part of the incident follow-up process. It is an opportunity to reflect on the incident, learn from it, share knowledge and experience with others. #product-velocity wants to make the process more _inclusive_ and more _transparent_. The goal is to make the incident review process _simple_ and _easily repeatable_, so that any engineer can facilitate the meeting, like we do with open-standup.
 
 Additionally, involving engineers in the process of incident review facilitation would help to reinforce some of the steps of handling and resolving incidents.
 
@@ -57,6 +57,7 @@ While we won't be able to cover all possible exceptions initially, we can cover 
 The process is largely the same as it currently stands with the following changes:
 
 - One on-call engineer is selected (randomly) to prepare for and facilitate the meeting
+  - > Note that the speaker's (engineer(s) who responded to the incident under review) role remains the same: walk the timeline, present the postmortem, perform analysis and track action items.
 - A more [streamlined playbook](https://www.notion.so/artsy/Incident-Review-Facilitation-Template-on-call-edition-195fbb6853ff423197a2ed9dd72fee45)🔒 (on-call edition) is used
 - The playbook is [embedded](https://artsy.slack.com/archives/CE6URL06M/p1677690883019989?thread_ts=1677690844.434719&cid=CE6URL06M)🔒 into each row of the [Incident Review Schedule](https://www.notion.so/artsy/Incident-Reviews-725052225efc49e78532b13e166ba3c7)🔒
 - A reminder is posted in #dev channel instead of #product-velocity
@@ -68,7 +69,7 @@ The process is largely the same as it currently stands with the following change
 
 ### How does the Incident Review process work now?
 
-When incidents occur, [resolve step #5](https://github.com/artsy/README/blob/main/playbooks/incident-handling.md#4-resolve) asks the responder to update the [Incident Review Schedule](https://www.notion.so/artsy/Incident-Reviews-725052225efc49e78532b13e166ba3c7)🔒 with the details of the incident, relevant dates and the speaker. The speaker is the engineer most familiar with the resolution and the one who will be presenting the postmortem.
+When incidents occur, step #5 in the [resolve section](https://github.com/artsy/README/blob/main/playbooks/incident-handling.md#4-resolve) asks the responder to update the [Incident Review Schedule](https://www.notion.so/artsy/Incident-Reviews-725052225efc49e78532b13e166ba3c7)🔒 with the details of the incident, relevant dates and the speaker. The speaker is the engineer most familiar with the resolution and the one who will be presenting the postmortem.
 
 Every other Wednesday at 10AM ET a reminder is posted in #product-velocity channel to check the schedule. This process is backed by a [Incident Review Playbook](https://www.notion.so/artsy/Incident-Review-Facilitation-a1355615adc24026a5ddc49fff2b6761)🔒.
 
