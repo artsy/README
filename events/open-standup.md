@@ -68,7 +68,8 @@ _Practice Updates_
 _On-call Support Updates_
 
 - This week, @personC and @personD will be on-call for support until Wednesday, when @personE rotates on.
-- Last week, we saw the following notable incidents (please include follow-up details)
+- Last week, we saw the following notable incidents (please include follow-up details).
+- Incident Review schedule has N postmortems to review, next meeting is on X Day with @personZ as the speaker.
 
 _Cross-dependencies / Requests for Pairing_
 
