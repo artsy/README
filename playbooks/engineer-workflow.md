@@ -138,10 +138,8 @@ that you use [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0
 
 #### Assignees and Reviewers
 
-> TLDR; If your PR is ready to be reviewed, be sure to use the `assignee` field to assign it directly to someone;
-> that person will then be ultimately responsible for merging and / or approving (so that you can merge). Folks
-> tagged under the `reviewers` section typically provide feedback, but don’t ultimately merge. However, if the PR
-> is still in progress then one generally adds `WIP` to the title/description and assigns to self.
+> TLDR; If your PR is ready to be reviewed, be sure to use the `assignee` field to indicate who will be responsible
+> for merging. Folks tagged under the `reviewers` section typically provide feedback, but don’t ultimately merge.
 
 **_Request a review_** from at least one team member. This should be someone who has context around the changes
 that were made, experience with the system(s) being modified, and/or knowledge of the language/framework in use.
@@ -155,13 +153,18 @@ Reviewers are asked to leave their review within one business day of being reque
 any reason, it's the reviewer's responsibility to communicate with the author of the PR to establish a different
 timeline or get someone else to review.
 
-**_Assign_** a single team member (they will often also be one of your reviewers) to the PR. This is the person who
-is responsible for moving the PR forward.
+**_Assign_** a single team member to the PR. This is the person who is responsible for moving the PR forward.
 
-Assigning exactly one reviewer - no more and no less - helps ensure that there's no question about who is
-responsible. Since assignees are not explicitly expected to review, it's perfectly fine to both assign and request
-a review from the same person. Once someone has been assigned to a PR, they should make a good faith effort to take
-one of the following actions within one business day:
+If a PR is still in progress and in need of early feedback, then one generally adds `WIP` to the title/description
+and self-assigns.
+
+We encourage you to assign your completed PRs to one of your reviewers in order to maintain momentum and to
+distribute responsibilities and understanding. However self-assigning is permissible when an author wants to retain
+control over merging, sequencing or follow-ups related to the PR.
+
+Assigning exactly one reviewer — no more and no less — helps ensure that there's no question about who is
+responsible. Once someone has been assigned to a PR, they should make a good faith effort to take one of the
+following actions within one business day:
 
 - Merge the PR if comfortable doing so and the criteria below are met,
 - Re-assign to the original author so that they can merge, or
