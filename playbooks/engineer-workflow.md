@@ -162,9 +162,9 @@ We encourage you to assign your completed PRs to one of your reviewers in order 
 distribute responsibilities and understanding. However self-assigning is permissible when an author wants to retain
 control over merging, sequencing or follow-ups related to the PR.
 
-Assigning exactly one reviewer — no more and no less — helps ensure that there's no question about who is
-responsible. Once someone has been assigned to a PR, they should make a good faith effort to take one of the
-following actions within one business day:
+Designating exactly one person as assignee — no more and no less — helps ensure that there's no question about who
+is responsible. Once someone has been assigned to a PR, they should try to take one of the following actions within
+one business day:
 
 - Merge the PR if comfortable doing so and the criteria below are met,
 - Re-assign to the original author so that they can merge, or
