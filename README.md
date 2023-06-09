@@ -14,17 +14,19 @@ We split this repo out into different sections, each one has a summary of what's
 
 <!-- prettier-ignore-start -->
 <!-- start_toc -->
-| Section                                                  |                                                           |
-|----------------------------------------------------------|-----------------------------------------------------------|
-| [Careers at Artsy](/careers#readme)                      | How do we grow people                                     |
-| [Conference Notes](/conference-notes#readme)             | Artsy Engineers' notes from attending conferences.        |
-| [Engineering Culture](/culture#readme)                   | What makes Artsy Engineering tick?                        |
-| [Events at Artsy](/events#readme)                        | Documentation on regularly occurring events and meetings. |
-| [Hiring at Artsy](/hiring#readme)                        | How do we hire people                                     |
-| [Onboarding Notes for New Engineers](/onboarding#readme) | Your first steps to being productive                      |
-| [Playbooks](/playbooks#readme)                           | Tips, procedures, and best practices                      |
-| [Engineering Practices](/practices#readme)               | How do we handle cross-functional concerns.               |
-| [Engineering Recommendations](/resources#readme)         | Collections of further reading.                           |
+| Section |  |
+|--|--|
+| [[TODO] Add a summary.json to RFCs](/RFCs) | [TODO] |
+| [[TODO] Add a summary.json to _templates](/_templates) | [TODO] |
+| [Careers at Artsy](/careers#readme) | How do we grow people |
+| [Conference Notes](/conference-notes#readme) | Artsy Engineers' notes from attending conferences. |
+| [Engineering Culture](/culture#readme) | What makes Artsy Engineering tick? |
+| [Events at Artsy](/events#readme) | Documentation on regularly occurring events and meetings. |
+| [Hiring at Artsy](/hiring#readme) | How do we hire people |
+| [Onboarding Notes for New Engineers](/onboarding#readme) | Your first steps to being productive |
+| [Playbooks](/playbooks#readme) | Tips, procedures, and best practices |
+| [Engineering Practices](/practices#readme) | How do we handle cross-functional concerns. |
+| [Engineering Recommendations](/resources#readme) | Collections of further reading. |
 <!-- end_toc -->
 <!-- prettier-ignore-end -->
 
