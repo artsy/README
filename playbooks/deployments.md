@@ -84,9 +84,9 @@ README.
     [here](https://circleci.com/docs/2.0/configuration-reference/#add_ssh_keys).
   - The default read-only key under _Checkout SSH Keys_ is still required for Circle to checkout the repo, so don't
     delete.
-- In the projects' settings, generally speaking:
-  - _build forked pull requests_ should be enabled
-  - _pass secrets to builds from forked pull requests_ should be disabled
+- In the CircleCI project settings, navigate to the advanced tab. Generally speaking you should:
+  - Enable the option to _Build forked pull requests_.
+  - Disable the option to _Pass secrets to builds from forked pull requests_.
 
 ## "Hot" fixes and roll-backs
 
