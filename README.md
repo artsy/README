@@ -72,11 +72,13 @@ In addition to working on a product team, engineers are encouraged to participat
 
 ## Request For Comments
 
-A Request For Comments (or RFC) is how we change things, by opening a discussion that everyone can participate in
-and deciding if we want to move forward with the suggested change or not.
-[RFC template](https://github.com/artsy/README/issues/new/choose) |
-[Resolved RFCs](https://github.com/search?q=org:Artsy+label:RFC) |
-[Open RFCs](https://github.com/search?q=org:Artsy+label:RFC+state:open)
+A Request For Comments (or RFC) is how we change things, by opening a discussion
+that everyone can participate in and deciding if we want to move forward with the suggested change or not.
+
+RFCs should be created by authoring a markdown file in the `/RFCs` folder and then
+opening a pull request. [Read the full playbook][rfc_playbook] for all the details!
+
+[rfc_playbook]: /playbooks/rfcs.md
 
 ## Support
 
