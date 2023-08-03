@@ -47,24 +47,26 @@ In addition to working on a product team, engineers are encouraged to participat
 
 - Platform Practice
 
-  - Practice lead: [Kaja Santro](https://github.com/kajatiger)
+  - Practice lead: [Matt Jones](https://github.com/mc-jones)
   - [Slack: #practice-platform](https://artsy.slack.com/messages/practice-platform) 🔒
   - [Notion](https://www.notion.so/artsy/Platform-Practice-1b558d0627444c9c9bf7ed7583767ca2) 🔒
 
 - Mobile Practice
 
-  - Practice lead: [Pavlos Vinieratos](https://github.com/pvinis)
+  - Practice co-leads: [George Kartalis](https://github.com/gkartalis) and
+    [Sultan Al-Maari](https://github.com/MrSltun)
   - [Slack: #practice-mobile](https://artsy.slack.com/messages/practice-mobile) 🔒
   - [Notion](https://www.notion.so/artsy/Mobile-Practice-ecc07763bfd04a848c74107dde3ec6dc) 🔒
 
 - Web Practice
 
-  - Practice lead: [Rachel Quartararo](https://github.com/rquartararo)
+  - Practice co-leads: [Tanjie McMeans](https://github.com/TMcMeans) and [Tamara
+    Kiš](https://github.com/tam-kis)
   - [Slack: #practice-web](https://artsy.slack.com/messages/practice-web) 🔒
   - [Notion](https://www.notion.so/artsy/Web-Practice-bfe55e2c614a4c0eae493b7830622843) 🔒
 
 - Data Practice
-  - Practice lead: [Emma Dickson](https://github.com/emmadickson)
+  - Practice lead: [Anil Bawa-Cavia](https://github.com/cavvia)
   - [Slack: #practice-data](https://artsy.slack.com/messages/practice-data) 🔒
   - [Notion](https://www.notion.so/artsy/Data-Practice-e248b46638604067a89ba77ca70b39b1) 🔒
 
