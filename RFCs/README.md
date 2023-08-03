@@ -1,17 +1,12 @@
-### How we handle RFCs at Artsy
+## Request For Comments
 
-RFCs are an important part of how we evolve as an engineering organisation. Any time someone wants to introduce a
-change to our existing processes, or concretely define a process that was previously unspoken, they create an RFC.
+A Request For Comments (or RFC) is how we change things, by opening a discussion
+that everyone can participate in and deciding if we want to move forward with the suggested change or not.
 
-The RFC is a pull request that creates a new markdown document in this directory, describing the change or
-definition. This document is then discussed within the PR and a decision is reached on whether to accept or reject
-the proposal. If the proposal is accepted, the PR is merged, leaving us with a permanent record of the accepted
-proposal.
+RFCs should be created by authoring a markdown file in the `/RFCs` folder and then
+opening a pull request. [Read the full playbook][rfc_playbook] for all the details!
 
-These documents can of course be changed at a later date via a new RFC PR.
-
-For a more detailed description of the process, take a look at our
-[RFC Playbook](https://github.com/artsy/README/blob/main/playbooks/rfcs.md).
+[rfc_playbook]: /playbooks/rfcs.md
 
 <!-- prettier-ignore-start -->
 <!-- start_toc -->
