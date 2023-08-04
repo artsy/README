@@ -310,6 +310,10 @@ Issues not observably effecting production, but resulting in major workflow disr
 
 1. **Track the incident** by creating an incident in [OpsGenie](https://artsy.app.opsgenie.com/incident/list) based
    on the available information
+   
+> After you submit the incident, another onCall engineer will be notified via an alert from OpsGenie
+> 
+> Add responders immediately if the failure requires attention urgently and you cannot handle it yourself, the responder will be notified via an alert from OpsGenie as well
 
 - Select _Artsy_ as the impacted service.
 - Enter a short description and link to the #incidents thread in the summary field.
