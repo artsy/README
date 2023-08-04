@@ -41,5 +41,5 @@ workflows:
   default:
     jobs:
       - build:
-        context: danger-github-oss
-        name: build
+          context: danger-github-oss
+          name: build
