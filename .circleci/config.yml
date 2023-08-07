@@ -2,7 +2,7 @@
 #
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
 #
-version: 2
+version: 2.1
 jobs:
   build:
     docker:
@@ -23,7 +23,7 @@ jobs:
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "package.json" }}
-            # fallback to using the latest cache if no exact match is found
+            # Fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
       - run: yarn install
@@ -36,3 +36,10 @@ jobs:
       # run tests!
       - run: yarn setup-structure
       - run: yarn danger ci
+
+workflows:
+  default:
+    jobs:
+      - build:
+          context: danger-github-oss
+          name: build
