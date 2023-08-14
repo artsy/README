@@ -63,7 +63,6 @@ _Practice Updates_
 - Mobile:
 - Web:
 - Platform:
-- Data:
 
 _On-call Support Updates_
 
@@ -79,8 +78,7 @@ _Open RFCs (see #dev for list 9am EST on Mondays) or technical plans under consi
 
 -
 
-_New Milestones / Repos / Blog Posts / Podcast Episodes / New features or updated functionality released: prompt Auction, Gallery,
-Platform, Grow, Purchase teams_
+_New Milestones / Repos / Blog Posts / Podcast Episodes / New features or updated functionality released: prompt Amber, Diamond, Emerald, Onyx, Sapphire_
 
 -
 
