@@ -42,19 +42,11 @@ Finally, **review this document** for ways to improve the instructions for next 
 ## Our Markdown Template
 
 ```md
-_Welcome new team members!_
-
--
-
 _Props_
 
 -
 
 _Company Updates & Important Communication_
-
--
-
-_Hiring Updates_
 
 -
 
