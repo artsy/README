@@ -39,8 +39,7 @@ Setup tooling is optimized for a default set of tools:
 - `bash` shell
 - [Homebrew](https://brew.sh/) for installing and managing supporting services
 - Docker for containerization
-- [nvm](https://github.com/nvm-sh/nvm) for managing node versions
-- [rbenv](https://github.com/rbenv/rbenv) for managing ruby versions
+- [asdf](https://asdf-vm.com/) for managing ruby and nodeJS versions
 - [hokusai](hokusai.md) for managing deployed applications
 - [VSCode](https://code.visualstudio.com/) for text editing
 - [awscli](https://aws.amazon.com/cli/) for AWS operations
