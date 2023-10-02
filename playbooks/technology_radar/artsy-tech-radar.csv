@@ -39,6 +39,7 @@ Phoenix,trial,languages & frameworks,TRUE,
 OpsGenie,trial,tools,TRUE,
 Unleash,trial,tools,TRUE,"Unleash offers an open-source solution for feature-flagging, gradual roll-outs, and split-testing. Official SDKs simplify consumption from multiple clients and stacks."
 VSCode pairing,trial,tools,TRUE,
+Codepush,trial,tools,TRUE,"Microsoft codepush allows delivering updates over the air to javascript based mobile apps"
 Redux,assess,languages & frameworks,FALSE,
 Apollo Server,assess,platforms,TRUE,
 APIs as a product,assess,techniques,TRUE,
