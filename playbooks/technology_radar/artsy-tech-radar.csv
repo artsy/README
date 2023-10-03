@@ -1,6 +1,7 @@
 name,ring,quadrant,isNew,description
 GraphQL,adopt,languages & frameworks,TRUE,"Appreciated for its flexibility and efficiency for clients."
 JSON,adopt,languages & frameworks,FALSE,"We prefer JSON over most other data formats for its self-describing properties."
+Next.js,adopt,languages & frameworks,FALSE,"New apps with frontends that are GraphQL centric should use Next. See Forque, Volt 2."
 Python,adopt,languages & frameworks,FALSE,"For ETL, Analytics and ML workloads we use Python as a data engineering standard."
 Rails,adopt,languages & frameworks,FALSE,
 React Native,adopt,languages & frameworks,FALSE,"New iOS work should use React Native. See also Objective-C."
