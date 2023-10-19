@@ -3,23 +3,29 @@ title: Hokusai
 description: a CLI to manage applications deployed to Kubernetes
 ---
 
-## Hokusai
+# Hokusai
 
-We built and maintain [Hokusai](https://github.com/artsy/hokusai), a CLI for developers to manage their
-applications deployed to Kubernetes clusters. See [kubernetes.md](kubernetes.md) for other resources.
+[Hokusai](https://github.com/artsy/hokusai) is a CLI tool for managing applications that run on Kubernetes. To learn more about it, please see its own repository.
 
-### Setup
+This page contains information that applies specifically to Artsy users.
 
-Hokusai repo has general set up instructions.
 
-Pre-requisities include:
+## Setting up Hokusai
 
-- Installing and configurating AWS CLI
-- Installing Docker
-- Installing Docker Compose
-- Installing aws-iam-authenticator
+These are steps that Artsy users should take to set up Hokusai.
 
-Artsy has a [setup script](https://github.com/artsy/potential/blob/main/scripts/setup) for its users to setup those things.
+### Install Hokusai and its pre-requisites
+
+Most of the work is now taken care of by Artsy's [setup script](https://github.com/artsy/potential/blob/main/scripts/setup). If anything is missing or not working, please update the script.
+
+The script should:
+
+- Install AWS CLI and configure it
+- Install Docker which should come with Docker Compose
+- Install AWS IAM Authenticator
+- Install Hokusai
+
+Please see Hokusai's [setup instructions](https://github.com/artsy/hokusai/tree/main#setup) to learn more.
 
 ### Configure Hokusai
 
@@ -27,80 +33,89 @@ Artsy has a [setup script](https://github.com/artsy/potential/blob/main/scripts/
 HOKUSAI_GLOBAL_CONFIG=s3://artsy-provisioning-public/hokusai/hokusai-dev.yml hokusai configure
 ```
 
-### Setting up a new project
+It will install `kubectl` to `~/.local/bin` which can be overridden by command line options. Whichever directory you choose, please ensure it is in your PATH. We advise to avoid using `/usr/local/bin`, as [Docker Desktop uses that for its own `kubectl`](https://github.com/artsy/hokusai/issues/349) which doesn't work with our Kubernetes clusters.
 
-We keep templates for bootstrapping new projects in https://github.com/artsy/artsy-hokusai-templates
+Please see [hokusai configure's command reference](https://github.com/artsy/hokusai/blob/main/docs/Command_Reference.md#configuring-hokusai-for-your-organization) to learn more.
 
-Set up a new Rails/Puma project with:
+
+## Using Hokusai to set up a new Artsy project
+
+We have [templates](https://github.com/artsy/artsy-hokusai-templates) for bootstrapping new Artsy projects. The templates currently cover Rails and NodeJS projects.
+
+To set up a Rails/Puma project:
 
 ```
 cd ./path/to/my/rails/project/git/repo
 hokusai setup --template-remote git@github.com:artsy/artsy-hokusai-templates.git --template-dir rails-puma
 ```
 
-Set up a new NodeJS project with:
+To set up a NodeJS project:
 
 ```
 cd ./path/to/my/node/project/git/repo
 hokusai setup --template-remote git@github.com:artsy/artsy-hokusai-templates.git --template-dir nodejs
 ```
 
-### Creating a review app
+Please see [hokusai setup's command reference](https://github.com/artsy/hokusai/blob/main/docs/Command_Reference.md#setting-up-a-project) to learn more.
 
-If you get gravity _Back to Safety_ error when visiting the page you need to add the `redirect_url` to Gravity:
 
-- Take the client application id from the url and search for it in gravity staging console:
+## Creating a review app
 
-```ruby
-app = ClientApplication.find_by app_id: '<app-id>'
-```
+The full guide is at Hokusai's [Review Apps doc](https://github.com/artsy/hokusai/blob/main/docs/Review_Apps.md).
 
-- Then add your url (with https://) to `redirect_urls`:
+However, we are aware of some caveats with Artsy applications:
 
-```ruby
-urls = app.redirect_urls
-urls << 'https://<your-app-url>'
-app.update_attributes! redirect_urls: urls
-```
+### Gravity redirect URL
+
+If you get a _Back to Safety_ error when visiting the page, you have to add the `redirect_url` to Gravity:
+
+- Take the client application ID from the URL and search for it in Gravity staging console:
+
+    ```ruby
+    app = ClientApplication.find_by app_id: '<app-id>'
+    ```
+
+- Then add your URL (with https://) to `redirect_urls`:
+
+    ```ruby
+    urls = app.redirect_urls
+    urls << 'https://<your-app-url>'
+    app.update_attributes! redirect_urls: urls
+    ```
+
+### Datastores, cache
 
 Review apps usually employ a copy of the staging application's configuration. This means that, unless customized,
 they may refer to the same backing services or datastores. Gravity and Metaphysics support an optional
 `CACHE_NAMESPACE` configuration that can isolate review apps' cache keys from each other and from staging.
 
-### Creating a canary deployment
 
-To create a "canary" deployment (run a different configuration or version of the application along with an old one,
-monitoring its performance before commiting to rolling out the new version), take the following steps:
+## Creating a canary deployment
 
-1. In your application's `staging.yml` / `production.yml` file, copy and duplicate your application's "web"
-   deployment in that file, then:
+Sometimes you want to test something new on a subset of users/traffic. It maybe a new application version (i.e. new feature) or new configuration. You would run a second Kubernetes deployment. This deployment has the new feature and it's called the "canary". It runs alongside the "canonical" deployment which does not have the new feature. When the canary has been running for a while, and everything is deemed good, you would then delete it, and roll out the change in the canonical deployment, thus releasing the new feature to all users/traffic.
 
-1. Append "-canary" to the deployment and container `name` fields
-1. Set the deployment's `spec.replicas` to a fixed number, i.e. `1` depending on how much traffic you want to be
-   served by the canary deployment.
-1. Hardcode any environment variables you want to override from the application's environment into the
-   `container`'s `spec.env` field (e.g., `CACHE_NAMESPACE`). Anything defined here takes precedence over any
-   environment variables defined in the `config.envFrom` directive. So if you are testing enabling a feature flag,
-   you can set that flag only for the canary deployment in this way.
-1. If you want to deploy a different version of the application, change the `container`'s `spec.image` to reference
-   a new tag, i.e. a Git SHA1 tag.
+Here's how to create a canary:
 
-For an example canary deployment in Metaphysics, see https://github.com/artsy/metaphysics/pull/1619/files - in this
-case the canary is running the image tag `ceb17aec2655475edeffd93a124b5c42f5663d5b` and is configured to report to
-Datadog under the `metaphysics-canary` service by overriding the `DD_TRACER_SERVICE_NAME` environment variable.
+- Create the canary's spec
 
-When you are ready to launch the Canary, run `hokusai [staging|production] update` (you will likely have to add the
-`--skip-checks` flag for Hokusai version >= 0.5.5 if you choose not to merge the canary deployment into `master`).
+  - In the project's `staging.yml` / `production.yml`, add a "web" deployment, you can copy from the existing one
+  - In the new deployment's spec, append "-canary" to `name` fields that contain the deployment name
+  - Set the deployment's `spec.replicas` to the desired number of replicas (e.g. 1). The more replicas, the more traffic the cannary will receive.
+  - If you want to override any of the application's env configs (e.g. `CACHE_NAMESPACE`), hardcode them in `container`'s `spec.env` field. Vars defined here supercede those loaded by `config.envFrom`. This is how you can for example enable a feature flag only in the canary.
+  - If you are testing a new version of the application, change `container`'s `spec.image` to reference that version's tag.
 
-Once you are ready to tear down the deployment, remove the canary deployment spec, and delete the canary deployment
-manually (`hokusai [staging|production] update` will _not_ remove resources that become absent from config files).
-So run `kubectl --context [staging|production] delete deployment {CANARY_DEPLOYMENT_NAME}`
+  For an example canary deployment in Metaphysics, see https://github.com/artsy/metaphysics/pull/1619/files. In this case the canary is running image tag `ceb17aec2655475edeffd93a124b5c42f5663d5b`. Its `DD_TRACER_SERVICE_NAME` env var is overridden to `metaphysics-canary` which then shows up on Datadog.
 
-### Configuring CircleCI for Hokusai
+- Launch the canary
 
-Our Hokusai projects adopt a common workflow on CircleCI. Merges to `master` trigger a `hokusai registry push`
-followed by a `hokusai staging deploy` of the built image. The deploy step will fail if you have not created a
-staging environment as detailed above.
+  ```
+  hokusai [staging|production] update
+  ```
 
-Sample CircleCI configuration will be created when you run `hokusai setup` pulling in our application configuration
-from `--template-remote git@github.com:artsy/artsy-hokusai-templates.git`
+To tear down the canary:
+
+- Delete the canary deployment spec
+- Delete the canary deployment manually
+  ```
+  kubectl --context [staging|production] delete deployment {CANARY_DEPLOYMENT_NAME}`
+  ```
