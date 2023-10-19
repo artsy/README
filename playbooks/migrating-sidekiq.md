@@ -14,7 +14,7 @@ in our [docker-images repo](https://github.com/artsy/docker-images/tree/master/s
 1. Check the old Redis URL
 
 ```
-hokusai [staging|production] get REDIS_URL
+hokusai [staging|production] env get REDIS_URL
 ```
 
 This will be supplied to the migration container via `$SIDEKIQ_OLD_REDIS_URL`

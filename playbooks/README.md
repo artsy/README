@@ -36,7 +36,6 @@ practice should be incorporated, submit a PR!
 | [How to give a good Informational](/playbooks/informationals.md#readme) | What are the steps needed to give someone a great experience. |
 | [Jira](/playbooks/jira.md#readme) | Working with Jira boards and tickets |
 | [Kubernetes](/playbooks/kubernetes.md#readme) | Deploying containerized applications at Artsy |
-| [Migrating Postgres with Rubyrep](/playbooks/migrating-postgres-with-rubyrep.md#readme) | How to migrate a Postgres to a new instance using Rubyrep |
 | [Migrating Redis](/playbooks/migrating-redis.md#readme) | How to migrate data between Redis instances. |
 | [Migrating Sidekiq](/playbooks/migrating-sidekiq.md#readme) | How to migrate Sidekiq to a new Redis instance |
 | [Open-sourcing a project](/playbooks/open-sourcing.md#readme) | How to take a private repo and make it open-source |

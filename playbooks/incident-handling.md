@@ -356,8 +356,8 @@ Discuss the incident's resolution in the dedicated Slack channel. Tips:
 
 - Scan [recent releases](https://github.com/pulls?q=is%3Amerged+is%3Apr+archived%3Afalse+org%3Aartsy+deploy). If
   the timing or changes indicate that a particular release is responsible,
-  [rolling it back](https://github.com/artsy/hokusai/blob/master/docs/Command_Reference.md#how-to-do-a-rollback) is
-  often the simplest and fastest solution. Follow up by reverting the relevant pull request, so the main branch and
+  [rolling it back](./deployments.md#hot-fixes-and-roll-backs) is often the simplest and fastest solution.
+  Follow up by reverting the relevant pull request, so the main branch and
   staging environment are once again healthy and deploys are unblocked while a more complete fix is implemented.
 - Start a video conference to communicate in real-time with other responders (see 1Password for shared Zoom account
   credentials).
