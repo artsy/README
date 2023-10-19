@@ -8,55 +8,24 @@ description: a CLI to manage applications deployed to Kubernetes
 We built and maintain [Hokusai](https://github.com/artsy/hokusai), a CLI for developers to manage their
 applications deployed to Kubernetes clusters. See [kubernetes.md](kubernetes.md) for other resources.
 
-## Setup
+### Setup
 
-### Quickstart
+Hokusai repo has general set up instructions.
 
-Install [Git](https://git-scm.com/), [Docker and Docker Compose](https://docs.docker.com/install) with a preferred
-package manager. MacOS users, install Docker and Docker Compose with
-[Docker for Mac](https://docs.docker.com/docker-for-mac/install/).
+Pre-requisities include:
 
-#### Install Hokusai
+- Installing and configurating AWS CLI
+- Installing Docker
+- Installing Docker Compose
+- Installing aws-iam-authenticator
 
-Via Homebrew:
-
-```
-brew tap artsy/formulas
-brew install hokusai
-```
-
-Via `curl`:
-
-```
-curl --silent https://artsy-provisioning-public.s3.amazonaws.com/hokusai/hokusai-latest-$(uname -s)-$(uname -m) -o /usr/local/bin/hokusai && chmod +x /usr/local/bin/hokusai
-```
-
-### Manual Installation with Python / Pip
-
-See https://github.com/artsy/hokusai#setup
+Artsy has a [setup script](https://github.com/artsy/potential/blob/main/scripts/setup) for its users to setup those things.
 
 ### Configure Hokusai
 
-Prerequisite: install the [aws-iam-authenticator](https://github.com/kubernetes-sigs/aws-iam-authenticator) plugin
-
-A specific version is required to work with our Kubernetes config files. Please see our [setup script](https://github.com/artsy/potential/blob/main/scripts/setup).
-
-_Make sure IAM credentials are set in your shell via AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY environment variables or ~/.aws/credentials!_
-
-If you have the [aws cli](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html) installed, you can set up your ` ~/.aws/config` and ` ~/.aws/credentials` files with the command `aws configure`
-
-Also make sure you set your default region to `us-east-1` either via config or by setting the environment variable `AWS_DEFAULT_REGION=us-east-1`
-
 ```
-hokusai configure --kubectl-version 1.19.16 --s3-bucket artsy-citadel --s3-key k8s/config-dev
+HOKUSAI_GLOBAL_CONFIG=s3://artsy-provisioning-public/hokusai/hokusai-dev.yml hokusai configure
 ```
-
-#### Note
-
-- Due to [recent PyPi upgrades](https://gis.stackexchange.com/questions/278989/pip-no-longer-works-with-qgis-2-18-x-python-tls-version-no-longer-supported)
-`pip install --upgrade hokusai` may complain about SSL cipers being out of date. To fix this, make sure your openssl libraries are up-to-date: `brew upgrade openssl` and reinstall python via `brew reinstall python`.
-
-- The artsy-citadel S3 bucket isn't open source, and the above will fail for non-Artsy team-members.
 
 ### Setting up a new project
 
@@ -76,39 +45,7 @@ cd ./path/to/my/node/project/git/repo
 hokusai setup --template-remote git@github.com:artsy/artsy-hokusai-templates.git --template-dir nodejs
 ```
 
-### Developing with Hokusai
-
-Use `hokusai dev` sub-commands to work with the Docker-Compose development environment defined in
-`./hokusai/development.yml`. Modify this file to suit your project's specific needs and dependencies.
-
-### Testing with Hokusai
-
-Use `hokusai test` to run your test suites in the Docker-Compose test environment defined in `./hokusai/test.yml`.
-Modify this file to suit your project's specific needs and dependencies.
-
-### Building Docker images
-
-Use `hokusai build` to build a local Docker image from your project's `Dockerfile`. Be aware of the `.dockerignore`
-file and any local `.env` files that may leak into the built image if not ignored!
-
-### Pushing images to the project's Docker registry
-
-Use `hokusai registry push` to build an image tagged as the `HEAD` of your git repo to the project's registry. Be
-careful of doing this locally, for as above, local configuration may leak into the image. It is better do do this
-via CI as detailed below.
-
-### Creating a staging environment
-
-Prepare a staging environment with `hokusai staging env create` and populate environment values with
-`hokusai staging env set KEY=VALUE`
-
-Launch the staging environment with `hokusai staging create` to create the Kubernetes resources defined in
-`./hokusai/staging.yml`. This will fail if you have not pushed a Docker image to the project's Docker registry.
-
 ### Creating a review app
-
-Follow the instructions in https://github.com/artsy/hokusai/blob/master/docs/Review_Apps.md to create a review app
-from a branch or PR
 
 If you get gravity _Back to Safety_ error when visiting the page you need to add the `redirect_url` to Gravity:
 
@@ -167,38 +104,3 @@ staging environment as detailed above.
 
 Sample CircleCI configuration will be created when you run `hokusai setup` pulling in our application configuration
 from `--template-remote git@github.com:artsy/artsy-hokusai-templates.git`
-
-### Creating a production environment
-
-Prepare a production environment with `hokusai production env create` and populate environment values with
-`hokusai production env set KEY=VALUE`
-
-Launch the production environment with `hokusai production create` to create the Kubernetes resources defined in
-`./hokusai/production.yml`.
-
-### Promoting staging to production
-
-To see differences between staging and production, use `hokusai pipeline gitlog`, `hokusai pipeline gitdiff` or
-`hokusai pipeline gitcompare`.
-
-To roll out the image deployed on staging to production use `hokusai pipeline promote`.
-
-### Updating Environment Variables
-
-To update an environment variable on staging or production, you have to set the key/value and either wait for a
-standard deploy to finish (this is usually done if the environment variable will be consumed by a recently-merged
-PR), or manually refresh the pods.
-
-For example, to set the variable `DISABLE_NOTIFICATIONS` to `1` on staging with a manual refresh, you would run:
-
-```
-hokusai staging env set DISABLE_NOTIFICATIONS=1
-hokusai staging refresh
-```
-
-To unset that variable, you would run:
-
-```
-hokusai staging env unset DISABLE_NOTIFICATIONS
-hokusai staging refresh
-```
