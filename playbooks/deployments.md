@@ -95,18 +95,31 @@ We prefer to use our CI pipeline to "roll forward" even for reverts or timely fi
 When it's critical to avoid the delay of a full CI run or staging deploy, you can hot-fix/roll-back using Hokusai, as follows:
 
 - Show a list of the project's ECR images tagged with `production-...`.
+
   ```
-  hokusai registry images --filter-tags production
+  $ hokusai registry images --filter-tags production
+
+  Image Pushed At     | Image Tags
+  ----------------------------------------------------------
+  2022-01-27 12:15:21-05:00 | staging--2022-01-27--19-05-54, 9718ddb9334c3e9b2a0a0ffa5d744e1ca91d5cb3, production--2022-01-27--19-43-45, production
+  2022-01-26 06:16:16-05:00 | staging--2022-01-26--11-55-47, production--2022-01-26--14-17-47, 84fd6dcd9b115482e2b1d2981c31f4c8bc97a015
+  2022-01-25 11:02:42-05:00 | fcf109fa7db52c538755a4eac1b103ecf83dddce, staging--2022-01-25--16-57-31, production--2022-01-25--17-54-15
+  ...
+
+  81 more images available
   ```
 
-- From the list, identify the last good working image - the one you want to revert to. Note it's tag.
+  The image tagged with `production` (the first one, scroll to the right) is the one being used in production environment (a.k.a. the current production image). It is also tagged with `9718ddb9334c3e9b2a0a0ffa5d744e1ca91d5cb3`. The images tagged with `production-<timestamp>` were used in production at one point but no longer.
+
+- From the list, identify the tag of the last good working image - the one you want to revert to.
 
 - Revert Production deployments to the last good working image.
+
   ```
   hokusai production deploy <tag>
   ```
 
-  That updates Kubernetes `Deployments` only. If other Kubernetes resources (e.g. `Ingress`) have to be reverted also, add `update-config` flag:
+  Please note that `hokusai production deploy...` updates Kubernetes `Deployment` resources only. If other resources (e.g. `Ingress`) have to be reverted also, add `update-config` flag:
   ```
   hokusai production deploy <tag> --update-config
   ```
