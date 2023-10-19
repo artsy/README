@@ -36,8 +36,6 @@ Kubernetes allows you to allocate CPU/Memory for apps. Here are some [guidelines
 
 If you [installed and configured Hokusai](hokusai.md) you already have `kubectl` installed as well.  `kubectl` provides a CLI for interacting with Kubernetes clusters.  It uses the Kubernetes API like the Dashboard applications, and so provides a view over the same resources, but can switch between different clusters using a "context".
 
-Note: to perform cluster admin operations you should configure Hokusai with `--s3-bucket artsy-citadel --s3-key k8s/config-admin`
-
 See all available contexts (set in the `~/.kube/config` file) with `kubectl config get-contexts`
 
 There should just be two contexts (staging, production) which are aliases to the FQDN of the running clusters (which change as we make cluster upgrades).
