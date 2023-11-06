@@ -91,7 +91,7 @@ Docker-based development respects these files by listing both in docker's `env_f
 To _update_ shared configuration values, simply modify `.env.shared` and re-upload it to its shared location as
 `.env.<project>`. E.g.:
 
-    aws s3 cp .env.shared s3://artsy-citadel/dev/.env.zulu
+    aws s3 cp .env.shared s3://artsy-citadel/<project>/.env.shared
 
 If you are _adding_ a new configuration value and need it reflected on remote
 environments, check this
