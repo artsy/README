@@ -8,7 +8,7 @@ React Native,adopt,languages & frameworks,FALSE,"New iOS work should use React N
 React.js,adopt,languages & frameworks,FALSE,
 Relay,adopt,languages & frameworks,FALSE,
 Ruby,adopt,languages & frameworks,FALSE,"Especially for data-backed APIs and services"
-Spark,adopt,languages & frameworks,FALSE,"Artsy manages a Spark cluster and patterns exist to load data from the main Gravity database as well as other systems, distribute processing among all of the available nodes, and interact with S3, HDFS, or Redshift. See the Cinder repo."
+Spark,adopt,languages & frameworks,FALSE,"Used for data workloads, mostly via AWS EMR Serverless."
 SQL,adopt,languages & frameworks,FALSE,
 styled-components,adopt,languages & frameworks,FALSE,
 Swift,adopt,languages & frameworks,FALSE,"We generally opt for React Native, but when necessary for quality, usability or features tightly integrated with OS, we will build native features in Swift using UIKit. see Objective-C."
