@@ -38,10 +38,10 @@ Using the 4Ps format to organize our thoughts around this practice
 ### Roles of this practice:
 
 #### 1. Facilitator:
-   * The Facilitator plays a crucial role in managing the process of the platform practice. This includes time-keeping, organizing the agenda, reviewing takeaways and action items, and diligently documenting sessions in Notion. The Facilitator ensures the smooth flow and effectiveness of each session.
+   * The Facilitator plays a crucial role in managing the process of the platform practice. This includes time-keeping, organizing the agenda, documenting decisions, and following up on action items. The Facilitator ensures the flow and effectiveness of each session.
 
 #### 2. Champion:
-   * The Champion is the driving force behind topics discussed in the platform practice. They bring forth specific subjects with clear objectives, whether it's seeking a decision or fostering an open discussion. The Champion actively guides discussions, aiding the Facilitator in achieving meaningful conclusions for each topic.
+   * The Champion is the driving force behind topics discussed in the platform practice. They bring forth specific subjects with clear objectives, whether seeking a decision or fostering an open discussion. The Champion actively guides discussions, aiding the Facilitator in achieving meaningful conclusions for each topic.
 
 #### 3. Curator:
    * The Curator takes on the responsibility of shaping the overall direction of the platform practice. They provide valuable advice and curate relevant topics that align with the practice's goals. The Curator's role is crucial in maintaining the practice's focus and ensuring that discussions contribute to the overall improvement and coherence of the platform.
@@ -49,20 +49,20 @@ Using the 4Ps format to organize our thoughts around this practice
 
 ## Process:
 
-*   Review of previous action items: Begin each session by reviewing the progress of previously discussed action items.
+*   Review of previous action items: Begin each session by reviewing the progress of previously discussed action items. (Facilitator)
     
-*   Review the agenda for the day: Outline the topics covered during the practice session.
+*   Review the agenda for the day: Outline the topics covered during the practice session. (Facilitator)
     
 *   Presentation or discussion of the topics (time-boxed 10-15 min):
 
     
-    * Ensure focused discussions within a specified time frame.
-    * Verify if there's a need to continue on the topic: Assess whether additional discussion or action is required for a particular topic.
-    * Another time-box (8-10min): Further discussions or actions within a constrained timeframe.
-    * Wrap-up of the topic: Summarize key points and decisions made during the discussion.
+    * Ensure focused discussions within a specified time frame. (Champion and Facilitator)
+    * Verify if there's a need to continue on the topic: Assess whether additional discussion or action is required for a particular topic. (Champion)
+    * Another time-box (8-10min): Further discussions or actions within a constrained timeframe. (Champion and Facilitator)
+    * Wrap-up of the topic: Summarize key points and decisions made during the discussion. (Champion)
     
 
--   Conclusion of the meeting: Recap important takeaways and action items, and formally conclude the practice session (it's ok to not have any action item due to the context of the topics)
+-   Conclusion of the meeting: Recap important takeaways and action items, and formally conclude the practice session (it's ok to not have any action item due to the context of the topics) (Facilitator)
 
 ## Reasoning
 
