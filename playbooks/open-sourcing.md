@@ -5,10 +5,7 @@ description: How to take a private repo and make it open-source
 
 # Open-sourcing a project
 
-While we strive for [Open Source by Default](/culture/engineering-principles.md#open-source-by-default), sometimes
-apps start as private repos and only get later open-sourced. This can happen for any number of reasons, such as
-responding to a [nudge](https://github.com/artsy/peril-settings/blob/master/tasks/closedSourceRationaleCheck.ts)
-from Peril.
+While we strive for [Open Source by Default](/culture/engineering-principles.md#open-source-by-default), sometimes apps start as private repos and only get open-sourced later. This can happen based on [our guidelines for public vs. private content](https://github.com/artsy/README/blob/main/playbooks/documentation.md#public-versus-private-content), or even a [nudge](https://github.com/artsy/peril-settings/blob/master/tasks/closedSourceRationaleCheck.ts) from Peril.
 
 Here is a list of things to consider in this situation.
 
