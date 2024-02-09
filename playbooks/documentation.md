@@ -63,6 +63,7 @@ Content that _maybe_ should be private, depending on its sensitivity:
 - User research or industry analysis that may hold competitive value
 - References to private content (according to the criteria above) including documentation of private systems, links
   to private gists that may include private data or logs, etc.
+- Code repositories that may not be sensitive themselves, but the discussion of which (pull requests, comments, etc.) has a high risk of exposing product plans, customer details, or private data
 
 ## Engineering content _not_ specific to repos
 
