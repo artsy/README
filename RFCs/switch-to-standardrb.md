@@ -5,16 +5,14 @@ about: Align on a single way of formatting Ruby.
 
 ## Proposal
 
-We should switch to Standard Ruby for our Ruby projects.
+We should switch to Standard Ruby for our Ruby projects but hold off on the
+Rails plugin for now.
 
 ## Reasoning
 
 RuboCop is too configurable and results in drift from project to project.
 Standard Ruby has reached 1.0 and solves this problem by not being configurable
 at all (well mostly not)!
-
-At this point Standard Ruby also has a Rails-specific add-on that we can also
-use.
 
 It's editor integration is well done and specifically for VS Code users, it is
 fast. More here:
@@ -23,7 +21,8 @@ https://blog.testdouble.com/posts/2023-02-16-its-official-the-standard-ruby-vsco
 
 ## Exceptions
 
-None that we can think of!
+A plugin exists for Rails but it's not ready yet - let's revisit using it at a
+later date.
 
 ## Additional Context
 
@@ -42,16 +41,16 @@ that can cause valid code in one project to be invalid in another project.
 If this is agreed upon then we would go to our Ruby projects and follow a
 process like this:
 
-* switch to [standardrb-rails][srb_rails] (or [standardrb][srb] for non-Rails)
-* remove RuboCop config
-* run the formatter with the fix flag
-* update any git hooks that run linters
-* update any VS Code settings
-* update CI to run standard instead of RuboCop
+* remove RuboCop comments from the project
+* enable the "noisy rules"
+* comply with those "noisy rules"
+* regenerate RuboCop todo file
+* replace RuboCop with Standard Ruby
+* comply with fixable rules
+* manual comply with remaining rules
+* update VS Code settings
 * open a PR with the resulting changes
 
-We would propose resolving this by running through this process on a good
-example project - how about Exchange first.
+There are example PRs for this process including on Exchange and Impulse.
 
 [srb]: https://github.com/standardrb/standard
-[srb_rails]: https://github.com/standardrb/standard-rails
