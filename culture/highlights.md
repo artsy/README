@@ -111,6 +111,8 @@ This is very much a living document, and likely missing things. so, please send 
 - Jan 2019 - Launch [Artsy Learns to Code][altc] to support non-engineering colleagues who want to learn how to
   program
 - Jan 2019 - Make Offer [is launched][make_offer]
+- (fast forward...)
+- Feb 2024 - Partner Offers on Saves [is launched][partner_offers_on_saves] on Valentine's Day :heart:
 
 <!-- prettier-ignore-start -->
 [helix-react]: https://artsy.github.io/blog/2015/04/08/creating-a-dynamic-single-page-app-for-our-genome-team-using-react/
@@ -207,3 +209,4 @@ This is very much a living document, and likely missing things. so, please send 
 [make_offer]: https://github.com/artsy/force/pull/3300
 [folio]: https://folio.artsy.net
 [exhibytes_design]: http://calvinclee.com/design/index.php?/web/exhibytes/
+[partner_offers_on_saves]: https://artsy.slack.com/archives/C01CAM2QS3U/p1707921121043919
