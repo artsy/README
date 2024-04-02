@@ -74,10 +74,6 @@ _New Milestones / Repos / Blog Posts / Podcast Episodes / New features or update
 
 -
 
-_Peer Learning Group Updates_
-
--
-
 _Knowledge Share_
 
 -
