@@ -5,9 +5,7 @@ description: How engineers share on-call duties and provide urgent support
 
 # Incident Handling
 
-This document describes how we provide **urgent engineering support**. We consider disruptions "incidents" when
-they affect **a significant proportion of users, critical business functions, or sensitive data**. Less urgent bugs
-and requests should be prioritized and addressed by associated product teams within the course of their usual work.
+This document describes how we provide **urgent engineering support**. We consider disruptions "incidents" when they affect **a significant proportion of users or critical business functions**. Less urgent bugs and requests should be prioritized and addressed by associated product teams within the course of their usual work. Potential security incidents should follow [these additional guidelines](https://www.notion.so/artsy/Responding-to-a-potential-security-incident-DRAFT-07a21baa9a6343d7923cbbe8c5248fb1)🔒.
 
 ### On-call rotations
 
