@@ -60,8 +60,7 @@ In addition to working on a product team, engineers are encouraged to participat
 
 - Web Practice
 
-  - Practice co-leads: [Tanjie McMeans](https://github.com/TMcMeans) and [Tamara
-    Kiš](https://github.com/tam-kis)
+  - Practice lead: [Tamara Kiš](https://github.com/tam-kis)
   - [Slack: #practice-web](https://artsy.slack.com/messages/practice-web) 🔒
   - [Notion](https://www.notion.so/artsy/Web-Practice-bfe55e2c614a4c0eae493b7830622843) 🔒
 
