@@ -46,7 +46,7 @@ practice should be incorporated, submit a PR!
 | [How to run a Knowledge Share](/playbooks/running-knowledge-share.md#readme) | How to handle the people process for Knowledge Shares |
 | [System Criticality](/playbooks/system-criticality.md#readme) | A framework for treating systems differently according to how critical they are |
 | [Taming notifications](/playbooks/taming-notifications.md#readme) | How to set up notifications so that they leave you alone outside of working hours |
-| [Technology choices](/playbooks/technical-planning.md#readme) | How to write technical plans at Artsy |
+| [Technical planning](/playbooks/technical-planning.md#readme) | How to write technical plans at Artsy |
 | [Technology choices](/playbooks/technology-choices.md#readme) | How to make technology decisions at Artsy |
 | [Vendor Evaluations](/playbooks/vendor-evaluations.md#readme) | How to evaluate 3rd party vendors |
 | [Version managers](/playbooks/version-managers.md#readme) | What we use to manager tool versions. |
