@@ -43,13 +43,17 @@ Standard Ruby,trial,tools,TRUE,"After a few weeks living with this officially ad
 Unleash,trial,tools,TRUE,"Unleash offers an open-source solution for feature-flagging, gradual roll-outs, and split-testing. Official SDKs simplify consumption from multiple clients and stacks."
 VSCode pairing,trial,tools,TRUE,
 Redux,assess,languages & frameworks,FALSE,
+Vercel AI SDK,assess,languages & frameworks,TRUE,"Solid LLM abstractions in Typescript for text and data generation, with easily swappable models"
 Apollo Server,assess,platforms,TRUE,
 APIs as a product,assess,techniques,TRUE,
+Embeddings,assess,techniques,TRUE,"Dense vector mathematical representation of content, suitable for semantic search"
 GraphQL batching,assess,techniques,TRUE,
 Apollo Platform,assess,tools,TRUE,
 Datadog Synthetics,assess,tools,TRUE,
 HashiCorp Vault,assess,tools,TRUE,
 Helm,assess,tools,TRUE,
+Large Language Models,assess,tools,TRUE,Deep learning models for text generation and embeddings
+Weaviate,assess,tools,TRUE,Vector storage database with semantic search (HNSW approximate nearest neighbor) and keyword search (BM25)
 Coffeescript,hold,languages & frameworks,FALSE,
 Objective-C,hold,languages & frameworks,FALSE,"Because we use React Native some amount of Objective-C bridging code will remain necessary, these should be thin layers to swift features. Some legacy core Eigen infrastructure and React Native itself is written in Objective-C."
 Scala,hold,languages & frameworks,FALSE,
@@ -60,6 +64,8 @@ Backends for Frontends,hold,techniques,TRUE,"Rather than tailor backends to part
 Bug bounties,hold,techniques,FALSE,
 GraphQL Stitching,hold,techniques,TRUE,"We prefer to connect to upstream REST APIs instead of GraphQL APIs."
 Hypermedia,hold,techniques,FALSE,"While discoverable and easy to consume, we've found hypermedia APIs inefficient to consume."
+LLM chatbot,hold,techniques,TRUE,"Risk of offtopic, unsafe, inaccurate responses"
+LLM text generation,hold,techniques,TRUE,"Risky without human-in-the-loop, due to concerns about accuracy, safety"
 Metaphysics' v1 schema,hold,techniques,TRUE,"The v1 schema is deprecated and should be considered frozen. Consumers should switch to v2 rather than make further modifications to v1."
 Serverless architecture,hold,techniques,TRUE,
 Consul,hold,tools,FALSE,
