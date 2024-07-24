@@ -17,7 +17,6 @@ We split this repo out into different sections, each one has a summary of what's
 | Section |  |
 |--|--|
 | [[TODO] Add a summary.json to RFCs](/RFCs) | [TODO] |
-| [[TODO] Add a summary.json to _templates](/_templates) | [TODO] |
 | [Careers at Artsy](/careers#readme) | How do we grow people |
 | [Conference Notes](/conference-notes#readme) | Artsy Engineers' notes from attending conferences. |
 | [Engineering Culture](/culture#readme) | What makes Artsy Engineering tick? |
@@ -71,11 +70,11 @@ In addition to working on a product team, engineers are encouraged to participat
 
 ## Request For Comments
 
-A Request For Comments (or RFC) is how we change things, by opening a discussion
-that everyone can participate in and deciding if we want to move forward with the suggested change or not.
+A Request For Comments (or RFC) is how we change things, by opening a discussion that everyone can participate in
+and deciding if we want to move forward with the suggested change or not.
 
-RFCs should be created by authoring a markdown file in the `/RFCs` folder and then
-opening a pull request. [Read the full playbook][rfc_playbook] for all the details!
+RFCs should be created by authoring a markdown file in the `/RFCs` folder and then opening a pull request. [Read
+the full playbook][rfc_playbook] for all the details!
 
 [rfc_playbook]: /playbooks/rfcs.md
 
