@@ -88,10 +88,18 @@ depends on [node-foreman](https://github.com/strongloop/node-foreman) and the `-
 Docker-based development respects these files by listing both in docker's `env_file` property
 ([e.g.](https://github.com/artsy/horizon/blob/2202391c9622b5ec655bf2c6d0f35ef379d0687f/hokusai/development.yml#L18-L20)).
 
-To _update_ shared configuration values, simply modify `.env.shared` and re-upload it to its shared location as
+To _update_ shared configuration values, first ensure that you have the _latest_ version of `.env.shared` from s3:
+
+```sh
+aws s3 cp s3://artsy-citadel/<project>/.env.shared ./
+```    
+
+Then simply modify and re-upload it to its shared location as
 `.env.<project>`. E.g.:
 
-    aws s3 cp .env.shared s3://artsy-citadel/<project>/.env.shared
+```sh
+aws s3 cp .env.shared s3://artsy-citadel/<project>/.env.shared
+```    
 
 If you are _adding_ a new configuration value and need it reflected on remote
 environments, check this
