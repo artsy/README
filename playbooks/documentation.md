@@ -80,7 +80,7 @@ internal documentation, because it is a company-wide default. It includes:
 - Documentation and diagrams of
   [internal architecture](https://www.notion.so/artsy/Platform-Architecture-ad1363b26ea8422db0df08e7c8253677)🔒
 - [Security bounty program procedures](https://www.notion.so/artsy/Security-Bounty-Program-Playbook-0071e3292a194f23b6a8ae593a08d3f3)🔒
-- [Playbooks for handling common on-call incidents](https://www.notion.so/artsy/Engineering-Playbooks-b655fe54c1ce4b35af342c9ed9a489ae)🔒
+- [Playbooks for handling common on-call incidents](https://www.notion.so/artsy/Incident-Hub-111cab0764a08079a735ef6d3e5dc737?pvs=4#111cab0764a080f3b0e3df4f759ca95f)🔒
 - Any other content that should be private according to the criteria above
 
 ## Engineering blog

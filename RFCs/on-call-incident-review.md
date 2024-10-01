@@ -69,7 +69,7 @@ The process is largely the same as it currently stands with the following change
 
 ### How does the Incident Review process work now?
 
-When incidents occur, step #5 in the [resolve section](https://github.com/artsy/README/blob/main/playbooks/incident-handling.md#4-resolve) asks the responder to update the [Incident Review Schedule](https://www.notion.so/artsy/Incident-Reviews-725052225efc49e78532b13e166ba3c7)🔒 with the details of the incident, relevant dates and the speaker. The speaker is the engineer most familiar with the resolution and the one who will be presenting the postmortem.
+When incidents occur, step #5 in the [resolve section](https://www.notion.so/artsy/Incident-Handling-111cab0764a0808c993ec19b352cfab9?pvs=4#111cab0764a0805d8970ce58e4225dea)🔒 asks the responder to update the [Incident Review Schedule](https://www.notion.so/artsy/Incident-Reviews-725052225efc49e78532b13e166ba3c7)🔒 with the details of the incident, relevant dates and the speaker. The speaker is the engineer most familiar with the resolution and the one who will be presenting the postmortem.
 
 Every other Wednesday at 10AM ET a reminder is posted in #product-velocity channel to check the schedule. This process is backed by a [Incident Review Playbook](https://www.notion.so/artsy/Incident-Review-Facilitation-a1355615adc24026a5ddc49fff2b6761)🔒.
 
