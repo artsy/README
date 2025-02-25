@@ -107,6 +107,7 @@ To help with the visualisation of the ladder we have created this visual, inspir
       <td class="border-top">Senior Engineer 1</td>
       <td class="border-top">Senior Engineer 2</td>
       <td class="border-top">Staff Engineer</td>
+      <td class="border-top">Senior Staff Engineer</td>
     </tr>
     <tr>
       <td>Technical understanding</td>
@@ -148,6 +149,15 @@ To help with the visualisation of the ladder we have created this visual, inspir
           <li>Routinely contributes to the maintenance of large scale and impactful services.</li>
         </ul>
       </td>
+      <td>
+        <ul>
+        <li>Relied upon to debug complex outages or issues faced by the engineering team.</li>
+        <li>Seen as an authority in PDDE team domains, including the breadth of services, how they interact, and data flows between systems.</li>
+        <li>Advocates for best reliability, observability, and scalability practices to prevent outages and reduce incident recurrence.</li>
+        <li>Has an advanced understanding of security best practices and proactively enhances our platforms’ security landscape.</li>
+      </td>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td>Technical decision-making</td>
@@ -182,6 +192,12 @@ To help with the visualisation of the ladder we have created this visual, inspir
         <ul>
           <li>Consistently makes decisions about the engineering team's technical roadmap and overall architecture.</li>
         </ul>
+      </td>
+      <td>
+      <ul>
+        <li>Demonstrates excellent technical judgment when given autonomy to spend time on high-impact areas for the business.</li>
+        <li>Fosters a culture of timely and cost-effective decisions across teams.</li>
+      </ul>
       </td>
     </tr>
     <tr>
@@ -241,6 +257,7 @@ To help with the visualisation of the ladder we have created this visual, inspir
       <td class="border-top">Senior Engineer 1</td>
       <td class="border-top">Senior Engineer 2</td>
       <td class="border-top">Staff Engineer</td>
+      <td class="border-top">Senior Staff Engineer</td>
     </tr>
     <tr>
       <td>Team impact</td>
@@ -309,6 +326,12 @@ To help with the visualisation of the ladder we have created this visual, inspir
           <li>Has track record of creating sweeping improvements in stability, performance, and scalability across services and reduces complexity to get more done with less.</li>
         </ul>
       </td>
+      <td>
+        <ul>
+          <li>Is a crucial contributor to multi-year strategies for critical business areas spanning multiple systems and teams.</li>
+        </ul>
+      </td>
+      
     </tr>
   </tbody>
 </table>
@@ -324,6 +347,7 @@ To help with the visualisation of the ladder we have created this visual, inspir
       <td class="border-top">Senior Engineer 1</td>
       <td class="border-top">Senior Engineer 2</td>
       <td class="border-top">Staff Engineer</td>
+      <td class="border-top">Senior Staff Engineer</td>
     </tr>
     <tr>
       <td>Team influence</td>
@@ -393,6 +417,15 @@ To help with the visualisation of the ladder we have created this visual, inspir
           <li>Improves the interviewing and hiring process.</li>
         </ul>
       </td>
+      <td>
+        <ul>
+          <li>Influences PDDE teams to integrate performance best practices into daily operations and champions the inclusion of significant related initiatives in the roadmap.</li>
+          <li>Sponsors engineering-led initiatives and provides technical guidance and mentorship to the engineers leading these initiatives by helping them navigate challenges and ensure the project's success.</li>
+          <li>Has excellent judgment in prioritizing and advocating for technical debt reduction.</li>
+          <li>Acts as a multiplier by creating tools, libraries, and processes that boost productivity and reduce delivery costs.</li>
+          <li>Identifies and advocates for technical opportunities to be added to the PDDE roadmap, clarifies them for cross-functional members, and advocates for their prioritization.</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td>Cross-functional collaboration</td>
@@ -421,6 +454,13 @@ To help with the visualisation of the ladder we have created this visual, inspir
           <li>Can present larger technical initiatives to leadership.</li>
         </ul>
       </td>
+      <td>
+        <ul>
+          <li>Cultivates strong relationships with all disciplines and managers within PDDE and PDDE leads and prioritizes efforts based on their needs and the overall product strategy.</li>
+          <li>Invests in the growth of other engineers within PDDE by identifying and delegating technical opportunities to strategically amplify impact.</li>
+          <li>Helps refine roadmaps across all teams based on technical strategy & constraints.</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td>Communication</td>
@@ -447,6 +487,7 @@ To help with the visualisation of the ladder we have created this visual, inspir
       <td>
         <ul>
           <li>Communicates unambiguously and makes their main points very clear.</li>
+          <li>Encourages a culture of constructive feedback and praise within all of PDDE.</li>
           <li>Encourages ideas and suggestions even when they are wrong; can constructively redirect and improve others' work.</li>
           <li>Recognizes and graciously handles topics of emotion or defensiveness.</li>
           <li>Can sell Artsy to external candidates, tailoring the message to the individual.</li>
@@ -467,6 +508,7 @@ To help with the visualisation of the ladder we have created this visual, inspir
       <td class="border-top">Senior Engineer 1</td>
       <td class="border-top">Senior Engineer 2</td>
       <td class="border-top">Staff Engineer</td>
+      <td class="border-top">Senior Staff Engineer</td>
     </tr>
     <tr>
       <td>Oversight</td>
@@ -500,6 +542,12 @@ To help with the visualisation of the ladder we have created this visual, inspir
           <li>Understands the Artsy business and makes decisions based on its direction.</li>
           <li>Proactively sets short to medium-term strategic technical direction and positively impacts business direction.</li>
           <li>Not just aware of the business priorities, but actively promotes knowledge to other people about what's important for the business and how the work fits into that bigger picture.</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Manages cross-team commitments, monitoring progress and delivery.</li>
+          <li>Guides teams through unexpected transitions with effective communication and leadership.</li>
         </ul>
       </td>
     </tr>
