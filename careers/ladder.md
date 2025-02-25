@@ -218,6 +218,7 @@ To help with the visualisation of the ladder we have created this visual, inspir
       <td>&nbsp;</td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
+      <td>&nbsp;</td>
     </tr>
     <tr>
       <td>Industry knowledge</td>
@@ -242,6 +243,7 @@ To help with the visualisation of the ladder we have created this visual, inspir
           <li>Exhibits strong opinions and knowledge about the current technology landscape, can argue for/against technologies and their place at Artsy.</li>
         </ul>
       </td>
+      <td>&nbsp;</td>
     </tr>
   </tbody>
 </table>
@@ -294,6 +296,7 @@ To help with the visualisation of the ladder we have created this visual, inspir
           <li>Bonus: Does things to promote Artsy's engineering brand: i.e. writing blog posts, speaking at external events, open-sourcing projects or working with external contributors.</li>
         </ul>
       </td>
+      <td>&nbsp;</td>
     </tr>
     <tr>
       <td>Product impact</td>
@@ -378,6 +381,7 @@ To help with the visualisation of the ladder we have created this visual, inspir
           <li>Can drive change without formal authority.</li>
         </ul>
       </td>
+      <td>&nbsp;</td>
       <td>&nbsp;</td>
     </tr>
     <tr>
@@ -493,6 +497,7 @@ To help with the visualisation of the ladder we have created this visual, inspir
           <li>Can sell Artsy to external candidates, tailoring the message to the individual.</li>
         </ul>
       </td>
+      <td>&nbsp;</td>
     </tr>
   </tbody>
 </table>
@@ -574,6 +579,7 @@ To help with the visualisation of the ladder we have created this visual, inspir
           <li>Responsible for coordinating technical projects that involve other people and takes ownership to delegate out tasks and hold people accountable</li>
         </ul>
       </td>
+      <td>&nbsp;</td>
     </tr>
     <tr>
       <td>Management relationship</td>
@@ -605,6 +611,7 @@ To help with the visualisation of the ladder we have created this visual, inspir
           <li>Brings constructive ideas and action plans for sign-off.</li>
         </ul>
       </td>
+      <td>&nbsp;</td>
     </tr>
   </tbody>
 </table>
