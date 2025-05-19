@@ -41,16 +41,6 @@ Artsy uses [a fork][fork] of Peril. It currently runs in our staging Kubernetes 
 - Any "RFC" gets sent into slack three times in the
   [upcoming week](https://github.com/artsy/peril-settings/pull/46)
 
-#### Deployments
-
-- When any repo has a new tag created, a message goes to our
-  [#deployments](https://artsy.slack.com/messages/CA3LTRT0T) slack channel
-
-### Scheduled Jobs
-
-We used to have Peril run scheduled tasks. Some of those have been migrated over to the Joule repository and
-[run as GitHub Actions](https://github.com/artsy/joule/actions).
-
 [blog]: https://artsy.github.io/blog/2017/09/04/Introducing-Peril/
 [settings]: https://github.com/artsy/peril-settings/blob/master/peril.settings.json
 [repo]: https://github.com/artsy/peril-settings/
