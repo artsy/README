@@ -3,10 +3,8 @@ title: One on One on Ones
 description: Transitioning to a new Engineering Manager
 ---
 
-Within Artsy engineering, we prioritize the persistence of reporting lines in order to foster a deeper relationship
-between manager and report. This is in fact one of the primary motivations for the matrix structure that we use:
-keeping the report/manager relationship orthogonal to team membership means that it can survive independent of any
-movement between teams, or major team reorganizations. In spite of this, it is sometimes necessary for an
+Within Artsy engineering, we try to keep reporting lines stable in order to foster a deep relationship
+between manager and report, even across staffing changes or team reorganizations. However, it is sometimes necessary for an
 individual to transition to a new manager.
 
 Such transitions are fraught with potential problems for the individual: they might spend weeks -- or even months
