@@ -33,7 +33,7 @@ Artsy's current choices can be [edited in raw form here](/playbooks/technology_r
 
 ## Technical Plans and Review
 
-See [this document](/playbooks/technical-planning.md) for more information on technical planning.
+[Technical plans](/playbooks/technical-planning.md) are often used to propose new technical approaches, technologies, or tools. They can complement prototypes or engineering spikes in evaluating new possibilities.
 
 ## Frequently Asked Questions
 
