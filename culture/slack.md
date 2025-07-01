@@ -57,6 +57,7 @@ There are _many_ other topic-specific channels. You'll find these out organicall
 - [#dogs](https://artsy.slack.com/messages/dogs) 🔒 for dog-lovers
 - [#aotd](https://artsy.slack.com/messages/aotd) 🔒 is "Artwork of the Day", a good place to chat about art
 - [#yelling](https://artsy.slack.com/messages/yelling) 🔒 is a CAPS-ONLY channel
+- [#sup-chats](https://artsy.slack.com/messages/sup-chats) 🔒 for org-wide coffee chat parings
 
 ### Tips
 
