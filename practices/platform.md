@@ -75,7 +75,7 @@ introduction: [Working with Gravity](https://github.com/artsy/potential/blob/mas
 - iPhone app: https://github.com/artsy/eigen/
 - CMS/cms.artsy.net: https://github.com/artsy/volt/ 🔒
 - Causality (bidding engine): https://github.com/artsy/causality/ 🔒
-- Fulcrum (data pipeline): https://github.com/artsy/fulcrum/ 🔒
+- Degas (data pipeline extract and loads): https://github.com/artsy/degas/ 🔒
 - Impulse (sales conversations): https://github.com/artsy/impulse/ 🔒
 - Pulse (messaging): https://github.com/artsy/pulse/ 🔒
 - Infrastructure (terraform and other configuration management): https://github.com/artsy/infrastructure/ 🔒
