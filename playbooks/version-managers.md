@@ -6,13 +6,15 @@ description: What we use to manager tool versions.
 
 ## mise by default
 
-We use [mise] to manage our tool versions. mise can handle most tools using plugins, here are some:
+We use [mise] to manage our tool versions. mise can handle most languages via plugins; here are some:
 - [nodejs](https://mise.jdx.dev/lang/node.html)
 - [ruby](https://mise.jdx.dev/lang/ruby.html)
 - [python](https://mise.jdx.dev/lang/python.html)
 - [java](https://mise.jdx.dev/lang/java.html)
 
 It uses other version managers under the hood, but it keeps everything clean and consistent.
+
+When executing `mise install` in a repo, it will automatically fetch the language runtimes defined in `.tool-versions` if not yet installed on your system, making working with it transparent and easy.
 
 ## Differences
 
