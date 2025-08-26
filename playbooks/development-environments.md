@@ -39,7 +39,7 @@ Setup tooling is optimized for a default set of tools:
 - `bash` shell
 - [Homebrew](https://brew.sh/) for installing and managing supporting services
 - Docker for containerization
-- [asdf](https://asdf-vm.com/) for managing ruby and nodeJS versions
+- [mise](https://mise.jdx.dev/) for managing ruby and nodeJS versions
 - [hokusai](hokusai.md) for managing deployed applications
 - [VSCode](https://code.visualstudio.com/) for text editing
 - [awscli](https://aws.amazon.com/cli/) for AWS operations
@@ -92,14 +92,14 @@ To _update_ shared configuration values, first ensure that you have the _latest_
 
 ```sh
 aws s3 cp s3://artsy-citadel/<project>/.env.shared ./
-```    
+```
 
 Then simply modify and re-upload it to its shared location as
 `.env.<project>`. E.g.:
 
 ```sh
 aws s3 cp .env.shared s3://artsy-citadel/<project>/.env.shared
-```    
+```
 
 If you are _adding_ a new configuration value and need it reflected on remote
 environments, check this
