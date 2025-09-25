@@ -59,7 +59,7 @@ In addition to working on a product team, engineers are encouraged to participat
 
 - Web Practice
 
-  - Practice lead: [Rachel Quartararo]([https://github.com/tam-kis](https://github.com/rquartararo))
+  - Practice lead: [Rachel Quartararo](https://github.com/rquartararo)
   - [Slack: #practice-web](https://artsy.slack.com/messages/practice-web) 🔒
   - [Notion](https://www.notion.so/artsy/Web-Practice-bfe55e2c614a4c0eae493b7830622843) 🔒
 
