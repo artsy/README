@@ -61,8 +61,8 @@ metrics to track progress.
 
 ## Create a PR
 
-Work from either the [generic rfc template](/RFCs/_generic_rfc_template.md) or
-the [dependency rfc template](/RFCs/_dependency_rfc_template.md) (if your RFC is
+Work from either the [generic rfc template](/.github/ISSUE_TEMPLATE/generic_rfc_template.md) or
+the [dependency rfc template](/.github/ISSUE_TEMPLATE/dependency_rfc_template.md) (if your RFC is
 about adding a dependency) and create a file in `/RFCs` with your proposal.
 
 Open a pull request on a repo (or an issue, if it's a repo that doesn't have an
