@@ -9,7 +9,7 @@ Relay,adopt,languages & frameworks,FALSE,
 Ruby,adopt,languages & frameworks,FALSE,"Especially for data-backed APIs and services"
 Spark,adopt,languages & frameworks,FALSE,"Used for data workloads, mostly via AWS EMR Serverless."
 SQL,adopt,languages & frameworks,FALSE,
-styled-components,adopt,languages & frameworks,FALSE,
+Styled-components,hold,languages & frameworks,FALSE,
 Swift,adopt,languages & frameworks,FALSE,"We generally opt for React Native, but when necessary for quality, usability or features tightly integrated with OS, we will build native features in Swift using UIKit. see Objective-C."
 Typescript,adopt,languages & frameworks,FALSE,
 UIKit,adopt,languages & frameworks,FALSE,"See Objective-C."
@@ -20,61 +20,63 @@ Kubernetes,adopt,platforms,FALSE,"We manage staging and production clusters, and
 Redis,adopt,platforms,FALSE,
 Metaphysics' v2 schema,adopt,techniques,TRUE,"Consumers should switch to v2 rather than make further modifications to v1."
 Opaque identifiers,adopt,techniques,FALSE,"Friendly identifiers or 'slugs' are fine for URLs but opaque, permanent identifiers are preferred for all internal or programmatic uses."
-Responsive web pages,adopt,techniques,FALSE,"Rather than mobile- or desktop-specific designs, we prefer pages to degrade gracefully."
 Split testing,adopt,techniques,TRUE,"When scale permits (such as around high-volume product surfaces or early funnel steps), we prefer to make data-driven product decisions by evaluating user experiences in parallel through A/B- or A/B/*-style tests"
-Babel,adopt,tools,TRUE,"This is the description. You can use basic html such as the <strong>strong tag to emphasise keywords and phrases</strong> and insert <a href=""https://www.thoughtworks.com"">anchor links to documentation and referance material</a>."
-CircleCI,adopt,tools,FALSE,"for continuous integration over other services like Travis or Semaphore. Shared orbs and contexts help our projects apply best practices."
+Babel,hold,tools,TRUE,A JavaScript compiler
+Rsbuild,adopt,tools,FALSE,a build tool powered by Rspack. It aims for high performance and to provides an out-of-the-box setup to improve DX.
+CircleCI,adopt,tools,FALSE,For continuous integration over other services like Travis or Semaphore. Shared orbs and contexts help our projects apply best practices.
 Cloudflare,adopt,tools,TRUE,
 Datadog APM,adopt,tools,FALSE,
-Elasticsearch,adopt,tools,FALSE,"for search, similarity, and sophisticated filtering"
+OpenSearch,adopt,tools,FALSE,A community-driven, open source search and analytics suite derived from Elasticsearch
 Fastlane,adopt,tools,FALSE,
-Grafana,adopt,tools,FALSE,
 Postgresql,adopt,tools,FALSE,"We rely on Heroku or Amazon's RDS to host these databases. Though MongoDB was chosen to host core API data, in the long run we found the data (and maybe all data) to be more relational than document-oriented."
 RabbitMQ,adopt,tools,FALSE,"Its stream allows source systems to publish their notable events and other systems to subscribe as desired. This avoids coupling systems directly. After evaluating Kafka for this purpose, we had more operational success with RabbitMQ."
 Sidekiq,adopt,tools,FALSE,
 Terraform,adopt,tools,FALSE,
-Webpack,adopt,tools,FALSE,
-Elixir,trial,languages & frameworks,TRUE,
-Next.js,trial,languages & frameworks,FALSE,"Currently trialing Next.js for our admin apps, via the pages router. See Forque, Volt 2. Some experiments have been made to migrate to Next 13's app router, which have all run into friction. See this <a href='https://artsy.slack.com/archives/C2TQ4PT8R/p1697227679293829'>Slack thread for more info</a>."
-Phoenix,trial,languages & frameworks,TRUE,
-Codepush,trial,tools,TRUE,"Microsoft codepush allows delivering updates over the air to javascript based mobile apps"
-OpsGenie,trial,tools,TRUE,
+Webpack,hold,tools,FALSE,A static module bundler for JavaScript applications
+Elixir,hold,languages & frameworks,FALSE,A dynamic, functional language designed for building scalable and maintainable applications.
+Next.js,hold,languages & frameworks,FALSE,"Currently trialing Next.js for our admin apps, via the pages router. See Forque, Volt 2. Some experiments have been made to migrate to Next 13's app router, which have all run into friction. See this <a href='https://artsy.slack.com/archives/C2TQ4PT8R/p1697227679293829'>Slack thread for more info</a>."
+Phoenix,hold,languages & frameworks,TRUE,Phoenix is a web development framework written in Elixir which implements the server-side Model View Controller (MVC) pattern.
+Codepush,hold,tools,TRUE,"Microsoft codepush allows delivering updates over the air to javascript based mobile apps"
+Expo Updates,trial,tools,TRUE,Allows for delivering over-the-air updates to React Native apps.
+OpsGenie,hold,tools,TRUE,For incident management and alerting. Being retired by Atlassian.
 Standard Ruby,trial,tools,TRUE,"After a few weeks living with this officially adopt."
-Unleash,trial,tools,TRUE,"Unleash offers an open-source solution for feature-flagging, gradual roll-outs, and split-testing. Official SDKs simplify consumption from multiple clients and stacks."
-VSCode pairing,trial,tools,TRUE,
-Redux,assess,languages & frameworks,FALSE,
+Unleash,adopt,tools,TRUE,"An open-source solution for feature-flagging, gradual roll-outs, and split-testing with SDKs for multiple languages"
+Redux,hold,languages & frameworks,FALSE,
+easy-peasy,adopt,languages & frameworks,TRUE,
 Vercel AI SDK,assess,languages & frameworks,TRUE,"Solid LLM abstractions in Typescript for text and data generation, with easily swappable models"
 Apollo Server,assess,platforms,TRUE,
-APIs as a product,assess,techniques,TRUE,
-Embeddings,assess,techniques,TRUE,"Dense vector mathematical representation of content, suitable for semantic search"
-GraphQL batching,assess,techniques,TRUE,
-Apollo Platform,assess,tools,TRUE,
+Public API as a product,hold,techniques,FALSE,For external developers to build on our platform. Deprecated with plan to retire. Documented at developers.artsy.net
+Partner API as a product,adopt,techniques,FALSE, "For our business partners to integrate with our platform. Documented at developers.artsy.net"
+Embeddings,adopt,techniques,TRUE,"Dense vector mathematical representation of content, suitable for semantic search"
 Datadog Synthetics,assess,tools,TRUE,
-HashiCorp Vault,assess,tools,TRUE,
-Helm,assess,tools,TRUE,
-Large Language Models,assess,tools,TRUE,Deep learning models for text generation and embeddings
-Weaviate,assess,tools,TRUE,Vector storage database with semantic search (HNSW approximate nearest neighbor) and keyword search (BM25)
+HashiCorp Vault,adopt,tools,TRUE,Secrets management solution to securely store and access sensitive application information
+Large Language Models,adopt,tools,TRUE,Deep learning models for text generation and embeddings
+Weaviate,hold,tools,TRUE,Vector storage database with semantic search (HNSW approximate nearest neighbor) and keyword search (BM25)
 Coffeescript,hold,languages & frameworks,FALSE,
 Objective-C,hold,languages & frameworks,FALSE,"Because we use React Native some amount of Objective-C bridging code will remain necessary, these should be thin layers to swift features. Some legacy core Eigen infrastructure and React Native itself is written in Objective-C."
 Scala,hold,languages & frameworks,FALSE,
 AWS Lambda,hold,platforms,TRUE,
 Google cloud,hold,platforms,FALSE,
 Heroku,hold,platforms,FALSE,"We prefer kubernetes where we have shared solutions for authorization, logging, monitoring, alerting, scaling, and routing."
-Backends for Frontends,hold,techniques,TRUE,"Rather than tailor backends to particular product surfaces or teams, we strive to serve clients via a unified GraphQL schema, reconciling or disambiguating domain concepts as necessary."
-Bug bounties,hold,techniques,FALSE,
+Bug Bounty Program,adopt,techniques,FALSE,For identifying and remediating security vulnerabilities with the help of external security researchers. Program overview at artsy.net/security.
 GraphQL Stitching,hold,techniques,TRUE,"We prefer to connect to upstream REST APIs instead of GraphQL APIs."
 Hypermedia,hold,techniques,FALSE,"While discoverable and easy to consume, we've found hypermedia APIs inefficient to consume."
-LLM chatbot,hold,techniques,TRUE,"Risk of offtopic, unsafe, inaccurate responses"
-LLM text generation,hold,techniques,TRUE,"Risky without human-in-the-loop, due to concerns about accuracy, safety"
+External LLM chatbot,hold,techniques,TRUE,"Risk of off-topic, unsafe, inaccurate responses (note: collector vs external)"
+User facing LLM text generation,hold,techniques,TRUE,"Risky without human-in-the-loop, due to concerns about accuracy, safety"
+Machine facing LLM text generation,hold,techniques,TRUE,"Currently being used for genome bot and artwork captions"
 Metaphysics' v1 schema,hold,techniques,TRUE,"The v1 schema is deprecated and should be considered frozen. Consumers should switch to v2 rather than make further modifications to v1."
 Serverless architecture,hold,techniques,TRUE,
-Consul,hold,tools,FALSE,
-Jenkins CI/CD,hold,tools,FALSE,
-Kafka,hold,tools,FALSE,
 LabFeatures (Gravity),hold,tools,TRUE,"Unleash supports similar feature-enabling on an individual account basis, while also being flexible enough for gradual roll-outs and split tests."
 MongoDB,hold,tools,FALSE,
 Pingdom,hold,tools,TRUE,
 Semaphore,hold,tools,FALSE,
 SiteFeatures (Gravity),hold,tools,TRUE,"Site Features were used to turn on or off core functionality, but are easily replaced by Unleash (for platform-wide toggles) or Flipper (for Gravity-only settings)."
-Split.io,hold,tools,TRUE,"After a trial in the mobile app, we decided not to adopt this split-testing tool broadly (mostly due to cost)"
-Travis CI,hold,tools,TRUE,
+Fast agent,assess,languages & frameworks,TRUE,"lets you create and interact with sophisticated Agents and Workflows in minutes. It's multi-modal - supporting Images and PDFs in Prompts, Resources and MCP Tool Call results."
+Apollo mcp,assess,languages & frameworks,TRUE,"Apollo MCP Server provides a standard way for AI models to access and orchestrate your APIs running with Apollo."
+uv,assess,tools,TRUE,manages project dependencies and environments, with support for lockfiles, workspaces, and more, similar to rye or poetry
+Bun,assess,languages & frameworks,TRUE, runtime, A JavaScript runtime designed as a drop-in replacement for Node.js. Aims to be fast by using the Zig programming language and integrating a bundler, transpiler, package manager, and test runner."
+Internal Agentic AI,assess,techniques,TRUE, "Internal development of AI agents to perform specific tasks autonomously within our systems. Monorepo at github.com/artsy/artsy-agent"
+AI Code Assistants,assess,techniques,TRUE, "Tools like GitHub Copilot, Claude to assist with code generation and suggestions"
+Claude Pro,assess,tools,TRUE, "Anthropic's Claude Pro LLM service; provides higher usage limits and features compared to the free tier"
+OpenAI,adopt,tools,TRUE, "OpenAI's suite of LLM services and tools for ai assisted development and application features"
+GitHub LLM tools,assess,tools,TRUE, GitHub's suite of tools for AI-assisted development, including Agents, Copilot, etc...
