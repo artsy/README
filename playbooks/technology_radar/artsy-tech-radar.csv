@@ -35,7 +35,7 @@ JSON,adopt,languages & frameworks,FALSE,"We prefer JSON over most other data for
 Kubernetes,adopt,platforms,FALSE,"We manage staging and production clusters, and have solutions for logging, monitoring, alerting, scaling, and routing. See Hokusai and Substance repos."
 LabFeatures (Gravity),hold,tools,TRUE,"Unleash supports similar feature-enabling on an individual account basis, while also being flexible enough for gradual roll-outs and split tests."
 Large Language Models,adopt,tools,TRUE,Deep learning models for text generation and embeddings
-Machine facing LLM text generation,hold,techniques,TRUE,"Currently being used for genome bot and artwork captions"
+Machine facing LLM text generation,trial,techniques,TRUE,"Currently being used for GenomeBot and artwork captions"
 Metaphysics' v1 schema,hold,techniques,TRUE,"The v1 schema is deprecated and should be considered frozen. Consumers should switch to v2 rather than make further modifications to v1."
 Metaphysics' v2 schema,adopt,techniques,TRUE,"Consumers should switch to v2 rather than make further modifications to v1."
 MongoDB,hold,tools,FALSE,
