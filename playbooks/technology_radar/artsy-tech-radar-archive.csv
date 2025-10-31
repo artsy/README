@@ -1,0 +1,14 @@
+name,ring,quadrant,isNew,description
+Responsive web pages,adopt,techniques,FALSE,"Rather than mobile- or desktop-specific designs, we prefer pages to degrade gracefully."
+Grafana,adopt,tools,FALSE,
+VSCode pairing,trial,tools,TRUE,
+APIs as a product,assess,techniques,TRUE,
+GraphQL batching,assess,techniques,TRUE,
+Apollo Platform,assess,tools,TRUE,
+Jenkins CI/CD,hold,tools,FALSE,
+Kafka,hold,tools,FALSE,
+Travis CI,hold,tools,TRUE,
+Consul,hold,tools,FALSE,
+Elasticsearch,hold,tools,FALSE,For search, similarity, and sophisticated filtering
+Backends for Frontends,hold,techniques,TRUE,"Rather than tailor backends to particular product surfaces or teams, we strive to serve clients via a unified GraphQL schema, reconciling or disambiguating domain concepts as necessary."
+Split.io,hold,tools,TRUE,"After a trial in the mobile app, we decided not to adopt this split-testing tool broadly (mostly due to cost)"
