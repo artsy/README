@@ -5,34 +5,20 @@ description: How to take a private repo and make it open-source
 
 # Open-sourcing a project
 
-While we strive for [Open Source by Default](/culture/engineering-principles.md#open-source-by-default), sometimes apps start as private repos and only get open-sourced later. This can happen based on [our guidelines for public vs. private content](https://github.com/artsy/README/blob/main/playbooks/documentation.md#public-versus-private-content), or even a [nudge](https://github.com/artsy/peril-settings/blob/master/tasks/closedSourceRationaleCheck.ts) from Peril.
+While we strive for [Open Source by Default](/culture/engineering-principles.md#open-source-by-default), sometimes
+apps start as private repos and only get open-sourced later. This can happen based on
+[our guidelines for public vs. private content](https://github.com/artsy/README/blob/main/playbooks/documentation.md#public-versus-private-content).
 
 Here is a list of things to consider in this situation.
 
 ## Audit your project for secrets
 
 Typically our apps conform to the twelve-factor philosophy of keeping secrets and other configuration options out
-of the codebase and [storing them in the runtime environment](https://12factor.net/config) instead.
-
-But it is still worth auditing the repo to ensure no secrets have been checked in.
-
-#### Manual search
-
-- [ ] Use Github to search for telltale strings such as `key`, `token`, `secret`, `password`, `credential`
-- [ ] On the results page, check both:
-  - [ ] the **Code** tab, to view results from the current state of the repo
-  - [ ] the **Commits** tab, to view historical commits that might contain secrets that would become newly visible
-        to the public
-
-#### Automated scan
-
-As an extra precaution, scan the repo for secrets using the following tools:
-
-- [ ] [detect-secrets](https://github.com/Yelp/detect-secrets). It scans a codebase for known secret patterns such as AWS keys, as well as "high entropy strings" that are typical of keys and tokens in general. Please note that it does NOT scan commit history.
-  - [ ] Perform an initial scan and audit any found secrets
-  - [ ] Consider adding a git hook to prevent committing secrets in the future
-
-- [ ] [trufflehog](https://github.com/trufflesecurity/truffleHog). Similar to `detect-secrets`, but it scans both code and commit history.
+of the codebase and [storing them in the runtime environment](https://12factor.net/config) instead. But it is still
+worth auditing the repo to ensure no secrets have been checked in. The
+[detect-secrets](https://github.com/Yelp/detect-secrets) utility can scan files (but not commits) for common secret
+patterns. See [our own playbook](https://www.notion.so/artsy/Detect-Secrets-cd11d994dabf45f6a3c18e07acb5431c)🔒 for
+best practices.
 
 ## Review other repository areas for sensitive content
 
