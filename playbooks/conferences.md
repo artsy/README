@@ -11,18 +11,18 @@ guidelines:
 
 ## Attending Conferences
 
-- We aim for each engineer to be able to attend a conference every year, subject to budget. The conference should
-  be related to the individual's role/growth or Artsy's challenges/technologies.
+- We have a limited budget for conference attendance, so events should be related to the individual's role/growth
+  or Artsy's challenges and technologies.
 - Please be mindful when expensing your travel. A good rule of thumb is to spend Artsy money like you would your
-  own. Refer to [Atlas][travel-and-accommodations-on-atlas] for more details and rate card.
-- It's strongly recommended writing up take-aways and sharing with the team upon return, e.g. a list of take-aways
-  and links to resources (decks, videos, etc.) shared in relevant Slack channels.
+  own. Refer to [Travel & Expenses][https://www.notion.so/artsy/Travel-Expenses-b59bec3d17ef44cd9905f1e4a510191d]🔒
+  for more details and rate card.
+- Writing up take-aways and sharing with the team is appreciated upon return. E.g. a list of take-aways and links
+  to resources (decks, videos, etc.) shared in relevant Slack channels.
 
 ## Speaking at Conferences
 
 - We encourage engineers to speak at conferences, and budget-wise the expense gets higher priority.
-- If you need help preparing a conference talk, stop by [Ash][ash]'s weekly Writing Office Hours.
-- It's also recommended sharing the talk and lessons with the team.
+- Sharing the talk and lessons with the team is a great way to prepare.
 
 ## Conference List
 
@@ -35,7 +35,3 @@ A growing list of related conferences:
 - SmashingConf: https://smashingconf.com/
 - Strange Loop: https://www.thestrangeloop.com/index.html
 - dotJS: https://www.dotjs.io/
-
-[travel-and-accommodations-on-atlas]:
-  https://sites.google.com/a/artsymail.com/intranet/experience/travel-accommodations
-[ash]: https://github.com/ashfurrow
