@@ -71,9 +71,6 @@ feat(FX-4093): curated marketing collections
 feat(onboarding): add user onboarding flow analytics tracking
 ```
 
-While the most common types of commits are `fix`, `feat`, and `chore`, any of `build`, `ci`, `docs`, `perf`,
-`refactor`, `revert`, `style`, and `test` are also allowed.
-
 Well-structured and -described commits are helpful everywhere, but especially on `main` where they provide
 long-term documentation and even [measurement](https://artsy.net/rework-metric). This brings us to...
 
