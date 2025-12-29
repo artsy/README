@@ -31,12 +31,11 @@ answer to the classic interview question, "what happens when you type google.com
 
 ### JavaScript + NodeJS
 
-_See also [Frontend Practice Resources](#frontend-practice) below_
+_See also [Frontend Practice Resources](#web-practice) below_
 
 | Name                                       | Description                                                                                                                                      |
 | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [JavaScript: The Weird Parts][js_weird]    | [video] - 'An advanced Javascript course for everyone, giving a deep understanding of the language by understanding how it works under the hood' |
-| [Intro to ES6][es6]                        | An intro to modern JS features                                                                                                                   |
 | [Modern JS explained for dinosaurs][dinos] | How we got from `<script src='foo'/> <script src='bar' /> <script...` to `export default App`                                                    |
 
 &nbsp;
@@ -49,29 +48,6 @@ _See also [Platform Practice Resources](#platform-practice) below_
 | ------------------------------ | ----------------------------------------------------------------------------------------------------- |
 | [advancedreact][advancedreact] | Advanced React course. For access check 1Password in the engineering vault “React + Graph QL Course)” |
 
-<!--
-&nbsp;
-### Ruby
-
-_See also [Platform Practice Resources](#platform-practice) below_
-
-| Name                                           | Description                               |
-| ---------------------------------------------- | ----------------------------------------- |
-| [ruby-doc.org][rdoc]                           | Tons of info, efficiently-laid-out here   |
-| [Why's Poignant Guide to Ruby][poignant_guide] | Tons of context, not efficiently-laid-out |
-| []()                                           |                                           |
-
-<!--
-&nbsp;
-### Elixir
-*See also [Platform Practice Resources](#platform-practice) below*
-| Name | Description |
-| -- | -- |
-| []() |  |
--->
-
-&nbsp;
-
 ### Scala
 
 _See also [Platform Practice Resources](#platform-practice) below_
@@ -79,10 +55,8 @@ _See also [Platform Practice Resources](#platform-practice) below_
 | Name                                                                             | Description                                                                |
 | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | [Scala Exercises][scala_exercises]                                               | Exercises divided by topic (std lib, akka, play, fp...)                    |
-| [Ramping up a team in scala][ramping_scala]                                      | Short video tour of the language from Thoughtworks engineer Susie Marshall |
 | [Effective Scala][effective_scala]                                               | Style Guide + Patterns from Twitter                                        |
-| [Free ebooks from Underscore][underscore]                                        | Essential Scala, Slick, Play...                                            |
-| [Scala Book](https://docs.scala-lang.org/overviews/scala-book/introduction.html) | Free Scala book from Alvin Alexander                                       |
+| [Scala Book](https://docs.scala-lang.org/scala3/book/introduction.html) | Free Scala book from Alvin Alexander                                       |
 
 &nbsp;
 
@@ -112,7 +86,6 @@ iOS, and specifically iOS at Artsy, is such a large topic that we have resources
 | Name                                               | Description                                                                                                              |
 | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | [[A.] JavaScriptures][javascriptures]              | A series of Artsy workshops covering our 2018 frontend stack: Js, TypeScript, React, Relay and more                      |
-| [[A.] Is GraphQL the future?][is_graphql]          | Thoughts from Artsy Alum Alan Johnson                                                                                    |
 | [Getting Started- React][getting_started_react]    | From the official react docs                                                                                             |
 | [React Patterns][react_patterns]                   | A rundown on clean & effective react syntax                                                                              |
 | [How to pass props to components in React][props]  | Key to understanding React as a whole                                                                                    |
@@ -130,12 +103,8 @@ _See also [JavaScript](#javascript-+-nodejs) & [Swift + Objective C](#swift-+-ob
 | Name                                               | Description       |
 | -------------------------------------------------- | ----------------- |
 | [React Native][rn]                                 | The official docs |
-| [iOS Learning Group (Notion) 🔐][ios_learn_notion] |                   |
 | [iOS Learning Resources][ios_learn]                |                   |
 
-<!--
-  ## MORE: Papers we love? Computer Science Topics? Emotional Intelligence x tech? ...
--->
 
 [advancedreact]: https://advancedreact.com/
 [zines]: https://jvns.ca/zines
