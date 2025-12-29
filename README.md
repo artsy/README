@@ -34,11 +34,9 @@ We split this repo out into different sections, each one has a summary of what's
 ### Teams
 
 Teams at Artsy are cross functional. A regular team being composed of a Product Manager, a Product Designer, a Data
-Analyst, an Engineering Manager and a few Engineers. Each team has a _mission_, eg. _"From negotiation to
-fulfillment, Emerald aims to facilitate an enjoyable, consistent, secure, and global deal-closure experience that
-leaves collectors, sellers, and Artsy Admin eager to return."_, and quarterly goals, or OKRs. Each team has members
-with different responsibilities, including a _Product Manager_, a _Designer_, a _Technical Lead_ and _Engineers_,
-depending on size. Sometimes the same person wears multiple hats.
+Analyst, an Engineering Manager and Engineers. Each team has a _mission_, eg. _"From negotiation to fulfillment,
+Emerald aims to facilitate an enjoyable, consistent, secure, and global deal-closure experience that leaves
+collectors, sellers, and Artsy Admin eager to return."_, and quarterly goals aligned with our company objectives.
 
 You can see this organization
 [in the PDDE section of Notion 🔒](https://www.notion.so/artsy/c729f52babc34f59bf47dbfbe2456d19?v=184cab0764a080d38737000c1da4917d).
@@ -64,20 +62,11 @@ In addition to working on a product team, engineers are encouraged to participat
   - [Slack: #practice-web](https://artsy.slack.com/messages/practice-web) 🔒
   - [Notion](https://www.notion.so/artsy/Web-Practice-bfe55e2c614a4c0eae493b7830622843) 🔒
 
-## Request For Comments
-
-A Request For Comments (or RFC) is how we change things, by opening a discussion that everyone can participate in
-and deciding if we want to move forward with the suggested change or not.
-
-RFCs should be created by authoring a markdown file in the `/RFCs` folder and then opening a pull request. [Read
-the full playbook][rfc_playbook] for all the details!
-
-[rfc_playbook]: /playbooks/rfcs.md
-
 ## Support
 
 If you are on call or asked to fix an immediate issue reference our
-[support wiki](https://github.com/artsy/potential/wiki) 🔒 for up-to-date playbooks on how to solve issues.
+[engineering playbooks](https://www.notion.so/artsy/Engineering-Playbooks-b655fe54c1ce4b35af342c9ed9a489ae) 🔒 for
+up-to-date solutions to potential issues.
 
 <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 
@@ -96,8 +85,8 @@ or explore our public data by checking out [our API][footer_api]. If you're inte
 through our [job postings][footer_jobs]!
 
 [footer_website]: https://www.artsy.net/
-[footer_principles]: https://github.com/artsy/README/blob/master/culture/engineering-principles.md
-[footer_open]: https://github.com/artsy/README/blob/master/culture/engineering-principles.md#open-source-by-default
+[footer_principles]: /culture/engineering-principles.md
+[footer_open]: /culture/engineering-principles.md#open-source-by-default
 [footer_blog]: https://artsy.github.io/
 [footer_twitter]: https://twitter.com/ArtsyOpenSource
 [footer_api]: https://developers.artsy.net/
