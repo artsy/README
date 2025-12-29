@@ -3,9 +3,9 @@
 Welcome to Artsy! If you're a new team member, we're excited to have you! Here are your
 [onboarding docs](/onboarding#readme).
 
-This repo is a work in progress. In fact, your first pull request could be to fix or add to
-[this doc](https://github.com/artsy/README/blob/master/README.md). Reach out to your mentor or anyone else on the
-engineering team with questions, or try the [#dev Slack channel](https://artsy.slack.com/messages/dev) 🔒.
+This repo is a work in progress. In fact, your first pull request could be to fix or add to [this doc](/README.md).
+Reach out to your mentor or anyone else on the engineering team with questions, or try the
+[#dev Slack channel](https://artsy.slack.com/messages/dev) 🔒.
 
 Whether you're seasoned or fresh out of school, take a moment to read
 [Your First 60 Days at an Engineering Job](https://code.dblock.org/2015/04/23/your-first-60-days-at-an-engineering-job.html).
@@ -16,7 +16,7 @@ We split this repo out into different sections, each one has a summary of what's
 <!-- start_toc -->
 | Section |  |
 |--|--|
-| [[TODO] Add a summary.json to RFCs](/RFCs) | [TODO] |
+| [Requests for Comments (RFCs)](/RFCs#readme) | Engineering-wide proposals that require discussion and feedback before implementation. |
 | [Careers at Artsy](/careers#readme) | How do we grow people |
 | [Conference Notes](/conference-notes#readme) | Artsy Engineers' notes from attending conferences. |
 | [Engineering Culture](/culture#readme) | What makes Artsy Engineering tick? |
@@ -31,16 +31,17 @@ We split this repo out into different sections, each one has a summary of what's
 
 ## Artsy Engineering Operations
 
-### Product & Engineering Teams
+### Teams
 
-Artsy product engineering is organized in product teams. Each team has a _purpose_, eg. _"Help galleries get the
-most out of Artsy and run their business better"_, and Key Performance Indicators, or KPIs, eg. _"The number of
-artworks uploaded by partners."_ Each team has members with different responsibilities, including a _Product
-Manager_, a _Designer_, a _Technical Lead_ and _Engineers_, depending on size. Sometimes the same person wears
-multiple hats.
+Teams at Artsy are cross functional. A regular team being composed of a Product Manager, a Product Designer, a Data
+Analyst, an Engineering Manager and a few Engineers. Each team has a _mission_, eg. _"From negotiation to
+fulfillment, Emerald aims to facilitate an enjoyable, consistent, secure, and global deal-closure experience that
+leaves collectors, sellers, and Artsy Admin eager to return."_, and quarterly goals, or OKRs. Each team has members
+with different responsibilities, including a _Product Manager_, a _Designer_, a _Technical Lead_ and _Engineers_,
+depending on size. Sometimes the same person wears multiple hats.
 
 You can see this organization
-[in the Product section of Notion 🔑](https://www.notion.so/artsy/Product-470238180cf94c87906ef1d3ee259e05).
+[in the PDDE section of Notion 🔒](https://www.notion.so/artsy/c729f52babc34f59bf47dbfbe2456d19?v=184cab0764a080d38737000c1da4917d).
 
 In addition to working on a product team, engineers are encouraged to participate in our practices:
 
@@ -62,11 +63,6 @@ In addition to working on a product team, engineers are encouraged to participat
   - Practice lead: [Rachel Quartararo](https://github.com/rquartararo)
   - [Slack: #practice-web](https://artsy.slack.com/messages/practice-web) 🔒
   - [Notion](https://www.notion.so/artsy/Web-Practice-bfe55e2c614a4c0eae493b7830622843) 🔒
-
-- Data Practice
-  - Practice lead: [Anil Bawa-Cavia](https://github.com/cavvia)
-  - [Slack: #practice-data](https://artsy.slack.com/messages/practice-data) 🔒
-  - [Notion](https://www.notion.so/artsy/Data-Practice-e248b46638604067a89ba77ca70b39b1) 🔒
 
 ## Request For Comments
 
