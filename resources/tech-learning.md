@@ -103,7 +103,6 @@ _See also [JavaScript](#javascript-+-nodejs) & [Swift + Objective C](#swift-+-ob
 | Name                                               | Description       |
 | -------------------------------------------------- | ----------------- |
 | [React Native][rn]                                 | The official docs |
-| [iOS Learning Resources][ios_learn]                |                   |
 
 
 [advancedreact]: https://advancedreact.com/
@@ -137,6 +136,5 @@ _See also [JavaScript](#javascript-+-nodejs) & [Swift + Objective C](#swift-+-ob
 [rn]: https://facebook.github.io/react-native
 [jest_matchers]: https://medium.com/@boriscoder/the-hidden-power-of-jest-matchers-f3d86d8101b0
 [what_happens_when]: https://github.com/alex/what-happens-when
-[ios_learn]: ../resources/mobile/README.md
 [ios_learn_notion]: https://www.notion.so/artsy/iOS-Learning-Plan-262fe977a5f44c9d96470e685fffbe64
 [egghead]: https://egghead.io
