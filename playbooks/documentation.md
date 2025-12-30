@@ -5,8 +5,8 @@ description: How and where to document or share content
 
 # Documentation
 
-As engineers we operate in many parallel forums: GitHub, Jira, Slack, Google docs, e-mail, Notion, and so on. What
-content should go where?
+We operate in many different forums: GitHub, Jira, Slack, Google docs, e-mail, Notion, and so on. What content
+should go where?
 
 ## Documentation or discussion of a specific system
 
@@ -57,13 +57,14 @@ Content that should always be private:
 Content that _maybe_ should be private, depending on its sensitivity:
 
 - Incident/support instructions, including data recovery or incident-mitigation procedures
-- Internal business rules, definitions, or implementations (tiering, targeting, buyer/bidder qualification, spam
-  heuristics, search ranking algorithms, data partnerships...)
+- Internal business rules, definitions, or implementations (tiering, targeting, buyer/bidder qualification,
+  moderation rules, ranking algorithms, data partnerships...)
 - Un-announced feature work
 - User research or industry analysis that may hold competitive value
 - References to private content (according to the criteria above) including documentation of private systems, links
   to private gists that may include private data or logs, etc.
-- Code repositories that may not be sensitive themselves, but the discussion of which (pull requests, comments, etc.) has a high risk of exposing product plans, customer details, or private data
+- Code repositories that may not be sensitive themselves, but the discussion of which (pull requests, comments,
+  etc.) has a high risk of exposing product plans, customer details, or private data
 
 ## Engineering content _not_ specific to repos
 
@@ -72,7 +73,7 @@ content such as:
 
 - onboarding resources
 - team procedures and playbooks
-- other public resources that are not repo-specific
+- other public resources that are not project-specific
 
 [Notion](https://www.notion.so/artsy/About-Artsy-83c4c35f2e554663927df7fccc3aca70)🔒 is our preferred location for
 internal documentation, because it is a company-wide default. It includes:
@@ -94,5 +95,4 @@ refined tooling, or just learned a lesson that might be of interest to other tea
 - [engineer-workflow.md](/playbooks/engineer-workflow.md)
 - [issues/2](https://github.com/artsy/README/issues/2) about public vs. private content
 - [artsy/README](https://github.com/artsy/readme)
-- [artsy/potential](https://github.com/artsy/potential)
 - [artsy.github.io](https://artsy.github.io)

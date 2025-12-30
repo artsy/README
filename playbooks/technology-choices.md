@@ -13,7 +13,7 @@ decisions we make as engineers. This document describes how we make decisions, i
 
 We want to accomplish a lot with a lean team, which means we must
 [choose stable technologies](http://boringtechnology.club/). However, we also want to adopt best-of-breed
-technologies or best-suited tools, which may need work or still be evolving. We've borrowed from
+technologies or best-suited tools, which may evolve rapidly. We've borrowed from
 [ThoughtWorks' Radar](https://www.thoughtworks.com/radar/faq) to define the following stages for evaluating,
 adopting, and retiring technologies:
 
@@ -22,8 +22,8 @@ adopting, and retiring technologies:
 - **Trial:** These technologies are being evaluated in limited production circumstances. We don't have enough
   production experience to recommend them for high-risk or business-critical use cases, but they may be worth
   consideration if your project seems like a fit.
-- **Assess:** Technologies we are interested in and maybe even built proofs-of-concept for, but haven't yet trialed
-  in production.
+- **Assess:** Technologies we are interested in and maybe even experimented with, but haven't yet trialed in
+  production.
 - **Hold:** Based on our experience, these technologies should be avoided. We've found them to be flawed, immature,
   or simply supplanted by better alternatives. In some cases these remain in legacy production uses, but we should
   take every opportunity to retire or migrate away.
@@ -33,7 +33,8 @@ Artsy's current choices can be [edited in raw form here](/playbooks/technology_r
 
 ## Technical Plans and Review
 
-[Technical plans](/playbooks/technical-planning.md) are often used to propose new technical approaches, technologies, or tools. They can complement prototypes or engineering spikes in evaluating new possibilities.
+[Technical plans](/playbooks/technical-planning.md) are often used to propose new technical approaches,
+technologies, or tools. They can complement prototypes or engineering spikes in evaluating new possibilities.
 
 ## Frequently Asked Questions
 
@@ -55,9 +56,9 @@ trial either way. Avoid trialing multiple unproven things in the same project or
 
 #### We've had a positive experience with _Phoenix_ (e.g.) and should adopt it in more places.
 
-Congrats! Is there a critical mass of engineers (`>=3`) comfortable working with this tech? If so, consider a Knowledge Share
-or practice meeting discussion to review your experience and share any lessons. Make a pull request to the
-radar and make sure to request comments from the relevant engineers or experts. Remember that it may not be
+Congrats! Is there a critical mass of engineers (`>=3`) comfortable working with this tech? If so, consider a
+Knowledge Share or practice meeting discussion to review your experience and share any lessons. Make a pull request
+to the radar and make sure to request comments from the relevant engineers or experts. Remember that it may not be
 sufficient to just "adopt" a new choice. If this replaces an alternative that's in place at Artsy, that should
 probably move to "hold" and a strategy be decided for migrating away from the old tech (e.g., opportunistically or
 deliberately).
