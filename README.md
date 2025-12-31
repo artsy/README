@@ -18,7 +18,6 @@ We split this repo out into different sections, each one has a summary of what's
 |--|--|
 | [Requests for Comments (RFCs)](/RFCs#readme) | Engineering-wide proposals that require discussion and feedback before implementation. |
 | [Careers at Artsy](/careers#readme) | How do we grow people |
-| [Conference Notes](/conference-notes#readme) | Artsy Engineers' notes from attending conferences. |
 | [Engineering Culture](/culture#readme) | What makes Artsy Engineering tick? |
 | [Events at Artsy](/events#readme) | Documentation on regularly occurring events and meetings. |
 | [Hiring at Artsy](/hiring#readme) | How do we hire people |
