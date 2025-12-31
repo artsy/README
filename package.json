@@ -29,7 +29,7 @@
     "semi": false,
     "singleQuote": false,
     "bracketSpacing": true,
-    "proseWrap": "always"
+    "proseWrap": "never"
   },
   "license": "CC-BY-4.0"
 }

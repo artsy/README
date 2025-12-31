@@ -2,19 +2,14 @@
 
 # Goals of these documents
 
-These "playbooks" were inspired by [Thoughtbot's playbook](https://thoughtbot.com/playbook), as well as internal
-discussions of ways for Artsy's engineering team to share a common vision and hard-won lessons internally. It aims
-to make good decisions easy, leaving plenty of space for experiments and even radical departures, but improving
-consistency where helpful. Rather than a set of policies for everyone to conform to, it's here to:
+These "playbooks" were inspired by [Thoughtbot's playbook](https://thoughtbot.com/playbook), as well as internal discussions of ways for Artsy's engineering team to share a common vision and hard-won lessons internally. It aims to make good decisions easy, leaving plenty of space for experiments and even radical departures, but improving consistency where helpful. Rather than a set of policies for everyone to conform to, it's here to:
 
 - Help refine our own thinking
 - Create a forum for future discussion and iteration
 - Establish shared vocabulary
 - Offer a framework when it's desired
 
-This is a living document--a perpetual work in progress as we acquire new experiences, struggle through
-post-mortems, and experiment with new approaches. _You_ are the co-author, so when you're convinced a new tool or
-practice should be incorporated, submit a PR!
+This is a living document--a perpetual work in progress as we acquire new experiences, struggle through post-mortems, and experiment with new approaches. _You_ are the co-author, so when you're convinced a new tool or practice should be incorporated, submit a PR!
 
 <!-- prettier-ignore-start -->
 <!-- start_toc -->
@@ -32,7 +27,6 @@ practice should be incorporated, submit a PR!
 | [Future Friday](/playbooks/future-friday.md#readme) | What is Future Friday? |
 | [GraphQL Schema Design](/playbooks/graphql-schema-design.md#readme) | What are our best practices for GraphQL Schema Design? |
 | [Hokusai](/playbooks/hokusai.md#readme) | a CLI to manage applications deployed to Kubernetes |
-| [Incident Handling](https://www.notion.so/artsy/Incident-Handling-111cab0764a0808c993ec19b352cfab9?pvs=4#111cab0764a080f2a798e717a1610c46)🔒 | How engineers share on-call duties and provide urgent support |
 | [Jira](/playbooks/jira.md#readme) | Working with Jira boards and tickets |
 | [Kubernetes](/playbooks/kubernetes.md#readme) | Deploying containerized applications at Artsy |
 | [Migrating Redis](/playbooks/migrating-redis.md#readme) | How to migrate data between Redis instances. |
