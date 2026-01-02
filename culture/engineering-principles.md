@@ -5,14 +5,14 @@ description: What are the guiding principles that got us this far
 
 # Engineering Principles
 
-We have [company values][values], and are working on our shared values with design and product. However, when we
-make decisions on what and how to do engineering, we need guiding principles. These are the things that make
-Artsy's development culture unique and that drive us to do great work. For more information on how and why we
-defined our engineering guiding principles, check out [this blog post][blog].
+We have [company values][https://www.artsy.net/article/artsy-jobs-life-artsy], and are working on our shared values
+with design and product. However, when we make decisions on what and how to do engineering, we need guiding
+principles. These are the things that make Artsy's development culture unique and that drive us to do great work.
+For more information on how and why we defined our engineering guiding principles, check out [this blog
+post][blog].
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 
 - [Open Source by Default](#open-source-by-default)
 - [Psychological Safety](#psychological-safety)
@@ -58,8 +58,8 @@ Note that if an app has begun life as a closed-source project, it is still possi
 
 ### Psychological Safety
 
-At its core, engineering is the practice of learning. To learn effectively and to be productive, engineers
-**must** feel safe asking questions and discussing mistakes. Everyone in Artsy Engineering, but especially those in
+At its core, engineering is the practice of learning. To learn effectively and to be productive, engineers **must**
+feel safe asking questions and discussing mistakes. Everyone in Artsy Engineering, but especially those in
 leadership positions, are responsible for fostering a psychologically safe work environment. Specifically, that
 means:
 
@@ -235,5 +235,4 @@ project. It's done.
 [force]: https://github.com/artsy/force
 [eigen]: https://github.com/artsy/eigen
 [mp]: https://github.com/artsy/metaphysics
-[values]: https://github.com/artsy/README/blob/master/culture/what-is-artsy.md#artsy-in-a-nutshell
 [blog]: https://artsy.github.io/blog/2018/08/22/engineering-guiding-principles/

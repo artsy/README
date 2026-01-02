@@ -1,6 +1,6 @@
 ---
-name: Dependency RFC
-about: Sample template for a dependency RFC
+title: Dependency RFC
+description: Sample template for a dependency RFC
 ---
 
 ### New Dependency
