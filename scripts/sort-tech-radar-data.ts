@@ -1,3 +1,7 @@
+/**
+ * This script organizes technology radar entries in a consistent order for better readability and maintenance.
+ */
+
 import { readFileSync, writeFileSync } from "fs"
 
 const DATA_FILE = "./playbooks/technology_radar/artsy-tech-radar.csv"
@@ -16,6 +20,12 @@ const data = readFileSync(DATA_FILE, "utf8")
 
 const [headers, ...entries] = data.split("\n")
 
+/**
+ * Sorts entries by:
+ * - Ring (adopt → trial → assess → hold)
+ * - Quadrant (alphabetically)
+ * - Name (alphabetically)
+ */
 const sortedEntries = entries.filter(e => e.trim().length > 0).sort((a, b) => {
   const fieldsA = a.split(",")
   const fieldsB = b.split(",")
