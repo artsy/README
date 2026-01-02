@@ -2,7 +2,6 @@
 
 Welcome to Artsy! We're excited to have you and hope you'll find these resources helpful:
 
-- [What is Artsy?](/culture/what-is-artsy.md): our vision, mission, and values, as well as how the business works.
 - [Engineering Principles](/culture/engineering-principles.md)
 - [Engineering Introduction](/onboarding/engineering-introduction.md#readme): logistics, tools, and tips
 - [Engineer workflow](/playbooks/engineer-workflow.md): how we work together
