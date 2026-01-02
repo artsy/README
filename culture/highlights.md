@@ -8,7 +8,7 @@ description: What are the PRs/releases/ideas that got us to where we are?
 This is very much a living document, and likely missing things. so, please send PRs adding new (or old) events.
 
 - Aug 2009 - Exhibytes is [developed][exhibytes_design] at Princeton University
-- May 2010 - Art.sy wins Startup Battlefield "Yahoo! Rookie Award" at TechCrunch Disrupt 
+- May 2010 - Art.sy wins Startup Battlefield "Yahoo! Rookie Award" at TechCrunch Disrupt
 - Jan 2011 - Artsy's API: Gravity was [`git init`][grav_init]'d 🔒
 - Mar 2011 - Exhibytes is retired, data is migrated to Gravity
 - Jun 2011 - Art.sy is demoed to collectors at Fondation Beyeler during Art Basel 2011

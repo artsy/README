@@ -13,7 +13,6 @@ defined our engineering guiding principles, check out [this blog post][blog].
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [Open Source by Default](#open-source-by-default)
 - [Psychological Safety](#psychological-safety)
 - [Own Your Dependencies](#own-your-dependencies)
@@ -58,8 +57,8 @@ Note that if an app has begun life as a closed-source project, it is still possi
 
 ### Psychological Safety
 
-At its core, engineering is the practice of learning. To learn effectively and to be productive, engineers
-**must** feel safe asking questions and discussing mistakes. Everyone in Artsy Engineering, but especially those in
+At its core, engineering is the practice of learning. To learn effectively and to be productive, engineers **must**
+feel safe asking questions and discussing mistakes. Everyone in Artsy Engineering, but especially those in
 leadership positions, are responsible for fostering a psychologically safe work environment. Specifically, that
 means:
 

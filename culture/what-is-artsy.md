@@ -26,8 +26,8 @@ Artsy has 5 core values:
 
 ### For the Love of Art
 
-We have relentless curiosity, empathy, and passion for collectors, artists, and the art market. We are here to make 
-the art world more fair and welcoming  
+We have relentless curiosity, empathy, and passion for collectors, artists, and the art market. We are here to make
+the art world more fair and welcoming
 
 ### Own Our Outcomes
 
@@ -42,7 +42,7 @@ open art world starts with us.
 ### Transform Together
 
 Our mission asks us to challenge the status quo. We embrace feedback, learning, and change so that we can transform
-our industry, our company, and ourselves. 
+our industry, our company, and ourselves.
 
 ### Impact Over Perfection
 
