@@ -1,11 +1,11 @@
 ### Agile
 
-Documentation on agile concepts and activities
+The Agile practices adopted by our Product Development & Engineering (PDDE) teams
 
 <!-- prettier-ignore-start -->
 <!-- start_toc -->
 | Doc | Overview |
 |--|--|
-| [Team working agreement](/playbooks/agile/team-working-agreement.md) | Just a stub right now |
+| [https://www.notion.so/artsy/Team-Process-Handbook] | Team Process Handbook |
 <!-- end_toc -->
 <!-- prettier-ignore-end -->
