@@ -6,7 +6,6 @@ What makes an Engineer at Artsy succeed?
 <!-- start_toc -->
 | Doc | Overview |
 |--|--|
-| [Engineering Principles](/culture/engineering-principles.md#readme) | What are the guiding principles that got us this far |
 | [Artsy Engineering Automation via Peril](/culture/peril.md#readme) | How do we take on our workflow in GitHub |
 | [Communication via Slack](/culture/slack.md#readme) | How we use use Slack at Artsy |
 <!-- end_toc -->

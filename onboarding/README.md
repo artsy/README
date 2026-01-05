@@ -2,7 +2,6 @@
 
 Welcome to Artsy! We're excited to have you and hope you'll find these resources helpful:
 
-- [Engineering Principles](/culture/engineering-principles.md)
 - [Engineering Introduction](/onboarding/engineering-introduction.md#readme): logistics, tools, and tips
 - [Engineer workflow](/playbooks/engineer-workflow.md): how we work together
 - [Technology choices](/playbooks/technology-choices.md) at Artsy
