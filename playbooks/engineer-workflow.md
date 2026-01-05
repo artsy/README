@@ -13,6 +13,7 @@ description: How we work together
     - [Commit Messages](#commit-messages)
     - [Pull requests](#pull-requests)
       - [Assignees and Reviewers](#assignees-and-reviewers)
+      - [Sequencing](#sequencing)
     - [Code Reviews](#code-reviews)
     - [Testing](#testing)
     - [Deployment](#deployment)

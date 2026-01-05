@@ -13,8 +13,6 @@ the full playbook][rfc_playbook] for all the details!
 
 | Doc                                                                                                                     | Overview                                                                         |
 | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| [[TODO] add title via yml front-matter to RFCs/\_dependency_rfc_template.md](/RFCs/_dependency_rfc_template.md#readme)  | [TODO] add description via yml front-matter to RFCs/\_dependency_rfc_template.md |
-| [[TODO] add title via yml front-matter to RFCs/\_generic_rfc_template.md](/RFCs/_generic_rfc_template.md#readme)        | [TODO] add description via yml front-matter to RFCs/\_generic_rfc_template.md    |
 | [[TODO] add title via yml front-matter to RFCs/on-call-incident-review.md](/RFCs/on-call-incident-review.md#readme)     | [TODO] add description via yml front-matter to RFCs/on-call-incident-review.md   |
 | [[TODO] add title via yml front-matter to RFCs/platform-practice-4ps.md](/RFCs/platform-practice-4ps.md#readme)         | [TODO] add description via yml front-matter to RFCs/platform-practice-4ps.md     |
 | [[TODO] add title via yml front-matter to RFCs/switch-to-standardrb.md](/RFCs/switch-to-standardrb.md#readme)           | [TODO] add description via yml front-matter to RFCs/switch-to-standardrb.md      |
