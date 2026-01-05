@@ -5,8 +5,8 @@ description: A meetup where we share knowledge formally and informally across th
 
 # Knowledge Share
 
-> [!note] See [our Notion hub][ks_facilitation] 🔒 if you are looking for instructions on facilitating a Knowledge
-> Share session.
+> See [our Notion hub][ks_facilitation] 🔒 if you are looking for instructions on facilitating a Knowledge Share
+> session.
 
 When Artsy was under 50 people, we would hold "Brown Bag" meetings. These were talks on a variety of art+science
 topics. As we out-grew the format, we started doing engineering "Brown Bag" meetings. Occasionally.
