@@ -7,7 +7,9 @@ Move an entry to `artsy-tech-radar-archive.csv` if the technology is no longer p
 have assessed it and decided to _hold_ rather than adopt.
 
 NOTE: Order matters and there must be each of "adopt," "trial," "assess," and "hold" within the first quadrant or
-the radar will render rings out of order.
+the radar will render rings out of order. The script
+[sort-tech-radar-data.ts](../../scripts/sort-tech-radar-data.ts) sorts the current CSV. See the script itself for
+details.
 
 More information:
 

@@ -9,11 +9,11 @@ RFCs should be created by authoring a markdown file in the `/RFCs` folder and th
 <!-- prettier-ignore-start -->
 <!-- start_toc -->
 
-| Doc | Overview |
-| --- | --- |
-| [[TODO] add title via yml front-matter to RFCs/on-call-incident-review.md](/RFCs/on-call-incident-review.md#readme) | [TODO] add description via yml front-matter to RFCs/on-call-incident-review.md |
-| [[TODO] add title via yml front-matter to RFCs/platform-practice-4ps.md](/RFCs/platform-practice-4ps.md#readme) | [TODO] add description via yml front-matter to RFCs/platform-practice-4ps.md |
-| [[TODO] add title via yml front-matter to RFCs/switch-to-standardrb.md](/RFCs/switch-to-standardrb.md#readme) | [TODO] add description via yml front-matter to RFCs/switch-to-standardrb.md |
+| Doc                                                                                                                     | Overview                                                                         |
+| ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| [[TODO] add title via yml front-matter to RFCs/on-call-incident-review.md](/RFCs/on-call-incident-review.md#readme)     | [TODO] add description via yml front-matter to RFCs/on-call-incident-review.md   |
+| [[TODO] add title via yml front-matter to RFCs/platform-practice-4ps.md](/RFCs/platform-practice-4ps.md#readme)         | [TODO] add description via yml front-matter to RFCs/platform-practice-4ps.md     |
+| [[TODO] add title via yml front-matter to RFCs/switch-to-standardrb.md](/RFCs/switch-to-standardrb.md#readme)           | [TODO] add description via yml front-matter to RFCs/switch-to-standardrb.md      |
 | [[TODO] add title via yml front-matter to RFCs/use-prs-instead-of-issues.md](/RFCs/use-prs-instead-of-issues.md#readme) | [TODO] add description via yml front-matter to RFCs/use-prs-instead-of-issues.md |
 
 <!-- end_toc -->
