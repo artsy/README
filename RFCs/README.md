@@ -1,10 +1,8 @@
 ## Request For Comments
 
-A Request For Comments (or RFC) is how we change things, by opening a discussion that everyone can participate in
-and deciding if we want to move forward with the suggested change or not.
+A Request For Comments (or RFC) is how we change things, by opening a discussion that everyone can participate in and deciding if we want to move forward with the suggested change or not.
 
-RFCs should be created by authoring a markdown file in the `/RFCs` folder and then opening a pull request. [Read
-the full playbook][rfc_playbook] for all the details!
+RFCs should be created by authoring a markdown file in the `/RFCs` folder and then opening a pull request. [Read the full playbook][rfc_playbook] for all the details!
 
 [rfc_playbook]: /playbooks/rfcs.md
 
