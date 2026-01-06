@@ -41,7 +41,6 @@ practice should be incorporated, submit a PR!
 | [Renaming master branches to main](/playbooks/rename-master-to-main.md#readme) | a CLI to manage applications deployed to Kubernetes |
 | [How to run a retrospective](/playbooks/retrospectives.md#readme) | The why and how for running a retrospective |
 | [How to create an RFC at Artsy](/playbooks/rfcs.md#readme) | The steps needed to request cultural changes |
-| [How to run a Knowledge Share](/playbooks/running-knowledge-share.md#readme) | How to handle the people process for Knowledge Shares |
 | [System Criticality](/playbooks/system-criticality.md#readme) | A framework for treating systems differently according to how critical they are |
 | [Taming notifications](/playbooks/taming-notifications.md#readme) | How to set up notifications so that they leave you alone outside of working hours |
 | [Technical planning](/playbooks/technical-planning.md#readme) | How to write technical plans at Artsy |

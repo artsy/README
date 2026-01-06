@@ -33,7 +33,7 @@ The person who is facilitating the meeting should use the template below as an a
 
 ## After standup
 
-These notes are then copied into a [Notion][] document, and the link passed into #dev on Slack after standup.
+These notes are then copied into a [Notion][notion] document, and the link passed into #dev on Slack after standup.
 Everyone else leaves links to things they have commented on during the meeting, if they don't, we chase them up.
 
 Finally, **review this document** for ways to improve the instructions for next week's meeting.
@@ -87,7 +87,6 @@ _Optional: Q&A / Open Discussion_
 -
 ```
 
-[ll]: https://github.com/artsy/README/blob/master/events/knowledge-share.md
 [ks_schedule]: https://www.notion.so/artsy/Knowledge-Share-1fe45e51cb29434193f7a653cca19294
 [notion]: https://www.notion.so/artsy/Standup-Notes-28a5dfe4864645788de1ef936f39687c
 [standup_blog]: https://artsy.github.io/blog/2018/05/07/fully-automated-standups/
