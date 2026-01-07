@@ -2,14 +2,19 @@
 
 # Goals of these documents
 
-These "playbooks" were inspired by [Thoughtbot's playbook](https://thoughtbot.com/playbook), as well as internal discussions of ways for Artsy's engineering team to share a common vision and hard-won lessons internally. It aims to make good decisions easy, leaving plenty of space for experiments and even radical departures, but improving consistency where helpful. Rather than a set of policies for everyone to conform to, it's here to:
+These "playbooks" were inspired by [Thoughtbot's playbook](https://thoughtbot.com/playbook), as well as internal
+discussions of ways for Artsy's engineering team to share a common vision and hard-won lessons internally. It aims
+to make good decisions easy, leaving plenty of space for experiments and even radical departures, but improving
+consistency where helpful. Rather than a set of policies for everyone to conform to, it's here to:
 
 - Help refine our own thinking
 - Create a forum for future discussion and iteration
 - Establish shared vocabulary
 - Offer a framework when it's desired
 
-This is a living document--a perpetual work in progress as we acquire new experiences, struggle through post-mortems, and experiment with new approaches. _You_ are the co-author, so when you're convinced a new tool or practice should be incorporated, submit a PR!
+This is a living document--a perpetual work in progress as we acquire new experiences, struggle through
+post-mortems, and experiment with new approaches. _You_ are the co-author, so when you're convinced a new tool or
+practice should be incorporated, submit a PR!
 
 <!-- prettier-ignore-start -->
 <!-- start_toc -->

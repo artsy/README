@@ -23,8 +23,7 @@ The person handling the talking parts does this stuff ten minutes before standup
 - Make sure on-call staff are prepared to give an update about the past week's incidents. (if you were on call,
   great! If you weren't, remind your partner.)
 - Check the [Knowledge Share schedule][ks_schedule].
-- The meeting starts with props (as a nod towards [People are Paramount][pplp]) and you should begin with giving
-  props of your own.
+- The meeting starts with props and you should begin with giving props of your own.
 
 ### During standup
 
@@ -34,7 +33,7 @@ The person who is facilitating the meeting should use the template below as an a
 
 ## After standup
 
-These notes are then copied into a [Notion][] document, and the link passed into #dev on Slack after standup.
+These notes are then copied into a [Notion][notion] document, and the link passed into #dev on Slack after standup.
 Everyone else leaves links to things they have commented on during the meeting, if they don't, we chase them up.
 
 Finally, **review this document** for ways to improve the instructions for next week's meeting.
@@ -88,7 +87,6 @@ _Optional: Q&A / Open Discussion_
 -
 ```
 
-[pplp]: https://github.com/artsy/README/blob/master/culture/what-is-artsy.md#people-are-paramount
 [ks_schedule]: https://www.notion.so/artsy/Knowledge-Share-1fe45e51cb29434193f7a653cca19294
 [notion]: https://www.notion.so/artsy/Standup-Notes-28a5dfe4864645788de1ef936f39687c
 [standup_blog]: https://artsy.github.io/blog/2018/05/07/fully-automated-standups/

@@ -26,6 +26,7 @@ There are a few other useful dev-related slacks:
 
 Each product team maintains a `#product-<name>` channel which is the primary location for discussion, sharing, and
 decision-making. Join and monitor your team's. Join other teams' channels, too. The more the merrier.
+
 - [#team-pdde](https://artsy.slack.com/messages/team-pdde) 🔒: The whole product organization
 - [#product-updates](https://artsy.slack.com/messages/product-updates) 🔒: New features or releases
 
