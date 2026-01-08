@@ -16,12 +16,8 @@ and be open with your team about when you expect to be available.
 
 ### Vacation
 
-Artsy has an open vacation policy. This doesn't mean "don't take vacation." _Please take time off._ Most people
-take off for bank holidays.
+Artsy has an open vacation policy. This doesn't mean "don't take vacation." _Please take time off._ For the details please refer to the [Artsy Handbook](https://www.notion.so/artsy/Policies-Guides-49ee8f19b59d41ad988f519fa80aa22d) 🔒 for your country of residency. 
 
-Join the
-[Design/Product OOO calendar](https://calendar.google.com/calendar/embed?src=artsymail.com_gl81jptn59gjfv1kg0fer1i4jo%40group.calendar.google.com&ctz=America%2FNew_York)
-and use that to set when you know you'll be out of the office or unavailable.
 
 ### Chat
 
@@ -34,7 +30,7 @@ See the [events list](/events) for descriptions of our recurring, engineering-wi
 [Engineering - Open Meetings calendar](https://calendar.google.com/calendar/r?cid=YXJ0c3ltYWlsLmNvbV9nODFpbzRhOThkZHZuMWloMWEzbG0yb2NkNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 to see when they are scheduled and feel free to add yourself to any (or just show up).
 
-We have an engineering team-wide standup on _Mondays at 12:00 p.m. Eastern_ where we:
+We have an engineering team-wide standup on _Mondays at 11:45 a.m. Eastern (5:45 p.m. CET; 4:45 p.m. GMT)_ where we:
 
 - Share any team updates
 - Mention significant project milestones or new repositories
@@ -178,6 +174,6 @@ Teams at Artsy work with product management via [Jira](https://artsyproduct.atla
 
 PDDE-wide, the 2nd Friday of each sprint is "Future Friday." This is a lightweight process focused on collecting ideas about longer-term opportunities during the course of day-to-day work.
 
-Conversations can be labeled with #ff so they're find-able later. When Friday comes (if you're so compelled), choose a direction to explore/experiment and report back any results at end-of-day. Participation is optional and collaborations are encouraged.
+When Friday comes (if you're so compelled), choose a direction to explore/experiment and report back any results at end-of-day in the slack channel [#future-friday](https://artsy.slack.com/archives/C01DN9S9AKY) 🔒. Participation is optional and collaborations are encouraged.
 
 You can read more in the original [RFC](https://github.com/artsy/potential/issues/146) and [blog post](https://artsy.github.io/blog/2015/12/22/future-fridays/).

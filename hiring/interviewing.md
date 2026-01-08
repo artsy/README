@@ -23,9 +23,8 @@ virtually meet you!
 
 At a high level, our interviews have four stages:
 
-- [**Recruiter Interview**](#recruiter-interview): 30 minute video call with a member of our Talent Acquisition
-  Team
-- [**Hiring Manager Interview**](#hiring-manager-interview): 45 minute video interview with an Engineering Manager
+- [**Recruiter Interview**](#recruiter-interview): 30 minute video call with a member of our Talent Acquisition Team
+- [**Hiring Manager Interview**](#hiring-manager-interview): 60 minute video interview with an Engineering Manager
 - [**Team Interviews**](#team-interviews): Our standard interview loop. Includes four interviews with engineers and
   non-engineers.
 - [**Leadership Interview**](#leadership-interview): Final 45 minute interview with an Engineering Director
@@ -61,44 +60,9 @@ During your team interviews, you will participate in four one to one interviews 
 to keep our interview process as speedy as possible. Your recruiter can provide more specific information for each
 role or answer any questions you have on how to prepare.
 
-#### 1. Peer (Engineer)
+#### 1. System Design
 
-This interview will be with an engineer. We have a semi-fluid team structure, so this person may or may not be on
-the same team as this role.
-
-The goal of this interview is to learn about your experience collaborating with other engineers. Like the hiring
-manager interview, this is non-technical but be prepared to discuss past experiences.
-
-#### 2. Peer (Non-Engineer)
-
-This interview will be with a member of our Product, Design or Data teams.
-
-Similar to the Peer (Engineer) interview above, this is non-technical but you should be prepared to discuss past
-experiences and especially collaboration with non-technical colleagues.
-
-#### 3. Technical Fluency
-
-This interview will be with an engineer. The focus of this interview varies for different levels and specialties.
-Most likely, the person you interview with will be someone with experience relevant to the role.
-
-In this interview, we will be assessing your ability to write and reason about code. We want this process to be as
-smooth as possible for you, and so we let you choose between one of three options:
-
-- Code sample (where you send us code you’ve already written, followed by an in-person discussion about it)
-- Take-home exercise (where we give you an exercise and you spend a limited time on it, followed by a short
-  in-person discussion), or
-- Pair programming exercise (where you complete an exercise with another engineer, switching drivers and
-  collaborating as you would in a standard pair programming environment, followed by a short debrief).
-
-All of the options are equal from our perspective, so we encourage you to choose the one that feels best for you.
-Your recruiter can share more details around the length of these interviews including the at home preparation time
-vs. time during the call with an Engineer.
-
-#### 4. System Design
-
-This interview is with an engineer, and lasts an hour. Here, you will be presented a scenario and asked to design a
-system\*. You are expected to take us through your thought process and may use a whiteboard (or equivalent in a
-remote setup) to explain your work, but you will not be asked to code anything.
+This interview is with two engineers, and lasts an hour. Here, you will be presented a scenario and asked to design a system\*. You are expected to take us through your thought process and may use a whiteboard (or equivalent in a remote setup) to explain your work, but you will not be asked to code anything.
 
 In this interview, we're evaluating the following key areas:
 
@@ -106,16 +70,31 @@ In this interview, we're evaluating the following key areas:
 - Decision-making: What factors are you employing when making decisions? Can you explain why you chose X or Y?
 - Communication: We want to hear your thought-process and assumptions as you make them.
 
-\*"System" is used generically here to represent a chunk of an ecosystem. We tailor the prompt to the specific
-role, so for example if it's an iOS role, you may be asked to design a feature in an iOS app; if it's a full stack
-role, it could be something like a simple architecture for notifications. We're not trying to trick you here or
-catch you out, we just want hear how you leverage your knowledge and experience.
+\*"System" is used generically here to represent a chunk of an ecosystem. We tailor the prompt to the specific role, so for example if it's an iOS role, you may be asked to design a feature in an iOS app; if it's a full stack role, it could be something like a simple architecture for notifications. We're not trying to trick you here or catch you out, we just want hear how you leverage your knowledge and experience.
+
+Similar to the Peer (Engineer) interview above, this is non-technical but you should be prepared to discuss past
+experiences and especially collaboration with non-technical colleagues.
+
+#### 2. Technical Fluency
+
+This interview will be with two engineers and might be combined with the Systems design interview. The focus of this interview varies for different levels and specialties. Most likely, the person you interview with will be someone with experience relevant to the role. You will be presented with a Pull request and we ask you to read through the code an explain it to us. Then we will ask you to find errors or suggest improvements.
+
+
+#### 3. Peer (Non-Engineer)
+
+This interview will be with a member of our Product, Design or Data teams.
+
+Similar to the Peer (Engineer) interview above, this is non-technical but you should be prepared to discuss past experiences and especially collaboration with non-technical colleagues.
+
+### 4. Values
+
+This interview will be with a member of our People team. 
+
+This is non-technical and aims to asses whether you are a cultural fit for our team. You can find the most up-to-date company values in the job description at [artsy.net/jobs](https://www.artsy.net/jobs).
 
 ### Leadership Interview
 
-This will be your final interview with an Engineering Director. This is a final opportunity for you to ask any
-outstanding questions about Artsy, the role and expectations. We will ask a handful of competency questions to
-assess your potential for growth, self-motivation and alignment with our core values.
+This will be your final interview with an Engineering Director. This is a final opportunity for you to ask any outstanding questions about Artsy, the role and expectations. We will ask a handful of last questions.
 
 ### References
 
@@ -140,10 +119,8 @@ for more details. Whilst it was written in January 2019, there is still some rel
   etc.
 - You are not required to have a deep knowledge of Artsy's product or engineering team before interviewing, but it
   can be helpful to do some research ahead of time as a way to frame your questions or discussion. We recommend
-  poking around [artsy.net](https://www.artsy.net/), looking at our [engineering blog](https://artsy.github.io/)
-  and [Engineering Radio](https://open.spotify.com/show/0gJYxpqN6P11dbjNw8VT2a) podcast.
+  poking around [artsy.net](https://www.artsy.net/), looking at our [engineering blog](https://artsy.github.io/) and [Engineering Radio](https://open.spotify.com/show/0gJYxpqN6P11dbjNw8VT2a) podcast.
 
 ### Additional Resources
 
-- This page about our hiring process was updated in July 2022! For details around the exact structure of your
-  upcoming interviews, feel free to connect with your recruiter who can provide more information.
+- This page about our hiring process was updated in Jan 2026! For details around the exact structure of your upcoming  interviews, feel free to connect with your recruiter who can provide more information.
