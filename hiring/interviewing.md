@@ -5,13 +5,21 @@ description: An overview of our interview process
 
 ## What to expect from an Artsy interview
 
-We're excited that you've decided to interview for a job at Artsy! This document will cover our standard interview process. Our goal is to give you the information you need to feel prepared.
+We're excited that you've decided to interview for a job at Artsy! This document will cover our standard interview
+process. Our goal is to give you the information you need to feel prepared.
 
-We'll update this as often as we can when things change, but note that the details may shift slightly. Our Recruitment team will be available to answer any questions you may have throughout the hiring process! You can reach them on recruitment@artsymail.com or reach out to your recruiter directly. 
+We'll update this as often as we can when things change, but note that the details may shift slightly. Our
+Recruitment team will be available to answer any questions you may have throughout the hiring process! You can
+reach them on recruitment@artsymail.com or reach out to your recruiter directly.
 
-This guide is tailored to our standard interviews for most individual-contributor roles. The content of the interviews may change slightly based on the level, but the ethos will be the same. If you are interviewing for an Engineering Manager or leadership role, the process is roughly the same as the below, however the themes of questions will vary. You will also meet with other Engineering Managers and an Engineer who you might manage if you join us! 
+This guide is tailored to our standard interviews for most individual-contributor roles. The content of the
+interviews may change slightly based on the level, but the ethos will be the same. If you are interviewing for an
+Engineering Manager or leadership role, the process is roughly the same as the below, however the themes of
+questions will vary. You will also meet with other Engineering Managers and an Engineer who you might manage if you
+join us!
 
-All of the interviews are conducted via zoom video call, we have a ‘video on’ culture at Artsy and are excited to virtually meet you!
+All of the interviews are conducted via zoom video call, we have a ‘video on’ culture at Artsy and are excited to
+virtually meet you!
 
 At a high level, our interviews have four stages:
 
@@ -21,25 +29,36 @@ At a high level, our interviews have four stages:
   non-engineers.
 - [**Leadership Interview**](#leadership-interview): Final 45 minute interview with an Engineering Director
 
-After the interviews, we will ask you to provide 2-3 professional [references](#references) (this part is the same for interviews across Artsy, regardless of which role you are interviewing for).
+After the interviews, we will ask you to provide 2-3 professional [references](#references) (this part is the same
+for interviews across Artsy, regardless of which role you are interviewing for).
 
 ### Recruiter Interview
 
-As a very first step, you’ll speak with one of our recruiters. These conversations are a way for us to learn more about you, what motivates you, and gauge whether Artsy and the opportunity aligns with your career goals.
+As a very first step, you’ll speak with one of our recruiters. These conversations are a way for us to learn more
+about you, what motivates you, and gauge whether Artsy and the opportunity aligns with your career goals.
 
-**How to prepare**: Be prepared to speak to the work you’ve accomplished on your resume—we may ask you to describe a recent project and/or specific technologies you’ve used in the past. Also make sure to come prepared with questions to ask your interviewer. Remember, this is also for _you_ to make sure Artsy would be a good fit!
+**How to prepare**: Be prepared to speak to the work you’ve accomplished on your resume—we may ask you to describe
+a recent project and/or specific technologies you’ve used in the past. Also make sure to come prepared with
+questions to ask your interviewer. Remember, this is also for _you_ to make sure Artsy would be a good fit!
 
 ### Hiring Manager Interview
 
-This interview is with the hiring manager for the role. The hiring manager will be an Engineering Manager on the team, and in _most_ cases, will be your people manager if you are to join Artsy.
+This interview is with the hiring manager for the role. The hiring manager will be an Engineering Manager on the
+team, and in _most_ cases, will be your people manager if you are to join Artsy.
 
-This interview focuses on the capabilities described in [our engineering ladder](/careers/ladder.md#readme). You will not be asked to whiteboard, but be prepared to talk about past experiences working on teams or projects.
+This interview focuses on the capabilities described in [our engineering ladder](/careers/ladder.md#readme). You
+will not be asked to whiteboard, but be prepared to talk about past experiences working on teams or projects.
 
-**How to prepare**: Be prepared to answer example/evidence based questions (also known as competency questions) with examples from your past experience. We recommend familiarising yourself with the [STAR](https://www.indeed.com/hire/c/info/star-interview-format?gclid=Cj0KCQiAubmPBhCyARIsAJWNpiNRbpkF0ySYh7vZSbZyI4v7i7oYZpY8iBNYBDjKz3qnv8JCxxJGCscaAvVeEALw_wcB&aceid=) interviewing framework.
+**How to prepare**: Be prepared to answer example/evidence based questions (also known as competency questions)
+with examples from your past experience. We recommend familiarising yourself with the
+[STAR](https://www.indeed.com/hire/c/info/star-interview-format?gclid=Cj0KCQiAubmPBhCyARIsAJWNpiNRbpkF0ySYh7vZSbZyI4v7i7oYZpY8iBNYBDjKz3qnv8JCxxJGCscaAvVeEALw_wcB&aceid=)
+interviewing framework.
 
 ### Team Interviews
 
-During your team interviews, you will participate in four one to one interviews that vary in length. We do our best to keep our interview process as speedy as possible. Your recruiter can provide more specific information for each role or answer any questions you have on how to prepare.
+During your team interviews, you will participate in four one to one interviews that vary in length. We do our best
+to keep our interview process as speedy as possible. Your recruiter can provide more specific information for each
+role or answer any questions you have on how to prepare.
 
 #### 1. System Design
 
@@ -53,6 +72,8 @@ In this interview, we're evaluating the following key areas:
 
 \*"System" is used generically here to represent a chunk of an ecosystem. We tailor the prompt to the specific role, so for example if it's an iOS role, you may be asked to design a feature in an iOS app; if it's a full stack role, it could be something like a simple architecture for notifications. We're not trying to trick you here or catch you out, we just want hear how you leverage your knowledge and experience.
 
+Similar to the Peer (Engineer) interview above, this is non-technical but you should be prepared to discuss past
+experiences and especially collaboration with non-technical colleagues.
 
 #### 2. Technical Fluency
 
@@ -79,9 +100,14 @@ This will be your final interview with an Engineering Director. This is a final 
 
 At the end of our process,we'll ask to connect with your professional references.
 
-References are an important part of Artsy's hiring strategy across all roles. We’ll ask for two to three references—these should be a combination of direct managers and close collaborators. If you’re unable to provide us with a couple of references or aren’t sure who to provide (i.e. if you’ve been in the same job your whole career), let us know and we'll figure something out!
+References are an important part of Artsy's hiring strategy across all roles. We’ll ask for two to three
+references—these should be a combination of direct managers and close collaborators. If you’re unable to provide us
+with a couple of references or aren’t sure who to provide (i.e. if you’ve been in the same job your whole career),
+let us know and we'll figure something out!
 
-These calls last between 15-30 minutes and we'll ask your references in-depth questions about their experience working with you. See [this blog post on hiring](https://artsy.github.io/blog/2019/01/23/artsy-engineering-hiring/) for more details. Whilst it was written in January 2019, there is still some relevant information!
+These calls last between 15-30 minutes and we'll ask your references in-depth questions about their experience
+working with you. See [this blog post on hiring](https://artsy.github.io/blog/2019/01/23/artsy-engineering-hiring/)
+for more details. Whilst it was written in January 2019, there is still some relevant information!
 
 ### General Tips
 

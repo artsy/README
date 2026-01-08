@@ -5,17 +5,13 @@ description: Career development at Artsy
 
 # Engineering Ladder
 
-This documents Artsy's Engineering Ladder. The Engineering Ladder is a framework to help evaluate performance,
-goals, and compensation for engineers at Artsy. Our ladder was first established and opened in 2015, which you can
-read more about [on our blog](https://artsy.github.io/blog/2015/04/03/artsy-engineering-compensation-framework/).
+This documents Artsy's Engineering Ladder, a framework to help evaluate performance, goals, and compensation for
+engineers at Artsy. It is synced up with the Artsy
+[company-wide framework 🔑](https://docs.google.com/spreadsheets/d/1rw7wEUvigrD_0Vb50Bzz35BQxo58tFwHhDJAS7v5pLU/edit?gid=1253823157#gid=1253823157)
+for levels and titles.
 
-Since then Artsy has synced up with the Artsy
-[company-wide framework 🔑](https://docs.google.com/spreadsheets/d/1SJXiaA5TYQxqDQmOiVG5NjLj3FFaAAC6aFVVB40bUAs/edit#gid=1182416267)
-for levels and titles and we have added Technical Lead levels to the framework.
-
-This document is open and evolving. We encourage you to submit issues or pull requests to suggest changes and
-ensure our framework is doing the best it can to help Artsy fairly evaluate compensation and career growth for
-engineers.
+This document is open and evolving. We encourage you to submit issues or start an RFC to suggest changes and ensure
+our framework is doing the best it can to help Artsy fairly evaluate compensation and career growth for engineers.
 
 ## Tracks
 
@@ -33,10 +29,6 @@ contributor ladder.
 | Staff Engineer         | IC6            | M4            | Senior Engineering Manager     |
 | Senior Staff Engineer  | IC7            | M5            | Director of Engineering        |
 | Principal Engineer     | IC8            | M6            | Senior Director of Engineering |
-
-### How promotions work
-
-TODO
 
 ## Individual Contributors
 
@@ -87,12 +79,24 @@ appropriate levels of specificity to enable meaningful career development conver
   - Nature of guidance provided to others
 
 ### Bragging Document
-It can be helpful to maintain a bragging document to really understand the ladder and also to get your work recognized. Julia Evans has put it really well in her [blog post](https://jvns.ca/blog/brag-documents/) explaining that neither you nor your manager will remember everything you did. To help you track your work and also get alignment with your manager on where you are standing in terms of performance you can use this [template](https://docs.google.com/spreadsheets/d/1yPZeLhkFjlEMUfstDvOXxQXLqBKmr-I-xD0uUwdO2Zc/edit#gid=0) as a base for your bragging. It also contains some real world bragging examples of fellow Artsy engineers.
 
+It can be helpful to maintain a bragging document to really understand the ladder and also to get your work
+recognized. Julia Evans has put it really well in her [blog post](https://jvns.ca/blog/brag-documents/) explaining
+that neither you nor your manager will remember everything you did. To help you track your work and also get
+alignment with your manager on where you are standing in terms of performance you can use this
+[template](https://docs.google.com/spreadsheets/d/1yPZeLhkFjlEMUfstDvOXxQXLqBKmr-I-xD0uUwdO2Zc/edit#gid=0) as a
+base for your bragging. It also contains some real world bragging examples of fellow Artsy engineers.
 
 ### Visualisation
 
-To help with the visualisation of the ladder we have created this visual, inspired by [honeycomb.io](https://www.honeycomb.io/blog/engineering-levels-at-honeycomb/). It is not perfect but it allows for a quick overview of the levels in terms of impact as well as ownership. We wanted to show that each level encompasses the previous levels and there is flexibility in how to interpret and operate on each level based on individual interests. As mentioned in the linked article "...someone might operate at a higher level of ownership in a smaller scope or at a smaller level of ownership at a larger scope, or somewhere in between. Of course, there is value in growing in both dimensions, but it is more common to stretch in one direction or the other at any given point."
+To help with the visualisation of the ladder we have created this visual, inspired by
+[honeycomb.io](https://www.honeycomb.io/blog/engineering-levels-at-honeycomb/). It is not perfect but it allows for
+a quick overview of the levels in terms of impact as well as ownership. We wanted to show that each level
+encompasses the previous levels and there is flexibility in how to interpret and operate on each level based on
+individual interests. As mentioned in the linked article "...someone might operate at a higher level of ownership
+in a smaller scope or at a smaller level of ownership at a larger scope, or somewhere in between. Of course, there
+is value in growing in both dimensions, but it is more common to stretch in one direction or the other at any given
+point."
 
 <img src="./images/artsy-career-ladder.png" width="600" title="Artsy career ladder visualisation" alt="Artsy career ladder visualisation">
 
@@ -563,13 +567,17 @@ To help with the visualisation of the ladder we have created this visual, inspir
 
 ## Technical Leads
 
-Every team at Artsy has a Technical Lead who is part of the Core Team (Product Manager, Technical Lead, Data Analyst, Product Designer and Engineering Manager). The Technical Lead's key responsibilities are:
+Every team at Artsy has a Technical Lead who is part of the Core Team (Product Manager, Technical Lead, Data
+Analyst, Product Designer and Engineering Manager). The Technical Lead's key responsibilities are:
 
-- Partnering closely with the rest of the Core Team to jointly lead the team and deliver business value effectively (including proactively defining team strategy, roadmap, project scoping and milestone definitions, etc.)
+- Partnering closely with the rest of the Core Team to jointly lead the team and deliver business value effectively
+  (including proactively defining team strategy, roadmap, project scoping and milestone definitions, etc.)
 - Driving the team's technology choices and aligning their decisions with the rest of the Engineering organization
 - Ensuring successful project delivery.
 
-Taking on a Technical Lead role is a great opportunity for someone to expand their impact (including to expand scope, to achieve team wide impact, or to pave the way towards an Engineering Management career). Throughout their career, an Individual Contributor or an Engineering Manager may swap in and out of this Technical Lead role.
+Taking on a Technical Lead role is a great opportunity for someone to expand their impact (including to expand
+scope, to achieve team wide impact, or to pave the way towards an Engineering Management career). Throughout their
+career, an Individual Contributor or an Engineering Manager may swap in and out of this Technical Lead role.
 
 See
 [this document](https://www.notion.so/artsy/Artsy-Tech-Lead-Expanded-Responsibilities-Public-710ee0cd2fce47dcaa722ece80e365b2)
@@ -577,10 +585,14 @@ for an expanded set of Tech Lead Responsibilities at Artsy.
 
 ## Engineering Management
 
-A manager’s role at Artsy balances people management responsibilities with team delivery responsibilities. 
-As a people manager, they are responsible for hiring, retaining, growing and managing the performance of their reports.
-Additionally, they're expected to significantly impact teams' success through their own technical contribution and/or delivery management. Delivery management is broadly defined here as any non-coding activity that will help the team ship faster, with better quality, and with increased impact (for instance: improving team processes, mitigating risks around release planning, facilitating internal and external communication).
-As an engineering manager grows at Artsy, their scope of impact will increase from one team to multiple teams and from managing ICs to managing ICs and other EMs.
+A manager’s role at Artsy balances people management responsibilities with team delivery responsibilities. As a
+people manager, they are responsible for hiring, retaining, growing and managing the performance of their reports.
+Additionally, they're expected to significantly impact teams' success through their own technical contribution
+and/or delivery management. Delivery management is broadly defined here as any non-coding activity that will help
+the team ship faster, with better quality, and with increased impact (for instance: improving team processes,
+mitigating risks around release planning, facilitating internal and external communication). As an engineering
+manager grows at Artsy, their scope of impact will increase from one team to multiple teams and from managing ICs
+to managing ICs and other EMs.
 
 ### tl;dr
 

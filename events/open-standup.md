@@ -18,11 +18,10 @@ team up with the engineer that started the preceding Wednesday. **Pick one perso
 ### Ten minutes before a standup
 
 The person handling the talking parts does this stuff ten minutes before standup:
-
 - `@here`s the dev channel.
 - Creates the new standup notes doc using the predefiend template in [Notion][].
-- The meeting starts with props (as a nod towards [People are Paramount][pplp]) and you should begin with giving
-  props of your own.
+- Check the [Knowledge Share schedule][ks_schedule].
+- The meeting starts with props and you should begin with giving props of your own.
 
 ### During standup
 
@@ -30,13 +29,60 @@ The person who is facilitating the meeting follows the structure of the standup 
 
 ## After standup
 
-The link to the [Notion][] document is shared into #dev on Slack after standup.
+These notes are then copied into a [Notion][notion] document, and the link passed into #dev on Slack after standup.
+Everyone else leaves links to things they have commented on during the meeting, if they don't, we chase them up.
 
 Finally, **review this document** for ways to improve the instructions for next week's meeting.
 
+## Our Markdown Template
 
-[pplp]: https://github.com/artsy/README/blob/master/culture/what-is-artsy.md#people-are-paramount
-[ll]: https://github.com/artsy/README/blob/master/events/knowledge-share.md
+```md
+_Props_
+
+-
+
+_Company Updates & Important Communication_
+
+-
+
+_Practice Updates_
+
+- Mobile:
+- Web:
+- Platform:
+
+_On-call Support Updates_
+
+- This week, @personC and @personD will be on-call for support until Wednesday, when @personE rotates on.
+- Last week, we saw the following notable incidents (please include follow-up details).
+- Incident Review schedule has N postmortems to review, next meeting is on X Day with @personZ as the speaker.
+
+_Cross-dependencies / Requests for Pairing_
+
+-
+
+_Open RFCs (see #dev for list 9am EST on Mondays) or technical plans under consideration_
+
+-
+
+_New Milestones / Repos / Blog Posts / Podcast Episodes / New features or updated functionality released: prompt
+Amber, Diamond, Emerald, Onyx, Sapphire_
+
+-
+
+_Knowledge Share_
+
+-
+
+_Closing Announcements_
+
+-
+
+_Optional: Q&A / Open Discussion_
+
+-
+```
+
 [ks_schedule]: https://www.notion.so/artsy/Knowledge-Share-1fe45e51cb29434193f7a653cca19294
 [notion]: https://www.notion.so/artsy/Standup-Notes-28a5dfe4864645788de1ef936f39687c
 [standup_blog]: https://artsy.github.io/blog/2018/05/07/fully-automated-standups/

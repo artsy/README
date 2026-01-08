@@ -32,8 +32,6 @@ practice should be incorporated, submit a PR!
 | [Future Friday](/playbooks/future-friday.md#readme) | What is Future Friday? |
 | [GraphQL Schema Design](/playbooks/graphql-schema-design.md#readme) | What are our best practices for GraphQL Schema Design? |
 | [Hokusai](/playbooks/hokusai.md#readme) | a CLI to manage applications deployed to Kubernetes |
-| [Incident Handling](https://www.notion.so/artsy/Incident-Handling-111cab0764a0808c993ec19b352cfab9?pvs=4#111cab0764a080f2a798e717a1610c46)🔒 | How engineers share on-call duties and provide urgent support |
-| [How to give a good Informational](/playbooks/informationals.md#readme) | What are the steps needed to give someone a great experience. |
 | [Jira](/playbooks/jira.md#readme) | Working with Jira boards and tickets |
 | [Kubernetes](/playbooks/kubernetes.md#readme) | Deploying containerized applications at Artsy |
 | [Migrating Redis](/playbooks/migrating-redis.md#readme) | How to migrate data between Redis instances. |
@@ -43,7 +41,6 @@ practice should be incorporated, submit a PR!
 | [Renaming master branches to main](/playbooks/rename-master-to-main.md#readme) | a CLI to manage applications deployed to Kubernetes |
 | [How to run a retrospective](/playbooks/retrospectives.md#readme) | The why and how for running a retrospective |
 | [How to create an RFC at Artsy](/playbooks/rfcs.md#readme) | The steps needed to request cultural changes |
-| [How to run a Knowledge Share](/playbooks/running-knowledge-share.md#readme) | How to handle the people process for Knowledge Shares |
 | [System Criticality](/playbooks/system-criticality.md#readme) | A framework for treating systems differently according to how critical they are |
 | [Taming notifications](/playbooks/taming-notifications.md#readme) | How to set up notifications so that they leave you alone outside of working hours |
 | [Technical planning](/playbooks/technical-planning.md#readme) | How to write technical plans at Artsy |
