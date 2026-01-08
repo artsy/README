@@ -27,6 +27,12 @@ readmeFolders.forEach(folder => {
 
   // We want to swap out the center of a toc with a new version of the README
   const content = fs.readFileSync(readmePath, "utf8")
+
+  // Check if TOC markers exist
+  if (!content.includes(aboveTOC) || !content.includes(belowTOC)) {
+    throw new Error(`${readmePath} is missing TOC markers (${aboveTOC} and/or ${belowTOC})`)
+  }
+
   const before = `${content.split(aboveTOC)[0]}${aboveTOC}\n`
   const after = `\n${belowTOC}${content.split(belowTOC)[1]}`
 
@@ -58,6 +64,12 @@ readmeFolders.forEach(folder => {
 
 // Edit the root README to highlight the areas of docs
 const content = fs.readFileSync("README.md", "utf8")
+
+// Check if TOC markers exist
+if (!content.includes(aboveTOC) || !content.includes(belowTOC)) {
+  throw new Error(`README.md is missing TOC markers (${aboveTOC} and/or ${belowTOC})`)
+}
+
 const before = `${content.split(aboveTOC)[0]}${aboveTOC}\n`
 const after = `\n${belowTOC}${content.split(belowTOC)[1]}`
 
