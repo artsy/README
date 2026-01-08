@@ -30,7 +30,7 @@ See the [events list](/events) for descriptions of our recurring, engineering-wi
 [Engineering - Open Meetings calendar](https://calendar.google.com/calendar/r?cid=YXJ0c3ltYWlsLmNvbV9nODFpbzRhOThkZHZuMWloMWEzbG0yb2NkNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 to see when they are scheduled and feel free to add yourself to any (or just show up).
 
-We have an engineering team-wide standup on _Mondays at 11:45 a.m. Eastern_ where we:
+We have an engineering team-wide standup on _Mondays at 11:45 a.m. Eastern (5:45 p.m. CET; 4:45 p.m. GMT)_ where we:
 
 - Share any team updates
 - Mention significant project milestones or new repositories

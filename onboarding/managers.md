@@ -8,7 +8,7 @@ description: Things for managers to remember during the early days of onboarding
 ### Before Day 1
 
 - [ ] Choose an [onboarding mentor](/onboarding/mentors.md#the-onboarding-mentor) for the new hire. 
-- [ ] Create [an onboarding github issue](https://github.com/artsy/potential/issues/new?template=engineering-onboarding.md) based on the onboarding template. Tag the onboarding mentor and label the issue as `onboarding`. Also invite the team to say hi, as this is a place that the new hire should always be able to find easily in the future.
+- [ ] Create [an onboarding github issue](https://github.com/artsy/potential/issues/new?template=engineering-onboarding.md) 🔒 based on the onboarding template. Tag the onboarding mentor and label the issue as `onboarding`. Also invite the team to say hi, as this is a place that the new hire should always be able to find easily in the future.
 - [ ] Set first-week schedule
 - [ ] Invite new hire to all engineering-wide meetings
 - [ ] Determine [sprint rotation plan](/onboarding/sprint-rotation.md)

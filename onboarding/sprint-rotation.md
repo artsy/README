@@ -24,17 +24,15 @@ Managers will arrange for new engineers to join a sequence of 2 or more teams fo
 - Schedule a 1:1 to get to know them and learn about their rotation expectations. 
 - Ensure the new engineer is invited to all the relevant team meetings and team-specific channels.
 - Help the new starter set up any tools or projects that the team is using. 
-- Collaborate with your team's technical lead to ensure a healthy backlog of [`good-first-issue`s](https://artsyproduct.atlassian.net/issues/?jql=labels%20%3D%20good-first-issue).
-- Set aside time to pair with on [`good-first-issue`s](https://artsyproduct.atlassian.net/issues/?jql=labels%20%3D%20good-first-issue) or other tickets they are interested in working on.
+- Set aside time to pair with on their first ticket they are interested in working on.
 
 ### New engineers' responsibilities
 
-- Engineers should join team slack channels, distribution lists, and events. You can join the team's google groups by going to this [URL](https://groups.google.com/all-groups). If you have any issues joining the group, please let your manager know.
+- Engineers should join team slack channels, distribution lists, and events. You can join the team's google groups by going to this [URL](https://groups.google.com/all-groups) 🔒. If you have any issues joining the group, please let your manager know.
 - When possible, pair with your buddy or other team members on their sprint work.
 - When a pair isn't available, it can be useful to work independently on:
   - setting up development environments for the team's major systems
-  - reviewing the [team's documentation](https://www.notion.so/artsy/c729f52babc34f59bf47dbfbe2456d19?v=184cab0764a080d38737000c1da4917d&source=copy_link#184cab0764a080b69841f1c6fa1fb08c)🔒
-  - [`good-first-issue` tickets](https://artsyproduct.atlassian.net/issues/?jql=labels%20%3D%20good-first-issue) within the team's backlog
+  - reviewing the [team's documentation](https://www.notion.so/artsy/c729f52babc34f59bf47dbfbe2456d19?v=184cab0764a080d38737000c1da4917d)🔒
 - Schedule a convenient time (30 minutes should be sufficient) with the product manager to be introduced to the team's goals and metrics.
 - Schedule brief 1:1s with the other team members. Networking is an essential part of rotations. It enables you to get to know the organization through other people's experiences and understand what different folks in the team are doing. 
 - The [in-progress][team process handbook](https://www.notion.so/artsy/Team-Process-Handbook-3fbeb0ae934d48ca9074131331b46cff)🔒 covers many of the events and practices that are common among teams.

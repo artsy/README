@@ -19,8 +19,8 @@ team up with the engineer that started the preceding Wednesday. **Pick one perso
 
 The person handling the talking parts does this stuff ten minutes before standup:
 - `@here`s the dev channel.
-- Creates the new standup notes doc using the predefiend template in [Notion][].
-- Check the [Knowledge Share schedule][ks_schedule].
+- Creates the new standup notes doc using the predefiend template in [Notion][] 🔒.
+- Check the [Knowledge Share schedule][ks_schedule] 🔒.
 - The meeting starts with props and you should begin with giving props of your own.
 
 ### During standup
@@ -29,7 +29,7 @@ The person who is facilitating the meeting follows the structure of the standup 
 
 ## After standup
 
-These notes are then copied into a [Notion][notion] document, and the link passed into #dev on Slack after standup.
+These notes are then copied into a [Notion][notion] 🔒 document, and the link passed into #dev on Slack after standup.
 Everyone else leaves links to things they have commented on during the meeting, if they don't, we chase them up.
 
 Finally, **review this document** for ways to improve the instructions for next week's meeting.
