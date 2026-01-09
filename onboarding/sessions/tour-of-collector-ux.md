@@ -36,7 +36,7 @@ _Tips_:
     - [User model](https://github.com/artsy/gravity/blob/master/app/models/domain/user.rb) 🔒
     - [Artsy passport (for auth)](https://github.com/artsy/artsy-passport)
     - [Documentation for modals](https://github.com/artsy/reaction/blob/master/docs/authentication.md)
-    - [Administered in Torque](https://admin-staging.artsy.net/users) 🔒
+    - [Administered in Forque](https://tools-staging.artsy.net/users) 🔒
 
 2. Go through the onboarding questionnaire
   - This gives us a sense of your purpose for being on Artsy (helpful for marketing) and asks for data that will seed our recommendation algorithms
