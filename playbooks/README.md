@@ -32,7 +32,6 @@ practice should be incorporated, submit a PR!
 | [Future Friday](/playbooks/future-friday.md#readme) | What is Future Friday? |
 | [GraphQL Schema Design](/playbooks/graphql-schema-design.md#readme) | What are our best practices for GraphQL Schema Design? |
 | [Hokusai](/playbooks/hokusai.md#readme) | a CLI to manage applications deployed to Kubernetes |
-| [Jira](/playbooks/jira.md#readme) | Working with Jira boards and tickets |
 | [Kubernetes](/playbooks/kubernetes.md#readme) | Deploying containerized applications at Artsy |
 | [Migrating Redis](/playbooks/migrating-redis.md#readme) | How to migrate data between Redis instances. |
 | [Migrating Sidekiq](/playbooks/migrating-sidekiq.md#readme) | How to migrate Sidekiq to a new Redis instance |
