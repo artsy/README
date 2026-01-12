@@ -53,7 +53,7 @@ user interface).
 
 #### iOS Apps
 
-Artsy has the following iOS applications, which are all open source except Energy.
+Artsy has the following mobile applications, which are all open source except Energy.
 
 - [Eigen](https://github.com/artsy/eigen) is Artsy's main mobile app. (React Native)
 - [Energy](https://github.com/artsy/energy) is Artsy's partner app. (React Native)
