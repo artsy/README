@@ -8,29 +8,20 @@ description: How does Artsy make mobile Software?
 The Mobile Practice is distinct from the Web Practice at Artsy. While there is significant overlap between the
 two, some things are necessarily different when building mobile software. Those differences include:
 
-- Much of our code is written in Objective-C and Swift, which aren't commonly used within Artsy Engineering.
+- Much of our code is written in React Native
 - Testing is different from other Artsy systems (Web and Platform practices test on staging; we test in betas).
 - Deploying is different from other Artsy systems (Web and Platform practices promote from staging to production;
-  for iOS, we cut betas and submit to Apple for App Store approval).
-- Long-term maintenance is different (Web and Platform practices deploy code to hardware they control and can patch
-  easily; we deploy code to hardware our users control and can't guarantee upgrading at all, so we have to
-  anticipate how mobile code will continue to operate in production for _years_).
+  for mobile, we cut betas and submit to Apple for App Store approval and Google Play for Android).
 
 We do have a lot in common with the [Web Practice](./web.md):
 
-- Large parts of our codebase are written in the [Artsy Omakase](./web.md#the-artsy-omakase).
-- Our React/Native apps share [a common design system](https://github.com/artsy/palette/).
+- Our React/Native apps share [a common design system](https://github.com/artsy/palette-mobile/).
 - We're all solving problems for Artsy.
 
 We also have a lot of non-mobile engineers contributing to our React Native app. Part of the Mobile Practice, then,
-is to support them contributing to our mobile projects (mostly via React Native, but
-[sometimes in native code](http://artsy.github.io/blog/2018/06/15/cocoapods-keys-react-native/)).
+is to support them contributing to our mobile projects.
 
-## Team Information
-
-Engineers who work on mobile code at artsy are included in the **@mobile-practice** Slack group. They'll be
-automatically added to the #practice-mobile Slack channel. The Mobile Practice meetings happen every two weeks;
-meeting notes are [available in Notion](https://www.notion.so/Mobile-Practice-ecc07763bfd04a848c74107dde3ec6dc).
+We have a practice meeting every two weeks to discuss mobile-specific topics, and a mobile office hours every other week where anyone can ask mobile-related questions / get help for mobile environment setup or even pair.
 
 ### Team Goals
 
@@ -42,9 +33,7 @@ Android software at Artsy. That means we have the following additional goals:
 
 ### Logistics
 
-Each mobile app at Artsy is deployed according to its own unique needs. See their repos (listed
-[below](#artsy-ios-apps)) for deployment instructions. Releases of the main, collector-focused app (Eigen) are
-handled by the Collector Experience team on [a 2-week cadence 🔐](../resources/mobile/release-cadence.md).
+Each mobile app at Artsy is deployed according to its own unique needs. We have a release process 
 
 ### Our Technologies
 
@@ -52,28 +41,20 @@ handled by the Collector Experience team on [a 2-week cadence 🔐](../resources
 
 Initially, Artsy apps were built with Objective-C. Then Swift was announced in 2014, and
 [we tried it](http://artsy.github.io/blog/2017/02/05/Retrospective-Swift-at-Artsy/) but have ultimately
-[settled on React Native](http://artsy.github.io/blog/2018/03/17/two-years-of-react-native/). We will still use
-Objective-C for the foreseeable future, [Swift is "on hold" at Artsy](https://github.com/artsy/README/pull/217),
-and native code will likely always make sense for parts of our app (notably,
-[the Augmented Reality feature](http://artsy.github.io/blog/2018/03/18/ar/) and the animation-driven
+[settled on React Native](http://artsy.github.io/blog/2018/03/17/two-years-of-react-native/). 
+
+All the new features are developed in React Native and if possible, we try to migrate existing native code to React Native as well.
+
+We do have still some native code for parts of our app (notably, [the Augmented Reality feature](http://artsy.github.io/blog/2018/03/18/ar/) and the animation-driven
 [Live Auctions Integration](http://artsy.github.io/blog/2016/08/09/the-tech-behind-live-auction-integration/#The.iOS.native.app:.Eigen),
-user interface). New features are built using React Native; the remaining native parts of our main app are
-[listed here 🔒](https://www.notion.so/artsy/Eigen-migration-to-React-Native-54dda83b023b4cb4965a8defdae9687f)
-alongside decisions and priorities for switching them to React Native. We have no plans at this time to rewrite our
-native-only projects in React Native.
+user interface). 
 
 ### Artsy mobile Apps
 
 #### iOS Apps
 
-Artsy has the following iOS applications, which are all open source.
+Artsy has the following iOS applications, which are all open source except Energy.
 
-- [Eigen](https://github.com/artsy/eigen) is Artsy's main iOS app. (Objective-C, Swift)
-  - [Emission](https://github.com/artsy/emission) is this app's React Native component library (see
-    [this post](http://artsy.github.io/blog/2018/04/17/making-a-components-pod/)). (TypeScript)
-- [Energy](https://github.com/artsy/energy) is Artsy's partner app. (Objective-C)
-- [Eidolon](https://github.com/artsy/eidolon) is Artsy's auctions kiosk. (Swift)
-- [Emergence](https://github.com/artsy/emergence) is Artsy's Apple TV app. (Swift)
-
-All Artsy iOS codebases start with the letter `e`, but not all Artsy codebases that start with the letter `e` are
-iOS ([example](https://github.com/artsy/exchange)).
+- [Eigen](https://github.com/artsy/eigen) is Artsy's main mobile app. (React Native)
+- [Energy](https://github.com/artsy/energy) is Artsy's partner app. (React Native)
+- [Palette-mobile](https://github.com/artsy/palette-mobile) is our design system for mobile apps. (React Native)
