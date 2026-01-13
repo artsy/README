@@ -14,6 +14,7 @@ Table of contents:
 - [Unions instead of Merging Responsibilities](#unions-instead-of-merging-responsibilities)
 - [Mutation Responses as Unions](#mutation-responses-as-unions)
 - [Partial Types over nullability](#partial-types-over-nullability)
+- [Query Result Unions for Graceful Degradation](#query-result-unions-for-graceful-degradation)
 
 ## Notes
 
@@ -135,60 +136,9 @@ In the example, metaphysics only really cares about the first component, which M
 the service’s name. What metaphysics will do for its `node` root-field is match to match on that first component to
 know that it should send that query on to Exchange’s `node` root-field.
 
-## Schema stitching
+## Schema stitching (DEPRECATED)
 
-As we expand our micro-services oriented architecture and take our use of GraphQL more serious, a need has arisen
-to model GraphQL schemas more closely to the data source (i.e. database) in an effort to colocate schema code next
-to the rest of the code related to that data and to make these schema resolvers more performant.
-
-In this new scenario, metaphysics would be an orchestration layer that
-[stitches together](https://www.apollographql.com/docs/graphql-tools/schema-stitching.html) these various schemas
-into a single coherent schema that clients can consume without needing to know about the existence of these various
-micro-services.
-
-- Services should only model the data they themselves are responsible for and leave it up to metaphysics to model
-  that further. For example, consider a list of consignment submissions for a user, rather than modelling the
-  submissions under an ‘authenticated user’ in your upstream API like this:
-
-  ```graphql
-  {
-    me {
-      submissions {
-        # ...
-      }
-    }
-  }
-  ```
-
-  Make `submissions` a root field that takes a `userID` argument:
-
-  ```graphql
-  {
-    submissions(userID: 42) {
-      # ...
-    }
-  }
-  ```
-
-  then Metaphysics can then stitch that together the `submissions` query with a `User` type and model the schema as
-  per the first example.
-
-- Schemas that are exposed to Metaphysics for stitching, should preferably name the fields and mutations they
-  define in such a way that doesn't leak any implementation details about the underlying service, and reflects
-  actual real-world 'business' groupings.
-
-  For instance, Convection has a `Submission` model (which represents a consignment), but `addSubmission` is
-  probably not a great name to expose at the Metaphysics orchestration layer (even though in a more old-school
-  approach where your client directly used Convection, this may have been fine).
-
-  Additionally, `addSubmissionToConvection` is probably not a great name to expose at Metaphysics either. This
-  leaks the underlying implementation (Convection), which will make it harder to update in the future.
-
-  So, perhaps something like `addConsignment` or `addConsignmentSubmission` is the best name to give this mutation,
-  in your Convection GraphQL schema.
-
-You can read about how to build and test a stitched API
-[via the blog](http://artsy.github.io/blog/2018/12/11/GraphQL-Stitching/).
+We are moving away from schema stitching - backends should implement vanilla RESTful JSON API's, with data loaders in Metaphysics (typically mapping 1-1 with an API endpoint) responsible for fetching.
 
 ## Unions instead of Merging Responsibilities
 
@@ -353,3 +303,139 @@ that you can declare something as being after data validation has occurred.
 
 [google-json-style-guide]:
   https://google.github.io/styleguide/jsoncstyleguide.xml?showone=Property_Name_Format#Property_Name_Format
+
+## Query Result Unions for Graceful Degradation
+
+While [Mutation Responses as Unions](#mutation-responses-as-unions) handles expected errors in mutations, queries can benefit from a similar approach when upstream services return partial data alongside errors.
+
+### The Problem
+
+Traditional GraphQL error handling places all errors in the root `errors` array:
+
+```json
+{
+  "data": {
+    "artwork": null
+  },
+  "errors": [
+    {
+      "message": "Artwork Not Found",
+      "extensions": { "code": "NOT_FOUND" } // potentially extendable
+    }
+  ]
+}
+```
+
+### The Solution: Result Union Types
+
+For queries where upstream services may return partial data alongside errors, or you want easier to work with error ptops - model the response as a union:
+
+```graphql
+# Structured error information
+type RequestError {
+  statusCode: Int!
+}
+
+# Error type that includes both the error and any available partial data
+type ArtworkError {
+  requestError: RequestError
+  # Partial artwork data that can still be resolved
+  # Expandable for your use case
+  artwork: Artwork
+}
+
+# The result union - either the full type or an error with partial data
+union ArtworkResult = Artwork | ArtworkError
+
+type Query {
+  artworkResult(id: String!): ArtworkResult
+}
+```
+
+### Resolver Implementation
+
+```typescript
+const artworkErrorResolver = ({ statusCode, body }) => {
+  const requestError = { statusCode: statusCode ?? 500 }
+
+  try {
+    const { artwork } = JSON.parse(body)
+    return { requestError, artwork }
+  } catch {
+    return { requestError }
+  }
+}
+
+export const ArtworkResult = {
+  type: ArtworkResultType,
+  args: {
+    id: { type: new GraphQLNonNull(GraphQLString) },
+  },
+  resolve: async (...args) => {
+    try {
+      return await artworkResolver(...args)
+    } catch (error) {
+      return artworkErrorResolver(error)
+    }
+  },
+}
+```
+
+And the `resolveType` implementation:
+
+```typescript
+const ArtworkResultType = new GraphQLUnionType({
+  name: "ArtworkResult",
+  types: [ArtworkErrorType, ArtworkType],
+  resolveType: ({ requestError }) => {
+    if (_.isEmpty(requestError)) return ArtworkType
+    return ArtworkErrorType
+  },
+})
+```
+
+### Client Usage
+
+Clients can handle both success and error cases explicitly:
+
+```graphql
+query GetArtwork($id: String!) {
+  artworkResult(id: $id) {
+    ... on Artwork {
+      title
+      artist {
+        name
+      }
+    }
+    ... on ArtworkError {
+      requestError {
+        statusCode
+      }
+      artwork {
+        artists {
+          name # show custom error page w/ artists mentioned
+        }
+      }
+    }
+  }
+}
+```
+
+### When to Use This Pattern
+
+**Use result unions when:**
+
+- The UI can provide a useful degraded experience with partial data
+- You want clients to explicitly handle different failure modes with custom error handling (+ graceful degradation)
+
+**Continue using standard error handling when:**
+
+- The client should simply show a generic error state (or silent) - no customization needed
+
+### Naming Convention
+
+Follow this pattern for consistency:
+
+- `{Resource}Result` - the union type (e.g., `ArtworkResult`)
+- `{Resource}Error` - the error type (e.g., `ArtworkError`)
+- `{resource}Result` - the query field name (e.g., `artworkResult`)
