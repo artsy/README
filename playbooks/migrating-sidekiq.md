@@ -52,8 +52,4 @@ to enable debug logging, perform a dry run, or clean up the source redis databas
 
 Refresh the Sidekiq dashboard at and confirm everything is migrated.
 
-5. Update your app's Redis database assignments in our
-   [staging](https://kubernetes.stg.artsy.systems/#/configmap/default/shared-redis-db-assignments?namespace=default)
-   and
-   [production](https://kubernetes.prd.artsy.systems/#/configmap/default/shared-redis-db-assignments?namespace=default)
-   Terrform config so we can track and reference it in our "shared-redis-db-assignments" Kubernetes ConfigMap
+5. Update your app's Redis database assignments in [🔒 Shared Redis DB Assignments](https://www.notion.so/artsy/2fecab0764a080e6bdecd70d093eaaf6?v=2fecab0764a080d6a7a8000cfb76b8f9) table
