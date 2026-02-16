@@ -41,7 +41,7 @@ sequenceDiagram
 
     OpenSearch-->>G: Matching artworks
     G-->>MP: Artwork details
-    MP-->>E: discoverArtworks connection
+    MP-->>E: artworkConnection
 
     Note over E: User swipes through cards
 

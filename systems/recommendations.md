@@ -32,21 +32,22 @@ The workhorse of any algorithm is undoubtedly its **scoring function**&mdash;the
 These components are loosely coupled, so it's common to reuse the same scoring function across different algorithms. The diagram below illustrates these relationships.
 
 ```mermaid
-graph LR
+%%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
+flowchart LR
     subgraph Models [Scoring Models]
         M1[User Artist Affinity]
         M2[Genomic-based Filtering]
         M3[OpenSearch More Like This]
         M4[OpenSearch k-NN]
-        M5[Collaborative Filtering]
-        M6[Hybrid Filtering]
+        M5[Artist Collaborative Filtering]
+        M6[Artwork Hybrid Filtering]
     end
 
     subgraph Algos [Algorithms]
         A1[New Works For You]
-        A2[Discover Daily]
-        A4[Similar To Works You've Viewed]
         A5[Inspired By Your Saved Artworks]
+        A4[Similar To Works You've Viewed]
+        A2[Discover Daily]
         A3[Recommended Artists]
         A6[We Think You'll Love]
     end
@@ -56,12 +57,11 @@ graph LR
     M3 --- M3+M4((＋))
     M4 --- M3+M4
     M3+M4 --> A2
-    M2 --> A4
-    M2 --> A5
+    M3 --> A5
+    M3 --> A4
     M5 --> A3
     M5 -.->|backfill| A6
     M6 --> A6
-
 ```
 
 To read more about each algorithm and its scoring models, head over to their dedicated pages.
