@@ -6,6 +6,6 @@ The documents in this section aim to provide a high-level understanding of how s
 <!-- start_toc -->
 | Doc | Overview |
 |--|--|
-| [Algorithmic Recommendations @ Artsy](/systems/recommendations.md#readme) | Documentation about algorithmic recommendations of entities such as artworks and artists to users. |
+| [Algorithmic Recommendations @ Artsy](/systems/recommendations.md#readme) | Documentation about algorithmic personalized recommendations of entities such as artworks and artists to users. |
 <!-- end_toc -->
 <!-- prettier-ignore-end -->
