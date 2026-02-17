@@ -30,6 +30,8 @@ Scoring models fall into two broad categories based on their inputs:
 - $f(\text{user}, \text{item}) \to \mathbb{R}$: Models that transform user signals into a preference score for an item. A popular class of models in this category can take a user and an item as inputs, embed them into the same multidimensional space and use a geometric similarity as a proxy for preference.
 - $f(\text{item}, \text{item}) \to \mathbb{R}$: Models that take a seed item and a candidate item and output a similarity score. These are typically content-based, computing similarity from item features, metadata, or embeddings. The trick often used to make user recommendations is to consider a user as an "average" of the items they've interacted with.
 
+> ⓘ We use item and entity interchangeably to refer to the objects being retrieved. Item is the standard convention in recommendations systems, while entity is more frequent in search and knowledge graph contexts.
+
 ## What Recommendations Are Not
 
 In the field of Information Retrieval, recommender systems are sometimes referred to as active filtering (i.e., push content), whereas traditional search engines are passive filtering (i.e., pull content), but the key distinctive principle is whether user signals shape the scoring context or enter the scoring function directly.
@@ -49,7 +51,7 @@ Because scoring models are loosely coupled from algorithms, it's common to reuse
 flowchart LR
     subgraph Models [Scoring Models]
         M1[/User Artist Affinity/]:::user
-        M2[\Genomic-based Filtering\]:::item
+        M2[\Genomic-based Similarity\]:::item
         M3[\OpenSearch More Like This\]:::item
         M4[\OpenSearch k-NN\]:::item
         M5[/Artist Collaborative Filtering/]:::user

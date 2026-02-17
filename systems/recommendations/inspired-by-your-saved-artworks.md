@@ -15,6 +15,8 @@ description: A mobile-only surface showing artworks similar to the user's saved 
 | $k_1$                | 1.2                            | 1.2                            |
 | $b$                  | 0.75                           | 0.75                           |
 
+The sequence diagram of Inspired By Your Saved Artworks is shown below.
+
 ```mermaid
 sequenceDiagram
     participant E as Eigen (Mobile)
