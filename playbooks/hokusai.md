@@ -22,8 +22,9 @@ Most of the work is now taken care of by Artsy's [setup script](https://github.c
 > If you are using an Apple Silicon (M-series) Mac, you may encounter issues during setup because Hokusai is distributed as an `x86_64` binary. Install [Rosetta 2](https://support.apple.com/en-us/102527) before running the setup script:
 >
 > ```sh
-> softwareupdate --install-rosetta
+> sudo softwareupdate --install-rosetta --agree-to-license
 > ```
+> This command may prompt for your macOS administrator password.
 
 The script should:
 
