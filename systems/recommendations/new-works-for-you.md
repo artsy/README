@@ -79,9 +79,9 @@ Where:
 Recent users receives a smaller decay factor and their past actions lose their value more quickly (see picture below). This has the effect of a short-memory filter resulting in more recent actions having relatively more value than older actions. For lapsed users, a greater decay factor means having more tolerance towards older actions to preserve information.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./images/action_time_decay_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./images/action_time_decay_light.svg">
-  <img alt="decay of an action value" src="./images/action_time_decay_light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./images/action-time-decay-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./images/action-time-decay-light.svg">
+  <img alt="decay of an action value" src="./images/action-time-decay-light.svg">
 </picture>
 
 3. The model evaluates various user actions, which are categorized into fixed-score and decayed-score actions:

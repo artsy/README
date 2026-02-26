@@ -8,9 +8,9 @@ Algorithmic recommendations surfaces (henceforth, just recommendations surfaces)
 An overview of the recommendations surfaces by channel at Artsy is shown below.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="recommendations/images/recs_surf_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="recommendations/images/recs_surf_light.svg">
-  <img alt="recommendations surfaces by channel" src="recommendations/images/recs_surf_light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="recommendations/images/recs-surf-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="recommendations/images/recs-surf-light.svg">
+  <img alt="recommendations surfaces by channel" src="recommendations/images/recs-surf-light.svg">
 </picture>
 
 ## What is a Recommendations Algorithm?
@@ -77,10 +77,11 @@ flowchart LR
     M5 --> A3
     M5 -.->|backfill| A6
     M6 --> A6
-    
+
 classDef user stroke:#F59F27
 classDef item stroke:#277DF5
 ```
+
 ```mermaid
 flowchart LR
     A[/User-Item Model/]:::user ~~~ B[\Item-Item Model\]:::item
@@ -89,7 +90,6 @@ flowchart LR
 classDef user stroke:#F59F27
 classDef item stroke:#277DF5
 ```
-
 
 The rest of this documentation follows an **algorithm-first narrative**. Each page covers one recommendations surface end-to-end&mdash;from candidate generation through re-ranking&mdash;introducing scoring models as they appear. To avoid repetition, we discuss each model in depth once and reference it thereafter.
 
