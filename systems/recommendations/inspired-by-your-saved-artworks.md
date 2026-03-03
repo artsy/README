@@ -5,11 +5,11 @@ description: A mobile-only surface showing artworks similar to the user's saved 
 
 "Inspired By Your Saved Artworks"&mdash;internally known as Based On User Saves&mdash; is a mobile-only recommendations surface for artworks similar to the user's recently saved ones. It uses real-time OpenSearch [More Like This](https://opensearch.org/docs/latest/query-dsl/specialized/more-like-this/) queries&mdash;the same MLT model described in [Discover Daily](./discover-daily.md#mlt-more-like-this-model)&mdash;but with different fields and parameters as shown below.
 
-| MLT Parameter        | Similar To Works You've Viewed | Discover Daily                 |
-| -------------------- | ------------------------------ | ------------------------------ |
-| fields               | genes_vectors, tags_vectors    | genes, materials, tags, medium |
-| max_query_terms      | Low for greater efficiency     | High for greater precision     |
-| min_doc_freq         | High for greater efficiency    | Low for greater precision      |
+| MLT Parameter        | Inspired By Your Saved Artworks | Discover Daily                 |
+| -------------------- | ------------------------------- | ------------------------------ |
+| fields               | genes_vectors, tags_vectors     | genes, materials, tags, medium |
+| max_query_terms      | Low for greater efficiency      | High for greater precision     |
+| min_doc_freq         | High for greater efficiency     | Low for greater precision      |
 
 The sequence diagram of Inspired By Your Saved Artworks is shown below.
 
