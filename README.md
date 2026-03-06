@@ -21,6 +21,7 @@ We split this repo out into different sections, each one has a summary of what's
 | [Playbooks](/playbooks#readme) | Tips, procedures, and best practices |
 | [Engineering Practices](/practices#readme) | How do we handle cross-functional concerns. |
 | [Engineering Recommendations](/resources#readme) | Collections of further reading. |
+| [Systems](/systems#readme) | How do our systems work |
 <!-- end_toc -->
 <!-- prettier-ignore-end -->
 
