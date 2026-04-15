@@ -40,7 +40,6 @@ To ensure safety on CI you should review the following settings under Project Se
 If both of these are set to off, that implies that new contributions will have to come from branches on the main Artsy repo, so you might also need to
 
 - [ ] Update the project's README to describe the new required contribution style
-- [ ] Add the project to the [list of repos](https://github.com/artsy/peril-settings/blob/master/org/ossPRsForbidForks.ts) for which Peril will enforce this check
 
 ## Update the license
 
