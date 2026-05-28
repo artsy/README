@@ -78,7 +78,7 @@ README.
     file.
   - Check the _Allow write access_ box and click the _Add key_ button to save the new key.
   - In the CircleCI project settings, go to _Additional SSH Keys_ > _Add SSH Key_.
-  - Enter `github.com` for _Hostname_ and the contents of the _private_ key file for _Private Key_, then click _Add
+  - Enter `github.com` for _Hostname_ and the contents of the _private_ (`.pub` minus the `.pub`) key file for _Private Key_, then click _Add
     SSH Key_ to save.
   - If necessary, add the ssh key fingerprint to your `.circleci/config.yml` following the instructions
     [here](https://circleci.com/docs/2.0/configuration-reference/#add_ssh_keys).
