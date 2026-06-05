@@ -42,7 +42,7 @@ Version constraints encourage deliberate decision making around our dependencies
 
 Internal packages (e.g. `@artsy/palette`) would be exempted, but their own dependencies should include versions.
 
-Code/repo maintainers should ultimately decide how if a dependency should have unrestrained version updates, but this should be an exception and its reasoning should be documented.
+Code/repo maintainers should ultimately decide if a dependency should be unrestricted, but this should be an exception and its reasoning should be documented with a comment.
 
 This RFC is constrained to `typescript`, `javascript`, `ruby` and `python` dependencies as I can't speak on other language version management.
 
