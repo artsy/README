@@ -81,6 +81,17 @@ Include any details that add context to the PR, as [reviewers likely have less c
 
 If for any reason a PR doesn't contain well-structured commits, [title the PR using the conventional commit format](https://github.com/artsy/README/issues/327) and recommend that it be squashed into `main` rather than merged.
 
+#### Trailers
+
+It's nice to give credit for pairing by [specifying co-authors](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors) in commits and PRs.
+
+When an LLM has materially contributed to a change, our convention is to specify that in an `Assisted-by` annotation as well. E.g.:
+
+```
+Co-authored-by: Jane McJaneson <jane@artnet.com>
+Assisted-by: Claude:Opus-4.5
+```
+
 #### Assignees and Reviewers
 
 **Request a review** from at least one team member. This should be someone who has context around the changes that were made, experience with the system(s) being modified, and/or knowledge of the language/framework in use. Feedback is always welcome from team members not specifically requested as well.
