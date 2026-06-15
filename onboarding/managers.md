@@ -7,7 +7,7 @@ description: Things for managers to remember during the early days of onboarding
 
 ### Before Day 1
 
-- [ ] Choose an [onboarding mentor](/onboarding/mentors.md#the-onboarding-mentor) for the new hire. 
+- [ ] Choose an [onboarding mentor](/onboarding/mentors.md#the-onboarding-mentor) for the new hire.
 - [ ] Create [an onboarding github issue](https://github.com/artsy/potential/issues/new?template=engineering-onboarding.md) 🔒 based on the onboarding template. Tag the onboarding mentor and label the issue as `onboarding`. Also invite the team to say hi, as this is a place that the new hire should always be able to find easily in the future.
 - [ ] Set first-week schedule
 - [ ] Invite new hire to all engineering-wide meetings
@@ -30,10 +30,10 @@ description: Things for managers to remember during the early days of onboarding
 
 ### And onward!
 
-- [ ] When the new hire is assigned to an initial product team, work with the PM/tech lead of that team to make sure they are set up and invited to all relevant meetings.
-- [ ] Remind tech leads/PMs/EMs that are part of the sprint rotation to prepare resources and invite new hire to meetings
+- [ ] When the new hire is assigned to an initial product team, work with the PM of that team to make sure they are set up and invited to all relevant meetings.
+- [ ] Remind PMs/EMs that are part of the sprint rotation to prepare resources and invite new hire to meetings
 
 ## Onboarding New Managers
 
 - [ ] Invite to meetings relevant to managers.
-- [ ] Remind tech-leads/PMs that the new manager’s main objective is to get to meet and work with everybody. As such they should be given diverse tasks and e.g. coupled with various engineers for pairing sessions, as well as leaving them with time to have 1:1s with all the engineers (including tech-lead), PM, and designer.
+- [ ] Remind PMs that the new manager’s main objective is to get to meet and work with everybody. As such they should be given diverse tasks and e.g. coupled with various engineers for pairing sessions, as well as leaving them with time to have 1:1s with all the engineers, PM, and designer.

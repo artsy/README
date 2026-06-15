@@ -5,19 +5,13 @@ description: Career development at Artsy
 
 # Engineering Ladder
 
-This documents Artsy's Engineering Ladder, a framework to help evaluate performance, goals, and compensation for
-engineers at Artsy. It is synced up with the Artsy
-[company-wide framework 🔑](https://docs.google.com/spreadsheets/d/1rw7wEUvigrD_0Vb50Bzz35BQxo58tFwHhDJAS7v5pLU/edit?gid=1253823157#gid=1253823157)
-for levels and titles.
+This documents Artsy's Engineering Ladder, a framework to help evaluate performance, goals, and compensation for engineers at Artsy. It is synced up with the Artsy [company-wide framework 🔑](https://docs.google.com/spreadsheets/d/1rw7wEUvigrD_0Vb50Bzz35BQxo58tFwHhDJAS7v5pLU/edit?gid=1253823157#gid=1253823157) for levels and titles.
 
-This document is open and evolving. We encourage you to submit issues or start an RFC to suggest changes and ensure
-our framework is doing the best it can to help Artsy fairly evaluate compensation and career growth for engineers.
+This document is open and evolving. We encourage you to submit issues or start an RFC to suggest changes and ensure our framework is doing the best it can to help Artsy fairly evaluate compensation and career growth for engineers.
 
 ## Tracks
 
-The Engineering Ladder encapsulates two tracks—an individual contributor (IC2–IC8) and manager track (M2–M6). The
-manager track is available to engineers who have achieved an "IC5 Senior Engineer" level on the individual
-contributor ladder.
+The Engineering Ladder encapsulates two tracks—an individual contributor (IC2–IC8) and manager track (M2–M6). The manager track is available to engineers who have achieved an "IC5 Senior Engineer" level on the individual contributor ladder.
 
 | Individual Contributor | Artsy IC Level | Artsy M Level | Manager                        |
 | ---------------------- | -------------- | ------------- | ------------------------------ |
@@ -32,12 +26,9 @@ contributor ladder.
 
 ## Individual Contributors
 
-Individual contributor engineers define a "maker" role at Artsy where a person is responsible for writing code on a
-regular basis and has no direct reports. As an individual contributor engineer grows at Artsy the scale and impact
-of the code they write and systems they maintain is expected to increase.
+Individual contributor engineers define a "maker" role at Artsy where a person is responsible for writing code on a regular basis and has no direct reports. As an individual contributor engineer grows at Artsy the scale and impact of the code they write and systems they maintain is expected to increase.
 
-From one level to another, the scope of direct impact gradually increases and so does the sphere of influence.
-Increased mastery is a necessary condition but isn't sufficient to expand impact.
+From one level to another, the scope of direct impact gradually increases and so does the sphere of influence. Increased mastery is a necessary condition but isn't sufficient to expand impact.
 
 ```
 Scope of impact:     Self     >        Team          >  Teams  > Org
@@ -50,18 +41,13 @@ Level          : Eng 1, Eng 2 > Sen Eng 1, Sen Eng 2 >  Staff  > Sen Staff+
   - TODO: This level still needs to be added to the ladder.
 - Engineer 1 (IC2): Focuses on being an effective individual contributor.
 - Engineer 2 (IC3): Is an effective team member.
-- Senior Engineer 1 (IC4): Consistently drives change and impact across a significant portion of their product
-  team.
+- Senior Engineer 1 (IC4): Consistently drives change and impact across a significant portion of their product team.
 - Senior Engineer 2 (IC5): Consistently drives change and impact across their whole product team.
 - Staff Engineer (IC6): can drive change and impact across multiple teams.
-- Senior Staff Engineer (IC7): can drive change and impact across full Product, Data, Design and Engineering
-  organization
+- Senior Staff Engineer (IC7): can drive change and impact across full Product, Data, Design and Engineering organization
   - TODO: This level still needs to be added to the ladder.
 
-_Note: This ladder is heavily inspired by
-[Better's Technical Career Ladder](https://better.engineering/technical-career-ladder/) and
-[Rent the Runway's Engineering Ladder](https://dresscode.renttherunway.com/blog/ladder), which we believe have the
-appropriate levels of specificity to enable meaningful career development conversations._
+_Note: This ladder is heavily inspired by [Better's Technical Career Ladder](https://better.engineering/technical-career-ladder/) and [Rent the Runway's Engineering Ladder](https://dresscode.renttherunway.com/blog/ladder), which we believe have the appropriate levels of specificity to enable meaningful career development conversations._
 
 ### Evaluation criteria
 
@@ -80,23 +66,11 @@ appropriate levels of specificity to enable meaningful career development conver
 
 ### Bragging Document
 
-It can be helpful to maintain a bragging document to really understand the ladder and also to get your work
-recognized. Julia Evans has put it really well in her [blog post](https://jvns.ca/blog/brag-documents/) explaining
-that neither you nor your manager will remember everything you did. To help you track your work and also get
-alignment with your manager on where you are standing in terms of performance you can use this
-[template](https://docs.google.com/spreadsheets/d/1yPZeLhkFjlEMUfstDvOXxQXLqBKmr-I-xD0uUwdO2Zc/edit#gid=0) as a
-base for your bragging. It also contains some real world bragging examples of fellow Artsy engineers.
+It can be helpful to maintain a bragging document to really understand the ladder and also to get your work recognized. Julia Evans has put it really well in her [blog post](https://jvns.ca/blog/brag-documents/) explaining that neither you nor your manager will remember everything you did. To help you track your work and also get alignment with your manager on where you are standing in terms of performance you can use this [template](https://docs.google.com/spreadsheets/d/1yPZeLhkFjlEMUfstDvOXxQXLqBKmr-I-xD0uUwdO2Zc/edit#gid=0) as a base for your bragging. It also contains some real world bragging examples of fellow Artsy engineers.
 
 ### Visualisation
 
-To help with the visualisation of the ladder we have created this visual, inspired by
-[honeycomb.io](https://www.honeycomb.io/blog/engineering-levels-at-honeycomb/). It is not perfect but it allows for
-a quick overview of the levels in terms of impact as well as ownership. We wanted to show that each level
-encompasses the previous levels and there is flexibility in how to interpret and operate on each level based on
-individual interests. As mentioned in the linked article "...someone might operate at a higher level of ownership
-in a smaller scope or at a smaller level of ownership at a larger scope, or somewhere in between. Of course, there
-is value in growing in both dimensions, but it is more common to stretch in one direction or the other at any given
-point."
+To help with the visualisation of the ladder we have created this visual, inspired by [honeycomb.io](https://www.honeycomb.io/blog/engineering-levels-at-honeycomb/). It is not perfect but it allows for a quick overview of the levels in terms of impact as well as ownership. We wanted to show that each level encompasses the previous levels and there is flexibility in how to interpret and operate on each level based on individual interests. As mentioned in the linked article "...someone might operate at a higher level of ownership in a smaller scope or at a smaller level of ownership at a larger scope, or somewhere in between. Of course, there is value in growing in both dimensions, but it is more common to stretch in one direction or the other at any given point."
 
 <img src="./images/artsy-career-ladder.png" width="600" title="Artsy career ladder visualisation" alt="Artsy career ladder visualisation">
 
@@ -270,7 +244,7 @@ point."
         <ul>
           <li>Translate product/design specs into technical tasks that can be efficiently worked on by the members of the team and make sure team members understand the context behind what they will be building.</li>
           <li>Brings ideas to the PM and is trusted as someone who can run with and stake out bigger projects.</li>
-          <li>When need be, can take on Tech Lead responsibilities or lead a key project.</li>
+          <li>Steps up as a Project Lead for key initiatives and can coordinate workstreams across the team.</li>
           <li>Often has conversations with the PM about improvements to the product or infrastructure, occasionally comes up with completely new ideas.</li>
         </ul>
       </td>
@@ -537,7 +511,7 @@ point."
         <ul>
           <li>Sets the agenda during 1:1s with their manager.</li>
           <li>Proactively raises issues and obstacles to their manager.</li>
-          <li>Works closely with tech lead, team mates, mentor to get unblocked.</li>
+          <li>Works closely with team mates, mentor to get unblocked.</li>
         </ul>
       </td>
       <td>
@@ -565,45 +539,16 @@ point."
   </tbody>
 </table>
 
-## Technical Leads
-
-Every team at Artsy has a Technical Lead who is part of the Core Team (Product Manager, Technical Lead, Data
-Analyst, Product Designer and Engineering Manager). The Technical Lead's key responsibilities are:
-
-- Partnering closely with the rest of the Core Team to jointly lead the team and deliver business value effectively
-  (including proactively defining team strategy, roadmap, project scoping and milestone definitions, etc.)
-- Driving the team's technology choices and aligning their decisions with the rest of the Engineering organization
-- Ensuring successful project delivery.
-
-Taking on a Technical Lead role is a great opportunity for someone to expand their impact (including to expand
-scope, to achieve team wide impact, or to pave the way towards an Engineering Management career). Throughout their
-career, an Individual Contributor or an Engineering Manager may swap in and out of this Technical Lead role.
-
-See
-[this document](https://www.notion.so/artsy/Artsy-Tech-Lead-Expanded-Responsibilities-Public-710ee0cd2fce47dcaa722ece80e365b2)
-for an expanded set of Tech Lead Responsibilities at Artsy.
-
 ## Engineering Management
 
-A manager’s role at Artsy balances people management responsibilities with team delivery responsibilities. As a
-people manager, they are responsible for hiring, retaining, growing and managing the performance of their reports.
-Additionally, they're expected to significantly impact teams' success through their own technical contribution
-and/or delivery management. Delivery management is broadly defined here as any non-coding activity that will help
-the team ship faster, with better quality, and with increased impact (for instance: improving team processes,
-mitigating risks around release planning, facilitating internal and external communication). As an engineering
-manager grows at Artsy, their scope of impact will increase from one team to multiple teams and from managing ICs
-to managing ICs and other EMs.
+A manager’s role at Artsy balances people management responsibilities with team delivery responsibilities. As a people manager, they are responsible for hiring, retaining, growing and managing the performance of their reports. Additionally, they're expected to significantly impact teams' success through their own technical contribution and/or delivery management. Delivery management is broadly defined here as any non-coding activity that will help the team ship faster, with better quality, and with increased impact (for instance: improving team processes, mitigating risks around release planning, facilitating internal and external communication). As an engineering manager grows at Artsy, their scope of impact will increase from one team to multiple teams and from managing ICs to managing ICs and other EMs.
 
 ### tl;dr
 
-- Engineering Manager 1: Transitional from an Individual Contributor role, the main focus is learn how to manage
-  people.
-- Engineering Manager 2: Proficient at managing 6+ Individual Contributors and act as a delivery multiplier on
-  their team.
-- Senior Engineering Manager: Has meaningful delivery impact across multiple teams and starts having engineering
-  org wide impact, can start learning how to manage managers.
-- Director of Engineering: Proficient at managing Engineering Managers and has consistent engineering org wide
-  impact.
+- Engineering Manager 1: Transitional from an Individual Contributor role, the main focus is learn how to manage people.
+- Engineering Manager 2: Proficient at managing 6+ Individual Contributors and act as a delivery multiplier on their team.
+- Senior Engineering Manager: Has meaningful delivery impact across multiple teams and starts having engineering org wide impact, can start learning how to manage managers.
+- Director of Engineering: Proficient at managing Engineering Managers and has consistent engineering org wide impact.
 - Senior Director of Engineering: Has consistent company wide impact.
 
 ### Evaluation criteria
@@ -656,7 +601,7 @@ to managing ICs and other EMs.
       <td class="border-top">
         <ul>
           <li>Builds strong ties to the rest of the engineering manager community and activity participates in manager-wide forums.</li>
-          <li>Knows how to get high quality feedback from PMs, TLs and other members of their reports' teams.</li>
+          <li>Knows how to get high quality feedback from PMs and other members of their reports' teams.</li>
           <li>Identifies team staffing needs.</li>
         </ul>
       </td>
@@ -685,7 +630,7 @@ to managing ICs and other EMs.
           <li>Works closely with the team to meet the sprint goals; significantly accelerates the delivery and increases the impact of the team throughout the quarter.</li>
           <li>Effectively addresses team health issues both in their own and their reports' teams when need be.</li>
           <li>Leads some engineering wide improvements.</li>
-          <li>Partners effectively with the tech lead (and the core team) to get their team to a higher performing state.</li>
+          <li>Partners effectively with the core team to get their team to a higher performing state.</li>
         </ul>
       </td>
       <td class="border-top">
@@ -712,7 +657,7 @@ to managing ICs and other EMs.
           <li>Optimizes Eng IC hiring at scale and across pipelines.</li>
           <li>Starts managing Engineering Managers.</li>
           <li>Can own a EM hiring pipeline with support from their manager.</li>
-          <li>Can grow Tech Leads to have a multiplier effect on their team.</li>
+          <li>Can grow senior and staff engineers to have a multiplier effect on their team.</li>
         </ul>
       </td>
       <td class="border-top">
@@ -726,7 +671,7 @@ to managing ICs and other EMs.
       <td class="border-top">
         <ul>
           <li>Develops strong collaboration with PDDE Leadership team members.</li>
-          <li>Can successfully influence XFN partners to drive improvements across teams (and even more so the Tech Leads).</li>
+          <li>Can successfully influence XFN partners and senior engineers to drive improvements across teams.</li>
           <li>Suggest optimal resource allocation given business goals and constraints.</li>
           <li>Knows how to combine technical guidance, delivery management and coaching to increase teams' impact.</li>
           <li>Proactively identifies issues across multiple teams and effectively addresses them.</li>
@@ -745,7 +690,7 @@ to managing ICs and other EMs.
         <ul>
           <li>Manage and coach Engineering Managers to be effective communicators and managers of their people.</li>
           <li>Can drive and improve EM hiring pipeline.</li>
-          <li>Ensures that EMs and TLs are mentoring and managing teams effectively towards results.</li>
+          <li>Ensures that EMs are mentoring and managing teams effectively towards results.</li>
         </ul>
       </td>
       <td class="border-top">
@@ -780,7 +725,7 @@ to managing ICs and other EMs.
           <li>Can manage Directors as well as EMs.</li>
           <li>Can drive Director hiring pipeline.</li>
           <li>Grows engineering leaders.</li>
-          <li>Provides the right balance of direction and empowerment so EMs, TLs, and teams make decisions that are aligned with the company and engineering strategy and goals.</li>
+          <li>Provides the right balance of direction and empowerment so EMs and teams make decisions that are aligned with the company and engineering strategy and goals.</li>
         </ul>
       </td>
       <td class="border-top">

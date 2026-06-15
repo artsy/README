@@ -23,7 +23,7 @@ Each new engineering hire is assigned an _Onboarding mentor_ by their manager. O
 
 ### How to be an onboarding mentor
 
-The role of a mentor is purposely different from that of a manager or technical lead, and that role shifts to accommodate the needs of a team member. It's up to the mentoring pair to find what works best for them and to ensure the relationship evolves over time to remain useful.
+The role of a mentor is purposely different from that of a manager, and that role shifts to accommodate the needs of a team member. It's up to the mentoring pair to find what works best for them and to ensure the relationship evolves over time to remain useful.
 
 #### What to do?
 
