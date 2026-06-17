@@ -12,6 +12,7 @@ description: How we work together
     - [Working in branches](#working-in-branches)
     - [Commit Messages](#commit-messages)
     - [Pull requests](#pull-requests)
+      - [Trailers](#trailers)
       - [Assignees and Reviewers](#assignees-and-reviewers)
       - [Sequencing](#sequencing)
     - [Code Reviews](#code-reviews)
