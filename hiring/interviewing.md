@@ -72,9 +72,6 @@ In this interview, we're evaluating the following key areas:
 
 \*"System" is used generically here to represent a chunk of an ecosystem. We tailor the prompt to the specific role, so for example if it's an iOS role, you may be asked to design a feature in an iOS app; if it's a full stack role, it could be something like a simple architecture for notifications. We're not trying to trick you here or catch you out, we just want hear how you leverage your knowledge and experience.
 
-Similar to the Peer (Engineer) interview above, this is non-technical but you should be prepared to discuss past
-experiences and especially collaboration with non-technical colleagues.
-
 #### 2. Technical Fluency
 
 This interview will be with two engineers and might be combined with the Systems design interview. The focus of this interview varies for different levels and specialties. Most likely, the person you interview with will be someone with experience relevant to the role. You will be presented with a Pull request and we ask you to read through the code an explain it to us. Then we will ask you to find errors or suggest improvements.
@@ -84,13 +81,13 @@ This interview will be with two engineers and might be combined with the Systems
 
 This interview will be with a member of our Product, Design or Data teams.
 
-Similar to the Peer (Engineer) interview above, this is non-technical but you should be prepared to discuss past experiences and especially collaboration with non-technical colleagues.
+This is non-technical but you should be prepared to discuss past experiences and especially collaboration with non-technical colleagues.
 
 ### 4. Values
 
 This interview will be with a member of our People team. 
 
-This is non-technical and aims to asses whether you are a cultural fit for our team. You can find the most up-to-date company values in the job description at [artsy.net/jobs](https://www.artsy.net/jobs).
+Similar to the Peer (Non-Engineer) interview above, this is non-technical and aims to asses whether you are a cultural fit for our team. You can find the most up-to-date company values in the job description at [artsy.net/jobs](https://www.artsy.net/jobs).
 
 ### Leadership Interview
 
