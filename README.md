@@ -53,6 +53,14 @@ In addition to working on a product team, engineers are encouraged to participat
   - [Slack: #practice-web](https://artsy.slack.com/messages/practice-web) 🔒
   - [Notion](https://www.notion.so/artsy/Web-Practice-bfe55e2c614a4c0eae493b7830622843) 🔒
 
+## Git Hooks
+
+This repo ships hooks that automate the [`Assisted-by` commit trailer](/playbooks/engineer-workflow.md#trailers) for engineers using [Claude Code](https://www.anthropic.com/claude-code). When Claude edits files in a session, the resulting commit is automatically credited with the model(s) used, e.g.:
+
+```
+Assisted-by: Claude:Opus-4.8 [claude-code]
+```
+
 ## Support
 
 If you are on call or asked to fix an immediate issue reference our [engineering playbooks](https://www.notion.so/artsy/Engineering-Playbooks-b655fe54c1ce4b35af342c9ed9a489ae) 🔒 for up-to-date solutions to potential issues.

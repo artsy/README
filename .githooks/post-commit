@@ -1,0 +1,5 @@
+#!/bin/bash
+# Clears the Assisted-by signal after a commit is successfully written.
+# Human-only edits after this commit will not inherit the AI trailer.
+# Signal is scoped to this repo's git dir (never synced to the user level).
+rm -f "$(git rev-parse --absolute-git-dir)/pending-assisted-by"

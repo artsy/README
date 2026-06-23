@@ -13,6 +13,7 @@
     "typescript": "^3.0.1"
   },
   "scripts": {
+    "prepare": "for hook in prepare-commit-msg post-commit; do cp .githooks/$hook .git/hooks/$hook && chmod +x .git/hooks/$hook; done",
     "precommit": "yarn setup-structure && yarn sort-tech-radar-data && lint-staged",
     "prepush": "echo 'skipping yarn danger local'",
     "setup-structure": "ts-node --skip-project scripts/create-readmes.ts && git add .",

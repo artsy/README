@@ -1,0 +1,36 @@
+#!/bin/bash
+# Appends Assisted-by trailers from a fresh Claude Code signal file.
+# Emits one trailer per unique model used since the last commit.
+# Does NOT delete the signal — post-commit handles cleanup after commit succeeds.
+
+COMMIT_MSG_FILE="$1"
+COMMIT_SOURCE="$2"
+
+case "$COMMIT_SOURCE" in
+  merge|squash|fixup) exit 0 ;;
+esac
+
+# Signal lives in this repo's git dir (scoped per-repo, never synced).
+SIGNAL_FILE="$(git rev-parse --absolute-git-dir)/pending-assisted-by"
+[ ! -f "$SIGNAL_FILE" ] && exit 0
+
+# First line must be an integer timestamp; treat anything else as corrupt.
+TS=$(head -1 "$SIGNAL_FILE")
+case "$TS" in
+  ''|*[!0-9]*) rm -f "$SIGNAL_FILE"; exit 0 ;;
+esac
+
+# Expire signals older than 1 hour
+if [ $(( $(date +%s) - TS )) -gt 3600 ]; then
+  rm -f "$SIGNAL_FILE"
+  exit 0
+fi
+
+# Skip if the message already carries an Assisted-by trailer
+grep -q "^Assisted-by:" "$COMMIT_MSG_FILE" && exit 0
+
+# Append every accumulated trailer (all lines after the timestamp)
+TRAILERS=$(tail -n +2 "$SIGNAL_FILE")
+[ -z "$TRAILERS" ] && exit 0
+
+printf "\n%s\n" "$TRAILERS" >> "$COMMIT_MSG_FILE"

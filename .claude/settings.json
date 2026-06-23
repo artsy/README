@@ -1,0 +1,16 @@
+{
+  "includeCoAuthoredBy": false,
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PROJECT_DIR}/.claude/hooks/write-assisted-by-signal.ts"
+          }
+        ]
+      }
+    ]
+  }
+}
