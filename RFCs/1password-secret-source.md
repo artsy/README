@@ -38,3 +38,18 @@ If accepted:
 - Move the [draft Notion page](https://app.notion.com/p/3c9cab0764a08166893bc14fcbd67527) from Drafts into
   Common Tasks in Engineering Playbooks.
 - Announce the convention in the next dev standup.
+
+## Resolution
+
+We decided to do it. Feedback was unanimously positive — 2 explicit approvals, 7 👍 reactions on the PR
+description, and 1 additional supportive comment, with no unresolved objections (the one open question, about
+credentials with multiple/human consumers, was answered by the Exceptions section above).
+
+## Level of Support
+
+1: Overwhelming positive feedback.
+
+## Next Steps
+
+- Move the Notion page out of Drafts and into Common Tasks in Engineering Playbooks.
+- Announce the convention at the next dev standup.
