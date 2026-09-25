@@ -1,6 +1,8 @@
 ---
-title: RFC
-description: Sample template for how to create a public RFC
+name: RFC
+about: Sample template for how to create a public RFC
+title: "RFC: "
+labels: RFC
 ---
 
 <!-- Read the docs about [how to write an RFC at Artsy](https://github.com/artsy/README/blob/43c400d81ff9fee7276c3dd934de26b985da362f/playbooks/rfcs.md) before starting an RFC.
