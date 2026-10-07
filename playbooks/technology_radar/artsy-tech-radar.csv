@@ -24,6 +24,7 @@ Metaphysics' v2 schema,adopt,techniques,TRUE,"Consumers should switch to v2 rath
 Opaque identifiers,adopt,techniques,FALSE,"Friendly identifiers or 'slugs' are fine for URLs but opaque, permanent identifiers are preferred for all internal or programmatic uses."
 Partner API as a product,adopt,techniques,FALSE, "For our business partners to integrate with our platform. Documented at developers.artsy.net"
 Split testing,adopt,techniques,TRUE,"When scale permits (such as around high-volume product surfaces or early funnel steps), we prefer to make data-driven product decisions by evaluating user experiences in parallel through A/B- or A/B/*-style tests"
+Apache Airflow,adopt,tools,FALSE,"Open-source platform to author, schedule and monitor data pipelines (workflows as Python code)"
 CircleCI,adopt,tools,FALSE,For continuous integration over other services like Travis or Semaphore. Shared orbs and contexts help our projects apply best practices.
 Cloudflare,adopt,tools,TRUE,
 Datadog APM,adopt,tools,FALSE,
