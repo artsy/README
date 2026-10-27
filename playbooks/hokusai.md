@@ -19,7 +19,7 @@ These are steps that Artsy users should take to set up Hokusai.
 Most of the work is now taken care of by Artsy's [setup script](https://github.com/artsy/potential/blob/main/scripts/setup). If anything is missing or not working, please update the script.
 
 > [!NOTE]
-> Since v4.0.0 the Homebrew build of Hokusai is a native Apple Silicon (M-series) binary, so Rosetta is no longer needed. Intel Macs should use the [Intel setup script](https://github.com/artsy/potential/blob/main/scripts/setup_intel) or [install Hokusai with pip](https://github.com/artsy/hokusai#pip). If you installed Hokusai with Homebrew on an Intel Mac, `brew upgrade` now stops with "hokusai requires Apple silicon" and leaves you on the old version: run `brew uninstall hokusai`, then install with pip. If you installed an older Intel build under Rosetta, run `hokusai configure` again after upgrading so it replaces `kubectl` with a native one.
+> Since v4.0.0 the Homebrew build of Hokusai is a native Apple Silicon (M-series) binary, so Rosetta is no longer needed. Intel Macs should use the [Intel setup script](https://github.com/artsy/potential/blob/main/scripts/setup_intel) or [install Hokusai with pip](https://github.com/artsy/hokusai#pip). If you installed an older Intel build under Rosetta, run `hokusai configure` again after upgrading so it replaces `kubectl` with a native one.
 
 The script should:
 
