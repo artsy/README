@@ -37,7 +37,7 @@ process with as much bang for buck as possible given our size.
 
 - Is your change local to one repo? (use that)
 - Does it affect the whole dev team? (use [README](https://github.com/artsy/README))
-- Can't figure it out or needs to be private? (use [Potential][https://github.com/artsy/potential] as a fallback)
+- Can't figure it out or needs to be private? (use [Potential](https://github.com/artsy/potential) as a fallback)
 
 ## Create a plan
 
